@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 class ModelConfig:
     """모델 설정 관리 클래스"""
     BASE_MODEL_PATH: str = "Qwen/Qwen3-4B"
-    LORA_MODEL_PATH: str = "Qwen3_lora_ttalkkac_4b"
+    LORA_MODEL_PATH: str = "qwen3_lora_ttalkkac_4b"
     MERGED_MODEL_PATH: str = "merged_qwen3_lora_model"  # 병합된 모델 저장 경로
     MAX_NEW_TOKENS: int = 2048
     TEMPERATURE: float = 0.3
@@ -30,7 +30,7 @@ class ModelConfig:
     REPETITION_PENALTY: float = 1.1
     CHUNK_SIZE: int = 5000
     CHUNK_OVERLAP: int = 512
-    TEST_FILE_LIMIT: int = 0  # 0이면 전체 파일 처리, 양수면 해당 개수만 처리
+    TEST_FILE_LIMIT: int = 1  # 0이면 전체 파일 처리, 양수면 해당 개수만 처리
     
     # vLLM 전용 설정
     TENSOR_PARALLEL_SIZE: int = 1  # GPU 수 (필요시 증가)
@@ -512,30 +512,13 @@ class QwenVLLMMeetingGenerator:
                     logger.error(f"청크 {chunk_idx+1} 생성 실패")
                     
         else:
-            # 단일 텍스트 처리
-            result_dir = output_dir / f"{parent_folder}"
-            result_dir.mkdir(exist_ok=True)
-            
+            # 단일 텍스트 처리 (청크되지 않은 파일은 처리하지만 저장하지 않음)
             logger.info("전체 회의록 처리 중")
             result = self.generate_notion_project(meeting_data.transcript)
             
             if result["success"]:
-                individual_result = {
-                    "id": f"{parent_folder}",
-                    "source_dir": parent_folder,
-                    "notion_output": result["result"],
-                    "metadata": {
-                        **meeting_data.metadata,
-                        "is_chunk": False,
-                        "processing_date": datetime.now().isoformat()
-                    }
-                }
-                
-                with open(result_dir / "result.json", 'w', encoding='utf-8') as f:
-                    json.dump(individual_result, f, ensure_ascii=False, indent=2)
-                
                 success_count += 1
-                logger.info("저장 완료")
+                logger.info("처리 완료")
             else:
                 fail_count += 1
                 logger.error(f"생성 실패: {result.get('error')}")
@@ -583,7 +566,7 @@ def main():
     
     # 결과 저장 폴더 생성
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_dir = Path(f"qwen_vllm_meeting_results_{timestamp}")
+    output_dir = Path(f"4B_lora_model_results")
     output_dir.mkdir(exist_ok=True)
     logger.info(f"결과 저장 폴더: {output_dir}")
     
@@ -595,7 +578,7 @@ def main():
         return
     
     # 회의 파일 검색
-    input_dir = "0806_파인튜닝모델로결과내기/validation_data_folder"
+    input_dir = "../Raw_Data_val"
     meeting_files = generator.find_meeting_files(input_dir)
     
     if not meeting_files:
@@ -652,22 +635,6 @@ def main():
     logger.info(f"  실패: {stats.failed}개")
     logger.info(f"  청킹 처리: {stats.chunked}개")
     logger.info(f"  성공률: {stats.success_rate:.1f}%")
-    
-    # 통계 저장
-    stats_data = {
-        "total": stats.total,
-        "processed": stats.processed,
-        "success": stats.success,
-        "failed": stats.failed,
-        "chunked": stats.chunked,
-        "success_rate": stats.success_rate,
-        "timestamp": timestamp,
-        "model": "qwen3_vllm",
-        "engine": "vLLM"
-    }
-    
-    with open(output_dir / "processing_statistics.json", 'w', encoding='utf-8') as f:
-        json.dump(stats_data, f, ensure_ascii=False, indent=2)
     
     logger.info(f"\n✅ 모든 처리 완료! 결과는 {output_dir}에 저장되었습니다.")
 
