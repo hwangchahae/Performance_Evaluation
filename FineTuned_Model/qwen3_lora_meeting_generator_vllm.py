@@ -87,14 +87,19 @@ class QwenVLLMMeetingGenerator:
     
     def _merge_lora_if_needed(self) -> str:
         """필요시 LoRA 모델 병합"""
+        # 현재 스크립트 위치 기준으로 경로 설정
+        script_dir = Path(__file__).parent
+        lora_path = script_dir / self.config.LORA_MODEL_PATH
+        merged_path = script_dir / self.config.MERGED_MODEL_PATH
+        
         # 병합된 모델이 이미 있는지 확인
-        if os.path.exists(self.config.MERGED_MODEL_PATH):
-            logger.info(f"병합된 모델이 이미 존재: {self.config.MERGED_MODEL_PATH}")
-            return self.config.MERGED_MODEL_PATH
+        if merged_path.exists():
+            logger.info(f"병합된 모델이 이미 존재: {merged_path}")
+            return str(merged_path)
         
         # LoRA 어댑터가 있는지 확인
-        if not os.path.exists(self.config.LORA_MODEL_PATH):
-            logger.info("LoRA 어댑터가 없음. 베이스 모델 사용")
+        if not lora_path.exists():
+            logger.info(f"LoRA 어댑터가 없음: {lora_path}. 베이스 모델 사용")
             return self.config.BASE_MODEL_PATH
         
         # LoRA 병합 수행
@@ -111,18 +116,18 @@ class QwenVLLMMeetingGenerator:
                 device_map="cpu"  # 병합 시에는 CPU 사용
             )
             
-            logger.info(f"LoRA 어댑터 로딩: {self.config.LORA_MODEL_PATH}")
-            model = PeftModel.from_pretrained(base_model, self.config.LORA_MODEL_PATH)
+            logger.info(f"LoRA 어댑터 로딩: {lora_path}")
+            model = PeftModel.from_pretrained(base_model, str(lora_path))
             
             logger.info("모델 병합 중...")
             merged_model = model.merge_and_unload()
             
-            logger.info(f"병합된 모델 저장: {self.config.MERGED_MODEL_PATH}")
-            merged_model.save_pretrained(self.config.MERGED_MODEL_PATH)
+            logger.info(f"병합된 모델 저장: {merged_path}")
+            merged_model.save_pretrained(str(merged_path))
             
             # 토크나이저도 저장
             tokenizer = AutoTokenizer.from_pretrained(self.config.BASE_MODEL_PATH)
-            tokenizer.save_pretrained(self.config.MERGED_MODEL_PATH)
+            tokenizer.save_pretrained(str(merged_path))
             
             logger.info("✅ LoRA 병합 완료!")
             
@@ -132,7 +137,7 @@ class QwenVLLMMeetingGenerator:
             del merged_model
             torch.cuda.empty_cache()
             
-            return self.config.MERGED_MODEL_PATH
+            return str(merged_path)
             
         except Exception as e:
             logger.error(f"LoRA 병합 실패: {e}")
