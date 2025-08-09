@@ -417,12 +417,8 @@ class QwenVLLMMeetingGenerator:
             생성 결과
         """
         try:
-            # 프롬프트 임포트 (동적 로딩)
-            import sys
-            sys.path.append('0806_파인튜닝모델로결과내기')
+            # 프롬프트 임포트
             from prd_generation_prompts import generate_notion_project_prompt
-            if transcript == "~~~":
-                print()
             user_prompt = generate_notion_project_prompt(transcript)
             system_prompt = """당신은 회의록을 분석하여 체계적인 프로젝트 기획안을 작성하는 전문가입니다.
 회의에서 논의된 내용을 바탕으로 명확하고 실행 가능한 기획안을 작성해주세요.
@@ -464,8 +460,6 @@ class QwenVLLMMeetingGenerator:
             # 청킹된 데이터 배치 처리 준비
             batch_prompts = []
             
-            import sys
-            sys.path.append('0806_파인튜닝모델로결과내기')
             from prd_generation_prompts import generate_notion_project_prompt
             
             system_prompt = """당신은 회의록을 분석하여 체계적인 프로젝트 기획안을 작성하는 전문가입니다.
@@ -565,7 +559,6 @@ def main():
     config = ModelConfig()
     
     # 결과 저장 폴더 생성
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_dir = Path(f"4B_lora_model_results")
     output_dir.mkdir(exist_ok=True)
     logger.info(f"결과 저장 폴더: {output_dir}")
