@@ -1,0 +1,58 @@
+{
+    "paths": {
+        "gold_standard_data": "../Gold_Standard_Data",
+        "pre_training": {
+            "1.7B": "./Pre_Training/1.7B_model_test_results",
+            "4B": "./Pre_Training/4B_model_test_results",
+            "8B": "./Pre_Training/8B_model_test_results"
+        },
+        "post_training": {
+            "1.7B": "./Post_Training/1.7B_lora_model_results",
+            "4B": "./Post_Training/4B_lora_model_results",
+            "8B": "./Post_Training/8B_lora_model_results"
+        }
+    },
+    "evaluation": {
+        "sample_size": 100,
+        "random_seed": 42,
+        "tfidf_max_features": 5000,
+        "tfidf_ngram_range": [1, 2],
+        "embedding_model": "text-embedding-3-large"
+    },
+    "output": {
+        "pre_training": {
+            "1.7B": {
+                "json_file": "1.7B_pretrain_similarity_results.json",
+                "csv_file": "1.7B_pretrain_similarity_results.csv",
+                "summary_file": "1.7B_pretrain_similarity_summary.txt"
+            },
+            "4B": {
+                "json_file": "4B_pretrain_similarity_results.json",
+                "csv_file": "4B_pretrain_similarity_results.csv",
+                "summary_file": "4B_pretrain_similarity_summary.txt"
+            },
+            "8B": {
+                "json_file": "8B_pretrain_similarity_results.json",
+                "csv_file": "8B_pretrain_similarity_results.csv",
+                "summary_file": "8B_pretrain_similarity_summary.txt"
+            }
+        },
+        "post_training": {
+            "1.7B": {
+                "json_file": "1.7B_post_similarity_results.json",
+                "csv_file": "1.7B_post_similarity_results.csv",
+                "summary_file": "1.7B_post_similarity_summary.txt"
+            },
+            "4B": {
+                "json_file": "4B_post_similarity_results.json",
+                "csv_file": "4B_post_similarity_results.csv",
+                "summary_file": "4B_post_similarity_summary.txt"
+            },
+            "8B": {
+                "json_file": "8B_post_similarity_results.json",
+                "csv_file": "8B_post_similarity_results.csv",
+                "summary_file": "8B_post_similarity_summary.txt"
+            }
+        }
+    }
+}

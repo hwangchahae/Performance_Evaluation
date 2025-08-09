@@ -1,0 +1,30 @@
+# 결과 파일들 (용량이 크고 개인별로 다름)
+*.csv
+*.json
+*.txt
+
+# config.json은 포함하되, 개인 설정은 별도로
+config.local.json
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# 데이터 폴더들
+# Gold_Standard_Data/
+# Pre_Training/*_model_test_results/
+# Post_Training/qwen3_*_lora_meeting_results/
+
+# 임시 파일
+*.tmp
+*.log
+
+# API 키가 포함된 파일
+.env
+api_key.txt
+
+# 결과 파일 예외 (README나 예시 파일은 포함)
+!README.md
+!config.json
+!config.example.json
