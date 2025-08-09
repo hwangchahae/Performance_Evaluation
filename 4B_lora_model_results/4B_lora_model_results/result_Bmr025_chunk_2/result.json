@@ -1,0 +1,45 @@
+{
+  "id": "result_Bmr025_chunk_2",
+  "source_dir": "result_Bmr025",
+  "notion_output": {
+    "project_name": "백업 효율화 및 회의록 최적화 프로젝트",
+    "project_purpose": "회의록 백업의 효율성을 높이고, 회의록의 접근성을 강화하여 데이터 손실 위험을 최소화하며, 회의록의 활용성을 극대화함.",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Dave Johnson",
+    "core_objectives": [
+      "목표 1: 백업 방식의 최적화 및 데이터 복구 가능성 강화",
+      "목표 2: 회의록의 접근성 및 활용성 향상",
+      "목표 3: 회의록의 정확성 및 일관성 유지"
+    ],
+    "core_idea": "백업 방식을 변경하여 데이터 손실을 방지하고, 회의록을 효율적으로 관리하며, 이를 통해 데이터의 안전성과 접근성을 동시에 강화하는 방법을 모색.",
+    "idea_description": "백업 방식을 변경하여 데이터 손실을 방지하고, 회의록을 효율적으로 관리하며, 이를 통해 데이터의 안전성과 접근성을 동시에 강화하는 방법을 모색. 특히, 증분 백업을 활용하여 데이터 손실 위험을 최소화하고, 회의록의 정확성을 유지하며, 이를 통해 데이터의 안전성과 접근성을 동시에 강화.",
+    "execution_plan": "1단계: 백업 방식 분석 및 변경 (2024.01.01 ~ 2024.02.28)\n2단계: 회의록 최적화 및 정렬 (2024.03.01 ~ 2024.04.30)\n3단계: 새로운 백업 시스템 테스트 및 피드백 수집 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 데이터 손실 위험 감소로 인한 생산성 향상",
+      "기대효과 2: 회의록의 접근성 향상으로 인한 의사결정 지원 강화",
+      "기대효과 3: 데이터의 정확성 및 일관성 유지로 인한 신뢰성 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr025/05_final_result.json",
+    "utterance_count": 453,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_H",
+      "Speaker_A",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_G"
+    ],
+    "original_length": 16243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T21:31:41.840465"
+  }
+}

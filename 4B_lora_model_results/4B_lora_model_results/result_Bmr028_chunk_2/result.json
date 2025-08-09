@@ -1,0 +1,45 @@
+{
+  "id": "result_Bmr028_chunk_2",
+  "source_dir": "result_Bmr028",
+  "notion_output": {
+    "project_name": "Tcl-Tk 기반 사용자 인터페이스 및 효율성 개선 프로젝트",
+    "project_purpose": "Tcl-Tk 기반의 사용자 인터페이스를 개선하여 프로토타입 제작 및 사용자 경험을 극대화하고, 효율성을 높이는 것을 목표로 합니다.",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: Tcl-Tk 기반의 사용자 인터페이스 개선",
+      "목표 2: 프로토타입 제작 및 테스트",
+      "목표 3: 효율성 개선을 위한 샘플링 속도 최적화"
+    ],
+    "core_idea": "Tcl-Tk를 활용하여 사용자 인터페이스를 개선하고, 효율성을 높이며, 사용자 경험을 향상시키는 것을 목표로 합니다.",
+    "idea_description": "Tcl-Tk를 사용하여 사용자 인터페이스를 개선하고, 샘플링 속도를 최적화하여 프로토타입 제작을 통해 사용자 경험을 향상시킵니다. 특히, 사용자가 더 빠르게 작업할 수 있도록 효율성을 높이고, 다양한 키 입력 옵션을 제공하여 사용자의 작업을 용이하게 합니다.",
+    "execution_plan": "1단계: Tcl-Tk 기반 인터페이스 설계 및 개발 (2024.01.01 ~ 2024.01.31)\n2단계: 프로토타입 제작 및 테스트 (2024.02.01 ~ 2024.02.28)\n3단계: 효율성 개선 및 최적화 (2024.03.01 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 사용자 인터페이스의 직관성 및 사용편의성 향상",
+      "기대효과 2: 프로토타입 제작 시간 단축 및 테스트 효율성 증대",
+      "기대효과 3: 사용자 작업 속도 증가 및 전체 시스템 효율성 개선"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr028/05_final_result.json",
+    "utterance_count": 814,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_H",
+      "Speaker_A",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_G"
+    ],
+    "original_length": 27961,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T21:31:32.537471"
+  }
+}

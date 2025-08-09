@@ -1,0 +1,41 @@
+{
+  "id": "result_TS3012c_chunk_1",
+  "source_dir": "result_TS3012c",
+  "notion_output": {
+    "project_name": "스마트 리모컨 프로젝트",
+    "project_purpose": "젊은 세대를 대상으로 한 혁신적인 스마트 리모컨 개발 및 마케팅",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 젊은 세대를 위한 혁신적인 디자인 개발",
+      "목표 2: 다양한 에너지원을 통합한 기능성 강화",
+      "목표 3: 디럭스 에디션과 일반판을 통해 시장 확대"
+    ],
+    "core_idea": "스마트 리모컨의 디자인과 기능성을 혁신적으로 개선하여 젊은 소비자들의 선호에 부합하도록 함",
+    "idea_description": "스마트 리모컨은 LCD 화면을 갖춘 디럭스 에디션과 일반판으로 제공되며, 태양 전지, 수동 발전기, 기본 배터리等多种能源을 활용하여 에너지 효율성을 극대화합니다. 또한, 교체 가능한 커버와 스크롤 휠 등을 통해 사용자의 편의성을 높이고, 디자인적 요소를 통해 시장 경쟁력을 강화합니다.",
+    "execution_plan": "1단계: 디자인 및 기능 요구사항 수집 (2024.01.01 ~ 2024.02.28)\n2단계: 프로토타입 개발 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 최종 제품 설계 및 생산 준비 (2024.05.01 ~ 2024.05.31)\n4단계: 마케팅 및 판매 실행 (2024.06.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 젊은 세대의 인지도 및 매출 증가",
+      "기대효과 2: 다양한 에너지원을 통한 제품의 지속 가능성 강화",
+      "기대효과 3: 디자인적 혁신을 통한 시장 경쟁력 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3012c/05_final_result.json",
+    "utterance_count": 425,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "original_length": 14077,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-09T21:26:54.587625"
+  }
+}

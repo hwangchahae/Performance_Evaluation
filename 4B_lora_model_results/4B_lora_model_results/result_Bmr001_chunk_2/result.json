@@ -1,0 +1,40 @@
+{
+  "id": "result_Bmr001_chunk_2",
+  "source_dir": "result_Bmr001",
+  "notion_output": {
+    "project_name": "AI 회의 효율화 및 데이터 관리 최적화 프로젝트",
+    "project_purpose": "회의 효율성을 높이고 데이터 관리를 최적화하여 작업 환경을 개선하며, 사용자 경험을 극대화함.",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 회의 중 사용되는 드라이브의 용량 확보 및 관리",
+      "목표 2: 사용자 인터페이스의 향상 및 사용자 친화적 디자인 구현",
+      "목표 3: AI 기반 회의 기록 및 분석 시스템 구축"
+    ],
+    "core_idea": "회의 중 발생하는 데이터를 효율적으로 관리하고, 사용자 인터페이스를 개선하여 회의의 생산성을 높이는 것",
+    "idea_description": "회의 중 생성되는 데이터를 효과적으로 관리하고, 사용자 인터페이스를 개선하여 사용자가 더욱 쉽게 접근할 수 있도록 함. 또한, AI 기반의 회의 기록 및 분석 시스템을 통해 회의의 효율성을 극대화함.",
+    "execution_plan": "1단계: 드라이브 용량 분석 및 확보 (2024.01.01 ~ 2024.01.15), 2단계: 사용자 인터페이스 개선 설계 (2024.01.16 ~ 2024.02.15), 3단계: AI 기반 회의 기록 시스템 개발 및 테스트 (2024.02.16 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 회의 중 발생하는 데이터 관리 효율성 증가",
+      "기대효과 2: 사용자 인터페이스 개선으로 인한 사용자 만족도 상승",
+      "기대효과 3: AI 기반 회의 기록 시스템을 통한 회의 효율성 및 분석 능력 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr001/05_final_result.json",
+    "utterance_count": 400,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_C"
+    ],
+    "original_length": 13357,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T21:32:45.395686"
+  }
+}

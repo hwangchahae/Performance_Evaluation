@@ -1,0 +1,44 @@
+{
+  "id": "result_Bed010_chunk_4",
+  "source_dir": "result_Bed010",
+  "notion_output": {
+    "project_name": "SmartKom 및 EML 프로젝트",
+    "project_purpose": "SmartKom 및 EML 프로젝트를 통해 효율적인 데이터 처리 및 시스템 통합을 도모하고, 다양한 기술적 문제를 해결하며, 새로운 기술 혁신을 촉진하기 위한 연구 개발을 진행합니다.",
+    "project_period": "2024.01.01 ~ 2024.12.31",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: SmartKom 및 EML 프로젝트의 기술적 문제 해결",
+      "목표 2: 시스템 통합 및 최적화",
+      "목표 3: 새로운 기술 혁신 및 연구 개발 촉진"
+    ],
+    "core_idea": "SmartKom 및 EML 프로젝트를 통해 데이터 처리 및 시스템 통합을 강화하고, 새로운 기술 혁신을 도모합니다.",
+    "idea_description": "SmartKom 및 EML 프로젝트는 데이터 처리 및 시스템 통합을 강화하여, 효율성을 높이고 새로운 기술 혁신을 도모합니다. 특히, MRI를 이용한 데이터 분석 및 시스템의 최적화를 통해 다양한 기술적 문제를 해결하고, 새로운 기술 혁신을 촉진합니다.",
+    "execution_plan": "1단계: 기술적 문제 분석 및 해결 방안 마련 (2024.01.01 ~ 2024.03.31)\n2단계: 시스템 통합 및 최적화 (2024.04.01 ~ 2024.06.30)\n3단계: 새로운 기술 혁신 및 연구 개발 촉진 (2024.07.01 ~ 2024.12.31)",
+    "expected_effects": [
+      "기대효과 1: 데이터 처리 및 시스템 통합의 효율성 증가",
+      "기대효과 2: 새로운 기술 혁신 및 연구 개발 촉진",
+      "기대효과 3: 다양한 기술적 문제 해결 및 시스템 최적화"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed010/05_final_result.json",
+    "utterance_count": 677,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_G"
+    ],
+    "original_length": 23517,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-09T21:33:27.631236"
+  }
+}

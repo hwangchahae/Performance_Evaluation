@@ -1,0 +1,44 @@
+{
+  "id": "result_Bmr013_chunk_2",
+  "source_dir": "result_Bmr013",
+  "notion_output": {
+    "project_name": "Switchboard 전사 프로젝트 및 사전 시스템 개선",
+    "project_purpose": "Switchboard의 전사 프로젝트를 통해 전화 번호 및 기타 정보를 효율적으로 수집하고, 사전 시스템을 개선하여 사용자의 접근성을 높이는 것",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: Switchboard의 전사 프로젝트를 완료하여 전화 번호 및 기타 정보를 정확히 수집",
+      "목표 2: 사전 시스템을 개선하여 사용자의 접근성을 높이고, 다양한 기능을 추가하여 사용자 경험을 개선",
+      "목표 3: 전사 프로젝트와 관련된 논의에서 제기된 문제점을 해결하고, 사용자 피드백을 반영하여 시스템을 최적화"
+    ],
+    "core_idea": "Switchboard의 전사 프로젝트를 통해 전화 번호 및 기타 정보를 수집하고, 사전 시스템을 개선하여 사용자 접근성을 높이며, 사용자 피드백을 반영하여 시스템을 최적화한다.",
+    "idea_description": "Switchboard의 전사 프로젝트를 통해 전화 번호 및 기타 정보를 수집하고, 사전 시스템을 개선하여 사용자의 접근성을 높인다. 특히, 전사 프로젝트와 관련된 논의에서 제기된 문제점을 해결하고, 사용자 피드백을 반영하여 시스템을 최적화한다. 또한, 전사 프로젝트와 관련된 논의에서 제기된 문제점을 해결하고, 사용자 피드백을 반영하여 시스템을 최적화한다.",
+    "execution_plan": "1단계: Switchboard의 전사 프로젝트 준비 및 데이터 수집 (2024.01.01 ~ 2024.01.15)\n2단계: 사전 시스템 개선 및 기능 추가 (2024.01.16 ~ 2024.02.15)\n3단계: 사용자 피드백 수집 및 시스템 최적화 (2024.02.16 ~ 2024.03.15)\n4단계: 최종 검토 및 발표 준비 (2024.03.16 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: Switchboard의 전사 프로젝트를 통해 전화 번호 및 기타 정보를 정확히 수집하여 사용자에게 제공",
+      "기대효과 2: 사전 시스템을 개선하여 사용자의 접근성이 높아지고, 다양한 기능을 추가하여 사용자 경험을 개선",
+      "기대효과 3: 사용자 피드백을 반영하여 시스템을 최적화하여 사용자 만족도를 높임"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr013/05_final_result.json",
+    "utterance_count": 797,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_G"
+    ],
+    "original_length": 27322,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T21:32:04.607178"
+  }
+}

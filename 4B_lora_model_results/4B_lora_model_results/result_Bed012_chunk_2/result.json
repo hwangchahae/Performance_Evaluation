@@ -1,0 +1,41 @@
+{
+  "id": "result_Bed012_chunk_2",
+  "source_dir": "result_Bed012",
+  "notion_output": {
+    "project_name": "Where-Is 베이즈넷 최적화 프로젝트",
+    "project_purpose": "Where-Is 노드의 베이즈넷 구조를 최적화하여 효율성을 극대화하고, 결정 노드 간의 상호작용을 명확히 함.",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: Where-Is 노드의 베이즈넷 구조를 최적화하여 성능 향상",
+      "목표 2: 결정 노드 간의 상호작용을 명확히 하여 혼란을 줄임",
+      "목표 3: 구체적인 질문에 대한 응답을 위한 구조체 설계"
+    ],
+    "core_idea": "Where-Is 노드의 베이즈넷 구조를 최적화하여 효율성을 높이고, 결정 노드 간의 상호작용을 명확히 함.",
+    "idea_description": "Where-Is 노드의 베이즈넷 구조를 최적화하여 성능을 향상시키고, 결정 노드 간의 상호작용을 명확히 함. 이를 통해 구체적인 질문에 대한 응답을 더욱 효율적으로 제공함.",
+    "execution_plan": "1단계: 베이즈넷 구조 분석 및 최적화 (2024.01.01 ~ 2024.01.31)\n2단계: 결정 노드 간 상호작용 명확화 및 구조체 설계 (2024.02.01 ~ 2024.02.28)\n3단계: 최종 검증 및 최적화 (2024.03.01 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 베이즈넷의 성능 향상으로 인한 효율성 증가",
+      "기대효과 2: 결정 노드 간의 혼란 감소로 인한 사용자 만족도 향상",
+      "기대효과 3: 구체적인 질문에 대한 응답 시간 단축"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed012/05_final_result.json",
+    "utterance_count": 520,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_C"
+    ],
+    "original_length": 17584,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T21:33:17.092250"
+  }
+}

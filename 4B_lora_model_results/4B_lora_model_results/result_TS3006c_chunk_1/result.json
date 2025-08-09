@@ -1,0 +1,78 @@
+{
+  "id": "result_TS3006c_chunk_1",
+  "source_dir": "result_TS3006c",
+  "notion_output": {
+    "project_name": "고급스러운 고무 소재 칩 기반 스마트 리모컨 프로젝트",
+    "project_purpose": "고무 소재를 활용한 고급스러운 칩을 통해 사용자의 경험을 혁신하고, 다양한 사용자층을 대상으로 한 맞춤형 기능 제공",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 고무 소재를 활용한 고급스러운 칩 개발 및 제작",
+      "목표 2: 사용자층에 따라 차별화된 기능(단순 버튼 vs 고급 칩) 제공",
+      "목표 3: 메뉴 시스템을 통한 사용자 인터페이스 최적화"
+    ],
+    "core_idea": "고무 소재를 활용한 고급스러운 칩을 통해 사용자 경험을 혁신하고, 다양한 사용자층을 대상으로 맞춤형 기능을 제공하는 스마트 리모컨",
+    "idea_description": "고무 소재를 활용한 고급스러운 칩을 개발하여 사용자에게 신뢰감과 고급감을 제공하며, 단순 버튼과 고급 칩을 통해 다양한 사용자층을 대상으로 맞춤형 기능을 제공합니다. 메뉴 시스템을 통해 사용자가 쉽게 설정을 변경할 수 있도록 합니다.",
+    "execution_plan": [
+      {
+        "phase": "1단계",
+        "description": "고무 소재 및 칩 설계 및 개발",
+        "duration": "2024.01.01 ~ 2024.02.28",
+        "details": [
+          "고무 소재의 텍스처와 질감을 분석하여 최적의 소재 선정",
+          "고급스러운 칩의 디자인 및 기능 요구사항 확정"
+        ]
+      },
+      {
+        "phase": "2단계",
+        "description": "설계 검토 및 수정",
+        "duration": "2024.03.01 ~ 2024.03.31",
+        "details": [
+          "설계 검토를 통해 개선점 확인 및 수정",
+          "제조 부서와 협력하여 설계 가능성 검증"
+        ]
+      },
+      {
+        "phase": "3단계",
+        "description": "제작 및 테스트",
+        "duration": "2024.04.01 ~ 2024.05.31",
+        "details": [
+          "고무 소재를 활용한 칩 제작 및 테스트",
+          "사용자 피드백 수집 및 개선"
+        ]
+      },
+      {
+        "phase": "4단계",
+        "description": "최종 검수 및 출시 준비",
+        "duration": "2024.06.01 ~ 2024.06.30",
+        "details": [
+          "최종 검수를 통해 제품 품질 확인",
+          "마케팅 전략 수립 및 출시 준비"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 고무 소재를 활용한 고급스러운 칩을 통해 사용자에게 신뢰감과 고급감 제공",
+      "기대효과 2: 다양한 사용자층을 대상으로 맞춤형 기능 제공으로 시장 점유율 확대",
+      "기대효과 3: 메뉴 시스템을 통한 사용자 인터페이스 최적화로 사용자 만족도 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3006c/05_final_result.json",
+    "utterance_count": 467,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_C"
+    ],
+    "original_length": 13855,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-09T21:27:55.218112"
+  }
+}

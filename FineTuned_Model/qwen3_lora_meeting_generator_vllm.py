@@ -30,7 +30,7 @@ class ModelConfig:
     REPETITION_PENALTY: float = 1.1
     CHUNK_SIZE: int = 5000
     CHUNK_OVERLAP: int = 512
-    TEST_FILE_LIMIT: int = 1  # 0이면 전체 파일 처리, 양수면 해당 개수만 처리
+    TEST_FILE_LIMIT: int = 0  # 0이면 전체 파일 처리, 양수면 해당 개수만 처리
     
     # vLLM 전용 설정
     TENSOR_PARALLEL_SIZE: int = 1  # GPU 수 (필요시 증가)
@@ -576,7 +576,7 @@ def main():
         return
     
     # 회의 파일 검색
-    input_dir = "../Raw_Data_val"
+    input_dir = "./Raw_Data_val"  # 런팟에서는 현재 디렉토리 기준
     meeting_files = generator.find_meeting_files(input_dir)
     
     if not meeting_files:

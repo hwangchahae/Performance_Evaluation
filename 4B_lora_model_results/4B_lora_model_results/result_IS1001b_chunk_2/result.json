@@ -1,0 +1,41 @@
+{
+  "id": "result_IS1001b_chunk_2",
+  "source_dir": "result_IS1001b",
+  "notion_output": {
+    "project_name": "스마트 리모컨 개발 및 시장 출시 프로젝트",
+    "project_purpose": "사용자가 쉽게 활용할 수 있는 간결하고 직관적인 리모컨을 개발하여 시장에서 경쟁력을 확보하며, 소비자의 요구에 맞춘 제품을 제공함.",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 사용자 친화적인 인터페이스 개발",
+      "목표 2: 리모컨의 기능적 효율성 극대화",
+      "목표 3: 시장 진입 속도 향상"
+    ],
+    "core_idea": "간단하고 직관적인 사용 경험을 제공하는 리모컨 개발",
+    "idea_description": "리모컨의 버튼 수를 줄이고, 주요 기능(채널 변경, 볼륨 조절 등)에 집중하여 사용자가 쉽게 활용할 수 있도록 설계합니다. 또한, 사용자 피드백을 반영하여 지속적으로 개선합니다.",
+    "execution_plan": "1단계: 요구사항 분석 및 설계 (2024.01.01 ~ 2024.02.28), 2단계: 프로토타입 제작 및 테스트 (2024.03.01 ~ 2024.04.30), 3단계: 최종 제품 개발 및 생산 준비 (2024.05.01 ~ 2024.05.31), 4단계: 시장 출시 및 마케팅 (2024.06.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 향상으로 인한 브랜드 신뢰도 강화",
+      "기대효과 2: 시장 점유율 증가로 인한 매출 성장",
+      "기대효과 3: 경쟁사 대비 우위 확보 및 시장 차별화"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_IS1001b/05_final_result.json",
+    "utterance_count": 276,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C",
+      "Speaker_B"
+    ],
+    "original_length": 9187,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T21:28:40.073422"
+  }
+}

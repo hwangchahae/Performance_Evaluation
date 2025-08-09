@@ -1,0 +1,44 @@
+{
+  "id": "result_Bed009_chunk_5",
+  "source_dir": "result_Bed009",
+  "notion_output": {
+    "project_name": "심층적 의미론 기반의 AI 통역 및 의사소통 시스템 개발",
+    "project_purpose": "심층적 의미론을 활용하여 다양한 문맥에서의 의미를 정확하게 파악하고, 이를 통해 더 나은 의사소통을 지원하는 AI 시스템을 개발한다.",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: 심층적 의미론을 기반으로 한 의미 파악 시스템 개발",
+      "목표 2: 다양한 문맥에서의 의미 변화를 반영한 유연한 파서 구축",
+      "목표 3: 사용자 모델과 온톨로지를 결합한 맞춤형 정보 제공 시스템 개발"
+    ],
+    "core_idea": "심층적 의미론을 활용하여 의미를 깊이 파악하고, 이를 통해 다양한 문맥에서의 의미 변화를 반영한 유연한 파서를 구축하며, 사용자 모델과 온톨로지를 결합하여 맞춤형 정보를 제공하는 시스템을 개발한다.",
+    "idea_description": "심층적 의미론을 기반으로 한 의미 파악 시스템은 사용자의 말을 통해 드러나는 의미를 깊이 파악하고, 이를 통해 다양한 문맥에서의 의미 변화를 반영한 유연한 파서를 구축한다. 사용자 모델과 온톨로지를 결합하여 맞춤형 정보를 제공함으로써 더욱 정확하고 유용한 의사소통을 지원한다.",
+    "execution_plan": "1단계: 심층적 의미론 연구 및 파서 설계 (2024.01.01 ~ 2024.02.28)\n2단계: 사용자 모델과 온톨로지 통합 및 시스템 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 최종 시스템 개선 및 배포 준비 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 다양한 문맥에서의 의미 변화를 반영한 정확한 의미 파악",
+      "기대효과 2: 사용자 모델과 온톨로지를 통합하여 맞춤형 정보 제공",
+      "기대효과 3: 심층적 의미론을 활용한 의사소통 효율성 증대"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed009/05_final_result.json",
+    "utterance_count": 691,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_G"
+    ],
+    "original_length": 23895,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-09T21:33:40.858689"
+  }
+}

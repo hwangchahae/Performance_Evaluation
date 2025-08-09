@@ -1,0 +1,42 @@
+{
+  "id": "result_Bed013_chunk_4",
+  "source_dir": "result_Bed013",
+  "notion_output": {
+    "project_name": "베이즈넷 기반의 인터랙티브 담론 분석 시스템 개발",
+    "project_purpose": "베이즈넷을 활용하여 사용자의 담론 내역을 분석하고, 이를 통해 더 효율적인 의사결정 및 정보 수집을 지원하는 시스템을 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_E",
+    "core_objectives": [
+      "목표 1: 베이즈넷을 이용한 담론 내역의 자동 분석 및 정보 추출",
+      "목표 2: 사용자와의 상호작용을 통한 실시간 피드백 제공",
+      "목표 3: 다양한 담론 데이터를 처리할 수 있는 시스템 구축"
+    ],
+    "core_idea": "베이즈넷을 활용하여 담론 내역을 분석하고, 이를 통해 사용자가 필요로 하는 정보를 효율적으로 제공하는 시스템",
+    "idea_description": "베이즈넷을 통해 담론 내역을 분석하고, 이를 통해 사용자가 필요한 정보를 자동으로 추출하며, 사용자와의 상호작용을 통해 실시간 피드백을 제공함으로써 의사결정의 효율성을 높이는 시스템",
+    "execution_plan": "1단계: 베이즈넷 구조 설계 및 테스트 (2024.01.01 ~ 2024.02.28)\n2단계: 담론 데이터 수집 및 분석 시스템 개발 (2024.03.01 ~ 2024.04.30)\n3단계: 사용자 인터페이스 개발 및 테스트 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 담론 분석의 정확성 및 신속성 증가",
+      "기대효과 2: 사용자 경험 개선 및 의사결정 효율성 향상",
+      "기대효과 3: 다양한 담론 데이터를 처리할 수 있는 유연한 시스템 구축"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed013/05_final_result.json",
+    "utterance_count": 744,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B"
+    ],
+    "original_length": 24608,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-09T21:33:05.479006"
+  }
+}

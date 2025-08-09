@@ -1,0 +1,41 @@
+{
+  "id": "result_IS1007d_chunk_1",
+  "source_dir": "result_IS1007d",
+  "notion_output": {
+    "project_name": "모듈식 리모컨 프로젝트",
+    "project_purpose": "비용 절감 및 사용자 경험 향상을 위한 모듈식 리모컨 개발",
+    "project_period": "2023.11.01 ~ 2024.02.28",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: LCD가 있는 리모컨과 LCD가 없는 리모컨 두 가지 버전 개발",
+      "목표 2: 충전식 배터리와 모듈식 기능 추가를 통한 사용자 편의성 증대",
+      "목표 3: 모듈식 설계를 통해 다양한 기능 추가 가능성 확보"
+    ],
+    "core_idea": "모듈식 설계를 활용한 리모컨 개발",
+    "idea_description": "LCD가 있는 버전과 없는 버전을 통해 비용 절감과 사용자 편의성을 동시에 고려한 리모컨을 개발하며, 충전식 배터리와 모듈식 기능을 결합하여 다양한 기능을 쉽게 추가할 수 있도록 설계합니다.",
+    "execution_plan": "1단계: 요구사항 분석 및 설계 (2023.11.01 ~ 2023.11.30)\n2단계: 프로토타입 개발 및 테스트 (2023.12.01 ~ 2023.12.31)\n3단계: 최종 제품 제작 및 검증 (2024.01.01 ~ 2024.01.31)\n4단계: 시장 출시 및 마케팅 (2024.02.01 ~ 2024.02.28)",
+    "expected_effects": [
+      "기대효과 1: LCD가 없는 버전으로 인한 생산 비용 절감",
+      "기대효과 2: 사용자 편의성 증대로 인한 고객 만족도 향상",
+      "기대효과 3: 모듈식 설계를 통한 다양한 기능 추가 가능성 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_IS1007d/05_final_result.json",
+    "utterance_count": 262,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "original_length": 9248,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-09T21:28:25.190811"
+  }
+}

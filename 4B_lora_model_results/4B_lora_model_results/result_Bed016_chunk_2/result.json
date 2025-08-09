@@ -1,0 +1,47 @@
+{
+  "id": "result_Bed016_chunk_2",
+  "source_dir": "result_Bed016",
+  "notion_output": {
+    "project_name": "다양한 해석 메커니즘과 구조적 통합 프로젝트",
+    "project_purpose": "구문과 의미의 복잡성을 처리하며, 다양한 해석 메커니즘을 통합하여 효율적인 언어 처리 시스템 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_G",
+    "core_objectives": [
+      "목표 1: 은유적과 환유적 해석을 위한 메커니즘 개발",
+      "목표 2: 구문과 의미의 복잡성을 처리하는 시스템 구축",
+      "목표 3: 다양한 언어 및 문맥에 대한 유연한 해석 지원"
+    ],
+    "core_idea": "구문과 의미의 복잡성을 처리하며, 다양한 해석 메커니즘을 통합하여 효율적인 언어 처리 시스템을 개발",
+    "idea_description": "이 프로젝트는 은유적과 환유적 해석을 처리하는 메커니즘을 개발하고, 이를 통해 다양한 언어 및 문맥에 대한 유연한 해석을 가능하게 합니다. 특히, 구문과 의미의 복잡성을 처리하는 데 초점을 맞춥니다.",
+    "execution_plan": "1단계: 메커니즘 설계 및 개발 (2024.01.01 ~ 2024.02.28)\n2단계: 시스템 통합 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 최종 검토 및 배포 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 다양한 문맥에서의 해석 정확성 향상",
+      "기대효과 2: 구문과 의미의 복잡성을 처리하는 시스템의 안정성 증대",
+      "기대효과 3: 다양한 언어 및 문맥에 대한 유연한 해석 지원"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed016/05_final_result.json",
+    "utterance_count": 505,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_H",
+      "Speaker_A",
+      "Speaker_J",
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_I",
+      "Speaker_G"
+    ],
+    "original_length": 16078,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T21:32:54.882589"
+  }
+}

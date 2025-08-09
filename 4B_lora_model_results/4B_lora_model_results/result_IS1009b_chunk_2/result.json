@@ -1,0 +1,41 @@
+{
+  "id": "result_IS1009b_chunk_2",
+  "source_dir": "result_IS1009b",
+  "notion_output": {
+    "project_name": "직관적 사용자 경험의 리모컨 개발 프로젝트",
+    "project_purpose": "사용자 친화적이고 직관적인 리모컨을 개발하여 소비자들의 구매 욕구를 증가시키고, 시장 경쟁력을 강화한다.",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 사용자 친화적인 UI/UX 디자인 개발",
+      "목표 2: 리모컨의 학습 곡선 단축 및 직관적 사용성 확보",
+      "목표 3: 다양한 기능 통합 및 사용자 요구 반영"
+    ],
+    "core_idea": "사용자가 쉽게 이해하고 활용할 수 있도록 설계된 리모컨",
+    "idea_description": "리모컨의 사용 방법을 간소화하고, 사용자가 쉽게 접근할 수 있도록 직관적인 인터페이스를 제공하며, 필요한 기능을 최소한의 버튼으로 통합하여 혼란을 줄이는 것을 목표로 한다. 또한, 사용자의 편의성을 극대화하기 위해 다양한 기능을 통합하고, 사용자 피드백을 반영하여 지속적인 개선을 추진한다.",
+    "execution_plan": "1단계: 사용자 연구 및 요구 분석 (2024.01.01 ~ 2024.02.28)\n2단계: 디자인 및 프로토타입 개발 (2024.03.01 ~ 2024.04.30)\n3단계: 테스트 및 피드백 수집 (2024.05.01 ~ 2024.05.31)\n4단계: 최종 수정 및 생산 준비 (2024.06.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 친화적인 리모컨을 통해 고객 만족도 향상 및 재구매율 증가",
+      "기대효과 2: 직관적인 사용성으로 인한 사용자 교육 비용 절감",
+      "기대효과 3: 다양한 기능 통합으로 인한 제품의 경쟁력 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_IS1009b/05_final_result.json",
+    "utterance_count": 214,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C",
+      "Speaker_B"
+    ],
+    "original_length": 8139,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T21:28:17.950458"
+  }
+}

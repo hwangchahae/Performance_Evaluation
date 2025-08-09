@@ -1,0 +1,42 @@
+{
+  "id": "result_Bed013_chunk_6",
+  "source_dir": "result_Bed013",
+  "notion_output": {
+    "project_name": "모호함 감지 및 언어 처리 시스템 개발",
+    "project_purpose": "회의에서 논의된 모호함 감지 및 언어 처리 기술을 활용하여 데이터 수집 및 분석을 강화하고, 사용자 경험을 향상시키는 시스템을 개발한다.",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_E",
+    "core_objectives": [
+      "목표 1: 모호함 감지 기술을 통한 데이터 수집 효율성 증대",
+      "목표 2: 사용자 지능에 따른 결론 내리는 기능 개발",
+      "목표 3: 다양한 기능 슬롯 및 속성 확장"
+    ],
+    "core_idea": "모호함을 감지하고 사용자의 지능에 따라 결론을 내리는 시스템을 통해 데이터 수집 및 분석을 최적화한다.",
+    "idea_description": "Solaris 박스에서 논의된 모호함 감지 기술을 적용하여 데이터 수집 과정에서 발생하는 모호함을 감지하고, 이를 통해 데이터의 질을 향상시킨다. 또한, 사용자의 지능에 따라 결론을 내리는 기능을 추가하여 데이터 해석의 정확성을 높인다.",
+    "execution_plan": "1단계: 모호함 감지 기술 연구 및 개발 (2024.01.01 ~ 2024.01.31)\n2단계: 사용자 지능에 따른 결론 내리기 기능 개발 (2024.02.01 ~ 2024.02.28)\n3단계: 다양한 기능 슬롯 및 속성 확장 (2024.03.01 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 데이터 수집 과정에서의 모호함 감지로 인한 데이터 품질 향상",
+      "기대효과 2: 사용자 지능에 따른 결론 내리기로 인한 데이터 해석 정확성 증가",
+      "기대효과 3: 다양한 기능 슬롯 및 속성 확장으로 인한 시스템의 다각적 활용 가능성 확대"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed013/05_final_result.json",
+    "utterance_count": 744,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B"
+    ],
+    "original_length": 24608,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 6,
+    "processing_date": "2025-08-09T21:33:05.486270"
+  }
+}

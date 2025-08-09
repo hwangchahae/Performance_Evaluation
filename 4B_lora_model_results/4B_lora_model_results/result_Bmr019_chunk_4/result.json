@@ -1,0 +1,46 @@
+{
+  "id": "result_Bmr019_chunk_4",
+  "source_dir": "result_Bmr019",
+  "notion_output": {
+    "project_name": "오로라 시스템 최적화 및 중복 분석 프로젝트",
+    "project_purpose": "오로라 시스템의 성능을 극대화하고 중복 분석을 통해 데이터 활용 효율성을 높이며, 학습자의 피로도를 줄이는 것을 목표로 한다.",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_I",
+    "core_objectives": [
+      "목표 1: 오로라 시스템의 오류율을 10%에서 8%로 개선",
+      "목표 2: 중복 분석을 통한 데이터 활용률 20% 증가",
+      "목표 3: 학습자의 피로도 감소를 위한 새로운 인터페이스 개발"
+    ],
+    "core_idea": "오로라 시스템의 성능을 개선하고 중복 분석을 통해 데이터 활용 효율성을 높이며, 학습자의 피로도를 줄이는 것",
+    "idea_description": "오로라 시스템의 오류율을 개선하기 위해 HTK나 Entropic 등 주식을 활용하며, 중복 분석을 통해 데이터 활용률을 높이고, 새로운 인터페이스를 통해 학습자의 피로도를 줄인다. 또한, 오로라 시스템의 구체적인 개선 사항을 반영하여 성능을 극대화한다.",
+    "execution_plan": "1단계: 오로라 시스템의 현재 상태 평가 및 문제점 파악 (2024.01.01 ~ 2024.02.28)\n2단계: 중복 분석을 통한 데이터 활용률 개선 (2024.03.01 ~ 2024.04.30)\n3단계: 새로운 인터페이스 개발 및 테스트 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 오로라 시스템의 오류율 20% 감소",
+      "기대효과 2: 데이터 활용률 20% 증가",
+      "기대효과 3: 학습자의 피로도 30% 감소"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr019/05_final_result.json",
+    "utterance_count": 630,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_H",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_I",
+      "Speaker_G"
+    ],
+    "original_length": 21243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-09T21:31:52.633397"
+  }
+}

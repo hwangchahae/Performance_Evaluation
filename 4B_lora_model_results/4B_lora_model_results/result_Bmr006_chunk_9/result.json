@@ -1,0 +1,43 @@
+{
+  "id": "result_Bmr006_chunk_9",
+  "source_dir": "result_Bmr006",
+  "notion_output": {
+    "project_name": "회의록 기반 프로젝트",
+    "project_purpose": "회의록을 분석하여 체계적인 프로젝트 기획안을 작성하고, 이를 통해 효율적인 의사결정과 실행을 지원함.",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 회의록을 분석하여 중요한 정보를 추출하고 시각화하여 의사결정을 지원",
+      "목표 2: 다양한 마이크 배열 및 신호 처리 기술을 활용하여 향상된 데이터 수집 및 분석",
+      "목표 3: 익명성을 고려한 데이터 처리 방안 마련 및 적용"
+    ],
+    "core_idea": "회의록을 기반으로 한 데이터 수집 및 분석을 통해 프로젝트의 성공 가능성을 높임.",
+    "idea_description": "회의 중 논의된 내용을 기반으로 데이터를 수집하고, 이를 분석하여 프로젝트의 핵심 요소를 파악하며, 다양한 마이크 배열과 신호 처리 기술을 활용하여 데이터의 정확성과 신뢰성을 높임. 또한, 익명성을 고려한 데이터 처리 방안을 마련하여 개인정보 보호를 강화함.",
+    "execution_plan": "1단계: 회의록 분석 및 정보 추출 (2024.01.01 ~ 2024.01.15), 2단계: 마이크 배열 및 신호 처리 기술 적용 (2024.01.16 ~ 2024.02.15), 3단계: 익명성 확보 및 데이터 처리 방안 검토 (2024.02.16 ~ 2024.03.15), 4단계: 최종 보고서 작성 및 발표 (2024.03.16 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 회의록을 통한 의사결정의 효율성 증대",
+      "기대효과 2: 다양한 마이크 배열 및 신호 처리 기술을 통한 데이터 수집의 정확성 및 신뢰성 향상",
+      "기대효과 3: 익명성을 고려한 데이터 처리를 통한 개인정보 보호 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr006/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 9,
+    "processing_date": "2025-08-09T21:32:33.757074"
+  }
+}

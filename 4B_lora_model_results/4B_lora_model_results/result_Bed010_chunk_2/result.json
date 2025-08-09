@@ -1,0 +1,44 @@
+{
+  "id": "result_Bed010_chunk_2",
+  "source_dir": "result_Bed010",
+  "notion_output": {
+    "project_name": "JavaBayes 시각화 및 기능 강화 프로젝트",
+    "project_purpose": "JavaBayes의 시각화 기능을 개선하고, 노드와 연결 간의 관계를 명확히하여 사용자 경험을 향상시키며, 장기적으로 시각화를 통해 데이터 이해를 용이하게 함.",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: JavaBayes의 시각화 기능을 개선하여 노드와 연결 간의 관계를 명확히 표현",
+      "목표 2: JavaBayes 코드를 해킹하여 새로운 시각화 기능 추가",
+      "목표 3: 사용자 인터페이스 최적화 및 사용자 피드백 반영"
+    ],
+    "core_idea": "JavaBayes의 시각화 기능을 강화하여 데이터 관계를 직관적으로 파악할 수 있도록 함.",
+    "idea_description": "JavaBayes의 시각화 기능을 개선하여 노드와 연결 간의 관계를 명확히 표현하고, 사용자 인터페이스를 최적화함으로써 데이터를 쉽게 이해할 수 있도록 합니다. 또한, JavaBayes 코드를 해킹하여 새로운 시각화 기능을 추가하고, 사용자 피드백을 반영하여 지속적인 개선을 추진합니다.",
+    "execution_plan": "1단계: JavaBayes 시각화 기능 분석 및 요구사항 수집 (2025.01.01 ~ 2025.01.15)\n2단계: JavaBayes 코드 해킹 및 새로운 시각화 기능 개발 (2025.01.16 ~ 2025.02.15)\n3단계: 사용자 인터페이스 최적화 및 피드백 수집 (2025.02.16 ~ 2025.03.15)\n4단계: 최종 검수 및 배포 (2025.03.16 ~ 2025.03.31)",
+    "expected_effects": [
+      "기대효과 1: 사용자 경험 향상 및 데이터 이해 용이성 증가",
+      "기대효과 2: JavaBayes의 시각화 기능 강화로 인한 데이터 분석 효율성 증가",
+      "기대효과 3: 지속적인 피드백 반영을 통한 제품 개선 및 사용자 만족도 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed010/05_final_result.json",
+    "utterance_count": 677,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_G"
+    ],
+    "original_length": 23517,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T21:33:27.622455"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "result_IS1000d_chunk_4",
+  "source_dir": "result_IS1000d",
+  "notion_output": {
+    "project_name": "저비용 디자인 개발 프로젝트",
+    "project_purpose": "제한된 예산 내에서 효율적인 디자인 개발을 통해 제품의 경쟁력을 강화하고, 고객 만족도를 높이는 것을 목표로 합니다.",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: 12유로 미만의 저비용 디자인 개발 완료",
+      "목표 2: 디자이너의 역할 최소화 및 효율적 활용",
+      "목표 3: 고객 피드백 반영을 통한 제품 향상"
+    ],
+    "core_idea": "제한된 예산 내에서 최적의 디자인 솔루션을 제공하기 위한 혁신적 접근법",
+    "idea_description": "현재 예산에 맞춰 디자이너의 역할을 최소화하면서도 제품의 질을 유지하며, 고객의 피드백을 반영하여 제품을 개선합니다. 이는 디자이너의 수를 줄이고, 효율적인 작업 방식을 도입함으로써 비용 절감을 목표로 합니다.",
+    "execution_plan": "1단계: 예산 분석 및 디자이너 역할 평가 (2024.01.01 ~ 2024.01.15)\n2단계: 디자인 작업 시작 및 중간 검토 (2024.01.16 ~ 2024.02.15)\n3단계: 고객 피드백 수집 및 반영 (2024.02.16 ~ 2024.03.15)\n4단계: 최종 디자인 완성 및 출시 준비 (2024.03.16 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 예산 절약으로 인한 재무적 안정성 확보",
+      "기대효과 2: 고객 만족도 증가 및 브랜드 이미지 개선",
+      "기대효과 3: 효율적인 디자인 작업을 통한 시간 절약"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_IS1000d/05_final_result.json",
+    "utterance_count": 433,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "original_length": 13960,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-09T21:28:48.885637"
+  }
+}
