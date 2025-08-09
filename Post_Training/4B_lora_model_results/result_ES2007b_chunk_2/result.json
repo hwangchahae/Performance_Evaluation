@@ -1,47 +1,41 @@
 {
-  "id": "val_217_chunk_2",
+  "id": "result_ES2007b_chunk_2",
   "source_dir": "result_ES2007b",
   "notion_output": {
-    "project_name": "스마트 홈 감지 시스템 개발 프로젝트",
-    "project_purpose": "에너지 효율성을 높이고 사용자 경험을 개선하기 위한 스마트 홈 감지 시스템을 개발하여 집안의 안전 및 편의성을 극대화한다.",
+    "project_name": "스마트 인터페이스 개발 프로젝트",
+    "project_purpose": "사용자 경험을 극대화하기 위한 직관적인 인터페이스 및 편리한 사용성을 갖춘 스마트 기기 개발",
     "project_period": "2024.01.01 ~ 2024.03.31",
     "project_manager": "Speaker_A",
     "core_objectives": [
-      "목표 1: 적외선 센서와 배터리를 활용한 저비용 감지 시스템 개발",
-      "목표 2: 사용자 피드백을 반영한 인터페이스 최적화",
-      "목표 3: 시스템의 안정성과 신뢰성 강화"
+      "목표 1: 적외선 및 배터리 기반의 최소화된 기능 집중형 인터페이스 개발",
+      "목표 2: 사용자 피드백을 반영한 인터페이스 디자인 최적화",
+      "목표 3: 다양한 사용자층을 고려한 접근성 강화"
     ],
-    "core_idea": "집안의 상태를 실시간으로 감지하여 사용자의 삶을 편리하게 만든 스마트 홈 시스템",
-    "idea_description": "적외선 센서와 배터리를 결합하여 집안의 상태를 감지하고, 이를 통해 사용자가 집안의 상황을 쉽게 파악할 수 있도록 하는 시스템이다. 또한, 사용자 피드백을 반영하여 인터페이스를 최적화하여 사용자 경험을 개선한다.",
-    "execution_plan": "1단계: 요구사항 수집 및 분석 (2024.01.01 ~ 2024.01.15), 2단계: 시스템 설계 및 프로토타입 제작 (2024.01.16 ~ 2024.02.15), 3단계: 테스트 및 피드백 수집 (2024.02.16 ~ 2024.03.15), 4단계: 최종 수정 및 배포 준비 (2024.03.16 ~ 2024.03.31)",
+    "core_idea": "직관적이면서도 효율적인 사용 경험을 제공하는 스마트 인터페이스",
+    "idea_description": "적외선과 배터리를 활용한 간단하고 직관적인 인터페이스를 통해 사용자가 쉽게 접근할 수 있도록 하는 기술적 혁신",
+    "execution_plan": "1단계: 요구사항 수집 및 분석 (2024.01.01 ~ 2024.01.31)\n2단계: 프로토타입 개발 및 테스트 (2024.02.01 ~ 2024.02.28)\n3단계: 사용자 피드백 반영 및 최종 수정 (2024.03.01 ~ 2024.03.31)",
     "expected_effects": [
-      "기대효과 1: 집안의 에너지 소비 절감 및 환경 보호",
-      "기대효과 2: 사용자 경험의 질적 향상",
-      "기대효과 3: 시스템의 신뢰성 증가로 인한 고객 만족도 향상"
+      "기대효과 1: 사용자의 일상적인 작업 속도 증가",
+      "기대효과 2: 사용자 만족도 향상 및 고객 유지율 증가",
+      "기대효과 3: 기업의 브랜드 이미지 개선"
     ]
   },
   "metadata": {
-    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_ES2007b/05_final_result.json",
+    "source_file": "Raw_Data_val/result_ES2007b/05_final_result.json",
     "utterance_count": 170,
-    "original_transcript_length": 5770,
     "speakers": [
-      "Speaker_D",
-      "Speaker_B",
       "Speaker_C",
-      "Speaker_A"
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
     ],
+    "original_length": 5770,
     "chunking_info": {
       "is_chunked": true,
-      "total_chunks": 2,
-      "original_length": 5770
+      "total_chunks": 2
     },
     "is_chunk": true,
-    "chunk_info": {
-      "chunk_index": 2,
-      "total_chunks": 2,
-      "chunk_length": 1312
-    },
-    "dataset_type": "val",
-    "processing_date": "2025-08-06T14:33:22.831925"
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T23:12:56.891186"
   }
 }

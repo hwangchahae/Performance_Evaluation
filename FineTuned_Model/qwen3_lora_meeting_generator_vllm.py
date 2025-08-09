@@ -205,41 +205,37 @@ class QwenVLLMMeetingGenerator:
         logger.info(f"{len(target_files)}개의 회의 파일 발견")
         return target_files
     
-    def chunk_text(self, text: str) -> List[str]:
-        """
-        텍스트 청킹
-        
-        Args:
-            text: 원본 텍스트
-            
-        Returns:
-            청크 리스트
-        """
-        if len(text) <= self.config.CHUNK_SIZE:
+    def chunk_text(self, text: str, chunk_size: int = 5000, overlap: int = 512) -> List[str]:
+        """텍스트를 청킹하여 나누기"""
+        if len(text) <= chunk_size:
             return [text]
         
         chunks = []
         start = 0
         
         while start < len(text):
-            end = min(start + self.config.CHUNK_SIZE, len(text))
+            end = start + chunk_size
             
-            if end < len(text):
-                # 문장 경계에서 자르기
+            if end >= len(text):
+                chunk = text[start:]
+            else:
                 chunk = text[start:end]
+                
+                # 마지막 완전한 문장에서 끊기 시도
                 last_period = chunk.rfind('.')
                 last_newline = chunk.rfind('\n')
                 break_point = max(last_period, last_newline)
                 
-                if break_point > self.config.CHUNK_SIZE // 2:
-                    end = start + break_point + 1
+                if break_point > start + chunk_size // 2:
+                    chunk = text[start:break_point + 1]
+                    end = break_point + 1
             
-            chunks.append(text[start:end].strip())
+            chunks.append(chunk.strip())
             
             if end >= len(text):
                 break
-            
-            start = end - self.config.CHUNK_OVERLAP
+                
+            start = end - overlap
         
         return chunks
     
@@ -281,7 +277,7 @@ class QwenVLLMMeetingGenerator:
             # 청킹 여부 결정
             if len(full_text) > self.config.CHUNK_SIZE:
                 logger.info(f"긴 텍스트 감지 ({len(full_text)}자) - 청킹 처리")
-                chunks = self.chunk_text(full_text)
+                chunks = self.chunk_text(full_text, self.config.CHUNK_SIZE, self.config.CHUNK_OVERLAP)
                 metadata["chunking_info"] = {
                     "is_chunked": True,
                     "total_chunks": len(chunks)
@@ -482,21 +478,29 @@ class QwenVLLMMeetingGenerator:
             responses = self.generate_batch_responses(batch_prompts)
             
             # 결과 처리
+            total_chunks = len(meeting_data.chunks)
             for chunk_idx, (chunk_text, response) in enumerate(zip(meeting_data.chunks, responses)):
-                chunk_dir = output_dir / f"{parent_folder}_chunk_{chunk_idx+1}"
+                # 청크가 1개면 _chunk_X 붙이지 않음
+                if total_chunks == 1:
+                    chunk_dir = output_dir / parent_folder
+                    chunk_id = parent_folder
+                else:
+                    chunk_dir = output_dir / f"{parent_folder}_chunk_{chunk_idx+1}"
+                    chunk_id = f"{parent_folder}_chunk_{chunk_idx+1}"
+                
                 chunk_dir.mkdir(exist_ok=True)
                 
                 if response:
                     result_data = self.parse_json_response(response)
                     
                     chunk_result = {
-                        "id": f"{parent_folder}_chunk_{chunk_idx+1}",
+                        "id": chunk_id,
                         "source_dir": parent_folder,
                         "notion_output": result_data,
                         "metadata": {
                             **meeting_data.metadata,
-                            "is_chunk": True,
-                            "chunk_index": chunk_idx + 1,
+                            "is_chunk": total_chunks > 1,
+                            "chunk_index": chunk_idx + 1 if total_chunks > 1 else None,
                                 "processing_date": datetime.now().isoformat()
                         }
                     }
@@ -505,19 +509,44 @@ class QwenVLLMMeetingGenerator:
                         json.dump(chunk_result, f, ensure_ascii=False, indent=2)
                     
                     success_count += 1
-                    logger.info(f"청크 {chunk_idx+1} 저장 완료")
+                    if total_chunks > 1:
+                        logger.info(f"청크 {chunk_idx+1}/{total_chunks} 저장 완료")
+                    else:
+                        logger.info(f"저장 완료")
                 else:
                     fail_count += 1
-                    logger.error(f"청크 {chunk_idx+1} 생성 실패")
+                    if total_chunks > 1:
+                        logger.error(f"청크 {chunk_idx+1}/{total_chunks} 생성 실패")
+                    else:
+                        logger.error(f"생성 실패")
                     
         else:
-            # 단일 텍스트 처리 (청크되지 않은 파일은 처리하지만 저장하지 않음)
+            # 단일 텍스트 처리 (청크되지 않은 파일도 저장)
             logger.info("전체 회의록 처리 중")
             result = self.generate_notion_project(meeting_data.transcript)
             
             if result["success"]:
+                # 단일 파일도 저장
+                single_dir = output_dir / parent_folder
+                single_dir.mkdir(exist_ok=True)
+                
+                single_result = {
+                    "id": parent_folder,
+                    "source_dir": parent_folder,
+                    "notion_output": result["result"],
+                    "metadata": {
+                        **meeting_data.metadata,
+                        "is_chunk": False,
+                        "chunk_index": None,
+                        "processing_date": datetime.now().isoformat()
+                    }
+                }
+                
+                with open(single_dir / "result.json", 'w', encoding='utf-8') as f:
+                    json.dump(single_result, f, ensure_ascii=False, indent=2)
+                
                 success_count += 1
-                logger.info("처리 완료")
+                logger.info("저장 완료")
             else:
                 fail_count += 1
                 logger.error(f"생성 실패: {result.get('error')}")

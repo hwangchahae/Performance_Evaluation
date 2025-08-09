@@ -1,52 +1,46 @@
 {
-  "id": "val_297_chunk_4",
-  "source_dir": "result_Bmr019_processed",
+  "id": "result_Bmr019_chunk_4",
+  "source_dir": "result_Bmr019",
   "notion_output": {
-    "project_name": "오로라 시스템 및 오로라 특별 세션 최적화 프로젝트",
-    "project_purpose": "오로라 시스템의 성능을 극대화하고, 오로라 특별 세션을 통해 학습자들의 피로도를 줄이며, 연구 효율성을 높이는 것",
-    "project_period": "2024.01.01 ~ 2024.06.30",
-    "project_manager": "Speaker_I",
+    "project_name": "오로라 시스템 및 중복 분석 최적화 프로젝트",
+    "project_purpose": "오로라 시스템의 성능을 극대화하고 중복 분석을 통해 효율성을 높이며, 학생들의 프로젝트 진행을 지원함.",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_E",
     "core_objectives": [
-      "목표 1: 오로라 시스템의 오류율을 10%에서 8%로 개선",
-      "목표 2: 오로라 특별 세션의 참여율을 50%에서 70%로 증가",
-      "목표 3: 오로라 시스템의 환경 적응 능력을 강화하여 다양한 환경에서의 성능 유지"
+      "목표 1: 오로라 시스템의 성능을 20% 향상시키기",
+      "목표 2: 중복 분석을 통한 데이터 처리 효율성 증대",
+      "목표 3: 학생들의 프로젝트 진행 지원 및 마감일 관리 시스템 개선"
     ],
-    "core_idea": "오로라 시스템의 성능을 개선하고, 오로라 특별 세션을 통해 학습자의 피로도를 줄이며, 연구 효율성을 높임",
-    "idea_description": "오로라 시스템의 오류율을 개선하기 위해 MMIE 훈련의 개선된 버전을 적용하고, 오로라 특별 세션을 통해 학습자들의 피로도를 줄이며, 다양한 환경에서의 성능을 유지하기 위한 기술적 접근법을 도입함.",
-    "execution_plan": "1단계: 오로라 시스템의 현재 상태 평가 및 문제점 분석 (2024.01.01 ~ 2024.02.28)\n2단계: MMIE 훈련의 개선된 버전 적용 및 성능 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 오로라 특별 세션 운영 및 피로도 조사 (2024.05.01 ~ 2024.06.30)",
+    "core_idea": "오로라 시스템의 성능을 개선하기 위해 MMIE 훈련의 개선 버전을 도입하고, 중복 분석을 통해 데이터 처리 효율성을 높임.",
+    "idea_description": "MMIE 훈련의 개선 버전을 도입하여 오로라 시스템의 성능을 향상시키고, 중복 분석을 통해 데이터 처리의 효율성을 높임. 또한, 학생들의 프로젝트 진행을 지원하기 위한 마감일 관리 시스템을 개선함.",
+    "execution_plan": "1단계: MMIE 훈련 개선 버전 개발 (2024.01.01 ~ 2024.01.31)\n2단계: 중복 분석 시스템 통합 및 테스트 (2024.02.01 ~ 2024.02.28)\n3단계: 학생 프로젝트 지원 시스템 개선 및 마감일 관리 시스템 구축 (2024.03.01 ~ 2024.03.31)",
     "expected_effects": [
-      "기대효과 1: 오로라 시스템의 오류율 감소로 인한 연구 효율성 향상",
-      "기대효과 2: 오로라 특별 세션의 참여 증가로 인한 학습자 피로도 감소",
-      "기대효과 3: 다양한 환경에서의 시스템 성능 유지로 인한 연구의 안정성 확보"
+      "기대효과 1: 오로라 시스템의 성능 향상으로 인한 데이터 처리 속도 증가",
+      "기대효과 2: 중복 분석을 통한 데이터 처리 효율성 증대",
+      "기대효과 3: 학생들의 프로젝트 진행 지원을 통한 학습 효과 증대"
     ]
   },
   "metadata": {
-    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_Bmr019_processed/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bmr019/05_final_result.json",
     "utterance_count": 630,
-    "original_transcript_length": 21243,
     "speakers": [
       "Speaker_F",
-      "Speaker_H",
-      "Speaker_A",
       "Speaker_G",
-      "Speaker_B",
       "Speaker_I",
-      "Speaker_E",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_B",
       "Speaker_C",
-      "Speaker_D"
+      "Speaker_D",
+      "Speaker_E"
     ],
+    "original_length": 21243,
     "chunking_info": {
       "is_chunked": true,
-      "total_chunks": 5,
-      "original_length": 21243
+      "total_chunks": 5
     },
     "is_chunk": true,
-    "chunk_info": {
-      "chunk_index": 4,
-      "total_chunks": 5,
-      "chunk_length": 5000
-    },
-    "dataset_type": "val",
-    "processing_date": "2025-08-06T15:55:29.902299"
+    "chunk_index": 4,
+    "processing_date": "2025-08-09T23:14:48.606462"
   }
 }

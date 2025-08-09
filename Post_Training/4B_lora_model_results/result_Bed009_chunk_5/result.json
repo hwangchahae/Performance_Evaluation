@@ -1,50 +1,60 @@
 {
-  "id": "val_322_chunk_5",
-  "source_dir": "result_Bed009_processed",
+  "id": "result_Bed009_chunk_5",
+  "source_dir": "result_Bed009",
   "notion_output": {
-    "project_name": "Morphix 및 Verbmobil 기반의 심층적 의미 문법 파서 개발 프로젝트",
-    "project_purpose": "Morphix와 Verbmobil의 지식 기반을 활용하여 심층적 의미 문법 파서를 개발하여 다양한 언어 및 문맥에서의 의미 추출 및 분석 능력을 강화",
+    "project_name": "Morphix 및 Fastus 기반의 심층적 의미 문법 파서 개발",
+    "project_purpose": "Morphix와 Fastus의 심층적 의미 문법을 활용하여 효율적인 언어 처리 파서를 개발하여 다양한 데이터를 분석하고 처리하는 능력을 강화한다.",
     "project_period": "2024.01.01 ~ 2024.06.30",
     "project_manager": "Speaker_B",
     "core_objectives": [
-      "목표 1: Morphix와 Verbmobil의 지식 기반을 통합하여 심층적 의미 문법 파서 개발",
-      "목표 2: 다양한 언어 및 문맥에서의 의미 추출 및 분석 능력 강화",
-      "목표 3: Fastus의 실험적 접근법을 참고하여 파서의 효율성 및 정확성을 향상"
+      "목표 1: Morphix와 Fastus의 심층적 의미 문법을 통합하여 새로운 파서 개발",
+      "목표 2: Fastus의 템플릿 파서 기능을 최적화하여 성능 향상",
+      "목표 3: 심층적 의미론을 활용한 깊은 의미 구조 파악 및 맥락 매핑"
     ],
-    "core_idea": "Morphix와 Verbmobil의 지식 기반을 결합하여 심층적 의미 문법 파서를 개발하여 다양한 언어 및 문맥에서의 의미 추출 및 분석 능력을 강화",
-    "idea_description": "Morphix와 Verbmobil의 지식 기반을 활용하여 심층적 의미 문법 파서를 개발하여 다양한 언어 및 문맥에서의 의미 추출 및 분석 능력을 강화하고, Fastus의 실험적 접근법을 참고하여 파서의 효율성 및 정확성을 향상시킴.",
-    "execution_plan": "1단계: Morphix와 Verbmobil의 지식 기반 분석 및 통합 (2024.01.01 ~ 2024.02.28)\n2단계: 심층적 의미 문법 파서 설계 및 개발 (2024.03.01 ~ 2024.04.30)\n3단계: 다양한 언어 및 문맥에서의 테스트 및 최적화 (2024.05.01 ~ 2024.06.30)",
+    "core_idea": "Morphix와 Fastus의 심층적 의미 문법을 결합하여 새로운 파서를 개발하고, 이를 통해 다양한 데이터를 분석하며, 심층적 의미론을 활용한 깊은 의미 구조를 파악하고 맥락에 맞게 매핑한다.",
+    "idea_description": "Morphix와 Fastus의 심층적 의미 문법을 결합하여 새로운 파서를 개발하고, 이를 통해 다양한 데이터를 분석하며, 심층적 의미론을 활용한 깊은 의미 구조를 파악하고 맥락에 맞게 매핑한다. 이는 특히 여행 및 관광 분야에서의 데이터 처리를 강화하고, 다양한 맥락에서의 의미를 정확하게 파악하는 데 기여한다.",
+    "execution_plan": [
+      {
+        "phase": "1차 개발",
+        "description": "Morphix와 Fastus의 심층적 의미 문법을 분석하고, 파서의 기본 구조 설계 및 개발",
+        "period": "2024.01.01 ~ 2024.02.28"
+      },
+      {
+        "phase": "2차 최적화",
+        "description": "Fastus의 템플릿 파서 기능을 최적화하고, 심층적 의미론을 활용한 깊은 의미 구조 매핑",
+        "period": "2024.03.01 ~ 2024.04.30"
+      },
+      {
+        "phase": "3차 테스트 및 피드백 수집",
+        "description": "개발된 파서를 실제 데이터에 적용하여 성능 테스트 및 사용자 피드백 수집",
+        "period": "2024.05.01 ~ 2024.06.30"
+      }
+    ],
     "expected_effects": [
-      "기대효과 1: 다양한 언어 및 문맥에서의 의미 추출 및 분석 능력 강화",
-      "기대효과 2: Fastus의 실험적 접근법을 통해 파서의 효율성 및 정확성 향상",
-      "기대효과 3: Morphix와 Verbmobil의 지식 기반을 통합하여 파서의 유연성 증대"
+      "기대효과 1: 다양한 데이터 분석의 효율성 증가",
+      "기대효과 2: 심층적 의미론을 활용한 정확한 의미 파악",
+      "기대효과 3: Fastus의 템플릿 파서 기능 최적화로 성능 향상"
     ]
   },
   "metadata": {
-    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_Bed009_processed/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bed009/05_final_result.json",
     "utterance_count": 691,
-    "original_transcript_length": 23895,
     "speakers": [
+      "Speaker_F",
       "Speaker_G",
       "Speaker_A",
-      "Speaker_F",
       "Speaker_B",
-      "Speaker_E",
       "Speaker_C",
-      "Speaker_D"
+      "Speaker_D",
+      "Speaker_E"
     ],
+    "original_length": 23895,
     "chunking_info": {
       "is_chunked": true,
-      "total_chunks": 6,
-      "original_length": 23895
+      "total_chunks": 6
     },
     "is_chunk": true,
-    "chunk_info": {
-      "chunk_index": 5,
-      "total_chunks": 6,
-      "chunk_length": 5000
-    },
-    "dataset_type": "val",
-    "processing_date": "2025-08-06T16:32:41.237748"
+    "chunk_index": 5,
+    "processing_date": "2025-08-09T23:16:32.992424"
   }
 }

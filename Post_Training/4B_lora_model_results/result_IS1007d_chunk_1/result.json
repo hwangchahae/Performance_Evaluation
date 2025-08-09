@@ -1,47 +1,41 @@
 {
-  "id": "val_149_chunk_1",
+  "id": "result_IS1007d_chunk_1",
   "source_dir": "result_IS1007d",
   "notion_output": {
-    "project_name": "모듈식 리모컨 프로젝트",
-    "project_purpose": "비용 절감 및 사용자 경험 향상을 위한 모듈식 리모컨 개발",
-    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_name": "스마트 리모컨 프로젝트",
+    "project_purpose": "비용 절감 및 사용자 경험 향상을 위한 리모컨 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
     "project_manager": "Speaker_B",
     "core_objectives": [
-      "목표 1: LCD 없는 모듈식 리모컨 개발",
-      "목표 2: 다양한 기능 모듈 추가 가능성 확보",
-      "목표 3: 사용자 편의성 및 비용 절감"
+      "목표 1: LCD 없는 리모컨 개발로 비용 절감",
+      "목표 2: 사용자 친화적인 인터페이스 구현",
+      "목표 3: 다양한 기능 모듈 확장 가능성 제공"
     ],
-    "core_idea": "LCD 없는 모듈식 리모컨을 통해 비용을 절감하고, 사용자에게 더 안정적인 기능을 제공하며, 다양한 기능 모듈을 쉽게 추가할 수 있도록 설계",
-    "idea_description": "LCD가 없는 모듈식 리모컨은 비용을 절약하면서도 사용자에게 안정적인 기능을 제공합니다. 다양한 기능 모듈을 쉽게 추가할 수 있어 사용자 맞춤형 솔루션을 제공합니다.",
-    "execution_plan": "1단계: 요구사항 분석 및 설계 (2024.01.01 ~ 2024.01.31)\n2단계: LCD 없는 모듈식 리모컨 개발 및 테스트 (2024.02.01 ~ 2024.02.28)\n3단계: 다양한 기능 모듈 개발 및 통합 (2024.03.01 ~ 2024.03.31)",
+    "core_idea": "LCD 없는 리모컨을 통해 비용을 절약하면서도 사용자 경험을 향상시키는 제품 개발",
+    "idea_description": "LCD가 없는 리모컨을 개발하여 비용을 절약하고, 사용자 친화적인 인터페이스를 통해 사용성을 높이며, 다양한 기능 모듈을 추가할 수 있도록 설계합니다.",
+    "execution_plan": "1단계: 요구사항 분석 및 설계 (2024.01.01 ~ 2024.02.28)\n2단계: 프로토타입 개발 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 최종 제품 개발 및 생산 준비 (2024.05.01 ~ 2024.06.30)",
     "expected_effects": [
-      "기대효과 1: 비용 절감으로 인한 경쟁력 강화",
-      "기대효과 2: 사용자 맞춤형 기능 제공으로 고객 만족도 증가",
-      "기대효과 3: 모듈식 설계로 인한 유지보수 및 업그레이드 용이성"
+      "기대효과 1: 제품 비용 30% 절감",
+      "기대효과 2: 사용자 만족도 향상",
+      "기대효과 3: 다양한 기능 모듈을 통한 제품의 경쟁력 강화"
     ]
   },
   "metadata": {
-    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_IS1007d/05_final_result.json",
+    "source_file": "Raw_Data_val/result_IS1007d/05_final_result.json",
     "utterance_count": 262,
-    "original_transcript_length": 9248,
     "speakers": [
-      "Speaker_D",
-      "Speaker_B",
+      "Speaker_A",
       "Speaker_C",
-      "Speaker_A"
+      "Speaker_D",
+      "Speaker_B"
     ],
+    "original_length": 9248,
     "chunking_info": {
       "is_chunked": true,
-      "total_chunks": 2,
-      "original_length": 9248
+      "total_chunks": 2
     },
     "is_chunk": true,
-    "chunk_info": {
-      "chunk_index": 1,
-      "total_chunks": 2,
-      "chunk_length": 4974
-    },
-    "dataset_type": "val",
-    "processing_date": "2025-08-06T13:59:01.149254"
+    "chunk_index": 1,
+    "processing_date": "2025-08-09T23:11:15.419172"
   }
 }

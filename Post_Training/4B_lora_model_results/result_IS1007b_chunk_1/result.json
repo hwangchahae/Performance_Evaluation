@@ -1,47 +1,41 @@
 {
-  "id": "val_151_chunk_1",
+  "id": "result_IS1007b_chunk_1",
   "source_dir": "result_IS1007b",
   "notion_output": {
-    "project_name": "스마트 리모컨 프로젝트",
-    "project_purpose": "블루투스 기반의 사용자 친화적 리모컨 개발 및 시장 출시",
+    "project_name": "디지털 TV 리모컨 혁신 프로젝트",
+    "project_purpose": "디지털 TV 리모컨의 사용성 및 기능성을 강화하여 사용자 경험을 개선하고 시장 경쟁력을 확보함",
     "project_period": "2024.01.01 ~ 2024.06.30",
     "project_manager": "Speaker_A",
     "core_objectives": [
-      "목표 1: 사용자 친화적 인터페이스 디자인 개발",
-      "목표 2: 블루투스 기반의 스마트 리모컨 프로토타입 제작",
-      "목표 3: 사용자 선호도 및 피드백 수집을 통한 최종 제품 개선"
+      "목표 1: 사용자 인터페이스 디자인 최적화",
+      "목표 2: 블루투스 기반의 무선 컨트롤러 개발",
+      "목표 3: 사용자 선호도 반영한 맞춤형 기능 제공"
     ],
-    "core_idea": "블루투스 기반의 사용자 친화적 리모컨 개발",
-    "idea_description": "블루투스 기반의 리모컨은 텔레비전에만 사용되며, 사용자 선호도에 따라 다양한 기능을 제공합니다. 사용자 인터페이스는 직관적이며, 사용 설명서는 최소화됩니다.",
-    "execution_plan": "1단계: 사용자 인터페이스 디자인 및 블루투스 기술 검토 (2024.01.01 ~ 2024.02.28)\n2단계: 프로토타입 제작 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 사용자 피드백 수집 및 최종 제품 개선 (2024.05.01 ~ 2024.06.30)",
+    "core_idea": "블루투스 기반의 사용자 친화적인 리모컨을 설계하여 디지털 TV의 다양한 기능을 쉽게 조절할 수 있도록 함",
+    "idea_description": "블루투스를 활용하여 리모컨과 TV 간의 무선 통신을 구현하고, 사용자 인터페이스를 개선하여 조명 조절, 채널 변경 등 기본 기능을 더 효율적으로 수행할 수 있도록 함. 또한, 사용자 선호도에 따라 맞춤형 기능을 제공하여 사용자 만족도를 높임.",
+    "execution_plan": "1단계: 사용자 인터페이스 디자인 및 사용자 선호도 조사 (2024.01.01 ~ 2024.02.28)\n2단계: 블루투스 기반의 무선 컨트롤러 프로토타입 개발 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 사용자 피드백 반영 및 최종 제품 개발 (2024.05.01 ~ 2024.06.30)",
     "expected_effects": [
-      "기대효과 1: 사용자 만족도 증가 및 제품 경쟁력 강화",
-      "기대효과 2: 블루투스 기반의 혁신적 리모컨 시장 점유율 확대",
-      "기대효과 3: 사용자 선호도 반영된 맞춤형 서비스 제공"
+      "기대효과 1: 사용자 만족도 증가로 인한 고객 충성도 향상",
+      "기대효과 2: 블루투스 기반의 신속한 통신 속도로 사용자 경험 개선",
+      "기대효과 3: 맞춤형 기능 제공으로 인한 시장 차별화 및 경쟁력 강화"
     ]
   },
   "metadata": {
-    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_IS1007b/05_final_result.json",
+    "source_file": "Raw_Data_val/result_IS1007b/05_final_result.json",
     "utterance_count": 157,
-    "original_transcript_length": 5067,
     "speakers": [
-      "Speaker_D",
-      "Speaker_B",
+      "Speaker_A",
       "Speaker_C",
-      "Speaker_A"
+      "Speaker_D",
+      "Speaker_B"
     ],
+    "original_length": 5067,
     "chunking_info": {
       "is_chunked": true,
-      "total_chunks": 2,
-      "original_length": 5067
+      "total_chunks": 2
     },
     "is_chunk": true,
-    "chunk_info": {
-      "chunk_index": 1,
-      "total_chunks": 2,
-      "chunk_length": 4979
-    },
-    "dataset_type": "val",
-    "processing_date": "2025-08-06T13:59:55.587199"
+    "chunk_index": 1,
+    "processing_date": "2025-08-09T23:11:22.937080"
   }
 }
