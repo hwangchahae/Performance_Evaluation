@@ -1,0 +1,35 @@
+{
+  "id": "train_215_chunk_1",
+  "source_dir": "result_ES2013c",
+  "notion_output": "```json\n{\n    \"project_name\": \"과일 테마 리모컨 및 커버 개발 프로젝트\",\n    \"project_purpose\": \"15세에서 35세 사이의 젊은 소비자층을 겨냥한 혁신적이고 지속 가능한 리모컨 및 커버 제품 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"사라\",\n    \"core_objectives\": [\n        \"목표 1: 15세에서 35세 사이의 소비자 시장을 겨냥한 리모컨 및 커버 디자인 개발\",\n        \"목표 2: 운동 에너지를 활용한 에너지원 연구 및 적용\",\n        \"목표 3: 제조 부서와 협력하여 생산 가능한 시제품 제작 및 기술적 세부 사항 확립\"\n    ],\n    \"core_idea\": \"과일 테마의 슬리브를 활용한 리모컨 및 커버 개발\",\n    \"idea_description\": \"과일과 채소를 모티브로 한 스펀지 같은 재질의 커버를 통해 젊은 소비자층의 관심을 끌고, 운동 에너지를 활용한 혁신적인 에너지원 적용을 통해 지속 가능성을 높임. 리모컨의 내부 구조 및 버튼 작동 방식을 고려하여 사용자 친화적인 인터페이스 제공\",\n    \"execution_plan\": \"1단계: 디자인 컨셉 확정 및 리모컨 내부 구조 분석 (2024.01.01 ~ 2024.01.15), 2단계: 운동 에너지원 연구 및 적용 가능성 검토 (2024.01.16 ~ 2024.02.15), 3단계: 제조 부서와의 협력으로 시제품 제작 및 테스트 (2024.02.16 ~ 2024.03.15), 4단계: 최종 제품 출시 준비 및 마케팅 전략 수립 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 젊은 소비자층의 관심을 끌어 판매 증대\",\n        \"기대효과 2: 운동 에너지를 활용한 지속 가능한 제품 개발로 브랜드 이미지 강화\",\n        \"기대효과 3: 혁신적인 디자인과 기술적 차별화를 통한 시장 경쟁력 확보\"\n    ],\n    \"additional_information\": {\n        \"product_options\": \"리모컨에 LCD 디스플레이 통합 옵션과 푸시 버튼 방식의 저렴한 옵션 제공\",\n        \"collaboration_with_manufacturing\": \"제조 부서와의 협력을 통해 샘플 센서 및 스피커 장치 개발, 가격 책정 및 생산 가능성 검토\",\n        \"technical_details\": \"리모컨의 내부 구조 및 버튼 작동 방식에 대한 구체적인 설명 포함\"\n    },\n    \"detailed_discussion_points\": [\n        \"리모컨의 내부 구조 및 버튼 작동 방식: 푸시 버튼 방식의 작은 고무 버튼을 사용하여 메시지를 인코딩하는 칩과 통신\",\n        \"운동 에너지원의 구체적인 연구: 장치를 움직여 에너지를 얻는 방법을 연구하고, 손 사이로 던져 작동 가능성 검토\",\n        \"제조 부서와의 협력 사항: 제조 부서에서 개발한 샘플 센서와 스피커 장치를 활용하여 시제품 제작 및 테스트\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2013c/05_final_result.json",
+    "utterance_count": 221,
+    "original_transcript_length": 8212,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8212
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4985
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:27:00.665755"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "train_245_chunk_1",
+  "source_dir": "result_ES2012b",
+  "notion_output": "```json\n{\n    \"project_name\": \"텔레텍스트 및 차세대 리모컨 혁신 프로젝트\",\n    \"project_purpose\": \"텔레텍스트 기능을 텔레비전에만 적용하고, 사용자 친화적이며 기술적으로 혁신적인 리모컨을 개발하여 사용자 경험을 개선하고 비용 효율성을 높이는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 텔레텍스트 기능을 텔레비전에만 제한적으로 적용하여 사용자 혼란 감소\",\n        \"목표 2: 사용자 친화적이고 혁신적인 리모컨 디자인 개발\",\n        \"목표 3: 비용 효율적인 리모컨 제작 및 배터리 수명 최적화\"\n    ],\n    \"core_idea\": \"텔레텍스트 기능의 제한적 적용과 버튼 없는 리모컨의 혁신적 디자인\",\n    \"idea_description\": \"텔레텍스트를 텔레비전에만 적용하여 사용자 혼란을 줄이고, 버튼 없는 리모컨을 통해 사용자 경험을 개선하며, 비용 효율성을 극대화한다. 리모컨은 충전식 배터리와 태양광을 활용하여 에너지 효율성을 높인다.\",\n    \"execution_plan\": [\n        \"1단계: 텔레텍스트 기능 요구사항 분석 및 설계 (2024.01.01 ~ 2024.02.28)\",\n        \"2단계: 리모컨 디자인 프로토타입 개발 및 기술적 문제 해결 (2024.03.01 ~ 2024.04.30)\",\n        \"3단계: 비용 효율성 검토 및 최종 디자인 확정, 배터리 수명 최적화 (2024.05.01 ~ 2024.06.30)\"\n    ],\n    \"technical_discussions\": [\n        \"리모컨의 버튼 없는 디자인을 통해 사용자의 편의성을 높이고, 비용을 절감할 수 있는 방안 모색\",\n        \"리모컨의 에너지원으로 충전식 배터리와 태양광을 활용하여 지속 가능한 사용 가능성 검토\",\n        \"사용자의 채널 변경 및 볼륨 조절을 음성 명령으로 대체할 수 있는 기술적 가능성 탐색\",\n        \"리모컨의 사용자가 수동으로 채널이나 볼륨을 변경하는 문제 해결 방안 탐색\",\n        \"리모컨의 일반적인 사용 패턴을 분석하여 더 나은 사용자 경험 제공\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 텔레텍스트 기능의 제한적 적용으로 사용자 혼란 감소\",\n        \"기대효과 2: 혁신적인 리모컨 디자인으로 사용자 만족도 향상\",\n        \"기대효과 3: 비용 절감으로 인한 가격 경쟁력 강화\",\n        \"기대효과 4: 에너지 효율성 향상으로 지속 가능한 제품 제공\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2012b/05_final_result.json",
+    "utterance_count": 165,
+    "original_transcript_length": 5743,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 5743
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4925
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:04:09.422853"
+  }
+}

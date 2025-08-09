@@ -1,0 +1,38 @@
+{
+  "id": "train_258_chunk_2",
+  "source_dir": "result_Bro021_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"Aurora 데이터베이스 노이즈 및 성능 최적화 프로젝트\",\n    \"project_purpose\": \"Aurora 데이터베이스의 노이즈 문제를 해결하고, LDA 필터 및 코드북 최적화를 통해 테스트 성능을 향상시키는 것\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_F\",\n    \"core_objectives\": [\n        \"목표 1: Aurora 데이터베이스의 노이즈 영향을 분석하고 보상 방법 개발\",\n        \"목표 2: 로그 에너지를 활용한 성능 개선 방안 검토\",\n        \"목표 3: LDA 필터 문제 해결 및 코드북 최적화를 통한 데이터베이스 성능 최적화\",\n        \"목표 4: Broadcast News net 훈련을 통한 데이터베이스 성능 최적화\",\n        \"목표 5: 초기 코드북의 역할을 명확히 하고 개선 방안 제시\"\n    ],\n    \"core_idea\": \"Aurora 데이터베이스의 노이즈 문제와 LDA 필터 문제를 해결하여 데이터베이스의 테스트 성능을 최적화하는 것\",\n    \"idea_description\": \"Aurora 데이터베이스의 노이즈 문제를 해결하기 위해 로그 에너지를 활용한 성능 개선 방안을 검토하고, LDA 필터 문제를 해결하며, 코드북 최적화를 통해 데이터베이스의 성능을 최적화합니다. 또한, Broadcast News net 훈련을 통해 데이터베이스의 성능을 최적화하고, 초기 코드북의 역할을 명확히 하여 개선합니다.\",\n    \"execution_plan\": [\n        {\n            \"task\": \"Aurora 데이터베이스의 노이즈 영향 분석\",\n            \"period\": \"2023.11.01 ~ 2023.11.15\",\n            \"responsible\": \"Speaker_F\",\n            \"steps\": [\n                \"노이즈 데이터 수집 및 분석\",\n                \"노이즈 보상 방법론 개발\"\n            ]\n        },\n        {\n            \"task\": \"로그 에너지 활용 방안 검토 및 테스트\",\n            \"period\": \"2023.11.16 ~ 2023.12.15\",\n            \"responsible\": \"Speaker_G\",\n            \"steps\": [\n                \"로그 에너지 적용 테스트\",\n                \"성능 개선 효과 분석\"\n            ]\n        },\n        {\n            \"task\": \"LDA 필터 문제 해결 및 코드북 최적화\",\n            \"period\": \"2023.12.16 ~ 2024.01.15\",\n            \"responsible\": \"Speaker_B\",\n            \"steps\": [\n                \"LDA 필터 문제 원인 분석\",\n                \"코드북 최적화 방안 수립 및 적용\"\n            ]\n        },\n        {\n            \"task\": \"Broadcast News net 훈련 및 성능 최적화\",\n            \"period\": \"2024.01.16 ~ 2024.01.31\",\n            \"responsible\": \"Speaker_E\",\n            \"steps\": [\n                \"Broadcast News net 훈련 데이터 준비\",\n                \"훈련 및 성능 평가\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: Aurora 데이터베이스의 테스트 성능 향상\",\n        \"기대효과 2: 로그 에너지를 활용한 데이터베이스의 노이즈 문제 해결\",\n        \"기대효과 3: LDA 필터 문제 해결 및 코드북 최적화를 통한 성능 개선\",\n        \"기대효과 4: Broadcast News net 훈련을 통한 데이터베이스 최적화\",\n        \"기대효과 5: 초기 코드북의 역할 명확화 및 성능 개선\"\n    ],\n    \"measurement_metrics\": [\n        \"Aurora 데이터베이스의 테스트 성능 향상률\",\n        \"로그 에너지를 활용한 노이즈 감소율\",\n        \"LDA 필터 문제 해결 후 인식률 향상\",\n        \"Broadcast News net 훈련 후 성능 최적화 수준\",\n        \"초기 코드북 개선 후 성능 변화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro021_processed/05_final_result.json",
+    "utterance_count": 400,
+    "original_transcript_length": 13856,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 13856
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:59:43.881955"
+  }
+}

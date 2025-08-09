@@ -1,0 +1,62 @@
+{
+  "id": "val_313_chunk_1",
+  "source_dir": "result_Bmr001_processed",
+  "notion_output": {
+    "project_name": "실시간 회의 효율성 강화 및 디지털 통합 마이크 시스템 개발",
+    "project_purpose": "회의 중 화상과 소통의 효율성을 극대화하고, 디지털 통합 마이크 시스템을 통해 협업의 질을 향상시키며, 회의록을 통해 의사결정의 신속성과 정확성을 높임.",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: 회의 중 화상과 소통의 효율성을 30% 이상 증가",
+      "목표 2: 디지털 통합 마이크 시스템 개발을 통해 회의 중 소통의 편의성과 정확성 확보",
+      "목표 3: 회의록을 활용한 의사결정 속도와 정확성 향상"
+    ],
+    "core_idea": "회의 중 화상과 소통의 효율성을 극대화하기 위한 실시간 데이터 수집 및 분석 시스템과 디지털 통합 마이크 시스템을 결합하여 협업의 질을 높이는 것",
+    "idea_description": "회의 중 화상과 소통의 효율성을 극대화하기 위해 실시간 데이터 수집 및 분석 시스템을 도입하고, 디지털 통합 마이크 시스템을 통해 소통의 편의성을 높이며, 회의록을 활용하여 의사결정의 신속성과 정확성을 높이는 것입니다. 또한, 회의 중 화상과 소통의 효율성을 극대화하기 위해 다양한 마이크를 사용하고, 이를 통해 회의 중 소통의 편의성을 높이는 것이 목표입니다.",
+    "execution_plan": [
+      {
+        "phase": "1단계",
+        "description": "회의 중 화상과 소통의 효율성을 극대화하기 위한 실시간 데이터 수집 및 분석 시스템 설계 및 개발",
+        "duration": "2024.01.01 ~ 2024.01.31"
+      },
+      {
+        "phase": "2단계",
+        "description": "디지털 통합 마이크 시스템 개발 및 테스트",
+        "duration": "2024.02.01 ~ 2024.02.28"
+      },
+      {
+        "phase": "3단계",
+        "description": "회의록을 활용한 의사결정 속도와 정확성 향상을 위한 시스템 최적화",
+        "duration": "2024.03.01 ~ 2024.03.31"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 회의 중 화상과 소통의 효율성이 30% 이상 증가하여 시간 절약 및 생산성 향상",
+      "기대효과 2: 디지털 통합 마이크 시스템을 통해 소통의 편의성과 정확성 확보",
+      "기대효과 3: 회의록을 활용한 의사결정 속도와 정확성 향상으로 인한 조직 운영 효율성 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_Bmr001_processed/05_final_result.json",
+    "utterance_count": 400,
+    "original_transcript_length": 13357,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 13357
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4982
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-06T16:20:36.235072"
+  }
+}

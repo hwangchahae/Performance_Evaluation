@@ -1,0 +1,44 @@
+{
+  "id": "val_008_chunk_2",
+  "source_dir": "result_제22대국회 제426회(임시회) 제1차 과학기술정보방송통신위원회(전체회의) (2025.06.26.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"AI 예산 재편 및 피지컬 AI 선도 사업\",\n    \"project_purpose\": \"AI 관련 예산의 효율적 재편성과 피지컬 AI 선도 사업 추진\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"과학기술정보통신부장관 유상임\",\n    \"core_objectives\": [\n        \"목표 1: AI 예산의 부처별 분산 문제 해결 및 통합 전략 수립\",\n        \"목표 2: 피지컬 AI 선도 사업의 재추진 및 예산 확보\",\n        \"목표 3: 이공계 연구생활장려금 지원 사업의 효율적 운영\"\n    ],\n    \"core_idea\": \"AI 예산의 통합적 관리와 피지컬 AI 기술 선도를 통해 국가 경쟁력 강화\",\n    \"idea_description\": \"AI 관련 예산이 부처별로 분산되어 있는 문제를 해결하고, 피지컬 AI 기술을 선도하기 위한 통합적 예산 관리 및 사업 추진 전략을 수립한다. 이를 통해 글로벌 협업 및 국가 경쟁력을 강화한다.\",\n    \"execution_plan\": \"1. AI 예산의 부처별 분산 문제를 해결하기 위한 회의 개최 및 통합 전략 수립 (2024.01.01 ~ 2024.02.28)\\n2. 피지컬 AI 선도 사업의 구체적 계획 수립 및 예산 확보 (2024.03.01 ~ 2024.04.30)\\n3. 이공계 연구생활장려금 지원 사업의 운영 개선 및 지원 확대 (2024.05.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: AI 관련 예산의 효율적 사용을 통한 국가 재정 건전성 강화\",\n        \"기대효과 2: 피지컬 AI 기술 선도를 통한 글로벌 경쟁력 확보\",\n        \"기대효과 3: 이공계 연구자들의 연구 환경 개선 및 연구 성과 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제426회(임시회) 제1차 과학기술정보방송통신위원회(전체회의) (2025.06.26.)/05_final_result.json",
+    "utterance_count": 296,
+    "original_transcript_length": 19586,
+    "speakers": [
+      "위원장 최민희",
+      "정동영 위원",
+      "수석전문위원 이복우",
+      "과학기술정보통신부제1차관 이창윤",
+      "이훈기 위원",
+      "과학기술정보통신부제2차관 강도현",
+      "한민수 위원",
+      "이해민 위원",
+      "최형두 위원",
+      "황정아 위원",
+      "김현 위원",
+      "과학기술정보통신부장관 유상임",
+      "박충권 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 19586
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T09:34:49.838190"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "val_143_chunk_1",
+  "source_dir": "result_IS1009b",
+  "notion_output": {
+    "project_name": "촉각 및 시각적 인터페이스 기반 스마트 리모컨 개발 프로젝트",
+    "project_purpose": "사용자 친화적이고 직관적인 촉각 및 시각적 인터페이스를 통해 리모컨의 사용성을 향상시키고, 다양한 사용자의 필요를 충족하며, 비용 효율적인 제품으로 자리 잡기",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 촉각 및 시각적 인터페이스를 통한 리모컨의 사용성 향상",
+      "목표 2: 다양한 사용자 그룹을 위한 맞춤형 기능 제공",
+      "목표 3: 비용 효율적인 생산 및 마케팅 전략 수립"
+    ],
+    "core_idea": "촉각 및 시각적 인터페이스를 활용한 리모컨의 사용성을 높이며, 다양한 사용자 그룹을 위한 맞춤형 기능을 제공하여 시장 경쟁력을 강화한다.",
+    "idea_description": "리모컨의 버튼은 촉각적으로 구분되며, 채널 변경과 볼륨 조절 등 기능을 명확히 표시한다. 또한, 사용자가 리모컨을 조작할 때마다 전구가 켜지고, 적외선 전구가 반응하여 시각적 피드백을 제공한다. 이러한 기능들은 사용자 경험을 향상시키고, 다양한 사용자 그룹을 위한 맞춤형 솔루션을 제공한다.",
+    "execution_plan": [
+      {
+        "phase": "1차 연구 및 설계",
+        "duration": "2024.01.01 ~ 2024.02.28",
+        "details": "시장 조사 및 사용자 요구 분석, 촉각 및 시각적 인터페이스의 기술적 검토, 초기 설계 및 프로토타입 개발"
+      },
+      {
+        "phase": "2차 개발 및 테스트",
+        "duration": "2024.03.01 ~ 2024.04.30",
+        "details": "프로토타입의 기능 테스트 및 사용자 피드백 수집, 최적화된 설계 및 개선"
+      },
+      {
+        "phase": "3차 생산 준비 및 마케팅 전략 수립",
+        "duration": "2024.05.01 ~ 2024.06.30",
+        "details": "생산 준비물 확보, 마케팅 전략 수립 및 실행 계획 마련, 최종 제품 검증"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 사용자 친화적 인터페이스로 인한 리모컨 사용률 증가",
+      "기대효과 2: 다양한 사용자 그룹을 위한 맞춤형 기능 제공으로 인한 고객 만족도 향상",
+      "기대효과 3: 비용 효율적인 생산 및 마케팅 전략으로 인한 수익성 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_IS1009b/05_final_result.json",
+    "utterance_count": 214,
+    "original_transcript_length": 8139,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8139
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4960
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-06T13:56:52.325876"
+  }
+}

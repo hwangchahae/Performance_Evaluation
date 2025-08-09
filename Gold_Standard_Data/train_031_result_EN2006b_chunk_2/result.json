@@ -1,0 +1,35 @@
+{
+  "id": "train_031_chunk_2",
+  "source_dir": "result_EN2006b",
+  "notion_output": "```json\n{\n    \"project_name\": \"적색편이 천체 및 AGN 스펙트럼 분석 프로젝트\",\n    \"project_purpose\": \"적색편이를 보이는 천체와 AGN의 스펙트럼 분석을 통해 흡수 특성과 방출선 후보를 식별하고, 이를 통해 우주 물체의 분류 및 특성화를 수행\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: UV 및 적외선 스펙트럼의 흡수 특성 분석\",\n        \"목표 2: AGN 및 스타버스트 은하의 분류 기준 확립\",\n        \"목표 3: 특정 적색편이를 보이는 천체의 식별 및 특성화\",\n        \"목표 4: 스펙트럼 성분의 플럭스 및 선 너비 측정\"\n    ],\n    \"core_idea\": \"적색편이를 보이는 천체와 AGN의 스펙트럼 데이터를 분석하여 우주 물체의 특성을 파악하고, 이를 통해 새로운 분류 체계를 개발\",\n    \"idea_description\": \"UV 및 적외선 스펙트럼을 분석하여 흡수 특성과 방출선을 식별하고, 이를 통해 AGN과 스타버스트 은하의 분류를 개선. 또한, 스펙트럼 성분의 플럭스와 선 너비를 측정하여 물체의 물리적 특성을 파악. 특히, 특정 적색편이를 보이는 천체에 대한 분석을 강화.\",\n    \"execution_plan\": \"1단계: 데이터 수집 및 초기 분석 (2024.01.01 ~ 2024.02.28)\\n2단계: UV 및 적외선 스펙트럼의 흡수 특성 및 방출선 후보 식별 (2024.03.01 ~ 2024.04.15)\\n3단계: 특정 적색편이를 보이는 천체의 식별 및 특성화 (2024.04.16 ~ 2024.05.15)\\n4단계: AGN 및 스타버스트 은하의 분류 기준 확립 (2024.05.16 ~ 2024.06.15)\\n5단계: 최종 보고서 작성 및 결과 발표 (2024.06.16 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 은하 및 AGN의 분류 체계 개선을 통한 연구 효율성 향상\",\n        \"기대효과 2: 스펙트럼 분석을 통한 우주 물체의 물리적 특성 파악\",\n        \"기대효과 3: 새로운 분류 기준을 통한 학술적 기여 및 데이터베이스 업데이트\",\n        \"기대효과 4: 적색편이를 보이는 천체에 대한 이해도 증진\"\n    ],\n    \"additional_notes\": \"회의에서 논의된 허블 및 흡수선계 관련 세부 사항을 반영하여 분석의 정확성을 높일 것. 특히, 특정 적색편이를 보이는 천체에 대한 연구를 강화하여 새로운 천체 분류 가능성을 탐색.\"\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_EN2006b/05_final_result.json",
+    "utterance_count": 483,
+    "original_transcript_length": 15449,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 15449
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 4,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:18:49.373079"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "train_179_chunk_6",
+  "source_dir": "result_Bro027_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"신경망 기반 VAD 개선 프로젝트\",\n    \"project_purpose\": \"신경망을 활용한 VAD 시스템의 성능 개선 및 지연 시간 단축\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 신경망을 활용한 VAD 시스템의 성능 개선\",\n        \"목표 2: SNR과 에너지를 활용한 지연 시간 단축\",\n        \"목표 3: 다양한 노이즈 조건에 대한 신경망 학습\"\n    ],\n    \"core_idea\": \"신경망을 활용하여 VAD 시스템의 성능을 개선하고 지연 시간을 줄이는 것\",\n    \"idea_description\": \"기존 VAD 시스템의 한계를 극복하기 위해 신경망을 활용하여 다양한 노이즈 조건에서도 성능을 유지할 수 있도록 개선합니다. 또한, SNR과 에너지를 활용하여 지연 시간을 줄이는 방법을 연구합니다.\",\n    \"execution_plan\": \"1단계: 신경망 기반 VAD 시스템의 현재 성능 평가 (2024.01.01 ~ 2024.01.15)\\n2단계: SNR과 에너지를 활용한 지연 시간 단축 방안 연구 (2024.01.16 ~ 2024.02.15)\\n3단계: 다양한 노이즈 조건에 대한 신경망 학습 및 테스트 (2024.02.16 ~ 2024.03.15)\\n4단계: 최종 성능 평가 및 보고서 작성 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: VAD 시스템의 성능 개선으로 인한 인식률 향상\",\n        \"기대효과 2: 지연 시간 단축으로 인한 실시간 처리 가능성 증가\",\n        \"기대효과 3: 다양한 노이즈 조건에서도 안정적인 성능 유지\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro027_processed/05_final_result.json",
+    "utterance_count": 833,
+    "original_transcript_length": 27663,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 27663
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 7,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:07:58.350725"
+  }
+}

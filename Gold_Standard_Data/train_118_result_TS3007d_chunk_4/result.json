@@ -1,0 +1,35 @@
+{
+  "id": "train_118_chunk_4",
+  "source_dir": "result_TS3007d",
+  "notion_output": "```json\n{\n    \"project_name\": \"탈착식 인터페이스 기반 소규모 그룹 의사 결정 앱 개발\",\n    \"project_purpose\": \"소규모 그룹의 신속하고 효율적인 의사 결정을 지원하며, 사용자 맞춤형 기능을 제공하는 앱 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 소규모 그룹을 위한 사용자 친화적인 투표 앱 개발\",\n        \"목표 2: 단일 곡선 알고리즘을 활용한 의사 결정 프로세스 최적화\",\n        \"목표 3: 탈착식 인터페이스를 통한 사용자 경험 향상 및 맞춤형 기능 제공\"\n    ],\n    \"core_idea\": \"단일 곡선 알고리즘과 탈착식 인터페이스를 활용한 소규모 그룹의 효율적인 의사 결정 지원\",\n    \"idea_description\": \"단일 곡선 알고리즘을 사용하여 소규모 그룹이 빠르고 효율적으로 결정을 내릴 수 있도록 지원하는 앱을 개발합니다. 탈착식 인터페이스를 통해 사용자는 필요에 따라 기능을 추가하거나 제거할 수 있으며, 사용자 경험을 극대화합니다.\",\n    \"additional_features\": [\n        \"탈착식 인터페이스: 사용자가 필요에 따라 기능을 추가하거나 제거할 수 있는 유연한 인터페이스 제공\",\n        \"사소한 추가 기능: 사용자 맞춤형 알림 설정, 투표 결과 시각화, 플립보드를 활용한 실시간 의견 수렴\"\n    ],\n    \"execution_plan\": [\n        {\n            \"step\": \"1단계\",\n            \"description\": \"파워포인트로 초기 구상 및 개념 정리, 탈착식 인터페이스 설계\",\n            \"period\": \"2024.01.01 ~ 2024.01.15\"\n        },\n        {\n            \"step\": \"2단계\",\n            \"description\": \"플립보드를 활용한 현장 피드백 수집 및 추가 기능 논의, 탈착식 인터페이스의 초기 프로토타입 테스트\",\n            \"period\": \"2024.01.16 ~ 2024.01.31\"\n        },\n        {\n            \"step\": \"3단계\",\n            \"description\": \"단일 곡선 알고리즘 적용 및 앱 개발, 탈착식 인터페이스 통합\",\n            \"period\": \"2024.02.01 ~ 2024.02.28\"\n        },\n        {\n            \"step\": \"4단계\",\n            \"description\": \"사용자 테스트 및 피드백 반영, 추가 기능 최적화 및 인터페이스 개선\",\n            \"period\": \"2024.03.01 ~ 2024.03.15\"\n        },\n        {\n            \"step\": \"5단계\",\n            \"description\": \"최종 출시 준비 및 마케팅 전략 수립, 탈착식 기능의 홍보\",\n            \"period\": \"2024.03.16 ~ 2024.03.31\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 소규모 그룹의 의사 결정 속도 30% 향상\",\n        \"기대효과 2: 사용자 만족도 20% 증가\",\n        \"기대효과 3: 시장 점유율 10% 확대\",\n        \"기대효과 4: 사용자 맞춤형 기능 제공으로 인한 앱 사용률 증가\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3007d/05_final_result.json",
+    "utterance_count": 471,
+    "original_transcript_length": 14125,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 14125
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 4,
+      "chunk_length": 662
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:26:28.490655"
+  }
+}

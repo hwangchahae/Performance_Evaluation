@@ -1,0 +1,71 @@
+{
+  "id": "result_Bed009_processed_chunk_5",
+  "source_dir": "result_Bed009_processed",
+  "notion_output": {
+    "project_name": "심층적 의미론 및 패턴 인식 기능 개발",
+    "project_purpose": "심층적 의미론과 패턴 인식 기능을 통해 다양한 환경에서의 의사소통 효율성을 극대화하고, 사용자의 요구를 정확히 반영하여 맞춤형 서비스를 제공함.",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: 심층적 의미론과 패턴 인식 기능 구축",
+      "목표 2: 다양한 환경에서의 의사소통 효율성 증대",
+      "목표 3: 사용자 맞춤형 서비스 개발"
+    ],
+    "core_idea": "심층적 의미론과 패턴 인식 기능을 활용하여 다양한 환경에서의 의사소통을 최적화하고, 사용자의 요구를 정확히 반영하여 맞춤형 서비스를 제공함.",
+    "idea_description": "심층적 의미론과 패턴 인식 기능을 통해 다양한 환경에서의 의사소통을 최적화하고, 사용자의 요구를 정확히 반영하여 맞춤형 서비스를 제공함. 이는 사용자가 원하는 정보를 빠르고 정확하게 얻을 수 있도록 함.",
+    "execution_plan": [
+      {
+        "phase": "설계 및 기반 구축",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "activities": [
+          "심층적 의미론과 패턴 인식 기능 설계",
+          "기술적 기반 구축 및 초기 테스트"
+        ]
+      },
+      {
+        "phase": "개발 및 테스트",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "activities": [
+          "패턴 인식 기능 개발",
+          "심층적 의미론 적용",
+          "다양한 환경 테스트 및 피드백 수집"
+        ]
+      },
+      {
+        "phase": "최종 배포 및 운영",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "activities": [
+          "최종 버전 배포",
+          "사용자 교육 및 지원 제공",
+          "운영 유지보수 및 피드백 반영"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 다양한 환경에서의 의사소통 효율성 증대",
+      "기대효과 2: 사용자 맞춤형 서비스 제공으로 고객 만족도 향상",
+      "기대효과 3: 기술적 혁신을 통한 새로운 시장 확장 가능성"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bed009_processed/05_final_result.json",
+    "utterance_count": 691,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_F",
+      "Speaker_G"
+    ],
+    "original_length": 23895,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-07T03:00:51.110408"
+  }
+}

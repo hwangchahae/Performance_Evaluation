@@ -1,0 +1,57 @@
+{
+  "id": "result_IS1000d_chunk_2",
+  "source_dir": "result_IS1000d",
+  "notion_output": {
+    "project_name": "혁신형 스마트 리모컨 프로젝트",
+    "project_purpose": "시장에서 독특하게 차별화되는 혁신적인 스마트 리모컨을 개발하여 높은 매출 및 소비자 만족도를 확보",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 혁신적인 디자인과 기능을 갖춘 스마트 리모컨 개발",
+      "목표 2: 다양한 색상과 표지 선택 옵션 제공",
+      "목표 3: 경쟁력 있는 가격대 설정 및 판매 전략 수립"
+    ],
+    "core_idea": "시장에서 독특하게 차별화되는 혁신적인 디자인과 기능을 갖춘 스마트 리모컨을 개발",
+    "idea_description": "현재 시장에 존재하는 일반 리모컨과의 차별점을 강조하며, 혁신적인 디자인과 기능을 통해 소비자들에게 큰 매력을 제공한다.",
+    "execution_plan": [
+      {
+        "phase": "디자인 및 기능 설계",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "description": "혁신적인 디자인과 기능을 포함한 제품 개념을 수립하고, 시장 조사를 진행하여 소비자의 니즈를 반영"
+      },
+      {
+        "phase": "기술 개발 및 테스트",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "description": "디자인 및 기능을 기반으로 기술 개발을 진행하고, 테스트를 통해 문제점 발견 및 수정"
+      },
+      {
+        "phase": "제품 생산 및 포장",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "description": "개발 완료된 제품을 생산하고, 포장을 해서 준비"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 높은 매출 성과 도출",
+      "기대효과 2: 소비자 만족도 증가",
+      "기대효과 3: 시장에서의 브랜드 이미지 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_IS1000d/05_final_result.json",
+    "utterance_count": 433,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "original_length": 13960,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-07T02:57:42.596103"
+  }
+}

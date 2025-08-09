@@ -1,0 +1,44 @@
+{
+  "id": "result_Bed009_processed_chunk_1",
+  "source_dir": "result_Bed009_processed",
+  "notion_output": {
+    "project_name": "SmartKom 관광 정보 시스템 개선 프로젝트",
+    "project_purpose": "사용자의 질문을 효율적으로 처리하고 정확한 정보 및 방향을 제공하는 관광 정보 시스템 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: SmartKom 인식기의 파서 인터페이스 개발 및 테스트",
+      "목표 2: M-three-L 구조를 통해 복잡한 쿼리를 처리하는 능력 강화",
+      "목표 3: 사용자 데이터 수집 및 분석을 통한 서비스 품질 개선"
+    ],
+    "core_idea": "사용자 입력을 처리하고 정확한 정보를 제공하는 관광 정보 시스템 개발",
+    "idea_description": "SmartKom 인식기를 활용하여 사용자의 질문을 분석하고, M-three-L 구조를 통해 복잡한 쿼리를 처리하며, 사용자 데이터를 수집하여 서비스를 지속적으로 개선하는 시스템",
+    "execution_plan": "1단계: 파서 인터페이스 개발 및 테스트 (2024.01.01 ~ 2024.02.28)\n2단계: M-three-L 구조 강화 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 사용자 데이터 수집 및 분석 (2024.05.01 ~ 2024.05.31)\n4단계: 시스템 통합 및 최종 테스트 (2024.06.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 질문 처리 속도 및 정확도 향상",
+      "기대효과 2: 사용자 경험 개선을 통한 고객 만족도 증가",
+      "기대효과 3: 지속적인 데이터 분석을 통한 서비스 품질 유지 및 개선"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bed009_processed/05_final_result.json",
+    "utterance_count": 691,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_E"
+    ],
+    "original_length": 23895,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-07T02:59:00.274648"
+  }
+}

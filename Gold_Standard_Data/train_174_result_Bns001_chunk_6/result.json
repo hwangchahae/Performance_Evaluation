@@ -1,0 +1,38 @@
+{
+  "id": "train_174_chunk_6",
+  "source_dir": "result_Bns001_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"UMTS 및 GPS 통합 위치 정보 서비스 최적화 프로젝트\",\n    \"project_purpose\": \"UMTS와 GPS의 통합을 통해 위치 정보 서비스의 품질 및 효율성을 극대화하고, 사용자 경험을 향상시키는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"미정 (회의록에서 명확히 언급되지 않음)\",\n    \"core_objectives\": [\n        \"목표 1: UMTS 기반 위치 정보 서비스의 대역폭 최적화 및 최소 보증 대역폭 설정\",\n        \"목표 2: 핸드오프 및 핸드오버 기술의 개선을 통한 끊김 없는 서비스 제공\",\n        \"목표 3: UMTS와 GPS, 기지국 기반의 통합 서비스 개발 및 테스트\",\n        \"목표 4: UMTS와 GPS의 통합 방법에 대한 구체적인 연구 및 구현\"\n    ],\n    \"core_idea\": \"UMTS와 GPS, 기지국 기반의 위치 정보를 통합하여 사용자에게 향상된 서비스 품질을 제공\",\n    \"idea_description\": \"UMTS의 대역폭을 최적화하고, GPS 및 기지국 기반의 위치 정보를 통합하여 핸드오프 및 핸드오버 기술을 개선, 끊김 없는 사용자 경험을 제공하는 것을 목표로 한다. 특히, UMTS와 GPS의 통합 방법을 구체적으로 연구하여 적용한다.\",\n    \"execution_plan\": \"1단계: UMTS 대역폭 최적화 및 최소 보증 대역폭 설정 연구 (2024.01.01 ~ 2024.02.28)\\n2단계: 핸드오프 및 핸드오버 기술 개선 연구 (2024.03.01 ~ 2024.04.30)\\n3단계: UMTS와 GPS, 기지국 기반의 통합 서비스 개발 및 테스트 (2024.05.01 ~ 2024.06.30)\\n4단계: UMTS와 GPS의 통합 방법에 대한 구체적인 연구 및 구현 (2024.01.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 위치 정보 서비스의 대역폭 사용 최적화로 인한 비용 절감\",\n        \"기대효과 2: 핸드오프/핸드오버 기술 개선으로 인한 사용자 경험 향상\",\n        \"기대효과 3: 통합 서비스 제공으로 인한 시장 경쟁력 강화\",\n        \"기대효과 4: UMTS와 GPS의 통합을 통한 새로운 서비스 가능성 탐색\"\n    ],\n    \"additional_notes\": [\n        \"회의록에서 언급된 바르완 프로젝트와 다이달로스 프로젝트의 연구 결과를 참고하여 UMTS와 GPS의 통합 방법을 구체화할 필요가 있음\",\n        \"회의록에서 논의된 UMTS의 잠재적 서비스 문제점과 해결 방안을 추가적으로 검토하여 프로젝트에 반영해야 함\",\n        \"프로젝트 매니저는 회의록에서 명확히 언급되지 않았으므로, 관련 전문가와의 협의를 통해 지정해야 함\",\n        \"회의에서 언급된 UMTS와 GPS의 구체적인 통합 방법을 연구하고, 이를 실행 계획에 반영할 필요가 있음\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bns001_processed/05_final_result.json",
+    "utterance_count": 1197,
+    "original_transcript_length": 42240,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 10,
+      "original_length": 42240
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 10,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:51:19.477890"
+  }
+}

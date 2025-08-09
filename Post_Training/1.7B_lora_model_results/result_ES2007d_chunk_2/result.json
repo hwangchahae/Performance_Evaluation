@@ -1,0 +1,57 @@
+{
+  "id": "result_ES2007d_chunk_2",
+  "source_dir": "result_ES2007d",
+  "notion_output": {
+    "project_name": "혁신형 리모컨 개발 및 시장 출시 프로젝트",
+    "project_purpose": "새로운 디자인과 기능을 통해 시장 경쟁력을 강화하고, 고객의 요구를 충족시키며, 브랜드 이미지를 확보하기 위한 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 시장에서 독특한 디자인과 혁신적인 기능을 갖춘 리모컨 개발",
+      "목표 2: 다양한 사용자층을 대상으로 한 가격 책정 및 판매 전략 수립",
+      "목표 3: 시장 출시 후에도 지속적인 피드백을 수집하여 개선점 도출"
+    ],
+    "core_idea": "고객의 요구와 기대에 부합하는 혁신적인 디자인과 기능을 갖춘 리모컨 개발",
+    "idea_description": "현재 시장에서 가장 인기를 얻고 있는 리모컨의 디자인과 기능을 기준으로 새롭게 개발하며, 고객의 요구와 피드백을 반영하여 최종 제품을 제작한다.",
+    "execution_plan": [
+      {
+        "phase": "연구 및 설계",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "description": "시장 트렌드 및 고객 요구 분석, 디자인 및 기능 개념 수립"
+      },
+      {
+        "phase": "개발 및 테스트",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "description": "디자인 및 기능 개발, 초기 테스트 및 수정"
+      },
+      {
+        "phase": "제조 및 공급",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "description": "제조 과정 및 공급망 관리"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 시장에서의 브랜드 이미지 강화",
+      "기대효과 2: 고객의 요구를 충족함으로써 신뢰도 증가",
+      "기대효과 3: 시장 출시 후 지속적인 피드백을 통한 제품 개선 및 개발 효율성 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_ES2007d/05_final_result.json",
+    "utterance_count": 210,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "original_length": 6842,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-07T02:58:30.305967"
+  }
+}

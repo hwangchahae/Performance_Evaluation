@@ -1,0 +1,37 @@
+{
+  "id": "train_127_chunk_3",
+  "source_dir": "result_Bed015_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"PRM 및 정신적 공간 활용 프로젝트\",\n    \"project_purpose\": \"PRM의 일반화된 규칙을 인스턴스화하여 정신적 공간과의 관계를 명확히 하고, 이를 통해 새로운 분석 및 구현 방법을 제시함으로써 실무적 활용성을 높임\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_F\",\n    \"core_objectives\": [\n        \"목표 1: PRM의 일반화된 규칙을 정의하고 인스턴스화하여 정신적 공간과의 관계를 명확히 함\",\n        \"목표 2: 회의에서 논의된 구체적인 사례를 통해 정신적 공간의 정의와 활용 방법을 구체화\",\n        \"목표 3: EML 강연을 통해 프로젝트 결과를 발표하고 피드백을 받아 실무 적용성을 높임\"\n    ],\n    \"core_idea\": \"PRM의 규칙을 인스턴스화하여 정신적 공간과의 관계를 명확히 하고, 이를 통해 새로운 분석 및 구현 방법을 제시하여 실무적 활용성을 높입니다.\",\n    \"idea_description\": \"PRM의 규칙을 일반화된 형태로 제공하고, 이를 인스턴스화하여 정신적 공간과의 관계를 명확히 함으로써 새로운 분석 및 구현 방법을 제시합니다. 회의에서 논의된 구체적인 사례와 예시를 통해 정신적 공간의 정의와 활용 방법을 구체화하며, 이를 통해 도메인의 온톨로지와 컨텍스트 종속성을 활용하여 더욱 효율적인 데이터 처리 및 분석이 가능해집니다.\",\n    \"execution_plan\": [\n        \"1단계: PRM 규칙의 일반화 및 인스턴스화 (2024.01.01 ~ 2024.01.31)\",\n        \"2단계: 정신적 공간과의 관계 분석 및 구현, 회의에서 논의된 구체적인 사례 적용 (2024.02.01 ~ 2024.02.28)\",\n        \"3단계: EML 강연 준비 및 발표, 실무 적용성 피드백 수집 (2024.03.01 ~ 2024.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: PRM의 일반화된 규칙을 통해 정신적 공간과의 관계를 명확히 하여 데이터 분석의 효율성 증대\",\n        \"기대효과 2: EML 강연을 통해 프로젝트 결과를 공유하고 피드백을 받아 실무 적용성을 높임\",\n        \"기대효과 3: 도메인의 온톨로지와 컨텍스트 종속성을 활용한 새로운 분석 및 구현 방법 제시 및 실무 적용 가능성 증대\"\n    ],\n    \"additional_details\": {\n        \"정신적 공간의 정의\": \"정신적 공간은 논의된 주제나 개념이 머릿속에서 어떻게 구조화되고 이해되는지를 설명하는 개념으로, 이를 통해 정보의 인식과 처리 방식을 개선할 수 있습니다.\",\n        \"EML 강연의 목표\": \"EML 강연에서는 PRM과 정신적 공간의 관계를 설명하고, 이를 통해 얻어진 분석 결과와 실무 적용 사례를 공유하며, 청중으로부터 피드백을 받아 프로젝트의 방향성을 조정합니다.\",\n        \"기술적 접근 방법\": \"PRM의 규칙을 인스턴스화하는 과정에서 도메인 온톨로지와 컨텍스트 종속성을 활용하여 데이터의 구조적 이해를 돕고, 이를 통해 분석의 정확성과 효율성을 높입니다.\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.2,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed015_processed/05_final_result.json",
+    "utterance_count": 854,
+    "original_transcript_length": 30126,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 30126
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 7,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:55:53.664997"
+  }
+}

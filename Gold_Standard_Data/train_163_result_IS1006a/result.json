@@ -1,0 +1,31 @@
+{
+  "id": "train_163",
+  "source_dir": "result_IS1006a",
+  "notion_output": "```json\n{\n    \"project_name\": \"다채로운 범용 리모컨 디자인 프로젝트\",\n    \"project_purpose\": \"사용자 친화적이고 비용 효율적인 범용 리모컨을 설계하여 시장 점유율을 확대\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"크리스타 파블로프\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 요구사항을 반영한 직관적 UI 설계\",\n        \"목표 2: 제작 비용을 50유로 이내로 유지\",\n        \"목표 3: 3개의 버튼으로 주요 기능 구현\"\n    ],\n    \"core_idea\": \"작고 견고하며 다채로운 디자인의 범용 리모컨\",\n    \"idea_description\": \"손바닥 크기의 리모컨으로, 3개의 버튼을 통해 주요 기능을 수행하며, 제작 비용을 절감하여 시장 경쟁력을 확보\",\n    \"execution_plan\": \"1단계: 사용자 요구사항 분석 및 사양서 작성 (2024.01.01 ~ 2024.01.15)\\n2단계: 디자인 시안 개발 및 검토 (2024.01.16 ~ 2024.02.15)\\n3단계: 프로토타입 제작 및 테스트 (2024.02.16 ~ 2024.03.15)\\n4단계: 최종 디자인 확정 및 생산 준비 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상으로 인한 브랜드 이미지 강화\",\n        \"기대효과 2: 비용 절감을 통한 수익성 개선\",\n        \"기대효과 3: 시장 점유율 증가로 인한 매출 증대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1006a/05_final_result.json",
+    "utterance_count": 104,
+    "transcript_length": 3276,
+    "original_transcript_length": 3276,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 3276
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:36:10.778791"
+  }
+}

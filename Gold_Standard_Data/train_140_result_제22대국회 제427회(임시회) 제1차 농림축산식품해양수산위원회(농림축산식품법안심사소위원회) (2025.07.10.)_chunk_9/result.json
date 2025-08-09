@@ -1,0 +1,42 @@
+{
+  "id": "train_140_chunk_9",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 농림축산식품해양수산위원회(농림축산식품법안심사소위원회) (2025.07.10.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"외국인 계절근로자 제도 개선 프로젝트\",\n    \"project_purpose\": \"외국인 계절근로자의 근로 환경 개선 및 제도 효율화\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"강형석 차관\",\n    \"core_objectives\": [\n        \"목표 1: 외국인 계절근로자 배정 및 운영 절차의 효율성 증대\",\n        \"목표 2: 근로계약 및 근로기간 연장 규정 개선\",\n        \"목표 3: 외국인 근로자 인권 보호 및 차별 금지 조치 강화\"\n    ],\n    \"core_idea\": \"외국인 계절근로자 제도의 전반적인 개선을 통해 근로자의 권익을 보호하고, 제도의 효율성을 높인다.\",\n    \"idea_description\": \"법무부 지침에 따른 운영 절차를 개선하고, 지자체와 협력하여 외국인 근로자의 구인 및 근로 환경을 개선한다. 또한, 근로계약 및 근로기간 연장에 대한 명확한 규정을 마련하여 근로자의 안정성을 보장한다.\",\n    \"execution_plan\": \"1. 외국인 계절근로자 배정 및 운영 절차 검토 (2024.01.01 ~ 2024.02.28)\\n2. 근로계약 및 근로기간 연장 규정 개선안 마련 (2024.03.01 ~ 2024.04.30)\\n3. 인권 보호 및 차별 금지 조치 강화 방안 수립 (2024.05.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 외국인 근로자 배정 및 운영 절차의 효율성 증가로 인한 행정 비용 절감\",\n        \"기대효과 2: 근로계약 및 근로기간 연장 규정 개선으로 근로자의 안정성 및 만족도 향상\",\n        \"기대효과 3: 인권 보호 및 차별 금지 조치 강화로 외국인 근로자의 권익 보호\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제1차 농림축산식품해양수산위원회(농림축산식품법안심사소위원회) (2025.07.10.)/05_final_result.json",
+    "utterance_count": 678,
+    "original_transcript_length": 40279,
+    "speakers": [
+      "전종덕 위원",
+      "소위원장 이원택",
+      "농림축산식품부차관 강형석",
+      "정희용 위원",
+      "강명구 위원",
+      "수석전문위원 이정은",
+      "문대림 위원",
+      "문금주 위원",
+      "농림축산식품부재해보험정책과장 정재원",
+      "윤준병 위원",
+      "임미애 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9,
+      "original_length": 40279
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 9,
+      "total_chunks": 9,
+      "chunk_length": 4416
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:16:01.220107"
+  }
+}

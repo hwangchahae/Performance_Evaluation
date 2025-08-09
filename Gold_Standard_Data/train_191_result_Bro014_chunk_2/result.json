@@ -1,0 +1,37 @@
+{
+  "id": "train_191_chunk_2",
+  "source_dir": "result_Bro014_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"고성능 VAD 시스템 개발 프로젝트\",\n    \"project_purpose\": \"기존 시스템의 한계를 넘어선 고성능 VAD 시스템을 개발하여 지연 시간을 최소화하고 음성 인식 정확도를 극대화하는 것\",\n    \"project_period\": \"2024.06.01 ~ 2024.08.31\",\n    \"project_manager\": \"Speaker_F\",\n    \"core_objectives\": [\n        \"목표 1: 64Hz 환경에서 VAD 성능 최적화 및 지연 시간 20% 감소\",\n        \"목표 2: MSG 기능을 통합하여 시스템의 효율성 향상\",\n        \"목표 3: FFT와 Mel 필터 뱅크 조정을 통해 음성 인식 정확도 15% 향상\"\n    ],\n    \"core_idea\": \"짧은 지연 시간과 높은 정확도를 갖춘 차세대 VAD 시스템 구축\",\n    \"idea_description\": \"기존 시스템의 단점을 보완하고, 새로운 필터와 FFT 기술을 활용하여 VAD 시스템의 성능을 극대화. 특히, 짧은 필터와 긴 필터의 조합을 통해 최적의 음성 인식 환경을 조성\",\n    \"execution_plan\": \"1단계: 현재 시스템 분석 및 개선점 도출 (2024.06.01 ~ 2024.06.15)\\n2단계: 새로운 필터 및 FFT 기술 적용, Mel 필터 뱅크 조정 (2024.06.16 ~ 2024.07.15)\\n3단계: MSG 기능 통합 및 테스트, FFT 빈에서의 최적화 작업 (2024.07.16 ~ 2024.08.15)\\n4단계: 최종 성능 검토 및 보고서 작성 (2024.08.16 ~ 2024.08.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 지연 시간 20% 감소로 사용자 경험 개선\",\n        \"기대효과 2: 음성 인식 정확도 15% 향상으로 시스템 신뢰성 증가\",\n        \"기대효과 3: 시스템 안정성 및 사용자 만족도 증가\"\n    ],\n    \"technical_details\": [\n        \"VAD 성능 개선을 위한 64Hz 최적화 전략\",\n        \"MSG 기능의 통합 및 효율성 향상 방안\",\n        \"FFT와 Mel 필터 뱅크 조정 방법 및 기대 효과\",\n        \"짧은 필터와 긴 필터의 조합을 통한 성능 극대화\",\n        \"FFT 빈에서의 최적화 작업 및 스펙트럼 뺄셈 기법 적용\"\n    ],\n    \"comparative_analysis\": \"이전 시스템 대비 새로운 시스템의 지연 시간 및 음성 인식 정확도 비교 분석 결과 포함\"\n}\n```",
+  "quality_metrics": {
+    "final_score": 7,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro014_processed/05_final_result.json",
+    "utterance_count": 371,
+    "original_transcript_length": 12215,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 12215
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:31:50.728216"
+  }
+}

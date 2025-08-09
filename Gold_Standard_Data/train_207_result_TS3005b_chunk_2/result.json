@@ -1,0 +1,35 @@
+{
+  "id": "train_207_chunk_2",
+  "source_dir": "result_TS3005b",
+  "notion_output": "```json\n{\n    \"project_name\": \"에너지 효율적이고 사용자 친화적인 LCD 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"다양한 사용자층의 접근성을 높이고 에너지 효율성을 강화한 LCD 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: LCD 화면을 통한 직관적 사용자 인터페이스 제공\",\n        \"목표 2: 에너지 효율성을 고려한 배터리 수명 최적화\",\n        \"목표 3: 노년층을 포함한 다양한 사용자층의 접근성 강화\",\n        \"목표 4: 사용자 피드백을 반영한 지속적인 제품 개선\"\n    ],\n    \"core_idea\": \"LCD 화면을 활용하여 사용자 경험을 개선하고 에너지 효율성을 높인 리모컨 설계\",\n    \"idea_description\": \"LCD 화면을 통해 사용자가 쉽게 채널, 볼륨, 오디오 설정을 조절할 수 있도록 하고, 텔레텍스트 기능을 하위 메뉴로 제공하여 다양한 기능을 손쉽게 사용할 수 있도록 함. 배터리 수명을 연장하기 위해 AC 전원 사용을 권장하며, 고전력 사용자 셀을 통해 효율성을 높임. 노년층의 접근성을 위해 버튼 크기와 색상 대비를 조정하여 사용성을 개선함.\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"1단계: 사용자 요구 분석 및 설계\",\n            \"duration\": \"2024.01.01 ~ 2024.02.15\",\n            \"activities\": [\n                \"사용자 인터뷰 및 설문조사를 통해 요구사항 수집\",\n                \"노년층의 접근성 요구사항 분석\",\n                \"에너지 효율성을 고려한 설계 초안 작성\",\n                \"회의에서 논의된 배터리 수명 연장 방법 구체화\"\n            ]\n        },\n        {\n            \"phase\": \"2단계: 프로토타입 개발 및 테스트\",\n            \"duration\": \"2024.02.16 ~ 2024.04.15\",\n            \"activities\": [\n                \"프로토타입 개발 및 초기 테스트\",\n                \"사용자 피드백 수집 및 개선사항 반영\",\n                \"배터리 수명 테스트 및 최적화\",\n                \"노년층 사용자 테스트를 통한 접근성 평가\"\n            ]\n        },\n        {\n            \"phase\": \"3단계: 최종 제품 개발 및 출시 준비\",\n            \"duration\": \"2024.04.16 ~ 2024.06.30\",\n            \"activities\": [\n                \"최종 제품 디자인 확정\",\n                \"대량 생산 준비 및 품질 검사\",\n                \"마케팅 및 출시 전략 수립\",\n                \"노년층을 포함한 다양한 사용자층을 대상으로 한 마케팅 전략 개발\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상 및 시장 점유율 증가\",\n        \"기대효과 2: 배터리 수명 연장으로 인한 유지 비용 절감\",\n        \"기대효과 3: 다양한 사용자층의 접근성 향상으로 인한 고객층 확대\",\n        \"기대효과 4: 사용자 피드백 기반의 지속적인 제품 개선으로 인한 브랜드 신뢰도 증가\"\n    ],\n    \"technical_details\": [\n        \"LCD 화면의 주요 색상은 기기 자체의 디자인을 고려하여 결정\",\n        \"텔레텍스트 및 오디오 설정을 하위 메뉴로 구현하여 사용 편의성 증대\",\n        \"AC 전원 사용을 통해 배터리 수명 연장 및 고전력 사용자 셀 활용\",\n        \"노년층 사용자를 위한 버튼 크기 조정 및 색상 대비 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3005b/05_final_result.json",
+    "utterance_count": 403,
+    "original_transcript_length": 13899,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 13899
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:16:17.987733"
+  }
+}

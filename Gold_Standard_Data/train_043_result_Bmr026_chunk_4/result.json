@@ -1,0 +1,37 @@
+{
+  "id": "train_043_chunk_4",
+  "source_dir": "result_Bmr026_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"MLP 시스템 성능 최적화 및 오류율 감소 프로젝트\",\n    \"project_purpose\": \"MLP 시스템의 오류율을 줄이고 훈련 효율성을 높여 방송 뉴스 시스템의 전반적인 성능을 개선\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_F\",\n    \"core_objectives\": [\n        \"목표 1: MLP 시스템의 오류율을 현재 20%에서 10% 이하로 감소\",\n        \"목표 2: 성별에 따른 훈련 시간을 30시간 내외로 최적화\",\n        \"목표 3: 케임브리지 시스템과의 비교를 통해 훈련 성능 평가 및 개선\",\n        \"목표 4: MLP 시스템의 전화기 세트를 46~48개로 조정하여 성능 향상\"\n    ],\n    \"core_idea\": \"체계적인 훈련 및 평가를 통해 MLP 시스템의 성능을 개선하고, 케임브리지 시스템과의 비교를 통해 기술적 우위를 확보\",\n    \"idea_description\": \"현재 MLP 시스템의 오류율을 줄이고, 훈련 시간을 최적화하며, 케임브리지 시스템과의 비교를 통해 성능을 평가하여 방송 뉴스 시스템의 전반적인 효율성을 높인다.\",\n    \"execution_plan\": [\n        {\n            \"step\": \"1단계\",\n            \"description\": \"현재 MLP 시스템의 오류율 분석 및 개선 방안 도출\",\n            \"period\": \"2023.11.01 ~ 2023.11.15\",\n            \"details\": \"MLP 시스템의 오류율을 20%에서 10% 이하로 줄이기 위한 기술적 문제 분석 및 해결 방안 도출. 특히, 전화기 세트 조정을 통한 성능 향상 방안 포함\"\n        },\n        {\n            \"step\": \"2단계\",\n            \"description\": \"성별에 따른 훈련 시간 최적화 및 테스트\",\n            \"period\": \"2023.11.16 ~ 2023.12.15\",\n            \"details\": \"훈련 시간 최적화를 위해 성별에 따른 훈련 데이터 분석 및 최적화된 훈련 방법론 적용. 성별당 30시간 훈련 목표\"\n        },\n        {\n            \"step\": \"3단계\",\n            \"description\": \"케임브리지 시스템과의 성능 비교 및 결과 분석\",\n            \"period\": \"2023.12.16 ~ 2024.01.15\",\n            \"details\": \"케임브리지 시스템과의 성능 비교를 위한 구체적인 지표 설정 및 결과 분석. MLP 시스템의 임베디드 학습 효과 평가 포함\"\n        },\n        {\n            \"step\": \"4단계\",\n            \"description\": \"최종 보고서 작성 및 발표\",\n            \"period\": \"2024.01.16 ~ 2024.01.31\",\n            \"details\": \"프로젝트 결과를 종합하여 최종 보고서 작성 및 발표. 케임브리지 시스템과의 비교 결과 및 MLP 시스템의 개선 사항 포함\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: MLP 시스템의 오류율 감소로 인한 방송 뉴스 시스템의 신뢰도 향상\",\n        \"기대효과 2: 최적화된 훈련 시간으로 인한 운영 효율성 증대\",\n        \"기대효과 3: 케임브리지 시스템과의 비교를 통한 기술적 우위 확보\",\n        \"기대효과 4: 전화기 세트 조정을 통한 MLP 시스템의 성능 향상\"\n    ],\n    \"technical_details\": {\n        \"current_error_rate\": \"20%\",\n        \"training_optimization\": \"성별에 따른 훈련 시간 최적화 및 MLP 시스템의 전화기 세트 조정\",\n        \"comparison_metrics\": \"케임브리지 시스템과의 비교를 위한 구체적인 지표 설정 및 성능 평가\",\n        \"embedded_learning_effect\": \"임베디드 학습을 통한 성능 개선 여부 평가\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr026_processed/05_final_result.json",
+    "utterance_count": 542,
+    "original_transcript_length": 18406,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 18406
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 4,
+      "chunk_length": 4942
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T19:05:25.772802"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "train_099_chunk_8",
+  "source_dir": "result_Btr002_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"지식 공유 및 커뮤니케이션 개선 프로젝트\",\n    \"project_purpose\": \"회의에서 논의된 구체적인 지식 공유 사례와 커뮤니케이션 문제점을 해결하여 조직 내 정보 전달 체계를 강화하고 협업을 촉진하는 것\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 지식 공유 플랫폼 구축 및 필사자 경험 공유 사례 발굴\",\n        \"목표 2: 커뮤니케이션 문제 해결을 위한 맞춤형 교육 프로그램 개발\",\n        \"목표 3: 회의 기록 및 피드백 시스템의 효과적인 도입\",\n        \"목표 4: 비디오 테이프 활용을 통한 제스처 연구 및 커뮤니케이션 개선\"\n    ],\n    \"core_idea\": \"조직 내 지식 공유와 커뮤니케이션의 효율성을 높이기 위한 구체적이고 실용적인 접근\",\n    \"idea_description\": \"회의 중 언급된 구체적인 지식 공유 사례와 커뮤니케이션 문제점을 기반으로, 플랫폼 및 교육 프로그램을 통해 조직 내 모든 구성원이 쉽게 접근하고 활용할 수 있는 시스템을 구축\",\n    \"execution_plan\": \"1단계: 2023.11.01 ~ 2023.11.15 - 회의록 분석 및 구체적 요구사항 도출\\n2단계: 2023.11.16 ~ 2023.11.30 - 플랫폼 설계 및 교육 프로그램 초안 작성\\n3단계: 2023.12.01 ~ 2023.12.31 - 플랫폼 개발 및 교육 프로그램 세부 설계\\n4단계: 2024.01.01 ~ 2024.01.15 - 플랫폼 테스트 및 교육 프로그램 시범 운영\\n5단계: 2024.01.16 ~ 2024.01.31 - 피드백 수집 및 최종 개선\",\n    \"expected_effects\": [\n        \"기대효과 1: 구체적인 지식 공유 사례를 통한 업무 효율성 증대\",\n        \"기대효과 2: 커뮤니케이션 문제 해결로 인한 팀워크 강화\",\n        \"기대효과 3: 회의 기록 및 피드백 시스템 도입으로 인한 의사소통의 명확성 향상\",\n        \"기대효과 4: 회의 중 논의된 문제점 해결을 통한 조직 내 신뢰도 향상\",\n        \"기대효과 5: 비디오 테이프 활용을 통한 비언어적 커뮤니케이션 개선\"\n    ],\n    \"meeting_discussions\": {\n        \"knowledge_sharing_cases\": \"회의에서 언급된 필사자들의 경험 공유 및 기록 시각화 제안\",\n        \"communication_issues\": \"회의 중 이상한 소리와 휘파람으로 인한 집중력 저하 문제, 혼합 채널로 인한 대화 참여도 저하\",\n        \"suggested_solutions\": \"제스처 연구 참여를 통한 비디오 테이프 활용 가능성 검토, 탐색 바의 오른쪽 클릭을 통한 기록 검토 방법 제안\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Btr002_processed/05_final_result.json",
+    "utterance_count": 1391,
+    "original_transcript_length": 43546,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 10,
+      "original_length": 43546
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 8,
+      "total_chunks": 10,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T00:21:33.295639"
+  }
+}

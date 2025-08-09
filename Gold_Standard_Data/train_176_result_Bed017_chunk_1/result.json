@@ -1,0 +1,37 @@
+{
+  "id": "train_176_chunk_1",
+  "source_dir": "result_Bed017_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"심리학과 학생 실험 지원 및 데이터 수집 최적화 프로젝트\",\n    \"project_purpose\": \"심리학과 학생들이 졸업 전 필요한 실험을 효율적으로 완료할 수 있도록 지원하고, SmartKom 및 PRM을 활용하여 데이터 수집과 사용자 관심사 평가를 최적화한다.\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_E\",\n    \"core_objectives\": [\n        \"목표 1: 심리학과 학생들이 졸업 전 필요한 두 가지 실험을 완료할 수 있도록 지원\",\n        \"목표 2: SmartKom의 합성 문제 해결을 통한 데이터 수집 최적화\",\n        \"목표 3: PRM을 활용한 사용자 관심사 및 여행 호환성 평가 시스템 개발\"\n    ],\n    \"core_idea\": \"학생 실험 지원 및 데이터 수집과 평가 최적화\",\n    \"idea_description\": \"심리학과 학생들이 졸업 요건을 충족하기 위해 필요한 실험을 효율적으로 완료할 수 있도록 지원하며, SmartKom의 합성 문제 해결과 PRM을 활용하여 데이터 수집 및 사용자 관심사 평가를 최적화한다.\",\n    \"execution_plan\": [\n        {\n            \"step\": \"1단계: 심리학과 학생 실험 일정 및 계획 수립\",\n            \"duration\": \"2024.01.01 ~ 2024.02.28\",\n            \"details\": \"학생들이 실험에 참여할 수 있는 최적의 일정을 수립하고, 실험의 세부 사항을 명확히 한다.\"\n        },\n        {\n            \"step\": \"2단계: SmartKom 합성 문제 해결 및 데이터 수집 시스템 구축\",\n            \"duration\": \"2024.03.01 ~ 2024.04.30\",\n            \"details\": \"SmartKom의 합성 문제를 해결하기 위한 구체적인 기술적 접근 방안을 마련하고, 데이터 수집 시스템을 구축한다.\"\n        },\n        {\n            \"step\": \"3단계: PRM 기반 사용자 관심사 및 여행 호환성 평가 시스템 개발\",\n            \"duration\": \"2024.05.01 ~ 2024.06.30\",\n            \"details\": \"PRM을 활용하여 사용자 관심사와 여행 호환성을 평가할 수 있는 시스템을 개발하고, 이를 통해 사용자 경험을 향상시킨다.\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 학생들이 졸업 요건을 충족하는 데 필요한 실험을 효율적으로 완료할 수 있음\",\n        \"기대효과 2: SmartKom의 합성 문제 해결로 데이터 수집 과정이 최적화됨\",\n        \"기대효과 3: PRM을 활용한 사용자 관심사 및 여행 호환성 평가로 사용자 경험 향상\"\n    ],\n    \"technical_details\": {\n        \"SmartKom\": \"합성 문제 해결을 위한 구체적인 알고리즘 및 데이터 처리 방법을 개발\",\n        \"PRM\": \"사용자 관심사 및 여행 호환성 평가를 위한 확률적 접근 방식과 종속성 모델을 활용\"\n    },\n    \"additional_notes\": \"회의록에서 언급된 다양한 관계와 종속성 모델을 활용하여 시스템의 확장성을 고려한 설계를 진행한다. 또한, PRM과 관련된 세부 사항을 명확히 하기 위해 추가적인 연구와 조사를 통해 구체적인 기술적 세부 사항을 보완할 예정이다.\"\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed017_processed/05_final_result.json",
+    "utterance_count": 383,
+    "original_transcript_length": 14005,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 14005
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 4,
+      "chunk_length": 4981
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:57:18.760239"
+  }
+}

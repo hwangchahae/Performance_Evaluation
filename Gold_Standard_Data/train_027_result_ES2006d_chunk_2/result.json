@@ -1,0 +1,35 @@
+{
+  "id": "train_027_chunk_2",
+  "source_dir": "result_ES2006d",
+  "notion_output": "```json\n{\n    \"project_name\": \"맞춤형 고급 전자제품 개발 프로젝트\",\n    \"project_purpose\": \"고급 칩과 센서, 다양한 인터페이스를 활용한 사용자 맞춤형 전자제품 개발로 시장 경쟁력 강화\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_C\",\n    \"core_objectives\": [\n        \"목표 1: 고급 칩과 센서를 개발하여 제품 성능 극대화\",\n        \"목표 2: 다양한 색상의 고무 케이스와 인터페이스를 통한 디자인 혁신\",\n        \"목표 3: 예산 내에서 최대한의 기능 구현 및 비용 절감\"\n    ],\n    \"core_idea\": \"고급 칩과 센서, 다양한 인터페이스를 통합한 전자제품 개발\",\n    \"idea_description\": \"고급 칩과 센서를 사용하여 성능을 극대화하고, 다양한 색상의 고무 케이스와 푸시 버튼, 스크롤 휠 등 다양한 인터페이스를 통해 사용자 맞춤형 디자인을 제공하는 전자제품을 개발합니다.\",\n    \"execution_plan\": [\n        \"1단계: 고급 칩과 센서 개발 및 샘플 센서, 스피커 테스트 (2024.01.01 ~ 2024.02.28)\",\n        \"2단계: 제품 디자인 및 케이스 소재 결정, 스크롤 휠 및 푸시 버튼 설계 (2024.03.01 ~ 2024.03.31)\",\n        \"3단계: 프로토타입 제작 및 테스트, 예산 조정 및 최적화 (2024.04.01 ~ 2024.05.15)\",\n        \"4단계: 최종 제품 생산 및 출시 준비, 예산 내에서의 효율적인 자원 활용 (2024.05.16 ~ 2024.06.30)\"\n    ],\n    \"technical_details\": [\n        \"기술 세부사항 1: 고급 칩과 센서를 활용한 성능 향상\",\n        \"기술 세부사항 2: 다양한 색상의 고무 케이스 및 티타늄, 나무 색상 옵션 제공\",\n        \"기술 세부사항 3: 푸시 버튼과 스크롤 휠을 포함한 다양한 인터페이스 설계\",\n        \"기술 세부사항 4: LC 디스플레이 통합\",\n        \"기술 세부사항 5: 스크롤 휠 제거 및 푸시 버튼을 통한 볼륨 조절 기능\"\n    ],\n    \"budget_details\": \"예산: 12.5달러 내에서 최대한의 기능 구현, 스크롤 휠 제거 및 푸시 버튼 활용으로 비용 절감\",\n    \"expected_effects\": [\n        \"기대효과 1: 고급 칩과 센서를 통한 제품 성능 향상으로 시장 경쟁력 강화\",\n        \"기대효과 2: 사용자 맞춤형 디자인으로 고객 만족도 증가\",\n        \"기대효과 3: 예산 내에서의 효율적인 자원 활용으로 비용 절감 및 수익 증가\"\n    ],\n    \"additional_notes\": [\n        \"회의에서 논의된 바와 같이, 푸시 버튼과 스크롤 휠의 기능을 재조정하여 비용을 절감하고 효율성을 높입니다.\",\n        \"프로젝트 진행 중 예산 절감을 위해 스크롤 휠을 제거하고 푸시 버튼을 활용하는 방안을 고려합니다.\",\n        \"프로젝트의 각 단계에서 예산을 철저히 관리하여 최대한의 기능을 구현할 수 있도록 합니다.\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2006d/05_final_result.json",
+    "utterance_count": 336,
+    "original_transcript_length": 10463,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 10463
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:05:57.876420"
+  }
+}

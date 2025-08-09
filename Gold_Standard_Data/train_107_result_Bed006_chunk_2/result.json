@@ -1,0 +1,38 @@
+{
+  "id": "train_107_chunk_2",
+  "source_dir": "result_Bed006_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"독일 영화 데이터 분석 최적화 프로젝트\",\n    \"project_purpose\": \"소스-경로-목표 스키마와 독일 영화 데이터베이스를 활용하여 데이터 분석의 정확성과 효율성을 극대화\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_F\",\n    \"core_objectives\": [\n        \"목표 1: 소스-경로-목표 스키마의 전체 라이브러리 구축 및 독일 영화 데이터베이스와의 통합\",\n        \"목표 2: 새로운 설정을 통한 데이터 분석 시험 진행 및 검증\",\n        \"목표 3: Ron Kay와의 협업을 통해 고차원적 분석 과제 수행 및 구체적 역할 정의\",\n        \"목표 4: 독일 영화 데이터베이스에서 최근 개봉된 영화 데이터를 활용하여 실험적 검증 수행\"\n    ],\n    \"core_idea\": \"소스-경로-목표 스키마와 독일 영화 데이터베이스를 결합하여 데이터 분석의 효율성을 높이고, 새로운 설정을 통해 분석의 정확성을 검증\",\n    \"idea_description\": \"소스-경로-목표 스키마는 데이터의 출처, 경로, 목표를 체계적으로 분석하여 데이터 흐름을 최적화하는 방법론입니다. 독일 영화 데이터베이스를 활용하여 실험적 검증을 수행하고, Ron Kay와의 협업을 통해 고차원적 분석 과제를 수행합니다.\",\n    \"execution_plan\": [\n        \"1. 소스-경로-목표 스키마 라이브러리 구축 및 독일 영화 데이터베이스 통합 (2024.01.01 ~ 2024.01.31)\",\n        \"2. 독일 영화 데이터베이스에서 최근 개봉된 영화 데이터를 수집하고 분석에 활용 (2024.01.15 ~ 2024.02.15)\",\n        \"3. 새로운 설정을 통한 데이터 분석 시험 및 검증 (2024.02.01 ~ 2024.02.28)\",\n        \"4. Ron Kay와의 협업을 통한 고차원적 분석 과제 수행 및 구체적 역할 정의 (2024.03.01 ~ 2024.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 데이터 분석의 정확성 및 효율성 향상\",\n        \"기대효과 2: 새로운 설정을 통한 데이터 분석 방법론 검증\",\n        \"기대효과 3: 고차원적 분석 과제를 통한 데이터 활용도 증대\",\n        \"기대효과 4: 독일 영화 데이터베이스를 활용한 실험적 검증을 통해 데이터 분석의 실용성 강화\"\n    ],\n    \"additional_details\": {\n        \"독일 영화 데이터베이스\": \"최근 개봉된 독일 영화 데이터를 활용하여 분석의 실험적 검증을 수행\",\n        \"Ron Kay의 역할\": \"고차원적 사고를 요구하는 과제에 대한 전문적 조언 및 협업 참여\",\n        \"책임자\": {\n            \"소스-경로-목표 스키마 라이브러리 구축\": \"Speaker_F\",\n            \"데이터 분석 시험 및 검증\": \"Speaker_A\",\n            \"Ron Kay와의 협업\": \"Speaker_F\",\n            \"독일 영화 데이터 수집 및 분석\": \"Speaker_D\"\n        }\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed006_processed/05_final_result.json",
+    "utterance_count": 723,
+    "original_transcript_length": 26075,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 26075
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T01:27:35.285529"
+  }
+}

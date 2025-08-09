@@ -1,0 +1,35 @@
+{
+  "id": "train_179_chunk_7",
+  "source_dir": "result_Bro027_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"신경망 노이즈 조건 최적화 프로젝트\",\n    \"project_purpose\": \"신경망의 노이즈 조건 처리 능력 향상 및 VAD 플래그 활용 최적화\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 신경망의 4가지 노이즈 조건 학습 최적화\",\n        \"목표 2: 입력 데이터에 VAD 플래그 추가 및 활용\",\n        \"목표 3: 테스트 데이터에서 VAD 플래그 기능 검증\"\n    ],\n    \"core_idea\": \"신경망의 노이즈 처리 능력을 강화하고 VAD 플래그를 통해 입력 데이터의 판별력을 높인다.\",\n    \"idea_description\": \"신경망이 다양한 노이즈 조건을 학습할 수 있도록 하고, VAD 플래그를 입력 데이터에 추가하여 백엔드에서 활용함으로써 데이터 처리의 정확성을 높인다.\",\n    \"execution_plan\": \"1단계: 신경망의 4가지 노이즈 조건 학습 (2024.01.01 ~ 2024.01.31)\\n2단계: 입력 데이터에 VAD 플래그 추가 및 백엔드 연동 (2024.02.01 ~ 2024.02.28)\\n3단계: 테스트 데이터에서 VAD 플래그 기능 검증 및 결과 분석 (2024.03.01 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 신경망의 노이즈 처리 능력 향상으로 데이터 정확도 증가\",\n        \"기대효과 2: VAD 플래그 활용으로 입력 데이터의 판별력 강화\",\n        \"기대효과 3: 테스트 데이터 검증을 통한 시스템 신뢰성 제고\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro027_processed/05_final_result.json",
+    "utterance_count": 833,
+    "original_transcript_length": 27663,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 27663
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 7,
+      "total_chunks": 7,
+      "chunk_length": 773
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:08:11.942192"
+  }
+}

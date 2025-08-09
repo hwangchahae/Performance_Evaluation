@@ -1,0 +1,35 @@
+{
+  "id": "train_185_chunk_3",
+  "source_dir": "result_ES2015b",
+  "notion_output": "```json\n{\n    \"project_name\": \"교환 가능한 스마트 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"적외선 센서를 활용하여 다양한 TV와 호환 가능하고 사용자 친화적인 스마트 리모컨을 개발하여 시장 점유율을 확대\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 적외선 센서를 활용하여 모든 TV와 호환 가능한 리모컨 개발\",\n        \"목표 2: 사용자 편의성을 높이기 위한 버튼 디자인 개선 및 시각 장애인을 위한 접근성 강화\",\n        \"목표 3: 에너지 효율성을 고려한 배터리 사용 최적화 및 반복성 긴장성 손상 예방\",\n        \"목표 4: 교환 가능한 모바일 커버 디자인을 통한 사용자 맞춤형 옵션 제공\"\n    ],\n    \"core_idea\": \"적외선 센서를 활용한 비용 효율적이고 사용자 친화적이며 교환 가능한 스마트 리모컨\",\n    \"idea_description\": \"적외선 센서를 사용하여 다양한 TV와 호환 가능한 리모컨을 개발하고, 버튼 디자인을 개선하여 시각 장애인도 쉽게 사용할 수 있도록 함. 또한, 배터리 사용을 최적화하여 에너지 효율성을 높이고, 반복성 긴장성 손상을 예방할 수 있는 디자인을 채택함. 교환 가능한 모바일 커버를 통해 사용자 맞춤형 옵션을 제공함.\",\n    \"execution_plan\": [\n        \"1단계: 적외선 센서 조사 및 비용 분석 (2024.01.01 ~ 2024.01.31)\",\n        \"2단계: 리모컨 디자인 및 버튼 개선안 마련, 시각 장애인 접근성 강화 (2024.02.01 ~ 2024.03.15)\",\n        \"3단계: 교환 가능한 모바일 커버 디자인 및 반복성 긴장성 손상 예방 디자인 개발 (2024.03.16 ~ 2024.04.15)\",\n        \"4단계: 프로토타입 개발 및 테스트 (2024.04.16 ~ 2024.05.15)\",\n        \"5단계: 사용자 피드백 수집 및 최종 제품 개선 (2024.05.16 ~ 2024.06.15)\",\n        \"6단계: 제품 출시 준비 및 마케팅 계획 수립 (2024.06.16 ~ 2024.06.30)\"\n    ],\n    \"technical_details\": {\n        \"battery_optimization\": \"TV 전원을 활용하여 배터리 사용을 최소화하고, 필요 시 배터리 교체가 용이한 디자인을 채택\",\n        \"button_design\": \"양각으로 새겨진 버튼을 통해 시각 장애인도 쉽게 사용할 수 있도록 하고, 반복성 긴장성 손상을 예방할 수 있는 인체공학적 디자인 적용\",\n        \"compatibility\": \"모든 TV와 호환 가능한 적외선 센서 기술 적용 및 테스트를 통해 호환성 보장\",\n        \"interchangeable_covers\": \"다양한 디자인의 교환 가능한 모바일 커버를 통해 사용자 맞춤형 경험 제공\"\n    },\n    \"expected_effects\": [\n        \"기대효과 1: 다양한 TV와 호환 가능한 리모컨으로 시장 점유율 확대\",\n        \"기대효과 2: 사용자 편의성 개선과 시각 장애인 접근성 강화로 고객 만족도 증가\",\n        \"기대효과 3: 에너지 효율성 향상으로 환경 친화적 이미지 제고\",\n        \"기대효과 4: 교환 가능한 디자인으로 사용자 맞춤형 경험 제공\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2015b/05_final_result.json",
+    "utterance_count": 341,
+    "original_transcript_length": 11931,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 11931
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 3,
+      "chunk_length": 2968
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:24:50.436364"
+  }
+}

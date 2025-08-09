@@ -1,0 +1,70 @@
+{
+  "id": "result_Bro028_processed_chunk_5",
+  "source_dir": "result_Bro028_processed",
+  "notion_output": {
+    "project_name": "LP-LPC-12 스펙트럼 최적화 및 활용 연구",
+    "project_purpose": "LP-LPC-12 스펙트럼의 다양한 특성을 탐색하고 최적화하여 다양한 음향 처리 및 인식 시스템에 적용",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: LP-LPC-12 스펙트럼의 다양한 특성을 분석 및 이해",
+      "목표 2: 스펙트럼의 특정 부분을 강조하여 음향 처리 효율성 향상",
+      "목표 3: 음향 처리와 인식 시스템에 LP-LPC-12 스펙트럼을 적용"
+    ],
+    "core_idea": "LP-LPC-12 스펙트럼의 특징을 탐구하여 음향 처리 및 인식 시스템의 성능을 극대화",
+    "idea_description": "LP-LPC-12 스펙트럼의 다양한 특성을 탐색하고, 이를 음향 처리 및 인식 시스템에 적용하여 성능을 개선하며, 특히 시간과 빈도에 따른 결합을 고려하여 최적화",
+    "execution_plan": [
+      {
+        "phase": "연구 설계 및 데이터 수집",
+        "duration": "2024.01.01 ~ 2024.02.28",
+        "activities": [
+          "LP-LPC-12 스펙트럼의 다양한 특성을 탐색",
+          "데이터 수집 및 준비",
+          "기술적 문서 검토 및 필요 시 추가 연구"
+        ]
+      },
+      {
+        "phase": "특징 강조 및 최적화 방안 모색",
+        "duration": "2024.03.01 ~ 2024.04.30",
+        "activities": [
+          "특징 강조 방법 탐색 및 실험 설계",
+          "최적화 방안 도출 및 검증",
+          "실험 진행 및 결과 분석"
+        ]
+      },
+      {
+        "phase": "결과 발표 및 시장 적용 준비",
+        "duration": "2024.05.01 ~ 2024.06.30",
+        "activities": [
+          "결과 발표 준비 및 발표",
+          "시장 적용 가능성 평가",
+          "시나리오 및 고객 요구사항 반영"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 음향 처리 및 인식 시스템의 성능 향상",
+      "기대효과 2: 다양한 음향 환경에서의 안정적인 처리 가능",
+      "기대효과 3: 시장에서의 경쟁 우위 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bro028_processed/05_final_result.json",
+    "utterance_count": 575,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D"
+    ],
+    "original_length": 19606,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-07T02:58:58.130437"
+  }
+}

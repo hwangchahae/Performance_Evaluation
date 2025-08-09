@@ -1,0 +1,37 @@
+{
+  "id": "train_156_chunk_4",
+  "source_dir": "result_Bmr022_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"회의 기록 관리 시스템 개선 프로젝트\",\n    \"project_purpose\": \"회의 기록의 저장 및 복구 시스템을 개선하여 데이터 손실을 방지하고 일관성을 유지\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 회의 기록의 실수로 인한 삭제 방지 시스템 구축\",\n        \"목표 2: CVS를 활용한 회의 기록의 효율적인 저장 및 복구\",\n        \"목표 3: 회의 기록의 일관성 유지를 위한 편집 프로세스 확립\"\n    ],\n    \"core_idea\": \"회의 기록의 저장 및 복구 시스템을 개선하여 데이터 손실을 방지하고, CVS를 활용한 효율적인 관리 체계를 구축\",\n    \"idea_description\": \"현재 회의 기록의 저장 및 복구 과정에서 발생할 수 있는 실수로 인한 데이터 손실을 방지하기 위해 CVS를 활용한 시스템을 구축하고, 회의 기록의 일관성을 유지하기 위한 편집 프로세스를 확립합니다.\",\n    \"execution_plan\": \"1단계: 현재 시스템 분석 및 문제점 파악 (2024.01.01 ~ 2024.01.15)\\n2단계: CVS 기반의 저장 및 복구 시스템 설계 (2024.01.16 ~ 2024.02.15)\\n3단계: 시스템 구현 및 테스트 (2024.02.16 ~ 2024.03.15)\\n4단계: 사용자 교육 및 시스템 배포 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 회의 기록의 실수로 인한 삭제 방지로 데이터 손실 최소화\",\n        \"기대효과 2: CVS를 활용한 효율적인 기록 관리로 업무 효율성 향상\",\n        \"기대효과 3: 일관성 있는 회의 기록 유지로 정보 신뢰성 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr022_processed/05_final_result.json",
+    "utterance_count": 626,
+    "original_transcript_length": 22401,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 22401
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:06:49.566065"
+  }
+}

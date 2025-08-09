@@ -1,0 +1,41 @@
+{
+  "id": "result_IS1009d_chunk_1",
+  "source_dir": "result_IS1009d",
+  "notion_output": {
+    "project_name": "혁신적 리모컨 개발 프로젝트",
+    "project_purpose": "경쟁력 있는 리모컨을 개발하여 시장에 선보이며, 사용자의 요구를 충족시키고 시장 점유율을 확대",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 사용자가 쉽게 접근할 수 있는 직관적인 UI 디자인 개발",
+      "목표 2: 다양한 색상 및 재질 옵션 제공",
+      "목표 3: 경쟁사 대비 독창적인 기능(예: 스와핑 버튼) 도입"
+    ],
+    "core_idea": "사용자 중심의 디자인과 혁신적인 기능을 결합한 리모컨 개발",
+    "idea_description": "리모컨은 사용자에게 편리하고 직관적인 경험을 제공하며, 다양한 색상과 재질 선택 옵션을 통해 개인화된 사용자를 지원합니다. 스와핑 버튼과 같은 독창적인 기능을 통해 경쟁사를 우월하게 하며, 경제적 효율성을 추구합니다.",
+    "execution_plan": "1단계: 디자인 개념 검토 및 최종 결정 (2025.01.01 ~ 2025.02.15)\n2단계: 프로토타입 설계 및 제작 (2025.02.16 ~ 2025.03.31)\n3단계: 테스트 및 피드백 수집 (2025.04.01 ~ 2025.04.30)\n4단계: 최종 수정 및 생산 준비 (2025.05.01 ~ 2025.05.31)\n5단계: 시장 출시 및 마케팅 활동 (2025.06.01 ~ 2025.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 증가 및 브랜드 이미지 강화",
+      "기대효과 2: 시장 점유율 확대 및 매출 증가",
+      "기대효과 3: 경쟁사 대비 차별화된 제품 포지셔닝"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_IS1009d/05_final_result.json",
+    "utterance_count": 264,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C"
+    ],
+    "original_length": 8915,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-07T02:47:48.864085"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "result_Bed013_processed_chunk_2",
+  "source_dir": "result_Bed013_processed",
+  "notion_output": {
+    "project_name": "공격적 인지 및 신경적 성능 분석 프로젝트",
+    "project_purpose": "공격적 환경에서의 인지 및 신경적 성능을 분석하고, 이를 통해 효율적인 대응 전략을 개발",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 공격적 환경에서의 인지 및 신경적 성능의 변화를 분석하기",
+      "목표 2: 분석 결과를 바탕으로 효율적인 대응 전략을 도출",
+      "목표 3: 최종 분석결과를 발표 및 공유"
+    ],
+    "core_idea": "공격적 환경에서의 인지 및 신경적 성능의 변화를 분석하여 대응 전략을 개발",
+    "idea_description": "공격적 환경에서의 인지 및 신경적 성능의 변화를 분석하고, 이를 바탕으로 효율적인 대응 전략을 개발하며, 최종 분석결과를 발표하여 공유함.",
+    "execution_plan": [
+      {
+        "phase": "데이터 수집 및 준비",
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "description": "공격적 환경에서의 인지 및 신경적 성능 데이터를 수집하고 준비"
+      },
+      {
+        "phase": "분석 및 평가",
+        "duration": "2025.01.16 ~ 2025.02.15",
+        "description": "데이터를 분석하고, 공격적 환경에서의 인지 및 신경적 성능의 변화를 평가"
+      },
+      {
+        "phase": "대응 전략 개발",
+        "duration": "2025.02.16 ~ 2025.03.15",
+        "description": "분석 결과를 바탕으로 효율적인 대응 전략을 개발"
+      },
+      {
+        "phase": "최종 발표 및 공유",
+        "duration": "2025.03.16 ~ 2025.03.31",
+        "description": "최종 분석결과를 발표하고, 공유"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 공격적 환경에서의 인지 및 신경적 성능의 변화를 파악하여 효율적인 대응 전략 개발",
+      "기대효과 2: 분석 결과를 바탕으로 공격적 환경에서의 인지 및 신경적 성능의 변화를 반영한 대응 방안 마련",
+      "기대효과 3: 최종 분석결과를 발표하여 공유함으로써 다양한 이해관계자에게 정보 제공"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bed013_processed/05_final_result.json",
+    "utterance_count": 744,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D"
+    ],
+    "original_length": 24608,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-07T03:00:28.012261"
+  }
+}

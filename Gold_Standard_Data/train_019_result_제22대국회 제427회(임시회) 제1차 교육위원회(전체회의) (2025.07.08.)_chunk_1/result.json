@@ -1,0 +1,40 @@
+{
+  "id": "train_019_chunk_1",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 교육위원회(전체회의) (2025.07.08.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"국무위원후보자 인사청문회 준비 및 실행\",\n    \"project_purpose\": \"국무위원후보자 인사청문회를 체계적으로 준비하고 성공적으로 실행하기 위함\",\n    \"project_period\": \"2023.10.07 ~ 2023.10.27\",\n    \"project_manager\": \"김영호 위원장\",\n    \"core_objectives\": [\n        \"목표 1: 국무위원후보자 인사청문회 실시계획서 채택\",\n        \"목표 2: 인사청문회에 필요한 자료 892건 제출 확보\",\n        \"목표 3: 청문회 증인 1명 출석 요구 및 준비\",\n        \"목표 4: 인사청문경과보고서 작성 및 채택\",\n        \"목표 5: 청문회 일정 및 준비 과정에서의 문제 해결\"\n    ],\n    \"core_idea\": \"국무위원후보자 인사청문회를 통해 후보자의 자질과 능력을 검증하고, 국민의 알 권리를 충족시키는 것\",\n    \"idea_description\": \"인사청문회를 통해 후보자의 자질을 검증하고, 관련 자료와 증인 출석을 통해 투명성을 확보한다. 이를 통해 국민의 신뢰를 얻고, 행정부의 투명성을 제고한다.\",\n    \"execution_plan\": \"1. 인사청문회 실시계획서 채택 (2023.10.07)\\n2. 자료 제출 요구 및 확보 (2023.10.07 ~ 2023.10.14)\\n3. 증인 출석 요구 및 준비 (2023.10.07 ~ 2023.10.14)\\n4. 인사청문회 진행 (2023.10.15 ~ 2023.10.20)\\n5. 인사청문경과보고서 작성 및 채택 (2023.10.21 ~ 2023.10.27)\",\n    \"expected_effects\": [\n        \"기대효과 1: 후보자의 자질과 능력에 대한 명확한 검증\",\n        \"기대효과 2: 국민의 알 권리 충족 및 신뢰도 향상\",\n        \"기대효과 3: 행정부의 투명성 제고 및 의회와의 협력 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 8.6,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제1차 교육위원회(전체회의) (2025.07.08.)/05_final_result.json",
+    "utterance_count": 183,
+    "original_transcript_length": 11073,
+    "speakers": [
+      "소위원장 문정복",
+      "조정훈 위원",
+      "김대식 위원",
+      "위원장 김영호",
+      "김준혁 위원",
+      "문정복 위원",
+      "서지영 위원",
+      "교육부차관 오석환",
+      "고민정 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 11073
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4979
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T17:42:08.220772"
+  }
+}

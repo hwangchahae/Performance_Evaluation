@@ -1,0 +1,35 @@
+{
+  "id": "train_012_chunk_5",
+  "source_dir": "result_EN2009d",
+  "notion_output": "```json\n{\n    \"project_name\": \"Camtasia 비디오 동기화 및 분석 프로젝트\",\n    \"project_purpose\": \"Camtasia를 활용한 비디오 녹화의 동기화 문제 해결 및 시선 추적 데이터 분석\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: Camtasia를 사용하여 두 개의 비디오 트랙을 동기화하여 녹화\",\n        \"목표 2: 시선 추적 데이터를 기반으로 한 사용자 행동 분석\",\n        \"목표 3: 녹화된 비디오의 오디오 및 비디오 품질 개선\"\n    ],\n    \"core_idea\": \"Camtasia를 이용하여 두 개의 컴퓨터에서 별도로 녹화된 비디오를 동기화하고, 시선 추적 데이터를 분석하여 사용자 행동을 이해\",\n    \"idea_description\": \"Camtasia 소프트웨어를 사용하여 두 개의 컴퓨터에서 녹화된 비디오를 동기화하는 방법을 개발하고, 시선 추적 데이터를 분석하여 사용자 행동을 연구합니다. 이를 통해 비디오 품질을 개선하고, 사용자 경험을 향상시킬 수 있습니다.\",\n    \"execution_plan\": \"1단계: Camtasia를 사용하여 두 개의 비디오 트랙을 동기화하는 방법 연구 (2024.01.01 ~ 2024.01.15)\\n2단계: 시선 추적 데이터 수집 및 분석 방법 개발 (2024.01.16 ~ 2024.02.15)\\n3단계: 녹화된 비디오의 오디오 및 비디오 품질 개선 (2024.02.16 ~ 2024.03.15)\\n4단계: 최종 결과물 검토 및 보고서 작성 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 비디오 녹화의 동기화 문제 해결로 인한 작업 효율성 증가\",\n        \"기대효과 2: 시선 추적 데이터를 통한 사용자 행동 분석으로 인한 연구 성과 향상\",\n        \"기대효과 3: 개선된 비디오 품질로 인한 사용자 경험 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_EN2009d/05_final_result.json",
+    "utterance_count": 725,
+    "original_transcript_length": 28087,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 28087
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 7,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T17:12:11.660454"
+  }
+}

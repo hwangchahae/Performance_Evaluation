@@ -1,0 +1,57 @@
+{
+  "id": "result_IS1007d_chunk_1",
+  "source_dir": "result_IS1007d",
+  "notion_output": {
+    "project_name": "다중 모듈식 리모컨 개발 및 판매 프로젝트",
+    "project_purpose": "LCD와 LCD 없는 두 가지 버전의 리모컨을 개발하여 다양한 고객층을 타겟으로 하고, 경쟁력을 강화하며 시장 점유율 확보",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: LCD와 LCD 없는 두 가지 버전의 리모컨을 설계 및 제작",
+      "목표 2: 각 버전의 특징을 명확히 하여 상품화",
+      "목표 3: 시장 조사 및 고객 피드백을 반영하여 제품 개선"
+    ],
+    "core_idea": "다양한 고객층을 위한 두 가지 버전의 리모컨 개발",
+    "idea_description": "LCD와 LCD 없는 두 가지 버전의 리모컨을 개발하여 다양한 고객층을 타겟으로 하고, 경쟁력을 강화하며 시장 점유율 확보",
+    "execution_plan": [
+      {
+        "phase": "설계 및 제작",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "details": "각 버전의 디자인 및 기능을 설계하고, 생산 준비를 시작"
+      },
+      {
+        "phase": "테스트 및 피드백 수집",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "details": "제품을 테스트하고 고객 피드백을 수집하여 개선점을 찾고 수정"
+      },
+      {
+        "phase": "마케팅 및 판매",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "details": "마케팅 전략을 수립하고, 다양한 채널을 통해 제품을 판매"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 다양한 고객층을 타겟으로 한 제품 출시로 판매량 증가",
+      "기대효과 2: 경쟁력 있는 제품으로 인한 브랜드 이미지 개선",
+      "기대효과 3: 고객 피드백을 반영한 제품 개선으로 신뢰도 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_IS1007d/05_final_result.json",
+    "utterance_count": 262,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "original_length": 9248,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-07T02:57:24.934560"
+  }
+}

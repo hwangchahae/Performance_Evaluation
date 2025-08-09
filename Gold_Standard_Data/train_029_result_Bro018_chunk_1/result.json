@@ -1,0 +1,36 @@
+{
+  "id": "train_029_chunk_1",
+  "source_dir": "result_Bro018_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"신경망 기반의 음성 인식 성능 최적화 및 검증 프로젝트\",\n    \"project_purpose\": \"신경망을 활용하여 다양한 환경에서의 음성 인식 정확도를 향상시키고, TIMIT 데이터셋을 통해 성능을 검증하여 상용화 가능성을 높임\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 로그 크기 스펙트럼과 필터 뱅크를 활용한 음성 신호의 심층 분석 및 신경망 학습 최적화\",\n        \"목표 2: 다양한 프레임에서의 상호작용을 통한 신경망 학습 및 성능 최적화\",\n        \"목표 3: 시끄러운 환경에서도 높은 정확도를 유지하는 음성 인식 시스템 개발 및 TIMIT 데이터셋을 통한 성능 검증\"\n    ],\n    \"core_idea\": \"신경망을 통해 음성 신호의 다양한 특성을 분석하고, 로그 크기 스펙트럼과 필터 뱅크를 활용하여 음성 인식의 정확도를 높이며, TIMIT 데이터셋을 통해 성능을 검증\",\n    \"idea_description\": \"로그 크기 스펙트럼과 필터 뱅크를 사용하여 음성 신호의 특성을 심층 분석하고, 신경망을 통해 이를 학습하여 음성 인식의 정확도를 향상시킴. 특히, 시끄러운 환경에서도 높은 성능을 유지할 수 있도록 설계하며, TIMIT 데이터셋을 활용하여 성능을 검증함.\",\n    \"execution_plan\": [\n        \"1단계: 로그 크기 스펙트럼 및 필터 뱅크 분석 (2024.01.01 ~ 2024.02.28)\",\n        \"2단계: 신경망 학습 및 다양한 프레임에서의 상호작용 테스트 (2024.03.01 ~ 2024.04.30)\",\n        \"3단계: 시끄러운 환경에서의 성능 최적화 및 TIMIT 데이터셋을 통한 검증 (2024.05.01 ~ 2024.06.30)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 음성 인식 정확도 10% 향상\",\n        \"기대효과 2: 다양한 환경에서의 음성 인식 안정성 확보\",\n        \"기대효과 3: 신경망 기반 음성 인식 기술의 상용화 가능성 증대\",\n        \"기대효과 4: TIMIT 데이터셋을 활용한 성능 검증으로 신뢰성 강화\"\n    ],\n    \"technical_details\": {\n        \"log_spectrum_and_filter_bank\": \"로그 크기 스펙트럼과 필터 뱅크를 통해 음성 신호의 다양한 특성을 분석하고, 이를 기반으로 신경망 학습을 최적화. 특히, 로그 FFT와 필터 뱅크의 차이를 계산하여 분산을 활용함.\",\n        \"frame_interaction\": \"여러 프레임에 걸친 상호작용을 통해 신경망의 학습을 강화하고, 다양한 환경에서의 성능을 최적화. R-1/R-0 스펙트럼을 활용하여 프레임 간 상호작용을 분석함.\",\n        \"neural_network_training\": \"신경망의 학습을 위해 로그 크기 스펙트럼과 필터 뱅크의 차이를 계산하여 분산을 활용하고, 다양한 환경에서의 성능을 최적화. 특히, 비선형성을 중간에 많이 넣어 출력의 곱을 구하도록 학습시킴.\",\n        \"frame_error_rate\": \"프레임 오류율을 지속적으로 모니터링하고, 이를 기반으로 신경망의 성능을 평가 및 개선. 특히, 시끄러운 TIMIT 환경에서의 성능을 집중적으로 검증.\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro018_processed/05_final_result.json",
+    "utterance_count": 703,
+    "original_transcript_length": 24117,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 24117
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 6,
+      "chunk_length": 4947
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:11:52.570411"
+  }
+}

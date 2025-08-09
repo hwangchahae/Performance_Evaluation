@@ -1,0 +1,36 @@
+{
+  "id": "train_044_chunk_7",
+  "source_dir": "result_Bed008_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"사용자 모델 기반의 지능형 의사결정 시스템 개발\",\n    \"project_purpose\": \"다양한 사용자 모델을 활용하여 사용자 맞춤형 경험을 제공하고, 데이터 처리 및 분석을 자동화하여 효율성을 극대화하는 지능형 의사결정 시스템을 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Keith\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 모델의 구체적 예시를 기반으로 한 다양한 구성 옵션 개발\",\n        \"목표 2: 파서 마법사의 기술적 구현 및 자동화 기능 강화\",\n        \"목표 3: 담론 기반 결정 노드의 작동 원리 및 기대 효과 명확화\"\n    ],\n    \"core_idea\": \"사용자 모델을 활용한 지능형 의사결정 시스템\",\n    \"idea_description\": \"사용자 모델의 구체적인 예시를 통해 다양한 구성 옵션을 제공하고, 파서 마법사를 통해 데이터 처리 및 분석을 자동화하여 사용자 경험을 개선하며, 담론 기반 결정 노드를 통해 의사결정의 정확성과 신뢰성을 높임\",\n    \"execution_plan\": \"1단계: 사용자 모델 분석 및 구체적 예시 도출 (2024.01.01 ~ 2024.02.15)\\n2단계: 파서 마법사 기능 설계 및 기술적 구현 (2024.02.16 ~ 2024.04.15)\\n3단계: 담론 기반 결정 노드 구축 및 작동 원리 테스트 (2024.04.16 ~ 2024.06.15)\\n4단계: 시스템 통합 및 최종 검토 (2024.06.16 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 맞춤형 경험 제공을 통한 사용자 만족도 향상\",\n        \"기대효과 2: 데이터 처리 자동화를 통한 운영 효율성 증대\",\n        \"기대효과 3: 의사결정 시스템의 정확성 및 신뢰성 향상\"\n    ],\n    \"technical_details\": {\n        \"user_model_examples\": \"고딕 교회, 바로크 타운하우스 등 다양한 사용자 모델을 기반으로 구성 옵션 제공\",\n        \"parser_wizard_implementation\": \"파서 마법사는 다양한 데이터 입력을 자동으로 분석하고 처리하여 사용자에게 최적의 옵션을 제시\",\n        \"discourse_based_decision_nodes\": \"다양한 담론 기반의 결정 노드를 통해 사용자의 선택을 지원하고, 각 노드의 작동 원리를 명확히 하여 신뢰성을 높임\"\n    },\n    \"additional_information\": {\n        \"discussion_points\": [\n            \"사용자 모델에서 나온 다양한 구성 옵션의 중요성\",\n            \"파서 마법사의 역할과 기술적 구현에 대한 논의\",\n            \"담론 기반 결정 노드의 작동 원리와 기대 효과\"\n        ],\n        \"technical_discussions\": [\n            \"노드의 일치 척도와 관련된 기술적 세부사항\",\n            \"데이터 수집 및 처리 과정에서의 재귀 동작과 그 해결 방법\",\n            \"결정 노드의 구성 및 작동 방식에 대한 구체적인 설명\"\n        ]\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed008_processed/05_final_result.json",
+    "utterance_count": 1000,
+    "original_transcript_length": 33415,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 8,
+      "original_length": 33415
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 7,
+      "total_chunks": 8,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T19:13:44.715915"
+  }
+}

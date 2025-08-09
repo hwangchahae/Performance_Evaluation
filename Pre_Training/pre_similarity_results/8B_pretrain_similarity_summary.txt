@@ -1,0 +1,66 @@
+============================================================
+로컬 회의록 유사도 평가 요약 (랜덤 샘플링)
+============================================================
+
+평가 시간: 2025-08-10T02:54:30.843075
+전체 파일 수: 751
+샘플링 크기: 100
+실제 평가 파일 수: 100
+샘플링 비율: 13.3%
+랜덤 시드: 42
+
+평균 점수:
+  - TF-IDF 코사인 유사도: 0.1619
+  - Embedding 코사인 유사도: 0.8873
+
+============================================================
+상위/하위 성능 파일
+============================================================
+
+[TF-IDF 기준] 상위 5개 파일:
+1. train_018_result_IS1008d_chunk_1
+   - TF-IDF: 0.3291, Embedding: 0.8658
+2. train_204_result_Bns003_chunk_5
+   - TF-IDF: 0.2889, Embedding: 0.9173
+3. train_047_result_TS3011d_chunk_1
+   - TF-IDF: 0.2735, Embedding: 0.9142
+4. train_058_result_Bmr014_chunk_4
+   - TF-IDF: 0.2715, Embedding: 0.8395
+5. val_048_result_Bmr006_chunk_5
+   - TF-IDF: 0.2653, Embedding: 0.9000
+
+[TF-IDF 기준] 하위 5개 파일:
+1. val_029_result_Bed016_chunk_3
+   - TF-IDF: 0.0542, Embedding: 0.8329
+2. train_127_result_Bed015_chunk_3
+   - TF-IDF: 0.0532, Embedding: 0.7407
+3. train_099_result_Btr002_chunk_9
+   - TF-IDF: 0.0431, Embedding: 0.8359
+4. val_017_result_IS1007b_chunk_2
+   - TF-IDF: 0.0426, Embedding: 0.8189
+5. val_012_result_TS3008d_chunk_4
+   - TF-IDF: 0.0324, Embedding: 0.7726
+
+[Embedding 기준] 상위 5개 파일:
+1. val_002_result_ES2014a
+   - TF-IDF: 0.1865, Embedding: 0.9675
+2. train_237_result_TS3012b_chunk_1
+   - TF-IDF: 0.1819, Embedding: 0.9584
+3. train_136_result_IS1001c_chunk_2
+   - TF-IDF: 0.2078, Embedding: 0.9557
+4. train_217_result_TS3003c_chunk_1
+   - TF-IDF: 0.1625, Embedding: 0.9529
+5. val_061_result_TS3009b_chunk_1
+   - TF-IDF: 0.2138, Embedding: 0.9526
+
+[Embedding 기준] 하위 5개 파일:
+1. train_182_result_Bmr016_chunk_2
+   - TF-IDF: 0.0992, Embedding: 0.7939
+2. train_183_result_Bro005_chunk_1
+   - TF-IDF: 0.0874, Embedding: 0.7788
+3. val_012_result_TS3008d_chunk_4
+   - TF-IDF: 0.0324, Embedding: 0.7726
+4. train_127_result_Bed015_chunk_3
+   - TF-IDF: 0.0532, Embedding: 0.7407
+5. val_029_result_Bed016_chunk_4
+   - TF-IDF: 0.0755, Embedding: 0.7148

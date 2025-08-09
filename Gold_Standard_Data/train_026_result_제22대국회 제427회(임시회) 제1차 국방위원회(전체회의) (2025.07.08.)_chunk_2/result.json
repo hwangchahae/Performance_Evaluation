@@ -1,0 +1,38 @@
+{
+  "id": "train_026_chunk_2",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 국방위원회(전체회의) (2025.07.08.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"국방부장관 후보자 검증 및 청문회 준비 프로젝트\",\n    \"project_purpose\": \"국방부장관 후보자의 도덕성 및 정책 능력 검증을 통해 투명하고 공정한 청문회를 준비하는 것\",\n    \"project_period\": \"2023.07.01 ~ 2023.07.15\",\n    \"project_manager\": \"성일종 위원장\",\n    \"core_objectives\": [\n        \"목표 1: 국방부장관 후보자의 병적기록카드 및 관련 자료 제출 확보\",\n        \"목표 2: 청문회 절차 및 공개/비공개 검증 기준 확립\",\n        \"목표 3: 청문회 준비를 위한 위원회 간 협력 및 조율\"\n    ],\n    \"core_idea\": \"국방부장관 후보자의 검증을 통해 군령권 및 군정권 수행에 적합한 인물인지 판단\",\n    \"idea_description\": \"국방부장관 후보자의 도덕성과 정책 능력을 비공개 및 공개 검증을 통해 평가하고, 청문회에서의 자료 제출 및 증인 출석을 통해 투명성을 확보\",\n    \"execution_plan\": \"1. 2023.07.01 ~ 2023.07.05: 후보자 측에 병적기록카드 및 관련 자료 제출 요청\\n2. 2023.07.06 ~ 2023.07.10: 청문회 절차 및 검증 기준 협의\\n3. 2023.07.11 ~ 2023.07.14: 청문회 준비 및 자료 검토\\n4. 2023.07.15: 국방부장관 후보자 인사청문회 개최\",\n    \"expected_effects\": [\n        \"기대효과 1: 국방부장관 후보자의 도덕성과 정책 능력에 대한 명확한 평가\",\n        \"기대효과 2: 청문회 절차의 투명성 및 공정성 강화\",\n        \"기대효과 3: 국방부장관 임명 후 원활한 군령권 및 군정권 수행 기반 마련\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 8.4,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제1차 국방위원회(전체회의) (2025.07.08.)/05_final_result.json",
+    "utterance_count": 118,
+    "original_transcript_length": 7420,
+    "speakers": [
+      "한기호 위원",
+      "위원장 성일종",
+      "강대식 위원",
+      "임종득 위원",
+      "김병주 위원",
+      "정청래 위원",
+      "김병기 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 7420
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 2975
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:03:33.540166"
+  }
+}

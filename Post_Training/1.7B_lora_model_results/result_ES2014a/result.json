@@ -1,0 +1,68 @@
+{
+  "id": "result_ES2014a",
+  "source_dir": "result_ES2014a",
+  "notion_output": {
+    "project_name": "다중 기능 리모컨 시스템 개발 프로젝트",
+    "project_purpose": "다양한 기기를 하나의 리모컨으로 통합하여 사용자가 편리하게 관리할 수 있도록 하는 혁신적 제품 개발",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Alastair",
+    "core_objectives": [
+      "다양한 기기를 하나의 리모컨으로 통합하여 사용자의 편의성을 극대화",
+      "초기 시험 및 피드백을 반영한 최적화된 UI 디자인 개발",
+      "글로벌 시장 확장을 위한 가격 경쟁력 강화"
+    ],
+    "core_idea": "다양한 기기를 하나의 리모컨으로 통합하여 사용자가 편리하게 관리할 수 있는 혁신적 제품",
+    "idea_description": "각 기기의 특정 기능을 고유한 버튼으로 구분하여 하나의 리모컨으로 관리 가능하며, 사용자 친화적인 인터페이스를 통해 다양한 기기를 쉽게 조합할 수 있는 시스템을 개발한다.",
+    "execution_plan": [
+      {
+        "phase": "설계 및 프로토타입 개발",
+        "duration": "1개월",
+        "tasks": [
+          "다양한 기기의 기능별 버튼 설계",
+          "사용자 인터페이스 디자인 및 피드백 수집",
+          "초기 프로토타입 제작 및 시험"
+        ]
+      },
+      {
+        "phase": "테스트 및 피드백 반영",
+        "duration": "1개월",
+        "tasks": [
+          "제품 테스트 및 사용자 피드백 수집",
+          "디자인 수정 및 개선",
+          "최종 프로토타입 검수"
+        ]
+      },
+      {
+        "phase": "생산 준비 및 출시",
+        "duration": "1개월",
+        "tasks": [
+          "생산 공정 최적화",
+          "마케팅 전략 수립 및 실행",
+          "제품 출시 준비"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "사용자 경험 향상으로 인한 고객 만족도 증가",
+      "다국어 지원 및 글로벌 시장 확대로 수익성 증대",
+      "비용 효율적인 생산 방식으로 인한 이윤 유지"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_ES2014a/05_final_result.json",
+    "utterance_count": 114,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_B"
+    ],
+    "original_length": 4009,
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1
+    },
+    "is_chunk": false,
+    "processing_date": "2025-08-07T02:58:16.704977"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "val_031_chunk_1",
+  "source_dir": "result_IS1001b",
+  "notion_output": "```json\n{\n    \"project_name\": \"사용자 친화적 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"사용자 경험을 개선하기 위한 간단하고 직관적인 리모컨 개발\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 요구 사항에 기반한 리모컨 기능 설계 완료\",\n        \"목표 2: 사용성 테스트를 통해 사용자 피드백 수집 및 반영\",\n        \"목표 3: 기술적 기능 설계 및 프로토타입 개발\"\n    ],\n    \"core_idea\": \"사용자 중심의 간단한 리모컨 디자인\",\n    \"idea_description\": \"대부분의 사람들이 주로 사용하는 채널과 볼륨 버튼을 중심으로 한 직관적이고 사용하기 쉬운 리모컨을 설계하여 복잡함을 줄이고 사용자 만족도를 높인다.\",\n    \"execution_plan\": \"1단계: 사용자 요구 사항 분석 및 기능 설계 (2023.11.01 ~ 2023.11.15)\\n2단계: 기술적 기능 설계 및 프로토타입 개발 (2023.11.16 ~ 2023.12.15)\\n3단계: 사용성 테스트 및 피드백 반영 (2023.12.16 ~ 2024.01.15)\\n4단계: 최종 제품 개발 및 출시 준비 (2024.01.16 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 증가 및 시장 경쟁력 강화\",\n        \"기대효과 2: 리모컨 사용의 편리성 증가로 인한 고객 충성도 향상\",\n        \"기대효과 3: 젊은 층의 사용 증가로 인한 새로운 고객층 확보\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1001b/05_final_result.json",
+    "utterance_count": 276,
+    "original_transcript_length": 9187,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 9187
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4992
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T10:30:30.816541"
+  }
+}

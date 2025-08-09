@@ -1,0 +1,52 @@
+{
+  "id": "train_142_chunk_1",
+  "source_dir": "result_제22대국회 제427회(임시회) 제2차 국방위원회(전체회의) (2025.07.15.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"국방부장관 인사청문회 및 정책 검증 프로젝트\",\n    \"project_purpose\": \"국방부장관 후보자의 자질 및 정책 능력을 검증하여 국방 정책의 민주적 정당성을 확보\",\n    \"project_period\": \"2025.07.15 ~ 2025.07.15\",\n    \"project_manager\": \"성일종 위원장\",\n    \"core_objectives\": [\n        \"목표 1: 안규백 후보자의 국방 정책 및 자질에 대한 인사청문회 실시\",\n        \"목표 2: 후보자의 정책 및 도덕성 검증을 통한 국민 신뢰 확보\",\n        \"목표 3: 국방부장관 후보자의 정책 비전 및 계획에 대한 구체적 질의 및 답변\"\n    ],\n    \"core_idea\": \"국방부장관 후보자에 대한 철저한 검증을 통해 국방 정책의 투명성과 민주적 정당성을 확보\",\n    \"idea_description\": \"국방부장관 후보자의 정책 비전 및 자질을 철저히 검증하여 국방 정책의 투명성과 민주적 정당성을 확보하고, 국민의 신뢰를 회복하는 것을 목표로 한다.\",\n    \"execution_plan\": \"오전에는 후보자의 선서와 모두발언을 듣고 주질의를 실시하며, 오후에는 보충질의와 추가질의를 통해 후보자의 정책 및 자질을 심층적으로 검증한다.\",\n    \"expected_effects\": [\n        \"기대효과 1: 국방부장관 후보자의 정책 및 자질에 대한 명확한 검증을 통해 국민의 신뢰 회복\",\n        \"기대효과 2: 국방 정책의 민주적 정당성 확보 및 정책 투명성 강화\",\n        \"기대효과 3: 국방부장관 후보자의 정책 비전 및 계획에 대한 국민적 이해 증진\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제2차 국방위원회(전체회의) (2025.07.15.)/05_final_result.json",
+    "utterance_count": 1696,
+    "original_transcript_length": 94237,
+    "speakers": [
+      "황희 위원",
+      "위원장 성일종",
+      "강대식 위원",
+      "정부측 및",
+      "추미애 위원",
+      "김병주 위원",
+      "출석 전문위원\n수석전문위원",
+      "출석 위원\n강대식",
+      "행정입법 제출\n구분",
+      "임종득 위원",
+      "황명선 위원",
+      "윤상현 위원",
+      "박선원 위원",
+      "김병기 위원",
+      "부승찬 위원",
+      "강선영 위원",
+      "한기호 위원",
+      "국방부장관후보자 안규백",
+      "관련의안 회부\n미래조선업의",
+      "정청래 위원",
+      "백선희 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 21,
+      "original_length": 94237
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 21,
+      "chunk_length": 4998
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:17:13.070807"
+  }
+}

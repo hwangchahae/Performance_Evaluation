@@ -1,0 +1,35 @@
+{
+  "id": "train_031_chunk_1",
+  "source_dir": "result_EN2006b",
+  "notion_output": "```json\n{\n    \"project_name\": \"우주 구조 분석을 위한 방출선 및 AGN 연구 프로젝트\",\n    \"project_purpose\": \"방출선 및 AGN의 심층 분석을 통해 우주 구조와 은하 진화에 대한 이해를 증진하고, 허블 딥필드 데이터를 활용하여 우주 구조의 다양한 측면을 연구\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 헬륨 및 기타 방출선의 특성 및 파생 속성 심층 분석\",\n        \"목표 2: AGN의 분류 및 특성화 방법론 개발\",\n        \"목표 3: 허블 딥필드 데이터의 체계적 분석 및 유지\",\n        \"목표 4: 연관 흡수 및 방출 특성에 대한 메커니즘 연구\"\n    ],\n    \"core_idea\": \"방출선 및 AGN의 스펙트럼 특성을 분석하여 우주 구조와 은하의 진화에 대한 새로운 통찰을 얻는 것\",\n    \"idea_description\": \"방출선과 AGN의 스펙트럼 특성을 분석하고, 허블 딥필드 데이터를 활용하여 우주 구조의 다양한 측면을 연구하며, AGN의 분류 체계를 확립\",\n    \"execution_plan\": \"1단계: 방출선 데이터 수집 및 초기 분석 (2024.01.01 ~ 2024.02.28)\\n2단계: AGN의 분류 및 특성화 방법론 개발 (2024.03.01 ~ 2024.04.30)\\n3단계: 허블 딥필드 데이터 유지 및 심층 분석, 연관 흡수 및 방출 특성 연구 (2024.05.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 헬륨 및 기타 방출선의 특성에 대한 심층적인 이해\",\n        \"기대효과 2: AGN의 분류 체계 확립 및 특성화 방법론 개발\",\n        \"기대효과 3: 허블 딥필드 데이터를 통한 우주 구조에 대한 새로운 통찰 및 연관 흡수 특성 이해\"\n    ],\n    \"detailed_analysis_methods\": [\n        \"헬륨 방출선의 강도 및 파생 속성 분석을 위한 스펙트럼 데이터 활용\",\n        \"AGN의 분류를 위한 스펙트럼 특성 및 라인 비율 분석\",\n        \"허블 딥필드 데이터의 유지 및 분석을 통한 우주 구조 연구\",\n        \"연관 흡수 및 방출 특성에 대한 메커니즘 연구\",\n        \"라이만 알파 포레스트와 라이만 한계 체계의 분석\",\n        \"별 폭발 은하 및 적외선 은하의 스펙트럼 특성 연구\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_EN2006b/05_final_result.json",
+    "utterance_count": 483,
+    "original_transcript_length": 15449,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 15449
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 4,
+      "chunk_length": 4970
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:18:00.677894"
+  }
+}

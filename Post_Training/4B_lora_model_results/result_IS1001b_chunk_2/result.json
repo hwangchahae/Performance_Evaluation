@@ -1,0 +1,47 @@
+{
+  "id": "val_173_chunk_2",
+  "source_dir": "result_IS1001b",
+  "notion_output": {
+    "project_name": "사용자 친화적 리모컨 개발 프로젝트",
+    "project_purpose": "사용자가 쉽게 활용할 수 있는 간단하면서도 효율적인 리모컨을 개발하여 시장 경쟁력을 강화하고, 고객 만족도를 높임.",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 사용자 친화적인 인터페이스 디자인",
+      "목표 2: 간단한 사용법 및 직관적인 버튼 배열",
+      "목표 3: 시장 출시 준비 및 마케팅 전략 수립"
+    ],
+    "core_idea": "사용자가 쉽게 이해하고 활용할 수 있도록 설계된 리모컨",
+    "idea_description": "리모컨의 버튼을 줄이고, 주요 기능(채널 변경, 볼륨 조절 등)에 집중하여 사용자가 쉽게 접근할 수 있도록 설계. 또한, 사용자가 쉽게 찾을 수 있도록 분실 방지를 위한 특징을 추가.",
+    "execution_plan": "1단계: 요구사항 분석 및 디자인 (2024.01.01 ~ 2024.02.28)\n2단계: 프로토타입 제작 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 최종 제품 개발 및 시장 출시 준비 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자의 리모컨 사용 용이성 향상",
+      "기대효과 2: 시장 경쟁력 강화 및 매출 증가",
+      "기대효과 3: 고객 만족도와 브랜드 이미지 개선"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_IS1001b/05_final_result.json",
+    "utterance_count": 276,
+    "original_transcript_length": 9187,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 9187
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 4706
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-06T14:10:19.398232"
+  }
+}

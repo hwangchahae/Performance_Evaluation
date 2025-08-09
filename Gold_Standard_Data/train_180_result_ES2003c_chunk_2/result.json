@@ -1,0 +1,35 @@
+{
+  "id": "train_180_chunk_2",
+  "source_dir": "result_ES2003c",
+  "notion_output": "```json\n{\n    \"project_name\": \"유연한 사용자 인터페이스 리모컨 개발\",\n    \"project_purpose\": \"사용자 편의성을 극대화한 새로운 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 유연한 LCD 화면과 메뉴 구조를 갖춘 리모컨 설계\",\n        \"목표 2: 플래시 메모리 기반의 프로그래머블 메모리 기능 구현\",\n        \"목표 3: 최소한의 디자인을 유지하면서도 기능성 강화\"\n    ],\n    \"core_idea\": \"유연성과 사용자 편의성을 강조한 리모컨\",\n    \"idea_description\": \"기존의 물리적 버튼 대신 LCD 화면을 활용하여 사용자가 쉽게 조작할 수 있는 리모컨을 개발합니다. 플래시 메모리를 활용하여 배터리 교체 후에도 설정이 유지되도록 하며, USB 연결을 통해 PC와의 호환성을 고려합니다.\",\n    \"execution_plan\": \"1단계: 요구사항 분석 및 설계 (2024.01.01 ~ 2024.02.15)\\n2단계: 프로토타입 개발 및 테스트 (2024.02.16 ~ 2024.04.30)\\n3단계: 사용자 피드백 수집 및 개선 (2024.05.01 ~ 2024.05.31)\\n4단계: 최종 제품 출시 준비 (2024.06.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 인터페이스의 유연성 증가로 인한 사용자 만족도 향상\",\n        \"기대효과 2: 프로그래머블 메모리를 통한 사용자 설정 유지 기능으로 고객 편의성 증대\",\n        \"기대효과 3: 간결한 디자인을 통한 브랜드 이미지 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2003c/05_final_result.json",
+    "utterance_count": 211,
+    "original_transcript_length": 7411,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 7411
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 2930
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:08:58.538108"
+  }
+}

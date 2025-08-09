@@ -1,0 +1,36 @@
+{
+  "id": "train_013_chunk_5",
+  "source_dir": "result_Bro023_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"지연 시간 최적화 및 VAD 성능 향상 프로젝트\",\n    \"project_purpose\": \"시스템의 지연 시간을 최적화하고 음성 활동 감지(VAD) 성능을 10% 이상 향상시키는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_E\",\n    \"core_objectives\": [\n        \"목표 1: 24프레임 버퍼의 지연 시간 문제 해결 및 50% 감소\",\n        \"목표 2: Mel 필터 뱅크와 스펙트로그램 타일 분석을 통한 VAD 성능 최적화\",\n        \"목표 3: 신경망을 활용한 스펙트럼 뺄셈 기법 연구 및 테스트\"\n    ],\n    \"core_idea\": \"지연 시간 최적화 및 VAD 성능 개선을 위한 다양한 기술적 접근\",\n    \"idea_description\": \"지연 시간을 절반으로 줄이고, Mel 필터 뱅크 및 스펙트로그램 타일 분석을 통해 VAD 성능을 10% 이상 향상시키는 기술적 접근을 시도합니다. 또한, 신경망을 활용한 스펙트럼 뺄셈 기법의 가능성을 평가합니다.\",\n    \"execution_plan\": [\n        {\n            \"단계\": \"1단계\",\n            \"내용\": \"24프레임 버퍼의 지연 시간 분석 및 최적화\",\n            \"기간\": \"2024.01.01 ~ 2024.01.31\",\n            \"세부 작업\": [\n                \"지연 시간의 구체적 수치 분석 및 문제점 파악\",\n                \"지연 시간 절반 감소를 위한 최적화 방안 수립\"\n            ]\n        },\n        {\n            \"단계\": \"2단계\",\n            \"내용\": \"Mel 필터 뱅크 및 스펙트로그램 타일 분석을 통한 VAD 성능 최적화\",\n            \"기간\": \"2024.02.01 ~ 2024.02.28\",\n            \"세부 작업\": [\n                \"Mel 필터 뱅크를 활용한 필터링 및 평균화 기법 적용\",\n                \"스펙트로그램 타일 분석을 통한 주파수 대역 최소값 탐색\"\n            ]\n        },\n        {\n            \"단계\": \"3단계\",\n            \"내용\": \"신경망을 통한 스펙트럼 뺄셈 기법 연구 및 테스트\",\n            \"기간\": \"2024.03.01 ~ 2024.03.31\",\n            \"세부 작업\": [\n                \"신경망을 활용한 스펙트럼 뺄셈 기법 개발\",\n                \"기법의 성능 테스트 및 평가\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 시스템의 지연 시간 50% 감소\",\n        \"기대효과 2: VAD 성능 10% 이상 향상\",\n        \"기대효과 3: 신경망 기반 스펙트럼 뺄셈 기법의 가능성 평가\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro023_processed/05_final_result.json",
+    "utterance_count": 580,
+    "original_transcript_length": 21680,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 21680
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 5,
+      "chunk_length": 3734
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T17:16:49.599982"
+  }
+}

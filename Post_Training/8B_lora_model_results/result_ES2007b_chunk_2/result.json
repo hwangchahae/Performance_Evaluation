@@ -1,0 +1,41 @@
+{
+  "id": "result_ES2007b_chunk_2",
+  "source_dir": "result_ES2007b",
+  "notion_output": {
+    "project_name": "스마트 인터랙티브 장치 개발 프로젝트",
+    "project_purpose": "사용자 경험을 극대화하기 위한 스마트 인터랙티브 장치 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 적외선 및 배터리 기반의 간단한 사용자 인터페이스 개발",
+      "목표 2: 사용자 피드백을 통한 제품 개선",
+      "목표 3: 다양한 제품군과의 호환성을 확보"
+    ],
+    "core_idea": "사용자 중심의 간단하고 효율적인 인터페이스",
+    "idea_description": "적외선과 배터리를 활용한 간단한 인터페이스를 통해 사용자가 쉽게 접근할 수 있도록 하며, 사용자 피드백을 수집하여 지속적으로 개선합니다.",
+    "execution_plan": "1단계: 초기 설계 및 요구사항 분석 (2024.01.01 ~ 2024.02.15)\n2단계: 프로토타입 제작 및 테스트 (2024.02.16 ~ 2024.04.15)\n3단계: 피드백 수집 및 제품 개선 (2024.04.16 ~ 2024.05.15)\n4단계: 최종 제품 출시 준비 및 마케팅 (2024.05.16 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 증가 및 브랜드 이미지 강화",
+      "기대효과 2: 제품의 경쟁력 강화 및 시장 점유율 확대",
+      "기대효과 3: 지속적인 피드백 수집을 통한 제품 혁신"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_ES2007b/05_final_result.json",
+    "utterance_count": 170,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C"
+    ],
+    "original_length": 5770,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-07T02:51:58.598157"
+  }
+}

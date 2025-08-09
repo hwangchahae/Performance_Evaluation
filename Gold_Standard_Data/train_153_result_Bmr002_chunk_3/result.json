@@ -1,0 +1,35 @@
+{
+  "id": "train_153_chunk_3",
+  "source_dir": "result_Bmr002_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"발화 데이터 디지털화 및 타임스탬프 관리 시스템 개발 프로젝트\",\n    \"project_purpose\": \"발화 데이터의 디지털화 및 타임스탬프 관리 시스템을 통해 데이터 분석의 정확성과 효율성을 향상시키고, 글로벌 협업을 통한 자금 조달 및 네트워크 확장을 도모\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 각 발화의 시작과 끝에 대한 정확한 타임스탬프 기록 시스템 구축\",\n        \"목표 2: 디지털화된 발화 데이터의 효율적인 관리 및 분석 체계 확립\",\n        \"목표 3: 미시시피 주립대 및 Mitre의 워크벤치와의 협업을 통해 자금 조달 및 글로벌 네트워크 확장\"\n    ],\n    \"core_idea\": \"발화 데이터의 디지털화 및 타임스탬프 시스템 구축을 통해 데이터 관리 효율성을 극대화하고, 글로벌 협업을 통해 프로젝트의 지속 가능성을 확보\",\n    \"idea_description\": \"발화 내용을 디지털화하고 각 발화의 시작과 끝에 타임스탬프를 기록하여 데이터 분석 및 관리의 효율성을 높이는 시스템을 구축합니다. 미시시피 주립대의 도구 및 Mitre의 워크벤치를 활용하여 글로벌 협업을 추진합니다.\",\n    \"execution_plan\": [\n        \"1단계: 발화 디지털화 시스템 설계 및 기술적 접근 방법 결정 (2024.01.01 ~ 2024.01.15)\",\n        \"2단계: 타임스탬프 기록 시스템 개발 및 미시시피 주립대와의 협업 방안 모색 (2024.01.16 ~ 2024.02.15)\",\n        \"3단계: 시스템 통합 테스트 및 피드백 수집, Mitre의 워크벤치 활용 가능성 검토 (2024.02.16 ~ 2024.03.01)\",\n        \"4단계: 최종 시스템 배포 및 사용자 교육, 글로벌 네트워크 확장 계획 수립 (2024.03.02 ~ 2024.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 발화 데이터의 디지털화로 인한 데이터 관리 효율성 향상\",\n        \"기대효과 2: 타임스탬프 기록을 통한 발화 분석의 정확성 증가\",\n        \"기대효과 3: 미시시피 주립대 및 Mitre와의 협업을 통한 자금 조달 및 글로벌 네트워크 확장\"\n    ],\n    \"additional_notes\": [\n        \"회의에서 언급된 발 페달과 같은 디지털화 도구의 활용 가능성을 검토\",\n        \"미시시피 주립대의 도구 및 Mitre의 워크벤치 활용 가능성 조사\",\n        \"자금 조달을 위한 구체적인 협업 계획 수립 및 관련 프로젝트와의 연계 방안 모색\",\n        \"발화 데이터의 디지털화 및 타임스탬프 관리 시스템의 기술적 접근 방법에 대한 구체적인 계획 마련\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr002_processed/05_final_result.json",
+    "utterance_count": 1034,
+    "original_transcript_length": 32469,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 8,
+      "original_length": 32469
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 8,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:58:40.168249"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "train_098_chunk_2",
+  "source_dir": "result_ES2008c",
+  "notion_output": "```json\n{\n    \"project_name\": \"다목적 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"사용자 친화적인 다목적 리모컨 개발을 통해 채널 전환, 볼륨 조절 등 다양한 기능을 효율적으로 수행할 수 있는 제품을 출시\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 인터페이스 디자인 결정\",\n        \"목표 2: 프로토타입 제작 및 테스트\",\n        \"목표 3: 비용 효율적인 칩 선택 및 구현\"\n    ],\n    \"core_idea\": \"리모컨의 버튼과 스크롤 휠을 활용한 다목적 기능 구현\",\n    \"idea_description\": \"리모컨에 간단한 칩을 사용하여 버튼과 스크롤 휠을 통해 다양한 기능을 수행할 수 있도록 설계. 채널 전환과 볼륨 조절을 포함한 여러 기능을 하나의 휠로 제어 가능하도록 함.\",\n    \"execution_plan\": \"1단계: 사용자 인터페이스 디자인 결정 (2024.01.01 ~ 2024.02.15)\\n2단계: 프로토타입 제작 및 테스트 (2024.02.16 ~ 2024.04.15)\\n3단계: 최종 칩 선택 및 구현 (2024.04.16 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 경험 개선을 통한 시장 경쟁력 강화\",\n        \"기대효과 2: 비용 절감을 통한 제품 가격 경쟁력 확보\",\n        \"기대효과 3: 다양한 기능을 하나의 리모컨으로 통합하여 사용 편의성 증대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2008c/05_final_result.json",
+    "utterance_count": 229,
+    "original_transcript_length": 8638,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8638
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 4194
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T00:12:36.584346"
+  }
+}

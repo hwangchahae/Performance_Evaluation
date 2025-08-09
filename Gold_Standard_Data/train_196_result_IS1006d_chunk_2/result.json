@@ -1,0 +1,35 @@
+{
+  "id": "train_196_chunk_2",
+  "source_dir": "result_IS1006d",
+  "notion_output": "```json\n{\n    \"project_name\": \"적응형 기계 에너지 변환 장치 개발\",\n    \"project_purpose\": \"기계 에너지를 전기로 변환하여 배터리 의존도를 줄이고, 다양한 환경에 적응 가능한 지속 가능한 에너지 솔루션 제공\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 기계 에너지를 전기로 변환하는 장치 설계 및 프로토타입 개발\",\n        \"목표 2: LCD 및 스피커의 효율적인 에너지 사용을 위한 최적화\",\n        \"목표 3: 장치의 적응형 기능 구현 및 다양한 환경에서의 성능 테스트\",\n        \"목표 4: 장치의 상용화 가능성 평가 및 시장 진입 전략 수립\"\n    ],\n    \"core_idea\": \"기계 에너지를 전기로 변환하여 배터리 없이 작동 가능하고 다양한 환경에 적응 가능한 장치 개발\",\n    \"idea_description\": \"손 발전기 로봇과 유사한 원리를 활용하여 버튼을 누를 때마다 기계 에너지를 전기로 변환하는 장치를 설계하고, 이를 통해 LCD 및 스피커를 구동하며, 다양한 환경에 적응할 수 있는 기능을 추가\",\n    \"execution_plan\": \"1단계: 기술 요구사항 분석 및 설계 (2024.01.01 ~ 2024.02.15)\\n2단계: 프로토타입 개발 및 테스트 (2024.02.16 ~ 2024.04.15)\\n3단계: 적응형 기능 구현 및 환경별 성능 테스트 (2024.04.16 ~ 2024.05.15)\\n4단계: 시장 조사 및 상용화 전략 수립 (2024.05.16 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 배터리 사용량 감소로 인한 비용 절감\",\n        \"기대효과 2: 지속 가능한 에너지 솔루션 제공으로 환경 보호\",\n        \"기대효과 3: 새로운 기술을 통한 시장 경쟁력 강화 및 매출 증대\",\n        \"기대효과 4: 다양한 환경에 적응 가능한 장치로 인한 사용 범위 확대\"\n    ],\n    \"technical_requirements\": [\n        \"기술 요구사항 1: 기계 에너지를 전기로 변환하는 효율적인 메커니즘 설계\",\n        \"기술 요구사항 2: LCD 및 스피커의 저전력 구동을 위한 회로 설계\",\n        \"기술 요구사항 3: 적응형 기능을 위한 센서 및 제어 시스템 구현\",\n        \"기술 요구사항 4: 다양한 환경에서의 내구성 및 성능 테스트\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1006d/05_final_result.json",
+    "utterance_count": 344,
+    "original_transcript_length": 10111,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 10111
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:40:04.791067"
+  }
+}

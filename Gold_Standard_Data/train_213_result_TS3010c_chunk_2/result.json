@@ -1,0 +1,35 @@
+{
+  "id": "train_213_chunk_2",
+  "source_dir": "result_TS3010c",
+  "notion_output": "```json\n{\n    \"project_name\": \"차세대 사용자 중심 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"고급 칩과 다양한 인터페이스 옵션을 활용하여 사용자 경험을 혁신하는 리모컨 디자인 개발\",\n    \"project_period\": \"2025.01.01 ~ 2025.03.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 고급 칩을 사용하여 리모컨 성능 최적화\",\n        \"목표 2: 사용자 경험을 개선하기 위한 부드러운 스크롤 버튼 및 조이스틱 개발\",\n        \"목표 3: 회사의 색상과 로고에 맞춘 디자인 구현\",\n        \"목표 4: LCD가 있는 모델과 없는 모델 두 가지 컨셉 개발\",\n        \"목표 5: 사용자 피드백을 반영한 인터페이스 개선\"\n    ],\n    \"core_idea\": \"고급 칩과 다양한 인터페이스 옵션을 통해 혁신적이고 사용자 친화적인 리모컨 디자인\",\n    \"idea_description\": \"고급 칩을 사용하여 리모컨의 성능을 향상시키고, 부드러운 스크롤 버튼과 조이스틱을 통해 사용자 경험을 개선합니다. LCD가 있는 모델과 없는 모델 두 가지 컨셉을 통해 다양한 사용자 요구를 충족시키며, 회사의 색상과 로고에 맞춘 디자인을 통해 브랜드 일관성을 유지합니다. 또한, 사용자 피드백을 반영하여 인터페이스를 지속적으로 개선합니다.\",\n    \"execution_plan\": [\n        \"1단계: 고급 칩과 LCD, 조이스틱의 기술적 요구사항 분석 (2025.01.01 ~ 2025.01.15)\",\n        \"2단계: 디자인 컨셉 개발 및 시제품 제작 (LCD 모델과 비LCD 모델) (2025.01.16 ~ 2025.02.15)\",\n        \"3단계: 사용자 테스트 및 피드백 반영 (2025.02.16 ~ 2025.03.01)\",\n        \"4단계: 최종 디자인 확정 및 생산 준비 (2025.03.02 ~ 2025.03.31)\",\n        \"5단계: 사용자 피드백 기반의 인터페이스 개선 및 최적화 (2025.03.15 ~ 2025.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 고급 칩 사용으로 인한 리모컨 성능 향상\",\n        \"기대효과 2: 사용자 경험 개선으로 인한 고객 만족도 증가\",\n        \"기대효과 3: 브랜드 일관성 유지로 인한 시장 경쟁력 강화\",\n        \"기대효과 4: 다양한 모델 제공으로 인한 시장 점유율 확대\",\n        \"기대효과 5: 사용자 피드백 반영으로 인한 제품 개선과 혁신\"\n    ],\n    \"additional_notes\": [\n        \"LCD가 있는 모델과 없는 모델 모두 개발하여 다양한 사용자 요구에 대응\",\n        \"조이스틱과 스크롤 버튼의 사용성을 높이기 위한 추가 연구 필요\",\n        \"디자인은 회사의 색상과 로고에 맞춰 노란색 케이스를 포함하여 브랜드 일관성 유지\",\n        \"사용자 피드백을 적극 반영하여 인터페이스를 지속적으로 개선\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3010c/05_final_result.json",
+    "utterance_count": 252,
+    "original_transcript_length": 8293,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8293
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 3832
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:24:22.253764"
+  }
+}

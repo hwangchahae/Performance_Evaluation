@@ -1,0 +1,42 @@
+{
+  "id": "result_Bed013_processed_chunk_5",
+  "source_dir": "result_Bed013_processed",
+  "notion_output": {
+    "project_name": "온톨로지 기반의 담론 및 존재론 분석 프로젝트",
+    "project_purpose": "온톨로지를 활용하여 담론과 존재론을 분석하고, 이를 통해 사용자의 행동과 의사결정을 이해하며, 이를 바탕으로 효율적인 정보 전달 및 사용자 경험을 개선",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_E",
+    "core_objectives": [
+      "목표 1: 온톨로지를 활용한 담론 및 존재론 분석 시스템 개발",
+      "목표 2: 사용자의 행동과 의사결정 패턴 분석을 통한 정보 전달 최적화",
+      "목표 3: 다양한 사용자 요구에 맞춘 개인화된 서비스 제공"
+    ],
+    "core_idea": "온톨로지를 활용하여 담론과 존재론을 분석하고, 이를 통해 사용자의 행동과 의사결정을 이해하며, 이를 바탕으로 효율적인 정보 전달 및 사용자 경험을 개선",
+    "idea_description": "온톨로지를 통해 담론과 존재론을 분석하고, 이를 바탕으로 사용자의 행동과 의사결정을 이해하며, 이를 통해 정보 전달을 최적화하고 사용자 경험을 개선하는 시스템을 개발한다.",
+    "execution_plan": "1단계: 온톨로지 설계 및 구축 (2025.01.01 ~ 2025.02.28)\n2단계: 담론 및 존재론 분석 시스템 개발 (2025.03.01 ~ 2025.04.30)\n3단계: 사용자 행동 및 의사결정 패턴 분석 (2025.05.01 ~ 2025.05.31)\n4단계: 시스템 검증 및 최종 조정 (2025.06.01 ~ 2025.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 행동과 의사결정을 이해하여 정보 전달의 효율성을 극대화",
+      "기대효과 2: 다양한 사용자 요구에 맞춘 개인화된 서비스 제공으로 사용자 만족도 향상",
+      "기대효과 3: 온톨로지를 활용한 분석 시스템을 통해 데이터 처리 및 분석의 정확도 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bed013_processed/05_final_result.json",
+    "utterance_count": 744,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_E"
+    ],
+    "original_length": 24608,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-07T02:57:48.939031"
+  }
+}

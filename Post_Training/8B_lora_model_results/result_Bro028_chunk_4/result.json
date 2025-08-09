@@ -1,0 +1,42 @@
+{
+  "id": "result_Bro028_processed_chunk_4",
+  "source_dir": "result_Bro028_processed",
+  "notion_output": {
+    "project_name": "다중 스트림 기능 선택 및 최적화 프로젝트",
+    "project_purpose": "데이터의 히스토그램 분포를 조정하고, 다양한 기능 집합을 활용하여 최적의 기능 선택을 통해 성능을 향상시키는 것",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: 훈련 세트의 분포를 조정하여 새로운 데이터의 히스토그램을 이전 데이터와 유사하게 만들기",
+      "목표 2: 다양한 기능 집합에서 최적의 기능을 선택하여 성능을 향상시키기",
+      "목표 3: 다중 스트림 방식으로 기능을 적용하여 시스템의 효율성을 증진시키기"
+    ],
+    "core_idea": "다양한 기능 집합을 활용하여 데이터의 히스토그램 분포를 조정하고, 최적의 기능을 선택하여 성능을 향상시키는 것",
+    "idea_description": "회의에서는 데이터의 히스토그램 분포를 조정하는 방법과 다양한 기능 집합에서 최적의 기능을 선택하는 방법에 대해 논의되었습니다. 특히, 다중 스트림 방식으로 기능을 적용하여 시스템의 효율성을 증진시키는 것이 중요한 목표로 삼았습니다.",
+    "execution_plan": "1단계: 데이터의 히스토그램 분포 분석 및 조정 (2025.01.01 ~ 2025.01.31)\n2단계: 다양한 기능 집합에서 최적의 기능 선택 (2025.02.01 ~ 2025.02.28)\n3단계: 다중 스트림 방식으로 기능 적용 및 시스템 효율성 검증 (2025.03.01 ~ 2025.03.31)",
+    "expected_effects": [
+      "기대효과 1: 데이터의 히스토그램 분포가 조정되어 성능 향상",
+      "기대효과 2: 최적의 기능 선택으로 인한 시스템 성능의 향상",
+      "기대효과 3: 다중 스트림 방식 적용으로 인한 시스템 효율성 증진"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bro028_processed/05_final_result.json",
+    "utterance_count": 575,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_E"
+    ],
+    "original_length": 19606,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-07T02:53:05.493823"
+  }
+}

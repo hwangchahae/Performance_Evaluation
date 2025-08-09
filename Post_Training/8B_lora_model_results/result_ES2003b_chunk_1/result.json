@@ -1,0 +1,43 @@
+{
+  "id": "result_ES2003b_chunk_1",
+  "source_dir": "result_ES2003b",
+  "notion_output": {
+    "project_name": "NextGen Multi-Function Remote Control",
+    "project_purpose": "사용자 경험을 혁신하고 효율성을 높이는 멀티 기능 리모컨 개발",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: 리모컨의 사용자 친화적인 인터페이스 설계 및 테스트",
+      "목표 2: 다양한 기기와의 호환성을 강화한 멀티 기능 지원",
+      "목표 3: 사용자 교육 및 훈련 프로그램 개발",
+      "목표 4: 비용 효율적인 임베디드 시스템 설계"
+    ],
+    "core_idea": "사용자 중심의 인체공학적 디자인과 다양한 기능 통합을 통해 사용자의 삶을 더욱 편리하게 만드는 리모컨",
+    "idea_description": "리모컨은 TV와의 상호작용 가능성을 높이고, 바코드 스캔, 조이스틱 조작 등 다양한 기능을 지원하며, 음성 인식 기능을 추가하여 사용자에게 최적화된 경험을 제공합니다.",
+    "execution_plan": "1단계: 사용자 요구사항 수집 및 분석 (2025.01.01 ~ 2025.02.15)\n2단계: 초기 디자인 및 프로토타입 개발 (2025.02.16 ~ 2025.03.31)\n3단계: 사용자 테스트 및 피드백 수집 (2025.04.01 ~ 2025.04.30)\n4단계: 최종 디자인 수정 및 생산 준비 (2025.05.01 ~ 2025.05.31)\n5단계: 시장 출시 및 마케팅 활동 (2025.06.01 ~ 2025.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 증가 및 고객 유지율 향상",
+      "기대효과 2: 리모컨 교체 시장에서의 경쟁 우위 확보",
+      "기대효과 3: 비용 효율적인 임베디드 시스템으로 인한 운영 비용 절감",
+      "기대효과 4: 사용자 교육 프로그램을 통해 초기 사용자 불편함 최소화"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_ES2003b/05_final_result.json",
+    "utterance_count": 196,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C"
+    ],
+    "original_length": 7254,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-07T02:52:31.742955"
+  }
+}

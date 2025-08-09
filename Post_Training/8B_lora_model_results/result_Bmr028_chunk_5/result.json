@@ -1,0 +1,45 @@
+{
+  "id": "result_Bmr028_processed_chunk_5",
+  "source_dir": "result_Bmr028_processed",
+  "notion_output": {
+    "project_name": "Speech Recognition System Enhancement Project",
+    "project_purpose": "speech recognition 시스템의 성능을 개선하고, 새로운 데이터와 세분화된 접근법을 통해 오류율을 줄이며, STM 참조 파일과 같은 기술적 도구를 통합하여 효율성을 극대화",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_H",
+    "core_objectives": [
+      "목표 1: 새로운 대본 및 세분화된 접근법을 활용하여 오류율을 10% 이상 감소시키기",
+      "목표 2: STM 참조 파일을 통합하여 채점 프로세스의 효율성을 20% 향상시키기",
+      "목표 3: 기존 인식기의 성능을 유지하면서 새로운 데이터 처리 방식으로 인한 성능 향상을 확보하기"
+    ],
+    "core_idea": "새로운 데이터와 세분화된 접근법을 통해 speech recognition 시스템의 정확도와 효율성을 동시에 개선",
+    "idea_description": "현재 시스템의 채점 방식을 개선하고, STM 참조 파일을 통합하여 처리 시간을 단축하며, 새로운 대본을 사용하여 오류율을 줄임으로써 시스템의 전체적인 성능을 향상시킴",
+    "execution_plan": "1단계: 새로운 대본 및 세분화된 접근법 연구 (2025.01.01 ~ 2025.02.28)\n2단계: STM 참조 파일 통합 및 채점 프로세스 개선 (2025.03.01 ~ 2025.04.30)\n3단계: 새로운 데이터 처리 방식 개발 및 테스트 (2025.05.01 ~ 2025.06.15)\n4단계: 최종 성능 평가 및 보고서 작성 (2025.06.16 ~ 2025.06.30)",
+    "expected_effects": [
+      "기대효과 1: 오류율 감소로 인한 사용자 만족도 향상",
+      "기대효과 2: 채점 프로세스의 효율성 증가로 인한 운영 비용 절감",
+      "기대효과 3: 새로운 데이터 처리 방식으로 인한 시스템 성능의 지속적인 개선"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr028_processed/05_final_result.json",
+    "utterance_count": 814,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_H",
+      "Speaker_E"
+    ],
+    "original_length": 27961,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-07T02:54:43.352617"
+  }
+}

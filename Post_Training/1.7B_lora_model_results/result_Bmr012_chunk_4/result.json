@@ -1,0 +1,74 @@
+{
+  "id": "result_Bmr012_processed_chunk_4",
+  "source_dir": "result_Bmr012_processed",
+  "notion_output": {
+    "project_name": "크로스 패드 및 헤드셋 기능 개발 프로젝트",
+    "project_purpose": "크로스 패드와 헤드셋을 통해 다양한 채널 간 데이터 통합 및 효율적인 회의 운영",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 크로스 패드를 활용한 채널 간 데이터 통합 기능 구현",
+      "목표 2: 헤드셋을 통해 다양한 채널 지원 및 사용자 경험 향상",
+      "목표 3: 회의 진행 중 발생하는 문제 해결 및 사용자 피드백 반영"
+    ],
+    "core_idea": "크로스 패드와 헤드셋을 통해 다양한 채널을 동시에 지원하여 회의의 효율성을 극대화",
+    "idea_description": "크로스 패드를 통해 여러 채널을 동시에 사용하고 헤드셋을 통해 다양한 채널을 지원하며, 사용자 피드백을 반영하여 최적의 기능을 제공함.",
+    "execution_plan": [
+      {
+        "phase": "설계 및 기능 검토",
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "activities": [
+          "크로스 패드 및 헤드셋의 기능 설계",
+          "기술적 도전점을 점검 및 해결",
+          "회원들의 요구사항 및 피드백 수집"
+        ]
+      },
+      {
+        "phase": "개발 및 테스트",
+        "duration": "2025.01.16 ~ 2025.02.28",
+        "activities": [
+          "크로스 패드 및 헤드셋의 개발",
+          "테스트 환경 구축 및 성능 검증",
+          "회원들의 사용자 피드백 반영"
+        ]
+      },
+      {
+        "phase": "최종 검수 및 배포",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "activities": [
+          "최종 검수 및 QA 테스트",
+          "마케팅 및 교육 자료 준비",
+          "배포 및 사용자 교육 제공"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 회의 진행 중 발생하는 문제 해결 및 사용자 만족도 증가",
+      "기대효과 2: 다양한 채널을 동시에 지원하여 회의의 효율성 향상",
+      "기대효과 3: 사용자 피드백을 반영한 최적의 기능 제공으로 신뢰도 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr012_processed/05_final_result.json",
+    "utterance_count": 602,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_I",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_H",
+      "Speaker_F",
+      "Speaker_G"
+    ],
+    "original_length": 20997,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-07T03:00:00.224467"
+  }
+}

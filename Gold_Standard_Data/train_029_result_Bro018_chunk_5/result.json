@@ -1,0 +1,36 @@
+{
+  "id": "train_029_chunk_5",
+  "source_dir": "result_Bro018_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"고급 음성 인식 시스템 최적화 프로젝트\",\n    \"project_purpose\": \"Mel Cepstrum, PLP 데이터, RASTA 필터 및 로그 인식기를 활용하여 음성 인식 시스템의 정확도와 효율성을 현실적으로 향상시키는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: Mel Cepstrum 생성 코드 및 필터 뱅크 최적화, FFT 빈 통합 및 필터 뱅크의 사다리꼴 적분 적용\",\n        \"목표 2: RASTA 필터 적용 및 로그 인식기 최적화, 로그 가능성 분석을 통한 가지치기 임계값 조정\",\n        \"목표 3: PLP 데이터와 Mel Cepstrum 데이터의 비교 분석 및 가지치기 임계값 조정, 훈련 데이터의 품질 개선\"\n    ],\n    \"core_idea\": \"다양한 음성 처리 기술의 조정을 통해 음성 인식 시스템의 성능을 종합적으로 개선\",\n    \"idea_description\": \"Mel Cepstrum, PLP 데이터, RASTA 필터, 로그 인식기를 활용하여 음성 인식의 정확도를 높이고, 각 기술의 장단점을 비교 분석하여 최적의 음성 처리 방법을 찾는 프로젝트입니다. 특히, RASTA 필터의 잡음 저항성과 로그 인식기의 가지치기 임계값 조정에 중점을 둡니다.\",\n    \"execution_plan\": \"1단계: Mel Cepstrum 생성 코드 및 필터 뱅크 최적화 (2024.01.01 ~ 2024.01.15)\\n2단계: RASTA 필터 적용 및 로그 인식기 최적화 (2024.01.16 ~ 2024.02.15)\\n3단계: PLP 데이터와 Mel Cepstrum 데이터의 비교 분석 및 가지치기 임계값 조정 (2024.02.16 ~ 2024.03.15)\\n4단계: 최종 보고서 작성 및 결과 발표 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 음성 인식 정확도 3% 향상\",\n        \"기대효과 2: 필터 뱅크 및 로그 인식기 최적화를 통한 처리 속도 10% 개선\",\n        \"기대효과 3: PLP와 Mel Cepstrum, RASTA 필터의 비교를 통한 최적의 음성 처리 방법 도출\"\n    ],\n    \"technical_details\": [\n        \"RASTA 필터 적용을 통해 잡음에 강한 음성 인식 시스템 구현\",\n        \"로그 인식기의 로그 가능성 분석을 통해 가지치기 임계값 조정\",\n        \"PLP 데이터와 Mel Cepstrum 데이터의 비교를 통해 각 기술의 장단점 파악\",\n        \"필터 뱅크의 사다리꼴 적분 및 FFT 빈 통합을 통한 필터 최적화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro018_processed/05_final_result.json",
+    "utterance_count": 703,
+    "original_transcript_length": 24117,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 24117
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:15:45.067020"
+  }
+}

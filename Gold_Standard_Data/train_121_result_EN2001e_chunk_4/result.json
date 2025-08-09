@@ -1,0 +1,36 @@
+{
+  "id": "train_121_chunk_4",
+  "source_dir": "result_EN2001e",
+  "notion_output": "```json\n{\n    \"project_name\": \"요약 생성 개선 프로젝트\",\n    \"project_purpose\": \"검색 결과가 요약에 포함되도록 개선하여 사용자 경험 향상\",\n    \"project_period\": \"2023.11.01 ~ 2023.12.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: ID 인수를 받는 새로운 요약 생성자 개발\",\n        \"목표 2: 전체 텍스트 보기 옵션 제공\",\n        \"목표 3: 요약 길이를 비율로 조정하는 기능 구현\"\n    ],\n    \"core_idea\": \"검색 결과가 포함된 요약 생성 및 사용자 맞춤형 보기 옵션 제공\",\n    \"idea_description\": \"사용자가 검색 시 요약뿐만 아니라 전체 텍스트를 볼 수 있는 기능을 추가하고, 요약 길이를 비율로 조정하여 사용자 맞춤형 경험을 제공\",\n    \"execution_plan\": \"1단계: ID 인수를 받는 요약 생성자 개발 (2023.11.01 ~ 2023.11.15)\\n2단계: 전체 텍스트 보기 옵션 구현 (2023.11.16 ~ 2023.11.30)\\n3단계: 요약 길이 비율 조정 기능 개발 (2023.12.01 ~ 2023.12.15)\\n4단계: 사용자 테스트 및 피드백 반영 (2023.12.16 ~ 2023.12.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 검색 결과의 요약 포함으로 사용자 만족도 증가\",\n        \"기대효과 2: 전체 텍스트 보기 옵션으로 정보 접근성 향상\",\n        \"기대효과 3: 요약 길이 조정 기능으로 사용자 맞춤형 경험 제공\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_EN2001e/05_final_result.json",
+    "utterance_count": 391,
+    "original_transcript_length": 14912,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 14912
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 4,
+      "chunk_length": 1466
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:33:50.628713"
+  }
+}

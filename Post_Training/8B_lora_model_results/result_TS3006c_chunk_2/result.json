@@ -1,0 +1,41 @@
+{
+  "id": "result_TS3006c_chunk_2",
+  "source_dir": "result_TS3006c",
+  "notion_output": {
+    "project_name": "혁신적인 디스플레이 및 컨트롤 시스템 개발 프로젝트",
+    "project_purpose": "노란색과 녹색을 활용한 혁신적인 디스플레이 및 컨트롤 시스템을 개발하여 사용자 경험을 향상시키고 시장 경쟁력을 강화하기 위한 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 노란색과 녹색을 활용한 혁신적인 디스플레이 및 컨트롤 시스템 설계",
+      "목표 2: 사용자 친화적인 인터페이스 개발",
+      "목표 3: 색맹 사용자를 고려한 고대비 디자인 적용"
+    ],
+    "core_idea": "노란색과 녹색을 활용한 혁신적인 디스플레이 및 컨트롤 시스템을 개발하여 사용자 경험을 향상시키는 것",
+    "idea_description": "노란색과 녹색을 활용한 디스플레이 및 컨트롤 시스템을 설계하고, 사용자 친화적인 인터페이스를 개발하며, 색맹 사용자를 고려한 고대비 디자인을 적용함으로써 사용자의 접근성을 높이고 시장 경쟁력을 강화한다.",
+    "execution_plan": "1단계: 디자인 및 기술 연구 (2025.01.01 ~ 2025.02.15)\n2단계: 프로토타입 개발 및 테스트 (2025.02.16 ~ 2025.04.15)\n3단계: 피드백 수집 및 수정 (2025.04.16 ~ 2025.05.15)\n4단계: 최종 제품 출시 준비 및 마케팅 (2025.05.16 ~ 2025.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 경험 향상 및 고객 만족도 증가",
+      "기대효과 2: 시장 점유율 확대 및 브랜드 가치 상승",
+      "기대효과 3: 색맹 사용자를 고려한 접근성 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_TS3006c/05_final_result.json",
+    "utterance_count": 467,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "original_length": 13855,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-07T02:47:21.266836"
+  }
+}

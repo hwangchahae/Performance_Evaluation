@@ -1,0 +1,35 @@
+{
+  "id": "train_252_chunk_3",
+  "source_dir": "result_IS1003d",
+  "notion_output": "```json\n{\n    \"project_name\": \"파인애플 리모컨 혁신 프로젝트\",\n    \"project_purpose\": \"사용이 쉽고 강력하며, 독특한 디자인의 파인애플 리모컨을 개발하여 시장에 출시\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 파인애플 리모컨의 디자인 및 기능 최적화\",\n        \"목표 2: 사용자 친화적인 인터페이스 개발\",\n        \"목표 3: 시장 출시를 위한 마케팅 전략 수립\",\n        \"목표 4: 가격 전략 수립 및 시장 경쟁력 확보\"\n    ],\n    \"core_idea\": \"파인애플 모양의 혁신적인 리모컨 개발\",\n    \"idea_description\": \"파인애플 모양의 리모컨은 독특한 디자인과 사용의 편리함을 제공하며, 전통적인 리모컨의 한계를 극복하는 제품입니다. 특히, 색상과 외관에 대한 세심한 고려가 포함됩니다. 또한, 더블 커브 디자인과 스크롤 휠의 개선을 통해 사용성을 높입니다.\",\n    \"execution_plan\": [\n        \"1단계: 디자인 및 기능 요구사항 정의 (2024.01.01 ~ 2024.02.15)\",\n        \"2단계: 프로토타입 개발 및 테스트 (2024.02.16 ~ 2024.04.15)\",\n        \"3단계: 최종 제품 개발 및 생산 준비 (2024.04.16 ~ 2024.05.31)\",\n        \"4단계: 마케팅 및 출시 준비 (2024.06.01 ~ 2024.06.30)\",\n        \"5단계: 가격 전략 수립 및 시장 분석 (2024.02.01 ~ 2024.03.31)\"\n    ],\n    \"specific_features\": [\n        \"특징 1: 파인애플 모양의 독특한 디자인\",\n        \"특징 2: 사용자 친화적인 인터페이스와 쉬운 조작\",\n        \"특징 3: 다양한 색상 옵션 제공\",\n        \"특징 4: 태양 전지 사용으로 에너지 효율성 강화\",\n        \"특징 5: 더블 커브 디자인으로 인한 향상된 그립감\",\n        \"특징 6: 미세 조정이 가능한 스크롤 휠\"\n    ],\n    \"marketing_strategy\": [\n        \"전략 1: 독특한 디자인을 강조한 광고 캠페인\",\n        \"전략 2: 초기 구매자 할인 및 프로모션 제공\",\n        \"전략 3: 온라인 및 오프라인 채널을 통한 적극적인 홍보\",\n        \"전략 4: 파티용 리모컨으로서의 활용성을 강조한 마케팅\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 경험 개선을 통한 고객 만족도 향상\",\n        \"기대효과 2: 독특한 디자인으로 인한 시장 차별화\",\n        \"기대효과 3: 매출 증가 및 브랜드 인지도 상승\",\n        \"기대효과 4: 에너지 효율성을 통한 친환경 이미지 구축\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1003d/05_final_result.json",
+    "utterance_count": 363,
+    "original_transcript_length": 11115,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 11115
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 3,
+      "chunk_length": 2147
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:46:04.727454"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "train_129_chunk_2",
+  "source_dir": "result_Bmr010_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"마이크 배치 최적화 및 음성 인식 개선 프로젝트\",\n    \"project_purpose\": \"마이크 배치와 음성 인식 정확도를 개선하여 사용자 경험을 향상시키는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_C\",\n    \"core_objectives\": [\n        \"목표 1: 마이크 배치 최적화 연구 및 가이드라인 개발\",\n        \"목표 2: 음성 인식 시스템의 호흡 인식 오류 최소화\",\n        \"목표 3: 강제 정렬 기능의 효과적인 구현 및 테스트\"\n    ],\n    \"core_idea\": \"마이크 배치와 음성 인식의 상관관계를 분석하여 최적의 사용자 경험을 제공\",\n    \"idea_description\": \"마이크의 위치와 착용 방법이 음성 인식의 정확도에 미치는 영향을 분석하고, 이를 기반으로 최적의 배치 가이드를 개발합니다. 또한, 호흡 소음을 줄이기 위한 기술적 개선을 도모합니다.\",\n    \"execution_plan\": \"1단계: 현재 마이크 배치 및 사용 현황 분석 (2024.01.01 ~ 2024.01.15)\\n2단계: 최적의 마이크 배치 가이드라인 개발 (2024.01.16 ~ 2024.02.15)\\n3단계: 음성 인식 시스템의 호흡 인식 오류 개선 (2024.02.16 ~ 2024.03.15)\\n4단계: 강제 정렬 기능 테스트 및 피드백 수집 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상 및 음성 인식 정확도 증가\",\n        \"기대효과 2: 호흡 소음 최소화로 인한 시스템 안정성 향상\",\n        \"기대효과 3: 최적의 마이크 배치 가이드라인 제공으로 인한 사용자 편의성 증대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr010_processed/05_final_result.json",
+    "utterance_count": 608,
+    "original_transcript_length": 20174,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_H",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 20174
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:59:17.804344"
+  }
+}

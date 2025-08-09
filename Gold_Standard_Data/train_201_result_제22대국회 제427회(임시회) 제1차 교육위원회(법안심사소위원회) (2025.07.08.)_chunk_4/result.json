@@ -1,0 +1,43 @@
+{
+  "id": "train_201_chunk_4",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 교육위원회(법안심사소위원회) (2025.07.08.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"교육공무원법 및 사립학교법 개정안 추진 프로젝트\",\n    \"project_purpose\": \"교육공무원 및 사립학교 교원의 입시부정행위에 대한 징계시효 연장 및 법적 기준 강화\",\n    \"project_period\": \"2023.07.01 ~ 2023.12.31\",\n    \"project_manager\": \"문정복 소위원장\",\n    \"core_objectives\": [\n        \"목표 1: 교육공무원법 개정안의 본회의 통과\",\n        \"목표 2: 사립학교법 개정안의 본회의 통과\",\n        \"목표 3: 개정 법률의 시행 준비 및 홍보\"\n    ],\n    \"core_idea\": \"교육 및 사립학교 교원의 입시부정행위에 대한 징계시효를 연장하여 교육의 공정성과 신뢰성을 강화\",\n    \"idea_description\": \"입시부정행위에 대한 징계시효를 10년으로 연장하여 부정행위에 대한 엄중한 처벌을 통해 교육계의 신뢰성을 확보하고자 함\",\n    \"execution_plan\": \"1. 2023.07.01 ~ 2023.08.31: 개정안의 본회의 제출 및 통과\\n2. 2023.09.01 ~ 2023.10.31: 법률 시행 준비 및 관련 기관 협의\\n3. 2023.11.01 ~ 2023.12.31: 개정 법률의 홍보 및 교육계 대상 설명회 개최\",\n    \"expected_effects\": [\n        \"기대효과 1: 교육계의 부정행위 감소 및 공정성 강화\",\n        \"기대효과 2: 교육공무원 및 사립학교 교원의 법적 책임 강화\",\n        \"기대효과 3: 교육 신뢰도 향상 및 사회적 인식 개선\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제1차 교육위원회(법안심사소위원회) (2025.07.08.)/05_final_result.json",
+    "utterance_count": 287,
+    "original_transcript_length": 16184,
+    "speakers": [
+      "소위원장 문정복",
+      "강경숙 위원",
+      "김민전 위원",
+      "조정훈 위원",
+      "수석전문위원 최선영",
+      "김준혁 위원",
+      "백승아 위원",
+      "전문위원 윤상열",
+      "서지영 위원",
+      "교육부차관 오석환",
+      "정을호 위원",
+      "고민정 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 16184
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 4,
+      "chunk_length": 2749
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:54:11.609746"
+  }
+}

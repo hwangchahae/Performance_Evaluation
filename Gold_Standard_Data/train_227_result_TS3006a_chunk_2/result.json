@@ -1,0 +1,35 @@
+{
+  "id": "train_227_chunk_2",
+  "source_dir": "result_TS3006a",
+  "notion_output": "```json\n{\n    \"project_name\": \"창의적 소통 및 디자인 통합 프로젝트\",\n    \"project_purpose\": \"회의에서 논의된 서식 메뉴와 동물 그림을 활용하여 디자인 요소의 완전한 반영과 창의적 소통을 통해 프로젝트 효율성 및 사용자 경험을 개선\",\n    \"project_period\": \"2023.11.01 ~ 2023.12.31\",\n    \"project_manager\": \"Speaker_C\",\n    \"core_objectives\": [\n        \"목표 1: 서식 메뉴 활용을 통한 디자인 구성 요소의 완전한 반영\",\n        \"목표 2: 동물 그림을 활용한 창의적 소통 방법 개발\",\n        \"목표 3: 사용자 친화적인 인터페이스 개발 및 테스트\"\n    ],\n    \"core_idea\": \"회의에서 제안된 서식 메뉴와 동물 그림을 활용하여 디자인과 소통을 최적화\",\n    \"idea_description\": \"서식 메뉴를 활용하여 다양한 색상과 선 두께를 선택하고, 동물 그림을 통해 창의적 소통을 촉진하여 팀 간의 협업을 강화하고 사용자 경험을 개선\",\n    \"execution_plan\": \"1단계: 요구사항 분석 및 서식 메뉴 활용 방안 수립 (2023.11.01 ~ 2023.11.10)\\n2단계: 동물 그림을 통한 창의적 소통 방법 개발 및 디자인 통합 (2023.11.11 ~ 2023.11.25)\\n3단계: 사용자 테스트 및 피드백 반영 (2023.11.26 ~ 2023.12.10)\\n4단계: 최종 디자인 확정 및 배포 (2023.12.11 ~ 2023.12.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 서식 메뉴 활용으로 인한 디자인 통합 및 효율성 증대\",\n        \"기대효과 2: 동물 그림을 통한 창의적 소통으로 팀 간 협업 강화\",\n        \"기대효과 3: 사용자 경험 개선으로 인한 만족도 증가\"\n    ],\n    \"specific_roles\": {\n        \"Speaker_A\": \"서식 메뉴 활용 및 디자인 요소 반영 담당\",\n        \"Speaker_B\": \"동물 그림을 통한 창의적 소통 방법 개발 지원\",\n        \"Speaker_C\": \"프로젝트 총괄 및 사용자 테스트 주관\",\n        \"Speaker_D\": \"요구사항 분석 및 피드백 반영 지원\"\n    },\n    \"meeting_integration\": {\n        \"design_elements\": \"서식 메뉴에서 색상, 선 두께 등을 선택하여 디자인에 반영\",\n        \"communication_methods\": \"동물 그림을 통해 창의적 소통 방법을 개발하고, 각 동물의 선택 이유를 설명하여 팀 간 이해를 증진\",\n        \"role_clarification\": \"각 인물의 역할을 명확히 하여 프로젝트 진행의 효율성을 높임\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 5.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3006a/05_final_result.json",
+    "utterance_count": 199,
+    "original_transcript_length": 5972,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 5972
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 1499
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:52:17.752023"
+  }
+}

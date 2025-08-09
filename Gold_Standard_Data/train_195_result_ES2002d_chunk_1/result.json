@@ -1,0 +1,35 @@
+{
+  "id": "train_195_chunk_1",
+  "source_dir": "result_ES2002d",
+  "notion_output": "```json\n{\n    \"project_name\": \"리모컨 디자인 및 기능 최적화 프로젝트\",\n    \"project_purpose\": \"리모컨의 사용자 인터페이스 및 기능을 최적화하여 사용자 경험을 개선하고 비용 효율성을 높이는 것\",\n    \"project_period\": \"2025.01.01 ~ 2025.03.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 최종 디자인 결정 및 보고서 작성\",\n        \"목표 2: LCD 화면 및 고급 칩 제거를 통한 비용 절감\",\n        \"목표 3: 사용자 인터페이스 개선을 위한 버튼 및 조그 다이얼 최적화\"\n    ],\n    \"core_idea\": \"리모컨의 디자인과 기능을 재구성하여 비용을 절감하고 사용자 경험을 향상시키는 것\",\n    \"idea_description\": \"LCD 화면과 고급 칩을 제거하고, 일반 칩과 새로운 버튼 배열을 통해 리모컨의 기능을 최적화하며, 사용자 인터페이스를 개선하여 직관적인 사용성을 제공\",\n    \"execution_plan\": \"1단계: 현재 리모컨 디자인 및 기능 분석 (2025.01.01 ~ 2025.01.15)\\n2단계: LCD 및 고급 칩 제거 후 일반 칩 적용 (2025.01.16 ~ 2025.02.15)\\n3단계: 새로운 버튼 배열 및 조그 다이얼 설계 (2025.02.16 ~ 2025.03.01)\\n4단계: 최종 디자인 결정 및 보고서 작성 (2025.03.02 ~ 2025.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 리모컨 생산 비용 20% 절감\",\n        \"기대효과 2: 사용자 만족도 30% 향상\",\n        \"기대효과 3: 제품 출시 후 6개월 내 판매량 15% 증가\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2002d/05_final_result.json",
+    "utterance_count": 385,
+    "original_transcript_length": 12527,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 12527
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4973
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:37:55.507654"
+  }
+}

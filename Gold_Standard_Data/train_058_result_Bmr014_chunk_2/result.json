@@ -1,0 +1,37 @@
+{
+  "id": "train_058_chunk_2",
+  "source_dir": "result_Bmr014_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"다중 채널 형식 데이터 정리 및 채널화 프로젝트\",\n    \"project_purpose\": \"데이터의 효율적인 정리 및 채널화를 통해 작업 효율성을 높이고 오류를 최소화\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Liz\",\n    \"core_objectives\": [\n        \"목표 1: 다중 채널 형식의 데이터 정리 및 채널화\",\n        \"목표 2: 필터 시스템을 통한 오류 최소화\",\n        \"목표 3: 사용자 친화적인 웹 페이지 생성 및 접근성 향상\"\n    ],\n    \"core_idea\": \"데이터 정리와 채널화를 통해 작업 효율성을 극대화하고, 오류를 줄이는 시스템 구축\",\n    \"idea_description\": \"기존 HMM 시스템과 다른 다중 채널 형식을 활용하여 데이터를 정리하고, 필터 시스템을 통해 오류를 최소화하며, 사용자 친화적인 웹 페이지를 통해 접근성을 높임\",\n    \"execution_plan\": \"1. 데이터 정리 및 채널화 시스템 설계 (2023.11.01 ~ 2023.11.30)\\n2. 필터 시스템 개발 및 테스트 (2023.12.01 ~ 2023.12.31)\\n3. 웹 페이지 생성 및 사용자 테스트 (2024.01.01 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 데이터 정리 및 채널화로 인한 작업 효율성 증가\",\n        \"기대효과 2: 필터 시스템을 통한 오류 발생률 감소\",\n        \"기대효과 3: 사용자 친화적인 웹 페이지로 인한 접근성 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr014_processed/05_final_result.json",
+    "utterance_count": 502,
+    "original_transcript_length": 18258,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 18258
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 4,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T20:44:53.992612"
+  }
+}

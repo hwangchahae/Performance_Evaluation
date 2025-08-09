@@ -1,0 +1,35 @@
+{
+  "id": "train_042_chunk_2",
+  "source_dir": "result_ES2016c",
+  "notion_output": "```json\n{\n    \"project_name\": \"혁신적 다기능 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"다양한 소재와 기술을 활용하여 사용자 경험을 극대화하고 시장 경쟁력을 강화하는 혁신적 리모컨을 개발한다.\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"마누엘\",\n    \"core_objectives\": [\n        \"목표 1: 플라스틱 및 티타늄 소재의 장단점을 고려한 최적의 리모컨 디자인 개발\",\n        \"목표 2: 칩온프린트(CPP) 기술을 적용하여 에너지 효율성이 높은 케이스 및 에너지원 개발\",\n        \"목표 3: 사용자 친화적인 인터페이스와 고무 코팅을 통한 시각적 및 촉각적 매력 강화\"\n    ],\n    \"core_idea\": \"다양한 소재와 기술을 결합하여 기능성과 디자인을 겸비한 리모컨을 개발한다.\",\n    \"idea_description\": \"플라스틱과 티타늄 소재의 특성을 고려하여 다양한 형태의 리모컨을 설계하고, 칩온프린트 기술을 통해 에너지 효율성을 높인다. 또한, 고무 코팅 및 색상 조합을 통해 사용자의 시각적 및 촉각적 경험을 강화한다.\",\n    \"execution_plan\": \"1단계: 디자인 컨셉 확정 및 소재 제한 사항 검토 (2024.01.01 ~ 2024.02.15)\\n2단계: 프로토타입 제작 및 테스트, 특정 기능과 디자인 요소 결정 (2024.02.16 ~ 2024.04.30)\\n3단계: 최종 디자인 및 기능 확정, 사용자 피드백 반영 (2024.05.01 ~ 2024.05.31)\\n4단계: 생산 준비 및 출시 계획 수립, 마케팅 전략 개발 (2024.06.01 ~ 2024.06.30)\",\n    \"design_elements\": [\n        \"스크롤 휠과 LCD 스크린 결합 가능성 검토\",\n        \"고무 코팅된 플라스틱 껍질 사용 여부\",\n        \"노란색과 회색의 색상 조합을 통한 시각적 매력 강화\"\n    ],\n    \"material_constraints\": [\n        \"티타늄 소재는 곡면 디자인에 제한적\",\n        \"비용 문제로 특정 소재 사용 제한\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 혁신적인 디자인을 통한 브랜드 이미지 강화\",\n        \"기대효과 2: 사용자 편의성을 높인 제품으로 고객 만족도 향상\",\n        \"기대효과 3: 새로운 기술 적용으로 인한 시장 점유율 증가\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2016c/05_final_result.json",
+    "utterance_count": 207,
+    "original_transcript_length": 8097,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8097
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 3645
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T19:01:26.673304"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "result_ES2002c_chunk_1",
+  "source_dir": "result_ES2002c",
+  "notion_output": {
+    "project_name": "혁신적인 디자인 및 기술 통합 제품 개발",
+    "project_purpose": "패션 트렌드와 기술 발전을 반영한 혁신적인 디자인과 기능을 갖춘 제품을 개발하여 시장을 선점하고 고객의 요구를 충족시키는",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: 패션 트렌드에 따른 디자인 개발",
+      "목표 2: 사용 편의성을 극대화하는 기능 추가",
+      "목표 3: 환경 친화적인 소재와 재활용 가능성을 고려한 생산 방안 마련"
+    ],
+    "core_idea": "패션 트렌드와 기술 발전을 반영한 혁신적인 디자인과 기능을 갖춘 제품을 개발",
+    "idea_description": "패션 트렌드에 맞춰 디자인을 개발하고, 사용 편의성을 극대화하는 기능을 추가하며, 환경 친화적인 소재와 재활용 가능성을 고려한 생산 방안을 마련함으로써 시장 경쟁력을 강화.",
+    "execution_plan": [
+      {
+        "phase": "패션 트렌드 연구 및 디자인 개발",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "details": "패션 트렌드에 대한 연구를 통해 디자인 방향을 설정하고, 사용자 피드백을 반영하여 디자인을 개발."
+      },
+      {
+        "phase": "기술 발전 및 기능 추가",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "details": "최첨단 기술을 활용하여 사용 편의성을 극대화하는 기능을 추가하고, 기능의 효율성을 검증."
+      },
+      {
+        "phase": "환경 친화적 소재 및 재활용 가능성 확보",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "details": "환경 친화적인 소재와 재활용 가능성을 고려한 생산 방안을 마련하고, 관련 법규 및 규제를 준수하여 생산을 진행."
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 시장 점유율 증가 및 고객 만족도 향상",
+      "기대효과 2: 기술 발전을 반영한 혁신적인 제품으로의 신뢰도 강화",
+      "기대효과 3: 환경 친화적이고 사회적 책임 있는 제품으로의 이미지 개선"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_ES2002c/05_final_result.json",
+    "utterance_count": 245,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_C"
+    ],
+    "original_length": 8663,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-07T02:58:51.140002"
+  }
+}

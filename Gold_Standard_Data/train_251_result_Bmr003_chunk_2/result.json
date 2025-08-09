@@ -1,0 +1,37 @@
+{
+  "id": "train_251_chunk_2",
+  "source_dir": "result_Bmr003_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"회의 환경 기술 최적화 및 표준화 프로젝트\",\n    \"project_purpose\": \"회의 환경을 기술적으로 최적화하고 표준화하여 효율성을 높이며, 구체적인 기술적 문제를 해결\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"모건\",\n    \"core_objectives\": [\n        \"목표 1: 모니터 및 프로젝터 설치를 통한 시각적 환경 개선\",\n        \"목표 2: 무선 통신 시스템 및 VU 미터 표준화와 관련된 문제 해결\",\n        \"목표 3: 회의 기록 및 전사 시스템 개선\",\n        \"목표 4: Apple 드라이버 및 관련 기술 문제 해결\",\n        \"목표 5: 회의 중 음향 및 시각적 장비의 일관성 유지\"\n    ],\n    \"core_idea\": \"기술적 장비의 최적화와 표준화를 통해 회의의 질을 향상시키고, 참여자 간의 원활한 소통을 지원하며, 구체적인 기술적 문제를 해결\",\n    \"idea_description\": \"모니터와 프로젝터 설치를 통해 시각적 자료의 공유를 용이하게 하고, 무선 통신 시스템과 VU 미터의 표준화를 통해 기술적 문제를 최소화하며, 회의 기록 시스템을 개선하여 회의 내용을 효율적으로 관리. 또한, Apple 드라이버와 관련된 문제를 해결하여 모든 장비의 호환성을 높임. 회의 중 음향 및 시각적 장비의 일관성을 유지하여 회의의 질을 높임\",\n    \"execution_plan\": {\n        \"단계 1\": {\n            \"기간\": \"2024.01.01 ~ 2024.01.31\",\n            \"활동\": \"모니터 및 프로젝터 설치\",\n            \"책임자\": \"모건\"\n        },\n        \"단계 2\": {\n            \"기간\": \"2024.02.01 ~ 2024.02.28\",\n            \"활동\": \"무선 통신 시스템 및 VU 미터 표준화 문제 해결\",\n            \"책임자\": \"댄\"\n        },\n        \"단계 3\": {\n            \"기간\": \"2024.03.01 ~ 2024.03.15\",\n            \"활동\": \"회의 기록 및 전사 시스템 개선\",\n            \"책임자\": \"제인\"\n        },\n        \"단계 4\": {\n            \"기간\": \"2024.03.16 ~ 2024.03.31\",\n            \"활동\": \"Apple 드라이버 및 관련 기술 문제 해결\",\n            \"책임자\": \"벡\"\n        }\n    },\n    \"expected_effects\": [\n        \"기대효과 1: 시각적 자료 공유의 용이성 증가로 회의 효율성 향상\",\n        \"기대효과 2: 기술적 문제 감소로 인한 회의 진행의 원활함\",\n        \"기대효과 3: 회의 기록의 체계적 관리로 인한 정보 접근성 향상\",\n        \"기대효과 4: 모든 장비의 호환성 증가로 인한 기술적 문제 최소화\",\n        \"기대효과 5: 음향 및 시각적 장비의 일관성 유지로 인한 회의 질 향상\"\n    ],\n    \"specific_issues_and_solutions\": {\n        \"VU_meter\": \"회의에서 VU 미터의 표준화 필요성이 언급됨. 이를 통해 기술적 문제를 최소화하고, 회의 중 음향의 일관성을 유지\",\n        \"wireless_communication\": \"무선 통신 시스템의 표준화 및 개선 필요. 이를 통해 회의 중 통신 장애를 최소화\",\n        \"Apple_driver\": \"Apple 드라이버와 관련된 호환성 문제 해결 필요. 이를 통해 모든 장비의 원활한 작동 보장\",\n        \"음향_일관성\": \"회의 중 음향 장비의 일관성을 유지하여 회의의 질을 높임\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr003_processed/05_final_result.json",
+    "utterance_count": 831,
+    "original_transcript_length": 27783,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 27783
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 7,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:41:06.644998"
+  }
+}

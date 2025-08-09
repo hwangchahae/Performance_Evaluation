@@ -1,0 +1,35 @@
+{
+  "id": "train_179_chunk_4",
+  "source_dir": "result_Bro027_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"신경망 노이즈 보정 및 성능 최적화 프로젝트\",\n    \"project_purpose\": \"다양한 데이터 세트와 노이즈 보정 기술을 활용하여 신경망의 인식 정확도와 효율성을 극대화하는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: IDL VAD를 활용하여 발화의 깨끗한 버전에 대한 침묵 확률을 추정하고, 오류율을 최대 62%까지 감소\",\n        \"목표 2: TIMIT 및 SpeechDat-Car 데이터의 SNR 조건을 최적화하여 신경망 훈련의 정확도 향상\",\n        \"목표 3: Macrophone 데이터를 신경망 훈련 세트에 추가하여 데이터 다양성을 통한 성능 강화\",\n        \"목표 4: 노이즈 보정 프로세스의 불완전성을 최소화하여 신경망의 안정성 향상\"\n    ],\n    \"core_idea\": \"신경망의 노이즈 보정 프로세스와 데이터 세트 최적화를 통한 성능 극대화\",\n    \"idea_description\": \"신경망 훈련 시 노이즈 보정 프로세스를 개선하고, IDL VAD와 같은 기술을 활용하여 인식 정확도를 높입니다. TIMIT 및 SpeechDat-Car 데이터의 SNR 조건을 최적화하고, Macrophone 데이터를 추가하여 훈련 세트를 강화합니다. 또한, 노이즈 보정 프로세스의 불완전성을 최소화하여 신경망의 안정성을 향상시킵니다.\",\n    \"execution_plan\": [\n        {\n            \"step\": \"1단계\",\n            \"description\": \"노이즈 보정 프로세스 분석 및 IDL VAD 적용을 통한 개선\",\n            \"period\": \"2024.01.01 ~ 2024.01.31\",\n            \"details\": \"IDL VAD를 활용하여 발화의 깨끗한 버전에 대한 침묵 확률을 추정하고, 노이즈 보정 프로세스를 개선합니다. 이 과정에서 노이즈 보정의 불완전성을 분석하고 개선 방안을 모색합니다.\"\n        },\n        {\n            \"step\": \"2단계\",\n            \"description\": \"TIMIT 및 SpeechDat-Car 데이터의 SNR 조건 최적화\",\n            \"period\": \"2024.02.01 ~ 2024.02.28\",\n            \"details\": \"TIMIT 및 SpeechDat-Car 데이터의 다양한 SNR 조건을 분석하고 최적화하여 신경망 훈련의 정확도를 높입니다. 각 데이터 세트의 특성을 고려하여 최적의 SNR 조건을 설정합니다.\"\n        },\n        {\n            \"step\": \"3단계\",\n            \"description\": \"Macrophone 데이터 추가 및 신경망 훈련 세트 강화\",\n            \"period\": \"2024.03.01 ~ 2024.03.31\",\n            \"details\": \"Macrophone 데이터를 신경망 훈련 세트에 추가하여 데이터 다양성을 확보하고, 성능을 강화합니다. 데이터 추가에 따른 신경망의 변화와 성능 향상을 모니터링합니다.\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: IDL VAD 적용을 통해 신경망의 오류율을 최대 62%까지 감소시켜 인식 정확도 향상\",\n        \"기대효과 2: 다양한 데이터 세트 활용을 통한 신경망 훈련의 효율성 증대\",\n        \"기대효과 3: 노이즈 보정 프로세스 개선으로 인한 데이터 처리 속도 향상\",\n        \"기대효과 4: 노이즈 보정 프로세스의 불완전성 최소화로 인한 신경망의 안정성 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro027_processed/05_final_result.json",
+    "utterance_count": 833,
+    "original_transcript_length": 27663,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 27663
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 7,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:07:02.444500"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "train_199_chunk_1",
+  "source_dir": "result_Bro013_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"상업 시설 데이터 처리 최적화 및 멜 필터링 적용 프로젝트\",\n    \"project_purpose\": \"상업 시설의 데이터 처리 효율성을 극대화하고 멜 필터링을 통해 데이터 처리의 정확성을 향상시키는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_C\",\n    \"core_objectives\": [\n        \"목표 1: 상업 시설의 데이터 활용 현황 분석 및 개선 방안 도출\",\n        \"목표 2: SRI 시스템과 기타 시스템의 데이터 처리 효율성 비교 및 최적화\",\n        \"목표 3: 멜 필터링을 통한 데이터 처리의 정확성 향상\",\n        \"목표 4: VAD 및 MSG 스트림을 포함한 새로운 시스템의 적용 가능성 평가\"\n    ],\n    \"core_idea\": \"상업 시설에서 발생하는 대량의 데이터를 효과적으로 처리하기 위해 SRI 시스템과 기타 시스템을 분석하고, 멜 필터링과 VAD, MSG 스트림 등의 기술을 활용하여 데이터 처리의 정확성을 높인다.\",\n    \"idea_description\": \"SRI 시스템과 기타 시스템의 데이터 처리 효율성을 비교 분석하여 최적의 데이터 처리 방법을 도출한다. 멜 필터링을 통해 데이터 처리의 정확성을 높이고, VAD 및 MSG 스트림을 포함한 새로운 시스템의 적용 가능성을 평가하여 운영 효율성을 극대화한다.\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"1단계\",\n            \"description\": \"데이터 활용 현황 분석\",\n            \"duration\": \"2024.01.01 ~ 2024.02.28\",\n            \"tasks\": [\n                \"상업 시설에서 사용 중인 데이터 양 및 처리 방식 조사\",\n                \"SRI 시스템과 기타 시스템의 현재 사용 현황 분석\"\n            ]\n        },\n        {\n            \"phase\": \"2단계\",\n            \"description\": \"SRI 시스템과 기타 시스템의 비교 분석 및 VAD, MSG 스트림 검토\",\n            \"duration\": \"2024.03.01 ~ 2024.04.15\",\n            \"tasks\": [\n                \"SRI 시스템과 기타 시스템의 데이터 처리 효율성 비교\",\n                \"VAD 및 MSG 스트림 기술의 적용 가능성 평가\"\n            ]\n        },\n        {\n            \"phase\": \"3단계\",\n            \"description\": \"멜 필터링 및 새로운 시스템 적용 및 성능 테스트\",\n            \"duration\": \"2024.04.16 ~ 2024.05.31\",\n            \"tasks\": [\n                \"멜 필터링을 통한 데이터 처리 정확성 향상 테스트\",\n                \"새로운 시스템의 성능 테스트 및 결과 분석\"\n            ]\n        },\n        {\n            \"phase\": \"4단계\",\n            \"description\": \"최종 보고서 작성 및 결과 발표\",\n            \"duration\": \"2024.06.01 ~ 2024.06.30\",\n            \"tasks\": [\n                \"최종 보고서 작성\",\n                \"프로젝트 결과 발표 및 피드백 수집\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 데이터 처리 효율성 개선으로 인한 운영 비용 절감\",\n        \"기대효과 2: 멜 필터링을 통한 데이터 처리 정확성 향상으로 인한 서비스 품질 개선\",\n        \"기대효과 3: SRI 시스템과 기타 시스템의 최적화로 인한 수익성 증대\",\n        \"기대효과 4: VAD 및 MSG 스트림을 통한 데이터 처리의 혁신적 개선\"\n    ],\n    \"technical_details\": {\n        \"SRI_system\": \"SRI 시스템은 상업 시설에서의 데이터 처리에 있어 높은 효율성을 제공하며, 기타 시스템과의 비교를 통해 최적의 성능을 도출할 수 있음\",\n        \"mel_filtering\": \"멜 필터링은 데이터 처리의 정확성을 높이는 데 기여하며, 특히 낮은 주파수에서의 부드러운 데이터 처리를 가능하게 함\",\n        \"VAD_and_MSG_stream\": \"VAD는 숨겨진 유닛의 양이 적고 입력도 적어 데이터 처리에 효율적이며, MSG 스트림은 새로운 시스템으로서의 가능성을 평가 중임\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 5.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro013_processed/05_final_result.json",
+    "utterance_count": 296,
+    "original_transcript_length": 8746,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8746
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4988
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:49:11.894810"
+  }
+}

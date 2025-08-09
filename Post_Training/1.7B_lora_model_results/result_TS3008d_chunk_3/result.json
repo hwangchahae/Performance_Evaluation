@@ -1,0 +1,69 @@
+{
+  "id": "result_TS3008d_chunk_3",
+  "source_dir": "result_TS3008d",
+  "notion_output": {
+    "project_name": "혁신형 리모컨 및 도킹 스테이션 개발",
+    "project_purpose": "특수 색상과 형태를 갖춘 혁신적인 리모컨과 도킹 스테이션을 개발하여 소비자에게 매력적인 제품으로 판매",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 특수 색상과 형태를 갖춘 리모컨 및 도킹 스테이션 개발",
+      "목표 2: 최소비용으로 생산하여 대규모 출시",
+      "목표 3: 고객 피드백을 반영하여 제품 개선"
+    ],
+    "core_idea": "특수 색상과 형태를 갖춘 리모컨 및 도킹 스테이션을 개발하여 소비자에게 매력적인 제품으로 판매",
+    "idea_description": "특수 색상과 형태를 갖춘 리모컨 및 도킹 스테이션을 개발하여 소비자에게 매력적인 제품으로 판매하며, 최소비용으로 생산하여 대규모 출시",
+    "execution_plan": [
+      {
+        "phase": "설계 및 시뮬레이션",
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "activities": [
+          "기능적 요구 사항 분석",
+          "구성 요소 설계",
+          "도킹 스테이션 설계"
+        ]
+      },
+      {
+        "phase": "제작 및 테스트",
+        "duration": "2025.01.16 ~ 2025.02.15",
+        "activities": [
+          "재료 선택 및 구매",
+          "제작",
+          "테스트 및 수정"
+        ]
+      },
+      {
+        "phase": "마케팅 및 출시 준비",
+        "duration": "2025.02.16 ~ 2025.03.31",
+        "activities": [
+          "마케팅 전략 수립",
+          "출시 전 광고 및 홍보",
+          "공급망 확보"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 소비자 선호와 시장 트렌드에 부합한 제품 출시로 높은 판매 성과 달성",
+      "기대효과 2: 최소비용으로 생산하여 대규모 출시로 초기 매출 증가",
+      "기대효과 3: 고객 피드백을 반영하여 제품 개선으로 신뢰도 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_TS3008d/05_final_result.json",
+    "utterance_count": 440,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 14071,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 3,
+    "processing_date": "2025-08-07T02:56:55.476008"
+  }
+}

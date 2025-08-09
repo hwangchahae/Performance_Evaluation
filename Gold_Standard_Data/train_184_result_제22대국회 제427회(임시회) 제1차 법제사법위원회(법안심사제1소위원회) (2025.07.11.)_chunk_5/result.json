@@ -1,0 +1,42 @@
+{
+  "id": "train_184_chunk_5",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 법제사법위원회(법안심사제1소위원회) (2025.07.11.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"상법 개정안 실행 프로젝트\",\n    \"project_purpose\": \"상법 개정을 통해 기업의 투명성과 주주 이익 보호 강화\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"김용민 소위원장\",\n    \"core_objectives\": [\n        \"목표 1: 주주 이익 보호를 위한 집중투표제 및 분리선출 제도 도입\",\n        \"목표 2: 기업 투명성 강화를 위한 감사위원회 구성 개선\",\n        \"목표 3: 해외 행동주의 펀드의 부정적 영향 최소화\"\n    ],\n    \"core_idea\": \"상법 개정을 통해 기업 지배구조를 개선하고 주주 권익을 강화\",\n    \"idea_description\": \"상법 개정을 통해 집중투표제, 분리선출, 감사위원회 구성 개선을 도입하여 주주 이익을 보호하고 기업의 투명성을 강화한다. 이를 통해 해외 행동주의 펀드의 부정적 영향을 최소화하고 기업의 장기적 성장을 도모한다.\",\n    \"execution_plan\": \"1. 2024년 1월: 상법 개정안 초안 작성 및 검토\\n2. 2024년 2월: 이해관계자 의견 수렴 및 수정\\n3. 2024년 3월: 개정안 확정 및 법제화 추진\\n4. 2024년 4월: 기업 대상 교육 및 홍보\\n5. 2024년 5월: 개정안 시행 및 모니터링\",\n    \"expected_effects\": [\n        \"기대효과 1: 주주 이익 보호 강화로 인한 기업 신뢰도 상승\",\n        \"기대효과 2: 기업 투명성 제고로 인한 투자자 신뢰도 향상\",\n        \"기대효과 3: 해외 행동주의 펀드의 부정적 영향 최소화로 인한 기업 안정성 확보\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제1차 법제사법위원회(법안심사제1소위원회) (2025.07.11.)/05_final_result.json",
+    "utterance_count": 412,
+    "original_transcript_length": 24679,
+    "speakers": [
+      "장동혁 위원",
+      "주진우 위원",
+      "진술인 최준선",
+      "서영교 위원",
+      "진술인 정우용",
+      "소위원장 김용민",
+      "전현희 위원",
+      "박균택 위원",
+      "곽규택 위원",
+      "진술인 김우찬",
+      "진술인 윤태준"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 24679
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 6,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:22:58.355586"
+  }
+}

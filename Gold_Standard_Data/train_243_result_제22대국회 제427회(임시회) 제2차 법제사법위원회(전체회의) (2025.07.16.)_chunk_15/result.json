@@ -1,0 +1,50 @@
+{
+  "id": "train_243_chunk_15",
+  "source_dir": "result_제22대국회 제427회(임시회) 제2차 법제사법위원회(전체회의) (2025.07.16.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"검찰개혁 및 사법제도 개선 프로젝트\",\n    \"project_purpose\": \"검찰개혁과 사법제도의 정치화 방지를 통해 공정하고 신뢰할 수 있는 법치주의 확립\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"정성호 법무부장관후보자\",\n    \"core_objectives\": [\n        \"목표 1: 검찰개혁 방향성 확립 및 실행 계획 수립\",\n        \"목표 2: 허위사실공표죄 및 후보자비방죄 관련 법안 검토 및 개정 추진\",\n        \"목표 3: 5·18 피해자 보상 제도 개선 및 형평성 확보\"\n    ],\n    \"core_idea\": \"검찰과 사법제도의 정치적 중립성을 강화하고, 법적 절차의 공정성을 확보하여 국민의 신뢰를 회복\",\n    \"idea_description\": \"검찰개혁을 통해 수사 및 기소의 독립성을 강화하고, 사법제도의 정치적 영향력을 최소화하여 법치주의를 강화하는 것을 목표로 한다.\",\n    \"execution_plan\": \"1. 검찰개혁 방향성 확립 (2024.01.01 ~ 2024.02.28)\\n2. 관련 법안 검토 및 개정 추진 (2024.03.01 ~ 2024.04.30)\\n3. 5·18 피해자 보상 제도 개선 방안 마련 (2024.05.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 검찰의 정치적 중립성 강화로 인한 국민 신뢰 회복\",\n        \"기대효과 2: 법적 절차의 공정성 확보로 인한 사법제도에 대한 신뢰 증대\",\n        \"기대효과 3: 5·18 피해자 보상 제도 개선으로 인한 사회적 형평성 증진\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제2차 법제사법위원회(전체회의) (2025.07.16.)/05_final_result.json",
+    "utterance_count": 1922,
+    "original_transcript_length": 112168,
+    "speakers": [
+      "조배숙 위원",
+      "이성윤 위원",
+      "법무부장관후보자 정성호",
+      "장경태 위원",
+      "박은정 위원",
+      "장동혁 위원",
+      "주진우 위원",
+      "김용민 위원",
+      "박준태 위원",
+      "박균택 위원",
+      "신동욱 위원",
+      "법무부기획조정실장 최지석",
+      "박지원 위원",
+      "서영교 위원",
+      "위원장 이춘석",
+      "곽규택 위원",
+      "송석준 위원",
+      "김기표 위원",
+      "박희승 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 25,
+      "original_length": 112168
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 15,
+      "total_chunks": 25,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T07:56:54.606026"
+  }
+}

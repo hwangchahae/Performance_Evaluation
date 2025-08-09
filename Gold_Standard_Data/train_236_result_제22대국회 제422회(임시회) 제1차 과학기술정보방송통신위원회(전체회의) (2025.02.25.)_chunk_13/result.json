@@ -1,0 +1,59 @@
+{
+  "id": "train_236_chunk_13",
+  "source_dir": "result_제22대국회 제422회(임시회) 제1차 과학기술정보방송통신위원회(전체회의) (2025.02.25.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"AI 고속도로 구축 프로젝트\",\n    \"project_purpose\": \"국가 AI 경쟁력 강화를 위한 인프라 및 인재 육성 체계 구축\",\n    \"project_period\": \"2024.01.01 ~ 2024.12.31\",\n    \"project_manager\": \"황정아 위원\",\n    \"core_objectives\": [\n        \"목표 1: AI 인프라 구축을 위한 국가 예산 확보 및 투자\",\n        \"목표 2: AI 인재 양성을 위한 교육 프로그램 개발 및 시행\",\n        \"목표 3: AI 산업 생태계 조성을 위한 정책 및 법률 개정\"\n    ],\n    \"core_idea\": \"AI 고속도로 구축을 통해 국가 AI 경쟁력 강화\",\n    \"idea_description\": \"미국 및 중국과의 AI 경쟁에서 뒤처지지 않기 위해 대규모 국가 예산을 투입하여 AI 인프라를 구축하고, 인재 양성을 위한 교육 프로그램을 개발하며, 관련 법률 및 정책을 개정하여 AI 산업 생태계를 조성함.\",\n    \"execution_plan\": \"1단계: 2024년 1분기 - 국가 예산 확보 및 투자 계획 수립\\n2단계: 2024년 2분기 - AI 인재 양성 교육 프로그램 개발\\n3단계: 2024년 3분기 - AI 관련 법률 및 정책 개정 추진\\n4단계: 2024년 4분기 - AI 인프라 구축 및 생태계 조성\",\n    \"expected_effects\": [\n        \"기대효과 1: 국가 AI 경쟁력 강화 및 글로벌 시장에서의 경쟁 우위 확보\",\n        \"기대효과 2: AI 인재 양성을 통한 국내 AI 산업 발전 및 고용 창출\",\n        \"기대효과 3: AI 생태계 조성을 통한 지속 가능한 산업 성장 및 혁신 촉진\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제422회(임시회) 제1차 과학기술정보방송통신위원회(전체회의) (2025.02.25.)/05_final_result.json",
+    "utterance_count": 1051,
+    "original_transcript_length": 64639,
+    "speakers": [
+      "김우영 위원",
+      "진술인 장준영",
+      "최형두 위원",
+      "조인철 위원",
+      "진술인 최경진",
+      "이정헌 위원",
+      "진술인 이상학",
+      "이훈기 위원",
+      "진술인 배경훈",
+      "한민수 위원",
+      "김장겸 위원",
+      "이준석 위원",
+      "신성범 위원",
+      "박충권 위원",
+      "정동영 위원",
+      "박민규 위원",
+      "박정훈 위원",
+      "황정아 위원",
+      "최수진 위원",
+      "김현 위원",
+      "위원장대리 김현",
+      "위원장 최민희",
+      "이상휘 위원",
+      "과학기술정보통신부제2차관 강도현",
+      "진술인 박성호",
+      "이해민 위원",
+      "노종면 위원",
+      "과학기술정보통신부장관 유상임"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 15,
+      "original_length": 64639
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 13,
+      "total_chunks": 15,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T07:24:42.777229"
+  }
+}

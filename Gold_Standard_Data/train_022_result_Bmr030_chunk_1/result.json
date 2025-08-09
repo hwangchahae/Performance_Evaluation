@@ -1,0 +1,36 @@
+{
+  "id": "train_022_chunk_1",
+  "source_dir": "result_Bmr030_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"DARPA 데모 및 IBM 데이터 처리 최적화 프로젝트\",\n    \"project_purpose\": \"DARPA 데모를 성공적으로 수행하여 기술적 성과를 입증하고, IBM과의 협력을 통해 데이터 처리 및 스크립트 최적화를 달성\",\n    \"project_period\": \"2023.11.01 ~ 2023.12.15\",\n    \"project_manager\": \"모건\",\n    \"core_objectives\": [\n        \"목표 1: DARPA 데모에 필요한 모든 자료와 설명서를 준비하고 모건에게 전달\",\n        \"목표 2: 모건이 데모를 테스트하고 피드백을 수집하여 개선점 반영\",\n        \"목표 3: 데모 중 응용프로그램 간 전환 기능을 원활히 구현\",\n        \"목표 4: 회의에서 논의된 논문 참고문헌을 수집 및 이메일로 공유\",\n        \"목표 5: IBM 측과의 협력으로 스크립트 수정 및 데이터 처리 최적화\",\n        \"목표 6: Alt+Tab 전환 기능에 대한 사용자 교육 및 문서화\"\n    ],\n    \"core_idea\": \"DARPA 데모를 성공적으로 수행하여 기술적 역량을 입증하고, IBM과의 협력을 통해 데이터 처리 효율성을 높임\",\n    \"idea_description\": \"DARPA 데모는 응용프로그램 간 전환 기능을 포함하여 다양한 기술적 요소를 시연하는 프로젝트로, 성공적인 데모를 통해 기술적 신뢰성을 확보하고, IBM과의 협력을 통해 데이터 처리 및 스크립트 최적화를 목표로 한다.\",\n    \"execution_plan\": [\n        \"1. 모든 자료와 설명서를 준비하여 모건에게 전달 (2023.11.05까지)\",\n        \"2. 모건이 데모를 테스트하고 피드백을 수집하여 개선점 반영 (2023.11.10까지)\",\n        \"3. 응용프로그램 간 전환 기능을 구현 및 테스트 (2023.11.15까지)\",\n        \"4. 논문 참고문헌을 수집하여 이메일로 공유 (2023.11.20까지)\",\n        \"5. IBM 측과 협력하여 스크립트 수정 및 데이터 처리 최적화 (2023.12.01까지)\",\n        \"6. Alt+Tab 전환 기능에 대한 사용자 교육 자료 준비 및 교육 실시 (2023.12.05까지)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 성공적인 데모 수행으로 DARPA와의 협력 강화\",\n        \"기대효과 2: 기술적 신뢰성 확보를 통한 추가 프로젝트 기회 창출\",\n        \"기대효과 3: IBM과의 협력으로 데이터 처리 효율성 증대 및 장기적 협력 가능성 증대\"\n    ],\n    \"additional_notes\": [\n        \"모건은 데모의 전반적인 준비와 테스트를 총괄하며, 피드백을 통해 개선점을 반영하는 역할을 담당\",\n        \"IBM과의 협력은 스크립트 수정 및 데이터 처리 최적화를 목표로 하며, Adam이 스크립트 수정 작업을 주도\",\n        \"회의 중 논의된 바와 같이, 응용프로그램 간 전환 기능은 Alt+Tab을 통한 전환을 포함하며, 이를 위한 사용자 교육 필요\",\n        \"회의에서 논의된 바에 따라, 다양한 해상도로 사물의 지도를 갖는 것처럼, 다양한 시나리오를 고려한 데모 준비 필요\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 5.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr030_processed/05_final_result.json",
+    "utterance_count": 369,
+    "original_transcript_length": 12404,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 12404
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4994
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T17:47:24.460763"
+  }
+}

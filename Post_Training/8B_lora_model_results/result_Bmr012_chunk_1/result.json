@@ -1,0 +1,46 @@
+{
+  "id": "result_Bmr012_processed_chunk_1",
+  "source_dir": "result_Bmr012_processed",
+  "notion_output": {
+    "project_name": "AI 기반 성능 개선 및 데이터 활용 프로젝트",
+    "project_purpose": "AI 기반 성능 개선을 통한 효율성 증대 및 데이터 활용 능력 강화",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Don",
+    "core_objectives": [
+      "목표 1: AI 기반 성능 개선을 통한 작업 효율성 증대",
+      "목표 2: 다양한 데이터 수집 및 분석을 통한 의사결정 지원 강화",
+      "목표 3: 사용자 경험 개선을 위한 인터페이스 최적화"
+    ],
+    "core_idea": "AI 기반 성능 개선 및 데이터 활용을 통한 조직의 효율성과 생산성을 극대화",
+    "idea_description": "AI 기술을 활용하여 작업 효율성을 높이고, 다양한 데이터를 수집 및 분석하여 의사결정을 지원하며, 사용자 경험을 개선하기 위한 인터페이스 최적화를 추진합니다.",
+    "execution_plan": "1단계: AI 기반 성능 개선 기술 연구 및 개발 (2024.01.01 ~ 2024.03.31)\n2단계: 데이터 수집 및 분석 시스템 구축 (2024.04.01 ~ 2024.05.31)\n3단계: 인터페이스 최적화 및 시범 운영 (2024.06.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 작업 효율성 20% 증가",
+      "기대효과 2: 의사결정 속도 30% 개선",
+      "기대효과 3: 사용자 만족도 15% 상승"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr012_processed/05_final_result.json",
+    "utterance_count": 602,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_E",
+      "Speaker_D",
+      "Speaker_H",
+      "Speaker_I"
+    ],
+    "original_length": 20997,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-07T02:56:16.795971"
+  }
+}

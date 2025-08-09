@@ -1,0 +1,41 @@
+{
+  "id": "result_Bed012_processed_chunk_2",
+  "source_dir": "result_Bed012_processed",
+  "notion_output": {
+    "project_name": "Where-Is 베이즈넷 통합 프로젝트",
+    "project_purpose": "Where-Is 구조를 활용하여 베이즈넷을 통해 효율적인 의사결정을 지원하는 시스템 개발",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: Where-Is 구조와 베이즈넷의 통합 설계",
+      "목표 2: 세 가지 노드(Go-there, Info-on, Location)를 활용한 의사결정 트리 구축",
+      "목표 3: 사후 확률을 기반으로 한 구조체 출력 개선"
+    ],
+    "core_idea": "Where-Is 구조를 활용하여 베이즈넷을 통해 효율적인 의사결정을 지원하는 시스템",
+    "idea_description": "Where-Is 구조를 사용하여 질문에 대한 답변을 결정하는 베이즈넷을 설계하고, 세 가지 노드를 활용하여 의사결정 트리를 구축함으로써 효율적인 데이터 처리와 의사결정을 가능하게 함.",
+    "execution_plan": "1단계: Where-Is 구조와 베이즈넷의 통합 설계 (2025.01.01 ~ 2025.02.28)\n2단계: 세 가지 노드를 활용한 의사결정 트리 구축 (2025.03.01 ~ 2025.04.30)\n3단계: 사후 확률을 기반으로 한 구조체 출력 개선 및 테스트 (2025.05.01 ~ 2025.06.30)",
+    "expected_effects": [
+      "기대효과 1: 효율적인 의사결정 지원을 통한 운영 효율성 증대",
+      "기대효과 2: Where-Is 구조와 베이즈넷의 통합을 통한 데이터 처리 속도 향상",
+      "기대효과 3: 구조체 출력의 정확성을 높임으로써 사용자 만족도 증대"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bed012_processed/05_final_result.json",
+    "utterance_count": 520,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "original_length": 17584,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-07T02:58:09.490710"
+  }
+}

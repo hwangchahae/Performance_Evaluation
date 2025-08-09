@@ -1,0 +1,37 @@
+{
+  "id": "train_235_chunk_5",
+  "source_dir": "result_Bed014_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"과학적 연구 주제 기반의 데이터 분석 및 전략 개선 프로젝트\",\n    \"project_purpose\": \"회의에서 논의된 특정 과학적 연구 주제를 바탕으로 데이터 분석을 통해 형식주의와 구문 분석 전략을 구체적으로 개선\",\n    \"project_period\": \"2023.11.06 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_E\",\n    \"core_objectives\": [\n        \"목표 1: 월요일까지 초기 데이터 수집 및 분석 완료\",\n        \"목표 2: 과학적 연구 주제에 대한 심층 분석 및 구체적 결과 도출\",\n        \"목표 3: 형식주의와 구문 분석 전략의 구체적 개선을 위한 데이터 기반 접근법 개발\"\n    ],\n    \"core_idea\": \"회의에서 논의된 과학적 연구 주제를 중심으로 데이터 기반의 형식주의와 구문 분석 전략을 구체적으로 개선\",\n    \"idea_description\": \"회의에서 제안된 과학적 연구 주제를 바탕으로 데이터 수집 및 분석을 진행하고, 이를 통해 형식주의 및 구문 분석 전략을 구체적으로 개선하여 더 나은 결과를 도출\",\n    \"execution_plan\": [\n        \"1단계: 초기 데이터 수집 및 분석 (2023.11.06 ~ 2023.11.13) - 예비 데이터를 바탕으로 월요일까지 분석 완료\",\n        \"2단계: 과학적 연구 주제에 대한 심층 분석 (2023.11.14 ~ 2023.12.15) - Speaker_F의 연구 경험을 활용하여 초점 배경 논의 포함\",\n        \"3단계: 형식주의와 구문 분석 전략의 구체적 개선 (2023.12.16 ~ 2024.01.31) - 형식주의의 일부로 구문 분석 전략을 포함시켜 개선\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 데이터 기반의 과학적 통찰을 통해 연구의 정확성 및 신뢰성 향상\",\n        \"기대효과 2: 형식주의와 구문 분석 전략의 구체적 개선으로 인한 효율성 증가\",\n        \"기대효과 3: 프로젝트 결과를 바탕으로 한 새로운 연구 기회 창출\"\n    ],\n    \"meeting_insights\": [\n        \"Speaker_F는 과학적 연구 주제를 2년간 연구한 경험이 있으며, 초점 배경에 대한 논의를 제안함\",\n        \"Speaker_A는 데이터 지향적 접근의 중요성을 강조하고, 예비 데이터의 필요성을 언급함\",\n        \"Speaker_D는 형식주의의 일부로 구문 분석 전략을 포함시킬 것을 제안함\",\n        \"회의에서 월요일까지 초기 데이터 수집 및 분석을 완료하기로 결정함\",\n        \"Speaker_C는 특정 제약 조건이 실제로 선택에 사용되지 않는 것에 대한 우려를 표명함\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed014_processed/05_final_result.json",
+    "utterance_count": 617,
+    "original_transcript_length": 20451,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 20451
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 5,
+      "chunk_length": 2513
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T07:20:35.760332"
+  }
+}

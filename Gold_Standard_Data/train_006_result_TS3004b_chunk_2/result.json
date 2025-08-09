@@ -1,0 +1,35 @@
+{
+  "id": "train_006_chunk_2",
+  "source_dir": "result_TS3004b",
+  "notion_output": "```json\n{\n    \"project_name\": \"범용 스마트 TV 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"모든 TV 브랜드와 호환되며 에너지 효율성을 극대화한 혁신적인 스마트 TV 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 친화적이고 직관적인 디자인 개발\",\n        \"목표 2: 모든 TV 브랜드와 호환 가능한 범용 리모컨 개발\",\n        \"목표 3: 에너지 효율성을 극대화한 리모컨 설계\",\n        \"목표 4: 독특한 디자인으로 시장에서의 차별화\"\n    ],\n    \"core_idea\": \"스마트 TV 리모컨의 기능성과 디자인을 혁신하여 사용자 경험을 극대화하고 시장 경쟁력을 강화\",\n    \"idea_description\": \"현재 리모컨의 사용성을 분석하고, 모든 TV 브랜드와 호환되며 에너지 효율적인 리모컨을 개발하여 시장 경쟁력을 높인다. 특히, 리모컨의 디자인을 독특하고 직관적으로 만들어 사용자가 쉽게 사용할 수 있도록 한다. 회의에서 논의된 다양한 버튼 구성과 에너지 효율성을 위한 기술적 접근을 반영한다.\",\n    \"execution_plan\": [\n        {\n            \"step\": \"1단계: 시장 조사 및 사용자 피드백 수집\",\n            \"period\": \"2024.01.01 ~ 2024.02.15\",\n            \"responsible\": \"Speaker_B\",\n            \"details\": \"현재 시장의 트렌드를 분석하고 사용자 피드백을 통해 요구사항을 수집한다. 특히, 리모컨의 디자인과 버튼 구성에 대한 피드백을 중점적으로 수집한다.\"\n        },\n        {\n            \"step\": \"2단계: 디자인 및 기술 사양 개발\",\n            \"period\": \"2024.02.16 ~ 2024.03.31\",\n            \"responsible\": \"Speaker_C\",\n            \"details\": \"회의에서 논의된 디자인 요소와 에너지 효율성을 고려하여 기술 사양을 개발한다. 특히, 적외선 전구와 LED 사용을 통한 에너지 절약 기술을 포함한다.\"\n        },\n        {\n            \"step\": \"3단계: 프로토타입 제작 및 테스트\",\n            \"period\": \"2024.04.01 ~ 2024.05.15\",\n            \"responsible\": \"Speaker_D\",\n            \"details\": \"프로토타입을 제작하고 다양한 TV 브랜드와의 호환성을 테스트한다. 테스트 과정에서 버튼의 직관성과 에너지 효율성을 검증한다.\"\n        },\n        {\n            \"step\": \"4단계: 최종 제품 개발 및 출시 준비\",\n            \"period\": \"2024.05.16 ~ 2024.06.30\",\n            \"responsible\": \"Speaker_A\",\n            \"details\": \"최종 제품을 개발하고 출시를 위한 마케팅 전략을 수립한다. 특히, 독특한 디자인과 에너지 효율성을 강조하는 마케팅 전략을 마련한다.\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상으로 인한 브랜드 이미지 개선\",\n        \"기대효과 2: 에너지 절약형 리모컨으로 인한 환경 친화적 이미지 구축\",\n        \"기대효과 3: 다양한 TV 브랜드와의 호환성으로 시장 점유율 확대\",\n        \"기대효과 4: 독특한 디자인으로 인한 제품 차별화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3004b/05_final_result.json",
+    "utterance_count": 279,
+    "original_transcript_length": 9164,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 9164
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 4687
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T16:44:53.216411"
+  }
+}

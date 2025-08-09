@@ -1,0 +1,35 @@
+{
+  "id": "train_246_chunk_1",
+  "source_dir": "result_ES2007c",
+  "notion_output": "```json\n{\n    \"project_name\": \"고무 푸시 버튼 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"고무 푸시 버튼을 활용한 혁신적인 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"캐서린\",\n    \"core_objectives\": [\n        \"목표 1: 고무 푸시 버튼을 활용한 리모컨 디자인 확정\",\n        \"목표 2: 제조 부서와 협력하여 시제품 제작\",\n        \"목표 3: 마케팅 전략 수립 및 실행\"\n    ],\n    \"core_idea\": \"고무 푸시 버튼을 사용하여 사용자 경험을 개선하고 비용을 절감한 리모컨 개발\",\n    \"idea_description\": \"고무 재질의 푸시 버튼을 사용하여 저렴하고 가벼운 리모컨을 개발하며, RSI 문제를 해결하여 사용자 만족도를 높입니다.\",\n    \"execution_plan\": \"1단계: 고무 푸시 버튼 디자인 확정 (2024.01.01 ~ 2024.02.15)\\n2단계: 제조 부서와 협력하여 시제품 제작 (2024.02.16 ~ 2024.04.15)\\n3단계: 마케팅 전략 수립 및 실행 (2024.04.16 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 제조 비용 절감으로 인한 가격 경쟁력 확보\",\n        \"기대효과 2: 사용자 경험 개선으로 인한 고객 만족도 증가\",\n        \"기대효과 3: RSI 문제 해결로 인한 건강한 사용 환경 제공\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2007c/05_final_result.json",
+    "utterance_count": 278,
+    "original_transcript_length": 9028,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 9028
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4989
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:04:29.406740"
+  }
+}

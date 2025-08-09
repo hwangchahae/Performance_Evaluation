@@ -1,0 +1,37 @@
+{
+  "id": "train_023_chunk_3",
+  "source_dir": "result_Bed011_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"다차원 데이터 수집 및 분석을 통한 전략적 인사이트 도출 프로젝트\",\n    \"project_purpose\": \"다양한 활동과 장소에서의 데이터 수집을 통해 구체적이고 맞춤형 비즈니스 전략을 수립하고 실행\",\n    \"project_period\": \"2025.01.01 ~ 2025.03.31\",\n    \"project_manager\": \"페이\",\n    \"core_objectives\": [\n        \"목표 1: 경영대학원 강의 및 순회공연에서의 데이터 수집 방법론 개발\",\n        \"목표 2: 외식 및 오락과 같은 특정 목적에 맞는 데이터 분석 및 인사이트 도출\",\n        \"목표 3: 학생 단체 및 관광지에서의 소비 패턴 분석을 통한 맞춤형 전략 수립\"\n    ],\n    \"core_idea\": \"다양한 활동과 장소에서 데이터를 수집하고 분석하여, 구체적이고 맞춤형 비즈니스 전략을 도출\",\n    \"idea_description\": \"이 프로젝트는 경영대학원 강의, 순회공연, 외식 및 오락, 학생 단체 활동, 관광지 소비 패턴 등 다양한 소스에서 데이터를 수집하고 분석하여, 이를 기반으로 맞춤형 비즈니스 전략을 수립하는 것을 목표로 합니다.\",\n    \"execution_plan\": [\n        \"1단계: 경영대학원 강의 및 순회공연에서의 데이터 수집 시스템 구축 및 테스트 (2025.01.01 ~ 2025.01.31)\",\n        \"2단계: 외식 및 오락 관련 데이터 분석 및 기술적 세부사항 반영 (2025.02.01 ~ 2025.02.15)\",\n        \"3단계: 학생 단체 및 관광지 소비 패턴 분석을 통한 맞춤형 전략 수립 (2025.02.16 ~ 2025.03.15)\",\n        \"4단계: 분석 결과를 바탕으로 한 전략 실행 및 피드백 수집 (2025.03.16 ~ 2025.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 경영대학원 강의 및 순회공연에서의 데이터 수집 효율성 증대\",\n        \"기대효과 2: 외식 및 오락 목적에 맞는 구체적 인사이트 확보\",\n        \"기대효과 3: 학생 단체 및 관광지 소비 패턴을 반영한 전략적 의사결정 지원\"\n    ],\n    \"meeting_insights\": [\n        \"경영대학원 강의 및 순회공연에서의 데이터 수집 가능성\",\n        \"외식 및 오락과 같은 특정 목적에 맞는 데이터 분석 필요성\",\n        \"학생 단체에서의 정족수 설정 및 관련 데이터 수집\",\n        \"라스베가스와 같은 관광지에서의 소비 패턴 분석\",\n        \"자전거 계획 요소 및 대중교통과 같은 교통수단 데이터 수집\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.2,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed011_processed/05_final_result.json",
+    "utterance_count": 586,
+    "original_transcript_length": 20326,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 20326
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T17:52:37.196424"
+  }
+}

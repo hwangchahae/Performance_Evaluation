@@ -1,0 +1,33 @@
+{
+  "id": "train_011",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 기획재정위원회(전체회의) (2025.07.09.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"인사청문회 준비 및 실행 프로젝트\",\n    \"project_purpose\": \"국세청장 및 부총리겸기획재정부장관 후보자에 대한 인사청문회를 성공적으로 준비하고 실행하기 위함\",\n    \"project_period\": \"2023.07.04 ~ 2023.07.17\",\n    \"project_manager\": \"박수영 위원장대리\",\n    \"core_objectives\": [\n        \"목표 1: 국세청장 후보자 임광현의 인사청문회 준비 및 실행\",\n        \"목표 2: 부총리겸기획재정부장관 후보자 구윤철의 인사청문회 준비 및 실행\",\n        \"목표 3: 청문회 자료 제출 및 질의서 작성 관리\"\n    ],\n    \"core_idea\": \"후보자 인사청문회를 체계적으로 준비하여 공정하고 투명한 절차를 통해 후보자의 자질과 역량을 검증\",\n    \"idea_description\": \"인사청문회는 후보자의 공직 수행 능력을 평가하기 위한 중요한 절차로, 철저한 자료 준비와 체계적인 질의응답을 통해 후보자의 적합성을 검증\",\n    \"execution_plan\": \"1. 인사청문회 일정 확정 및 공지 (2023.07.04)\\n2. 자료 제출 요구 및 수집 (2023.07.04 ~ 2023.07.13)\\n3. 서면 및 구두 질의서 작성 및 제출 (2023.07.10 ~ 2023.07.16)\\n4. 인사청문회 실시 (국세청장: 2023.07.15, 부총리겸기획재정부장관: 2023.07.17)\\n5. 청문회 결과 보고서 작성 및 제출 (청문회 종료 후)\",\n    \"expected_effects\": [\n        \"기대효과 1: 후보자의 자질과 역량에 대한 명확한 평가\",\n        \"기대효과 2: 공정하고 투명한 인사청문회 절차 확립\",\n        \"기대효과 3: 청문회 결과에 따른 정책 및 인사 결정의 신뢰성 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 8.6,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제1차 기획재정위원회(전체회의) (2025.07.09.)/05_final_result.json",
+    "utterance_count": 39,
+    "transcript_length": 2865,
+    "original_transcript_length": 2865,
+    "speakers": [
+      "안규백 위원",
+      "위원장 송언석",
+      "박홍근 위원",
+      "유상범 위원",
+      "임이자 위원",
+      "위원장대리 박수영"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 2865
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T17:07:47.020716"
+  }
+}

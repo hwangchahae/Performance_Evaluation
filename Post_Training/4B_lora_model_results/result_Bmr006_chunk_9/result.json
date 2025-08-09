@@ -1,0 +1,49 @@
+{
+  "id": "val_309_chunk_9",
+  "source_dir": "result_Bmr006_processed",
+  "notion_output": {
+    "project_name": "회의록 분석 및 프로젝트 기획 시스템",
+    "project_purpose": "회의록을 분석하여 효율적인 프로젝트 기획을 지원하고, 다양한 회의 환경에서의 협업성을 강화하며, 데이터의 익명성을 고려한 안전한 데이터 처리를 제공합니다.",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: 회의록 분석을 통한 프로젝트 기획 최적화",
+      "목표 2: 다양한 회의 환경에서의 협업성 강화",
+      "목표 3: 데이터의 익명성 확보 및 안전한 처리"
+    ],
+    "core_idea": "회의록을 분석하여 프로젝트 기획을 지원하고, 다양한 환경에서의 협업성을 증진하며, 데이터의 익명성을 고려한 처리 방안을 마련합니다.",
+    "idea_description": "회의록을 분석하여 프로젝트 기획의 효율성을 높이고, 다양한 환경에서의 협업성을 강화하며, 데이터의 익명성을 고려한 처리 방안을 마련합니다. 이를 통해 프로젝트의 성공 가능성을 높이고, 협업의 질을 향상시킵니다.",
+    "execution_plan": "1단계: 회의록 수집 및 초기 분석 (2024.01.01 ~ 2024.01.15)\n2단계: 데이터 분석 및 프로젝트 기획안 작성 (2024.01.16 ~ 2024.02.15)\n3단계: 피드백 반영 및 최종 기획안 확정 (2024.02.16 ~ 2024.03.15)\n4단계: 프로젝트 실행 및 모니터링 (2024.03.16 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 프로젝트 기획의 효율성 증가",
+      "기대효과 2: 협업 환경의 개선",
+      "기대효과 3: 데이터의 안전한 처리 및 익명성 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_Bmr006_processed/05_final_result.json",
+    "utterance_count": 1183,
+    "original_transcript_length": 40348,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9,
+      "original_length": 40348
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 9,
+      "total_chunks": 9,
+      "chunk_length": 4459
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-06T16:15:01.303430"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "train_251_chunk_6",
+  "source_dir": "result_Bmr003_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"TCL 플러그인 기반 데이터 관리 및 프레젠테이션 최적화 프로젝트\",\n    \"project_purpose\": \"TCL 플러그인을 활용하여 데이터 관리의 효율성을 극대화하고, 명확하고 일관된 프레젠테이션을 통해 프로젝트의 이해도를 향상시키는 것을 목표로 함\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: TCL 플러그인을 사용하여 데이터 관리 효율성 30% 향상\",\n        \"목표 2: 프로젝트 소유권 명확화 및 책임자 지정, 팀 내 책임감 강화\",\n        \"목표 3: 일관성 있고 명확한 프레젠테이션 준비 및 실행\"\n    ],\n    \"core_idea\": \"TCL 플러그인을 통한 데이터 관리 및 프레젠테이션 최적화\",\n    \"idea_description\": \"TCL 플러그인을 활용하여 데이터 관리의 효율성을 높이고, 명확하고 일관된 프레젠테이션을 통해 프로젝트의 이해도를 향상시키는 것을 목표로 함.\",\n    \"execution_plan\": [\n        {\n            \"step\": \"1단계\",\n            \"description\": \"TCL 플러그인 사용 가능성 조사 및 도입\",\n            \"period\": \"2024.01.01 ~ 2024.01.15\",\n            \"details\": \"TCL 플러그인의 기능 및 호환성 검토 후 도입 결정. 도입 시 발생할 수 있는 문제점 및 해결 방안 논의\"\n        },\n        {\n            \"step\": \"2단계\",\n            \"description\": \"프로젝트 소유권 및 책임자 지정\",\n            \"period\": \"2024.01.16 ~ 2024.01.31\",\n            \"details\": \"프로젝트 소유권 명확화 및 각 단계별 책임자 지정. 팀 내 역할 분담 및 책임감 강화 방안 마련\"\n        },\n        {\n            \"step\": \"3단계\",\n            \"description\": \"일관성 있는 프레젠테이션 준비 및 실행\",\n            \"period\": \"2024.02.01 ~ 2024.03.31\",\n            \"details\": \"프레젠테이션 자료 준비 및 팀 내 교육 실시. 프레젠테이션의 일관성을 위한 가이드라인 설정\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 데이터 관리 효율성 30% 향상\",\n        \"기대효과 2: 프로젝트 소유권 명확화로 인한 책임감 증대\",\n        \"기대효과 3: 프레젠테이션의 일관성으로 인한 이해도 향상\"\n    ],\n    \"additional_notes\": [\n        \"회의록에서 언급된 바와 같이, 프로젝트 소유권이 명확하지 않다는 점을 해결하기 위해 책임자 지정을 우선적으로 진행\",\n        \"TCL 플러그인 사용에 대한 구체적인 논의는 초기 단계에서 충분히 이루어져야 함\",\n        \"프레젠테이션의 일관성을 위해 팀 내 교육 및 자료 준비가 필요\",\n        \"회의에서 제기된 디스크 공간 부족 문제를 고려하여 데이터 관리 계획 수립\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 5.6,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr003_processed/05_final_result.json",
+    "utterance_count": 831,
+    "original_transcript_length": 27783,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 27783
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 7,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:43:04.862387"
+  }
+}

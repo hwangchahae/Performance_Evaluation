@@ -1,0 +1,41 @@
+{
+  "id": "result_TS3008d_chunk_4",
+  "source_dir": "result_TS3008d",
+  "notion_output": {
+    "project_name": "고급형 스마트 제품 개발 및 도킹 스테이션 설계",
+    "project_purpose": "고급 칩과 다양한 인터페이스 요소를 활용하여 혁신적인 제품을 출시하고, 도킹 스테이션을 통해 고객 경험을 강화함",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: 고급 칩을 적용하여 제품의 성능을 최적화",
+      "목표 2: 다양한 인터페이스 요소를 통합하여 사용자 경험을 향상",
+      "목표 3: 도킹 스테이션을 통해 고객의 효율성을 극대화"
+    ],
+    "core_idea": "고급 칩과 다양한 인터페이스 요소를 결합하여 제품의 기능성을 높이고, 도킹 스테이션을 통해 고객의 작업 효율성을 증대시키는 제품 개발",
+    "idea_description": "고급 칩을 적용하여 제품의 성능을 최적화하고, 다양한 인터페이스 요소를 통합하여 사용자 경험을 향상시킴. 또한, 도킹 스테이션을 통해 고객의 작업 효율성을 극대화하여 제품의 가치를 높임.",
+    "execution_plan": "1단계: 고급 칩 및 인터페이스 요소 연구 및 설계(2025.01.01 ~ 2025.01.31)\n2단계: 제품 설계 및 도킹 스테이션 구축(2025.02.01 ~ 2025.02.28)\n3단계: 시제품 제작 및 테스트(2025.03.01 ~ 2025.03.31)",
+    "expected_effects": [
+      "기대효과 1: 제품의 성능 향상으로 고객 만족도 증가",
+      "기대효과 2: 다양한 인터페이스 요소를 통합하여 사용자 경험 개선",
+      "기대효과 3: 도킹 스테이션을 통해 고객의 작업 효율성 극대화로 비용 절감"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_TS3008d/05_final_result.json",
+    "utterance_count": 440,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 14071,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-07T02:56:55.480722"
+  }
+}

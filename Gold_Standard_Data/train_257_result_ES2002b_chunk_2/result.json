@@ -1,0 +1,35 @@
+{
+  "id": "train_257_chunk_2",
+  "source_dir": "result_ES2002b",
+  "notion_output": "```json\n{\n    \"project_name\": \"스마트 음성 인식 컨트롤러 개발 프로젝트\",\n    \"project_purpose\": \"최첨단 음성 인식 기술을 활용하여 사용자 경험을 극대화하는 스마트 컨트롤러 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 음성 인식 기능을 포함한 스마트 컨트롤러 개발\",\n        \"목표 2: 사용자 인터페이스 디자인 최적화 및 세부 구성 요소 구현\",\n        \"목표 3: 전원 관리 및 배터리 효율성 최적화\",\n        \"목표 4: 시장 출시를 위한 마케팅 전략 수립\"\n    ],\n    \"core_idea\": \"사용자 친화적인 스마트 컨트롤러 개발\",\n    \"idea_description\": \"컴퓨터와 전자기기에 익숙한 사용자들을 대상으로 음성 인식 기능을 포함한 스마트 컨트롤러를 개발하여, 사용자 경험을 극대화하고 시장 경쟁력을 확보한다.\",\n    \"execution_plan\": [\n        {\n            \"task\": \"음성 인식 기능 구현\",\n            \"period\": \"2024.01.01 ~ 2024.02.28\",\n            \"responsible\": \"기술 팀\"\n        },\n        {\n            \"task\": \"사용자 인터페이스 디자인 및 세부 구성 요소 구현\",\n            \"period\": \"2024.03.01 ~ 2024.03.31\",\n            \"responsible\": \"디자인 팀\",\n            \"details\": [\n                \"오디오 및 비디오 컨트롤 분류\",\n                \"켜기/끄기, 채널 및 볼륨 조절 기능 구현\"\n            ]\n        },\n        {\n            \"task\": \"전원 관리 및 배터리 효율성 최적화\",\n            \"period\": \"2024.04.01 ~ 2024.04.15\",\n            \"responsible\": \"하드웨어 팀\",\n            \"details\": [\n                \"충전식 배터리 고려\",\n                \"배터리 소모량 최소화\"\n            ]\n        },\n        {\n            \"task\": \"프로토타입 테스트 및 피드백 수집\",\n            \"period\": \"2024.04.16 ~ 2024.04.30\",\n            \"responsible\": \"QA 팀\"\n        },\n        {\n            \"task\": \"마케팅 전략 수립 및 실행\",\n            \"period\": \"2024.05.01 ~ 2024.06.30\",\n            \"responsible\": \"마케팅 팀\",\n            \"details\": [\n                \"시장 트렌드 분석\",\n                \"브랜드 인지도 향상을 위한 캠페인 기획\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 경험 개선으로 인한 고객 만족도 20% 향상\",\n        \"기대효과 2: 음성 인식 기능 도입으로 인한 기술적 차별화\",\n        \"기대효과 3: 시장 점유율 15% 증가 및 브랜드 인지도 30% 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2002b/05_final_result.json",
+    "utterance_count": 264,
+    "original_transcript_length": 9710,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 9710
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:57:59.056446"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "result_TS3008a",
+  "source_dir": "result_TS3008a",
+  "notion_output": {
+    "project_name": "혁신적 리모컨 디자인 프로젝트",
+    "project_purpose": "새로운 리모컨을 설계하고 개발하여 사용자 경험을 혁신하고 시장 경쟁력을 강화함",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "마틴",
+    "core_objectives": [
+      "목표 1: 사용자 친화적인 리모컨 디자인 개발",
+      "목표 2: 다양한 색상과 펜 굵기 선택 옵션 제공",
+      "목표 3: 국제 시장 표준 충족 및 수출 가능성 확대"
+    ],
+    "core_idea": "사용자 중심의 디자인과 기능성을 결합한 리모컨 개발",
+    "idea_description": "리모컨은 사용자가 쉽게 조작할 수 있도록 직관적인 인터페이스를 갖추며, 다양한 색상과 펜 굵기를 선택할 수 있는 기능을 추가합니다. 또한, 국제 시장 표준을 준수하여 글로벌 시장을 겨냥합니다.",
+    "execution_plan": "1단계: 기능적 디자인 개발 (2024.01.01 ~ 2024.02.28)\n2단계: 개념적 디자인 및 사용자 피드백 수집 (2024.03.01 ~ 2024.04.30)\n3단계: 세부 디자인 및 생산 준비 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 증가 및 브랜드 이미지 강화",
+      "기대효과 2: 시장 점유율 확대 및 수익 증가",
+      "기대효과 3: 글로벌 시장 진출 및 수출 성과 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_TS3008a/05_final_result.json",
+    "utterance_count": 143,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "original_length": 4530,
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1
+    },
+    "is_chunk": false,
+    "processing_date": "2025-08-07T02:46:59.549318"
+  }
+}

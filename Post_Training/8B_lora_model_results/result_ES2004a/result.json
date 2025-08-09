@@ -1,0 +1,40 @@
+{
+  "id": "result_ES2004a",
+  "source_dir": "result_ES2004a",
+  "notion_output": {
+    "project_name": "혁신적인 플립탑 리모컨 개발 프로젝트",
+    "project_purpose": "리모컨의 기능성을 극대화하고 사용자 경험을 향상시키기 위한 혁신적인 플립탑 리모컨 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: 플립탑 리모컨의 디자인 및 기능 개선",
+      "목표 2: 다양한 사용자 요구를 반영한 인터페이스 개발",
+      "목표 3: 리모컨의 프로그래밍 가능성을 확장"
+    ],
+    "core_idea": "플립탑 리모컨을 통해 사용자가 쉽게 접근할 수 있는 사용자 친화적인 인터페이스와 다양한 기능을 제공",
+    "idea_description": "플립탑 리모컨은 사용자가 뒤집으면 화면이 커지도록 설계되어 사용자 경험을 향상시킵니다. 또한, 리모컨의 프로그래밍 가능성을 확장하여 다양한 기능을 추가하고, 사용자 맞춤형 설정을 제공합니다.",
+    "execution_plan": "1단계: 초기 설계 및 시장 조사 (2024.01.01 ~ 2024.02.15)\n2단계: 프로토타입 개발 및 테스트 (2024.02.16 ~ 2024.04.15)\n3단계: 피드백 수집 및 수정 (2024.04.16 ~ 2024.05.15)\n4단계: 최종 제품 개발 및 출시 준비 (2024.05.16 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 증가 및 브랜드 가치 상승",
+      "기대효과 2: 새로운 시장 진출 및 매출 증가",
+      "기대효과 3: 기술 혁신을 통한 경쟁력 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_ES2004a/05_final_result.json",
+    "utterance_count": 126,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "original_length": 3868,
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1
+    },
+    "is_chunk": false,
+    "processing_date": "2025-08-07T02:52:09.599217"
+  }
+}

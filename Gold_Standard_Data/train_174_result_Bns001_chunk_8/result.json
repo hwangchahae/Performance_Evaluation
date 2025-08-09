@@ -1,0 +1,38 @@
+{
+  "id": "train_174_chunk_8",
+  "source_dir": "result_Bns001_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"UMTS 및 GSM 기반 데이터 통신 최적화 및 보안 강화 프로젝트\",\n    \"project_purpose\": \"UMTS와 GSM 기술을 통합하여 데이터 통신의 효율성을 극대화하고 보안 및 인증 체계를 강화하여 안정적인 모바일 서비스를 제공\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_G\",\n    \"core_objectives\": [\n        \"목표 1: UMTS와 GSM 간의 기술적 차이 분석 및 연구 문제 해결을 통해 데이터 전송 효율성 향상\",\n        \"목표 2: 리눅스 기반의 프로토타입 개발 및 UMTS와 GSM 간의 원활한 핸드오프 구현\",\n        \"목표 3: 데이터 수집 및 전송 시스템의 보안 강화 및 인증 체계 구축\",\n        \"목표 4: GPS 및 패킷 지향 통신을 활용한 새로운 서비스 개발\"\n    ],\n    \"core_idea\": \"UMTS와 GSM의 기술적 장점을 결합하여 데이터 중심의 패킷 통신 시스템을 구축하고, 보안 및 인증 체계를 강화하여 안정적인 모바일 서비스를 제공\",\n    \"idea_description\": \"UMTS와 GSM의 기술적 차이를 심층 분석하고, 연구 문제를 해결하여 데이터 전송의 효율성을 높이며, 보안 및 인증 체계를 강화하여 새로운 모바일 서비스를 개발\",\n    \"execution_plan\": \"1단계: UMTS와 GSM 기술적 차이 분석 및 연구 문제 해결 (2024.01.01 ~ 2024.02.28)\\n2단계: 리눅스 기반 프로토타입 개발 및 UMTS와 GSM 간 핸드오프 구현 (2024.03.01 ~ 2024.04.30)\\n3단계: 데이터 수집 및 전송 시스템의 보안 강화 및 인증 체계 구축 (2024.05.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 데이터 전송 속도 및 안정성 향상\",\n        \"기대효과 2: UMTS 및 GSM 기반의 새로운 모바일 서비스 제공 가능성 확대\",\n        \"기대효과 3: 보안 및 인증 체계 강화를 통한 사용자 신뢰도 향상\",\n        \"기대효과 4: 기술적 연구를 통한 시장 경쟁력 강화\"\n    ],\n    \"technical_details\": {\n        \"UMTS_vs_GSM\": \"UMTS는 고속 데이터 전송을 지원하며, GSM은 넓은 커버리지를 제공함. 두 기술의 차이를 분석하여 최적의 데이터 통신 환경을 구축\",\n        \"handoff_implementation\": \"UMTS와 GSM 간의 핸드오프를 위한 구체적인 기술적 접근 방법으로는 프로토타입을 통한 실험적 구현 및 테스트를 포함\",\n        \"security_and_authentication\": \"데이터 전송 시스템의 보안 강화를 위해 인증 및 트리플-A 체계 구축, 보안 프로토콜 적용\",\n        \"packet_oriented_communication\": \"GPS 및 패킷 지향 통신을 활용하여 새로운 데이터 중심의 서비스를 개발하고, 이를 통해 통신의 효율성을 극대화\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bns001_processed/05_final_result.json",
+    "utterance_count": 1197,
+    "original_transcript_length": 42240,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 10,
+      "original_length": 42240
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 8,
+      "total_chunks": 10,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:52:49.482825"
+  }
+}

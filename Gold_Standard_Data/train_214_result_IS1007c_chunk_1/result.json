@@ -1,0 +1,35 @@
+{
+  "id": "train_214_chunk_1",
+  "source_dir": "result_IS1007c",
+  "notion_output": "```json\n{\n    \"project_name\": \"스마트 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"사용자 친화적이고 고급스러운 스마트 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 인터페이스 개선을 통한 사용 편의성 증대\",\n        \"목표 2: LCD 화면 통합을 통한 고급스러운 디자인 구현\",\n        \"목표 3: 시장 수요에 부합하는 기능적 디자인 개발\"\n    ],\n    \"core_idea\": \"LCD 화면이 통합된 사용자 친화적인 리모컨\",\n    \"idea_description\": \"사용자가 리모컨을 통해 직접 TV 화면을 보지 않고도 조작할 수 있도록 LCD 화면을 통합하여 고급스러운 디자인을 구현하고, 사용자 인터페이스를 간소화하여 사용 편의성을 높입니다.\",\n    \"execution_plan\": \"1단계: 시장 조사 및 사용자 요구 분석 (2024.01.01 ~ 2024.01.31)\\n2단계: 디자인 컨셉 확정 및 프로토타입 제작 (2024.02.01 ~ 2024.03.31)\\n3단계: 사용자 테스트 및 피드백 수집 (2024.04.01 ~ 2024.04.30)\\n4단계: 최종 디자인 및 기능 개선 (2024.05.01 ~ 2024.05.31)\\n5단계: 생산 준비 및 출시 계획 수립 (2024.06.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상 및 브랜드 이미지 제고\",\n        \"기대효과 2: 고급스러운 디자인으로 인한 판매가 상승\",\n        \"기대효과 3: 사용자 피드백을 반영한 제품 개선으로 시장 점유율 확대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1007c/05_final_result.json",
+    "utterance_count": 242,
+    "original_transcript_length": 8197,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8197
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4997
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:24:48.958676"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "train_233_chunk_2",
+  "source_dir": "result_IS1008c",
+  "notion_output": "```json\n{\n    \"project_name\": \"심플한 리모컨 디자인 프로젝트\",\n    \"project_purpose\": \"사용자 친화적이고 기능적으로 최적화된 리모컨 디자인 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 사용자가 쉽게 사용할 수 있는 심플한 디자인 구현\",\n        \"목표 2: 플립 스크린의 무게를 최소화하여 사용자 편의성 향상\",\n        \"목표 3: 나무 재질의 플립 스크린과 구리 경첩을 활용한 고급스러운 외관 구현\"\n    ],\n    \"core_idea\": \"심플하면서도 고급스러운 리모컨 디자인\",\n    \"idea_description\": \"리모컨의 버튼 수를 최소화하고, 나무 재질과 구리 경첩을 사용하여 고급스러운 외관을 유지하면서도 사용자 편의성을 극대화하는 디자인을 목표로 합니다.\",\n    \"execution_plan\": \"1단계: 디자인 컨셉 확정 (2024.01.01 ~ 2024.01.15) -> 2단계: 프로토타입 제작 및 테스트 (2024.01.16 ~ 2024.02.15) -> 3단계: 최종 디자인 확정 및 생산 준비 (2024.02.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상으로 인한 시장 점유율 증가\",\n        \"기대효과 2: 고급스러운 디자인을 통한 브랜드 이미지 강화\",\n        \"기대효과 3: 기능적 최적화를 통한 사용자 편의성 증대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1008c/05_final_result.json",
+    "utterance_count": 131,
+    "original_transcript_length": 5294,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 5294
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 832
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T07:01:38.797380"
+  }
+}

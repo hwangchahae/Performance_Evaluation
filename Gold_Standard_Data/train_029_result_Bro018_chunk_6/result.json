@@ -1,0 +1,36 @@
+{
+  "id": "train_029_chunk_6",
+  "source_dir": "result_Bro018_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"SRI 시스템 및 FFT 분석 최적화 프로젝트\",\n    \"project_purpose\": \"SRI 시스템과 FFT 분석을 통합하여 데이터 처리 및 분석의 정확성과 효율성을 극대화하고, 구체적인 사용 사례를 통해 실질적인 성과를 도출하는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_E\",\n    \"core_objectives\": [\n        \"목표 1: SRI 시스템과 FFT 분석 프레임을 통합하여 데이터 처리 속도 및 정확성 향상\",\n        \"목표 2: HDK 훈련을 통해 TI-digits 데이터의 정확도 개선 및 Aurora 설정 최적화\",\n        \"목표 3: 마이크 위치에 따른 데이터 수집 효율성 최적화 및 변환 데이터의 품질 향상\",\n        \"목표 4: SRI 시스템의 구체적인 사용 사례 개발 및 적용\"\n    ],\n    \"core_idea\": \"SRI 시스템과 FFT 분석을 결합하여 방송 뉴스 및 스위치보드 데이터를 기반으로 훈련된 모델을 활용하고, 구체적인 사용 사례를 통해 데이터 처리 및 분석의 정확성과 효율성을 높이는 것\",\n    \"idea_description\": \"SRI 시스템을 사용하여 방송 뉴스 및 스위치보드 데이터를 기반으로 훈련된 모델을 활용하고, FFT 분석 프레임을 통해 데이터의 정규화 및 평균 처리 속도를 개선합니다. 또한, HDK 훈련을 통해 TI-digits 데이터의 정확도를 높이고, 마이크 위치에 따른 데이터 수집 효율성을 최적화합니다. SRI 시스템의 구체적인 사용 사례를 개발하여 실질적인 성과를 도출합니다.\",\n    \"execution_plan\": \"1단계: SRI 시스템과 FFT 분석 프레임의 통합 테스트 및 구체적인 사용 사례 분석 (2024.01.01 ~ 2024.01.31)\\n2단계: HDK 훈련을 통한 TI-digits 데이터 정확도 개선 및 Aurora 설정 최적화 (2024.02.01 ~ 2024.02.28)\\n3단계: 마이크 위치에 따른 데이터 수집 효율성 최적화 및 변환 데이터 품질 평가 (2024.03.01 ~ 2024.03.15)\\n4단계: SRI 시스템의 구체적인 사용 사례 개발 및 적용 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 데이터 처리 속도 20% 향상 및 정확성 10% 증가\",\n        \"기대효과 2: TI-digits 데이터 정확도 15% 개선 및 Aurora 설정 최적화로 인한 성능 향상\",\n        \"기대효과 3: 마이크 위치에 따른 데이터 수집 효율성 10% 증가 및 변환 데이터 품질 5% 향상\",\n        \"기대효과 4: SRI 시스템의 구체적인 사용 사례를 통한 실질적인 성과 도출\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro018_processed/05_final_result.json",
+    "utterance_count": 703,
+    "original_transcript_length": 24117,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 24117
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 6,
+      "chunk_length": 1728
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:16:37.309058"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "val_008_chunk_3",
+  "source_dir": "result_제22대국회 제426회(임시회) 제1차 과학기술정보방송통신위원회(전체회의) (2025.06.26.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"R&D 예산 확충 및 AI 혁신펀드 프로젝트\",\n    \"project_purpose\": \"새 정부의 국정 기조에 맞는 R&D 예산 확충과 AI 혁신펀드의 효율적 운영을 통해 대한민국 과학기술계의 지속 가능한 발전을 도모\",\n    \"project_period\": \"2024.01.01 ~ 2024.12.31\",\n    \"project_manager\": \"유상임 장관\",\n    \"core_objectives\": [\n        \"목표 1: 새 정부의 국정 기조에 맞는 R&D 예산 확충\",\n        \"목표 2: AI 혁신펀드의 효율적 운영 및 관리\",\n        \"목표 3: 젊은 신진 연구자의 성장 지원을 위한 예산 확대\"\n    ],\n    \"core_idea\": \"R&D 예산을 확대하고 AI 혁신펀드를 효율적으로 운영하여 과학기술계의 안정성과 지속 가능성을 확보\",\n    \"idea_description\": \"새 정부의 국정 철학에 맞춰 R&D 예산을 확대하고, AI 혁신펀드를 통해 스타트업 및 벤처 기업의 성장을 지원하는 체계를 구축\",\n    \"execution_plan\": \"1단계: R&D 예산 재검토 및 확충 방안 마련 (2024.01.01 ~ 2024.03.31)\\n2단계: AI 혁신펀드 운영 계획 수립 및 시행 (2024.04.01 ~ 2024.06.30)\\n3단계: 신진 연구자 지원 프로그램 개발 및 실행 (2024.07.01 ~ 2024.09.30)\\n4단계: 프로젝트 성과 평가 및 개선 방안 도출 (2024.10.01 ~ 2024.12.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: R&D 예산 확충을 통한 과학기술계의 안정성 및 지속 가능성 확보\",\n        \"기대효과 2: AI 혁신펀드를 통한 스타트업 및 벤처 기업의 성장 촉진\",\n        \"기대효과 3: 신진 연구자의 성장 지원을 통해 과학기술 인재 양성\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제426회(임시회) 제1차 과학기술정보방송통신위원회(전체회의) (2025.06.26.)/05_final_result.json",
+    "utterance_count": 296,
+    "original_transcript_length": 19586,
+    "speakers": [
+      "위원장 최민희",
+      "정동영 위원",
+      "수석전문위원 이복우",
+      "과학기술정보통신부제1차관 이창윤",
+      "이훈기 위원",
+      "과학기술정보통신부제2차관 강도현",
+      "한민수 위원",
+      "이해민 위원",
+      "최형두 위원",
+      "황정아 위원",
+      "김현 위원",
+      "과학기술정보통신부장관 유상임",
+      "박충권 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 19586
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T09:35:04.880773"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "train_250_chunk_2",
+  "source_dir": "result_Bro017_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"스펙트럼 에너지 및 화자 인식 기술 최적화 프로젝트\",\n    \"project_purpose\": \"스펙트럼 에너지 분석과 노이즈 관리 기법을 통해 화자 인식 기술의 정확도와 효율성을 극대화\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_E\",\n    \"core_objectives\": [\n        \"목표 1: 스펙트럼 에너지 분석을 통한 화자 인식 정확도 15% 향상\",\n        \"목표 2: NIST 화자 인식 기술 평가에서 상위 5% 달성\",\n        \"목표 3: 임계 대역 내 노이즈 영향 최소화 및 실험적 검증\"\n    ],\n    \"core_idea\": \"스펙트럼 에너지의 대수적 분석을 통해 화자 인식의 정확도를 높이고, 임계 대역 내 노이즈 영향을 최소화하는 방법론 개발\",\n    \"idea_description\": \"스펙트럼 에너지를 벡터화하여 화자 인식의 정확도를 높이고, 노이즈 영향을 최소화하기 위한 실험적 접근을 통해 NIST 평가에서의 성과를 극대화\",\n    \"execution_plan\": [\n        {\n            \"단계\": \"1단계\",\n            \"활동\": \"스펙트럼 에너지 분석 기법 연구 및 벡터화 실험\",\n            \"기간\": \"2024.01.01 ~ 2024.02.28\",\n            \"책임자\": \"Speaker_E\",\n            \"세부사항\": \"스펙트럼 에너지의 대수적 특성을 분석하고, 이를 벡터화하여 화자 인식 정확도 향상 가능성 검토. LPC, 멜 켑스트럼 등 다양한 스펙트럼 슬라이스 기법을 활용하여 p 벡터를 생성하고 이를 기반으로 분류 실험 진행\"\n        },\n        {\n            \"단계\": \"2단계\",\n            \"활동\": \"임계 대역 내 노이즈 영향 최소화 전략 개발\",\n            \"기간\": \"2024.03.01 ~ 2024.04.30\",\n            \"책임자\": \"Speaker_C\",\n            \"세부사항\": \"임계 대역 내 노이즈 추가 실험 및 마스킹 효과 분석을 통해 노이즈 최소화 전략 수립. 플레처의 실험을 참고하여 임계 대역의 노이즈 마스킹 양을 조절하고, n개의 인접한 임계 대역에서의 노이즈 영향 분석\"\n        },\n        {\n            \"단계\": \"3단계\",\n            \"활동\": \"NIST 평가 대비 성능 테스트 및 개선\",\n            \"기간\": \"2024.05.01 ~ 2024.06.30\",\n            \"책임자\": \"Speaker_D\",\n            \"세부사항\": \"NIST 평가 기준에 맞춘 성능 테스트 및 벤치마킹을 통해 최종 성과 검증. 새로운 기준선 설정 및 50% 이상의 성능 향상을 목표로 테스트 진행\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 화자 인식 기술의 정확도 15% 향상\",\n        \"기대효과 2: NIST 평가에서 상위 5% 달성\",\n        \"기대효과 3: 노이즈 환경에서도 안정적인 인식 성능 유지\"\n    ],\n    \"technical_details\": {\n        \"스펙트럼 에너지 분석\": \"대수적 스펙트럼 에너지 및 스펙트럼 슬라이스 기법을 활용하여 시간에 따른 에너지를 숫자 벡터로 변환\",\n        \"노이즈 관리\": \"임계 대역 내 노이즈 마스킹 양 조절 및 인접 대역 노이즈 분석을 통한 영향 최소화\",\n        \"NIST 평가 준비\": \"기존 성능 기준선 대비 60% 성능 향상 목표, 유전 알고리즘을 통한 매개변수 최적화\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro017_processed/05_final_result.json",
+    "utterance_count": 670,
+    "original_transcript_length": 24084,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 24084
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:36:19.574707"
+  }
+}

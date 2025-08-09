@@ -1,0 +1,59 @@
+{
+  "id": "result_Bmr006_processed_chunk_9",
+  "source_dir": "result_Bmr006_processed",
+  "notion_output": {
+    "project_name": "음향적 겹침 및 상관관계 분석 프로젝트",
+    "project_purpose": "음향적 겹침과 상관관계를 분석하여 효율성을 극대화하고 다양한 응용 가능성을 확보하며, 익명성과 데이터 처리 방식을 최적화함",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_F",
+    "core_objectives": [
+      "격속 음향 시스템의 겹침 및 상관관계 분석을 통한 효율성 증대",
+      "데이터 익명화 및 응용 가능성 확보",
+      "최적의 데이터 처리 방식을 적용하여 다양한 응용 분야에 활용"
+    ],
+    "core_idea": "음향적 겹침 및 상관관계를 분석하여 효율성을 극대화하고 다양한 응용 가능성을 확보하며, 익명성과 데이터 처리 방식을 최적화함",
+    "idea_description": "두 개의 마이크에서 생성되는 신호를 비교하여 겹침 및 상관관계를 분석하고, 이를 통해 응용 가능한 기술을 발전시킴. 또한, 익명성을 강화하여 데이터 처리의 안전성을 높임.",
+    "execution_plan": [
+      {
+        "phase": "연구 및 데이터 수집",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "description": "두 개의 마이크에서 생성되는 신호를 수집하고, 데이터를 저장."
+      },
+      {
+        "phase": "분석 및 평가",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "description": "수집된 데이터를 분석하여 겹침 및 상관관계를 평가하고, 익명성과 데이터 처리 방식을 검토."
+      },
+      {
+        "phase": "실행 및 최적화",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "description": "결과를 반영하여 최적의 데이터 처리 방식을 적용하고, 익명성과 관련된 추가 조치를 취함."
+      }
+    ],
+    "expected_effects": [
+      "효율적인 음향 시스템 개선으로 인한 생산성 증대",
+      "익명성 강화로 인한 데이터 처리의 안전성 확보",
+      "다양한 응용 분야에 활용 가능한 기술 개발로 인한 경제적 가치 창출"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr006_processed/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_F"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 9,
+    "processing_date": "2025-08-07T03:00:08.692352"
+  }
+}

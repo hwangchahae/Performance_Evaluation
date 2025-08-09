@@ -1,0 +1,47 @@
+{
+  "id": "result_Bmr025_processed_chunk_1",
+  "source_dir": "result_Bmr025_processed",
+  "notion_output": {
+    "project_name": "THISL 기반 정보 검색 및 회의 데이터 관리 시스템 개발",
+    "project_purpose": "THISL 도구를 활용하여 회의 데이터의 효율적인 정보 검색 및 관리를 통해 사용자 경험을 극대화하고, 데이터의 접근성을 향상시키는 것",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: THISL 도구를 통한 회의 데이터의 인덱싱 및 쿼리 처리 시스템 구축",
+      "목표 2: 사용자 인터페이스(UI) 개선을 통한 직관적인 정보 검색 환경 제공",
+      "목표 3: UNIX 및 Windows 플랫폼 모두에서 호환 가능하도록 시스템 설계",
+      "목표 4: 백업 및 복구 시스템 강화를 통한 데이터 손실 방지"
+    ],
+    "core_idea": "THISL 도구를 활용하여 회의 데이터를 효율적으로 관리하고, 사용자가 쉽게 접근할 수 있도록 인터페이스를 개선함",
+    "idea_description": "THISL 도구를 이용하여 회의 데이터를 인덱싱하고, 사용자가 키워드를 입력하여 관련 오디오를 검색할 수 있는 시스템을 구축합니다. 또한, UNIX 및 Windows 플랫폼 모두에서 호환 가능하도록 설계하며, 백업 및 복구 시스템을 강화하여 데이터 손실을 방지합니다.",
+    "execution_plan": "1단계: THISL 도구의 기존 기능 평가 및 개선 요구사항 분석 (2024.01.01 ~ 2024.02.15)\n2단계: 인덱싱 도구 개발 및 테스트 (2024.02.16 ~ 2024.03.15)\n3단계: 사용자 인터페이스 개발 및 UI 테스트 (2024.03.16 ~ 2024.04.15)\n4단계: UNIX 및 Windows 플랫폼 호환성 검증 및 최적화 (2024.04.16 ~ 2024.05.15)\n5단계: 백업 및 복구 시스템 강화 (2024.05.16 ~ 2024.06.15)\n6단계: 전체 시스템 통합 및 최종 테스트 (2024.06.16 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자의 정보 검색 효율성 향상으로 인한 생산성 증가",
+      "기대효과 2: 데이터 관리의 신뢰성 증가로 인한 데이터 손실 감소",
+      "기대효과 3: 사용자 친화적인 인터페이스로 인한 사용자 만족도 향상",
+      "기대효과 4: 플랫폼 호환성 확보로 인한 시스템의 유연성 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr025_processed/05_final_result.json",
+    "utterance_count": 453,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_E"
+    ],
+    "original_length": 16243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-07T02:55:04.636645"
+  }
+}

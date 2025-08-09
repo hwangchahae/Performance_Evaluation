@@ -1,0 +1,46 @@
+{
+  "id": "result_Bmr019_processed_chunk_1",
+  "source_dir": "result_Bmr019_processed",
+  "notion_output": {
+    "project_name": "무선 인터넷 활용 최적화 및 음성 인식 시스템 개선 프로젝트",
+    "project_purpose": "무선 인터넷 사용자의 인증 점검 및 음성 인식 시스템의 성능 향상을 통한 효율성 증대",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_I",
+    "core_objectives": [
+      "목표 1: 무선 인터넷 사용자 인증 점검 시스템 개발",
+      "목표 2: TI-digits 데이터베이스를 활용한 음성 인식 모델 성능 개선",
+      "목표 3: 스피커 적응 모델 개선 및 데이터 처리 스크립트 개발"
+    ],
+    "core_idea": "무선 인터넷 사용자 인증 점검과 음성 인식 시스템의 성능 개선을 통해 전체 시스템의 효율성을 높인다.",
+    "idea_description": "무선 인터넷 사용자 인증 점검을 통해 사용자의 연결 상태를 확인하고, TI-digits 데이터베이스를 활용하여 음성 인식 모델의 성능을 개선한다. 또한, 스피커 적응 모델을 개선하고 데이터 처리 스크립트를 개발하여 데이터 처리 효율성을 높인다.",
+    "execution_plan": "1단계: 무선 인터넷 사용자 인증 점검 시스템 설계 및 개발 (2025.01.01 ~ 2025.01.31)\n2단계: TI-digits 데이터베이스를 활용한 음성 인식 모델 성능 테스트 및 개선 (2025.02.01 ~ 2025.02.28)\n3단계: 스피커 적응 모델 개선 및 데이터 처리 스크립트 개발 (2025.03.01 ~ 2025.03.15)\n4단계: 최종 시스템 통합 및 테스트 (2025.03.16 ~ 2025.03.31)",
+    "expected_effects": [
+      "기대효과 1: 무선 인터넷 사용자 인증 점검을 통한 사용자 경험 향상",
+      "기대효과 2: 음성 인식 모델 성능 개선으로 인한 시스템 신뢰성 증대",
+      "기대효과 3: 스피커 적응 모델 개선으로 인한 데이터 처리 효율성 증대"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr019_processed/05_final_result.json",
+    "utterance_count": 630,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_H",
+      "Speaker_E",
+      "Speaker_I"
+    ],
+    "original_length": 21243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-07T02:55:30.287443"
+  }
+}

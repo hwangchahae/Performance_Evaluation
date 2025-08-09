@@ -1,0 +1,31 @@
+{
+  "id": "train_178",
+  "source_dir": "result_ES2011a",
+  "notion_output": "```json\n{\n    \"project_name\": \"트렌디한 사용자 친화적 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"독창적이고 사용자 친화적인 리모컨을 개발하여 시장에서 경쟁력을 확보\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"애비\",\n    \"core_objectives\": [\n        \"목표 1: 기능적 디자인과 개념적 디자인을 조화롭게 통합하여 사용자 경험을 극대화\",\n        \"목표 2: 25유로의 판매 가격을 유지하면서 5천만 유로의 수익 목표 달성\",\n        \"목표 3: 리모컨의 사용 편의성을 높이기 위해 버튼 수를 최소화하고 기능을 최적화\"\n    ],\n    \"core_idea\": \"사용자 친화적이고 트렌디한 리모컨 디자인\",\n    \"idea_description\": \"리모컨의 기능적 측면과 개념적 디자인을 고려하여 사용자 경험을 최적화하고, 시장에서의 경쟁력을 강화하기 위한 제품 개발\",\n    \"execution_plan\": \"1단계: 도구 교육 및 프로젝트 계획 수립 (2023.11.01 ~ 2023.11.15)\\n2단계: 기능적 및 개념적 디자인 개발 (2023.11.16 ~ 2023.12.15)\\n3단계: 프로토타입 제작 및 테스트 (2023.12.16 ~ 2024.01.15)\\n4단계: 최종 디자인 확정 및 생산 준비 (2024.01.16 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 친화적인 디자인으로 고객 만족도 향상\",\n        \"기대효과 2: 판매 목표 달성을 통한 수익 증대\",\n        \"기대효과 3: 혁신적인 디자인으로 브랜드 이미지 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2011a/05_final_result.json",
+    "utterance_count": 123,
+    "transcript_length": 3979,
+    "original_transcript_length": 3979,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 3979
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:04:23.668645"
+  }
+}

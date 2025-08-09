@@ -1,0 +1,35 @@
+{
+  "id": "train_171_chunk_1",
+  "source_dir": "result_TS3005d",
+  "notion_output": "```json\n{\n    \"project_name\": \"사용자 중심의 혁신적인 리모컨 디자인 프로젝트\",\n    \"project_purpose\": \"모든 연령층이 쉽게 사용할 수 있는 혁신적인 리모컨을 개발하여 사용자 경험을 극대화하고 시장 점유율을 확대\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 리모컨 디자인의 혁신성을 평가하고 개선\",\n        \"목표 2: 다양한 연령층이 쉽게 사용할 수 있는 사용자 인터페이스 개발\",\n        \"목표 3: 사용자 요구사항을 반영한 기능 추가 및 테스트\",\n        \"목표 4: 사용자의 피드백을 바탕으로 최종 디자인 수정\"\n    ],\n    \"core_idea\": \"모든 연령층이 쉽게 사용할 수 있는 직관적이고 혁신적인 리모컨 디자인\",\n    \"idea_description\": \"리모컨의 디자인과 기능을 혁신적으로 개선하여 사용자 경험을 향상시키고, 다양한 연령층이 쉽게 사용할 수 있도록 설계. LCD 화면, 텍스트 입력 기능, 고무 스크롤 등 구체적인 기능을 포함.\",\n    \"execution_plan\": [\n        \"1단계: 사용자 요구사항 조사 및 분석 (2024.01.01 ~ 2024.02.15)\",\n        \"2단계: 디자인 프로토타입 개발 및 내부 평가 (2024.02.16 ~ 2024.03.31)\",\n        \"3단계: 사용자 테스트 및 피드백 수집 (2024.04.01 ~ 2024.04.30)\",\n        \"4단계: 최종 디자인 수정 및 생산 준비 (2024.05.01 ~ 2024.06.15)\",\n        \"5단계: 제품 출시 및 마케팅 (2024.06.16 ~ 2024.06.30)\"\n    ],\n    \"specific_features\": [\n        \"LCD 화면을 통한 텍스트 입력 가능\",\n        \"고무 스크롤을 통한 직관적 탐색\",\n        \"다양한 색상 옵션을 통한 사용자 맞춤형 디자인\",\n        \"간편한 볼륨 조절 버튼\",\n        \"젊은 층과 노년층 모두를 고려한 사용자 인터페이스\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상 및 브랜드 이미지 강화\",\n        \"기대효과 2: 혁신적인 디자인을 통한 시장 점유율 확대\",\n        \"기대효과 3: 다양한 연령층의 사용 편의성을 높여 고객층 확대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3005d/05_final_result.json",
+    "utterance_count": 576,
+    "original_transcript_length": 17375,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 17375
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 4,
+      "chunk_length": 4988
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:44:12.540401"
+  }
+}

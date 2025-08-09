@@ -1,0 +1,39 @@
+{
+  "id": "val_046_chunk_6",
+  "source_dir": "result_Bmr028_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"회의 신호 품질 개선 및 데이터 관리 프로젝트\",\n    \"project_purpose\": \"회의 중 신호 품질을 실시간으로 모니터링하고, 데이터 손실을 최소화하여 효율적인 회의 환경을 구축하는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 회의 중 신호 품질을 실시간으로 모니터링하여 문제 발생 시 즉각적인 조치를 취할 수 있도록 함\",\n        \"목표 2: 회의 데이터의 안전한 저장 및 백업 시스템 구축\",\n        \"목표 3: 회의 후 신호 품질 분석을 통해 향후 개선점을 도출\"\n    ],\n    \"core_idea\": \"회의 신호 품질을 실시간으로 감지하고, 데이터 손실을 방지하기 위한 시스템 구축\",\n    \"idea_description\": \"회의 중 마이크 신호의 임계값을 설정하여 신호 품질을 실시간으로 모니터링하고, 문제가 발생할 경우 즉각적으로 알림을 제공. 또한, 회의 데이터를 안전하게 저장하고 백업하여 데이터 손실을 방지.\",\n    \"execution_plan\": \"1. 신호 품질 모니터링 시스템 설계 및 구현 (2024.01.01 ~ 2024.01.31)\\n2. 데이터 저장 및 백업 시스템 구축 (2024.02.01 ~ 2024.02.28)\\n3. 신호 품질 분석 및 개선점 도출 (2024.03.01 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 회의 중 신호 품질 저하로 인한 업무 방해 최소화\",\n        \"기대효과 2: 데이터 손실 방지를 통한 회의 기록의 안전한 보존\",\n        \"기대효과 3: 신호 품질 분석을 통한 지속적인 회의 환경 개선\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr028_processed/05_final_result.json",
+    "utterance_count": 814,
+    "original_transcript_length": 27961,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 27961
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 7,
+      "chunk_length": 5000
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T11:00:42.154146"
+  }
+}

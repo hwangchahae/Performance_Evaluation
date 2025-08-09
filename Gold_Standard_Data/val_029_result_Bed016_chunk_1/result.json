@@ -1,0 +1,41 @@
+{
+  "id": "val_029_chunk_1",
+  "source_dir": "result_Bed016_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"관광 분야의 현대적 형식주의와 몰입형 경험 창출\",\n    \"project_purpose\": \"현대적 형식주의와 디지털 기술을 결합하여 관광객에게 몰입형 경험을 제공하고 관광 명소의 매력을 극대화하여 지역 경제 활성화\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_I\",\n    \"core_objectives\": [\n        \"목표 1: 현대적 형식주의와 디지털 기술을 관광 분야에 구체적으로 도입\",\n        \"목표 2: 관광객의 몰입형 경험을 혁신적으로 개선하고 만족도를 높임\",\n        \"목표 3: 새로운 관광 명소 개발 및 효과적인 홍보 전략 수립\"\n    ],\n    \"core_idea\": \"현대적 형식주의와 디지털 기술을 관광 분야에 적용하여 몰입형 경험 창출 및 관광 명소의 매력 극대화\",\n    \"idea_description\": \"현대적 형식주의와 기계적 요소, 디지털 기술을 활용하여 관광객에게 새로운 시각적 및 감각적 경험을 제공하고, 이를 통해 관광 명소의 매력을 극대화함. 특히, 몰입형 경험을 제공하여 관광객의 만족도를 높임.\",\n    \"execution_plan\": [\n        {\n            \"단계\": \"1단계\",\n            \"내용\": \"현대적 형식주의와 디지털 기술의 개념 연구 및 적용 가능성 검토\",\n            \"기간\": \"2024.01.01 ~ 2024.02.28\"\n        },\n        {\n            \"단계\": \"2단계\",\n            \"내용\": \"시범 관광 명소 선정 및 디자인 계획 수립\",\n            \"기간\": \"2024.03.01 ~ 2024.04.15\"\n        },\n        {\n            \"단계\": \"3단계\",\n            \"내용\": \"시범 프로젝트 실행 및 피드백 수집\",\n            \"기간\": \"2024.04.16 ~ 2024.05.31\"\n        },\n        {\n            \"단계\": \"4단계\",\n            \"내용\": \"프로젝트 결과 분석 및 최종 보고서 작성\",\n            \"기간\": \"2024.06.01 ~ 2024.06.30\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 관광객의 만족도 및 방문율 증가\",\n        \"기대효과 2: 지역 경제 활성화 및 일자리 창출\",\n        \"기대효과 3: 현대적 형식주의와 디지털 기술의 관광 분야 내 인지도 향상\"\n    ],\n    \"additional_notes\": \"회의록에서 논의된 기계적 요소와 디지털 기술의 활용을 통해 몰입형 경험을 제공하는 것을 고려함. 또한, 관광 명소의 디자인에 있어 현대적 형식주의의 구체적인 적용 방안을 마련함. Wolfgang Wahlster와의 협력을 통해 기술적 자문을 받을 계획.\"\n}\n```",
+  "quality_metrics": {
+    "final_score": 5,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed016_processed/05_final_result.json",
+    "utterance_count": 505,
+    "original_transcript_length": 16078,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_H",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_J",
+      "Speaker_I"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 16078
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 4,
+      "chunk_length": 4997
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T10:23:57.680618"
+  }
+}

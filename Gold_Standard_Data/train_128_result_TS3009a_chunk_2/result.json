@@ -1,0 +1,35 @@
+{
+  "id": "train_128_chunk_2",
+  "source_dir": "result_TS3009a",
+  "notion_output": "```json\n{\n    \"project_name\": \"혁신적이고 직관적인 사용자 중심 TV 리모컨 디자인 프로젝트\",\n    \"project_purpose\": \"사용자 경험을 극대화하고 직관적인 인터페이스를 제공하는 TV 리모컨 디자인을 개발하여 시장 경쟁력을 강화\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 인터페이스 개선을 통한 사용자 경험 향상\",\n        \"목표 2: 새로운 디자인 컨셉 개발 및 시제품 제작\",\n        \"목표 3: 시장 조사 및 사용자 피드백 수집\",\n        \"목표 4: 특정 디자인 요소(선의 굵기, 너비 등) 반영\",\n        \"목표 5: 사용자 피드백을 반영하여 디자인 개선\"\n    ],\n    \"core_idea\": \"사용자 중심의 직관적이고 시각적으로 매력적인 리모컨 디자인\",\n    \"idea_description\": \"새로운 디자인을 통해 사용자가 쉽게 사용할 수 있는 인터페이스를 제공하고, 선의 굵기와 너비 등 구체적인 디자인 요소를 고려하여 시각적으로도 매력적인 리모컨을 개발합니다. 회의에서 논의된 특정 동물 디자인 요소를 반영하여 독창성을 강화합니다.\",\n    \"execution_plan\": \"1단계: 시장 조사 및 사용자 요구 분석 (2023.11.01 ~ 2023.11.15)\\n2단계: 디자인 컨셉 개발 및 시제품 제작 (2023.11.16 ~ 2023.12.15)\\n3단계: 사용자 테스트 및 피드백 수집 (2023.12.16 ~ 2024.01.15)\\n4단계: 최종 디자인 확정 및 생산 준비 (2024.01.16 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상 및 브랜드 이미지 강화\",\n        \"기대효과 2: 혁신적인 디자인을 통한 시장 점유율 확대\",\n        \"기대효과 3: 사용자 피드백을 반영한 제품 개선\",\n        \"기대효과 4: 구체적인 디자인 요소 반영으로 인한 사용자 경험 향상\",\n        \"기대효과 5: 독창적인 디자인 요소로 인한 시장 차별화\"\n    ],\n    \"incorporated_feedback\": [\n        \"회의록에서 논의된 선의 굵기와 너비 등 구체적인 디자인 요소를 반영\",\n        \"사용자 피드백을 통해 디자인 개선점을 지속적으로 도출\",\n        \"회의에서 언급된 특정 동물 디자인 요소를 반영하여 디자인의 독창성 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 5.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3009a/05_final_result.json",
+    "utterance_count": 202,
+    "original_transcript_length": 6294,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 6294
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 1834
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:58:24.185466"
+  }
+}

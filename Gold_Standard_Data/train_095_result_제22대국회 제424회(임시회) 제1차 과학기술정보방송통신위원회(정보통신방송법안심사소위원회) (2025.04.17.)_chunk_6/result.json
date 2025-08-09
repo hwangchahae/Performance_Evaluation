@@ -1,0 +1,42 @@
+{
+  "id": "train_095_chunk_6",
+  "source_dir": "result_제22대국회 제424회(임시회) 제1차 과학기술정보방송통신위원회(정보통신방송법안심사소위원회) (2025.04.17.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"방송통신위원회 설치법 개정안 심사 프로젝트\",\n    \"project_purpose\": \"방송통신위원회 설치법 개정안을 심사하고 합의안을 도출하여 방송 3법과의 일관성을 확보하는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"김현 소위원장\",\n    \"core_objectives\": [\n        \"목표 1: 방송통신위원회 설치법 개정안의 주요 내용 검토 및 심사\",\n        \"목표 2: 방송 3법과의 일관성을 고려한 합의안 마련\",\n        \"목표 3: EBS 이사회 및 사장 임명 절차 개선안 검토\"\n    ],\n    \"core_idea\": \"방송통신위원회 설치법 개정안을 통해 방송 3법과의 일관성을 유지하며, EBS의 지배 구조 및 임명 절차를 개선\",\n    \"idea_description\": \"방송통신위원회 설치법 개정안은 EBS의 이사회 구성 및 사장 임명 절차를 개선하여 투명성과 효율성을 높이는 것을 목표로 한다. 이를 위해 방송 3법과의 일관성을 유지하며, 각 단체의 추천 및 대통령 임명 절차를 포함한 새로운 구조를 제안한다.\",\n    \"execution_plan\": \"1. 2024.01.01 ~ 2024.01.31: 개정안의 주요 내용 검토 및 이해관계자 의견 수렴\\n2. 2024.02.01 ~ 2024.02.28: 방송 3법과의 일관성을 고려하여 합의안 초안 작성\\n3. 2024.03.01 ~ 2024.03.31: 합의안 최종 검토 및 국회 제출\",\n    \"expected_effects\": [\n        \"기대효과 1: EBS의 지배 구조 개선으로 투명성과 책임성 강화\",\n        \"기대효과 2: 방송 3법과의 일관성 유지로 법적 안정성 확보\",\n        \"기대효과 3: 임명 절차 개선으로 공정성과 효율성 증대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제424회(임시회) 제1차 과학기술정보방송통신위원회(정보통신방송법안심사소위원회) (2025.04.17.)/05_final_result.json",
+    "utterance_count": 413,
+    "original_transcript_length": 25404,
+    "speakers": [
+      "수석전문위원 이복우",
+      "이훈기 위원",
+      "과학기술정보통신부제2차관 강도현",
+      "한민수 위원",
+      "이해민 위원",
+      "최형두 위원",
+      "이정헌 위원",
+      "신성범 위원",
+      "방송통신위원회부위원장 김태규",
+      "소위원장 김현",
+      "노종면 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 25404
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 6,
+      "chunk_length": 3034
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T23:38:06.547667"
+  }
+}

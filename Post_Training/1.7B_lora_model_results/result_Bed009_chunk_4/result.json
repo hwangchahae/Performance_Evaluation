@@ -1,0 +1,72 @@
+{
+  "id": "result_Bed009_processed_chunk_4",
+  "source_dir": "result_Bed009_processed",
+  "notion_output": {
+    "project_name": "DAML 기반 다중 응용 프로그램 개발 프로젝트",
+    "project_purpose": "DAML의 기능 모델러와 관광 정보를 활용하여 다양한 응용 프로그램을 개발하고, 외부 서비스와의 연동성을 강화하여 효율적인 운영을 도모함",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: DAML 기반의 기능 모델러와 관광 정보를 통해 다양한 응용 프로그램을 개발",
+      "목표 2: 외부 서비스와의 연동성을 강화하여 데이터 처리 효율성 증대",
+      "목표 3: 플래너 A, B, C 등과의 인터페이스를 통해 다양한 시스템과의 호환성 확보"
+    ],
+    "core_idea": "DAML의 기능 모델러와 관광 정보를 활용하여 다양한 응용 프로그램을 개발하고, 외부 서비스와의 연동성을 강화하여 데이터 처리 효율성을 높임",
+    "idea_description": "DAML의 기능 모델러와 관광 정보를 통해 다양한 응용 프로그램을 개발하고, 외부 서비스와의 연동성을 강화하여 데이터 처리 효율성을 높임. 이를 통해 다양한 시스템과의 호환성을 확보하며, 효율적인 운영을 도모함.",
+    "execution_plan": [
+      {
+        "phase": "설계 및 기능 모델링",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "activities": [
+          "DAML 기능 모델러 설계 및 구현",
+          "관광 정보 수집 및 분석",
+          "플래너 A, B, C와의 인터페이스 설계"
+        ]
+      },
+      {
+        "phase": "개발 및 테스트",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "activities": [
+          "응용 프로그램 개발",
+          "테스트 환경 설정 및 테스트 실행",
+          "외부 서비스 연동성 검증"
+        ]
+      },
+      {
+        "phase": "배포 및 최적화",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "activities": [
+          "마케팅 및 배포 계획 수립",
+          "사용자 피드백 수집 및 반영",
+          "최적화 및 성능 테스트"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 다양한 응용 프로그램을 통해 고객층 확대 및 수익 창출",
+      "기대효과 2: 외부 서비스와의 연동성 강화로 데이터 처리 효율성 향상",
+      "기대효과 3: 플래너 A, B, C와의 호환성 확보로 시스템 확장 가능성 증대"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bed009_processed/05_final_result.json",
+    "utterance_count": 691,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_F",
+      "Speaker_G"
+    ],
+    "original_length": 23895,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-07T03:00:51.107062"
+  }
+}

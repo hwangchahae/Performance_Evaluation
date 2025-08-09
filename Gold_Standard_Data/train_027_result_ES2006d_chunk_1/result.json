@@ -1,0 +1,35 @@
+{
+  "id": "train_027_chunk_1",
+  "source_dir": "result_ES2006d",
+  "notion_output": "```json\n{\n    \"project_name\": \"다기능 인터페이스 프로토타입 개발 및 검증\",\n    \"project_purpose\": \"사용자 경험을 혁신하는 다기능 인터페이스 프로토타입의 개발 및 기술적 검증을 통해 시장 경쟁력 강화\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_C\",\n    \"core_objectives\": [\n        \"목표 1: 다기능 버튼 및 스크롤링 기능 구현 - 버튼의 진동 피드백, 스크롤링을 통한 볼륨 조절, 켜기/끄기 버튼 기능 포함\",\n        \"목표 2: 사용자 친화적인 디자인 및 색상 조합 개발 - 검정색과 노란색 조합을 통한 시각적 효과 강화 및 직관적 인터페이스 제공\",\n        \"목표 3: 프로토타입의 기술적 혁신성 검증 - 다양한 채널과 직관적 인터페이스로 사용자 편의성 증대 및 왼손잡이 사용자도 고려한 디자인 제공\"\n    ],\n    \"core_idea\": \"사용자 편의성을 극대화하는 다기능 인터페이스\",\n    \"idea_description\": \"다양한 기능을 하나의 인터페이스에 통합하여 사용자 경험을 향상시키고, 직관적인 사용성을 제공하는 기술적 혁신을 목표로 함. 특히, 스크롤링과 버튼 조작을 통해 RSI 문제를 해결하고, 왼손잡이 사용자도 쉽게 사용할 수 있는 디자인을 제공.\",\n    \"execution_plan\": [\n        \"1단계: 프로토타입 프레젠테이션 준비 및 피드백 수집 (2024.01.01 ~ 2024.01.15)\",\n        \"2단계: 디자인 및 기능 개선 - 사용자 피드백 반영 및 색상 조합 최적화, 볼륨 스크롤링 및 켜기/끄기 버튼 기능 강화 (2024.01.16 ~ 2024.02.15)\",\n        \"3단계: 최종 프로토타입 테스트 및 검증 - 기술적 혁신성과 사용자 친화성 검증, 왼손잡이 사용자 편의성 테스트 포함 (2024.02.16 ~ 2024.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 경험 향상으로 인한 시장 경쟁력 강화 - 직관적이고 혁신적인 인터페이스로 사용자 만족도 증가\",\n        \"기대효과 2: 혁신적인 디자인으로 인한 브랜드 이미지 제고 - 검정색과 노란색의 조화로운 디자인으로 브랜드 인지도 상승\",\n        \"기대효과 3: 기술적 혁신을 통한 새로운 시장 기회 창출 - 다기능 인터페이스의 기술적 우수성을 기반으로 새로운 시장 개척\",\n        \"기대효과 4: RSI 문제 해결 및 왼손잡이 사용자 편의성 증대로 인한 사용자층 확대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2006d/05_final_result.json",
+    "utterance_count": 336,
+    "original_transcript_length": 10463,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 10463
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4998
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:04:42.613456"
+  }
+}

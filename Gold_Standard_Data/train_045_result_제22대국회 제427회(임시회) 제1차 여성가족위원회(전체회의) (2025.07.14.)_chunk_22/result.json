@@ -1,0 +1,51 @@
+{
+  "id": "train_045_chunk_22",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 여성가족위원회(전체회의) (2025.07.14.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"여성 및 아동 폭력 예방 및 보호 강화 프로젝트\",\n    \"project_purpose\": \"여성 및 아동에 대한 폭력 피해 예방과 보호 체계를 강화하여 성평등 사회 구현\",\n    \"project_period\": \"2024.01.01 ~ 2024.12.31\",\n    \"project_manager\": \"강선우 여성가족부장관후보자\",\n    \"core_objectives\": [\n        \"목표 1: 교제 폭력 관련 법안의 조속한 통과 및 시행\",\n        \"목표 2: 여성할당제 및 양성평등 채용목표제에 대한 오해 해소 및 팩트 체크\",\n        \"목표 3: 청소년 활동 공간 확충 및 접근성 개선\"\n    ],\n    \"core_idea\": \"여성 및 아동에 대한 폭력 예방과 보호를 위한 법적, 제도적 기반 강화\",\n    \"idea_description\": \"교제 폭력에 대한 법적 규제 강화, 여성할당제에 대한 올바른 정보 제공, 청소년 활동 공간 확충을 통한 미래 세대 지원\",\n    \"execution_plan\": \"1. 교제 폭력 법안 통과 지원: 2024년 정기국회 내 통과 목표\\n2. 여성할당제 관련 팩트 체크 및 정보 제공: 2024년 1분기\\n3. 청소년 활동 공간 확충 계획 수립 및 시행: 2024년 2분기부터 단계적 시행\",\n    \"expected_effects\": [\n        \"기대효과 1: 교제 폭력에 대한 법적 보호 강화로 피해자 보호 및 가해자 처벌 강화\",\n        \"기대효과 2: 여성할당제에 대한 오해 해소로 성평등 인식 개선\",\n        \"기대효과 3: 청소년 활동 공간 확충으로 청소년들의 여가 및 교육 환경 개선\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제1차 여성가족위원회(전체회의) (2025.07.14.)/05_final_result.json",
+    "utterance_count": 3260,
+    "original_transcript_length": 161054,
+    "speakers": [
+      "위원장 이인선",
+      "조은희 위원",
+      "한지아 위원",
+      "백승아 위원",
+      "채현일 위원",
+      "김남근 위원",
+      "이달희 위원",
+      "김한규 위원",
+      "서영교 위원",
+      "증인 이의일",
+      "전진숙 위원",
+      "김남희 위원",
+      "이연희 위원",
+      "여성가족부장관후보자 강선우",
+      "장철민 위원",
+      "서범수 위원",
+      "서명옥 위원",
+      "정춘생 위원",
+      "여성가족부기획조정실장 김기남",
+      "임미애 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 36,
+      "original_length": 161054
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 22,
+      "total_chunks": 36,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T19:33:24.297493"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "result_ES2015c_chunk_1",
+  "source_dir": "result_ES2015c",
+  "notion_output": {
+    "project_name": "EcoKinetic Remote Control Project",
+    "project_purpose": "환경친화적인 운동 에너지를 활용한 리모컨 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: 운동 에너지를 활용한 리모컨 설계 및 제작",
+      "목표 2: 사용자 인터페이스 개선 및 편의성 강화",
+      "목표 3: 재활용 가능한 소재 사용으로 환경 영향 최소화"
+    ],
+    "core_idea": "운동 에너지를 이용한 리모컨 개발",
+    "idea_description": "운동 에너지를 통해 리모컨을 작동시키며, 재활용 가능한 소재를 사용하여 환경에 미치는 부담을 줄이는 것이 핵심이다.",
+    "execution_plan": "1단계: 초기 설계 및 컨셉 도출 (2024.01.01 ~ 2024.02.15)\n2단계: 소재 및 구성 요소 선정 (2024.02.16 ~ 2024.03.15)\n3단계: 프로토타입 제작 및 테스트 (2024.03.16 ~ 2024.04.30)\n4단계: 최종 제품 개발 및 시장 준비 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 배터리 사용 감소로 인한 환경 보호",
+      "기대효과 2: 사용자 편의성 증대 및 인체공학적 디자인 적용",
+      "기대효과 3: 혁신적인 기술 개발로 인한 시장 경쟁력 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_ES2015c/05_final_result.json",
+    "utterance_count": 358,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "original_length": 11803,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-07T02:50:08.830229"
+  }
+}

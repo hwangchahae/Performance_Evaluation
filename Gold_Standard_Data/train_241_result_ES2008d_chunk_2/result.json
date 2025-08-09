@@ -1,0 +1,35 @@
+{
+  "id": "train_241_chunk_2",
+  "source_dir": "result_ES2008d",
+  "notion_output": "```json\n{\n    \"project_name\": \"국제적 매력을 갖춘 사용자 친화적 인터페이스 디자인 프로젝트\",\n    \"project_purpose\": \"단순함과 패션을 결합하여 국제 시장에서 경쟁력을 갖춘 제품 개발\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 단순하고 사용하기 쉬운 인터페이스 개발\",\n        \"목표 2: 기업 색상(노란색) 및 대체 색상을 반영한 디자인 구현\",\n        \"목표 3: 국제적 매력을 갖춘 제품으로 시장 확장\"\n    ],\n    \"core_idea\": \"단순함과 패션을 결합한 사용자 친화적인 인터페이스\",\n    \"idea_description\": \"고무 소재와 특수 색상(노란색 및 대체 색상)을 사용하여 단순하면서도 패셔너블한 디자인을 구현하고, 푸시 버튼 인터페이스를 통해 사용 편의성을 극대화\",\n    \"execution_plan\": [\n        {\n            \"단계\": \"1단계\",\n            \"내용\": \"디자인 컨셉 확정 및 색상 선택\",\n            \"기간\": \"2023.11.01 ~ 2023.11.15\"\n        },\n        {\n            \"단계\": \"2단계\",\n            \"내용\": \"프로토타입 제작 및 테스트, 사용자 피드백 수집\",\n            \"기간\": \"2023.11.16 ~ 2023.12.15\"\n        },\n        {\n            \"단계\": \"3단계\",\n            \"내용\": \"피드백 반영 및 최종 디자인 확정, 평가 기준 설정\",\n            \"기간\": \"2023.12.16 ~ 2024.01.15\"\n        },\n        {\n            \"단계\": \"4단계\",\n            \"내용\": \"제품 출시 준비 및 마케팅 계획 수립\",\n            \"기간\": \"2024.01.16 ~ 2024.01.31\"\n        }\n    ],\n    \"evaluation_criteria\": [\n        \"기준 1: 디자인의 단순함과 사용 편의성\",\n        \"기준 2: 기업 색상 및 대체 색상의 적절한 사용\",\n        \"기준 3: 국제적 매력 및 시장 확장 가능성\",\n        \"기준 4: 사용자 피드백에 기반한 디자인 개선\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상으로 인한 브랜드 이미지 강화\",\n        \"기대효과 2: 국제 시장에서의 경쟁력 강화\",\n        \"기대효과 3: 제품 판매 증가로 인한 매출 증대\"\n    ],\n    \"additional_notes\": \"회의에서 언급된 과일맛 디자인 요소는 감자에서 영감을 받아 망고 맛과 비슷한 느낌을 주는 것으로, 이는 제품의 독창성을 강조하는 데 기여할 것입니다. 또한, 버튼의 특수 색상 및 소재는 사용자 경험을 향상시키는 데 중요한 역할을 할 것입니다. 회의에서 논의된 바와 같이, 버튼은 6개로 구성되며, 각 버튼은 특수한 색상과 소재로 제작될 예정입니다.\"\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2008d/05_final_result.json",
+    "utterance_count": 417,
+    "original_transcript_length": 14373,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 14373
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 4,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T07:47:47.670384"
+  }
+}

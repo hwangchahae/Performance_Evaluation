@@ -1,0 +1,35 @@
+{
+  "id": "train_228_chunk_1",
+  "source_dir": "result_IS1002d",
+  "notion_output": "```json\n{\n    \"project_name\": \"혁신적인 로케이터 및 스크롤 기능 기반 TV 리모컨 프로젝트\",\n    \"project_purpose\": \"로케이터 기능과 스크롤 휠, 즐겨찾기 기능을 포함한 혁신적인 TV 리모컨 개발 및 시장 출시\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 로케이터 기능, 스크롤 휠, 즐겨찾기 기능을 포함한 TV 리모컨의 프로토타입 개발\",\n        \"목표 2: 생산 비용을 15.8유로로 유지하면서 제품의 경쟁력 강화\",\n        \"목표 3: 시장 출시를 위한 마케팅 전략 수립 및 실행\",\n        \"목표 4: 제품의 내구성과 신뢰성을 강화하여 소비자 만족도 향상\"\n    ],\n    \"core_idea\": \"로케이터 기능과 스크롤 휠, 즐겨찾기 기능을 포함한 혁신적인 TV 리모컨 개발\",\n    \"idea_description\": \"로케이터 기능, 스크롤 휠, 즐겨찾기 기능을 포함한 TV 리모컨을 개발하여 틈새시장을 공략하고, 경쟁력을 강화하여 시장에 출시. 제품의 내구성과 신뢰성을 보장하여 소비자 만족도를 높임.\",\n    \"execution_plan\": \"1단계: 제품 설계 및 프로토타입 개발 (2024.01.01 ~ 2024.02.28)\\n2단계: 생산 비용 검토 및 조정, 내구성 및 신뢰성 테스트 (2024.03.01 ~ 2024.03.31)\\n3단계: 마케팅 전략 수립 및 실행, 시장 조사 및 경쟁 분석 (2024.04.01 ~ 2024.05.31)\\n4단계: 시장 출시 및 초기 피드백 수집, 피드백 기반 개선 계획 수립 (2024.06.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 혁신적인 기능을 통해 시장 점유율 증가\",\n        \"기대효과 2: 생산 비용 절감으로 인한 수익성 향상\",\n        \"기대효과 3: 소비자 만족도 및 브랜드 인지도 상승\",\n        \"기대효과 4: 내구성과 신뢰성을 통한 장기적인 고객 충성도 확보\"\n    ],\n    \"additional_information\": {\n        \"product_features\": [\n            \"로케이터 기능: 사용자가 리모컨을 쉽게 찾을 수 있도록 지원\",\n            \"스크롤 휠: 채널 탐색을 용이하게 함\",\n            \"즐겨찾기 기능: 자주 사용하는 채널을 쉽게 접근 가능\",\n            \"내구성 및 신뢰성: 장기간 사용에도 견딜 수 있는 품질 보장\"\n        ],\n        \"cost_reduction_strategy\": \"생산 비용을 15.8유로로 유지하기 위해 부품 공급망 최적화 및 대량 생산을 통한 규모의 경제 활용\",\n        \"marketing_strategy\": \"틈새시장을 공략하는 차별화된 마케팅 캠페인 실행 및 소비자 피드백을 기반으로 한 지속적 개선\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1002d/05_final_result.json",
+    "utterance_count": 161,
+    "original_transcript_length": 5845,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 5845
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4984
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:52:56.591943"
+  }
+}

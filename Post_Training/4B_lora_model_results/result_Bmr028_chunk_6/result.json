@@ -1,0 +1,51 @@
+{
+  "id": "val_288_chunk_6",
+  "source_dir": "result_Bmr028_processed",
+  "notion_output": {
+    "project_name": "회의 데이터 품질 관리 및 효율화 시스템 개발",
+    "project_purpose": "회의 중 신호 품질을 실시간으로 모니터링하고, 데이터 손실을 최소화하며, 회의 데이터의 활용성을 극대화함.",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: 회의 중 신호 품질을 실시간으로 감지하고, 문제 발생 시 즉시 대처",
+      "목표 2: 데이터 손실을 줄이기 위한 백업 및 복구 시스템 구축",
+      "목표 3: 회의 데이터의 활용성을 높이는 분석 및 활용 방안 마련"
+    ],
+    "core_idea": "회의 중 신호 품질을 실시간으로 감지하고, 데이터 손실을 방지하며, 데이터의 활용성을 높이는 시스템을 개발하여 회의의 효율성을 극대화한다.",
+    "idea_description": "회의 중 신호 품질을 실시간으로 감지하는 시스템을 통해 문제 발생 시 즉시 대처하고, 데이터 손실을 방지하기 위한 백업 및 복구 시스템을 구축한다. 또한, 회의 데이터의 활용성을 높이기 위해 분석 및 활용 방안을 마련한다.",
+    "execution_plan": "1단계: 신호 품질 감지 시스템 개발 (2024.01.01 ~ 2024.02.28)\n2단계: 데이터 손실 방지를 위한 백업 및 복구 시스템 구축 (2024.03.01 ~ 2024.04.30)\n3단계: 데이터 분석 및 활용 방안 연구 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 회의 중 신호 품질 문제 발생 시 빠른 대처로 인한 데이터 손실 감소",
+      "기대효과 2: 데이터 백업 및 복구 시스템을 통한 데이터 안정성 확보",
+      "기대효과 3: 데이터 분석을 통한 회의 효율성 향상 및 활용성 증대"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_Bmr028_processed/05_final_result.json",
+    "utterance_count": 814,
+    "original_transcript_length": 27961,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 27961
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 7,
+      "chunk_length": 5000
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-06T15:44:25.809831"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "train_013_chunk_2",
+  "source_dir": "result_Bro023_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"Wiener 필터 및 MFCC 기반 음성 인식 성능 최적화 프로젝트\",\n    \"project_purpose\": \"Wiener 필터링과 MFCC 기준선 개선을 통해 다양한 채널 환경에서 음성 인식 시스템의 성능을 최적화하는 것\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_E\",\n    \"core_objectives\": [\n        \"목표 1: MFCC 기준선 대비 30% 이상의 성능 개선\",\n        \"목표 2: 온라인 정규화 및 LDA 기법을 통해 다양한 채널 환경에서의 성능 최적화\",\n        \"목표 3: 다양한 채널 환경에서의 시스템 성능 비교 및 분석\"\n    ],\n    \"core_idea\": \"Wiener 필터링과 MFCC 기준선 개선을 통해 노이즈가 많은 환경에서도 음성 인식의 정확도를 높이는 것\",\n    \"idea_description\": \"Wiener 필터링을 사용하여 노이즈가 있는 전력 스펙트럼에서 깨끗한 전력 스펙트럼을 추정하고, MFCC 기준선을 개선하여 음성 인식 시스템의 성능을 최적화한다.\",\n    \"execution_plan\": \"1단계: 현재 시스템의 MFCC 기준선 성능 측정 및 분석 (2023.11.01 ~ 2023.11.15)\\n2단계: Wiener 필터링 적용 및 초기 테스트 (2023.11.16 ~ 2023.12.15)\\n3단계: 온라인 정규화 및 LDA 기법 통합 및 다양한 채널 환경에서의 테스트 (2023.12.16 ~ 2024.01.15)\\n4단계: 최종 성능 평가 및 보고서 작성 (2024.01.16 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: MFCC 기준선 대비 음성 인식 시스템의 정확도 30% 이상 향상\",\n        \"기대효과 2: 다양한 채널 환경에서의 일관된 성능 제공\",\n        \"기대효과 3: 노이즈 환경에서도 안정적인 음성 인식 가능\"\n    ],\n    \"technical_details\": {\n        \"MFCC_baseline\": \"기준선 성능은 MFCC 기준선으로 설정, 회의록에서 언급된 40% 개선 목표와 일치\",\n        \"wiener_filtering\": \"노이즈가 많은 스펙트럼에서 깨끗한 전력 스펙트럼을 추정하기 위한 두 단계의 Wiener 필터링 적용\",\n        \"online_normalization_and_LDA\": \"온라인 정규화 및 LDA 기법을 통해 다양한 채널 환경에서의 성능 최적화\",\n        \"channel_performance_comparison\": \"채널 0과 채널 1을 포함한 다양한 채널 환경에서의 성능 비교 및 분석\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.4,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro023_processed/05_final_result.json",
+    "utterance_count": 580,
+    "original_transcript_length": 21680,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 21680
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 5,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T17:14:25.554342"
+  }
+}

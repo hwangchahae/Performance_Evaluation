@@ -1,0 +1,31 @@
+{
+  "id": "train_068",
+  "source_dir": "result_TS3012a",
+  "notion_output": "```json\n{\n    \"project_name\": \"혁신적인 TV 리모컨 디자인 프로젝트\",\n    \"project_purpose\": \"사용자 친화적이고 트렌디한 TV 리모컨을 설계하여 시장 경쟁력을 강화\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"마크\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 인터페이스 개선을 통한 사용 편의성 향상\",\n        \"목표 2: 경량 소재를 사용하여 제품의 휴대성과 사용성을 높임\",\n        \"목표 3: 혁신적인 디자인을 통해 브랜드 이미지 제고\"\n    ],\n    \"core_idea\": \"전자제품에 패션을 접목하여 독창적이고 사용하기 편리한 TV 리모컨을 개발\",\n    \"idea_description\": \"기존의 TV 리모컨 디자인을 탈피하여, 사용자 경험을 극대화하는 인터페이스와 경량 소재를 활용한 혁신적인 디자인을 구현\",\n    \"execution_plan\": \"1단계: 기능 설계 (2024.01.01 ~ 2024.01.31)\\n2단계: 디자인 프로토타입 개발 (2024.02.01 ~ 2024.02.28)\\n3단계: 사용자 테스트 및 피드백 반영 (2024.03.01 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 20% 향상\",\n        \"기대효과 2: 제품 판매량 15% 증가\",\n        \"기대효과 3: 브랜드 인지도 10% 상승\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3012a/05_final_result.json",
+    "utterance_count": 125,
+    "transcript_length": 4315,
+    "original_transcript_length": 4315,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 4315
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T21:09:28.019637"
+  }
+}

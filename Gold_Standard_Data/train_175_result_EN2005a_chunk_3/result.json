@@ -1,0 +1,35 @@
+{
+  "id": "train_175_chunk_3",
+  "source_dir": "result_EN2005a",
+  "notion_output": "```json\n{\n    \"project_name\": \"코코넛 프로젝트: 협업 문제 해결을 위한 회의 데이터 분석 및 자동화\",\n    \"project_purpose\": \"회의 데이터의 체계적 분석을 통해 협업 문제 해결 패턴을 식별하고, 자동화 도구를 개발하여 회의 효율성을 향상\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"리치 토머슨\",\n    \"core_objectives\": [\n        \"목표 1: 회의 데이터 주석을 통해 협업 문제 해결의 패턴을 심층 분석\",\n        \"목표 2: 자동 분석기를 개발하여 회의 데이터의 일부를 자동으로 주석\",\n        \"목표 3: 회의 브라우저에서 활용 가능한 대화 구조 개발 및 테스트\",\n        \"목표 4: 회의 활동의 의미론적 및 이론적 명확성 확보\"\n    ],\n    \"core_idea\": \"협업 문제 해결을 위한 회의 데이터의 체계적 분석 및 자동화 도구 개발\",\n    \"idea_description\": \"회의 데이터의 주석을 통해 협업 문제 해결의 패턴을 분석하고, 이를 기반으로 자동 분석기를 개발하여 회의 데이터의 일부를 자동으로 주석함으로써 효율성을 높인다. 또한, 회의 활동의 의미론적 명확성을 확보하여 회의 브라우저에서의 활용성을 극대화한다.\",\n    \"execution_plan\": \"1단계: 문헌 검토 및 데이터 주석 계획 수립 (2024.01.01 ~ 2024.02.15)\\n2단계: 초기 회의 데이터 주석 및 신뢰성 연구 진행 (2024.02.16 ~ 2024.03.31)\\n3단계: 자동 분석기 개발 및 테스트 (2024.04.01 ~ 2024.05.15)\\n4단계: 회의 브라우저에 대화 구조 적용 및 결과 검토 (2024.05.16 ~ 2024.06.30)\\n5단계: 회의 활동의 의미론적 명확성 및 이론적 명확성 확보 (2024.05.16 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 협업 문제 해결의 패턴을 분석하여 효율적인 회의 진행 방안 제시\",\n        \"기대효과 2: 자동 분석기를 통한 회의 데이터 주석의 효율성 및 정확성 향상\",\n        \"기대효과 3: 회의 브라우저에서의 대화 구조 활용을 통해 의사 결정 지원\",\n        \"기대효과 4: 회의 활동의 의미론적 명확성을 통해 회의의 질적 향상\"\n    ],\n    \"technical_details\": [\n        \"기술 세부사항 1: 회의 데이터의 주석을 위한 교환 구조 마크업\",\n        \"기술 세부사항 2: 협업 문제 해결을 위한 도메인 의미론 및 작업 계층 구조 모델링\",\n        \"기술 세부사항 3: 회의 활동의 의미론적 명확성을 위한 이론적 프레임워크 개발\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_EN2005a/05_final_result.json",
+    "utterance_count": 496,
+    "original_transcript_length": 21633,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 21633
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:55:09.807075"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "train_004_chunk_2",
+  "source_dir": "result_TS3005a",
+  "notion_output": "```json\n{\n    \"project_name\": \"글로벌 사용자 친화적 리모컨 디자인 프로젝트\",\n    \"project_purpose\": \"독창적이고 트렌디하며 사용자 친화적인 새로운 리모컨을 디자인하고 글로벌 시장에 성공적으로 출시하는 것\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"team_roles\": {\n        \"project_manager\": \"Speaker_A\",\n        \"industrial_designer\": \"Speaker_C\",\n        \"marketing_specialist\": \"Speaker_D\",\n        \"user_interface_designer\": \"TBD\"\n    },\n    \"core_objectives\": [\n        \"목표 1: 사용자 요구 사항 명세서 검토 및 수정\",\n        \"목표 2: 기술 기능 설계 및 프로토타입 개발\",\n        \"목표 3: 글로벌 및 영국 시장 타겟팅 전략 수립 및 실행\"\n    ],\n    \"core_idea\": \"사용자 경험을 극대화하고 글로벌 시장에 적합한 리모컨 디자인\",\n    \"idea_description\": \"산업 디자이너와 마케팅 전문가의 협업을 통해 사용자 인터페이스와 기능을 최적화하며, 글로벌 시장에 적합한 전략을 수립\",\n    \"execution_plan\": {\n        \"phase_1\": {\n            \"description\": \"사용자 요구 사항 명세서 검토 및 수정\",\n            \"timeline\": \"2023.11.01 ~ 2023.11.15\",\n            \"responsible\": \"Speaker_D\",\n            \"tasks\": [\n                \"기존 사용자 요구 사항 명세서 검토\",\n                \"필요한 수정 사항 식별 및 반영\",\n                \"관련 부서와의 협의\"\n            ]\n        },\n        \"phase_2\": {\n            \"description\": \"기술 기능 설계 및 프로토타입 개발\",\n            \"timeline\": \"2023.11.16 ~ 2023.12.15\",\n            \"responsible\": \"TBD\",\n            \"tasks\": [\n                \"기술 기능 요구 사항 정의\",\n                \"프로토타입 설계 및 개발\",\n                \"산업 디자이너와의 협업\"\n            ]\n        },\n        \"phase_3\": {\n            \"description\": \"글로벌 및 영국 시장 타겟팅 전략 수립 및 실행\",\n            \"timeline\": \"2023.12.16 ~ 2024.01.31\",\n            \"responsible\": \"Speaker_D\",\n            \"tasks\": [\n                \"시장 조사 및 분석\",\n                \"타겟팅 전략 수립\",\n                \"마케팅 캠페인 실행\"\n            ]\n        }\n    },\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 친화적인 제품 출시로 인한 고객 만족도 향상\",\n        \"기대효과 2: 글로벌 시장 진출로 인한 매출 증대\",\n        \"기대효과 3: 혁신적인 디자인으로 브랜드 이미지 강화\"\n    ],\n    \"additional_notes\": [\n        \"회의 중 마이크 사용에 대한 두려움을 극복하도록 독려\",\n        \"회의 종료 시점은 19:23으로 예정대로 종료됨\",\n        \"마케팅 전략은 전 세계와 영국 시장을 모두 타겟으로 삼아 비용 효율성을 극대화할 계획\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3005a/05_final_result.json",
+    "utterance_count": 184,
+    "original_transcript_length": 6409,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 6409
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 1924
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T16:41:49.000135"
+  }
+}

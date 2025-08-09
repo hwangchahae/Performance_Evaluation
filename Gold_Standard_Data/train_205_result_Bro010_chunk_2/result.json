@@ -1,0 +1,37 @@
+{
+  "id": "train_205_chunk_2",
+  "source_dir": "result_Bro010_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"신경망 기반 변환 최적화 및 에너지 효율성 개선 프로젝트\",\n    \"project_purpose\": \"신경망과 다중 프레임 KLT를 활용하여 비선형 및 선형 변환의 성능을 최적화하고, 에너지 효율성을 개선하여 실질적인 업무 활용성을 높임\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_F\",\n    \"core_objectives\": [\n        \"목표 1: 신경망을 통한 비선형 및 선형 변환의 성능 개선\",\n        \"목표 2: 문맥적 KLT와 에릭슨의 스펙트럼 뺄셈을 활용한 최적화\",\n        \"목표 3: 경사 하강법을 통한 매개변수 학습 및 로지스틱 회귀 적용\",\n        \"목표 4: 다중 프레임 KLT의 적용을 통한 처리 속도 및 정확도 향상\",\n        \"목표 5: 신경망 구조의 구체적인 설계 및 구현\"\n    ],\n    \"core_idea\": \"신경망과 다양한 변환 기법을 결합하여 비선형 및 선형 변환의 효율성을 극대화하고, 에너지 효율성을 개선하여 실제 업무에 적용 가능한 솔루션을 제공\",\n    \"idea_description\": \"신경망의 비선형적 특성을 활용하여 기존의 선형 변환 방법보다 높은 성능을 달성하고, 문맥적 KLT와 스펙트럼 뺄셈을 통해 최적화된 결과를 도출하며, 다중 프레임 KLT를 통해 처리 속도와 정확도를 향상시킴\",\n    \"execution_plan\": \"1단계: 신경망 구조 설계 및 초기 테스트 (2024.01.01 ~ 2024.01.31)\\n2단계: 문맥적 KLT 및 스펙트럼 뺄셈 적용 (2024.02.01 ~ 2024.02.28)\\n3단계: 경사 하강법을 통한 매개변수 최적화 및 로지스틱 회귀 적용 (2024.03.01 ~ 2024.03.15)\\n4단계: 다중 프레임 KLT 적용 및 성능 평가 (2024.03.16 ~ 2024.03.31)\\n5단계: 실제 업무 적용을 위한 피드백 수집 및 최종 조정 (2024.03.20 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 비선형 및 선형 변환의 성능 향상으로 인한 처리 속도 증가\",\n        \"기대효과 2: 최적화된 신경망 구조를 통한 에너지 효율성 개선\",\n        \"기대효과 3: 다양한 변환 기법의 통합으로 인한 시스템의 유연성 증가\",\n        \"기대효과 4: 다중 프레임 KLT 적용으로 인한 정확도 및 처리 속도 향상\",\n        \"기대효과 5: 실질적인 업무 적용 가능성 증대\"\n    ],\n    \"technical_details\": {\n        \"neural_network_structure\": \"다층 퍼셉트론을 기반으로 한 신경망 구조 설계, 신경망의 지연 및 적응 속도를 고려하여 설계\",\n        \"contextual_KLT\": \"문맥적 KLT를 활용하여 신호의 맥락적 정보를 반영, 에너지 효율성을 고려한 최적화\",\n        \"spectrum_subtraction\": \"에릭슨의 스펙트럼 뺄셈 기법을 사용하여 잡음 제거 및 신호 품질 향상\",\n        \"multi_frame_KLT\": \"다중 프레임 KLT를 통해 시간적 연속성을 고려한 변환 적용, 실제 업무 환경에서의 적용 가능성 검토\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro010_processed/05_final_result.json",
+    "utterance_count": 489,
+    "original_transcript_length": 16847,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 16847
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 4,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:11:47.449796"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "train_214_chunk_2",
+  "source_dir": "result_IS1007c",
+  "notion_output": "```json\n{\n    \"project_name\": \"스마트 TV 리모컨 및 채널 관리 최적화 프로젝트\",\n    \"project_purpose\": \"스마트 TV 리모컨의 사용자 경험을 혁신하고, 채널 관리의 효율성을 극대화하여 사용자 만족도 향상\",\n    \"project_period\": \"2024.01.01 ~ 2024.04.30\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 리모컨의 충전 알림 및 관리 기능 강화\",\n        \"목표 2: 사용자 친화적인 인터페이스 디자인 구현\",\n        \"목표 3: 리모컨의 버튼 수 최적화 및 직관적 사용성 증대\",\n        \"목표 4: TV 채널 관리 기능 개선 및 사용자 맞춤형 탐색 기능 추가\"\n    ],\n    \"core_idea\": \"스마트 TV 리모컨의 기능성과 사용자 편의성을 극대화하고, 채널 관리의 효율성을 높여 사용자 경험을 혁신\",\n    \"idea_description\": \"리모컨의 충전 상태를 TV 화면에 표시하여 사용자가 충전 필요성을 인지할 수 있도록 하고, 버튼 수를 줄여 직관적인 사용을 가능하게 하며, TV 채널 관리 기능을 개선하여 사용자가 채널을 쉽게 탐색하고 관리할 수 있도록 한다. 또한, 특정 채널 관리의 어려움을 해결하기 위한 맞춤형 탐색 기능을 추가한다.\",\n    \"execution_plan\": \"1단계: 리모컨 충전 알림 및 관리 기능 개발 (2024.01.01 ~ 2024.01.31)\\n2단계: 사용자 인터페이스 디자인 및 테스트 (2024.02.01 ~ 2024.02.28)\\n3단계: 버튼 수 최적화 및 사용자 피드백 수집 (2024.03.01 ~ 2024.03.31)\\n4단계: TV 채널 관리 기능 개선 및 맞춤형 탐색 기능 추가 (2024.04.01 ~ 2024.04.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 편의성 향상으로 인한 고객 만족도 증가\",\n        \"기대효과 2: 리모컨 사용 빈도 증가 및 충전 관리 용이성\",\n        \"기대효과 3: 직관적인 디자인을 통한 사용자의 학습 곡선 감소\",\n        \"기대효과 4: 채널 관리 기능 개선으로 인한 사용자 경험 향상 및 특정 채널 탐색 용이성\"\n    ],\n    \"meeting_integration\": {\n        \"채널 관리 문제\": \"TV 채널 5번과 같은 특정 채널 관리의 어려움을 해결하기 위한 맞춤형 탐색 기능 필요\",\n        \"버튼 수 논의\": \"리모컨의 버튼 수를 줄여 사용자가 더 직관적으로 사용할 수 있도록 최적화 필요\",\n        \"디자인 고려 사항\": \"디자인 단계에서 실질적인 문제를 고려하여 사용자 친화적인 인터페이스 구현\",\n        \"충전 관리\": \"리모컨의 충전 상태를 TV 화면에 표시하여 충전 필요성을 사용자에게 알리는 기능 필요\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1007c/05_final_result.json",
+    "utterance_count": 242,
+    "original_transcript_length": 8197,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8197
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 3711
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:25:48.177620"
+  }
+}

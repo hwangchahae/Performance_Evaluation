@@ -1,0 +1,45 @@
+{
+  "id": "train_120_chunk_2",
+  "source_dir": "result_제22대국회 제420회(임시회) 제2차 과학기술정보방송통신위원회(정보통신방송법안심사소위원회) (2025.01.06.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"전송자격 인증제 도입 및 불법스팸 방지 강화 프로젝트\",\n    \"project_purpose\": \"문자재판매사업자에 대한 전송자격 인증제 도입과 불법스팸 방지를 위한 과징금 제도 강화\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"이복우\",\n    \"core_objectives\": [\n        \"목표 1: 문자재판매사업자에 대한 전송자격 인증제 도입\",\n        \"목표 2: 불법스팸 방지를 위한 과징금 제도 신설 및 강화\",\n        \"목표 3: 과징금 부과 대상 및 기준의 명확화\"\n    ],\n    \"core_idea\": \"전송자격 인증제 도입을 통해 불법스팸 전송을 방지하고, 과징금 제도를 강화하여 법률의 실효성을 확보\",\n    \"idea_description\": \"문자재판매사업자 및 스팸 전송자에 대한 전송자격 인증을 의무화하고, 불법스팸 전송 시 과징금을 부과하여 스팸 문제를 해결\",\n    \"execution_plan\": \"1. 전송자격 인증제 도입을 위한 법률 개정 (2024.01.01 ~ 2024.03.31)\\n2. 과징금 부과 기준 및 절차 마련 (2024.04.01 ~ 2024.05.31)\\n3. 관련 기관 및 사업자 교육 및 홍보 (2024.06.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 불법스팸 전송 감소 및 사용자 보호 강화\",\n        \"기대효과 2: 법률의 실효성 증대 및 규제 준수율 향상\",\n        \"기대효과 3: 관련 사업자의 책임 의식 제고 및 시장 질서 확립\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 8.4,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제420회(임시회) 제2차 과학기술정보방송통신위원회(정보통신방송법안심사소위원회) (2025.01.06.)/05_final_result.json",
+    "utterance_count": 352,
+    "original_transcript_length": 22227,
+    "speakers": [
+      "행정실장 이동엽",
+      "수석전문위원 이복우",
+      "이훈기 위원",
+      "방송통신위원회사무처장 조성은",
+      "신성범 위원",
+      "과학기술정보통신부제2차관 강도현",
+      "방송통신위원회방송정책국장 이헌",
+      "이해민 위원",
+      "이정헌 위원",
+      "방송통신위원회방송통신이용자정책국장 신영규",
+      "한민수 위원",
+      "방송통신심의위원회법무팀장 김태우",
+      "노종면 위원",
+      "소위원장 김현"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 22227
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 5,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:29:32.367321"
+  }
+}

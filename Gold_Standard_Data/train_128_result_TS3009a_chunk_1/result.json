@@ -1,0 +1,35 @@
+{
+  "id": "train_128_chunk_1",
+  "source_dir": "result_TS3009a",
+  "notion_output": "```json\n{\n    \"project_name\": \"국제적 리모컨 디자인 및 마케팅 프로젝트\",\n    \"project_purpose\": \"국제 시장에서 경쟁력 있는 리모컨을 디자인하고 판매하여 5천만 유로의 수익을 달성하는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 친화적인 리모컨 디자인 개발\",\n        \"목표 2: 국제 시장을 대상으로 한 마케팅 전략 수립\",\n        \"목표 3: 제조 비용을 12유로 이하로 유지\"\n    ],\n    \"core_idea\": \"사용자 경험을 극대화하는 동시에 제조 비용을 절감하는 리모컨 디자인\",\n    \"idea_description\": \"리모컨은 손에 잘 맞고, 자주 사용하는 버튼을 엄지손가락으로 쉽게 누를 수 있도록 설계되어야 하며, 다양한 색상과 형태를 통해 차별화된 디자인을 제공해야 합니다.\",\n    \"execution_plan\": \"1단계: 디자인 컨셉 확정 (2024.01.01 ~ 2024.01.31)\\n2단계: 프로토타입 제작 및 테스트 (2024.02.01 ~ 2024.03.15)\\n3단계: 마케팅 전략 수립 및 실행 (2024.03.16 ~ 2024.05.15)\\n4단계: 제품 출시 및 판매 (2024.05.16 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 국제 시장에서의 브랜드 인지도 향상\",\n        \"기대효과 2: 5천만 유로의 매출 달성\",\n        \"기대효과 3: 사용자 리뷰를 통한 제품 개선 및 혁신\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3009a/05_final_result.json",
+    "utterance_count": 202,
+    "original_transcript_length": 6294,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 6294
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4971
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:57:54.787500"
+  }
+}

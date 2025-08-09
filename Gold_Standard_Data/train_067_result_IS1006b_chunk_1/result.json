@@ -1,0 +1,53 @@
+{
+  "id": "train_067_chunk_1",
+  "source_dir": "result_IS1006b",
+  "notion_output": {
+    "project_name": "스마트 리모컨 디자인 프로젝트",
+    "project_purpose": "사용자 친화적인 스마트 리모컨 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: 사용자 인터페이스 개선을 통한 사용 편의성 향상",
+      "목표 2: 자동 전원 및 볼륨 조절 기능 구현",
+      "목표 3: 백라이트 색상 변경 기능을 통한 시각적 편리성 제공"
+    ],
+    "core_idea": "간단하고 직관적인 리모컨 디자인",
+    "idea_description": "리모컨의 버튼 수를 최소화하고, 백라이트 색상 변경 및 자동 전원/볼륨 조절 기능을 추가하여 사용자의 편리성을 극대화합니다.",
+    "execution_plan": "1단계: 시장 조사 및 사용자 요구 분석 (2024.01.01 ~ 2024.02.15)\n2단계: 디자인 시안 개발 및 테스트 (2024.02.16 ~ 2024.03.31)\n3단계: 프로토타입 제작 및 피드백 수집 (2024.04.01 ~ 2024.04.30)\n4단계: 최종 디자인 확정 및 생산 준비 (2024.05.01 ~ 2024.05.31)\n5단계: 제품 출시 및 마케팅 (2024.06.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 향상 및 브랜드 이미지 제고",
+      "기대효과 2: 시장 점유율 확대 및 매출 증가",
+      "기대효과 3: 혁신적인 디자인을 통한 경쟁 우위 확보"
+    ]
+  },
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1006b/05_final_result.json",
+    "utterance_count": 223,
+    "original_transcript_length": 8458,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8458
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4973
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T21:08:53.716816"
+  }
+}

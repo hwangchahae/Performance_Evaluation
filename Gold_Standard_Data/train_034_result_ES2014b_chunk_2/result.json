@@ -1,0 +1,35 @@
+{
+  "id": "train_034_chunk_2",
+  "source_dir": "result_ES2014b",
+  "notion_output": "```json\n{\n    \"project_name\": \"스마트 TV 리모컨 자동화 프로젝트\",\n    \"project_purpose\": \"TV 리모컨의 자동화 기능을 개선하여 사용자 편의성을 높이고 시장 경쟁력을 강화한다.\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 리모컨의 음성 인식 기능을 개선하여 사용자가 쉽게 채널을 변경할 수 있도록 한다.\",\n        \"목표 2: 리모컨의 숨겨진 패널 디자인을 통해 사용자 경험을 향상시킨다.\",\n        \"목표 3: 텔레텍스트 버튼을 제거하여 리모컨의 디자인을 간소화한다.\"\n    ],\n    \"core_idea\": \"리모컨의 자동화 및 디자인 개선을 통해 사용자 편의성을 극대화\",\n    \"idea_description\": \"리모컨이 사용자의 음성 명령에 따라 자동으로 채널을 변경하고, 필요 없는 버튼을 제거하여 간소화된 디자인을 제공한다.\",\n    \"execution_plan\": \"1단계: 음성 인식 기능 개선 (2023.11.01 ~ 2023.11.30)\\n2단계: 숨겨진 패널 디자인 개발 (2023.12.01 ~ 2023.12.31)\\n3단계: 텔레텍스트 버튼 제거 및 디자인 간소화 (2024.01.01 ~ 2024.01.15)\\n4단계: 최종 테스트 및 출시 준비 (2024.01.16 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 편의성 증가로 인한 고객 만족도 향상\",\n        \"기대효과 2: 간소화된 디자인으로 인한 생산 비용 절감\",\n        \"기대효과 3: 시장 경쟁력 강화로 인한 매출 증대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2014b/05_final_result.json",
+    "utterance_count": 285,
+    "original_transcript_length": 10263,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 10263
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:24:46.437578"
+  }
+}

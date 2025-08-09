@@ -1,0 +1,35 @@
+{
+  "id": "train_040_chunk_1",
+  "source_dir": "result_ES2006c",
+  "notion_output": "```json\n{\n    \"project_name\": \"다기능 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"비용 효율적이고 사용자 친화적인 다기능 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_C\",\n    \"core_objectives\": [\n        \"목표 1: 불필요한 옵션을 제거하고 필요한 옵션을 추가하여 리모컨의 기능 최적화\",\n        \"목표 2: 저렴한 인쇄 회로 기판을 활용하여 비용 절감\",\n        \"목표 3: 운동 에너지를 활용한 친환경 충전 기능 구현\"\n    ],\n    \"core_idea\": \"사용자 경험을 극대화하는 다기능 리모컨\",\n    \"idea_description\": \"리모컨에 스크롤 휠과 기본 버튼을 배치하고, 운동 에너지를 활용한 충전 기능을 추가하여 사용자 편의성과 환경 친화성을 동시에 추구\",\n    \"execution_plan\": \"1단계: 기능 요구사항 정의 (2024.01.01 ~ 2024.01.31)\\n2단계: 회로 기판 설계 및 프로토타입 제작 (2024.02.01 ~ 2024.03.31)\\n3단계: 사용자 테스트 및 피드백 수집 (2024.04.01 ~ 2024.04.30)\\n4단계: 최종 제품 개발 및 출시 준비 (2024.05.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 편의성 향상으로 인한 고객 만족도 증가\",\n        \"기대효과 2: 저렴한 제조 비용으로 인한 시장 경쟁력 강화\",\n        \"기대효과 3: 친환경 제품으로서의 브랜드 이미지 개선\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2006c/05_final_result.json",
+    "utterance_count": 238,
+    "original_transcript_length": 7750,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 7750
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:56:27.732687"
+  }
+}

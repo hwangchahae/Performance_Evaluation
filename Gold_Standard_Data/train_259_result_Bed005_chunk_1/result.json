@@ -1,0 +1,37 @@
+{
+  "id": "train_259_chunk_1",
+  "source_dir": "result_Bed005_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"JavaBayes 최적화 및 XML 자동화 프로젝트\",\n    \"project_purpose\": \"JavaBayes의 결합 함수 및 XML 테이블 생성 과정을 최적화하여 데이터 처리 효율성을 극대화하고 사용자 경험을 개선\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_C\",\n    \"core_objectives\": [\n        \"목표 1: JavaBayes의 결합 함수 최적화 및 성능 향상\",\n        \"목표 2: XML 테이블 생성 자동화 및 구문 분석 개선\",\n        \"목표 3: 데이터 세트에서 불필요한 항목 식별 및 제거\",\n        \"목표 4: 사용자 피드백을 통한 최적화 방안 검증\"\n    ],\n    \"core_idea\": \"JavaBayes의 결합 함수와 XML 생성 프로세스를 최적화하여 데이터 처리 속도를 개선하고, 사용자 피드백을 반영하여 지속적인 개선을 도모함\",\n    \"idea_description\": \"현재 JavaBayes의 결합 함수는 비효율적인 부분이 있으며, XML 테이블 생성 과정도 수작업이 필요함. 이를 자동화하고 최적화하여 데이터 처리 속도를 개선하고 사용자 경험을 향상시키고자 함.\",\n    \"execution_plan\": [\n        \"1단계: 결합 함수 최적화 방안 연구 및 설계 (2023.11.01 ~ 2023.11.15)\",\n        \"2단계: XML 테이블 자동 생성 및 구문 분석 기능 개발 (2023.11.16 ~ 2023.12.15)\",\n        \"3단계: 데이터 세트에서 불필요한 항목 식별 및 제거 기능 구현 (2023.12.16 ~ 2023.12.31)\",\n        \"4단계: 사용자 피드백 수렴 및 최적화 방안 검증 (2024.01.01 ~ 2024.01.15)\",\n        \"5단계: 프로젝트 결과 보고 및 배포 (2024.01.16 ~ 2024.01.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 데이터 처리 속도 25% 향상\",\n        \"기대효과 2: 사용자 경험 개선으로 인한 사용자 만족도 20% 증가\",\n        \"기대효과 3: 불필요한 데이터 제거로 인한 데이터 세트 크기 15% 감소\",\n        \"기대효과 4: 사용자 피드백을 통한 지속적인 개선 가능성 확보\"\n    ],\n    \"key_decisions\": [\n        \"JavaBayes의 결합 함수를 직접 해킹하지 않고 XML 테이블 생성 자동화 방안 채택\",\n        \"데이터 피팅 및 복잡성 문제 해결을 위한 구문 분석 개선 필요\",\n        \"사용자 피드백을 통해 최적화 방안의 효과 검증\"\n    ],\n    \"technical_details\": [\n        \"XML로 테이블을 만드는 작은 함수 개발 필요\",\n        \"구문 분석된 내용에서 XML을 생성하는 부분 개선\",\n        \"Grep을 사용하여 필요한 데이터 검색 및 분석\"\n    ],\n    \"meeting_notes_integration\": [\n        \"Speaker_C는 데이터 세트에서 불필요한 항목을 식별하고 제거하는 기능을 강조함\",\n        \"Speaker_D는 XML 테이블 생성의 자동화 필요성을 언급하며, 직접 해킹 대신 작은 함수를 개발할 것을 제안함\",\n        \"Speaker_E는 사용자 피드백을 통한 지속적인 개선의 중요성을 강조함\",\n        \"회의에서 논의된 바에 따라, 구문 분석 개선을 통해 데이터 피팅 및 복잡성 문제를 해결할 필요가 있음\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed005_processed/05_final_result.json",
+    "utterance_count": 512,
+    "original_transcript_length": 17815,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 17815
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 4,
+      "chunk_length": 4973
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T09:01:13.575959"
+  }
+}

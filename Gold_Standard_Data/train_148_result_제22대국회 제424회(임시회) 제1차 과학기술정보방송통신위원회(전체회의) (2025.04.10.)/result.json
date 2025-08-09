@@ -1,0 +1,31 @@
+{
+  "id": "train_148",
+  "source_dir": "result_제22대국회 제424회(임시회) 제1차 과학기술정보방송통신위원회(전체회의) (2025.04.10.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"2025년 4월 18일 국회 현안질의 준비 프로젝트\",\n    \"project_purpose\": \"국회 과학기술정보방송통신위원회의 4월 18일 현안질의를 성공적으로 준비하고 진행하기 위함\",\n    \"project_period\": \"2025.04.01 ~ 2025.04.18\",\n    \"project_manager\": \"최민희 위원장\",\n    \"core_objectives\": [\n        \"목표 1: 127건의 자료를 2025년 4월 15일 오후 5시까지 제출\",\n        \"목표 2: 4월 18일 현안질의에 필요한 증인 22명, 참고인 19명의 출석 확보\",\n        \"목표 3: YTN 청문회 관련 양당 간사의 협의 완료\",\n        \"목표 4: 국정조사 관련 국회의장과의 면담 성사\",\n        \"목표 5: 과방위 수석전문위원을 통한 유족의 뜻 수렴 완료\"\n    ],\n    \"core_idea\": \"국회 현안질의의 원활한 진행을 위한 체계적 준비\",\n    \"idea_description\": \"과학기술정보방송통신위원회의 4월 18일 현안질의를 위한 자료 제출, 증인 및 참고인 출석, YTN 청문회 협의 등 모든 준비 과정을 체계적으로 관리하여 성공적인 회의 진행을 도모함\",\n    \"execution_plan\": \"1. 127건의 자료 제출 요구: 2025년 4월 15일까지 완료\\n2. 증인 및 참고인 출석 요구: 2025년 4월 18일까지 완료\\n3. YTN 청문회 관련 협의: 2025년 4월 18일까지 완료\\n4. 국정조사 관련 면담: 2025년 4월 4일 이후 성사\\n5. 유족의 뜻 수렴: 2025년 4월 18일까지 완료\",\n    \"expected_effects\": [\n        \"기대효과 1: 현안질의의 원활한 진행으로 국회 위원회의 신뢰도 향상\",\n        \"기대효과 2: YTN 청문회 및 관련 이슈에 대한 명확한 방향성 제시\",\n        \"기대효과 3: 국정조사 및 관련 사안에 대한 체계적 접근으로 정책 결정의 효율성 증대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 8.4,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제424회(임시회) 제1차 과학기술정보방송통신위원회(전체회의) (2025.04.10.)/05_final_result.json",
+    "utterance_count": 84,
+    "transcript_length": 4755,
+    "original_transcript_length": 4755,
+    "speakers": [
+      "위원장 최민희",
+      "노종면 위원",
+      "최형두 위원",
+      "김현 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 4755
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:43:26.919136"
+  }
+}

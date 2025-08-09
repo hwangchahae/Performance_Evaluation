@@ -1,0 +1,35 @@
+{
+  "id": "train_032_chunk_1",
+  "source_dir": "result_ES2005d",
+  "notion_output": "```json\n{\n    \"project_name\": \"바나나 기반 친환경 충전 스탠드 개발 프로젝트\",\n    \"project_purpose\": \"바나나 기반의 친환경 소재를 활용하여 사용자 요구 사항을 충족하는 충전 스탠드를 개발하고, 시장에 출시하여 지속 가능한 제품으로서의 입지를 강화\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 바나나 기반 소재를 활용한 충전 스탠드 디자인 확정 및 프로토타입 제작\",\n        \"목표 2: 사용자 요구 사항을 충족하는 기능적 충전 스탠드 개발\",\n        \"목표 3: 재정 문제 해결을 위한 구체적인 예산 계획 수립 및 실행\",\n        \"목표 4: 시장 출시 전 제품 평가 및 피드백 수집\"\n    ],\n    \"core_idea\": \"바나나 기반의 친환경 소재를 활용하여 충전 스탠드를 개발하여 시장에 출시\",\n    \"idea_description\": \"바나나 기반의 새로운 소재를 사용하여 충전 스탠드를 디자인하고, 사용자 요구 사항을 충족하는 기능을 포함하여 시장에 출시. 재정 문제를 해결하기 위한 구체적인 예산 계획을 수립하고 실행\",\n    \"execution_plan\": \"1단계: 디자인 확정 및 프로토타입 제작 (2024.01.01 ~ 2024.01.31)\\n2단계: 사용자 요구 사항 반영 및 기능 개발 (2024.02.01 ~ 2024.02.28)\\n3단계: 재정 문제 해결을 위한 예산 계획 수립 및 실행 (2024.02.01 ~ 2024.02.28)\\n4단계: 제품 평가 및 피드백 수집 (2024.03.01 ~ 2024.03.31)\",\n    \"financial_plan\": {\n        \"current_issues\": \"재정 문제로 인해 생산 단위가 제한됨\",\n        \"solutions\": [\n            \"비용 절감을 위한 디자인 및 생산 효율화\",\n            \"외부 투자 유치 및 파트너십 구축\",\n            \"내부 자원 재배치를 통한 비용 최적화\",\n            \"재정 문제 해결을 위한 추가적인 외부 자금 조달 방안 모색\"\n        ]\n    },\n    \"user_requirements\": {\n        \"analysis\": \"사용자 요구 사항 분석을 통해 충전 스탠드의 기능적 요구 사항을 도출\",\n        \"implementation_plan\": \"사용자 요구 사항을 충족하기 위한 기능 개발 계획 수립 및 실행\",\n        \"details\": \"사용자 요구 사항에 따라 충전 스탠드의 디자인 및 기능을 조정하고, 사용자 피드백을 반영하여 최적화\"\n    },\n    \"expected_effects\": [\n        \"기대효과 1: 친환경 소재 사용으로 인한 브랜드 이미지 개선\",\n        \"기대효과 2: 사용자 요구 사항을 충족하는 제품으로 인한 고객 만족도 증가\",\n        \"기대효과 3: 시장 출시 후 긍정적인 피드백을 통한 매출 증가\"\n    ],\n    \"design_and_technical_details\": {\n        \"design_elements\": \"이중 곡선 디자인을 포함한 충전 스탠드의 외관 및 기능적 요소\",\n        \"technical_considerations\": \"기술적 요구 사항 및 사용자 인터페이스 최적화\",\n        \"additional_details\": \"충전 스탠드의 안정성을 높이기 위한 구조적 개선 및 사용자 편의성을 고려한 인터페이스 설계\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2005d/05_final_result.json",
+    "utterance_count": 227,
+    "original_transcript_length": 7252,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 7252
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4985
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:22:28.072462"
+  }
+}

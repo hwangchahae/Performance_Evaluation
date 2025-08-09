@@ -1,0 +1,33 @@
+{
+  "id": "train_133",
+  "source_dir": "result_Bro015_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"가우시안 상태 확장 및 데이터 정리 프로젝트\",\n    \"project_purpose\": \"가우시안 상태 개수 확장과 데이터 정리를 통해 실험의 정확성과 다양성을 높이고, 스펙트럼 뺄셈 접근 방식을 활용하여 성능을 개선하는 것\",\n    \"project_period\": \"2024.06.01 ~ 2024.08.31\",\n    \"project_manager\": \"Speaker_C\",\n    \"core_objectives\": [\n        \"목표 1: 가우시안 상태 개수 확장을 통한 실험 다양성 증대\",\n        \"목표 2: SpeechDat - Car 데이터의 정리 및 VAD 적용\",\n        \"목표 3: 스펙트럼 뺄셈 접근 방식의 효과적인 활용\",\n        \"목표 4: 회의 녹음기 관련 작업의 효율성 증대\"\n    ],\n    \"core_idea\": \"가우시안 상태 개수 확장과 데이터 정리를 통해 실험의 정확성과 다양성을 높이고, 스펙트럼 뺄셈 접근 방식을 활용하여 성능을 개선한다.\",\n    \"idea_description\": \"가우시안 상태 개수를 늘려 다양한 실험을 가능하게 하고, SpeechDat - Car 데이터의 정리 및 VAD 적용을 통해 데이터의 품질을 향상시킨다. 또한, 스펙트럼 뺄셈 접근 방식을 통해 실험의 성능을 개선한다.\",\n    \"execution_plan\": [\n        \"1. 가우시안 상태 개수 확장 실험 (2024.06.01 ~ 2024.06.30): 다양한 상태당 가우시안 개수를 실험하여 최적의 상태를 찾는다.\",\n        \"2. SpeechDat - Car 데이터 정리 및 VAD 적용 (2024.07.01 ~ 2024.07.31): 데이터의 정리 및 특정 VAD 적용을 통해 데이터 품질을 개선한다.\",\n        \"3. 스펙트럼 뺄셈 접근 방식 검토 및 적용 (2024.08.01 ~ 2024.08.15): 스펙트럼 뺄셈 접근 방식을 검토하고 실험에 적용한다.\",\n        \"4. 회의 녹음기 관련 작업 효율성 증대 (2024.08.16 ~ 2024.08.31): 회의 녹음기 관련 작업의 효율성을 높이기 위한 방법을 모색한다.\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 실험의 정확성 및 다양성 증대\",\n        \"기대효과 2: 데이터 품질 향상으로 인한 결과 신뢰도 증가\",\n        \"기대효과 3: 스펙트럼 뺄셈 접근 방식의 효과적인 활용을 통한 성능 개선\",\n        \"기대효과 4: 회의 녹음기 관련 작업의 효율성 증대\"\n    ],\n    \"additional_notes\": [\n        \"회의에서 논의된 다양한 변형 실험과 상태당 가우시안 개수 조정에 대한 구체적인 실험 계획을 수립한다.\",\n        \"회의 녹음기 관련 작업에 대한 집중적인 분석과 개선 방안을 마련한다.\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro015_processed/05_final_result.json",
+    "utterance_count": 61,
+    "transcript_length": 2047,
+    "original_transcript_length": 2047,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 2047
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:07:10.097042"
+  }
+}

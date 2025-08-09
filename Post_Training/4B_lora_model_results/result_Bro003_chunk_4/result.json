@@ -1,0 +1,78 @@
+{
+  "id": "val_281_chunk_4",
+  "source_dir": "result_Bro003_processed",
+  "notion_output": {
+    "project_name": "큐브 기반 판별 신경망 및 PLP/MSG 활용 음성 인식 시스템 개발",
+    "project_purpose": "큐브 기반 판별 신경망과 PLP/MSG를 활용하여 음성 인식 시스템의 성능을 극대화하고, 다양한 데이터 세트에서의 적용성을 검증하기 위한 연구 및 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: 큐브 기반 판별 신경망의 설계 및 구현",
+      "목표 2: PLP와 MSG의 음성 인식 성능 향상",
+      "목표 3: 다양한 데이터 세트에서의 시스템 평가 및 최적화"
+    ],
+    "core_idea": "큐브 기반 판별 신경망을 통해 음성 인식 시스템의 비선형성과 복잡성을 해결하며, PLP와 MSG를 활용하여 성능을 극대화",
+    "idea_description": "큐브 기반 판별 신경망은 음성 데이터의 비선형성을 처리하고, PLP와 MSG를 활용하여 음성 인식의 정확도를 향상시킵니다. 또한, 다양한 데이터 세트에서의 시스템 평가를 통해 최적화를 진행합니다.",
+    "execution_plan": [
+      {
+        "phase": "설계 및 개발",
+        "duration": "2024.01.01 ~ 2024.02.28",
+        "tasks": [
+          "큐브 기반 판별 신경망 설계 및 구현",
+          "PLP와 MSG의 음성 인식 성능 향상 방법론 개발",
+          "Quicknet의 qu 버전을 활용한 기능 변환 방안 마련"
+        ]
+      },
+      {
+        "phase": "테스트 및 평가",
+        "duration": "2024.03.01 ~ 2024.04.30",
+        "tasks": [
+          "다양한 데이터 세트에서의 시스템 테스트",
+          "TIMIT, TI-digits 등 데이터 세트에서의 성능 평가",
+          "데이터 세트의 다양성과 테스트 횟수 증가를 통한 성능 최적화"
+        ]
+      },
+      {
+        "phase": "최적화 및 최종 검토",
+        "duration": "2024.05.01 ~ 2024.06.30",
+        "tasks": [
+          "시스템 최적화 및 문제점 해결",
+          "최종 검토 및 문서화",
+          "최종 결과 보고서 작성"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 음성 인식 시스템의 정확도 및 효율성 향상",
+      "기대효과 2: 다양한 데이터 세트에서의 시스템 안정성 증대",
+      "기대효과 3: 큐브 기반 판별 신경망과 PLP/MSG의 혁신적 활용"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_Bro003_processed/05_final_result.json",
+    "utterance_count": 746,
+    "original_transcript_length": 25793,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 25793
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-06T15:33:22.814716"
+  }
+}

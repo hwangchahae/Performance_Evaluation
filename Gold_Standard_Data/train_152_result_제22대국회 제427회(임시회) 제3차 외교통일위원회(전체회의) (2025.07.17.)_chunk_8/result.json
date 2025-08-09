@@ -1,0 +1,54 @@
+{
+  "id": "train_152_chunk_8",
+  "source_dir": "result_제22대국회 제427회(임시회) 제3차 외교통일위원회(전체회의) (2025.07.17.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"한미외교 강화 및 ODA 확대 프로젝트\",\n    \"project_purpose\": \"한미 외교 관계 강화 및 ODA 확대를 통한 국격 향상\",\n    \"project_period\": \"2023.11.01 ~ 2024.04.30\",\n    \"project_manager\": \"외교부장관후보자 조현\",\n    \"core_objectives\": [\n        \"목표 1: 한미 정상회담 일정 조율 및 성사\",\n        \"목표 2: ODA 확대 계획 수립 및 실행\",\n        \"목표 3: 외교부 내 혼란 조기 종식 및 체제 정비\"\n    ],\n    \"core_idea\": \"한미 관계를 강화하고 ODA를 확대하여 국제 사회에서의 한국의 위상을 높인다.\",\n    \"idea_description\": \"한미 정상회담을 통해 양국 간의 협력을 강화하고, ODA를 확대하여 국제적 책임을 다함으로써 한국의 국격을 높인다.\",\n    \"execution_plan\": \"1단계: 한미 정상회담 일정 조율 (2023.11.01 ~ 2023.12.15)\\n2단계: ODA 확대 계획 수립 (2023.12.16 ~ 2024.01.31)\\n3단계: 외교부 내 체제 정비 및 혼란 종식 (2024.02.01 ~ 2024.04.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 한미 관계 강화로 인한 외교적 입지 강화\",\n        \"기대효과 2: ODA 확대를 통한 국제적 책임 이행 및 국격 향상\",\n        \"기대효과 3: 외교부 내 체제 정비로 인한 업무 효율성 증대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제3차 외교통일위원회(전체회의) (2025.07.17.)/05_final_result.json",
+    "utterance_count": 1527,
+    "original_transcript_length": 90593,
+    "speakers": [
+      "이재강 위원",
+      "이용선 위원",
+      "김건 위원",
+      "김태호 위원",
+      "한정애 위원",
+      "위원장대리 김영배",
+      "김상욱 위원",
+      "김기웅 의원",
+      "최혁진 위원",
+      "홍기원 위원",
+      "김기현 위원",
+      "김기웅 위원",
+      "조정식 위원",
+      "김준형 위원",
+      "위원장 김석기",
+      "유용원 위원",
+      "김영배 위원",
+      "윤후덕 위원",
+      "인요한 위원",
+      "차지호 위원",
+      "외교부장관후보자 조현",
+      "이재정 위원",
+      "안철수 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 21,
+      "original_length": 90593
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 8,
+      "total_chunks": 21,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:50:10.421133"
+  }
+}

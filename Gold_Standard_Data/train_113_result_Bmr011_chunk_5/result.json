@@ -1,0 +1,39 @@
+{
+  "id": "train_113_chunk_5",
+  "source_dir": "result_Bmr011_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"전사 시스템 개선 프로젝트\",\n    \"project_purpose\": \"전사 시스템의 정확도와 효율성을 개선하여 회의 기록의 품질을 향상시키는 것\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"조나단 피스커스\",\n    \"core_objectives\": [\n        \"목표 1: 전사 시스템의 시간적 경계 설정 기능 개선\",\n        \"목표 2: 전사 중 다양한 상황을 표시하는 기능 개발\",\n        \"목표 3: 에코 제거 및 신호 혼선 문제 해결\"\n    ],\n    \"core_idea\": \"전사 시스템의 기능을 개선하여 회의 기록의 정확도와 효율성을 높이는 것\",\n    \"idea_description\": \"전사 시스템의 시간적 경계를 세밀하게 조정하고, 다양한 상황을 표시하는 기능을 추가하며, 에코 제거 및 신호 혼선 문제를 해결하여 전사 품질을 향상시킴\",\n    \"execution_plan\": \"1단계: 전사 시스템의 시간적 경계 설정 기능 분석 및 개선 (2023.11.01 ~ 2023.11.30)\\n2단계: 전사 중 다양한 상황을 표시하는 기능 개발 (2023.12.01 ~ 2023.12.31)\\n3단계: 에코 제거 및 신호 혼선 문제 해결 (2024.01.01 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 전사 정확도 향상으로 회의 기록의 신뢰성 증가\",\n        \"기대효과 2: 다양한 상황 표시 기능으로 회의 분석의 효율성 증대\",\n        \"기대효과 3: 에코 제거 및 신호 혼선 문제 해결로 전사 품질 개선\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr011_processed/05_final_result.json",
+    "utterance_count": 657,
+    "original_transcript_length": 23106,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 23106
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 6,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:03:51.875763"
+  }
+}

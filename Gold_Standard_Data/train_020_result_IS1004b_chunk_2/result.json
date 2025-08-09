@@ -1,0 +1,35 @@
+{
+  "id": "train_020_chunk_2",
+  "source_dir": "result_IS1004b",
+  "notion_output": "```json\n{\n    \"project_name\": \"인터넷 기반 차세대 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"텔레텍스트 기능을 인터넷 기반으로 전환하고, 젊은 층을 타겟으로 한 혁신적인 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 텔레텍스트 기능을 인터넷 기반으로 전환하여 사용자 경험 개선\",\n        \"목표 2: 젊은 층을 타겟으로 한 혁신적인 리모컨 디자인 개발\",\n        \"목표 3: 비용 효율적인 LCD 통합 리모컨 개발\"\n    ],\n    \"core_idea\": \"인터넷 기반의 텔레텍스트 전환 및 LCD 통합 리모컨 개발\",\n    \"idea_description\": \"기존 텔레텍스트 기능을 인터넷으로 전환하여 더 많은 정보를 제공하고, LCD를 통합한 리모컨을 통해 사용자 인터페이스를 개선하여 젊은 층의 관심을 끌고자 함.\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"1단계\",\n            \"description\": \"시장 조사 및 기술 요구 사항 분석\",\n            \"period\": \"2024.01.01 ~ 2024.02.15\",\n            \"responsible\": \"Speaker_B\",\n            \"details\": \"텔레텍스트의 인터넷 전환을 위한 기술적 요구 사항 분석 및 젊은 층의 선호도 조사\"\n        },\n        {\n            \"phase\": \"2단계\",\n            \"description\": \"디자인 및 프로토타입 개발\",\n            \"period\": \"2024.02.16 ~ 2024.04.15\",\n            \"responsible\": \"Speaker_C\",\n            \"details\": \"리모컨의 구체적인 디자인 요소 개발 및 LCD 통합 프로토타입 제작\"\n        },\n        {\n            \"phase\": \"3단계\",\n            \"description\": \"프로토타입 테스트 및 피드백 수집\",\n            \"period\": \"2024.04.16 ~ 2024.05.15\",\n            \"responsible\": \"Speaker_D\",\n            \"details\": \"사용자 테스트를 통해 피드백 수집 및 디자인 개선\"\n        },\n        {\n            \"phase\": \"4단계\",\n            \"description\": \"최종 제품 개발 및 출시 준비\",\n            \"period\": \"2024.05.16 ~ 2024.06.30\",\n            \"responsible\": \"Speaker_A\",\n            \"details\": \"최종 제품 개발, 생산 준비 및 마케팅 전략 수립\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 텔레텍스트 기능의 인터넷 전환으로 사용자 경험 개선 및 시장 경쟁력 강화\",\n        \"기대효과 2: 젊은 층의 수요를 반영한 리모컨 디자인으로 시장 점유율 확대\",\n        \"기대효과 3: 비용 효율적인 제품 개발로 수익성 향상\"\n    ],\n    \"additional_notes\": [\n        \"리모컨의 디자인은 손에 잡기 쉬운 크기와 젊은 층이 선호하는 스타일을 반영할 것\",\n        \"LCD 통합 리모컨의 비용 효율성을 고려하여 목표 가격을 맞추기 위한 다양한 옵션 검토\",\n        \"텔레텍스트의 인터넷 전환을 위한 구체적인 기술적 구현 방법을 지속적으로 연구\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1004b/05_final_result.json",
+    "utterance_count": 217,
+    "original_transcript_length": 8824,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8824
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 4338
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T17:45:52.438406"
+  }
+}

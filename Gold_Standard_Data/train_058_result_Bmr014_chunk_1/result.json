@@ -1,0 +1,37 @@
+{
+  "id": "train_058_chunk_1",
+  "source_dir": "result_Bmr014_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"무선 마이크 시스템 업그레이드\",\n    \"project_purpose\": \"회의 중 오디오 품질 향상을 위한 무선 마이크 시스템의 업그레이드\",\n    \"project_period\": \"2023.11.01 ~ 2023.12.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 기지국 추가 구매 및 설치\",\n        \"목표 2: 무선 마이크 추가 구매 및 연결\",\n        \"목표 3: 오디오 모니터링 시스템 개선\"\n    ],\n    \"core_idea\": \"기존 유선 마이크 시스템을 무선으로 전환하여 회의 중 오디오 품질을 개선\",\n    \"idea_description\": \"기존 유선 마이크 시스템의 한계를 극복하고 무선 마이크를 통해 보다 유연하고 고품질의 오디오 환경을 구축\",\n    \"execution_plan\": \"1. 기지국 추가 구매 (2023.11.01 ~ 2023.11.10)\\n2. 무선 마이크 추가 구매 및 설치 (2023.11.11 ~ 2023.11.20)\\n3. 오디오 모니터링 시스템 개선 및 테스트 (2023.11.21 ~ 2023.12.10)\\n4. 최종 시스템 점검 및 운영 시작 (2023.12.11 ~ 2023.12.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 회의 중 오디오 품질 향상으로 인한 참여자 만족도 증가\",\n        \"기대효과 2: 무선 시스템 도입으로 인한 설치 및 운영의 유연성 증대\",\n        \"기대효과 3: 오디오 모니터링 개선을 통한 문제 발생 시 신속한 대응 가능\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr014_processed/05_final_result.json",
+    "utterance_count": 502,
+    "original_transcript_length": 18258,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 18258
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 4,
+      "chunk_length": 4965
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T20:44:30.687842"
+  }
+}

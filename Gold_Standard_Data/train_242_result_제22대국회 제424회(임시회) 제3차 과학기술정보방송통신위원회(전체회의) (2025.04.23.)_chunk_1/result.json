@@ -1,0 +1,46 @@
+{
+  "id": "train_242_chunk_1",
+  "source_dir": "result_제22대국회 제424회(임시회) 제3차 과학기술정보방송통신위원회(전체회의) (2025.04.23.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"2025년도 제1회 추가경정예산안 및 기금운용계획변경안 추진\",\n    \"project_purpose\": \"국내 AI 역량 강화 및 글로벌 AI 3대 강국 도약을 위한 예산 및 기금 운용 계획의 효율적 실행\",\n    \"project_period\": \"2025.01.01 ~ 2025.12.31\",\n    \"project_manager\": \"유상임 과학기술정보통신부장관\",\n    \"core_objectives\": [\n        \"목표 1: AI 컴퓨팅 인프라 확충 및 국산 AI 반도체 상용화 실증사업 확대\",\n        \"목표 2: 글로벌 수준의 AI 모델 개발을 위한 월드 베스트 LLM 프로젝트 추진\",\n        \"목표 3: 해외 AI 연구자 유치 및 국내 AI 인재 육성\"\n    ],\n    \"core_idea\": \"AI 기술 및 인프라의 강화와 인재 유치를 통해 글로벌 AI 강국으로 도약\",\n    \"idea_description\": \"첨단 GPU 확보 및 국산 AI 반도체 상용화, 글로벌 AI 모델 개발 프로젝트 추진, 해외 AI 인재 유치 및 국내 인재 육성을 통해 AI 생태계 혁신\",\n    \"execution_plan\": \"1. 첨단 GPU 1만 장 확보 및 국산 AI 반도체 실증사업 확대 (2025년 상반기)\\n2. 월드 베스트 LLM 프로젝트 본격 추진 (2025년 하반기)\\n3. 해외 AI 연구자 유치 및 국내 석박사급 인재 육성 프로그램 실행 (2025년 연중)\\n4. AI 혁신펀드 조성 및 AI 딥테크 기업 지원 (2025년 하반기)\",\n    \"expected_effects\": [\n        \"기대효과 1: AI 컴퓨팅 인프라 확충으로 국내 AI 연구 및 개발 역량 강화\",\n        \"기대효과 2: 글로벌 수준의 AI 모델 개발로 국제 경쟁력 확보\",\n        \"기대효과 3: AI 인재 유치 및 육성을 통한 AI 혁신 생태계 조성\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 8.6,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제424회(임시회) 제3차 과학기술정보방송통신위원회(전체회의) (2025.04.23.)/05_final_result.json",
+    "utterance_count": 283,
+    "original_transcript_length": 17312,
+    "speakers": [
+      "위원장 최민희",
+      "정동영 위원",
+      "수석전문위원 이복우",
+      "과학기술정보통신부과학기술혁신본부장 류광준",
+      "이훈기 위원",
+      "신성범 위원",
+      "과학기술정보통신부제2차관 강도현",
+      "한민수 위원",
+      "김장겸 위원",
+      "최형두 위원",
+      "황정아 위원",
+      "조인철 위원",
+      "최수진 위원",
+      "과학기술정보통신부장관 유상임",
+      "이정헌 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 17312
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 4,
+      "chunk_length": 4879
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T07:49:25.214729"
+  }
+}

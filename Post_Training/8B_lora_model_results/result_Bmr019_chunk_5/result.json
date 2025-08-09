@@ -1,0 +1,46 @@
+{
+  "id": "result_Bmr019_processed_chunk_5",
+  "source_dir": "result_Bmr019_processed",
+  "notion_output": {
+    "project_name": "SRI 시스템 개선 및 동기화 프로젝트",
+    "project_purpose": "SRI 시스템의 성능을 개선하고, 다양한 채널 간 데이터를 동기화하여 효율성을 극대화하며, 사용자 경험을 향상시키는 것",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "호세",
+    "core_objectives": [
+      "목표 1: SRI 시스템의 특정 개선 사항 적용으로 성능 향상",
+      "목표 2: 다양한 채널 간 데이터 동기화를 통한 일관성 확보",
+      "목표 3: 사용자 피드백 반영을 통한 사용자 경험 최적화"
+    ],
+    "core_idea": "SRI 시스템의 성능을 개선하고, 다양한 채널 간 데이터를 동기화하여 전체 시스템의 효율성을 극대화",
+    "idea_description": "SRI 시스템의 특정 개선 사항을 적용하여 성능을 향상시키고, 다양한 채널 간 데이터를 동기화하여 일관성을 유지하며, 사용자 피드백을 반영하여 사용자 경험을 최적화",
+    "execution_plan": "1단계: SRI 시스템의 특정 개선 사항 설계 및 검토 (2024.01.01 ~ 2024.02.15)\n2단계: 다양한 채널 간 데이터 동기화 시스템 개발 및 테스트 (2024.02.16 ~ 2024.04.15)\n3단계: 사용자 피드백 수집 및 반영을 위한 시스템 개선 (2024.04.16 ~ 2024.06.15)\n4단계: 최종 시스템 검증 및 발표 준비 (2024.06.16 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: SRI 시스템의 성능 향상으로 인한 처리 속도 증가",
+      "기대효과 2: 다양한 채널 간 데이터 동기화로 인한 일관성 확보",
+      "기대효과 3: 사용자 피드백 반영을 통한 사용자 만족도 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr019_processed/05_final_result.json",
+    "utterance_count": 630,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_H",
+      "Speaker_E",
+      "Speaker_I"
+    ],
+    "original_length": 21243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-07T02:55:30.304394"
+  }
+}

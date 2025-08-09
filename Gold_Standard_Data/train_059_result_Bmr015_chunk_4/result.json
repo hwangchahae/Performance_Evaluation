@@ -1,0 +1,38 @@
+{
+  "id": "train_059_chunk_4",
+  "source_dir": "result_Bmr015_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"주파수 스펙트럼 및 신호 처리 알고리즘 최적화 프로젝트\",\n    \"project_purpose\": \"주파수 스펙트럼의 다양한 특성을 심층 분석하여 신호 처리 알고리즘을 최적화하고, 실제 데이터에서 의미 있는 정보를 효율적으로 추출\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 주파수 스펙트럼의 고주파 및 저주파 특성에 대한 심층 분석 및 스펙트럼 기울기 이해\",\n        \"목표 2: 순간 주파수 및 위상 미분 계산을 통한 신호 처리 알고리즘의 정밀도 및 효율성 향상\",\n        \"목표 3: 실제 데이터에서 의미 있는 구성 요소와 의미 없는 요소의 명확한 구분 및 처리\"\n    ],\n    \"core_idea\": \"주파수 스펙트럼의 다양한 주파수 특성을 분석하여 신호 처리 알고리즘을 최적화하고, 실제 데이터에서 의미 있는 정보를 효과적으로 추출\",\n    \"idea_description\": \"본 프로젝트는 주파수 스펙트럼 분석을 통해 고주파 및 저주파의 특성을 심층적으로 이해하고, 이를 기반으로 신호 처리 알고리즘을 최적화하여 실제 데이터에서 의미 있는 정보를 추출하는 것을 목표로 합니다.\",\n    \"execution_plan\": [\n        {\n            \"step\": \"1. 주파수 스펙트럼 데이터 수집 및 초기 분석\",\n            \"duration\": \"2024.01.01 ~ 2024.01.31\",\n            \"tasks\": [\n                \"주파수 스펙트럼 데이터 수집\",\n                \"고주파 및 저주파 특성 초기 분석\",\n                \"데이터 분석을 위한 팀 구성 및 역할 분담\",\n                \"스펙트럼 기울기 분석을 위한 초기 연구\"\n            ],\n            \"responsible\": \"Speaker_D\"\n        },\n        {\n            \"step\": \"2. 순간 주파수 및 위상 미분 계산 알고리즘 개발\",\n            \"duration\": \"2024.02.01 ~ 2024.02.28\",\n            \"tasks\": [\n                \"위상 미분 계산을 위한 FFT 알고리즘 개발\",\n                \"해닝 윈도우를 사용한 순간 주파수 계산\",\n                \"고조파 및 자기 상관관계 분석을 통한 알고리즘 개선\",\n                \"알고리즘 테스트 및 개선\"\n            ],\n            \"responsible\": \"Speaker_F\"\n        },\n        {\n            \"step\": \"3. 알고리즘을 통한 데이터 처리 및 결과 검증\",\n            \"duration\": \"2024.03.01 ~ 2024.03.31\",\n            \"tasks\": [\n                \"알고리즘을 실제 데이터에 적용\",\n                \"결과 검증 및 피드백 수집\",\n                \"의미 있는 구성 요소와 의미 없는 요소의 구분 및 처리\",\n                \"최종 보고서 작성 및 발표\"\n            ],\n            \"responsible\": \"Speaker_E\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 주파수 스펙트럼 분석을 통한 신호 처리 알고리즘의 정확도 및 효율성 향상\",\n        \"기대효과 2: 실제 데이터에서 의미 있는 정보 추출로 인한 데이터 처리 효율성 증가\",\n        \"기대효과 3: 고주파 및 저주파 특성 이해를 통한 신호 처리 기술의 발전\"\n    ],\n    \"technical_details\": [\n        \"고주파 및 저주파 분석을 위한 스펙트럼 기울기 사용\",\n        \"위상 미분 계산을 위한 FFT 활용\",\n        \"해닝 윈도우를 통한 순간 주파수 계산\",\n        \"자기 상관관계 및 고조파 분석을 통한 데이터 처리\",\n        \"실제 데이터에서 의미 있는 구성 요소의 인식 및 처리\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr015_processed/05_final_result.json",
+    "utterance_count": 676,
+    "original_transcript_length": 22956,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 22956
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T20:48:48.580250"
+  }
+}

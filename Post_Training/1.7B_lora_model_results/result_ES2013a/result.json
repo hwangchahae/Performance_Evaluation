@@ -1,0 +1,61 @@
+{
+  "id": "result_ES2013a",
+  "source_dir": "result_ES2013a",
+  "notion_output": {
+    "project_name": "혁신형 리모컨 개발 프로젝트",
+    "project_purpose": "독창적이고 사용자 친화적인 리모컨을 개발하여 시장 경쟁력을 강화하고 고객 만족도를 증진",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스테프",
+    "core_objectives": [
+      "목표 1: 독창적인 디자인 및 기능을 갖춘 리모컨 개발",
+      "목표 2: 사용자 요구 사항을 반영한 최적의 기능 확보",
+      "목표 3: 생산 비용 효율성을 극대화하여 가격 경쟁력 확보"
+    ],
+    "core_idea": "새로운 기능과 디자인을 통해 시장에서 차별화되고, 사용자의 다양한 요구를 충족시키는 리모컨",
+    "idea_description": "이번 프로젝트에서는 사용자 친화성과 독창성을 동시에 강조하여, 시장에서의 경쟁력을 높이는 데 초점을 맞춥니다. 특히, 사용자가 원하는 다양한 기능을 포함하고 있으며, 독창적인 디자인을 통해 시장에서의 우위를 확보할 수 있도록 설계됩니다.",
+    "execution_plan": [
+      {
+        "phase": "디자인 및 기능 검토",
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "description": "기존 리모컨의 기능과 디자인을 분석하고, 사용자 요구 사항을 반영하여 새로운 기능을 추가하거나 수정합니다."
+      },
+      {
+        "phase": "기술 기능 디자인",
+        "duration": "2025.01.16 ~ 2025.02.15",
+        "description": "기술적인 기능을 설계하고, 사용자 인터페이스를 개선하여 사용성을 높입니다."
+      },
+      {
+        "phase": "사용자 요구 사양 사양",
+        "duration": "2025.02.16 ~ 2025.02.28",
+        "description": "사용자 요구 사항을 수집하고, 이를 바탕으로 제품을 개발합니다."
+      },
+      {
+        "phase": "생산 준비 및 테스트",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "description": "제품을 생산하고, 테스트를 통해 결함을 수정하고, 최종적으로 제품을 출시합니다."
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 향상으로 매출 증가",
+      "기대효과 2: 시장에서의 경쟁력 강화로 신뢰도 상승",
+      "기대효과 3: 생산 비용 효율화로 가격 경쟁력 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_ES2013a/05_final_result.json",
+    "utterance_count": 72,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "original_length": 2558,
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1
+    },
+    "is_chunk": false,
+    "processing_date": "2025-08-07T02:58:20.950196"
+  }
+}

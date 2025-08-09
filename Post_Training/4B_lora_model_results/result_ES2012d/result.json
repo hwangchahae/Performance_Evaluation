@@ -1,0 +1,42 @@
+{
+  "id": "val_195",
+  "source_dir": "result_ES2012d",
+  "notion_output": {
+    "project_name": "패션-기술 융합형 스마트 커버 개발 프로젝트",
+    "project_purpose": "휴대폰 커버를 통해 편리하고 미적 가치를 갖춘 스마트 기기를 제공하며, 소비자 요구에 부합하는 디자인을 구현함.",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 휴대폰 커버의 디자인 및 기능적 개선을 통해 사용자 경험 향상",
+      "목표 2: 적외선 섹션과 음성 센서를 통합하여 기술적 혁신 도입",
+      "목표 3: 다양한 커버 유형을 제공하여 소비자 선택권 확대"
+    ],
+    "core_idea": "패션과 기술을 결합한 스마트 커버 개발",
+    "idea_description": "적외선 섹션과 음성 센서를 활용하여 사용자가 쉽게 커버를 조절할 수 있도록 하고, 다양한 디자인과 색상을 제공하여 소비자를 매료시키며, 휴대폰 커버의 기능성을 강화함.",
+    "execution_plan": "1단계: 디자인 브리핑 및 초기 설계 (2024.01.01 ~ 2024.02.28)\n2단계: 적외선 섹션 및 음성 센서 통합 설계 (2024.03.01 ~ 2024.04.30)\n3단계: 다양한 커버 유형 개발 및 테스트 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 증가 및 제품 판매 증가",
+      "기대효과 2: 기술적 혁신을 통한 시장 경쟁력 강화",
+      "기대효과 3: 다양한 커버 유형을 통한 고객 맞춤형 서비스 제공"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_ES2012d/05_final_result.json",
+    "utterance_count": 125,
+    "transcript_length": 4055,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 4055
+    },
+    "is_chunk": false,
+    "dataset_type": "val",
+    "processing_date": "2025-08-06T14:21:58.678871"
+  }
+}

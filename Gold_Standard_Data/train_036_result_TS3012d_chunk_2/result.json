@@ -1,0 +1,35 @@
+{
+  "id": "train_036_chunk_2",
+  "source_dir": "result_TS3012d",
+  "notion_output": "```json\n{\n    \"project_name\": \"트리플 R 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"트렌디한 디자인과 사용자 맞춤형 기능을 갖춘 리모컨 개발\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 곡선 제거 및 심플한 디자인 확정\",\n        \"목표 2: 트리플 R 브랜드명 확정 및 마케팅 전략 수립\",\n        \"목표 3: 고객 요구에 맞춘 색상 옵션 제공 및 테스트\",\n        \"목표 4: 사용자 피드백 기반의 기능 개선\",\n        \"목표 5: 제품 이름에 대한 다양한 아이디어 검토 및 최종 확정\"\n    ],\n    \"core_idea\": \"트리플 R 리모컨\",\n    \"idea_description\": \"트리플 R 리모컨은 곡선을 제거하여 심플하고 트렌디한 디자인을 추구하며, 고객이 원하는 색상으로 변경 가능한 옵션을 제공합니다. 또한, 사용자 피드백을 반영하여 기능을 지속적으로 개선합니다.\",\n    \"execution_plan\": [\n        {\n            \"단계\": \"디자인 확정\",\n            \"기간\": \"2023.11.01 ~ 2023.11.15\",\n            \"세부내용\": \"곡선 제거 및 기본 디자인 확정, 사용자 피드백 수집, LCD 선택 버튼 검토\"\n        },\n        {\n            \"단계\": \"브랜드명 및 마케팅 전략 수립\",\n            \"기간\": \"2023.11.16 ~ 2023.11.30\",\n            \"세부내용\": \"트리플 R 브랜드명 확정, 과일 이름 등 다양한 아이디어 검토, 마케팅 전략 수립\"\n        },\n        {\n            \"단계\": \"색상 옵션 개발 및 테스트\",\n            \"기간\": \"2023.12.01 ~ 2023.12.31\",\n            \"세부내용\": \"고객 요구에 맞춘 색상 옵션 개발, 테스트 및 사용자 피드백 반영, 기본 색상(검은색, 회색) 외 추가 색상 검토\"\n        },\n        {\n            \"단계\": \"최종 제품 출시 준비\",\n            \"기간\": \"2024.01.01 ~ 2024.01.31\",\n            \"세부내용\": \"최종 제품 디자인 및 기능 확정, 출시 전 마케팅 및 홍보 준비, 리모컨과의 대화 기능 검토\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 고객 만족도 향상 및 시장 점유율 확대\",\n        \"기대효과 2: 브랜드 인지도 상승을 통한 매출 증대\",\n        \"기대효과 3: 트렌디한 디자인으로 인한 경쟁사 대비 우위 확보\",\n        \"기대효과 4: 사용자 피드백 기반의 지속적인 제품 개선\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3012d/05_final_result.json",
+    "utterance_count": 417,
+    "original_transcript_length": 13184,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 13184
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:33:29.454476"
+  }
+}

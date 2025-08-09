@@ -1,0 +1,35 @@
+{
+  "id": "train_104_chunk_1",
+  "source_dir": "result_ES2009c",
+  "notion_output": "```json\n{\n    \"project_name\": \"혁신적 친환경 스마트 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"친환경 에너지와 최신 기술을 활용하여 차별화된 스마트 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 친환경 에너지를 활용한 스마트 리모컨 프로토타입 개발\",\n        \"목표 2: 사용자 인터페이스 개선을 통한 사용자 경험 향상\",\n        \"목표 3: 시장성 있는 디자인과 기능을 통해 경쟁력 확보\",\n        \"목표 4: 경제성과 기술적 실현 가능성을 고려한 제품 개발\"\n    ],\n    \"core_idea\": \"친환경 에너지와 혁신적 디자인을 결합한 스마트 리모컨 개발\",\n    \"idea_description\": \"표준 배터리 및 태양 전지를 활용하여 리모컨의 에너지를 공급하고, 고무 푸시 버튼과 터치스크린을 통한 사용자 경험을 개선하는 스마트 리모컨을 개발합니다. 제조업체의 제한사항을 고려하여 현실적인 디자인과 기술을 적용합니다.\",\n    \"execution_plan\": [\n        \"1단계: 에너지 공급원 및 디자인 컨셉 확정 (2024.01.01 ~ 2024.02.15)\",\n        \"2단계: 프로토타입 개발 및 테스트 (2024.02.16 ~ 2024.04.15)\",\n        \"3단계: 마케팅 파일럿 테스트 및 피드백 수집 (2024.04.16 ~ 2024.05.15)\",\n        \"4단계: 최종 제품 개선 및 출시 준비 (2024.05.16 ~ 2024.06.30)\",\n        \"5단계: 비용 분석 및 경제성 평가 (2024.02.16 ~ 2024.04.15)\"\n    ],\n    \"technical_challenges\": [\n        \"터치스크린 기술의 비용 문제: 리모컨 하나당 1,750유로 이상의 비용이 예상되며, 이를 줄이기 위한 대안 모색 필요\",\n        \"고무 푸시 버튼 사용의 필요성: 고무 이중 곡면 케이스와의 호환성을 고려하여 고무 푸시 버튼을 사용\",\n        \"제조업체의 제한사항: 제품 디자인과 기능에 있어 제조업체의 제한사항을 고려하여 개발\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 친환경 에너지 사용으로 인한 브랜드 이미지 개선\",\n        \"기대효과 2: 혁신적인 사용자 경험 제공으로 인한 고객 만족도 향상\",\n        \"기대효과 3: 경쟁력 있는 제품 출시로 인한 시장 점유율 확대\",\n        \"기대효과 4: 경제성을 고려한 제품 개발로 인한 비용 절감\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2009c/05_final_result.json",
+    "utterance_count": 232,
+    "original_transcript_length": 8010,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8010
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4971
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T00:48:14.174982"
+  }
+}

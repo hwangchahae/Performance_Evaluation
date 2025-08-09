@@ -1,0 +1,37 @@
+{
+  "id": "train_125_chunk_8",
+  "source_dir": "result_Bmr008_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"스피커 겹침 영역 분석 및 최적화 프로젝트\",\n    \"project_purpose\": \"스피커 간 발화 겹침 영역의 분석을 통해 음성 신호의 정확성과 품질을 향상시키는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 스피커 간 발화 겹침 영역의 에너지 분석 및 최적화\",\n        \"목표 2: 피치 검출기를 활용한 음성 신호의 정확도 향상\",\n        \"목표 3: 정규화를 통한 음성 신호의 품질 개선\"\n    ],\n    \"core_idea\": \"스피커 간 발화 겹침 영역에서 발생하는 에너지 변동을 분석하고 최적화하여 음성 신호의 품질을 개선\",\n    \"idea_description\": \"스피커 간 발화 겹침 영역에서 에너지의 변동을 분석하고, 피치 검출기를 활용하여 음성 신호의 정확도를 향상시킴. 정규화를 통해 음성 신호의 품질을 개선하고, 이를 통해 전반적인 음성 인식 시스템의 성능을 향상시킴.\",\n    \"execution_plan\": \"1단계: 스피커 간 발화 겹침 영역의 에너지 분석 (2024.01.01 ~ 2024.01.31)\\n2단계: 피치 검출기를 활용한 음성 신호 정확도 향상 (2024.02.01 ~ 2024.02.28)\\n3단계: 정규화를 통한 음성 신호 품질 개선 (2024.03.01 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 음성 신호의 정확도 향상으로 인한 사용자 만족도 증가\",\n        \"기대효과 2: 정규화를 통한 음성 신호의 품질 개선으로 인한 시스템 신뢰성 향상\",\n        \"기대효과 3: 스피커 간 발화 겹침 영역 분석을 통한 음성 인식 시스템의 성능 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr008_processed/05_final_result.json",
+    "utterance_count": 1114,
+    "original_transcript_length": 38159,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9,
+      "original_length": 38159
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 8,
+      "total_chunks": 9,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:51:48.485103"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "train_216",
+  "source_dir": "result_ES2006a",
+  "notion_output": "```json\n{\n    \"project_name\": \"트렌디한 TV 리모컨 디자인 프로젝트\",\n    \"project_purpose\": \"독창적이고 사용자 친화적인 TV 리모컨을 설계하여 시장에 출시\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"젠\",\n    \"core_objectives\": [\n        \"목표 1: 기능적 디자인을 통해 사용자 요구 사항을 충족하는 리모컨 개발\",\n        \"목표 2: 개념 설계 단계에서 제품의 구성 요소를 파악하고 트렌드를 반영\",\n        \"목표 3: 생산 비용을 12.5유로 이하로 유지하여 수익성 있는 제품 출시\"\n    ],\n    \"core_idea\": \"전자제품에 패션을 더한 세련되고 스타일리시한 리모컨\",\n    \"idea_description\": \"기능적 설계와 사용자 인터페이스 디자인을 통해 트렌디하면서도 사용하기 쉬운 리모컨을 개발\",\n    \"execution_plan\": \"1. 기능적 디자인 작업 (2023.11.01 ~ 2023.11.15)\\n2. 개념 설계 및 트렌드 분석 (2023.11.16 ~ 2023.11.30)\\n3. 상세 설계 및 제품 평가 (2023.12.01 ~ 2023.12.15)\\n4. 생산 및 테스트 (2023.12.16 ~ 2024.01.15)\\n5. 시장 출시 준비 (2024.01.16 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 친화적인 디자인으로 고객 만족도 향상\",\n        \"기대효과 2: 생산 비용 절감으로 인한 수익성 증대\",\n        \"기대효과 3: 트렌디한 디자인으로 시장 점유율 확대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2006a/05_final_result.json",
+    "utterance_count": 127,
+    "transcript_length": 4649,
+    "original_transcript_length": 4649,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 4649
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:27:43.135947"
+  }
+}

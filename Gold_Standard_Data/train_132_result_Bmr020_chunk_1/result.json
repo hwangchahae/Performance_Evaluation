@@ -1,0 +1,38 @@
+{
+  "id": "train_132_chunk_1",
+  "source_dir": "result_Bmr020_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"대화 분석 기반 회의 기록 최적화 프로젝트\",\n    \"project_purpose\": \"회의 기록의 정확성과 효율성을 대화 분석을 통해 최적화하고 자동화 도구를 개발하여 실무에 적용\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"제인\",\n    \"core_objectives\": [\n        \"목표 1: 회의 기록의 중복 및 불필요한 부분을 제거하여 품질 향상\",\n        \"목표 2: 대화 분석을 통한 새로운 알고리즘 개발로 기록 정확성 증대\",\n        \"목표 3: 자동화 도구 개발로 기록 효율성 극대화\"\n    ],\n    \"core_idea\": \"대화 분석을 통해 회의 기록의 품질을 향상시키고, 자동화 도구를 개발하여 효율성을 높인다.\",\n    \"idea_description\": \"회의록에서 언급된 다양한 대화 분석 기법을 활용하여 중복 및 불필요한 부분을 제거하고, 스펙트럼에 상수를 추가하는 방법 등 새로운 알고리즘을 개발한다. 또한, 자동화 도구를 통해 기록 효율성을 높인다.\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"1단계: 데이터 수집 및 분석\",\n            \"duration\": \"2024.01.01 ~ 2024.01.31\",\n            \"details\": \"회의록에서 언급된 다양한 코퍼스(회의 기록자 회의, 견고성 회의 등)를 분석하여 데이터 수집 및 중복 제거 방법론을 개발. 특히, Morgan이 Robustness 회의에서 단어 수 기준으로 전체 회의의 56%를 차지한 점을 분석하여 데이터의 중요성을 평가.\"\n        },\n        {\n            \"phase\": \"2단계: 알고리즘 개발 및 테스트\",\n            \"duration\": \"2024.02.01 ~ 2024.02.28\",\n            \"details\": \"스펙트럼에 상수를 추가하는 방법 등 회의에서 논의된 알고리즘을 개발하고, 테스트를 통해 정확성을 검증. 대화의 시작과 끝을 추론하는 방법론을 적용하여 기록의 정확성을 높임.\"\n        },\n        {\n            \"phase\": \"3단계: 자동화 도구 개발 및 배포\",\n            \"duration\": \"2024.03.01 ~ 2024.03.31\",\n            \"details\": \"회의 기록의 효율성을 높이기 위한 자동화 도구를 개발하고 배포하여 실무에 적용. 특히, 피치의 감소를 감지하고 백채널을 제공하는 감지기를 활용하여 실시간 기록 보완 기능을 추가.\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 중복 및 불필요한 부분 제거로 인한 기록 품질 향상\",\n        \"기대효과 2: 새로운 알고리즘을 통한 기록 정확성 향상\",\n        \"기대효과 3: 자동화 도구를 통한 기록 효율성 향상\"\n    ],\n    \"additional_information\": {\n        \"key_discussions\": [\n            \"회의록에서 Morgan이 Robustness 회의에서 단어 수 기준으로 전체 회의의 56%를 차지한 점\",\n            \"대화 분석가들이 수년간 연구해 온 내용에 대한 언급\",\n            \"대화의 시작과 끝을 추론하는 방법론\",\n            \"피치의 감소를 감지하고 백채널을 제공하는 감지기 활용\"\n        ],\n        \"roles_and_responsibilities\": [\n            \"제인: 프로젝트 매니저로서 전체 프로젝트 관리 및 주요 결정사항 책임\",\n            \"Morgan: Robustness 회의에서 주요 발언자로서 데이터 분석 기여\"\n        ]\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.2,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr020_processed/05_final_result.json",
+    "utterance_count": 478,
+    "original_transcript_length": 15775,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 15775
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 4,
+      "chunk_length": 4969
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:04:37.041643"
+  }
+}

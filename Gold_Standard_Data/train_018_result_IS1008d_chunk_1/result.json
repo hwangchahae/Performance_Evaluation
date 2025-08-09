@@ -1,0 +1,35 @@
+{
+  "id": "train_018_chunk_1",
+  "source_dir": "result_IS1008d",
+  "notion_output": "```json\n{\n    \"project_name\": \"온라인 판매 및 마케팅 전략 개발\",\n    \"project_purpose\": \"제품의 온라인 판매 및 마케팅 채널 최적화를 통해 시장 점유율 확대\",\n    \"project_period\": \"2025.01.01 ~ 2025.03.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 온라인 판매 채널 구축 및 운영\",\n        \"목표 2: 시장 점유율 25% 달성을 위한 마케팅 전략 수립\",\n        \"목표 3: 생산 비용 절감 및 단위 가격 최적화\"\n    ],\n    \"core_idea\": \"온라인 플랫폼을 활용한 직접 판매 및 마케팅\",\n    \"idea_description\": \"인터넷을 통한 홍보 및 주문 후 고객 자택으로 직접 배송하는 방식으로 보관 비용 절감 및 인건비 절약\",\n    \"execution_plan\": \"1. 온라인 플랫폼 구축 및 테스트 (2025.01.01 ~ 2025.01.31)\\n2. 마케팅 전략 수립 및 실행 (2025.02.01 ~ 2025.02.28)\\n3. 생산 및 배송 프로세스 최적화 (2025.03.01 ~ 2025.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 시장 점유율 25% 달성으로 인한 매출 증가\",\n        \"기대효과 2: 생산 및 운영 비용 절감으로 인한 이익률 개선\",\n        \"기대효과 3: 고객 만족도 향상 및 브랜드 인지도 상승\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1008d/05_final_result.json",
+    "utterance_count": 186,
+    "original_transcript_length": 6752,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 6752
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4969
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T17:40:38.389176"
+  }
+}

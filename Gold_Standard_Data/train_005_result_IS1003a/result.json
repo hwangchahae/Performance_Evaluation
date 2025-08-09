@@ -1,0 +1,31 @@
+{
+  "id": "train_005",
+  "source_dir": "result_IS1003a",
+  "notion_output": "```json\n{\n    \"project_name\": \"글로벌 혁신 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"기존 리모컨에 없는 새로운 기능을 추가하여 사용자 경험을 혁신하고 글로벌 시장에 출시\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 인터페이스와 산업 디자인의 통합을 통한 혁신적인 리모컨 개발\",\n        \"목표 2: 생산 비용을 12유로 50센트 이하로 유지\",\n        \"목표 3: 제품 판매 가격을 25유로로 설정하여 시장 경쟁력 확보\"\n    ],\n    \"core_idea\": \"사용자 인터페이스와 산업 디자인의 융합을 통해 사용하기 쉽고 기능이 풍부한 리모컨 개발\",\n    \"idea_description\": \"새로운 리모컨은 기존 제품에 없는 기능을 추가하여 소비자의 관심을 끌고, 국제 시장에서 경쟁력을 갖추도록 설계\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"1단계\",\n            \"description\": \"기능 및 개념 설계\",\n            \"period\": \"2023.11.01 ~ 2023.11.30\"\n        },\n        {\n            \"phase\": \"2단계\",\n            \"description\": \"세부 설계 및 프로토타입 제작\",\n            \"period\": \"2023.12.01 ~ 2023.12.31\"\n        },\n        {\n            \"phase\": \"3단계\",\n            \"description\": \"사용자 테스트 및 피드백 반영\",\n            \"period\": \"2024.01.01 ~ 2024.01.15\"\n        },\n        {\n            \"phase\": \"4단계\",\n            \"description\": \"최종 제품 개발 및 출시 준비\",\n            \"period\": \"2024.01.16 ~ 2024.01.31\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 글로벌 시장에서의 매출 증대\",\n        \"기대효과 2: 사용자 만족도 향상으로 인한 브랜드 이미지 강화\",\n        \"기대효과 3: 혁신적인 디자인으로 인한 시장 점유율 확대\"\n    ],\n    \"price_information\": {\n        \"production_cost\": \"12유로 50센트 이하\",\n        \"selling_price\": \"25유로\"\n    },\n    \"new_features\": \"현재 리모컨에 없는 새로운 기능을 탑재하여 소비자의 관심을 유도\",\n    \"role_distribution\": {\n        \"Speaker_A\": \"프로젝트 매니저\",\n        \"Speaker_B\": \"사용자 인터페이스 디자이너\",\n        \"Speaker_C\": \"산업 디자이너\",\n        \"Speaker_D\": \"마케팅 전문가\"\n    },\n    \"additional_notes\": [\n        \"회의록에서 논의된 바에 따르면, 리모컨의 새로운 기능은 사용자 편의성을 극대화하는 방향으로 설계될 예정입니다.\",\n        \"사용자 인터페이스 디자이너와 산업 디자이너의 협업을 통해 디자인의 일관성을 유지하고, 사용자 경험을 향상시키는 것이 중요합니다.\",\n        \"가격 정보는 회의록에서 언급된 12유로 50센트 이하의 생산 비용과 25유로의 판매 가격을 기준으로 설정되었습니다.\",\n        \"각 역할에 대한 구체적인 업무 분담은 프로젝트 진행 중 지속적으로 조정될 예정입니다.\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1003a/05_final_result.json",
+    "utterance_count": 120,
+    "transcript_length": 3940,
+    "original_transcript_length": 3940,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 3940
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T16:42:50.779340"
+  }
+}

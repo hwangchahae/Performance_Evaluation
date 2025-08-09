@@ -1,0 +1,37 @@
+{
+  "id": "train_043_chunk_1",
+  "source_dir": "result_Bmr026_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"Transcriber 인터페이스 개선 프로젝트\",\n    \"project_purpose\": \"Transcriber 인터페이스의 기능 개선과 사용자 경험 향상\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: Transcriber 인터페이스에 파형 위에 임의의 내용을 표시하는 창 추가\",\n        \"목표 2: 백엔드 색인 생성 기능을 프런트엔드 필터링에 적용\",\n        \"목표 3: Snack 버전 1.6 라이브러리의 안정적 운영\"\n    ],\n    \"core_idea\": \"Transcriber 인터페이스의 기능 확장과 사용자 편의성 증대\",\n    \"idea_description\": \"기존 Transcriber 인터페이스에 새로운 기능을 추가하여 사용자들이 더 직관적이고 효율적으로 사용할 수 있도록 개선합니다. 특히 파형 위에 임의의 내용을 표시할 수 있는 기능을 도입하여 사용자 경험을 향상시킵니다.\",\n    \"execution_plan\": \"1. Transcriber 인터페이스에 새로운 창 추가 (2023.11.01 ~ 2023.11.30)\\n2. 백엔드 색인 생성 기능을 프런트엔드에 통합 (2023.12.01 ~ 2023.12.31)\\n3. Snack 버전 1.6 라이브러리 안정화 및 운영 (2024.01.01 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 인터페이스의 직관성 향상으로 사용자 만족도 증가\",\n        \"기대효과 2: 백엔드와 프런트엔드의 기능 통합으로 데이터 처리 효율성 증가\",\n        \"기대효과 3: 안정적인 라이브러리 운영으로 시스템 신뢰성 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr026_processed/05_final_result.json",
+    "utterance_count": 542,
+    "original_transcript_length": 18406,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 18406
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 4,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T19:01:50.351107"
+  }
+}

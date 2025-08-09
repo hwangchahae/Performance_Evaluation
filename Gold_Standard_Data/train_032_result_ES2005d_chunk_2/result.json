@@ -1,0 +1,35 @@
+{
+  "id": "train_032_chunk_2",
+  "source_dir": "result_ES2005d",
+  "notion_output": "```json\n{\n    \"project_name\": \"트렌드 기반 다채로운 제품 개발 및 출시\",\n    \"project_purpose\": \"최신 트렌드와 고객 요구를 반영한 제품의 시장 출시 및 고객 만족도 극대화\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 최신 트렌드를 반영한 다양한 제품 디자인 개발\",\n        \"목표 2: 고객 요구 사항을 충족하는 기술적 기능 구현\",\n        \"목표 3: 환경 안전 기준을 준수하는 제품 출시\"\n    ],\n    \"core_idea\": \"트렌드와 고객 요구를 반영한 다양한 디자인과 기능으로 고객 만족도 및 판매 증대\",\n    \"idea_description\": \"시장 트렌드를 반영하여 바나나 디자인, 오렌지색, 그리고 과일과 무관한 디자인을 포함한 다양한 제품을 개발하고, 고객 선택의 폭을 넓혀 판매를 증대시킴\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"1단계\",\n            \"description\": \"제품 디자인 및 기능 기획\",\n            \"period\": \"2024.01.01 ~ 2024.01.31\",\n            \"responsible\": \"Speaker_A\"\n        },\n        {\n            \"phase\": \"2단계\",\n            \"description\": \"프로토타입 개발 및 기술적 테스트\",\n            \"period\": \"2024.02.01 ~ 2024.02.28\",\n            \"responsible\": \"Speaker_C\"\n        },\n        {\n            \"phase\": \"3단계\",\n            \"description\": \"제품 출시 및 마케팅 전략 수립\",\n            \"period\": \"2024.03.01 ~ 2024.03.31\",\n            \"responsible\": \"Speaker_D\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 고객 만족도 향상 및 브랜드 이미지 강화\",\n        \"기대효과 2: 판매 증가 및 시장 점유율 확대\",\n        \"기대효과 3: 환경 안전 기준 준수로 인한 기업 이미지 개선\"\n    ],\n    \"technical_details\": {\n        \"customer_requirements\": \"고객이 다양한 디자인과 기능을 선택할 수 있도록 옵션 제공\",\n        \"technology_integration\": \"최신 기술을 활용하여 고객 요구 사항을 충족하고, 제품의 기능성을 강화\"\n    },\n    \"design_options\": [\n        \"바나나 디자인\",\n        \"오렌지색 디자인\",\n        \"과일과 무관한 디자인\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2005d/05_final_result.json",
+    "utterance_count": 227,
+    "original_transcript_length": 7252,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 7252
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 2778
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:23:22.823280"
+  }
+}

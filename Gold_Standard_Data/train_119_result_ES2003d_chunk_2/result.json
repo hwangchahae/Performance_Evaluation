@@ -1,0 +1,35 @@
+{
+  "id": "train_119_chunk_2",
+  "source_dir": "result_ES2003d",
+  "notion_output": "```json\n{\n    \"project_name\": \"혁신적 사용자 경험을 위한 차세대 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"기술적 혁신과 디자인 개선을 통해 사용자 경험을 극대화하고 시장에서의 차별화를 이루며, 비용 효율성을 고려한 제품 개발\",\n    \"project_period\": \"2025.01.01 ~ 2025.03.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: LCD 디스플레이를 유지하면서 플라스틱 솔리드 케이스로 전환하여 내구성과 차별화된 디자인 확보\",\n        \"목표 2: 단일 곡선 디자인을 통해 인체공학적 사용성을 확보하고 조이스틱의 위치 최적화\",\n        \"목표 3: 숫자 버튼 없는 리모컨 개발로 메뉴 중심의 사용자 인터페이스 혁신\",\n        \"목표 4: 패션에서 영감을 받은 특수 색상 및 디자인 요소를 통해 브랜드 이미지 강화\",\n        \"목표 5: 비용 절감을 위해 로카 로케이터 기능은 2유로 이하로 처리할 수 없는 경우 제외\"\n    ],\n    \"core_idea\": \"기존 리모컨의 디자인과 기능을 혁신하여 사용자 경험을 극대화하고, 비용 효율성을 고려하여 시장에서의 차별화를 이루기 위한 프로젝트\",\n    \"idea_description\": \"LCD 디스플레이를 유지하면서 플라스틱 케이스를 적용하고, 단일 곡선 디자인을 통해 조이스틱의 인체공학적 위치를 확보합니다. 또한, 숫자 버튼을 제거하여 메뉴 중심의 인터페이스를 구현하고, 패션에서 영감을 받은 특수 색상 및 디자인 요소를 통해 브랜드 이미지를 강화합니다.\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"디자인 확정 및 프로토타입 제작\",\n            \"period\": \"2025.01.01 ~ 2025.01.31\",\n            \"responsible_person\": \"Speaker_B\",\n            \"details\": \"디자인 팀과 협력하여 최종 디자인을 확정하고, 플라스틱 솔리드 케이스와 단일 곡선 디자인을 반영한 프로토타입을 제작합니다.\"\n        },\n        {\n            \"phase\": \"사용자 테스트 및 피드백 수집\",\n            \"period\": \"2025.02.01 ~ 2025.02.15\",\n            \"responsible_person\": \"Speaker_C\",\n            \"details\": \"사용자 그룹을 대상으로 테스트를 진행하고, 메뉴 중심 인터페이스와 특수 색상에 대한 피드백을 수집하여 개선점을 도출합니다.\"\n        },\n        {\n            \"phase\": \"최종 디자인 수정 및 생산 준비\",\n            \"period\": \"2025.02.16 ~ 2025.02.28\",\n            \"responsible_person\": \"Speaker_D\",\n            \"details\": \"피드백을 반영하여 디자인을 수정하고, 로카 로케이터 기능의 비용 효율성을 검토하여 생산 준비를 완료합니다.\"\n        },\n        {\n            \"phase\": \"대량 생산 및 시장 출시 준비\",\n            \"period\": \"2025.03.01 ~ 2025.03.31\",\n            \"responsible_person\": \"Speaker_A\",\n            \"details\": \"대량 생산을 시작하고, 패션에서 영감을 받은 색상과 디자인을 강조한 마케팅 전략을 수립하여 시장 출시를 준비합니다.\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 증가 및 브랜드 이미지 개선\",\n        \"기대효과 2: 시장 점유율 확대 및 매출 증대\",\n        \"기대효과 3: 기술적 혁신을 통한 경쟁사 대비 차별화\",\n        \"기대효과 4: 혁신적 디자인을 통한 소비자 관심 유도\",\n        \"기대효과 5: 비용 효율성을 고려한 제품 개발로 인한 수익성 향상\"\n    ],\n    \"additional_notes\": \"회의에서 논의된 바와 같이, 리모컨의 색상은 노란색과 보라색을 포함하여 패션에서 영감을 받은 색상으로 결정됩니다. 또한, 비용 절감을 위해 로카 로케이터 기능은 2유로 이하로 처리할 수 없는 경우 제외됩니다. 디자인과 기능의 혁신을 통해 사용자 경험을 극대화하고, 시장에서의 차별화를 이루는 것을 목표로 합니다.\"\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2003d/05_final_result.json",
+    "utterance_count": 304,
+    "original_transcript_length": 10896,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 10896
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:28:21.271621"
+  }
+}

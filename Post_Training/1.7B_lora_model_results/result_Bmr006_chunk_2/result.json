@@ -1,0 +1,59 @@
+{
+  "id": "result_Bmr006_processed_chunk_2",
+  "source_dir": "result_Bmr006_processed",
+  "notion_output": {
+    "project_name": "회원 참여 및 유창성 분석 프로젝트",
+    "project_purpose": "회원들의 의사소통 능력 평가 및 개선을 통한 협업 효율성 증대",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: 회의에서 논의된 다양한 사례를 바탕으로 회원들의 유창성 평가 및 개선 방법 연구",
+      "목표 2: 회의에서 언급된 핫스팟 및 중요한 순간을 활용한 피드백 수집 및 분석",
+      "목표 3: 회의에서 논의된 다양한 사례를 통해 개선된 유창성 교육 프로그램 제안 및 운영"
+    ],
+    "core_idea": "회원들의 유창성과 협업 환경을 분석하여 개선 방안을 마련",
+    "idea_description": "회원들의 유창성과 협업 환경을 분석하여 개선 방안을 마련하고, 이를 바탕으로 교육 프로그램을 개발하여 협업 효율성을 높이는 프로젝트",
+    "execution_plan": [
+      {
+        "phase": "연구 설계 및 데이터 수집",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "description": "회의에서 논의된 사례를 바탕으로 연구 설계 및 데이터 수집 방법을 세우고, 필요한 인터뷰 및 설문 조사를 진행"
+      },
+      {
+        "phase": "데이터 분석 및 결과 해석",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "description": "분석된 데이터를 바탕으로 회의에서 논의된 사례를 고려하여 결과를 해석하고, 개선 방안을 제안"
+      },
+      {
+        "phase": "교육 프로그램 개발 및 시범 운영",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "description": "개발된 교육 프로그램을 시범 운영하며, 개선 방안의 적용 여부를 확인하고, 최종적으로 교육 프로그램을 공개"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 회의에서 논의된 사례를 바탕으로 개선된 유창성 교육 프로그램의 효과성 증대",
+      "기대효과 2: 회의에서 언급된 핫스팟 및 중요한 순간을 활용한 피드백 수집을 통한 협업 환경 개선",
+      "기대효과 3: 회의에서 논의된 다양한 사례를 바탕으로 개선된 유창성 교육 프로그램의 운영 성공"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr006_processed/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_F"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-07T03:00:08.667924"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "val_010_chunk_6",
+  "source_dir": "result_Bro003_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"SPERT 보드 및 컴퓨팅 리소스를 활용한 신경망 훈련 최적화 프로젝트\",\n    \"project_purpose\": \"SPERT 보드와 다양한 컴퓨팅 리소스를 활용하여 신경망 훈련 시간을 단축하고, 데이터 변환 프로세스를 개선하여 전체 시스템의 효율성을 극대화한다.\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_C\",\n    \"core_objectives\": [\n        \"목표 1: SPERT 보드 및 기타 컴퓨팅 리소스를 활용하여 신경망 훈련 시간을 30% 이상 단축\",\n        \"목표 2: HTK 시스템을 통해 훈련 데이터의 정밀도를 향상시키고, 신경망 훈련에 필요한 정확한 시간 및 리소스 요구 사항을 파악\",\n        \"목표 3: Feacalc 및 LabCut 프로그램을 활용하여 데이터 변환 프로세스를 자동화하고 개선\"\n    ],\n    \"core_idea\": \"다양한 컴퓨팅 리소스를 최대한 활용하여 신경망 훈련을 최적화하고, 데이터 변환 프로세스를 개선하여 전체적인 시스템 효율성을 높인다.\",\n    \"idea_description\": \"SPERT 보드의 병렬 처리 능력과 기타 컴퓨팅 리소스를 활용하여 신경망 훈련 시간을 단축한다. HTK 시스템과의 결합을 통해 데이터의 정밀도를 향상시키고, Feacalc 및 LabCut 프로그램을 통해 데이터 변환을 자동화하여 효율성을 높인다.\",\n    \"execution_plan\": \"1단계: SPERT 보드 및 기타 컴퓨팅 리소스의 현재 사용 현황 분석 및 최적화 방안 수립 (2024.01.01 ~ 2024.01.15)\\\\n2단계: HTK 시스템과의 통합 테스트 및 데이터 정밀도 평가, 신경망 훈련에 필요한 정확한 시간 및 리소스 요구 사항 파악 (2024.01.16 ~ 2024.02.15)\\\\n3단계: Feacalc 및 LabCut 프로그램을 통한 데이터 변환 프로세스 개선 및 자동화 (2024.02.16 ~ 2024.03.15)\\\\n4단계: 전체 시스템 성능 평가 및 최종 보고서 작성 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 신경망 훈련 시간 30% 단축으로 인한 운영 비용 절감\",\n        \"기대효과 2: 데이터 정밀도 향상으로 인한 모델 정확도 증가\",\n        \"기대효과 3: 데이터 변환 프로세스 자동화로 인한 인적 자원 절약\"\n    ],\n    \"technical_details\": {\n        \"SPERT_board_usage\": \"SPERT 보드의 병렬 처리 능력을 활용하여 신경망 훈련 시간을 줄이고, 여러 대의 기계를 사용하여 대규모 문제를 해결\",\n        \"neural_network_training_time\": \"신경망 훈련에는 상황에 따라 최대 이틀이 소요될 수 있으며, 이를 단축하기 위한 다양한 리소스 활용 방안 필요\",\n        \"data_conversion_process\": \"Feacalc 및 LabCut 프로그램을 사용하여 HTK의 ASCII 형식으로 데이터를 변환하고, 변환 과정에서의 문제를 해결\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro003_processed/05_final_result.json",
+    "utterance_count": 746,
+    "original_transcript_length": 25793,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 25793
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 6,
+      "chunk_length": 3353
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T09:41:52.726758"
+  }
+}

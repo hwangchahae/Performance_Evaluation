@@ -1,0 +1,40 @@
+{
+  "id": "train_247_chunk_6",
+  "source_dir": "result_Bsr001_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"전사 및 데이터 관리 프로젝트\",\n    \"project_purpose\": \"효율적인 전사 시스템 구축 및 데이터 관리 체계 확립\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"모건\",\n    \"core_objectives\": [\n        \"목표 1: 전사 규칙 및 표준화된 데이터 형식 확립\",\n        \"목표 2: LDC를 통한 데이터 배포 체계 구축\",\n        \"목표 3: 전사 도구의 효율성 향상 및 사용자 교육\"\n    ],\n    \"core_idea\": \"효율적인 전사 및 데이터 관리 시스템 구축\",\n    \"idea_description\": \"전사 규칙을 표준화하고, LDC를 통해 데이터를 배포하며, 전사 도구의 활용을 극대화하여 데이터 관리의 효율성을 높인다.\",\n    \"execution_plan\": \"1단계: 전사 규칙 및 데이터 형식 표준화 (2024.01.01 ~ 2024.02.28), 2단계: LDC와의 협력 체계 구축 및 데이터 배포 준비 (2024.03.01 ~ 2024.04.30), 3단계: 전사 도구 개선 및 사용자 교육 실시 (2024.05.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 전사 작업의 정확도 및 일관성 향상\",\n        \"기대효과 2: 데이터 배포의 효율성 증대 및 시장 확대\",\n        \"기대효과 3: 사용자 교육을 통한 도구 활용 능력 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bsr001_processed/05_final_result.json",
+    "utterance_count": 1028,
+    "original_transcript_length": 34394,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_H",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_I"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 8,
+      "original_length": 34394
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 8,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:07:18.543261"
+  }
+}

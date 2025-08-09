@@ -1,0 +1,35 @@
+{
+  "id": "train_069_chunk_1",
+  "source_dir": "result_ES2010b",
+  "notion_output": "```json\n{\n    \"project_name\": \"사용자 중심 TV 리모컨 혁신 프로젝트\",\n    \"project_purpose\": \"사용자 요구 사항을 반영하여 TV 리모컨의 기능을 최적화하고, 스마트 칩을 활용한 다기능을 통해 사용자 경험을 혁신\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 요구 사항을 기반으로 한 리모컨 기능 설계 및 단순화\",\n        \"목표 2: 스마트 칩을 활용한 다기능 리모컨 개발 및 비용 효율성 확보\",\n        \"목표 3: 현대적이고 간단한 디자인 구현으로 사용자 편의성 극대화\"\n    ],\n    \"core_idea\": \"사용자 편의성을 극대화하고 비용 효율성을 고려한 혁신적인 TV 리모컨 개발\",\n    \"idea_description\": \"리모컨의 복잡한 기능을 단순화하고, 스마트 칩을 통해 다기능을 구현하여 사용자 경험을 개선합니다. 특히, 채널, 볼륨, 전원 등 필수 기능을 직관적으로 사용할 수 있도록 설계합니다.\",\n    \"execution_plan\": [\n        \"1. 사용자 요구 사항 분석 및 기능 설계 (2023.11.01 ~ 2023.11.15)\",\n        \"2. 디자인 시안 제작 및 검토 (2023.11.16 ~ 2023.11.30)\",\n        \"3. 스마트 칩 통합 및 프로토타입 개발 (2023.12.01 ~ 2023.12.31)\",\n        \"4. 사용자 테스트 및 피드백 반영 (2024.01.01 ~ 2024.01.15)\",\n        \"5. 최종 디자인 및 기능 확정 (2024.01.16 ~ 2024.01.31)\"\n    ],\n    \"smart_chip_details\": {\n        \"role\": \"다양한 기능을 수행할 수 있도록 프로그래밍된 칩\",\n        \"functions\": [\n            \"기기 간 전환 기능\",\n            \"적외선 통신을 통한 다양한 장치 제어\",\n            \"전력 분산 및 효율적 사용\"\n        ]\n    },\n    \"user_requirements\": [\n        \"사용하기 쉬운 인터페이스\",\n        \"필수 기능의 직관적 배치\",\n        \"현대적이고 간단한 디자인\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상 및 시장 점유율 증가\",\n        \"기대효과 2: 스마트 칩을 통한 생산 비용 절감 및 효율적인 자원 활용\",\n        \"기대효과 3: 브랜드 이미지 강화 및 경쟁력 확보\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2010b/05_final_result.json",
+    "utterance_count": 244,
+    "original_transcript_length": 8710,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8710
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4976
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T21:10:07.840680"
+  }
+}

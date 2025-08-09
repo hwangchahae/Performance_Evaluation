@@ -1,0 +1,47 @@
+{
+  "id": "val_187_chunk_1",
+  "source_dir": "result_ES2014d",
+  "notion_output": {
+    "project_name": "스마트 퍼스널 토스트 프로토타입 개발 및 최적화 프로젝트",
+    "project_purpose": "비용 효율성을 극대화하며 사용자 친화적인 퍼스널 토스트 제품 개발",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 12유로 미만의 최저비용 생산",
+      "목표 2: 사용자 친화적 UI/UX 디자인",
+      "목표 3: 운동에너지와 음성인식 기술의 균형적 적용"
+    ],
+    "core_idea": "운동에너지와 음성인식 기술을 결합하여 경제적이고 사용자 친화적인 퍼스널 토스트 제품 개발",
+    "idea_description": "운동에너지와 음성인식 기술을 결합하여 경제적이고 사용자 친화적인 퍼스널 토스트 제품을 개발한다. 이 제품은 빨간 사과 버튼과 특수 소재를 활용하여 독특한 디자인을 강조하며, 운동에너지와 음성인식 기술을 통해 사용자의 요구에 신속하게 반응한다.",
+    "execution_plan": "1단계: 프로토타입 설계 및 초기 평가 (2024.01.01 ~ 2024.01.31)\n2단계: 사용자 피드백 수집 및 디자인 수정 (2024.02.01 ~ 2024.02.28)\n3단계: 최종 프로토타입 제작 및 생산 비용 최적화 (2024.03.01 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 12유로 미만의 저렴한 가격으로 시장 점유율 확대",
+      "기대효과 2: 사용자 경험 향상을 통한 고객 만족도 증가",
+      "기대효과 3: 운동에너지와 음성인식 기술의 혁신적 적용으로 제품 차별화"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_ES2014d/05_final_result.json",
+    "utterance_count": 317,
+    "original_transcript_length": 10631,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 10631
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4980
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-06T14:17:52.504315"
+  }
+}

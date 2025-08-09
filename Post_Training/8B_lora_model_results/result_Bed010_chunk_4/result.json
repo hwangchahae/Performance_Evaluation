@@ -1,0 +1,44 @@
+{
+  "id": "result_Bed010_processed_chunk_4",
+  "source_dir": "result_Bed010_processed",
+  "notion_output": {
+    "project_name": "SmartKom 및 EML 프로젝트 통합 분석기 개발",
+    "project_purpose": "SmartKom 및 EML 프로젝트의 기능을 통합하여 효율적인 분석기를 개발하고, 시스템의 전체적인 성능을 향상시키는 것",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: SmartKom 및 EML 프로젝트의 기능을 통합하여 새로운 분석기 개발",
+      "목표 2: 온톨로지 표준화 및 파서, 분석기 구축",
+      "목표 3: 시스템 통합 및 테스트를 통해 성능 검증"
+    ],
+    "core_idea": "SmartKom 및 EML 프로젝트의 기능을 결합하여 새로운 분석기를 개발하고, 시스템의 전체적인 성능을 향상시키는 것",
+    "idea_description": "SmartKom 및 EML 프로젝트의 기능을 결합하여 새로운 분석기를 개발하고, 이를 통해 시스템의 전체적인 성능을 향상시킴. 특히, 온톨로지 표준화 및 파서, 분석기 구축을 통해 시스템의 효율성을 높임.",
+    "execution_plan": "1단계: 프로젝트 초기 설계 및 요구사항 수집 (2024.01.01 ~ 2024.02.15)\n2단계: 온톨로지 표준화 및 파서, 분석기 구축 (2024.02.16 ~ 2024.04.15)\n3단계: 시스템 통합 및 테스트 (2024.04.16 ~ 2024.05.31)\n4단계: 최종 검토 및 수정 (2024.06.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 분석기의 성능 향상으로 인한 데이터 처리 효율성 증가",
+      "기대효과 2: 온톨로지 표준화로 인한 시스템의 일관성 및 접근성 향상",
+      "기대효과 3: 시스템 통합을 통해 전체 시스템의 성능 및 신뢰성 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bed010_processed/05_final_result.json",
+    "utterance_count": 677,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_E"
+    ],
+    "original_length": 23517,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-07T02:58:32.652359"
+  }
+}

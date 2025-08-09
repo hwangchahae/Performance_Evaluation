@@ -1,0 +1,36 @@
+{
+  "id": "train_165_chunk_3",
+  "source_dir": "result_EN2001d",
+  "notion_output": "```json\n{\n    \"project_name\": \"고급 데이터 관리 및 시각화 시스템 통합 프로젝트\",\n    \"project_purpose\": \"데이터 관리의 유연성과 무결성을 강화하고, 시각화 기능을 통해 사용자 경험을 혁신적으로 개선하는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"데이브\",\n    \"core_objectives\": [\n        \"목표 1: 데이터 관리자의 기능을 강화하여 모든 데이터를 효율적으로 관리하고, 데이터 충돌을 방지\",\n        \"목표 2: 2차원 정보의 컬러 디스플레이 기능을 개발하여 시각적 정보 전달을 최적화\",\n        \"목표 3: 회의 데이터의 연속적인 ID 관리 시스템을 개선하여 데이터 무결성을 유지\",\n        \"목표 4: 사용자 인터페이스를 개선하여 데이터 접근성과 이해도를 향상\"\n    ],\n    \"core_idea\": \"데이터 관리 및 시각화의 효율성을 높이기 위한 시스템 개선\",\n    \"idea_description\": \"데이터 관리자가 데이터를 필터링하고 프로그램 논리와 분리하여 유연한 데이터 관리를 가능하게 하며, 2차원 정보를 컬러로 시각화하여 사용자에게 직관적인 정보를 제공\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"데이터 관리자의 기능 강화\",\n            \"timeline\": \"2024.01.01 ~ 2024.01.31\",\n            \"details\": [\n                \"데이터 관리자가 고유한 ID를 통해 데이터를 관리하도록 시스템 개선\",\n                \"데이터 필터링 기능 추가 및 프로그램 논리와 데이터 분리\",\n                \"데이터 충돌 방지 로직 구현 및 테스트\"\n            ]\n        },\n        {\n            \"phase\": \"컬러 디스플레이 기능 개발\",\n            \"timeline\": \"2024.02.01 ~ 2024.02.28\",\n            \"details\": [\n                \"빨간색, 초록색, 파란색을 활용한 2차원 정보 시각화 기능 개발\",\n                \"사용자 인터페이스 디자인 개선 및 사용자 테스트 실시\",\n                \"컬러 디스플레이의 정보 전달 효율성 평가\"\n            ]\n        },\n        {\n            \"phase\": \"회의 데이터 ID 관리 시스템 개선\",\n            \"timeline\": \"2024.03.01 ~ 2024.03.31\",\n            \"details\": [\n                \"연속적인 ID 관리 시스템 구축 및 충돌 방지 로직 구현\",\n                \"데이터 무결성 검증 및 테스트\",\n                \"회의 데이터의 절대적 기여도 계산 프로그램 개발\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 데이터 관리의 효율성 증가로 인한 운영 비용 절감\",\n        \"기대효과 2: 사용자의 데이터 접근성과 이해도 향상\",\n        \"기대효과 3: 데이터 충돌 방지로 인한 데이터 무결성 유지\",\n        \"기대효과 4: 시각화 기능을 통한 사용자 경험의 질적 향상\",\n        \"기대효과 5: 회의 데이터 관리의 정확성과 신뢰성 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_EN2001d/05_final_result.json",
+    "utterance_count": 393,
+    "original_transcript_length": 15490,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 15490
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 4,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:38:46.869462"
+  }
+}

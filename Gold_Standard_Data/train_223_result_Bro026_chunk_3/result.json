@@ -1,0 +1,36 @@
+{
+  "id": "train_223_chunk_3",
+  "source_dir": "result_Bro026_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"고급 신경망 및 데이터 처리 최적화 프로젝트\",\n    \"project_purpose\": \"신경망 추가, 노이즈 추정기 개선, LDA RASTA 및 VAD 최적화를 통해 시스템 성능을 향상시키고 데이터 처리의 효율성을 극대화하기 위함\",\n    \"project_period\": \"2023.11.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 신경망 추가를 통한 인식 성능 최적화\",\n        \"목표 2: 노이즈 추정기 개선으로 인식 정확도 향상\",\n        \"목표 3: LDA RASTA 및 VAD 최적화를 통한 데이터 처리 효율성 증대\",\n        \"목표 4: 다운샘플링 및 고변조 주파수 제거를 통한 데이터 처리 시간 단축\",\n        \"목표 5: SVM 인식기와 가우스 혼합 모델의 조합을 통한 인식기 성능 최적화\"\n    ],\n    \"core_idea\": \"신경망과 노이즈 추정기 개선, LDA RASTA 및 VAD 최적화를 통해 시스템의 전반적인 성능을 향상시키고 효율적인 데이터 처리를 구현\",\n    \"idea_description\": \"기존 시스템에 신경망을 추가하여 인식 성능을 높이고, 노이즈 추정기를 개선하여 데이터 처리의 정확성을 높인다. 또한, LDA RASTA와 VAD 최적화를 통해 데이터 처리의 효율성을 극대화하며, 다운샘플링과 고변조 주파수 제거를 통해 처리 시간을 단축한다. SVM 인식기와 가우스 혼합 모델을 결합하여 인식기의 성능을 더욱 최적화한다.\",\n    \"execution_plan\": \"1. 신경망 추가 설계 및 구현 (2023.11.01 ~ 2023.11.30)\\n2. 노이즈 추정기 개선 및 테스트 (2023.12.01 ~ 2023.12.31)\\n3. LDA RASTA 및 VAD 최적화 적용 (2024.01.01 ~ 2024.01.31)\\n4. 다운샘플링 및 고변조 주파수 제거 적용 (2024.02.01 ~ 2024.02.15)\\n5. SVM 및 가우스 혼합 모델 통합 및 최적화 (2024.02.16 ~ 2024.03.15)\\n6. 전체 시스템 통합 및 최종 테스트 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 신경망 추가로 인한 인식 성능의 20% 향상\",\n        \"기대효과 2: 노이즈 추정기 개선으로 인한 데이터 처리 정확도 15% 증가\",\n        \"기대효과 3: LDA RASTA 및 VAD 최적화로 인한 처리 효율성 10% 증가\",\n        \"기대효과 4: 다운샘플링 및 고변조 주파수 제거로 인한 처리 시간 10% 단축\",\n        \"기대효과 5: SVM 인식기와 가우스 혼합 모델의 조합으로 인한 인식기 성능 15% 향상\"\n    ],\n    \"additional_notes\": [\n        \"LDA RASTA와 VAD 최적화는 서로 보완적이며, 시스템 성능 향상에 기여할 것으로 예상됨\",\n        \"SVM 인식기와 가우스 혼합 모델의 조합을 통해 인식기의 성능을 더욱 최적화할 계획\",\n        \"프로젝트 진행 중 발생할 수 있는 변수에 대해 유연하게 대응할 수 있는 계획 수립 필요\",\n        \"회의에서 논의된 다운샘플링 및 고변조 주파수 제거의 중요성을 반영하여 처리 시간 단축에 집중\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.2,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro026_processed/05_final_result.json",
+    "utterance_count": 554,
+    "original_transcript_length": 18490,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 18490
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 5,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:41:38.764176"
+  }
+}

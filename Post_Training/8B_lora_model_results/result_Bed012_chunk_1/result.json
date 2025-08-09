@@ -1,0 +1,41 @@
+{
+  "id": "result_Bed012_processed_chunk_1",
+  "source_dir": "result_Bed012_processed",
+  "notion_output": {
+    "project_name": "베이즈 네트워크 기반 상황 및 사용자 인식 시스템 개발",
+    "project_purpose": "XML 입력을 활용하여 상황 및 사용자의 행동 패턴을 분석하고, 이를 통해 효율적인 의사결정 지원을 제공하는 시스템 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: XML 입력을 통한 상황 및 사용자 데이터 수집 및 처리",
+      "목표 2: 베이즈 네트워크를 이용한 상황 및 사용자 행동 패턴 분석",
+      "목표 3: 분석 결과를 바탕으로 효율적인 의사결정 지원 시스템 구축"
+    ],
+    "core_idea": "XML 입력을 활용하여 상황 및 사용자의 행동 패턴을 분석하고, 이를 통해 효율적인 의사결정 지원을 제공하는 시스템",
+    "idea_description": "XML 입력을 통해 다양한 상황과 사용자 데이터를 수집하고, 베이즈 네트워크를 활용하여 데이터를 분석함으로써 상황 및 사용자의 행동 패턴을 이해하고, 이를 바탕으로 효율적인 의사결정을 지원하는 시스템을 개발",
+    "execution_plan": "1단계: XML 입력 데이터 수집 및 처리 (2024.01.01 ~ 2024.02.28)\n2단계: 베이즈 네트워크 모델 설계 및 학습 (2024.03.01 ~ 2024.04.30)\n3단계: 시스템 개발 및 테스트 (2024.05.01 ~ 2024.06.15)\n4단계: 최종 시스템 검증 및 배포 (2024.06.16 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 상황 및 사용자의 행동 패턴을 정확하게 분석하여 의사결정의 정확성을 높임",
+      "기대효과 2: XML 입력을 통한 데이터 수집 및 처리의 효율성 증대",
+      "기대효과 3: 베이즈 네트워크를 활용한 분석 결과를 바탕으로 한 의사결정 지원 시스템의 구축"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bed012_processed/05_final_result.json",
+    "utterance_count": 520,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "original_length": 17584,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-07T02:58:09.485835"
+  }
+}

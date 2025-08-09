@@ -1,0 +1,35 @@
+{
+  "id": "train_164_chunk_1",
+  "source_dir": "result_IS1002c",
+  "notion_output": "```json\n{\n    \"project_name\": \"혁신적 리모컨 디자인 및 마케팅 전략 프로젝트\",\n    \"project_purpose\": \"사용자 친화적이고 차별화된 리모컨 디자인 개발 및 효과적인 마케팅 전략 수립\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 인터페이스 개선을 통한 사용 편의성 향상\",\n        \"목표 2: 친환경 소재 사용으로 마케팅 경쟁력 강화\",\n        \"목표 3: 비용 효율적인 설계로 생산 비용 절감\",\n        \"목표 4: 효과적인 마케팅 전략 수립을 통한 브랜드 인지도 향상\"\n    ],\n    \"core_idea\": \"스크롤 휠과 버튼을 결합한 직관적 인터페이스 및 친환경 소재 사용\",\n    \"idea_description\": \"스크롤 휠을 통해 볼륨 조절 및 채널 전환을 쉽게 하고, 친환경 소재를 사용하여 제품의 차별성을 강조. LCD 사용 여부는 비용 효율성과 정보 제공의 필요성을 고려하여 결정.\",\n    \"execution_plan\": [\n        \"1단계: 디자인 컨셉 확정 및 LCD 사용 여부 결정 (2024.01.01 ~ 2024.02.15)\",\n        \"2단계: 프로토타입 제작 및 테스트 (2024.02.16 ~ 2024.04.15)\",\n        \"3단계: 최종 디자인 확정 및 생산 준비 (2024.04.16 ~ 2024.06.30)\",\n        \"4단계: 마케팅 전략 개발 및 실행 (2024.05.01 ~ 2024.06.30)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상으로 인한 시장 점유율 증가\",\n        \"기대효과 2: 친환경 이미지 구축을 통한 브랜드 가치 상승\",\n        \"기대효과 3: 생산 비용 절감을 통한 가격 경쟁력 확보\",\n        \"기대효과 4: 차별화된 마케팅 전략을 통한 브랜드 인지도 및 매출 증가\"\n    ],\n    \"additional_information\": {\n        \"LCD 관련 논의\": \"LCD 사용은 비용과 정보 제공의 필요성을 고려하여 결정할 예정이며, 필요 시 소매 및 도매 가격 조정 가능.\",\n        \"마케팅 전략\": \"제품의 독특한 디자인과 친환경 소재를 강조하며, 시장에서의 차별화를 위해 새로운 기술 및 가격 전략을 포함할 것.\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1002c/05_final_result.json",
+    "utterance_count": 254,
+    "original_transcript_length": 9730,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 9730
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4993
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:36:37.194144"
+  }
+}

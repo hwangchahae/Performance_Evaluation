@@ -1,0 +1,66 @@
+============================================================
+로컬 회의록 유사도 평가 요약 (랜덤 샘플링)
+============================================================
+
+평가 시간: 2025-08-10T02:28:37.213549
+전체 파일 수: 148
+샘플링 크기: 100
+실제 평가 파일 수: 100
+샘플링 비율: 67.6%
+랜덤 시드: 42
+
+평균 점수:
+  - TF-IDF 코사인 유사도: 0.2846
+  - Embedding 코사인 유사도: 0.8995
+
+============================================================
+상위/하위 성능 파일
+============================================================
+
+[TF-IDF 기준] 상위 5개 파일:
+1. val_056_result_Bmr012_chunk_2
+   - TF-IDF: 0.4788, Embedding: 0.9284
+2. val_035_result_IS1000d_chunk_2
+   - TF-IDF: 0.4784, Embedding: 0.9326
+3. val_039_result_IS1009b_chunk_2
+   - TF-IDF: 0.4660, Embedding: 0.9558
+4. val_025_result_IS1000b_chunk_2
+   - TF-IDF: 0.4539, Embedding: 0.9581
+5. val_063_result_IS1009d_chunk_1
+   - TF-IDF: 0.4461, Embedding: 0.9785
+
+[TF-IDF 기준] 하위 5개 파일:
+1. val_034_result_Bed012_chunk_3
+   - TF-IDF: 0.1623, Embedding: 0.9489
+2. val_040_result_Bmr013_chunk_3
+   - TF-IDF: 0.1505, Embedding: 0.8409
+3. val_030_result_Bed009_chunk_4
+   - TF-IDF: 0.1502, Embedding: 0.8951
+4. val_066_result_Bed002_chunk_3
+   - TF-IDF: 0.1458, Embedding: 0.8786
+5. val_046_result_Bmr028_chunk_3
+   - TF-IDF: 0.1438, Embedding: 0.8232
+
+[Embedding 기준] 상위 5개 파일:
+1. val_063_result_IS1009d_chunk_1
+   - TF-IDF: 0.4461, Embedding: 0.9785
+2. val_002_result_ES2014a
+   - TF-IDF: 0.3607, Embedding: 0.9732
+3. val_066_result_Bed002_chunk_1
+   - TF-IDF: 0.3973, Embedding: 0.9695
+4. val_030_result_Bed009_chunk_1
+   - TF-IDF: 0.3347, Embedding: 0.9678
+5. val_021_result_Bro011_chunk_5
+   - TF-IDF: 0.3140, Embedding: 0.9583
+
+[Embedding 기준] 하위 5개 파일:
+1. val_029_result_Bed016_chunk_1
+   - TF-IDF: 0.1790, Embedding: 0.8309
+2. val_055_result_ES2007b_chunk_2
+   - TF-IDF: 0.2001, Embedding: 0.8256
+3. val_046_result_Bmr028_chunk_3
+   - TF-IDF: 0.1438, Embedding: 0.8232
+4. val_029_result_Bed016_chunk_4
+   - TF-IDF: 0.1735, Embedding: 0.8131
+5. val_040_result_Bmr013_chunk_2
+   - TF-IDF: 0.1734, Embedding: 0.7971

@@ -1,0 +1,35 @@
+{
+  "id": "train_246_chunk_2",
+  "source_dir": "result_ES2007c",
+  "notion_output": "```json\n{\n    \"project_name\": \"블루투스 리모컨 혁신 프로젝트\",\n    \"project_purpose\": \"기존 리모컨의 기술적 한계를 넘어서고, 사용자 경험을 향상시키는 혁신적인 블루투스 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"캐서린\",\n    \"core_objectives\": [\n        \"목표 1: 블루투스 기능을 탑재한 리모컨 설계 및 프로토타입 제작\",\n        \"목표 2: 운동 에너지를 활용한 자가 충전 시스템 개발\",\n        \"목표 3: 사용자 맞춤형 색상 선택 기능 구현\"\n    ],\n    \"core_idea\": \"블루투스 기술을 활용하여 기존 리모컨의 한계를 극복하고, 사용자 경험을 혁신적으로 개선\",\n    \"idea_description\": \"기술적으로 진보된 블루투스 리모컨을 개발하여, 다른 전자기기와의 동기화 및 자가 충전 기능을 통해 사용자 편의성을 극대화\",\n    \"execution_plan\": \"1단계: 시장 조사 및 기술 요구사항 분석 (2024.01.01 ~ 2024.01.31)\\n2단계: 블루투스 및 자가 충전 시스템 설계 (2024.02.01 ~ 2024.03.15)\\n3단계: 프로토타입 제작 및 테스트 (2024.03.16 ~ 2024.04.30)\\n4단계: 사용자 피드백 수집 및 개선 (2024.05.01 ~ 2024.05.31)\\n5단계: 최종 제품 출시 준비 (2024.06.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 편의성 증가로 인한 고객 만족도 향상\",\n        \"기대효과 2: 혁신적인 기능 도입으로 시장 경쟁력 강화\",\n        \"기대효과 3: 친환경적 에너지 사용으로 브랜드 이미지 개선\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2007c/05_final_result.json",
+    "utterance_count": 278,
+    "original_transcript_length": 9028,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 9028
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 4550
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:04:45.995072"
+  }
+}

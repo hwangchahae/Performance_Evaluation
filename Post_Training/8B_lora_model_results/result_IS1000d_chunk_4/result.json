@@ -1,0 +1,41 @@
+{
+  "id": "result_IS1000d_chunk_4",
+  "source_dir": "result_IS1000d",
+  "notion_output": {
+    "project_name": "저비용 디자인 프로젝트",
+    "project_purpose": "예산 내에서 효율적인 디자인 솔루션 개발",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 예산 내에서 전문적인 디자인 솔루션 개발",
+      "목표 2: 디자인 양의 증가에 따른 효율성 확보",
+      "목표 3: 비용 절감을 통한 경영 효율성 향상"
+    ],
+    "core_idea": "저비용으로도 고성능 디자인 솔루션 제공",
+    "idea_description": "전문적인 디자이너 없이도 양이 많은 디자인 작업을 효율적으로 수행하기 위한 방법론 개발.",
+    "execution_plan": "1단계: 예산 및 요구사항 분석 (2024.01.01 ~ 2024.01.15)\n2단계: 디자인 솔루션 설계 및 검토 (2024.01.16 ~ 2024.02.15)\n3단계: 최종 디자인 개발 및 발표 (2024.02.16 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 예산 초과 없이 프로젝트 성공",
+      "기대효과 2: 디자인 작업의 효율성 향상",
+      "기대효과 3: 비용 절감으로 인한 경영 효율성 증대"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_IS1000d/05_final_result.json",
+    "utterance_count": 433,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C"
+    ],
+    "original_length": 13960,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-07T02:49:12.731502"
+  }
+}

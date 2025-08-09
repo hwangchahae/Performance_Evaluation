@@ -1,0 +1,45 @@
+{
+  "id": "train_008_chunk_2",
+  "source_dir": "result_제22대국회 제426회(임시회) 제2차 산업통상자원중소벤처기업위원회(전체회의) (2025.07.04.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"한미 관세 협상 프로젝트\",\n    \"project_purpose\": \"한미 간 상호호혜적 관세 협상을 통해 국익을 최우선으로 하는 합의 도출\",\n    \"project_period\": \"2023.07.05 ~ 2023.09.30\",\n    \"project_manager\": \"여한구 본부장\",\n    \"core_objectives\": [\n        \"목표 1: 미국과의 관세 협상을 통해 관세 철폐 및 상호호혜적 합의 도출\",\n        \"목표 2: 우리 기업의 대미 투자 관련 제약 사항 완화\",\n        \"목표 3: 산업별 대응 전략 마련 및 민관 협력 채널 활용\"\n    ],\n    \"core_idea\": \"한미 간 관세 협상을 통해 경제적 이익을 극대화하고, 전략적 협력 관계를 구축\",\n    \"idea_description\": \"미국의 관세 조치에 대응하여 우리나라의 경제적 이익을 극대화하고, 상호호혜적 협력을 통해 국익을 보호하는 협상 전략을 수립\",\n    \"execution_plan\": \"1단계: 7월 5일 워싱턴에서 고위급 협상 진행\\n2단계: 협상 진행 경과에 따라 상호관세 유예 연장 검토\\n3단계: 산업별 대응 전략 마련 및 민관 협력 채널 활용\\n4단계: 협상 타결을 위한 고위급 및 실무급 협상 집중 실시\",\n    \"expected_effects\": [\n        \"기대효과 1: 관세 철폐 시 실질 GDP 최대 1.554% 상승\",\n        \"기대효과 2: 소비자 후생 최대 347.3억 달러 증가\",\n        \"기대효과 3: 대미 무역수지 개선 및 산업별 대응 전략 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 8.6,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제426회(임시회) 제2차 산업통상자원중소벤처기업위원회(전체회의) (2025.07.04.)/05_final_result.json",
+    "utterance_count": 252,
+    "original_transcript_length": 17122,
+    "speakers": [
+      "박지혜 위원",
+      "송재봉 위원",
+      "장철민 위원",
+      "위원장 이철규",
+      "김원이 위원",
+      "구자근 위원",
+      "허성무 위원",
+      "정진욱 위원",
+      "강승규 위원",
+      "산업통상자원부통상교섭본부장 여한구",
+      "산업통상자원부제1차관 문신학",
+      "서일준 위원",
+      "전재수 위원",
+      "이언주 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 17122
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 4,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T16:48:05.595770"
+  }
+}

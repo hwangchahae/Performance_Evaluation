@@ -1,0 +1,35 @@
+{
+  "id": "train_241_chunk_4",
+  "source_dir": "result_ES2008d",
+  "notion_output": "```json\n{\n    \"project_name\": \"회의록 체계화 및 색상 전략 최적화 프로젝트\",\n    \"project_purpose\": \"회의록을 체계적으로 작성하고 색상 전략을 구체적으로 분석하여 마케팅 방향성을 명확히 함과 동시에 지적 재산권을 보호\",\n    \"project_period\": \"2023.11.01 ~ 2023.12.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 모든 회의 내용을 포함한 체계적이고 포괄적인 회의록 작성\",\n        \"목표 2: 마케팅 색상 전략에 대한 구체적인 분석 및 실행 가능한 개선 방안 도출\",\n        \"목표 3: 지적 재산권 관련 사항에 대한 구체적인 검토 및 보호 방안 마련\"\n    ],\n    \"core_idea\": \"회의록의 체계적 작성과 색상 전략의 구체적 분석을 통해 마케팅 방향을 명확히 하고, 지적 재산권을 보호\",\n    \"idea_description\": \"모든 회의 내용을 체계적으로 정리하여 업무의 투명성을 높이고, 색상 전략을 구체적으로 분석하여 마케팅 효과를 극대화하며, 지적 재산권 보호를 위한 구체적인 방안을 마련합니다.\",\n    \"execution_plan\": [\n        \"1. 회의록 작성: 2023.11.01 ~ 2023.11.15 - 모든 회의 내용을 포괄하여 체계적으로 정리\",\n        \"2. 색상 전략 분석: 2023.11.16 ~ 2023.11.30 - 슬로건 및 색상 관련 구체적 논의를 바탕으로 개선 방안 도출\",\n        \"3. 지적 재산권 검토: 2023.12.01 ~ 2023.12.15 - 지적 재산권 관련 구체적인 논의를 통해 보호 방안 마련\",\n        \"4. 최종 보고서 작성 및 제출: 2023.12.16 ~ 2023.12.31 - 프로젝트 결과를 종합하여 보고서 작성\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 체계적인 회의록을 통해 업무의 투명성과 효율성 증대\",\n        \"기대효과 2: 구체적인 색상 전략 개선을 통한 마케팅 효과 증대\",\n        \"기대효과 3: 지적 재산권 보호를 통한 기업 자산의 안전성 강화\"\n    ],\n    \"additional_notes\": [\n        \"회의에서 논의된 슬로건 및 색상 관련 구체적인 내용은 노란색과 회색의 조합을 고려하여 분석\",\n        \"지적 재산권 관련 논의는 '지적 재산권'이라는 용어 사용과 관련된 법적 검토 포함\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 5.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2008d/05_final_result.json",
+    "utterance_count": 417,
+    "original_transcript_length": 14373,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 14373
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 4,
+      "chunk_length": 935
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T07:49:13.866792"
+  }
+}

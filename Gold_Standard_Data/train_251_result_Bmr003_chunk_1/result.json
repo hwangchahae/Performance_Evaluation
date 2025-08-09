@@ -1,0 +1,37 @@
+{
+  "id": "train_251_chunk_1",
+  "source_dir": "result_Bmr003_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"회의 전사 및 데이터 유통 프로세스 최적화\",\n    \"project_purpose\": \"회의 전사 및 데이터 유통의 효율성을 높이고 보안을 강화하여 운영의 신뢰성을 확보\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"데이비드\",\n    \"core_objectives\": [\n        \"목표 1: 라벨링 품질 개선을 위한 라벨링 기계 대여 및 테스트\",\n        \"목표 2: 데이터 유통 형식 표준화 및 물류 최적화 방안 수립\",\n        \"목표 3: 보안 강화 및 모니터링 체계 구축\",\n        \"목표 4: 전사 프로세스 개선을 위한 기술적 논의 반영\",\n        \"목표 5: PCMCIA 카드 및 드라이버 관련 문제 해결\"\n    ],\n    \"core_idea\": \"전사 및 데이터 유통의 효율성을 높이고 보안을 강화하기 위한 체계적인 접근\",\n    \"idea_description\": \"회의에서 논의된 내용을 바탕으로, 라벨링 품질 개선, 데이터 유통 형식 표준화, 보안 강화, 전사 프로세스 개선, 그리고 PCMCIA 카드 및 드라이버 문제 해결을 위한 구체적인 실행 계획을 수립하여 최적화\",\n    \"execution_plan\": [\n        {\n            \"단계\": \"1단계\",\n            \"내용\": \"라벨링 기계 대여 및 테스트\",\n            \"기간\": \"2023.11.01 ~ 2023.11.15\",\n            \"책임자\": \"데이비드\"\n        },\n        {\n            \"단계\": \"2단계\",\n            \"내용\": \"데이터 유통 형식 표준화 및 물류 최적화 방안 수립\",\n            \"기간\": \"2023.11.16 ~ 2023.12.15\",\n            \"책임자\": \"데이비드\"\n        },\n        {\n            \"단계\": \"3단계\",\n            \"내용\": \"보안 강화 및 모니터링 체계 구축\",\n            \"기간\": \"2023.12.16 ~ 2024.01.31\",\n            \"책임자\": \"데이비드\"\n        },\n        {\n            \"단계\": \"4단계\",\n            \"내용\": \"전사 프로세스 개선을 위한 기술적 논의 반영\",\n            \"기간\": \"2023.11.01 ~ 2024.01.31\",\n            \"책임자\": \"데이비드\"\n        },\n        {\n            \"단계\": \"5단계\",\n            \"내용\": \"PCMCIA 카드 및 드라이버 관련 문제 해결\",\n            \"기간\": \"2023.11.01 ~ 2023.11.30\",\n            \"책임자\": \"데이비드\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 라벨링 품질 개선으로 인한 데이터 정확성 향상\",\n        \"기대효과 2: 데이터 유통 효율성 증대로 인한 운영 비용 절감\",\n        \"기대효과 3: 보안 강화로 인한 데이터 유출 방지 및 신뢰성 향상\",\n        \"기대효과 4: 전사 프로세스 개선으로 인한 회의 기록의 정확성 및 활용도 증가\",\n        \"기대효과 5: PCMCIA 카드 및 드라이버 문제 해결로 인한 시스템 안정성 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 5.6,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr003_processed/05_final_result.json",
+    "utterance_count": 831,
+    "original_transcript_length": 27783,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 27783
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 7,
+      "chunk_length": 4980
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:40:22.855240"
+  }
+}

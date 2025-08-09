@@ -1,0 +1,35 @@
+{
+  "id": "train_147_chunk_4",
+  "source_dir": "result_EN2006a",
+  "notion_output": "```json\n{\n    \"project_name\": \"라이먼 알파 숲 및 스펙트럼 분석 최적화 프로젝트\",\n    \"project_purpose\": \"라이먼 알파 숲과 관련된 스펙트럼 분석을 통해 라인 블랭킷팅 및 H알파 검출을 최적화하고, 기술적 세부사항을 반영하여 분석의 정확도와 효율성을 향상\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: H알파 검출의 정확도 향상\",\n        \"목표 2: 라인 블랭킷팅 규칙 최적화\",\n        \"목표 3: 라이먼 알파 숲의 스펙트럼 특징 분석 강화\",\n        \"목표 4: VLBA 및 관련 기술을 활용한 스펙트럼 분석 개선\",\n        \"목표 5: 회의에서 논의된 기술적 세부사항을 반영하여 프로젝트의 논리적 일관성 강화\"\n    ],\n    \"core_idea\": \"라이먼 알파 숲 및 광대역 감지 기술을 활용한 스펙트럼 분석 최적화\",\n    \"idea_description\": \"라이먼 알파 숲과 관련된 스펙트럼 분석을 통해 라인 블랭킷팅 및 H알파 검출을 최적화하고, VLBA 기술을 활용하여 분석의 정확도를 높입니다. 회의에서 논의된 기술적 세부사항을 반영하여 프로젝트의 일관성을 강화합니다.\",\n    \"execution_plan\": \"1단계: 현재 시스템 분석 및 문제점 파악 (2024.01.01 ~ 2024.02.15)\\\\n2단계: 라이먼 알파 숲 관련 스펙트럼 분석 강화 및 라인 블랭킷팅 규칙 재정립 (2024.02.16 ~ 2024.03.31)\\\\n3단계: VLBA 기술을 활용한 H알파 검출 시스템 개선 및 검증 (2024.04.01 ~ 2024.05.15)\\\\n4단계: 회의에서 논의된 기술적 세부사항 반영 및 최종 시스템 통합 (2024.05.16 ~ 2024.06.15)\\\\n5단계: 최종 성능 평가 및 보고서 작성 (2024.06.16 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: H알파 검출의 정확도 20% 향상\",\n        \"기대효과 2: 라인 블랭킷팅 규칙의 일관성 및 효율성 증가\",\n        \"기대효과 3: 라이먼 알파 숲 분석을 통한 스펙트럼 분석의 정확도 향상\",\n        \"기대효과 4: VLBA 기술 활용으로 인한 스펙트럼 분석의 정밀도 증가\",\n        \"기대효과 5: 회의에서 논의된 기술적 세부사항 반영으로 인한 프로젝트의 논리적 일관성 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_EN2006a/05_final_result.json",
+    "utterance_count": 635,
+    "original_transcript_length": 21409,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 21409
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:42:34.046707"
+  }
+}

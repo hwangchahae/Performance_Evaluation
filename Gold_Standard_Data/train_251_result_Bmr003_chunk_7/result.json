@@ -1,0 +1,37 @@
+{
+  "id": "train_251_chunk_7",
+  "source_dir": "result_Bmr003_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"Trellix와 TCLTK를 활용한 웹사이트 개발 및 멀티채널 최적화 프로젝트\",\n    \"project_purpose\": \"Trellix와 TCLTK의 구체적인 기능을 활용하여 웹사이트 개발의 효율성을 높이고, 멀티채널 기능을 최적화하여 사용자 경험을 개선\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: Trellix를 활용하여 사이트맵 생성 자동화 및 관리 효율성 향상\",\n        \"목표 2: TCLTK를 활용한 멀티채널 기능 최적화 및 사용자 경험 개선\",\n        \"목표 3: 원시 HTML 편집 기능 강화로 사용자 편의성 증대\"\n    ],\n    \"core_idea\": \"Trellix와 TCLTK의 강력한 기능을 활용하여 웹사이트 개발의 복잡성을 줄이고, 멀티채널 기능을 최적화하여 효율성을 높이는 프로젝트\",\n    \"idea_description\": \"Trellix는 사이트맵 생성 및 관리 자동화를 통해 웹사이트 구조를 효율적으로 관리하며, TCLTK는 멀티채널 기능을 최적화하여 사용자 경험을 개선합니다. 이를 통해 웹사이트 개발의 효율성을 극대화합니다.\",\n    \"execution_plan\": [\n        \"1단계: Trellix를 활용한 사이트맵 자동 생성 및 관리 시스템 구축 (2024.01.01 ~ 2024.01.31)\",\n        \"2단계: TCLTK를 활용한 멀티채널 기능 최적화 및 테스트 (2024.02.01 ~ 2024.02.28)\",\n        \"3단계: 원시 HTML 편집 기능 강화 및 최종 검토 (2024.03.01 ~ 2024.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: Trellix를 통한 사이트맵 생성 자동화로 관리 용이성 향상\",\n        \"기대효과 2: TCLTK를 활용한 멀티채널 기능 최적화로 사용자 경험 개선\",\n        \"기대효과 3: 원시 HTML 편집 기능 강화를 통한 개발 시간 단축 및 효율성 증대\"\n    ],\n    \"additional_details\": {\n        \"Trellix 기능\": \"Trellix는 사이트맵을 자동으로 생성하고 관리할 수 있는 도구로, 웹사이트의 구조를 효율적으로 관리할 수 있습니다.\",\n        \"TCLTK 기능\": \"TCLTK는 멀티채널 기능을 최적화하여 사용자 경험을 개선할 수 있는 도구로, 다양한 채널에서 일관된 사용자 경험을 제공합니다.\",\n        \"멀티채널 구현 방법\": \"TCLTK를 활용하여 다양한 채널에서의 사용자 인터페이스를 통합하고, 사용자 경험을 일관되게 유지합니다.\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 5.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr003_processed/05_final_result.json",
+    "utterance_count": 831,
+    "original_transcript_length": 27783,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 27783
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 7,
+      "total_chunks": 7,
+      "chunk_length": 874
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:43:55.969035"
+  }
+}

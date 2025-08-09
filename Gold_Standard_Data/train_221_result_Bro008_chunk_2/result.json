@@ -1,0 +1,35 @@
+{
+  "id": "train_221_chunk_2",
+  "source_dir": "result_Bro008_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"차량 내 음성 인식 시스템 개선 프로젝트\",\n    \"project_purpose\": \"차량 내 다양한 환경에서의 음성 인식 정확도 향상\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Sunil\",\n    \"core_objectives\": [\n        \"목표 1: 다양한 운전 조건에서 음성 인식 데이터 수집 및 분석\",\n        \"목표 2: 훈련 및 테스트 데이터셋의 최적화\",\n        \"목표 3: 오류율 30~60% 감소\"\n    ],\n    \"core_idea\": \"차량 내 음성 인식 시스템의 현실적 사용 조건에 맞춘 개선\",\n    \"idea_description\": \"차량 내 다양한 마이크 위치와 운전 조건을 고려하여 음성 인식 시스템의 정확도를 향상시키는 프로젝트입니다. 훈련 데이터와 테스트 데이터를 최적화하여 실제 사용 환경에서의 성능을 개선합니다.\",\n    \"execution_plan\": \"1. 데이터 수집 및 분석 (2023.11.01 ~ 2023.11.30)\\n2. 데이터셋 최적화 및 훈련 (2023.12.01 ~ 2023.12.31)\\n3. 시스템 테스트 및 오류율 감소 (2024.01.01 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 음성 인식 시스템의 정확도 향상으로 사용자 만족도 증가\",\n        \"기대효과 2: 오류율 감소로 인한 시스템 신뢰성 향상\",\n        \"기대효과 3: 다양한 환경에서의 데이터 수집 및 분석 역량 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro008_processed/05_final_result.json",
+    "utterance_count": 155,
+    "original_transcript_length": 6264,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 6264
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 1818
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:35:08.819284"
+  }
+}

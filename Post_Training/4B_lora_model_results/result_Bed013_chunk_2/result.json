@@ -1,0 +1,48 @@
+{
+  "id": "val_318_chunk_2",
+  "source_dir": "result_Bed013_processed",
+  "notion_output": {
+    "project_name": "AI 기반 인지 및 동기 부여 분석 프로젝트",
+    "project_purpose": "AI를 활용하여 인간의 인지적 특성과 동기 부여를 분석하고, 이를 통해 개인화된 학습 환경을 개선하기 위한 연구",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_E",
+    "core_objectives": [
+      "목표 1: AI를 통한 인지적 특성 분석 방법론 개발",
+      "목표 2: 동기 부여 요소를 반영한 맞춤형 학습 환경 설계",
+      "목표 3: 국제 학회 발표 준비 및 논문 제출"
+    ],
+    "core_idea": "AI 기술을 활용하여 인간의 인지적 특성과 동기 부여를 분석하고, 이를 통해 개인화된 학습 환경을 개선하는 연구",
+    "idea_description": "AI를 사용하여 인간의 인지적 특성과 동기 부여 요소를 분석하고, 이를 통해 개인화된 학습 환경을 설계하며, 이러한 분석 결과를 바탕으로 국제 학회에 발표하고 논문을 제출함.",
+    "execution_plan": "1단계: AI 분석 방법론 개발 (2024.01.01 ~ 2024.02.28)\n2단계: 동기 부여 요소 반영한 맞춤형 학습 환경 설계 (2024.03.01 ~ 2024.04.30)\n3단계: 국제 학회 발표 준비 및 논문 제출 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 개인화된 학습 환경을 통해 학습 효율성 증가",
+      "기대효과 2: AI 기반 분석을 통한 학습자 성과 향상",
+      "기대효과 3: 국제 학회 발표를 통한 연구 영향력 확대"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_Bed013_processed/05_final_result.json",
+    "utterance_count": 744,
+    "original_transcript_length": 24608,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 24608
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-06T16:26:46.164639"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "train_121_chunk_2",
+  "source_dir": "result_EN2001e",
+  "notion_output": "```json\n{\n    \"project_name\": \"사운드 카드 없는 환경에서의 소프트웨어 개발 및 테스트 최적화\",\n    \"project_purpose\": \"사운드 카드가 없는 컴퓨터에서도 소프트웨어를 효과적으로 개발하고 테스트할 수 있는 환경을 구축하여 개발 효율성을 높임\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 사운드 카드가 없는 환경에서도 소프트웨어 테스트가 가능하도록 더미 값을 반환하는 스크립트 개발\",\n        \"목표 2: Linux 환경에서 NetBeans 및 기타 개발 도구 설치 및 설정\",\n        \"목표 3: 표준 편차를 활용한 자동 매핑 기능 구현\",\n        \"목표 4: 사운드 카드 없는 환경에서의 기타 기술적 문제 해결 및 시스템 안정성 강화\",\n        \"목표 5: SSH 설정 및 키 파일 관리 문제 해결\"\n    ],\n    \"core_idea\": \"사운드 카드가 없는 환경에서도 소프트웨어 개발과 테스트가 원활히 이루어질 수 있도록 시스템을 최적화하고, 개발 환경을 다각도로 지원\",\n    \"idea_description\": \"사운드 카드가 없는 컴퓨터에서도 소프트웨어가 정상 작동하도록 더미 값을 반환하는 스크립트를 개발하고, Linux 환경에서의 개발을 지원하기 위해 NetBeans와 기타 필요한 개발 도구를 설치합니다. 표준 편차를 활용하여 자동 매핑 기능을 구현하여 테스트의 효율성을 높이며, SSH 설정 및 키 파일 관리 문제를 해결하여 개발 환경의 안정성을 강화합니다. 추가로, 사운드 카드 없는 환경에서 발생할 수 있는 기타 기술적 문제를 해결합니다.\",\n    \"execution_plan\": [\n        \"1단계: 더미 값을 반환하는 스크립트 개발 및 테스트 (2024.01.01 ~ 2024.01.31)\",\n        \"2단계: Linux 환경에서 NetBeans 및 추가 개발 도구 설치 및 설정 (2024.02.01 ~ 2024.02.15)\",\n        \"3단계: 표준 편차를 활용한 자동 매핑 기능 구현 (2024.02.16 ~ 2024.03.15)\",\n        \"4단계: SSH 설정 및 키 파일 관리 문제 해결 (2024.02.16 ~ 2024.03.15)\",\n        \"5단계: 사운드 카드 없는 환경에서의 기타 기술적 문제 해결 (2024.02.16 ~ 2024.03.15)\",\n        \"6단계: 전체 시스템 통합 테스트 및 최종 검토 (2024.03.16 ~ 2024.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사운드 카드 유무에 관계없이 소프트웨어 테스트 가능\",\n        \"기대효과 2: 개발 환경의 유연성 증가로 인한 개발 속도 향상\",\n        \"기대효과 3: 자동 매핑 기능을 통한 테스트 효율성 및 정확성 향상\",\n        \"기대효과 4: SSH 설정 및 키 파일 관리 문제 해결로 인한 개발 환경 안정성 강화\",\n        \"기대효과 5: 사운드 카드 없는 환경에서의 기타 기술적 문제 해결로 인한 시스템 안정성 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_EN2001e/05_final_result.json",
+    "utterance_count": 391,
+    "original_transcript_length": 14912,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 14912
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 4,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:33:12.509143"
+  }
+}

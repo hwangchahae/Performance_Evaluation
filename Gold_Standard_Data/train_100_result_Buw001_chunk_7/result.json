@@ -1,0 +1,39 @@
+{
+  "id": "train_100_chunk_7",
+  "source_dir": "result_Buw001_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"다양성과 효율성을 위한 회의 및 보고 체계 최적화 프로젝트\",\n    \"project_purpose\": \"다양한 그룹의 참여를 통해 회의 중복을 줄이고, 보고 체계 및 쿼리 처리 방식을 개선하여 업무 효율성을 극대화하는 것\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 다양한 그룹의 참여를 통해 회의 중복을 최소화하고 효율성을 높인다\",\n        \"목표 2: 구두 요약 및 보고 체계를 개선하여 정보 전달의 정확성을 높인다\",\n        \"목표 3: 구체적인 쿼리 처리 및 보상 체계를 확립하여 데이터 관리 효율성을 높인다\"\n    ],\n    \"core_idea\": \"회의와 보고 체계의 효율성을 높여 업무 생산성을 향상시키고, 다양한 그룹의 참여를 통해 더 나은 결과를 도출하는 것\",\n    \"idea_description\": \"다양한 그룹의 참여를 통해 회의 중복을 줄이고, 구두 요약의 자격 요건을 명확히 하며, 쿼리 처리에 대한 구체적인 방법과 보상 체계를 도입하여 업무 효율성을 높인다.\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"1단계\",\n            \"description\": \"다양한 그룹의 참여를 통한 회의 중복 최소화 방안 연구 및 적용\",\n            \"period\": \"2023.11.01 ~ 2023.11.30\",\n            \"details\": \"다양한 배경과 전문성을 가진 그룹을 활용하여 회의의 다양성과 창의성을 증대시키고, 중복 회의를 줄이기 위한 구체적인 전략 수립\"\n        },\n        {\n            \"phase\": \"2단계\",\n            \"description\": \"구두 요약 및 보고 체계 개선, 자격 요건 명확화\",\n            \"period\": \"2023.12.01 ~ 2023.12.31\",\n            \"details\": \"구두 요약의 자격 요건을 명확히 하고, 두 명의 독립적인 요약자가 서로의 요약을 듣지 않고 요약을 제공하여 정보의 정확성을 검증\"\n        },\n        {\n            \"phase\": \"3단계\",\n            \"description\": \"구체적인 쿼리 처리 방법 및 보상 체계 확립\",\n            \"period\": \"2024.01.01 ~ 2024.01.31\",\n            \"details\": \"쿼리당 보상 체계를 도입하여, 쿼리의 난이도에 따라 보상을 차등 지급하고, 쿼리 처리의 효율성을 높이기 위한 구체적인 방법론 개발\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 다양한 그룹의 참여로 인한 회의 중복 감소 및 시간 절약\",\n        \"기대효과 2: 보고 체계 개선을 통한 정보 전달의 정확성 향상\",\n        \"기대효과 3: 구체적인 쿼리 처리 방법 도입으로 인한 데이터 관리 효율성 증가\"\n    ],\n    \"additional_details\": {\n        \"query_processing\": {\n            \"method\": \"쿼리당 보상 체계를 도입하여, 쿼리의 난이도에 따라 보상을 차등 지급\",\n            \"reward\": \"쿼리당 1달러의 기본 보상, 난이도에 따라 추가 보상\",\n            \"specifics\": \"쿼리 수준에 따라 보상 차등화, 높은 난이도의 쿼리에 대한 추가 보상 제공\"\n        },\n        \"diverse_groups\": {\n            \"usage_plan\": \"다양한 배경과 전문성을 가진 그룹을 활용하여 회의의 다양성과 창의성을 증대\",\n            \"specifics\": \"회의 중복을 줄이고, 창의적이고 다양한 관점을 반영하기 위한 그룹 구성 전략 수립\"\n        }\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Buw001_processed/05_final_result.json",
+    "utterance_count": 823,
+    "original_transcript_length": 28612,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 28612
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 7,
+      "total_chunks": 7,
+      "chunk_length": 1697
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T00:31:36.831691"
+  }
+}

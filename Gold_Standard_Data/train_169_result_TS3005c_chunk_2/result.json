@@ -1,0 +1,35 @@
+{
+  "id": "train_169_chunk_2",
+  "source_dir": "result_TS3005c",
+  "notion_output": "```json\n{\n    \"project_name\": \"다기능 리모컨 개발 및 사용자 경험 강화 프로젝트\",\n    \"project_purpose\": \"사용자 친화적이고 내구성이 뛰어난 다양한 색상 옵션의 다기능 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 친화적인 인터페이스 설계 및 다양한 사용자 인터페이스 옵션 제공\",\n        \"목표 2: 다양한 색상과 소재를 활용한 리모컨 디자인 및 내구성 강화\",\n        \"목표 3: 리모컨의 버튼 배치 최적화 및 기능성 향상\"\n    ],\n    \"core_idea\": \"고무와 티타늄을 활용한 다기능 리모컨으로 사용자 경험 개선\",\n    \"idea_description\": \"고무 소재를 사용하여 다양한 색상을 구현하고, 티타늄을 통해 내구성을 강화하며, 사용자 인터페이스를 최적화하여 리모컨을 개발\",\n    \"execution_plan\": \"1단계: 디자인 컨셉 확정 및 색상 옵션 결정 (2024.01.01 ~ 2024.01.31)\\n2단계: 프로토타입 제작 및 버튼 배치 테스트 (2024.02.01 ~ 2024.03.31)\\n3단계: 사용자 피드백 수집 및 인터페이스 개선 (2024.04.01 ~ 2024.05.15)\\n4단계: 최종 제품 출시 준비 및 마케팅 전략 수립 (2024.05.16 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상 및 브랜드 충성도 증가\",\n        \"기대효과 2: 시장 점유율 확대 및 신규 고객 유치\",\n        \"기대효과 3: 브랜드 이미지 강화 및 혁신적 제품 이미지 구축\"\n    ],\n    \"additional_details\": {\n        \"color_options\": [\"검은색\", \"짙은 회색\", \"은색\", \"다양한 과일 색상\"],\n        \"material_details\": \"고무는 다양한 색상 구현에 용이하며, 티타늄은 내구성을 강화\",\n        \"button_layout\": \"사용자 피드백을 기반으로 최적의 버튼 배치 설계\",\n        \"interface_options\": \"가로형 및 세로형 인터페이스 제공, 스크롤 기능 포함\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.4,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3005c/05_final_result.json",
+    "utterance_count": 349,
+    "original_transcript_length": 11111,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 11111
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:43:14.875288"
+  }
+}

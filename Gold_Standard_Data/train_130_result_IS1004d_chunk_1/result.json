@@ -1,0 +1,35 @@
+{
+  "id": "train_130_chunk_1",
+  "source_dir": "result_IS1004d",
+  "notion_output": "```json\n{\n    \"project_name\": \"바나나 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"바나나 모양의 혁신적인 리모컨 개발을 통해 사용자 경험을 향상시키고 시장 경쟁력을 확보\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 바나나 모양의 리모컨 디자인 확정 및 프로토타입 제작\",\n        \"목표 2: 충전식 배터리 및 기지국을 통한 효율적인 전력 관리 시스템 구축\",\n        \"목표 3: 사용자 편의성을 고려한 인터페이스 및 기능 구현\"\n    ],\n    \"core_idea\": \"바나나 모양의 리모컨을 통해 독창적인 디자인과 편리한 기능을 제공\",\n    \"idea_description\": \"바나나 모양의 리모컨은 트렌디한 디자인과 함께 충전식 배터리, 기지국, 터보 버튼 등 혁신적인 기능을 포함하여 사용자에게 새로운 경험을 제공\",\n    \"execution_plan\": \"1단계: 디자인 확정 및 프로토타입 제작 (2024.01.01 ~ 2024.02.28)\\n2단계: 전력 관리 시스템 개발 및 테스트 (2024.03.01 ~ 2024.04.30)\\n3단계: 사용자 인터페이스 및 기능 구현 (2024.05.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 독창적인 디자인으로 인한 시장 차별화\",\n        \"기대효과 2: 충전식 배터리 및 기지국을 통한 지속 가능한 전력 관리\",\n        \"기대효과 3: 사용자 편의성을 고려한 인터페이스로 인한 고객 만족도 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1004d/05_final_result.json",
+    "utterance_count": 342,
+    "original_transcript_length": 11350,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 11350
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4976
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:01:45.983271"
+  }
+}

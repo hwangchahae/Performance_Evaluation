@@ -1,0 +1,56 @@
+{
+  "id": "train_010_chunk_16",
+  "source_dir": "result_제22대국회 제427회(임시회) 제2차 행정안전위원회(전체회의) (2025.07.18.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"공공기관 실내온도 및 APEC 준비 개선 프로젝트\",\n    \"project_purpose\": \"공공기관의 실내온도 관리 기준 재조정과 APEC 행사 준비를 통한 업무 효율성 및 국제 행사 성공적 개최\",\n    \"project_period\": \"2024.01.01 ~ 2024.12.31\",\n    \"project_manager\": \"윤호중\",\n    \"core_objectives\": [\n        \"목표 1: 공공기관의 실내온도 기준을 28℃에서 25~26℃로 조정\",\n        \"목표 2: APEC 행사 준비를 위한 자원봉사자 모집 및 교육\",\n        \"목표 3: APEC 행사 관련 추가 예산 확보 및 지원\"\n    ],\n    \"core_idea\": \"공공기관의 업무 효율성을 높이고 APEC 행사의 성공적 개최를 위한 체계적 준비\",\n    \"idea_description\": \"공공기관의 실내온도 기준을 현실에 맞게 조정하여 업무 효율성을 높이고, APEC 행사 준비를 위한 자원봉사자 교육 및 추가 예산 확보를 통해 성공적인 국제 행사를 개최\",\n    \"execution_plan\": \"1. 공공기관 실내온도 기준 재조정 (2024.01.01 ~ 2024.03.31)\\n2. APEC 행사 자원봉사자 모집 및 교육 (2024.04.01 ~ 2024.06.30)\\n3. APEC 행사 관련 추가 예산 확보 및 지원 (2024.07.01 ~ 2024.09.30)\\n4. APEC 행사 준비 현장 점검 및 지원 (2024.10.01 ~ 2024.12.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 공공기관의 업무 효율성 증가\",\n        \"기대효과 2: APEC 행사 성공적 개최 및 국제적 위상 강화\",\n        \"기대효과 3: 지역 경제 활성화 및 자원봉사 문화 확산\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제2차 행정안전위원회(전체회의) (2025.07.18.)/05_final_result.json",
+    "utterance_count": 1887,
+    "original_transcript_length": 113669,
+    "speakers": [
+      "박정현 위원",
+      "고동진 위원",
+      "위원장대리 서범수",
+      "양부남 위원",
+      "이광희 위원",
+      "이해식 위원",
+      "이성권 위원",
+      "한병도 위원",
+      "위원장대리 윤건영",
+      "채현일 위원",
+      "용혜인 위원",
+      "이달희 위원",
+      "행정안전부장관후보자 윤호중",
+      "이상식 위원",
+      "김성회 위원",
+      "위성곤 위원",
+      "모경종 위원",
+      "위원장 신정훈",
+      "주호영 위원",
+      "권칠승 위원",
+      "서범수 위원",
+      "박덕흠 위원",
+      "윤건영 위원",
+      "박수민 위원",
+      "정춘생 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 26,
+      "original_length": 113669
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 16,
+      "total_chunks": 26,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T17:01:22.368447"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "train_003_chunk_1",
+  "source_dir": "result_IS1005b",
+  "notion_output": "```json\n{\n    \"project_name\": \"범용 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"모든 TV에 사용할 수 있는 범용 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 인터페이스 개선 및 간소화\",\n        \"목표 2: 적외선 및 전파 기술을 활용한 리모컨 개발\",\n        \"목표 3: 비용 효율적인 회로 기판 설계 및 제작\"\n    ],\n    \"core_idea\": \"모든 TV와 호환 가능한 범용 리모컨 개발\",\n    \"idea_description\": \"사용자 편의성을 극대화하기 위해 간단한 디자인과 직관적인 인터페이스를 제공하며, 적외선 및 전파 기술을 활용하여 다양한 TV 모델과 호환성을 확보합니다.\",\n    \"execution_plan\": \"1단계: 사용자 인터페이스 설계 (2024.01.01 ~ 2024.02.15)\\n2단계: 회로 기판 설계 및 부품 구매 (2024.02.16 ~ 2024.03.31)\\n3단계: 프로토타입 제작 및 테스트 (2024.04.01 ~ 2024.05.15)\\n4단계: 최종 제품 개발 및 출시 준비 (2024.05.16 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 증가 및 브랜드 이미지 개선\",\n        \"기대효과 2: 다양한 TV 모델과의 호환성 확보로 시장 점유율 확대\",\n        \"기대효과 3: 비용 효율적인 생산으로 인한 가격 경쟁력 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1005b/05_final_result.json",
+    "utterance_count": 224,
+    "original_transcript_length": 8080,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8080
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4933
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T16:39:27.497263"
+  }
+}

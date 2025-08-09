@@ -1,0 +1,35 @@
+{
+  "id": "train_237_chunk_2",
+  "source_dir": "result_TS3012b",
+  "notion_output": "```json\n{\n    \"project_name\": \"범용 리모컨 및 LCD 스크린 통합 프로젝트\",\n    \"project_purpose\": \"다양한 사용자에게 적합한 범용 리모컨과 LCD 스크린 통합 기능 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 범용 리모컨의 기술 사양 확정 및 LCD 스크린 통합 검토\",\n        \"목표 2: 충전식 배터리 옵션 검토 및 적용\",\n        \"목표 3: 사용자 편의성을 고려한 디자인 개선 및 기능 확장\"\n    ],\n    \"core_idea\": \"범용 리모컨의 개발 및 LCD 스크린 통합을 통한 시장 출시\",\n    \"idea_description\": \"다양한 TV 모델과 호환 가능한 리모컨을 개발하고, LCD 스크린을 통합하여 사용자 편의성을 극대화하며, 충전식 배터리 옵션을 통해 지속 가능한 사용성을 제공\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"1단계\",\n            \"description\": \"기술 사양 및 LCD 스크린 통합 가능성 검토\",\n            \"timeline\": \"2024.01.01 ~ 2024.02.28\",\n            \"details\": [\n                \"기술 사양 확정\",\n                \"LCD 스크린 통합 가능성 검토\",\n                \"충전식 배터리 옵션 검토\"\n            ]\n        },\n        {\n            \"phase\": \"2단계\",\n            \"description\": \"디자인 및 프로토타입 제작\",\n            \"timeline\": \"2024.03.01 ~ 2024.04.30\",\n            \"details\": [\n                \"사용자 편의성을 고려한 디자인 개선\",\n                \"프로토타입 제작 및 초기 테스트\"\n            ]\n        },\n        {\n            \"phase\": \"3단계\",\n            \"description\": \"사용자 테스트 및 피드백 반영\",\n            \"timeline\": \"2024.05.01 ~ 2024.05.31\",\n            \"details\": [\n                \"사용자 테스트 진행\",\n                \"피드백 수집 및 반영\"\n            ]\n        },\n        {\n            \"phase\": \"4단계\",\n            \"description\": \"최종 제품 출시 준비\",\n            \"timeline\": \"2024.06.01 ~ 2024.06.30\",\n            \"details\": [\n                \"최종 제품 조정\",\n                \"시장 출시 준비\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 다양한 사용자층 확보로 인한 시장 점유율 증가\",\n        \"기대효과 2: 충전식 배터리 도입과 LCD 스크린 통합으로 인한 사용자 만족도 향상\",\n        \"기대효과 3: 혁신적인 디자인과 기능 확장을 통한 브랜드 이미지 제고\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3012b/05_final_result.json",
+    "utterance_count": 388,
+    "original_transcript_length": 12505,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 12505
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T07:25:45.098247"
+  }
+}

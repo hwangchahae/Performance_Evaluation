@@ -1,0 +1,35 @@
+{
+  "id": "train_136_chunk_2",
+  "source_dir": "result_IS1001c",
+  "notion_output": "```json\n{\n    \"project_name\": \"혁신적인 리모컨 디자인 프로젝트\",\n    \"project_purpose\": \"사용자 친화적이고 혁신적인 리모컨 디자인 개발\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 스펀지처럼 부드러운 버튼과 휠 개발\",\n        \"목표 2: 왼손잡이 사용자도 편리하게 사용할 수 있는 디자인 구현\",\n        \"목표 3: 불필요한 버튼 제거로 단순화된 인터페이스 제공\"\n    ],\n    \"core_idea\": \"사용자 요구에 맞춘 혁신적이고 사용하기 쉬운 리모컨 디자인\",\n    \"idea_description\": \"현재 시장에서 제공되는 리모컨 디자인을 분석하여, 불필요한 버튼을 제거하고, 사용자 경험을 개선하는 방향으로 디자인을 단순화합니다. 특히, 버튼과 휠은 스펀지처럼 부드럽게 작동하도록 설계하며, 왼손잡이 사용자도 편리하게 사용할 수 있는 인터페이스를 제공합니다.\",\n    \"execution_plan\": \"1단계: 시장 조사 및 기존 리모컨 디자인 분석 (2023.11.01 ~ 2023.11.15)\\n2단계: 디자인 컨셉 개발 및 시제품 제작 (2023.11.16 ~ 2023.12.15)\\n3단계: 사용자 테스트 및 피드백 수집 (2023.12.16 ~ 2024.01.15)\\n4단계: 최종 디자인 확정 및 생산 준비 (2024.01.16 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상 및 시장 경쟁력 강화\",\n        \"기대효과 2: 왼손잡이 사용자층의 접근성 개선\",\n        \"기대효과 3: 혁신적인 디자인으로 브랜드 이미지 제고\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1001c/05_final_result.json",
+    "utterance_count": 180,
+    "original_transcript_length": 6331,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 6331
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 1900
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:09:48.592287"
+  }
+}

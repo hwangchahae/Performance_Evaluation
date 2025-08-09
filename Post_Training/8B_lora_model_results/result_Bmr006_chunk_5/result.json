@@ -1,0 +1,43 @@
+{
+  "id": "result_Bmr006_processed_chunk_5",
+  "source_dir": "result_Bmr006_processed",
+  "notion_output": {
+    "project_name": "회의 전자화 및 분석 시스템 개발 프로젝트",
+    "project_purpose": "회의 녹음 자료를 효율적으로 관리하고 분석하여 의사결정 지원을 강화하며, 법적 및 윤리적 문제를 해결함",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "스테판",
+    "core_objectives": [
+      "목표 1: 회의 녹음 자료의 저장 및 복사 공간 확보 및 최적화",
+      "목표 2: 오버랩된 발언 및 배경 소음을 처리하는 AI 기반 분석 시스템 개발",
+      "목표 3: 전사 검토 후 데이터 파기 절차 마련 및 법적 준수 확보"
+    ],
+    "core_idea": "AI 기반의 회의 녹음 자료 분석 시스템을 통해 회의의 효율성을 극대화하고, 데이터의 안전성을 보장함",
+    "idea_description": "오버랩된 발언 및 배경 소음을 처리하는 AI 알고리즘(클러스터링 및 신경망)을 활용하여 회의 녹음 자료를 분석하고, 이를 통해 전사 검토 및 데이터 파기를 위한 체계적인 절차를 마련함",
+    "execution_plan": "1단계: 회의 녹음 자료 저장 공간 확보 및 최적화 (2024.01.01 ~ 2024.02.15)\n2단계: AI 분석 시스템 개발 및 테스트 (2024.02.16 ~ 2024.04.15)\n3단계: 전사 검토 및 데이터 파기 절차 마련 (2024.04.16 ~ 2024.05.15)\n4단계: 시스템 운영 및 유지보수 시작 (2024.05.16 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 회의 녹음 자료의 저장 및 접근성 향상으로 인한 효율성 증대",
+      "기대효과 2: AI 기반 분석을 통한 오버랩된 발언 및 배경 소음 처리로 인한 전사 정확도 향상",
+      "기대효과 3: 데이터 파기 절차 마련으로 인한 법적 리스크 감소 및 데이터 보안 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr006_processed/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_E"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-07T02:56:44.650243"
+  }
+}

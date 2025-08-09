@@ -1,0 +1,36 @@
+{
+  "id": "train_223_chunk_2",
+  "source_dir": "result_Bro026_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"신경망 기반 TRAPS 최적화 및 저장 효율성 개선 프로젝트\",\n    \"project_purpose\": \"신경망 기반 TRAPS 시스템의 성능 최적화 및 저장 효율성 향상\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 신경망 설치 및 TRAPS 시스템 최적화\",\n        \"목표 2: FFT 빈 및 전달 함수의 평활화 개선\",\n        \"목표 3: 노이즈 추정기 및 데이터 처리 속도 개선\",\n        \"목표 4: 신경망의 크기 및 저장 문제 해결\"\n    ],\n    \"core_idea\": \"신경망을 활용하여 TRAPS 시스템의 데이터 처리 성능과 저장 효율성을 최적화\",\n    \"idea_description\": \"기존 시스템에 신경망을 추가하여 데이터 처리 속도를 높이고, FFT 빈 및 전달 함수의 평활화를 통해 시스템의 효율성을 개선하며, 신경망의 크기 및 저장 문제를 해결합니다.\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"1단계\",\n            \"description\": \"신경망 설치 및 초기 설정\",\n            \"period\": \"2023.11.01 ~ 2023.11.15\",\n            \"milestones\": [\n                \"신경망 기반 TRAPS의 크기 결정\",\n                \"Hynek과의 회의에서 동결할 시스템 요소 결정\"\n            ]\n        },\n        {\n            \"phase\": \"2단계\",\n            \"description\": \"FFT 빈 및 전달 함수의 평활화 개선\",\n            \"period\": \"2023.11.16 ~ 2023.12.15\",\n            \"milestones\": [\n                \"FFT 빈 개선을 위한 실험 진행\",\n                \"전달 함수 평활화 기술 적용\"\n            ]\n        },\n        {\n            \"phase\": \"3단계\",\n            \"description\": \"노이즈 추정기 및 데이터 처리 속도 개선\",\n            \"period\": \"2023.12.16 ~ 2024.01.15\",\n            \"milestones\": [\n                \"노이즈 추정기 개선을 위한 신경망 활용\",\n                \"데이터 처리 속도 최적화\"\n            ]\n        },\n        {\n            \"phase\": \"4단계\",\n            \"description\": \"신경망 크기 및 저장 문제 해결\",\n            \"period\": \"2024.01.16 ~ 2024.01.31\",\n            \"milestones\": [\n                \"신경망 저장 공간 최적화\",\n                \"최종 성능 평가 및 보고서 작성\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 데이터 처리 속도 25% 향상\",\n        \"기대효과 2: 시스템 효율성 20% 증가\",\n        \"기대효과 3: 노이즈 감소로 인한 신호 품질 10% 개선\",\n        \"기대효과 4: 신경망 저장 공간 15% 절감\"\n    ],\n    \"key_meeting_decisions\": [\n        \"신경망 기반 TRAPS 사용 여부 및 크기 결정\",\n        \"Hynek과의 회의에서 동결할 시스템 요소 결정\",\n        \"구체적인 일정과 마일스톤 설정\"\n    ],\n    \"technical_details\": [\n        \"신경망 기반 TRAPS의 크기 조정 및 저장 효율성 개선 방안\",\n        \"FFT 빈 및 전달 함수의 평활화 기술 적용\",\n        \"노이즈 추정기의 개선을 위한 신경망 활용\",\n        \"신경망 기반 TRAPS의 데이터 처리 병렬화 방안\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro026_processed/05_final_result.json",
+    "utterance_count": 554,
+    "original_transcript_length": 18490,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 18490
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:40:39.346130"
+  }
+}

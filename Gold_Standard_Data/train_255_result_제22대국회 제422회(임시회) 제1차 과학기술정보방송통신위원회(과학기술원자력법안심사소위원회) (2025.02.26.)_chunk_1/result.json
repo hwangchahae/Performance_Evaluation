@@ -1,0 +1,41 @@
+{
+  "id": "train_255_chunk_1",
+  "source_dir": "result_제22대국회 제422회(임시회) 제1차 과학기술정보방송통신위원회(과학기술원자력법안심사소위원회) (2025.02.26.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"합성생물학 육성법 제정 프로젝트\",\n    \"project_purpose\": \"합성생물학 육성을 위한 법적 기반 마련 및 국가전략기술로서의 발전 촉진\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"최형두 소위원장\",\n    \"core_objectives\": [\n        \"목표 1: 합성생물학 육성법 제정을 통한 법적 기반 마련\",\n        \"목표 2: 합성생물학 발전협의회 구성 및 운영\",\n        \"목표 3: 합성생물학 연구개발사업 추진 및 안전관리체계 구축\"\n    ],\n    \"core_idea\": \"합성생물학을 국가전략기술로 육성하기 위한 법률 제정\",\n    \"idea_description\": \"합성생물학은 생명공학과 AI, 디지털 기술의 융합을 통해 산업 생산성을 높이는 기술로, 이를 육성하기 위한 법적 기반을 마련하여 국가 경쟁력을 강화한다.\",\n    \"execution_plan\": \"1. 법안 초안 작성 및 검토 (2024.01.01 ~ 2024.02.28)\\n2. 관련 부처 및 전문가 의견 수렴 (2024.03.01 ~ 2024.03.31)\\n3. 법안 수정 및 최종안 확정 (2024.04.01 ~ 2024.04.30)\\n4. 국회 상정 및 심의 (2024.05.01 ~ 2024.06.15)\\n5. 법안 통과 및 시행 준비 (2024.06.16 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 합성생물학 분야의 법적 지원 강화로 연구 및 산업 발전 촉진\",\n        \"기대효과 2: 국가전략기술로서의 합성생물학 육성을 통한 국제 경쟁력 강화\",\n        \"기대효과 3: 안전한 연구 환경 조성과 윤리적 문제 해결로 사회적 수용성 증대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 8.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제422회(임시회) 제1차 과학기술정보방송통신위원회(과학기술원자력법안심사소위원회) (2025.02.26.)/05_final_result.json",
+    "utterance_count": 328,
+    "original_transcript_length": 21529,
+    "speakers": [
+      "김우영 위원",
+      "과학기술정보통신부제1차관 이창윤",
+      "과학기술정보통신부과학기술혁신본부장 류광준",
+      "전문위원 임명현",
+      "과학기술정보통신부성과평가정책국장 이상윤",
+      "박정훈 위원",
+      "황정아 위원",
+      "소위원장 최형두",
+      "조인철 위원",
+      "박충권 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 21529
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 5,
+      "chunk_length": 4956
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:53:42.151501"
+  }
+}

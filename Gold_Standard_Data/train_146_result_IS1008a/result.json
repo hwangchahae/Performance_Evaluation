@@ -1,0 +1,31 @@
+{
+  "id": "train_146",
+  "source_dir": "result_IS1008a",
+  "notion_output": "```json\n{\n    \"project_name\": \"사용자 친화적 리모컨 디자인 및 마케팅 프로젝트\",\n    \"project_purpose\": \"사용자 경험을 극대화하고 효과적인 마케팅을 통해 시장 점유율을 확대\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"슈리다 다세리\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 친화적인 리모컨 디자인 개발\",\n        \"목표 2: 기능적 및 기술적 디자인 확정\",\n        \"목표 3: 마케팅 전략 수립 및 실행\",\n        \"목표 4: 프로젝트 초기 예산 및 인원 계획 수립\"\n    ],\n    \"core_idea\": \"사용자 친화적인 디자인과 강력한 마케팅 전략을 통해 시장 경쟁력 강화\",\n    \"idea_description\": \"리모컨의 기능적 및 기술적 디자인을 개선하여 사용자 경험을 향상시키고, 마케팅 전략을 통해 시장 점유율을 확대\",\n    \"execution_plan\": [\n        \"1. 디자인 팀과 협력하여 기능적 및 기술적 디자인 초안 작성 (2023.11.15까지)\",\n        \"2. 마케팅 팀과 협력하여 마케팅 전략 수립 (2023.12.01까지)\",\n        \"3. 프로젝트 초기 예산 및 필요한 인원 수 확정 (2023.12.05까지)\",\n        \"4. 경영진 검토 및 피드백 반영 (2023.12.15까지)\",\n        \"5. 최종 디자인 및 마케팅 계획 확정 (2024.01.15까지)\",\n        \"6. 프로젝트 결과물 발표 및 실행 (2024.01.31까지)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 경험 개선을 통한 고객 만족도 증가\",\n        \"기대효과 2: 효과적인 마케팅 전략을 통한 시장 점유율 확대\",\n        \"기대효과 3: 프로젝트 성공을 통한 회사의 수익성 증대\"\n    ],\n    \"budget_and_resources\": {\n        \"initial_budget\": \"회의에서 논의된 예산을 기반으로 추후 확정\",\n        \"required_personnel\": \"디자인 팀 2명, 마케팅 팀 2명, 프로젝트 관리 1명\"\n    },\n    \"detailed_design_and_marketing_strategy\": {\n        \"design_strategy\": \"사용자 친화적인 인터페이스와 기능성 강화\",\n        \"marketing_strategy\": \"경쟁이 치열한 시장에서 차별화된 마케팅 접근을 통해 브랜드 인지도 향상\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 7,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1008a/05_final_result.json",
+    "utterance_count": 103,
+    "transcript_length": 4213,
+    "original_transcript_length": 4213,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 4213
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:39:19.430961"
+  }
+}

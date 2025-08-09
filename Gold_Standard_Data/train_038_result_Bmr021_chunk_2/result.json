@@ -1,0 +1,37 @@
+{
+  "id": "train_038_chunk_2",
+  "source_dir": "result_Bmr021_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"파일 명명 규칙 및 인코딩 최적화 프로젝트\",\n    \"project_purpose\": \"파일 명명 규칙을 업데이트하고 인코딩 방식을 최적화하여 시스템의 일관성과 효율성을 향상시키는 것\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_F\",\n    \"core_objectives\": [\n        \"목표 1: 모든 파일의 명명 규칙을 최신화하여 일관성 유지\",\n        \"목표 2: W-인코드 프로그램을 활용한 인코딩 방식 최적화\",\n        \"목표 3: Sphere 라이브러리를 활용한 SRI 프런트엔드의 효율성 증대\"\n    ],\n    \"core_idea\": \"파일 시스템의 명명 규칙과 인코딩 방식을 개선하여 데이터 관리의 효율성을 높이는 것\",\n    \"idea_description\": \"현재 사용 중인 파일 명명 규칙을 재검토하고, W-인코드 프로그램을 통해 인코딩 방식을 최적화함으로써 데이터 처리 속도와 시스템 일관성을 향상시킵니다. Sphere 라이브러리를 활용하여 SRI 프런트엔드의 성능을 강화합니다.\",\n    \"execution_plan\": \"1단계: 현재 파일 명명 규칙 검토 및 업데이트 (2023.11.01 ~ 2023.11.15)\\n2단계: W-인코드 프로그램을 통한 인코딩 방식 최적화 (2023.11.16 ~ 2023.12.15)\\n3단계: Sphere 라이브러리를 활용한 SRI 프런트엔드 성능 강화 (2023.12.16 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 파일 명명 규칙의 일관성 유지로 데이터 관리 효율성 향상\",\n        \"기대효과 2: 인코딩 방식 최적화를 통한 데이터 처리 속도 증가\",\n        \"기대효과 3: Sphere 라이브러리 활용으로 SRI 프런트엔드의 성능 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr021_processed/05_final_result.json",
+    "utterance_count": 505,
+    "original_transcript_length": 16949,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 16949
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 4,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:53:25.370931"
+  }
+}

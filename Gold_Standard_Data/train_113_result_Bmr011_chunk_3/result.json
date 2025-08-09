@@ -1,0 +1,39 @@
+{
+  "id": "train_113_chunk_3",
+  "source_dir": "result_Bmr011_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"고품질 음성 인식 및 전사 기술 개발 프로젝트\",\n    \"project_purpose\": \"고품질 신호 처리 및 멀티트랜스 시연을 통해 음성 인식 및 전사 기술을 혁신적으로 향상시키고, 실시간 데이터 분석을 가능하게 함\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"조나단 피스커스\",\n    \"core_objectives\": [\n        \"목표 1: 신호 처리 기술 개발을 위한 팀 구성 및 역할 분담\",\n        \"목표 2: NIST 방문 준비 및 멀티트랜스 시연 준비 완료\",\n        \"목표 3: 사전 분할 및 전사 규칙에 대한 연구 및 개선\",\n        \"목표 4: 고품질 근거리 통신 마이크 장착 및 테스트\",\n        \"목표 5: IBM과의 협력을 통해 신호 처리 기술의 개발 및 테스트 진행\"\n    ],\n    \"core_idea\": \"신호 처리 기술을 활용하여 멀티트랜스 시연을 통해 실시간 전사 및 데이터 분석을 수행\",\n    \"idea_description\": \"고품질의 음성 인식 및 전사 기술을 개발하고, 이를 멀티트랜스 시연에 적용하여 실시간 전사 및 데이터 분석을 수행하며, 근거리 통신 마이크를 활용하여 음성 수집의 정확성을 높임. IBM과의 협력을 통해 기술 개발을 가속화함.\",\n    \"execution_plan\": \"1단계: 팀 구성 및 역할 분담 (2024.01.01 ~ 2024.01.15)\\n2단계: 신호 처리 기술 개발 및 테스트 (2024.01.16 ~ 2024.02.15)\\n3단계: NIST 방문 준비 및 멀티트랜스 시연 준비 (2024.02.16 ~ 2024.03.01)\\n4단계: 사전 분할 및 전사 규칙 연구 (2024.03.02 ~ 2024.03.15)\\n5단계: 고품질 근거리 통신 마이크 장착 및 테스트 (2024.03.02 ~ 2024.03.15)\\n6단계: IBM과의 협력 하에 신호 처리 기술의 개발 및 테스트 (2024.03.02 ~ 2024.03.15)\\n7단계: 최종 검토 및 보고서 작성 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 고품질의 신호 처리 기술 개발로 인한 음성 인식 정확도 향상\",\n        \"기대효과 2: 멀티트랜스 시연을 통한 실시간 전사 및 데이터 분석 능력 강화\",\n        \"기대효과 3: 사전 분할 및 전사 규칙 개선으로 인한 전사 효율성 증대\",\n        \"기대효과 4: 근거리 통신 마이크를 통한 음성 수집 정확도 향상\",\n        \"기대효과 5: IBM과의 협력을 통한 기술 개발 가속화 및 혁신적인 결과 도출\"\n    ],\n    \"additional_notes\": [\n        \"조나단 피스커스는 NIST 방문 시 멀티트랜스 시연 및 수정된 시연을 검토할 예정\",\n        \"회의에서 논의된 신호 처리 기술의 개발 및 테스트는 IBM과의 협력을 통해 진행될 수 있음\",\n        \"회의록에서 언급된 기술적 세부사항을 반영하여 프로젝트의 각 단계에서 구체적인 기술적 목표를 설정\",\n        \"회의에서 논의된 근거리 통신 마이크의 품질 향상 및 테스트가 프로젝트의 핵심 과제로 포함됨\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr011_processed/05_final_result.json",
+    "utterance_count": 657,
+    "original_transcript_length": 23106,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 23106
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 6,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:02:39.463379"
+  }
+}

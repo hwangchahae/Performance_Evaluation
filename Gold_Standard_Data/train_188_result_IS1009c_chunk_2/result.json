@@ -1,0 +1,35 @@
+{
+  "id": "train_188_chunk_2",
+  "source_dir": "result_IS1009c",
+  "notion_output": "```json\n{\n    \"project_name\": \"스마트 리모컨 디자인 및 프로토타입 개발\",\n    \"project_purpose\": \"사용자 음성 인식을 통한 스마트 리모컨 개발 및 시장 차별화\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Jana와 Francine\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 음성 인식 기능을 갖춘 스마트 리모컨 프로토타입 개발\",\n        \"목표 2: 비용 효율적인 배터리 솔루션 도입\",\n        \"목표 3: 마케팅 전문가를 통한 시장 평가 및 피드백 수집\"\n    ],\n    \"core_idea\": \"사용자 음성 인식과 매력적인 디자인을 결합한 스마트 리모컨 개발\",\n    \"idea_description\": \"사용자의 목소리를 인식하여 작동하는 리모컨을 개발하고, 시장에서 차별화된 디자인을 통해 경쟁력을 확보합니다.\",\n    \"execution_plan\": \"1. 음성 인식 시스템 설계 및 구현 (2023.11.01 ~ 2023.11.30)\\n2. 배터리 솔루션 테스트 및 선정 (2023.12.01 ~ 2023.12.15)\\n3. 디자인 모형 제작 및 프로토타입 개발 (2023.12.16 ~ 2024.01.15)\\n4. 마케팅 전문가를 통한 시장 평가 및 피드백 수집 (2024.01.16 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 편의성을 높여 시장 점유율 증가\",\n        \"기대효과 2: 비용 효율적인 배터리 사용으로 제품 경쟁력 강화\",\n        \"기대효과 3: 차별화된 디자인으로 브랜드 인지도 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1009c/05_final_result.json",
+    "utterance_count": 180,
+    "original_transcript_length": 7179,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 7179
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 2699
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:26:07.449178"
+  }
+}

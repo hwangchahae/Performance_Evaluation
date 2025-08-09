@@ -1,0 +1,37 @@
+{
+  "id": "train_156_chunk_2",
+  "source_dir": "result_Bmr022_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"정렬 및 후처리 최적화와 장비 성능 개선 프로젝트\",\n    \"project_purpose\": \"정렬 문제와 후처리 과정을 개선하여 작업 효율성을 극대화하고 오류를 최소화하며, 마이크 문제를 해결하여 장비 성능을 향상시키는 것\",\n    \"project_period\": \"2023.11.01 ~ 2023.12.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"project_manager_role\": \"프로젝트 전반의 관리 및 조정, 정렬 문제 해결을 위한 새로운 접근 방식 주도, 마이크 문제 해결 및 추가 장비 확보 조율\",\n    \"core_objectives\": [\n        \"목표 1: 정렬 문제 해결을 위한 새로운 접근 방식 도입 및 테스트\",\n        \"목표 2: 후처리 과정을 반복적으로 수행하여 오류를 최소화하고 정확성 향상\",\n        \"목표 3: 마이크 문제 해결 및 추가 장비 확보를 통해 장비 성능 향상\",\n        \"목표 4: 필사자와의 협업을 통해 정렬 문제의 구체적인 해결 방안 도출\",\n        \"목표 5: 회의에서 논의된 구체적인 문제 해결 방안 실행\"\n    ],\n    \"core_idea\": \"정렬 문제와 후처리 과정의 개선을 통해 작업 효율성을 높이고 오류를 줄이며, 마이크 문제 해결을 통해 장비 성능을 향상시키는 것\",\n    \"idea_description\": \"현재 정렬 문제로 인해 발생하는 오류를 최소화하기 위해 새로운 접근 방식을 도입하고, 후처리 과정을 반복적으로 수행하여 작업의 정확성을 높인다. 또한, 마이크 문제를 해결하여 장비의 성능을 향상시킨다. 필사자와의 협업을 통해 정렬 문제의 구체적인 해결 방안을 도출한다.\",\n    \"execution_plan\": [\n        {\n            \"step\": \"1단계\",\n            \"description\": \"정렬 문제 분석 및 새로운 접근 방식 도입\",\n            \"period\": \"2023.11.01 ~ 2023.11.15\",\n            \"tasks\": [\n                \"정렬 문제의 원인 분석\",\n                \"새로운 접근 방식 연구 및 테스트\",\n                \"필사자와의 협업을 통해 정렬 문제 해결 방안 도출\"\n            ]\n        },\n        {\n            \"step\": \"2단계\",\n            \"description\": \"후처리 과정 반복 수행 및 오류 검증\",\n            \"period\": \"2023.11.16 ~ 2023.12.15\",\n            \"tasks\": [\n                \"후처리 과정의 반복 수행\",\n                \"오류 검증 및 수정\",\n                \"정확성 향상을 위한 피드백 수집\"\n            ]\n        },\n        {\n            \"step\": \"3단계\",\n            \"description\": \"마이크 문제 해결 및 추가 장비 확보\",\n            \"period\": \"2023.12.16 ~ 2023.12.31\",\n            \"tasks\": [\n                \"마이크 문제 원인 분석 및 해결 방안 도출\",\n                \"추가 장비 확보 및 성능 테스트\",\n                \"장비 성능 향상을 위한 최종 조정\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 정렬 문제 해결로 인한 오류 감소\",\n        \"기대효과 2: 후처리 과정의 효율성 향상으로 작업 시간 단축\",\n        \"기대효과 3: 마이크 문제 해결로 인한 장비 성능 향상\",\n        \"기대효과 4: 필사자와의 협업을 통한 정렬 문제의 구체적 해결\",\n        \"기대효과 5: 회의에서 논의된 문제 해결 방안의 실행으로 인한 전반적인 작업 효율성 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr022_processed/05_final_result.json",
+    "utterance_count": 626,
+    "original_transcript_length": 22401,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 22401
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:06:03.047598"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "train_241_chunk_1",
+  "source_dir": "result_ES2008d",
+  "notion_output": "```json\n{\n    \"project_name\": \"혁신적 인체공학적 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"사용자 친화적인 인체공학적 리모컨을 개발하여 고객 만족도를 높이고, 시장에서의 차별화를 통해 경쟁력을 강화한다.\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 인체공학적 디자인을 통해 사용 편의성을 극대화\",\n        \"목표 2: 다양한 버튼 기능 구현으로 사용자 경험 향상\",\n        \"목표 3: 기업 색상 및 브랜드 이미지 반영을 통한 시장 인지도 강화\"\n    ],\n    \"core_idea\": \"인체공학적 디자인과 다양한 기능을 갖춘 혁신적 리모컨 개발\",\n    \"idea_description\": \"리모컨의 버튼을 인체공학적으로 배치하여 사용자가 쉽게 조작할 수 있도록 하고, 다양한 기능을 통해 사용자 경험을 극대화한다. 특히, 버튼의 색상과 라벨링을 통해 브랜드 이미지를 강화하고, 사용자가 쉽게 인식할 수 있도록 한다.\",\n    \"execution_plan\": [\n        {\n            \"단계\": \"디자인 및 프로토타입 개발\",\n            \"기간\": \"2024.01.01 ~ 2024.02.28\",\n            \"세부작업\": [\n                \"세 가지 프로토타입 디자인 확정\",\n                \"인체공학적 디자인 요소 적용\",\n                \"버튼 기능 및 배치 설계\"\n            ]\n        },\n        {\n            \"단계\": \"기능 구현 및 테스트\",\n            \"기간\": \"2024.03.01 ~ 2024.04.30\",\n            \"세부작업\": [\n                \"버튼 기능 프로그래밍 및 테스트\",\n                \"인체공학적 사용성 테스트\",\n                \"회로 기판 및 칩 개발\"\n            ]\n        },\n        {\n            \"단계\": \"최종 디자인 확정 및 생산 준비\",\n            \"기간\": \"2024.05.01 ~ 2024.06.30\",\n            \"세부작업\": [\n                \"최종 디자인 확정\",\n                \"생산 라인 준비 및 품질 관리 계획 수립\",\n                \"브랜드 이미지 및 색상 적용\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 증가로 인한 고객 충성도 향상\",\n        \"기대효과 2: 브랜드 이미지 강화로 인한 시장 점유율 확대\",\n        \"기대효과 3: 혁신적 디자인을 통한 경쟁사 대비 차별화\"\n    ],\n    \"design_and_function_details\": {\n        \"버튼 기능\": [\n            \"선택 버튼: 한 번 누르면 채널 변경, 세 번 누르면 메뉴 기능\",\n            \"볼륨 조절 버튼: 양쪽에 위치하여 볼륨 높이기/낮추기 기능\",\n            \"전원 버튼: 화면 메뉴의 가운데 버튼을 활용하여 전원 온/오프\"\n        ],\n        \"디자인 요소\": [\n            \"인체공학적 디자인으로 양손 사용 가능\",\n            \"다양한 색상 옵션 제공\",\n            \"브랜드 로고 및 라벨링 적용\"\n        ]\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2008d/05_final_result.json",
+    "utterance_count": 417,
+    "original_transcript_length": 14373,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 14373
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 4,
+      "chunk_length": 4972
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T07:47:02.312950"
+  }
+}

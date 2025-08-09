@@ -1,0 +1,35 @@
+{
+  "id": "train_101_chunk_1",
+  "source_dir": "result_ES2004c",
+  "notion_output": "```json\n{\n    \"project_name\": \"차세대 사용자 중심 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"기술 혁신과 사용자 편의성을 극대화한 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 충전식 배터리 및 태양광 충전 기술의 구체적 구현\",\n        \"목표 2: 과일과 채소 테마 및 스펀지 같은 소재를 활용한 혁신적 디자인 적용\",\n        \"목표 3: 사용자 인터페이스 개선 및 대기 모드 설정을 통한 배터리 절약 기능 강화\"\n    ],\n    \"core_idea\": \"기술 혁신과 디자인 트렌드를 반영하여 사용자 경험을 혁신적으로 개선\",\n    \"idea_description\": \"리모컨에 충전식 배터리와 태양광 충전 기능을 도입하고, 최신 디자인 트렌드를 반영하여 사용자 경험을 개선합니다. 특히, 스펀지 같은 소재와 과일 및 채소 테마를 활용하여 독창적인 디자인을 구현합니다.\",\n    \"execution_plan\": \"1단계: 시장 조사 및 디자인 컨셉 확정 (2024.01.01 ~ 2024.02.28)\\n2단계: 기술 개발 및 프로토타입 제작 (2024.03.01 ~ 2024.04.30)\\n3단계: 사용자 테스트 및 피드백 반영 (2024.05.01 ~ 2024.05.31)\\n4단계: 최종 디자인 및 생산 준비 (2024.06.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 혁신적인 디자인을 통한 시장 점유율 확대\",\n        \"기대효과 2: 사용자 편의성 개선으로 인한 고객 만족도 증가\",\n        \"기대효과 3: 지속 가능한 에너지 사용으로 인한 브랜드 이미지 강화\"\n    ],\n    \"technical_details\": {\n        \"battery_technology\": \"충전식 배터리와 태양광 충전 기술을 결합하여 낮과 밤 모두 충전 가능\",\n        \"design_elements\": \"과일과 채소 테마를 반영하고, 스펀지 같은 소재로 촉감 개선\",\n        \"user_interface\": \"대기 모드 설정 및 버튼 조명 기능을 통해 배터리 절약\"\n    },\n    \"additional_considerations\": [\n        \"시장 조사 결과에 따라 디자인과 기술적 구현을 조정\",\n        \"국제 시장을 고려한 디자인 및 기능 확장 가능성 검토\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2004c/05_final_result.json",
+    "utterance_count": 322,
+    "original_transcript_length": 12077,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 12077
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4982
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T00:32:15.394783"
+  }
+}

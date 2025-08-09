@@ -1,0 +1,35 @@
+{
+  "id": "train_065_chunk_2",
+  "source_dir": "result_TS3011b",
+  "notion_output": "```json\n{\n    \"project_name\": \"차세대 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"젊은 세대를 타겟으로 한 사용이 간편한 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 젊은 세대와 나이 많은 사용자 모두에게 매력적인 간편한 인터페이스 개발\",\n        \"목표 2: 비용 효율적인 회로 기판 설계\",\n        \"목표 3: 충전 가능한 거치대 포함 여부 결정\"\n    ],\n    \"core_idea\": \"단순하고 직관적인 리모컨 디자인\",\n    \"idea_description\": \"볼륨 조절 및 프로그램 전환 버튼만 있는 간편한 인터페이스를 통해 사용자 경험을 향상시키고, 비용을 절감할 수 있는 회로 기판 설계를 목표로 합니다.\",\n    \"execution_plan\": \"1. 사용자 인터페이스 디자인 검토 (2024.01.01 ~ 2024.01.15)\\n2. 회로 기판 설계 및 비용 분석 (2024.01.16 ~ 2024.02.15)\\n3. 충전 가능한 거치대 포함 여부 결정 (2024.02.16 ~ 2024.02.28)\\n4. 프로토타입 제작 및 테스트 (2024.03.01 ~ 2024.03.15)\\n5. 최종 검토 및 출시 준비 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상으로 인한 시장 점유율 증가\",\n        \"기대효과 2: 비용 절감을 통한 제품 경쟁력 강화\",\n        \"기대효과 3: 충전 가능한 거치대 도입으로 인한 편의성 증대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3011b/05_final_result.json",
+    "utterance_count": 249,
+    "original_transcript_length": 8905,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8905
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 4459
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T21:05:51.871594"
+  }
+}

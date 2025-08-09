@@ -1,0 +1,38 @@
+{
+  "id": "train_258_chunk_1",
+  "source_dir": "result_Bro021_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"음성 신호 처리 최적화를 위한 온라인 정규화 및 MFCC 개선 프로젝트\",\n    \"project_purpose\": \"온라인 정규화 및 MFCC 개선을 통해 음성 신호 처리의 정확도와 효율성을 극대화하고, 노이즈 신호 처리 성능을 향상시켜 음성 인식 시스템의 전반적인 성능을 개선\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_F\",\n    \"core_objectives\": [\n        \"목표 1: 온라인 정규화 접근 방식의 효과를 검증하고, C-0과 C-1 계수 조정을 통해 MFCC의 부드러움과 정확도를 향상\",\n        \"목표 2: MFCC의 정확도 향상을 위한 구체적인 실험 설계 및 실행, 케프스트럼 계수 차이 최소화\",\n        \"목표 3: Wiener 필터링 및 LDA 필터 적용을 통한 노이즈 신호 처리 최적화 및 시스템 안정성 확보\"\n    ],\n    \"core_idea\": \"덴마크 올보르 연구를 기반으로 온라인 정규화와 MFCC 개선을 통해 음성 신호 처리의 정확도와 효율성을 높이는 것\",\n    \"idea_description\": \"덴마크 올보르 연구를 참고하여, 온라인 정규화 접근 방식을 통해 MFCC의 부드러움을 개선하고, 노이즈 신호 처리에서의 성능을 최적화합니다. C-0과 C-1의 계수를 조정하고, LDA 필터 및 Wiener 필터링 기법을 활용하여 신호의 왜곡을 줄이고 성능을 개선합니다. 또한, Aurora 데이터베이스를 활용하여 노이즈의 영향을 분석하고, 이를 통해 정확한 신호 분석을 가능하게 합니다.\",\n    \"execution_plan\": [\n        \"1. 온라인 정규화 접근 방식 검토 및 개선 (2024.01.01 ~ 2024.01.31): C-0과 C-1의 계수 조정 및 LDA 필터 분석\",\n        \"2. MFCC 개선을 위한 실험 설계 및 실행 (2024.02.01 ~ 2024.02.28): MFCC의 부드러움과 정확도 향상을 위한 실험 설계 및 케프스트럼 계수 분석\",\n        \"3. 노이즈 신호 처리 최적화 및 결과 분석 (2024.03.01 ~ 2024.03.31): Wiener 필터링 기법 적용 및 노이즈 신호 처리 성능 분석\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: MFCC의 부드러움과 정확도 향상으로 음성 인식 시스템의 성능 개선\",\n        \"기대효과 2: 노이즈 신호 처리에서의 효율성 증가로 시스템의 안정성 확보\",\n        \"기대효과 3: 온라인 정규화 접근 방식의 효과적 적용으로 연구 및 개발 비용 절감\",\n        \"기대효과 4: 실험 결과에 기반한 구체적인 성능 개선 지표 확보\"\n    ],\n    \"technical_details\": [\n        \"C-0과 C-1의 계수 조정 및 LDA 필터 적용을 통한 신호 왜곡 최소화\",\n        \"Wiener 필터링 기법을 통한 노이즈 신호 처리 최적화\",\n        \"케프스트럼 계수의 차이를 최소화하여 MFCC의 부드러움 개선\",\n        \"Aurora 데이터베이스를 활용한 노이즈 영향 분석\",\n        \"테일러 급수 확장을 통한 신호 처리 개선 및 복소수 처리 방법 적용\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro021_processed/05_final_result.json",
+    "utterance_count": 400,
+    "original_transcript_length": 13856,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 13856
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:59:04.251813"
+  }
+}

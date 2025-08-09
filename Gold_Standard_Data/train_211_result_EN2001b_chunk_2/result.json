@@ -1,0 +1,35 @@
+{
+  "id": "train_211_chunk_2",
+  "source_dir": "result_EN2001b",
+  "notion_output": "```json\n{\n    \"project_name\": \"NITE XML 기반 회의 데이터 분석 및 잠재 의미 평가 시스템\",\n    \"project_purpose\": \"NITE XML을 활용하여 회의 데이터를 시간 순서 및 세그먼트별로 분석하고, 잠재 의미 분석을 통해 정보 가치 점수를 산출하는 시스템 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: NITE XML을 활용하여 회의 데이터의 시간 순서 및 세그먼트별 분석 시스템 구축\",\n        \"목표 2: Perl 스크립트를 사용하여 각 세그먼트의 시작 및 종료 시간 계산\",\n        \"목표 3: 잠재 의미 분석을 통해 세그먼트별 정보 가치 점수 산출 및 평가 시스템 개발\",\n        \"목표 4: 각 카테고리별로 여러 개의 문서 필요성을 반영하여 데이터 구조 설계\"\n    ],\n    \"core_idea\": \"NITE XML을 활용한 회의 데이터의 자동 분석 및 잠재 의미 평가 시스템\",\n    \"idea_description\": \"NITE XML을 통해 회의 데이터의 시간 순서 및 세그먼트를 분석하고, Perl 스크립트를 활용하여 각 세그먼트의 시작 및 종료 시간을 계산하며, 잠재 의미 분석을 통해 정보 가치 점수를 산출하는 시스템을 개발합니다.\",\n    \"execution_plan\": \"1단계: NITE XML 데이터 구조 이해 및 분석 (2024.01.01 ~ 2024.01.15)\\n2단계: Perl 스크립트를 사용한 시간 계산 모듈 개발 (2024.01.16 ~ 2024.02.15)\\n3단계: 잠재 의미 분석을 통한 세그먼트별 정보 가치 점수 산출 알고리즘 개발 (2024.02.16 ~ 2024.03.15)\\n4단계: 각 카테고리별 문서 구조 설계 및 구현 (2024.02.16 ~ 2024.03.15)\\n5단계: 시스템 통합 및 테스트 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 회의 데이터의 자동 분석을 통한 시간 절약 및 효율성 증대\",\n        \"기대효과 2: 잠재 의미 분석을 통한 세그먼트별 정보 가치 평가로 데이터 활용도 향상\",\n        \"기대효과 3: NITE XML 기반의 데이터 분석 시스템 구축으로 인한 기술적 경쟁력 강화\",\n        \"기대효과 4: 각 카테고리별 문서 구조 설계를 통한 데이터 관리 효율성 증대\"\n    ],\n    \"methodology\": {\n        \"잠재 의미 분석\": \"잠재 의미 분석을 통해 각 세그먼트의 정보 가치 점수를 산출하며, 이를 위해 엔트로피 점수를 계산하여 세그먼트의 정보 밀도를 평가합니다.\",\n        \"세그먼트 평가\": \"각 세그먼트의 시작 및 종료 시간을 기반으로 정보 가치 점수를 산출하고, 이를 통해 세그먼트의 중요도를 평가합니다.\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_EN2001b/05_final_result.json",
+    "utterance_count": 306,
+    "original_transcript_length": 11751,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 11751
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:21:35.191047"
+  }
+}

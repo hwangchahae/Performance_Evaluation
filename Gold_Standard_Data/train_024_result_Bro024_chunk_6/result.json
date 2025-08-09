@@ -1,0 +1,39 @@
+{
+  "id": "train_024_chunk_6",
+  "source_dir": "result_Bro024_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"HMM Gaussian Model Optimization for Multi-condition Training\",\n    \"project_purpose\": \"To address issues in multi-condition training by optimizing the Gaussian-based HMM model and enhancing its performance through specific technical solutions\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_F\",\n    \"core_objectives\": [\n        \"Objective 1: Conduct an in-depth analysis of multi-condition training issues and propose concrete solutions\",\n        \"Objective 2: Improve the performance of the Gaussian-based HMM model through specific optimization techniques\",\n        \"Objective 3: Validate model reliability using the SpeechDat - Car dataset with comprehensive testing\"\n    ],\n    \"core_idea\": \"Enhance the Gaussian-based approach of the HMM model to improve multi-condition training performance and strengthen model reliability through experimental validation\",\n    \"idea_description\": \"The project will focus on optimizing the Gaussian-based HMM model by implementing spectrum subtraction and neural network-based alignment re-estimation. The SpeechDat - Car dataset will be used for thorough testing and validation to ensure model reliability.\",\n    \"execution_plan\": \"Phase 1: In-depth analysis of multi-condition training issues and solution proposal (2024.01.01 ~ 2024.01.15)\\nPhase 2: Optimization of the Gaussian-based HMM model and application of spectrum subtraction (2024.01.16 ~ 2024.02.15)\\nPhase 3: Testing and validation using the SpeechDat - Car dataset (2024.02.16 ~ 2024.03.15)\\nPhase 4: Analysis of results and report preparation (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"Effect 1: Increased data processing efficiency due to improved multi-condition training performance\",\n        \"Effect 2: Enhanced accuracy through HMM model optimization\",\n        \"Effect 3: Strengthened model reliability through experimental validation\",\n        \"Effect 4: Performance optimization through spectrum subtraction and neural network-based alignment re-estimation\"\n    ],\n    \"technical_details\": {\n        \"HMM_optimization\": \"Apply spectrum subtraction and neural network-based alignment re-estimation techniques to optimize the Gaussian-based model\",\n        \"dataset_details\": \"Utilize the SpeechDat - Car dataset to verify performance under various conditions\",\n        \"specific_issues\": \"Analyze alignment issues in multi-condition training and the effectiveness of spectrum subtraction\"\n    },\n    \"additional_information\": {\n        \"technical_challenges\": [\n            \"Addressing the issue of local minima entrapment during HMM initialization\",\n            \"Ensuring alignment consistency across different channels and datasets\",\n            \"Incorporating feedback from neural network training to improve alignment accuracy\"\n        ],\n        \"dataset_related_details\": \"The SpeechDat - Car dataset will be used for testing, focusing on scenarios with varying noise levels and channel conditions to ensure robustness.\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.2,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro024_processed/05_final_result.json",
+    "utterance_count": 776,
+    "original_transcript_length": 26352,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_H",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 26352
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 6,
+      "chunk_length": 3927
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:02:30.638468"
+  }
+}

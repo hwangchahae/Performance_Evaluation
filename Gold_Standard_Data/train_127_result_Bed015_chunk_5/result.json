@@ -1,0 +1,37 @@
+{
+  "id": "train_127_chunk_5",
+  "source_dir": "result_Bed015_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"정보 구조 초점 요소 최적화 및 도식화 프로젝트\",\n    \"project_purpose\": \"정보 구조 내 초점 요소를 식별하고 이를 효과적으로 도식화하여 의사소통의 명확성과 효율성을 증대시키는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 회의록에서 논의된 구체적인 초점 요소와 예시 수집 및 분석\",\n        \"목표 2: 초점 요소의 도식화 및 프로필화 방법 개발\",\n        \"목표 3: 개발된 도식화 방법을 정보 구조에 적용하여 최적화\"\n    ],\n    \"core_idea\": \"정보 구조 내 다양한 초점 요소를 분석하고, 이를 도식화하여 의사소통의 명확성과 효율성을 개선\",\n    \"idea_description\": \"정보 구조에서 초점 요소를 식별하고, 이를 도식화하여 의사소통의 명확성과 효율성을 높이는 방법을 개발합니다. 회의에서 논의된 다양한 예시와 아이디어를 반영하여 구체적인 도식화 방법을 제시합니다.\",\n    \"execution_plan\": [\n        {\n            \"단계\": \"1단계\",\n            \"작업\": \"정보 구조 내 초점 요소 식별 및 구체적인 예시 수집\",\n            \"기간\": \"2024.01.01 ~ 2024.01.31\",\n            \"책임자\": \"Speaker_A\",\n            \"세부사항\": \"회의록에서 논의된 구체적인 초점 요소와 예시를 수집하고 정리. 예시로는 '의미적 측면에서 강조된 요소'와 '주제 마커' 등이 포함됨.\"\n        },\n        {\n            \"단계\": \"2단계\",\n            \"작업\": \"초점 요소 도식화 및 프로필화 방법 개발\",\n            \"기간\": \"2024.02.01 ~ 2024.02.28\",\n            \"책임자\": \"Speaker_D\",\n            \"세부사항\": \"수집된 초점 요소를 기반으로 효과적인 도식화 및 프로필화 방법을 개발. '종속 문법의 속성'과 '구성 요소 기반 문법'을 고려하여 도식화 방법을 설계.\"\n        },\n        {\n            \"단계\": \"3단계\",\n            \"작업\": \"도식화 방법을 적용한 정보 구조 최적화\",\n            \"기간\": \"2024.03.01 ~ 2024.03.31\",\n            \"책임자\": \"Speaker_E\",\n            \"세부사항\": \"개발된 도식화 방법을 실제 정보 구조에 적용하여 최적화 진행. '컨테이너'와 '경로'와 같은 구조적 요소를 최적화에 반영.\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 정보 전달의 명확성 향상\",\n        \"기대효과 2: 의사소통 효율성 증대\",\n        \"기대효과 3: 정보 구조의 최적화를 통한 업무 생산성 향상\",\n        \"기대효과 4: 회의에서 논의된 구체적인 초점 요소의 효과적인 활용\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed015_processed/05_final_result.json",
+    "utterance_count": 854,
+    "original_transcript_length": 30126,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 30126
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 7,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:57:02.305833"
+  }
+}

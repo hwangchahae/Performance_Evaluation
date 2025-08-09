@@ -1,0 +1,63 @@
+{
+  "id": "result_Bed016_processed_chunk_4",
+  "source_dir": "result_Bed016_processed",
+  "notion_output": {
+    "project_name": "노션 기반 공간적 영역 및 지침 요약 시스템 개발",
+    "project_purpose": "공간적 영역과 지침 요약을 통해 효율적인 정보 처리 및 이해를 지원하는 시스템 개발",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_I",
+    "core_objectives": [
+      "공간적 영역과 지침 요약을 통한 정보 처리 효율성 증대",
+      "기술적 구현 가능성 검증 및 최적화",
+      "피드백 수집 및 반영을 통한 시스템 개선"
+    ],
+    "core_idea": "공간적 영역과 지침 요약을 통합하여 정보 처리의 효율성을 극대화",
+    "idea_description": "공간적 영역과 지침 요약을 각각의 작업 공간에 적용하여 정보를 더 쉽게 이해하고 처리할 수 있도록 하는 시스템을 개발한다.",
+    "execution_plan": [
+      {
+        "phase": "설계 및 기능 개발",
+        "duration": "2024.01.01 ~ 2024.01.31",
+        "details": "공간적 영역과 지침 요약을 위한 기능 설계 및 구현"
+      },
+      {
+        "phase": "테스트 및 피드백 수집",
+        "duration": "2024.02.01 ~ 2024.02.28",
+        "details": "시스템을 실제 환경에서 테스트하고 사용자로부터 피드백을 수집"
+      },
+      {
+        "phase": "최종 수정 및 출시 준비",
+        "duration": "2024.03.01 ~ 2024.03.31",
+        "details": "테스트 결과를 바탕으로 최종 수정 및 출시 준비"
+      }
+    ],
+    "expected_effects": [
+      "공간적 영역과 지침 요약을 통한 정보 처리 속도 향상",
+      "기술적 구현 가능성 검증 및 최적화를 통한 시스템 안정성 강화",
+      "피드백을 통한 시스템 개선을 통한 사용자 만족도 증대"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bed016_processed/05_final_result.json",
+    "utterance_count": 505,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_I",
+      "Speaker_J",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_H",
+      "Speaker_F",
+      "Speaker_G"
+    ],
+    "original_length": 16078,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-07T03:00:20.271318"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "result_TS3009d_chunk_1",
+  "source_dir": "result_TS3009d",
+  "notion_output": {
+    "project_name": "노년층을 위한 편리한 TV 컨트롤러 개발",
+    "project_purpose": "노년층의 사용성을 고려한 편리하고 직관적인 TV 컨트롤러 개발",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: 노년층의 사용성을 고려한 인터페이스 설계 및 테스트",
+      "목표 2: RSI 민감도를 고려한 장치 설계",
+      "목표 3: 사용자 피드백을 통한 제품 개선 및 최종 평가"
+    ],
+    "core_idea": "노년층을 위한 편리하고 직관적인 TV 컨트롤러 개발",
+    "idea_description": "노년층의 사용성을 고려하여 인터페이스를 설계하고, RSI 민감도를 고려한 장치를 개발하여 사용자의 편의성을 높이는 것이 목표입니다.",
+    "execution_plan": "1단계: 초기 설계 및 사용자 조사 (2025.01.01 ~ 2025.02.15)\n2단계: 프로토타입 개발 및 테스트 (2025.02.16 ~ 2025.04.15)\n3단계: 사용자 피드백 수집 및 제품 개선 (2025.04.16 ~ 2025.05.15)\n4단계: 최종 평가 및 제품 출시 준비 (2025.05.16 ~ 2025.06.30)",
+    "expected_effects": [
+      "기대효과 1: 노년층의 사용 편의성 증대",
+      "기대효과 2: RSI 관련 문제 해결",
+      "기대효과 3: 시장 경쟁력 강화 및 매출 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_TS3009d/05_final_result.json",
+    "utterance_count": 379,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "original_length": 11745,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-07T02:46:14.910848"
+  }
+}

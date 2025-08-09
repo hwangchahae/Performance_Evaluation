@@ -1,0 +1,35 @@
+{
+  "id": "train_040_chunk_2",
+  "source_dir": "result_ES2006c",
+  "notion_output": "```json\n{\n    \"project_name\": \"혁신적 LCD 디스플레이 인터페이스 및 에너지 솔루션 개발\",\n    \"project_purpose\": \"사용자 경험을 극대화하고 지속 가능한 에너지 솔루션을 통해 시장 경쟁력을 강화하기 위한 혁신적인 LCD 디스플레이 기반 인터페이스 개발\",\n    \"project_period\": \"2025.01.01 ~ 2025.03.31\",\n    \"project_manager\": \"Speaker_C\",\n    \"core_objectives\": [\n        \"목표 1: 회전 휠과 버튼을 결합한 LCD 디스플레이 설계 및 구현\",\n        \"목표 2: 사용자 인터페이스 디자인 최적화 및 나무 소재 사용 검토\",\n        \"목표 3: 운동 에너지 배터리와 일반 배터리의 비교 및 적합한 에너지 솔루션 선택\",\n        \"목표 4: 제품 평가 및 피드백 수집을 통한 개선\",\n        \"목표 5: 버튼과 메뉴 방식의 구체적인 구현 방법 확립\"\n    ],\n    \"core_idea\": \"회전 휠과 버튼을 결합한 LCD 디스플레이를 통해 직관적이고 효율적인 사용자 인터페이스 제공\",\n    \"idea_description\": \"회전 휠과 버튼을 결합하여 직관적인 조작이 가능한 LCD 디스플레이를 개발한다. 나무 소재 사용 가능성을 검토하며, 운동 에너지 배터리와 일반 배터리의 장단점을 비교하여 최적의 에너지 솔루션을 선택한다. 버튼과 메뉴 방식을 혼합하여 사용자가 자주 사용하는 기능은 버튼으로, 나머지는 메뉴 방식으로 구현한다.\",\n    \"execution_plan\": \"1단계: LCD 디스플레이 및 회전 휠 설계 (2025.01.01 ~ 2025.01.31)\\n2단계: 사용자 인터페이스 디자인 및 나무 소재 사용 검토 (2025.02.01 ~ 2025.02.15)\\n3단계: 운동 에너지 배터리와 일반 배터리 비교 및 선택 (2025.02.16 ~ 2025.02.28)\\n4단계: 버튼 및 메뉴 방식의 구체적 구현 방법 확립 (2025.03.01 ~ 2025.03.10)\\n5단계: 프로토타입 제작 및 제품 평가 (2025.03.11 ~ 2025.03.20)\\n6단계: 최종 제품 개선 및 출시 준비 (2025.03.21 ~ 2025.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상 및 브랜드 이미지 강화\",\n        \"기대효과 2: 시장 점유율 증가 및 매출 증대\",\n        \"기대효과 3: 혁신적인 인터페이스로 인한 경쟁사 대비 우위 확보\",\n        \"기대효과 4: 친환경 소재 사용으로 인한 긍정적 기업 이미지 구축\"\n    ],\n    \"additional_details\": {\n        \"button_menu_implementation\": \"버튼과 메뉴 방식을 혼합하여 사용자가 자주 사용하는 기능은 버튼으로, 나머지는 메뉴 방식으로 구현\",\n        \"material_discussion\": \"나무 소재 사용의 장단점 검토 및 실용성 평가\",\n        \"energy_solution_discussion\": \"운동 에너지 배터리와 일반 배터리의 비교를 통해 안전성과 효율성을 고려한 최적의 솔루션 선택\",\n        \"interface_design_details\": \"iPod 모델을 참고하여 5개의 버튼과 하나의 휠을 포함한 디자인을 고려하며, 버튼 색상은 회사 색상에 맞춘다.\",\n        \"prototype_development\": \"사용자 인터페이스 디자이너와 마케팅 전문가가 협력하여 모델링 점토를 사용해 프로토타입을 제작하고, 개인 코치로부터 추가 지침을 받는다.\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2006c/05_final_result.json",
+    "utterance_count": 238,
+    "original_transcript_length": 7750,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 7750
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 3262
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:57:43.287434"
+  }
+}

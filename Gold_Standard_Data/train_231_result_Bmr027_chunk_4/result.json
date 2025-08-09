@@ -1,0 +1,39 @@
+{
+  "id": "train_231_chunk_4",
+  "source_dir": "result_Bmr027_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"디스크 공간 최적화 및 연례 보고서 준비\",\n    \"project_purpose\": \"디스크 공간 문제 해결 및 연례 보고서 작성, ISCA 프로소디 워크숍 참여 준비\",\n    \"project_period\": \"2023.11.01 ~ 2023.12.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 디스크 공간 부족 문제 해결\",\n        \"목표 2: 연례 보고서 초안 작성 및 검토\",\n        \"목표 3: ISCA 프로소디 워크숍 참여 준비\"\n    ],\n    \"core_idea\": \"디스크 공간 최적화와 연례 보고서 준비를 통해 업무 효율성을 높이고, 외부 워크숍 참여로 전문성을 강화\",\n    \"idea_description\": \"현재 디스크 공간 부족 문제를 해결하고, 연례 보고서를 통해 조직의 성과를 체계적으로 정리하며, ISCA 프로소디 워크숍 참여로 최신 기술 동향을 파악\",\n    \"execution_plan\": [\n        {\n            \"단계\": \"1단계: 디스크 공간 확보\",\n            \"기간\": \"2023.11.01 ~ 2023.11.15\",\n            \"세부 계획\": [\n                \"Abbott 파일 서버의 디스크 공간 최적화: 불필요한 파일 식별 및 삭제\",\n                \"100GB 추가 디스크 주문 및 설치: 마컴에서 주문한 디스크의 설치 및 설정\",\n                \"기존 데이터 정리 및 백업: 중요 데이터의 백업 및 정리\"\n            ]\n        },\n        {\n            \"단계\": \"2단계: 연례 보고서 초안 작성\",\n            \"기간\": \"2023.11.16 ~ 2023.12.15\",\n            \"세부 계획\": [\n                \"회계연도 시작일(10월) 기준 데이터 수집: 관련 부서와 협력하여 필요한 데이터 수집\",\n                \"보고서 초안 작성 및 내부 검토: 초안 작성 후 관련 부서와의 협의를 통한 피드백 수렴\",\n                \"최종 보고서 작성 및 승인: 최종 보고서 작성 후 경영진의 승인 절차 진행\"\n            ]\n        },\n        {\n            \"단계\": \"3단계: ISCA 프로소디 워크숍 준비 및 참여\",\n            \"기간\": \"2023.12.16 ~ 2023.12.31\",\n            \"세부 계획\": [\n                \"워크숍 참가자 등록 및 준비물 확인: 참가자 등록 및 필요한 자료 준비\",\n                \"워크숍 관련 자료 및 발표 준비: 발표 자료 준비 및 리허설 진행\",\n                \"워크숍 참가 후 보고서 작성: 워크숍 후 주요 내용 및 배운 점을 정리한 보고서 작성\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 디스크 공간 최적화로 시스템 안정성 및 성능 향상\",\n        \"기대효과 2: 연례 보고서를 통한 조직 성과의 체계적 관리 및 외부 커뮤니케이션 강화\",\n        \"기대효과 3: 워크숍 참여로 최신 기술 동향 파악 및 네트워크 확장\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr027_processed/05_final_result.json",
+    "utterance_count": 501,
+    "original_transcript_length": 17598,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 17598
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 4,
+      "chunk_length": 4205
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:59:21.795490"
+  }
+}

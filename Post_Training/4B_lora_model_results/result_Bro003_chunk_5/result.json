@@ -1,0 +1,50 @@
+{
+  "id": "val_281_chunk_5",
+  "source_dir": "result_Bro003_processed",
+  "notion_output": {
+    "project_name": "JRASTA-LDA 기반 신경망 훈련 및 성능 최적화 프로젝트",
+    "project_purpose": "JRASTA-LDA 기법을 활용하여 신경망의 성능을 극대화하고, 다양한 환경에서의 음성 인식 능력을 강화하기 위해 훈련 및 최적화 작업을 수행한다.",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: JRASTA-LDA 기법을 통해 신경망의 입력 데이터를 최적화하여 성능을 향상시킴",
+      "목표 2: HTK 훈련과 테스트를 통한 모델의 일반화 능력 강화",
+      "목표 3: 다양한 환경에서의 음성 인식 정확도 증대"
+    ],
+    "core_idea": "JRASTA-LDA 기법을 적용하여 신경망의 입력 데이터를 최적화하고, 이를 통해 모델의 성능을 극대화하며, 다양한 환경에서의 음성 인식 능력을 강화한다.",
+    "idea_description": "JRASTA-LDA 기법은 입력 데이터의 고유성을 유지하면서 노이즈를 최소화하여 신경망의 학습 효율성을 높이고, 이를 통해 다양한 환경에서의 음성 인식 정확도를 크게 향상시킨다. 또한, HTK 훈련과 테스트를 통해 모델의 일반화 능력을 강화하고, 다양한 시스템에서의 성능을 검증한다.",
+    "execution_plan": "1단계: JRASTA-LDA 기법의 연구 및 개발 (2024.01.01 ~ 2024.02.28)\n2단계: HTK 훈련 및 테스트 진행 (2024.03.01 ~ 2024.04.30)\n3단계: 모델 최적화 및 성능 평가 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 신경망의 입력 데이터 최적화로 인한 성능 향상",
+      "기대효과 2: 다양한 환경에서의 음성 인식 정확도 증대",
+      "기대효과 3: HTK 훈련을 통한 모델의 일반화 능력 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_Bro003_processed/05_final_result.json",
+    "utterance_count": 746,
+    "original_transcript_length": 25793,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 25793
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 6,
+      "chunk_length": 4999
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-06T15:33:38.313867"
+  }
+}

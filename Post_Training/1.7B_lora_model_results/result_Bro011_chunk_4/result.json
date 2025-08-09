@@ -1,0 +1,59 @@
+{
+  "id": "result_Bro011_processed_chunk_4",
+  "source_dir": "result_Bro011_processed",
+  "notion_output": {
+    "project_name": "노션 및 공명 관련 모델 개발 프로젝트",
+    "project_purpose": "노션의 공명 특성을 활용하여 다양한 음향 데이터를 분석하고 최적화하며, 이를 통해 음향 처리 효율성을 높임",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "공명 특성 분석 및 최적화",
+      "노션의 공명 특성 적용을 통한 음향 데이터의 정확도 향상",
+      "모델 성능을 향상시키기 위한 다양한 훈련 데이터 수집 및 분석"
+    ],
+    "core_idea": "노션의 공명 특성을 이용하여 음향 데이터를 분석하고 최적화함으로써 음향 처리 효율성을 높임",
+    "idea_description": "노션의 공명 특성을 분석하여 음향 데이터의 정확도를 향상시키고, 이를 통해 음향 처리의 효율성을 높임",
+    "execution_plan": [
+      {
+        "phase": "공명 특성 분석 및 최적화",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "details": "노션의 공명 특성을 분석하고, 이를 통해 음향 데이터의 정확도를 향상시키기 위한 최적화 방안을 마련"
+      },
+      {
+        "phase": "노션의 공명 특성 적용을 통한 음향 데이터 분석",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "details": "노션의 공명 특성을 적용하여 음향 데이터를 분석하고, 이를 통해 음향 처리의 정확도를 향상"
+      },
+      {
+        "phase": "모델 성능 향상을 위한 훈련 데이터 수집 및 분석",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "details": " 다양한 훈련 데이터를 수집하여 모델의 성능을 향상시키고, 이를 통해 음향 처리의 효율성을 높임"
+      }
+    ],
+    "expected_effects": [
+      "음향 처리의 정확도 향상",
+      "노션의 공명 특성 활용을 통한 음향 데이터의 분석 효율성 증가",
+      "모델 성능의 향상으로 인한 음향 처리의 효율성 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bro011_processed/05_final_result.json",
+    "utterance_count": 612,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_F"
+    ],
+    "original_length": 19277,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-07T02:59:04.903778"
+  }
+}

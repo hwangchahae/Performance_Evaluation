@@ -1,0 +1,28 @@
+{
+  "id": "train_187",
+  "source_dir": "result_제22대국회 제427회(임시회) 제4차 산업통상자원중소벤처기업위원회(전체회의) (2025.07.18.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"국무위원후보자 인사청문경과보고서 채택 프로젝트\",\n    \"project_purpose\": \"국무위원후보자 인사청문경과보고서를 체계적으로 정리하고 채택하여 국회에 보고\",\n    \"project_period\": \"2023.10.01 ~ 2023.10.15\",\n    \"project_manager\": \"이철규 위원장\",\n    \"core_objectives\": [\n        \"목표 1: 인사청문경과보고서의 종합의견 작성 및 검토\",\n        \"목표 2: 위원회 내 합의 도출 및 보고서 채택\",\n        \"목표 3: 보고서 체계 및 자구 정리\"\n    ],\n    \"core_idea\": \"인사청문경과보고서를 통해 후보자의 자질과 적합성을 평가하고 국회에 보고\",\n    \"idea_description\": \"인사청문회에서 논의된 질의응답 내용을 바탕으로 종합의견을 작성하고, 이를 위원회에서 채택하여 국회에 보고함으로써 국무위원 후보자의 적합성을 평가\",\n    \"execution_plan\": \"1. 인사청문회 질의응답 내용 정리 및 종합의견 초안 작성 (2023.10.01 ~ 2023.10.05)\\n2. 위원회 내 의견 수렴 및 합의 도출 (2023.10.06 ~ 2023.10.10)\\n3. 보고서 체계 및 자구 정리 (2023.10.11 ~ 2023.10.13)\\n4. 최종 보고서 채택 및 국회 보고 (2023.10.14 ~ 2023.10.15)\",\n    \"expected_effects\": [\n        \"기대효과 1: 국무위원 후보자의 자질 및 적합성에 대한 명확한 평가 제공\",\n        \"기대효과 2: 국회 내 원활한 의사결정 지원\",\n        \"기대효과 3: 보고서 작성 및 채택 과정에서의 협력 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 8.6,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제4차 산업통상자원중소벤처기업위원회(전체회의) (2025.07.18.)/05_final_result.json",
+    "utterance_count": 14,
+    "transcript_length": 958,
+    "original_transcript_length": 958,
+    "speakers": [
+      "위원장 이철규"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 958
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:25:38.475763"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "train_201_chunk_3",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 교육위원회(법안심사소위원회) (2025.07.08.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"교육환경 보호법 및 사립학교법 개정 프로젝트\",\n    \"project_purpose\": \"교육환경 보호구역 내 액상형 전자담배 자판기 설치 금지 및 사립학교 교원 임용 절차의 공정성 강화\",\n    \"project_period\": \"2024.01.01 ~ 2024.12.31\",\n    \"project_manager\": \"문정복 소위원장\",\n    \"core_objectives\": [\n        \"목표 1: 교육환경 보호구역 내 액상형 전자담배 자판기 설치 금지 법안 통과\",\n        \"목표 2: 사립학교 교원 임용 절차의 부정행위 적발 시 임용 취소 근거 마련\",\n        \"목표 3: 교육공무원법 및 사립학교법의 일관성 있는 개정\"\n    ],\n    \"core_idea\": \"교육환경과 사립학교 교원 임용의 공정성을 강화하기 위한 법률 개정\",\n    \"idea_description\": \"교육환경 보호를 위해 액상형 전자담배 자판기 설치를 금지하고, 사립학교 교원 임용 절차의 공정성을 강화하기 위해 관련 법률을 개정하여 부정행위 적발 시 임용 취소 근거를 마련한다.\",\n    \"execution_plan\": \"1단계: 법안 심사 및 수정 (2024.01.01 ~ 2024.03.31)\\n2단계: 법안 본회의 상정 및 통과 (2024.04.01 ~ 2024.06.30)\\n3단계: 법안 시행 준비 및 홍보 (2024.07.01 ~ 2024.09.30)\\n4단계: 법안 시행 및 모니터링 (2024.10.01 ~ 2024.12.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 교육환경 보호구역 내 청소년의 건강 보호\",\n        \"기대효과 2: 사립학교 교원 임용 절차의 투명성 및 신뢰성 제고\",\n        \"기대효과 3: 법률 개정을 통한 교육 환경 및 교원 임용 제도의 개선\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제1차 교육위원회(법안심사소위원회) (2025.07.08.)/05_final_result.json",
+    "utterance_count": 287,
+    "original_transcript_length": 16184,
+    "speakers": [
+      "소위원장 문정복",
+      "강경숙 위원",
+      "김민전 위원",
+      "조정훈 위원",
+      "수석전문위원 최선영",
+      "김준혁 위원",
+      "백승아 위원",
+      "전문위원 윤상열",
+      "서지영 위원",
+      "교육부차관 오석환",
+      "정을호 위원",
+      "고민정 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 16184
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 4,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:53:47.608152"
+  }
+}

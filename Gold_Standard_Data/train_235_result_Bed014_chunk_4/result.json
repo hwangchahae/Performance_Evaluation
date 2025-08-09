@@ -1,0 +1,37 @@
+{
+  "id": "train_235_chunk_4",
+  "source_dir": "result_Bed014_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"로버트 논문 프로젝트: 형식적 인지 의미론과 형식주의 개선\",\n    \"project_purpose\": \"로버트의 논문 주제인 형식적 인지 의미론을 심도 있게 탐구하고, 형식주의의 실질적 개선 방안을 수립하여 실행\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 로버트 논문의 주제인 형식적 인지 의미론의 방향성을 명확히 하고 실행 계획 수립\",\n        \"목표 2: 형식주의에 대한 구체적인 검토 및 개선 방안 마련\",\n        \"목표 3: 프로젝트 참여자 간의 역할과 책임을 명확히 하여 협업 강화 및 효율성 증대\",\n        \"목표 4: 논문과 관련된 기존 연구 및 자료를 철저히 검토하여 논문의 질을 향상\"\n    ],\n    \"core_idea\": \"로버트의 논문을 통해 형식적 인지 의미론을 탐구하고, 형식주의의 개선을 목표로 프로젝트를 진행\",\n    \"idea_description\": \"로버트의 논문은 형식적 인지 의미론을 중심으로 진행되며, 이를 바탕으로 형식주의의 개선 방안을 마련하고자 함. 논문은 로버트의 기존 연구와 관련이 있으며, 형식주의의 실질적인 적용 가능성을 탐구\",\n    \"execution_plan\": [\n        {\n            \"step\": \"1. 로버트 논문의 방향성 검토\",\n            \"description\": \"로버트의 논문 주제와 관련된 기존 연구 및 자료를 검토하여 방향성을 명확히 함\",\n            \"period\": \"2023.11.01 ~ 2023.11.15\",\n            \"responsible\": \"Speaker_D\"\n        },\n        {\n            \"step\": \"2. 형식주의 검토 및 개선 방안 마련\",\n            \"description\": \"형식적 인지 의미론과 관련된 형식주의의 문제점을 분석하고, 개선 방안을 도출\",\n            \"period\": \"2023.11.16 ~ 2023.12.15\",\n            \"responsible\": \"Speaker_E\"\n        },\n        {\n            \"step\": \"3. 프로젝트 참여자 간의 협업 강화\",\n            \"description\": \"참여자 간의 역할과 책임을 명확히 하고, 협업을 통해 프로젝트의 효율성을 높임\",\n            \"period\": \"2023.12.16 ~ 2024.01.31\",\n            \"responsible\": \"Speaker_F\"\n        },\n        {\n            \"step\": \"4. 논문 질 향상을 위한 추가 연구 및 자료 수집\",\n            \"description\": \"논문과 관련된 추가 연구를 수행하고, 필요한 자료를 수집하여 논문의 질을 향상\",\n            \"period\": \"2023.11.01 ~ 2023.12.31\",\n            \"responsible\": \"Speaker_A\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 로버트 논문의 방향성 명확화로 인한 프로젝트의 성공 가능성 증대\",\n        \"기대효과 2: 형식주의 개선으로 인한 업무 효율성 증대\",\n        \"기대효과 3: 참여자 간의 협업 강화로 인한 프로젝트 진행 속도 향상\",\n        \"기대효과 4: 논문 질 향상으로 인한 학문적 기여도 증가\"\n    ],\n    \"additional_notes\": \"회의록에서 논의된 바와 같이, 프로젝트는 로버트의 논문과 형식적 인지 의미론의 실질적인 적용 가능성을 탐구하는 데 중점을 둠. 참여자들은 각자의 역할에 따라 책임을 다하며, 프로젝트의 성공을 위해 협력할 것. 또한, 회의에서 언급된 형식주의의 구체적인 문제점과 개선 방안을 적극 반영할 것.\"\n}\n```",
+  "quality_metrics": {
+    "final_score": 5.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed014_processed/05_final_result.json",
+    "utterance_count": 617,
+    "original_transcript_length": 20451,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 20451
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 5,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T07:19:47.987128"
+  }
+}

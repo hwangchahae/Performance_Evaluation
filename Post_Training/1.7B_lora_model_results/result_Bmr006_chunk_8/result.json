@@ -1,0 +1,59 @@
+{
+  "id": "result_Bmr006_processed_chunk_8",
+  "source_dir": "result_Bmr006_processed",
+  "notion_output": {
+    "project_name": "PDA 및 EH 매개변수 활용의 효율적 마이크 피드백 시스템 개발",
+    "project_purpose": "PDA와 EH 매개변수를 활용하여 마이크 피드백 시스템을 최적화하고, 다양한 환경에서의 성능을 향상시키며, 사용자의 요구를 반영함.",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_F",
+    "core_objectives": [
+      "목표 1: PDA와 EH 매개변수를 통한 마이크 피드백 시스템의 성능 최적화",
+      "목표 2: 다양한 환경에서의 마이크 피드백 시스템의 안정성을 확보",
+      "목표 3: 사용자 경험을 향상하기 위한 피드백 시스템의 개선"
+    ],
+    "core_idea": "PDA와 EH 매개변수를 통해 마이크 피드백 시스템의 성능을 최적화하고, 다양한 환경에서의 안정성을 확보하며, 사용자 경험을 향상시키는 새로운 시스템을 개발.",
+    "idea_description": "PDA와 EH 매개변수를 활용하여 마이크 피드백 시스템의 성능을 최적화하고, 다양한 환경에서의 안정성을 확보하며, 사용자 경험을 향상시키는 새로운 시스템을 개발. 이를 위해 중복 감지 기능을 추가하여 효율성을 높이고, 다양한 환경에서의 성능을 테스트하여 개선.",
+    "execution_plan": [
+      {
+        "phase": "연구 및 데이터 수집",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "description": "PDA와 EH 매개변수를 활용한 마이크 피드백 시스템의 성능을 검증하고, 다양한 환경에서의 성능을 테스트."
+      },
+      {
+        "phase": "중복 감지 기능 개발",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "description": "중복 감지 기능을 개발하여 효율성을 높이고, 다양한 환경에서의 성능을 테스트."
+      },
+      {
+        "phase": "피드백 시스템 개선 및 테스트",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "description": "피드백 시스템을 개선하고, 다양한 환경에서의 성능을 테스트하여 개선점을 도출."
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: PDA와 EH 매개변수를 활용한 마이크 피드백 시스템의 성능 향상",
+      "기대효과 2: 다양한 환경에서의 마이크 피드백 시스템의 안정성 확보",
+      "기대효과 3: 사용자 경험 향상 및 효율적인 마이크 피드백 시스템의 개발"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr006_processed/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_F"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 8,
+    "processing_date": "2025-08-07T03:00:08.688948"
+  }
+}

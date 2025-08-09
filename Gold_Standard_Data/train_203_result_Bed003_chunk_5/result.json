@@ -1,0 +1,36 @@
+{
+  "id": "train_203_chunk_5",
+  "source_dir": "result_Bed003_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"인간-기계 상호작용 최적화 및 마법사 역할 강화 프로젝트\",\n    \"project_purpose\": \"인간과 기계의 상호작용을 분석하고 개선하여 실용성을 극대화하며, '마법사' 역할을 구체화하여 실험의 효율성을 높이는 것\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_E\",\n    \"core_objectives\": [\n        \"목표 1: 인간-기계 상호작용의 실용성에 대한 구체적 데이터 수집\",\n        \"목표 2: 시범 운영을 통해 상호작용 개선점을 도출\",\n        \"목표 3: 피험자 모집 및 실험 설정 최적화\",\n        \"목표 4: '마법사' 역할의 구체적 정의 및 활용 방안 마련\",\n        \"목표 5: 실험 설정과 관련된 기술적 문제 해결\"\n    ],\n    \"core_idea\": \"인간과 기계의 상호작용을 통해 실용성을 평가하고, '마법사'의 역할을 활용하여 상호작용의 효율성을 높이는 방안을 모색하며, 기술적 문제를 해결\",\n    \"idea_description\": \"기존의 인간-기계 상호작용 시나리오를 분석하고, 시범 운영을 통해 실질적인 데이터를 수집하여 상호작용의 효율성을 높이는 방안을 모색합니다. 특히, '마법사'의 역할을 통해 실험 설정과 피험자 모집을 최적화하고, 기술적 문제를 해결합니다.\",\n    \"execution_plan\": \"1단계: 피험자 모집 및 실험 설정 (2023.11.01 ~ 2023.11.15)\\\\n2단계: 시범 운영 및 데이터 수집 (2023.11.16 ~ 2023.12.15)\\\\n3단계: 데이터 분석 및 개선점 도출 (2023.12.16 ~ 2024.01.15)\\\\n4단계: 최종 보고서 작성 및 발표 (2024.01.16 ~ 2024.01.31)\",\n    \"detailed_execution_plan\": {\n        \"피험자 모집 전략\": \"엄리즈와 같은 자원자를 포함하여 다양한 배경의 피험자를 모집합니다. 마법사의 역할을 통해 피험자 모집의 효율성을 높입니다.\",\n        \"실험 설정\": \"JavaBayes와 같은 도구를 활용하여 실험 환경을 구성하고, 마법사의 역할을 통해 기술적 문제를 해결합니다. 특히, 실험 설정에서 발생할 수 있는 문제를 사전에 식별하고 해결 방안을 마련합니다.\",\n        \"시범 운영 절차\": \"피험자와의 상호작용을 통해 데이터를 수집하고, 마법사의 역할을 통해 실험의 정확성을 높입니다. 실험 중 발생할 수 있는 기술적 문제를 즉각적으로 해결할 수 있도록 준비합니다.\"\n    },\n    \"expected_effects\": [\n        \"기대효과 1: 인간-기계 상호작용의 실용성에 대한 명확한 데이터 확보\",\n        \"기대효과 2: 상호작용 개선을 통한 사용자 만족도 증가\",\n        \"기대효과 3: 향후 프로젝트에 대한 방향성 제시\",\n        \"기대효과 4: 마법사의 역할을 통한 실험 설정 및 피험자 모집의 효율성 증대\",\n        \"기대효과 5: 기술적 문제 해결을 통한 실험의 원활한 진행\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.2,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed003_processed/05_final_result.json",
+    "utterance_count": 717,
+    "original_transcript_length": 23331,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 23331
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:04:19.204399"
+  }
+}

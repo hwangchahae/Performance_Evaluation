@@ -1,0 +1,38 @@
+{
+  "id": "train_183_chunk_4",
+  "source_dir": "result_Bro005_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"MLP 최적화 및 성능 평가 프로젝트\",\n    \"project_purpose\": \"TIMIT 및 대규모 데이터베이스를 활용하여 MLP 모델의 성능을 최적화하고 다양한 테스트 조건에서의 신뢰성을 강화함\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_G\",\n    \"core_objectives\": [\n        \"목표 1: TIMIT 데이터셋을 활용한 MLP 모델 초기 훈련 및 성능 분석\",\n        \"목표 2: 대규모 데이터베이스와의 통합을 통한 MLP 성능 최적화\",\n        \"목표 3: 다양한 테스트 조건에서의 MLP 모델 성능 평가 및 개선\",\n        \"목표 4: PLP와 더블 델타를 결합한 특징을 활용하여 성능 평가\"\n    ],\n    \"core_idea\": \"TIMIT 데이터셋과 대규모 데이터베이스를 통합하여 MLP 모델을 훈련하고, 다양한 테스트 조건에서 성능을 평가하여 최적화된 모델을 개발한다.\",\n    \"idea_description\": \"9개의 컨텍스트 프레임과 7개 밴드를 활용하여 TIMIT 데이터셋 기반의 MLP 모델을 훈련하고, 대규모 데이터베이스와의 통합을 통해 성능을 최적화한다. 다양한 테스트 조건에서 모델의 성능을 평가하여 최적의 모델을 개발한다. 특히, PLP와 더블 델타를 결합한 특징을 활용하여 다양한 방법으로 성능을 평가한다.\",\n    \"execution_plan\": [\n        \"1단계: TIMIT 데이터셋 준비 및 MLP 초기 모델 훈련 (2024.01.01 ~ 2024.01.31)\",\n        \"2단계: 대규모 데이터베이스와의 통합 및 MLP 성능 최적화 (2024.02.01 ~ 2024.02.28)\",\n        \"3단계: 다양한 테스트 조건에서의 MLP 모델 성능 평가 및 최적화 (2024.03.01 ~ 2024.03.31)\",\n        \"4단계: PLP와 더블 델타를 결합한 특징을 활용한 성능 평가 및 개선\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: TIMIT 데이터셋을 활용한 MLP 모델의 성능 향상\",\n        \"기대효과 2: 대규모 데이터베이스와의 통합을 통한 MLP 모델의 최적화\",\n        \"기대효과 3: 다양한 테스트 조건에서의 성능 평가를 통한 MLP 모델의 신뢰성 향상\",\n        \"기대효과 4: PLP와 더블 델타 결합을 통한 성능 평가로 모델의 정밀도 향상\"\n    ],\n    \"technical_details\": [\n        \"MLP 모델을 목표 작업에 맞춰 훈련하여 오류율 감소\",\n        \"PLP와 더블 델타를 결합하여 다양한 테스트 세트에서 성능 평가\",\n        \"LDA RASTA를 사용하여 특징 스트림을 최적화\",\n        \"VAD를 사용하여 이진 레이블링을 통한 데이터 정제\",\n        \"다양한 매개변수 설정을 통해 MLP 모델의 성능 변화를 분석\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.2,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro005_processed/05_final_result.json",
+    "utterance_count": 670,
+    "original_transcript_length": 22286,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 22286
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:19:47.245842"
+  }
+}

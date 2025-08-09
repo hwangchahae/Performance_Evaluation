@@ -1,0 +1,54 @@
+{
+  "id": "train_112_chunk_20",
+  "source_dir": "result_제22대국회 제427회(임시회) 제3차 기획재정위원회(전체회의) (2025.07.17.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"GTX 사업 및 민간투자 조정 프로젝트\",\n    \"project_purpose\": \"GTX-A, B, C, D, E, F 노선의 사업 진행 및 민간투자 조정을 통한 효율적 사업 추진\",\n    \"project_period\": \"2023.08.01 ~ 2025.07.31\",\n    \"project_manager\": \"구윤철 부총리겸기획재정부장관후보자\",\n    \"core_objectives\": [\n        \"목표 1: GTX 노선의 민간투자 실시협약 조정 및 총사업비 조정\",\n        \"목표 2: 물가변동에 따른 사업비 조정 및 민간사업자와의 협약 진행\",\n        \"목표 3: 기재부와 관련 부처 간의 협력 강화 및 적극적인 행정 추진\"\n    ],\n    \"core_idea\": \"GTX 사업의 원활한 진행을 위해 민간투자 조정 및 물가변동 대응\",\n    \"idea_description\": \"GTX 노선의 민간투자 사업이 물가변동으로 인해 지연되고 있는 상황에서, 기재부와 민간사업자 간의 협약을 조정하여 사업을 원활히 진행시키고자 함.\",\n    \"execution_plan\": \"1. 2023년 8월까지 민간투자 실시협약 조정안 마련\\n2. 2024년 1월까지 착공식 준비 및 물가변동에 따른 사업비 조정\\n3. 2025년 7월까지 모든 GTX 노선의 사업 진행 상황 점검 및 조정\",\n    \"expected_effects\": [\n        \"기대효과 1: GTX 사업의 원활한 진행으로 인한 수도권 교통 개선\",\n        \"기대효과 2: 민간투자 조정 및 물가변동 대응으로 인한 사업비 절감\",\n        \"기대효과 3: 기재부와 민간사업자 간의 협력 강화로 인한 행정 효율성 증대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제3차 기획재정위원회(전체회의) (2025.07.17.)/05_final_result.json",
+    "utterance_count": 1930,
+    "original_transcript_length": 109213,
+    "speakers": [
+      "조승래 위원",
+      "유상범 위원",
+      "차규근 위원",
+      "최기상 위원",
+      "정태호 위원",
+      "안도걸 위원",
+      "천하람 위원",
+      "김영진 위원",
+      "박홍근 위원",
+      "김태년 위원",
+      "윤영석 위원",
+      "이인선 위원",
+      "최은석 위원",
+      "권영세 위원",
+      "박성훈 위원",
+      "정일영 위원",
+      "오기형 위원",
+      "위원장 임이자",
+      "부총리겸기획재정부장관후보자 구윤철",
+      "진성준 위원",
+      "김영환 위원",
+      "박대출 위원",
+      "박수영 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 25,
+      "original_length": 109213
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 20,
+      "total_chunks": 25,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T01:55:53.943789"
+  }
+}

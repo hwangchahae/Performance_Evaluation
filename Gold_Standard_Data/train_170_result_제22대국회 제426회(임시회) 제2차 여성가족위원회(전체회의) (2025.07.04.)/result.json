@@ -1,0 +1,32 @@
+{
+  "id": "train_170",
+  "source_dir": "result_제22대국회 제426회(임시회) 제2차 여성가족위원회(전체회의) (2025.07.04.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"여성가족부장관 인사청문회 준비 프로젝트\",\n    \"project_purpose\": \"여성가족부장관 후보자에 대한 인사청문회를 효과적으로 준비하고 실행하기 위함\",\n    \"project_period\": \"2025.06.30 ~ 2025.07.14\",\n    \"project_manager\": \"이인선 위원장\",\n    \"core_objectives\": [\n        \"목표 1: 여성가족부장관 후보자 인사청문회 실시계획서 채택\",\n        \"목표 2: 인사청문회 관련 자료 제출 요구 및 증인 출석 요구\",\n        \"목표 3: 인사청문회 진행을 위한 서면질의 및 구두질의 준비\"\n    ],\n    \"core_idea\": \"여성가족부장관 후보자에 대한 인사청문회를 통해 후보자의 적합성을 검증하고, 국민들에게 투명한 정보를 제공\",\n    \"idea_description\": \"인사청문회를 통해 후보자의 자질과 정책 비전을 검토하고, 관련 의혹에 대한 명확한 해명을 듣는 과정을 거쳐 국민의 신뢰를 확보\",\n    \"execution_plan\": \"1단계: 2025.06.30 - 인사청문회 실시계획서 채택\\n2단계: 2025.07.01 - 자료 제출 요구 및 증인 출석 요구\\n3단계: 2025.07.09 - 서면질의서 제출 마감\\n4단계: 2025.07.13 - 구두질의서 제출 마감\\n5단계: 2025.07.14 - 인사청문회 실시\",\n    \"expected_effects\": [\n        \"기대효과 1: 여성가족부장관 후보자의 정책 비전과 자질 검증\",\n        \"기대효과 2: 인사청문회를 통한 투명한 정보 제공으로 국민 신뢰 확보\",\n        \"기대효과 3: 청문회 준비 과정에서의 여야 간 협력 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제426회(임시회) 제2차 여성가족위원회(전체회의) (2025.07.04.)/05_final_result.json",
+    "utterance_count": 63,
+    "transcript_length": 4446,
+    "original_transcript_length": 4446,
+    "speakers": [
+      "김한규 위원",
+      "위원장 이인선",
+      "채현일 위원",
+      "서명옥 위원",
+      "조은희 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 4446
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:43:39.143265"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "train_183_chunk_2",
+  "source_dir": "result_Bro005_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"신경망 최적화를 위한 PLP와 MSG 통합 및 온라인 정규화 프로젝트\",\n    \"project_purpose\": \"PLP와 MSG의 통합 및 온라인 정규화 기법을 통해 신경망의 성능을 최적화하고 데이터 정확도를 향상시킨다.\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_G\",\n    \"core_objectives\": [\n        \"목표 1: PLP와 MSG의 통합을 통해 신경망 성능을 89.7% 이상으로 향상\",\n        \"목표 2: 온라인 정규화 기법을 적용하여 데이터 정확도를 90% 이상으로 개선\",\n        \"목표 3: MLP와 다른 기능들의 구체적인 비교 분석을 통해 최적의 조합 도출\",\n        \"목표 4: 델타-델타를 활용한 직선 기능의 효과적 적용\"\n    ],\n    \"core_idea\": \"PLP와 MSG의 통합 및 온라인 정규화 기법을 통해 신경망의 성능을 최적화하고, 데이터의 정밀도를 높인다.\",\n    \"idea_description\": \"PLP와 MSG를 결합하여 89.7% 이상의 성능을 목표로 하며, MLP와의 비교를 통해 최적의 기능 조합을 도출한다. 델타-델타를 활용한 직선 기능을 적용하여 데이터의 정밀도를 높인다.\",\n    \"execution_plan\": [\n        {\n            \"단계\": \"1단계: PLP와 MSG의 통합 및 초기 테스트\",\n            \"기간\": \"2024.01.01 ~ 2024.01.31\",\n            \"활동\": [\n                \"PLP와 MSG의 통합을 위한 기술적 요구사항 분석\",\n                \"초기 테스트를 통해 통합의 성능 평가\",\n                \"카르멘의 제안에 따라 PLP와 MSG의 통합 결과인 PLP의 초기 성능 평가\"\n            ],\n            \"기대결과\": \"통합된 시스템의 초기 성능 데이터 확보\"\n        },\n        {\n            \"단계\": \"2단계: 온라인 정규화 기법 적용 및 성능 측정\",\n            \"기간\": \"2024.02.01 ~ 2024.02.28\",\n            \"활동\": [\n                \"온라인 정규화 기법을 시스템에 적용\",\n                \"정규화 적용 후 성능 변화 측정\",\n                \"n 신경망을 활용하여 정규화되지 않은 특성의 성능 평가\"\n            ],\n            \"기대결과\": \"데이터 정확도 90% 이상 달성\"\n        },\n        {\n            \"단계\": \"3단계: MLP와의 비교 분석 및 최적화\",\n            \"기간\": \"2024.03.01 ~ 2024.03.31\",\n            \"활동\": [\n                \"MLP와 다른 기능들의 성능 비교 분석\",\n                \"최적의 기능 조합 도출 및 시스템 최적화\",\n                \"델타-델타를 활용한 직선 기능의 구체적인 적용 방법 분석\"\n            ],\n            \"기대결과\": \"최적의 기능 조합을 통한 성능 극대화\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: PLP와 MSG 통합으로 인한 신경망 성능 89.7% 이상 향상\",\n        \"기대효과 2: 온라인 정규화 적용으로 데이터 정확도 90% 이상 달성\",\n        \"기대효과 3: MLP와의 비교를 통한 최적의 기능 조합 도출 및 성능 최적화\",\n        \"기대효과 4: 델타-델타를 활용한 직선 기능의 효과적 적용으로 데이터 정밀도 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro005_processed/05_final_result.json",
+    "utterance_count": 670,
+    "original_transcript_length": 22286,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 22286
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:18:11.606796"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "result_ES2015a",
+  "source_dir": "result_ES2015a",
+  "notion_output": {
+    "project_name": "미니 리모컨 디자인 및 시장 확보 프로젝트",
+    "project_purpose": "새로운 기능을 갖춘 미니 리모컨을 개발하여 시장에서 경쟁력을 갖추고, 고객에게 가치를 제공함",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "헤더",
+    "core_objectives": [
+      "목표 1: 기능적 디자인을 통해 사용자 경험을 최적화",
+      "목표 2: 최종 제품의 개념 디자인 및 세부 디자인을 완료",
+      "목표 3: 시장 조사 및 고객 피드백을 통한 제품 개선 방향 설정",
+      "목표 4: 초기 출시 전의 마케팅 전략 수립"
+    ],
+    "core_idea": "미니 리모컨의 핵심 기능을 강조하여 사용자의 다양한 요구를 충족시키는 디자인",
+    "idea_description": "현재의 리모컨은 다양한 기능을 지원하지만, 사용자가 원하는 특정 기능을 추가하거나, 간편하게 사용할 수 있는 디자인이 부족합니다. 따라서, 이번 프로젝트에서는 이러한 문제점을 해결하기 위해 새로운 기능을 추가하고, 사용자 중심의 디자인을 적용하여 사용성을 높이는 방안을 모색합니다.",
+    "execution_plan": [
+      {
+        "phase": "기능적 디자인 및 개념 설계",
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "description": "기능적 디자인을 통해 사용자 경험을 최적화하고, 개념 설계를 통해 제품의 기본 모습을 결정합니다."
+      },
+      {
+        "phase": "세부 디자인 및 시장 조사",
+        "duration": "2025.01.16 ~ 2025.02.15",
+        "description": "세부 디자인을 완료하고, 시장 조사를 통해 고객의 요구를 파악하며, 이를 바탕으로 제품 개선 방향을 설정합니다."
+      },
+      {
+        "phase": "마케팅 전략 수립 및 출시 준비",
+        "duration": "2025.02.16 ~ 2025.03.31",
+        "description": "마케팅 전략을 수립하고, 제품 출시 전의 마지막 단계를 수행합니다."
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 향상",
+      "기대효과 2: 시장 점유율 증가",
+      "기대효과 3: 초기 출시 후의 긍정적인 피드백을 얻고, 이후 개선 방향을 정책적으로 추진함"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_ES2015a/05_final_result.json",
+    "utterance_count": 93,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_C"
+    ],
+    "original_length": 3190,
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1
+    },
+    "is_chunk": false,
+    "processing_date": "2025-08-07T02:58:04.034288"
+  }
+}

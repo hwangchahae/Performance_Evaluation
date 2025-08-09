@@ -1,0 +1,35 @@
+{
+  "id": "train_015_chunk_2",
+  "source_dir": "result_ES2008b",
+  "notion_output": "```json\n{\n    \"project_name\": \"스마트 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"사용자 친화적이고 패셔너블한 스마트 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 단순하고 직관적인 사용자 인터페이스 설계\",\n        \"목표 2: 다양한 타겟 그룹을 위한 맞춤형 기능 제공\",\n        \"목표 3: 충전식 배터리 및 에너지 효율성 강화\"\n    ],\n    \"core_idea\": \"단순함과 패션을 겸비한 스마트 리모컨\",\n    \"idea_description\": \"리모컨의 주요 기능을 쉽게 접근할 수 있도록 큰 버튼을 배치하고, 추가 기능은 숨겨진 버튼으로 제공하여 사용자 경험을 향상시킵니다. 또한, 충전식 배터리를 사용하여 지속 가능성을 고려합니다.\",\n    \"execution_plan\": \"1단계: 시장 조사 및 타겟 그룹 분석 (2024.01.01 ~ 2024.02.15)\\n2단계: 디자인 및 프로토타입 개발 (2024.02.16 ~ 2024.03.31)\\n3단계: 기능 테스트 및 피드백 수집 (2024.04.01 ~ 2024.04.30)\\n4단계: 최종 제품 개발 및 생산 준비 (2024.05.01 ~ 2024.06.15)\\n5단계: 출시 및 마케팅 (2024.06.16 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상 및 시장 점유율 증가\",\n        \"기대효과 2: 에너지 효율적인 제품으로 환경 보호 기여\",\n        \"기대효과 3: 혁신적인 디자인으로 브랜드 이미지 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2008b/05_final_result.json",
+    "utterance_count": 277,
+    "original_transcript_length": 9986,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 9986
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T17:36:39.096366"
+  }
+}

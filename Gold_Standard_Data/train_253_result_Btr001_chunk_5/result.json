@@ -1,0 +1,38 @@
+{
+  "id": "train_253_chunk_5",
+  "source_dir": "result_Btr001_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"회의 기록 및 피드백 분석 시스템 개발 프로젝트\",\n    \"project_purpose\": \"회의 내용을 실시간으로 필사하고, 주요 주제와 피드백을 분석하여 회의의 효율성을 높이고 실질적인 개선을 지원\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 실시간 회의 필사 시스템 개발 및 테스트\",\n        \"목표 2: 필사된 내용을 분석하여 주요 의사결정 및 피드백 도출\",\n        \"목표 3: 회의 중 논의된 피드백과 문제 해결 방안을 반영하여 회의 효율성을 높이는 피드백 시스템 구축\"\n    ],\n    \"core_idea\": \"회의 내용을 실시간으로 필사하고, 이를 분석하여 회의의 효율성을 높이고 실질적인 피드백을 제공하는 시스템 개발\",\n    \"idea_description\": \"회의 중 발언을 실시간으로 필사하고, 이를 분석하여 주요 의사결정, 피드백, 문제 해결 방안을 도출하는 시스템을 개발합니다. 이를 통해 회의의 효율성을 높이고, 후속 조치의 명확성을 확보합니다.\",\n    \"execution_plan\": [\n        \"1단계: 회의 필사 시스템 개발 및 초기 테스트 (2024.01.01 ~ 2024.01.31)\",\n        \"2단계: 필사 내용 분석 알고리즘 개발 및 피드백 시스템 통합 (2024.02.01 ~ 2024.02.28)\",\n        \"3단계: 분석 결과를 바탕으로 피드백 제공 시스템 구축 및 최종 테스트 (2024.03.01 ~ 2024.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 회의 기록의 정확성과 신속성 향상\",\n        \"기대효과 2: 회의 후속 조치의 명확성 및 실행력 강화\",\n        \"기대효과 3: 회의에서 논의된 피드백을 반영한 실질적인 개선을 통한 효율성 증대\"\n    ],\n    \"key_discussions\": [\n        \"구두점과 대문자 사용의 중요성 및 시간 단위 수정 필요성\",\n        \"회의에서 논의된 피드백의 중요성과 이를 반영한 개선 방안\",\n        \"회의 중 논의된 저장 공간 문제와 피드백의 문제 해결 방안\",\n        \"회의 중 발언의 정확한 필사와 분석을 통한 실질적인 피드백 제공 필요성\",\n        \"회의 중 언급된 특정 문제 해결 방안 및 피드백의 실질적 반영\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Btr001_processed/05_final_result.json",
+    "utterance_count": 987,
+    "original_transcript_length": 30604,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 30604
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 7,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:49:36.432529"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "train_182_chunk_4",
+  "source_dir": "result_Bmr016_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"Wave 파일 관리 및 최적화 프로젝트\",\n    \"project_purpose\": \"Wave 파일의 효율적 관리와 최적화를 통해 데이터 처리 속도를 향상시키고 저장 공간을 절약하며 데이터의 품질과 안정성을 강화하는 것\",\n    \"project_period\": \"2025.01.01 ~ 2025.03.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: Wave 파일의 정렬 및 다운샘플링을 통한 데이터 처리 속도 향상\",\n        \"목표 2: 파일 크기에 따른 메모리 사용 최적화 및 효율적 관리\",\n        \"목표 3: 백업 및 스크래치 공간 관리 개선을 통한 데이터 안정성 강화\",\n        \"목표 4: 발언자 식별 및 대화 전사 정확성 향상\",\n        \"목표 5: Transcriber 및 X Waves 도구의 활용을 통한 작업 효율성 증대\"\n    ],\n    \"core_idea\": \"Wave 파일의 효율적 관리 및 최적화를 통해 데이터 처리 속도를 높이고 저장 공간을 절약하며, 발언자 식별과 대화 전사 정확성을 개선하여 데이터의 품질과 안정성을 강화하는 것\",\n    \"idea_description\": \"Wave 파일을 정렬하고 다운샘플링하여 데이터 처리 속도를 높이며, 파일 크기에 따라 메모리 사용을 최적화합니다. 또한, 백업 및 스크래치 공간 관리를 개선하여 데이터 손실을 방지하고, 발언자 식별과 대화 전사 정확성을 높여 데이터의 품질을 향상시킵니다. Transcriber 및 X Waves 도구를 활용하여 작업 효율성을 증대시킵니다.\",\n    \"execution_plan\": [\n        \"1단계: Wave 파일 정렬 및 다운샘플링 (2025.01.01 ~ 2025.01.31)\",\n        \"2단계: 파일 크기에 따른 메모리 사용 최적화 및 관리 (2025.02.01 ~ 2025.02.28)\",\n        \"3단계: 백업 및 스크래치 공간 관리 개선 (2025.03.01 ~ 2025.03.15)\",\n        \"4단계: 발언자 식별 및 대화 전사 정확성 향상 (2025.03.16 ~ 2025.03.31)\",\n        \"5단계: Transcriber 및 X Waves 도구 활용 및 최적화 (2025.03.01 ~ 2025.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 데이터 처리 속도 30% 향상\",\n        \"기대효과 2: 저장 공간 20% 절약\",\n        \"기대효과 3: 데이터 손실 위험 감소 및 안정성 향상\",\n        \"기대효과 4: 발언자 식별 정확도 및 대화 전사 품질 향상\",\n        \"기대효과 5: 작업 효율성 25% 증대\"\n    ],\n    \"technical_details\": [\n        \"파일 크기에 따른 메모리 최적화 기술 적용\",\n        \"백업 및 스크래치 공간 관리 자동화 도구 개발\",\n        \"발언자 식별을 위한 음성 인식 기술 활용\",\n        \"대화 전사 정확성을 위한 텍스트 분석 및 교정 기술 적용\",\n        \"Transcriber 및 X Waves 도구의 효율적 활용\"\n    ],\n    \"roles_and_responsibilities\": {\n        \"Speaker_A\": \"맞춤법 검사 및 발언자 식별 정확성 향상\",\n        \"Speaker_B\": \"프로젝트 총괄 관리 및 Wave 파일 최적화\",\n        \"Speaker_C\": \"데이터 처리 속도 향상 및 메모리 관리\",\n        \"Speaker_D\": \"백업 및 스크래치 공간 관리 개선\",\n        \"Speaker_E\": \"기술적 세부사항 분석 및 지원\",\n        \"Speaker_F\": \"대화 전사 품질 검사 및 교정\",\n        \"Speaker_G\": \"기술 지원 및 파일 관리 자동화\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.2,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr016_processed/05_final_result.json",
+    "utterance_count": 873,
+    "original_transcript_length": 31360,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 31360
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 7,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:15:02.212247"
+  }
+}

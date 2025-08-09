@@ -1,0 +1,37 @@
+{
+  "id": "train_125_chunk_5",
+  "source_dir": "result_Bmr008_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"글로벌 방언 및 악센트 데이터베이스 구축 프로젝트\",\n    \"project_purpose\": \"다양한 지역의 방언 및 악센트를 체계적으로 수집하고 분석하여, 정치적 및 사회적 맥락을 고려한 데이터베이스를 구축함으로써 지역별 언어적 특성을 이해하고 활용\",\n    \"project_period\": \"2025.01.01 ~ 2025.03.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 뉴욕을 포함한 다양한 지역의 방언 및 악센트 수집 및 정치적 맥락 분석\",\n        \"목표 2: 수집된 데이터를 기반으로 TIMIT 레이블과의 차별점을 명확히 하여 분류 체계 구축\",\n        \"목표 3: 방언 및 악센트 데이터베이스를 공개하여 연구 및 상업적 활용 촉진\"\n    ],\n    \"core_idea\": \"다양한 지역의 방언 및 악센트를 체계적으로 수집하고, 정치적 문제와 사회적 맥락을 반영하여 분석 및 분류하여 데이터베이스를 구축\",\n    \"idea_description\": \"뉴욕을 포함한 다양한 지역의 방언 및 악센트를 수집하고, 이를 TIMIT 레이블과의 차별점을 명확히 하여 분류합니다. 정치적 문제와 사회적 맥락을 고려하여 데이터베이스를 구축하고, 연구 및 상업적 활용을 촉진합니다.\",\n    \"execution_plan\": [\n        \"1단계: 데이터 수집 (2025.01.01 ~ 2025.01.31) - 다양한 지역의 방언 및 악센트 수집, 정치적 및 사회적 맥락 조사\",\n        \"2단계: 데이터 분석 및 분류 (2025.02.01 ~ 2025.02.28) - 수집된 데이터를 TIMIT 레이블과의 차별점을 명확히 하여 분류\",\n        \"3단계: 데이터베이스 구축 및 공개 (2025.03.01 ~ 2025.03.31) - 데이터베이스를 구축하고 공개\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 지역별 방언 및 악센트에 대한 이해 증진 및 정치적 맥락에 대한 인식 강화\",\n        \"기대효과 2: 연구 및 상업적 활용을 위한 데이터베이스 제공\",\n        \"기대효과 3: 언어적 다양성 및 정치적 맥락에 대한 인식 제고\"\n    ],\n    \"evaluation_metrics\": [\n        \"지표 1: 수집된 방언 및 악센트의 수와 다양성\",\n        \"지표 2: 데이터베이스의 사용자 수 및 활용 빈도\",\n        \"지표 3: 정치적 맥락 분석 보고서의 작성 및 배포 여부\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr008_processed/05_final_result.json",
+    "utterance_count": 1114,
+    "original_transcript_length": 38159,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9,
+      "original_length": 38159
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 9,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:48:42.903314"
+  }
+}

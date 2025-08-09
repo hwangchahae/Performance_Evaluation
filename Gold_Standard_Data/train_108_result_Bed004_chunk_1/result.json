@@ -1,0 +1,38 @@
+{
+  "id": "train_108_chunk_1",
+  "source_dir": "result_Bed004_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"힌델베르크 문화 및 관광 통합 발전 프로젝트\",\n    \"project_purpose\": \"힌델베르크 지역의 다양한 문화 유산과 관광 명소를 통합적으로 발전시켜 지역 경제 활성화와 문화적 가치를 높이며, 방문객에게 풍부한 문화 경험을 제공\",\n    \"project_period\": \"2025.01.01 ~ 2025.03.31\",\n    \"project_manager\": \"Speaker_C\",\n    \"core_objectives\": [\n        \"목표 1: 힌델베르크 성, 박물관, 극장 등 다양한 문화 명소의 체계적 탐방 계획 수립 및 실행\",\n        \"목표 2: 힌델베르크 교향악단 콘서트 및 지역 문화 행사 정보 수집 및 홍보 강화\",\n        \"목표 3: 관광객을 위한 효율적이고 편리한 교통 및 안내 시스템 구축\",\n        \"목표 4: 지역 주민과의 협력을 통해 지속 가능한 관광 모델 개발 및 실행\"\n    ],\n    \"core_idea\": \"힌델베르크 지역의 문화적 가치와 관광 자원을 통합적으로 활용하여 지역 경제를 활성화하고, 방문객에게 풍부한 문화 경험을 제공\",\n    \"idea_description\": \"힌델베르크 성, 박물관, 극장 등 주요 명소를 중심으로 한 관광 루트를 개발하고, 힌델베르크 교향악단의 콘서트와 같은 문화적 다양성을 강조한 이벤트를 포함하여 방문객에게 다양한 체험을 제공하는 프로젝트입니다. 이를 통해 지역 경제 활성화와 문화 유산 보존에 기여할 것입니다.\",\n    \"execution_plan\": [\n        \"1단계: 주요 명소 및 문화 행사 정보 수집 (2025.01.01 ~ 2025.01.15)\",\n        \"2단계: 관광 루트 및 교통 안내 시스템 개발 (2025.01.16 ~ 2025.02.15)\",\n        \"3단계: 지역 주민 및 상인과의 협력 체계 구축 (2025.02.01 ~ 2025.02.28)\",\n        \"4단계: 홍보 및 마케팅 캠페인 진행 (2025.02.16 ~ 2025.03.31)\",\n        \"5단계: 피드백 수집 및 개선 사항 반영 (2025.03.01 ~ 2025.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 지역 경제 활성화 및 관광객 증가\",\n        \"기대효과 2: 힌델베르크 지역의 문화 유산 보존 및 인지도 상승\",\n        \"기대효과 3: 방문객의 만족도 향상 및 재방문율 증가\",\n        \"기대효과 4: 지역 주민과의 협력을 통한 지속 가능한 관광 모델 구축\"\n    ],\n    \"additional_information\": {\n        \"cultural_events\": \"힌델베르크 교향악단 콘서트, 지역 문화 행사 및 공연\",\n        \"transportation_details\": \"42번 버스 및 케이블카를 이용한 접근성 강화, 관광객을 위한 안내 시스템 개선\",\n        \"collaboration\": \"지역 주민 및 상인과의 협력 체계 구축을 통해 지속 가능한 발전 모델 구현\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 5.2,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed004_processed/05_final_result.json",
+    "utterance_count": 511,
+    "original_transcript_length": 18729,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 18729
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 5,
+      "chunk_length": 4973
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T01:32:57.401746"
+  }
+}

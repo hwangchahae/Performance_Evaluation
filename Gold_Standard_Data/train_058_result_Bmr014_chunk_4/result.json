@@ -1,0 +1,37 @@
+{
+  "id": "train_058_chunk_4",
+  "source_dir": "result_Bmr014_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"회의 데이터 보안 및 접근성 최적화 프로젝트\",\n    \"project_purpose\": \"회의 데이터의 안전한 관리와 사용자 접근성 최적화\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Adam\",\n    \"core_objectives\": [\n        \"목표 1: 회의 데이터의 안전한 저장 및 관리 체계 구축\",\n        \"목표 2: 사용자 친화적인 웹 인터페이스 제공 및 접근성 강화\",\n        \"목표 3: 데이터 접근 권한 관리 및 보안 강화\",\n        \"목표 4: 사용자 피드백 기반의 시스템 개선\"\n    ],\n    \"core_idea\": \"회의 데이터를 효율적으로 관리하고 사용자에게 안전하고 편리한 접근성을 제공하는 시스템 구축\",\n    \"idea_description\": \"회의 데이터의 저장, 관리 및 접근성을 개선하여 사용자 경험을 향상시키고 보안을 강화하는 프로젝트입니다. 특히, 회의록에서 언급된 보안 문제와 접근성 이슈를 해결하는 데 중점을 둡니다.\",\n    \"execution_plan\": \"1단계: 현재 회의 데이터 관리 시스템 분석 및 문제점 파악 (2024.01.01 ~ 2024.01.15)\\\\n2단계: 웹 인터페이스 설계 및 개발, 사용자 피드백 수집 (2024.01.16 ~ 2024.02.15)\\\\n3단계: 데이터 접근 권한 관리 시스템 구축 및 보안 강화 (2024.02.16 ~ 2024.03.15)\\\\n4단계: 시스템 테스트 및 사용자 피드백 반영, 최종 개선 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 회의 데이터 관리 효율성 향상\",\n        \"기대효과 2: 사용자 접근성 및 만족도 증가\",\n        \"기대효과 3: 데이터 보안 강화 및 리스크 감소\",\n        \"기대효과 4: 사용자 피드백을 통한 지속적인 시스템 개선\"\n    ],\n    \"key_discussions\": [\n        \"데이터 보안 문제: 회의록에서 언급된 데이터 보안 이슈를 해결하기 위해 PGP와 같은 복잡한 방법 대신 사용자 친화적인 보안 방안을 모색\",\n        \"접근성 문제: 웹 인터페이스를 통해 사용자들이 쉽게 회의 데이터를 접근할 수 있도록 하며, 필요시 인쇄 가능한 버전 제공\",\n        \"사용자 피드백: 회의에서 논의된 사용자 피드백을 적극 반영하여 시스템을 개선하고, 피드백 수집을 위한 웹 양식 개발\",\n        \"데이터 관리 효율성: 회의 데이터의 효율적인 관리와 저장을 위한 시스템 개선, 중복 데이터 방지 및 디스크 공간 최적화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr014_processed/05_final_result.json",
+    "utterance_count": 502,
+    "original_transcript_length": 18258,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 18258
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 4,
+      "chunk_length": 4828
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T20:45:52.380102"
+  }
+}

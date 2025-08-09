@@ -1,0 +1,39 @@
+{
+  "id": "train_226_chunk_2",
+  "source_dir": "result_Bmr007_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"대화 중복 및 백채널 활용 최적화 프로젝트\",\n    \"project_purpose\": \"대화 중 중복 발생 패턴과 백채널 활용의 구체적 사례를 분석하여 실무에 적용 가능한 커뮤니케이션 전략을 개발하고, 시각적 효과를 활용한 커뮤니케이션 효율성을 증대\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 대화 중 중복 발생의 정밀 타이밍 및 빈도 분석\",\n        \"목표 2: 중복 발생 시 백채널 활용 패턴 및 시각적 효과 연구\",\n        \"목표 3: 실무 적용 가능한 커뮤니케이션 전략 개발\",\n        \"목표 4: 시각적 효과와 백채널 활용의 상호작용 분석\"\n    ],\n    \"core_idea\": \"대화 중 중복 발생의 패턴과 백채널 활용 사례를 연구하여, 이를 바탕으로 실무에서 적용 가능한 커뮤니케이션 개선 방안을 제시하고, 시각적 효과를 통해 대화의 질을 향상\",\n    \"idea_description\": \"대화 중 중복 발생의 빈도와 타이밍을 분석하고, 백채널 활용 및 시각적 효과와의 관계를 연구하여 커뮤니케이션 효율성을 높이는 방안을 제안. 특히, Dan Jurafsky와 Andreas의 연구를 참고하여 실무 적용성을 강화하며, 시각적 효과의 구체적인 활용 방안을 모색\",\n    \"execution_plan\": \"1단계: 데이터 수집 및 정리 (2024.01.01 ~ 2024.01.15)\\n2단계: 중복 발생 패턴 및 백채널 활용 사례 분석 (2024.01.16 ~ 2024.02.15)\\n3단계: 시각적 효과 및 실무 적용 가능성 연구 (2024.02.16 ~ 2024.03.15)\\n4단계: 최종 보고서 작성 및 실무 적용 제안 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 커뮤니케이션 중 중복 발생에 대한 이해도 향상 및 실무 적용 가능성 증대\",\n        \"기대효과 2: 백채널 활용을 통한 대화의 질적 개선 및 시각적 효과의 실무 적용 강화\",\n        \"기대효과 3: 실무에서의 커뮤니케이션 전략 강화 및 효율성 증대\",\n        \"기대효과 4: 시각적 효과와 백채널 활용의 상호작용을 통한 대화의 질 향상\"\n    ],\n    \"additional_information\": {\n        \"researchers\": [\"Dan Jurafsky\", \"Andreas\"],\n        \"specific_examples\": [\n            \"대화 중 두 사람의 중복 발생 시 백채널 활용 사례\",\n            \"시각적 효과와의 관계 분석을 통한 커뮤니케이션 전략 강화\",\n            \"백채널 활용과 시각적 효과의 상호작용 사례\"\n        ],\n        \"practical_methods\": [\n            \"정밀 타이밍 분석을 위한 데이터 수집 및 분석 기법\",\n            \"백채널 활용 및 시각적 효과 연구를 위한 구체적인 방법론\",\n            \"시각적 효과를 활용한 커뮤니케이션 개선 방안\"\n        ]\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr007_processed/05_final_result.json",
+    "utterance_count": 749,
+    "original_transcript_length": 24523,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 24523
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:47:05.376529"
+  }
+}

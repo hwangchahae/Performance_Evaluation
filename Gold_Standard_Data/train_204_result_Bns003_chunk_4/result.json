@@ -1,0 +1,38 @@
+{
+  "id": "train_204_chunk_4",
+  "source_dir": "result_Bns003_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"Invinet 국제 연구 협력 및 교육 혁신 프로젝트\",\n    \"project_purpose\": \"독일 정부의 지원을 받아 Invinet 프로젝트를 통해 국제적 연구 협력을 강화하고 교육 혁신 솔루션을 개발하여 학습 효율성을 높임\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_G\",\n    \"core_objectives\": [\n        \"목표 1: Invinet 프로젝트의 연구 방향 및 목표 설정\",\n        \"목표 2: 독일 및 국제 파트너와의 협력 체계 구축\",\n        \"목표 3: 연구 결과를 바탕으로 한 교육 혁신 솔루션 개발\",\n        \"목표 4: 학생들이 연구 프로젝트에 참여하여 실제 연구 경험을 쌓도록 지원\"\n    ],\n    \"core_idea\": \"Invinet 프로젝트를 통해 국제적 연구 협력과 교육 혁신을 동시에 추구하며, 학생들의 참여를 통해 연구 경험을 제공\",\n    \"idea_description\": \"Invinet 프로젝트는 독일 정부의 지원을 받아 국제적 연구 협력을 통해 교육 환경의 혁신을 도모하며, 학생과 교사의 상호작용을 증진시키고 학습 효율성을 높이는 솔루션을 개발. 또한, 학생들이 연구 프로젝트에 참여하여 실제 연구 경험을 쌓을 수 있는 기회를 제공\",\n    \"execution_plan\": \"1단계: 2024.01.01 ~ 2024.02.28 - 연구 방향 설정 및 초기 설계, 학생 참여 계획 수립\\n2단계: 2024.03.01 ~ 2024.04.30 - 국제 파트너와의 협력 체계 구축 및 연구 진행, 학생 참여 시작\\n3단계: 2024.05.01 ~ 2024.06.30 - 연구 결과 분석 및 교육 혁신 솔루션 개발, 학생 참여 결과 평가\",\n    \"expected_effects\": [\n        \"기대효과 1: 국제적 연구 협력을 통한 연구 역량 강화\",\n        \"기대효과 2: 교육 환경의 혁신 및 학습 효율성 증대\",\n        \"기대효과 3: 프로젝트 결과를 바탕으로 한 추가 연구 및 개발 기회 창출\",\n        \"기대효과 4: 학생들의 연구 참여를 통한 실제 연구 경험 제공 및 역량 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bns003_processed/05_final_result.json",
+    "utterance_count": 767,
+    "original_transcript_length": 24886,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 24886
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:08:39.925458"
+  }
+}

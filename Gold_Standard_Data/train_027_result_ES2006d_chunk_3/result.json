@@ -1,0 +1,35 @@
+{
+  "id": "train_027_chunk_3",
+  "source_dir": "result_ES2006d",
+  "notion_output": "```json\n{\n    \"project_name\": \"바나나 리모컨 프로젝트\",\n    \"project_purpose\": \"프로젝트 문서 관리 체계 개선 및 회의 효율성 극대화\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_C\",\n    \"core_objectives\": [\n        \"목표 1: 프로젝트 문서에 특허 관련 자료를 체계적으로 정리 및 관리\",\n        \"목표 2: 프로젝트 진행 상황을 점수화하여 명확하게 문서화\",\n        \"목표 3: 회의 효율성을 높이기 위한 설문조사 결과 분석 및 구체적인 개선 방안 도출\"\n    ],\n    \"core_idea\": \"효율적인 프로젝트 문서 관리와 회의 효율성 개선을 통해 업무 효율성을 극대화\",\n    \"idea_description\": \"프로젝트 문서에 특허 자료를 포함하여 체계적인 관리 시스템을 구축하고, 설문조사 결과를 바탕으로 회의 효율성을 개선하여 프로젝트 관리의 질을 향상시킵니다.\",\n    \"execution_plan\": \"1단계: 특허 자료 수집 및 정리 (2023.11.01 ~ 2023.11.15)\\n2단계: 프로젝트 진행 상황 점수화 및 명확한 문서화 (2023.11.16 ~ 2023.12.15)\\n3단계: 설문조사 결과 분석 및 구체적인 회의 효율성 개선 방안 도출 (2023.12.16 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 프로젝트 문서의 체계적 관리로 인한 업무 효율성 향상\",\n        \"기대효과 2: 프로젝트 진행 상황의 명확한 파악으로 인한 의사결정 속도 증가\",\n        \"기대효과 3: 설문조사 결과를 통한 구체적인 회의 효율성 개선으로 인한 시간 절약\"\n    ],\n    \"additional_information\": {\n        \"survey_status\": \"설문조사가 이미 발송되었음\",\n        \"meeting_efficiency_discussion\": \"회의 효율성을 높이기 위해 회의 시간을 효율적으로 사용하고, 필요 이상의 논의를 줄이는 방안이 논의됨\",\n        \"meeting_notes\": \"회의 중 슬라이드 준비 및 마지막 순간 수정의 중요성이 강조됨. 회의가 효율적으로 진행되어 시간이 남는 경우, 불필요한 논의를 줄이는 것이 중요함.\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2006d/05_final_result.json",
+    "utterance_count": 336,
+    "original_transcript_length": 10463,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 10463
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 3,
+      "chunk_length": 1488
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:06:52.388894"
+  }
+}

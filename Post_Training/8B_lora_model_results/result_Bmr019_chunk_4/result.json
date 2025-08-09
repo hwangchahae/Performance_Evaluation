@@ -1,0 +1,46 @@
+{
+  "id": "result_Bmr019_processed_chunk_4",
+  "source_dir": "result_Bmr019_processed",
+  "notion_output": {
+    "project_name": "오로라 시스템 성능 최적화 및 데이터 분석 프로젝트",
+    "project_purpose": "오로라 시스템의 성능을 개선하고 데이터 분석을 통해 학생들의 연구 능력을 강화하며, 다양한 환경에서의 처리 능력을 평가",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_E",
+    "core_objectives": [
+      "목표 1: 오로라 시스템의 성능을 20% 이상 개선",
+      "목표 2: 학생들의 연구 능력 강화를 위한 교육 프로그램 개발",
+      "목표 3: 다양한 환경에서의 시스템 처리 능력 평가 및 개선"
+    ],
+    "core_idea": "오로라 시스템의 성능을 최적화하고, 이를 통해 학생들의 연구 능력을 강화하며, 다양한 환경에서의 처리 능력을 평가",
+    "idea_description": "오로라 시스템의 성능을 개선하기 위해 MMIE 훈련의 개선된 버전을 활용하고, 학생들을 위한 교육 프로그램을 개발하여 연구 능력을 강화하며, 다양한 환경에서의 시스템 처리 능력을 평가하고 개선",
+    "execution_plan": "1단계: 오로라 시스템의 현재 성능 평가 및 문제점 분석 (2024.01.01 ~ 2024.02.15)\n2단계: MMIE 훈련의 개선된 버전 도입 및 성능 테스트 (2024.02.16 ~ 2024.03.31)\n3단계: 학생들을 위한 교육 프로그램 개발 및 시행 (2024.04.01 ~ 2024.05.15)\n4단계: 다양한 환경에서의 시스템 처리 능력 평가 및 개선 (2024.05.16 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 오로라 시스템의 성능 개선으로 인한 효율성 증대",
+      "기대효과 2: 학생들의 연구 능력 강화로 인한 창의성과 문제 해결 능력 향상",
+      "기대효과 3: 다양한 환경에서의 시스템 처리 능력 평가로 인한 시스템의 안정성 및 신뢰성 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr019_processed/05_final_result.json",
+    "utterance_count": 630,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_H",
+      "Speaker_E",
+      "Speaker_I"
+    ],
+    "original_length": 21243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-07T02:55:30.299828"
+  }
+}

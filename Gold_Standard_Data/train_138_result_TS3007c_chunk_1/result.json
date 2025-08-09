@@ -1,0 +1,35 @@
+{
+  "id": "train_138_chunk_1",
+  "source_dir": "result_TS3007c",
+  "notion_output": "```json\n{\n    \"project_name\": \"스마트 리모컨 혁신 프로젝트\",\n    \"project_purpose\": \"사용자 맞춤형 디자인과 최적화된 에너지원으로 차세대 스마트 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 40세 미만 고객층을 타겟으로 한 혁신적인 스마트 리모컨 디자인\",\n        \"목표 2: 사각형 터치스크린 및 다양한 인터페이스 옵션 구현\",\n        \"목표 3: 운동에너지 및 태양 전지 패널을 활용한 에너지원 최적화\",\n        \"목표 4: 사용자 맞춤형 디자인을 위한 탈착식 커버와 다양한 색상 제공\"\n    ],\n    \"core_idea\": \"고무 재질과 다양한 색상의 탈착식 커버를 활용한 스마트 리모컨\",\n    \"idea_description\": \"고무 재질을 사용하여 내구성을 높이고, 다양한 색상의 탈착식 커버를 통해 사용자 맞춤형 디자인 제공. 사각형 터치스크린을 활용하여 직관적인 인터페이스 구현. 운동에너지 및 태양 전지 패널을 통해 에너지를 최적화.\",\n    \"execution_plan\": [\n        \"1단계: 디자인 컨셉 확정 및 프로토타입 제작 (2024.01.01 ~ 2024.02.28)\",\n        \"2단계: 사용자 테스트 및 피드백 수집 (2024.03.01 ~ 2024.03.31)\",\n        \"3단계: 최종 디자인 확정 및 생산 준비 (2024.04.01 ~ 2024.05.31)\",\n        \"4단계: 마케팅 및 출시 준비 (2024.06.01 ~ 2024.06.30)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 40세 미만 고객층의 관심 증가 및 시장 점유율 확대\",\n        \"기대효과 2: 사용자 경험 개선을 통한 브랜드 이미지 강화\",\n        \"기대효과 3: 혁신적인 디자인과 기능으로 경쟁사 대비 차별화\"\n    ],\n    \"technical_details\": {\n        \"touchscreen\": \"사각형 터치스크린을 사용하여 메뉴 구조를 변경할 수 있는 직관적인 인터페이스 제공. 터치스크린은 크고 화려한 색상으로 사용자에게 시각적 만족을 제공.\",\n        \"energy_source\": \"운동에너지와 태양 전지 패널을 활용하여 에너지 효율성을 극대화. 리모컨을 흔들어 전원을 켜고, 나머지 시간에는 배터리에 전력을 공급.\",\n        \"customization\": \"탈착식 커버와 다양한 색상 옵션을 통해 사용자 맞춤형 디자인 제공. 사용자는 자신의 취향에 맞게 커버를 교체할 수 있음.\"\n    },\n    \"user_experience\": {\n        \"interface\": \"엄지손가락을 사용한 메인 버튼 조작 및 다양한 메뉴 구조 제공. 사용자는 손쉽게 리모컨을 조작할 수 있으며, 인터페이스는 사용자 친화적으로 설계됨.\",\n        \"design\": \"크고 화려한 색상의 탈착식 커버를 통해 개인화된 사용자 경험 제공. 사용자는 다양한 색상과 재질의 커버를 선택하여 자신만의 스타일을 표현할 수 있음.\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3007c/05_final_result.json",
+    "utterance_count": 297,
+    "original_transcript_length": 9725,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 9725
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4994
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:11:24.380372"
+  }
+}

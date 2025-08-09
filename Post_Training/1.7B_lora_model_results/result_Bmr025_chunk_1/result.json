@@ -1,0 +1,75 @@
+{
+  "id": "result_Bmr025_processed_chunk_1",
+  "source_dir": "result_Bmr025_processed",
+  "notion_output": {
+    "project_name": "THISL 및 BSD 호환성 강화 프로젝트",
+    "project_purpose": "회의 데이터를 효율적으로 저장하고 검색하며, BSD 호환성을 통해 다양한 운영 체제에서 동일한 기능을 제공함으로써 사용자 경험을 개선하고, 다양한 환경에서의 호환성을 높이는 것",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: 회의 데이터를 BSD 호환성 계층으로 변환하여 다양한 운영 체제에서 동일한 기능을 제공",
+      "목표 2: 사용자가 원하는 특정 쿼리를 통해 회의 데이터를 검색할 수 있도록 개발",
+      "목표 3: 다양한 환경에서의 호환성을 높이기 위한 기술적 개선",
+      "목표 4: 사용자 인터페이스를 향상하여 사용자의 접근성을 높임"
+    ],
+    "core_idea": "회의 데이터를 BSD 호환성 계층으로 변환하여 다양한 운영 체제에서 동일한 기능을 제공하고, 사용자 인터페이스를 개선하여 사용자 경험을 향상시키는 것",
+    "idea_description": "회의 데이터를 BSD 호환성 계층으로 변환하여 다양한 운영 체제에서 동일한 기능을 제공하고, 사용자 인터페이스를 개선하여 사용자 경험을 향상시키는 것",
+    "execution_plan": [
+      {
+        "phase": "데이터 변환 및 호환성 계층 설계",
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "tasks": [
+          "회의 데이터를 BSD 호환성 계층으로 변환",
+          "호환성 계층 설계 및 구조 결정",
+          "기술적 요구사항 분석 및 반영"
+        ]
+      },
+      {
+        "phase": "사용자 인터페이스 개선 및 검색 기능 개발",
+        "duration": "2025.01.16 ~ 2025.02.15",
+        "tasks": [
+          "사용자 인터페이스 개선 및 UI/UX 설계",
+          "쿼리 기능 및 검색 기능 개발",
+          "테스트 및 피드백 수집"
+        ]
+      },
+      {
+        "phase": "호환성 및 성능 테스트",
+        "duration": "2025.02.16 ~ 2025.03.15",
+        "tasks": [
+          "다양한 운영 체제에서의 호환성 테스트",
+          "성능 최적화 및 버그 수정",
+          "사용자 피드백 반영 및 개선"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 다양한 운영 체제에서 동일한 기능을 제공하여 사용자 접근성이 향상됨",
+      "기대효과 2: 사용자 인터페이스 개선으로 사용자 경험 향상 및 효율성 증대",
+      "기대효과 3: BSD 호환성 계층을 통해 다양한 환경에서의 호환성 강화로 경쟁력 확보",
+      "기대효과 4: 사용자 피드백을 반영하여 제품 개선 및 발전"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr025_processed/05_final_result.json",
+    "utterance_count": 453,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_H",
+      "Speaker_F",
+      "Speaker_G"
+    ],
+    "original_length": 16243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-07T02:59:40.650595"
+  }
+}

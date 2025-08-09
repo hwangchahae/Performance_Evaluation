@@ -1,0 +1,41 @@
+{
+  "id": "result_IS1000d_chunk_1",
+  "source_dir": "result_IS1000d",
+  "notion_output": {
+    "project_name": "IR 리모컨 디자인 및 제조 프로젝트",
+    "project_purpose": "적외선 LED 기반의 간결하고 사용자 친화적인 리모컨을 설계하고 제조하여 소비자의 요구를 충족시키며 경쟁력을 확보",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: IR 리모컨의 기본 디자인 완료 및 사용자 피드백 반영",
+      "목표 2: 제조 비용을 16유로 이내로 유지하며 생산 가능성을 검토",
+      "목표 3: 제품의 기능성과 사용성을 강화하여 시장 경쟁력 확보"
+    ],
+    "core_idea": "적외선 LED를 활용한 간결하고 직관적인 리모컨 디자인",
+    "idea_description": "기본적으로 적외선 LED를 사용하여 켜기/끄기 버튼과 볼륨 조절 버튼을 포함하고, 다양한 채널 선택 옵션을 제공하며, 촉각적 기능을 추가하여 사용자 경험을 향상시킴. 또한, 배터리 상태를 나타내는 LED와 위치 확인 기능을 포함하여 사용자 편의성을 증진시킴.",
+    "execution_plan": "1단계: 디자인 초기 검토 및 사용자 피드백 수집 (2024.01.01 ~ 2024.02.15)\n2단계: 디자인 수정 및 최종 결정 (2024.02.16 ~ 2024.03.15)\n3단계: 제조 비용 분석 및 생산 준비 (2024.03.16 ~ 2024.04.15)\n4단계: 프로토타입 제작 및 테스트 (2024.04.16 ~ 2024.05.15)\n5단계: 최종 디자인 확정 및 대량 생산 시작 (2024.05.16 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 향상으로 인한 브랜드 이미지 강화",
+      "기대효과 2: 경쟁사 대비 차별화된 기능으로 시장 점유율 확대",
+      "기대효과 3: 효율적인 제조 과정으로 인한 운영 비용 절감"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_IS1000d/05_final_result.json",
+    "utterance_count": 433,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C"
+    ],
+    "original_length": 13960,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-07T02:49:12.718108"
+  }
+}

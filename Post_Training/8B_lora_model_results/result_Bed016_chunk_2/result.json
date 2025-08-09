@@ -1,0 +1,47 @@
+{
+  "id": "result_Bed016_processed_chunk_2",
+  "source_dir": "result_Bed016_processed",
+  "notion_output": {
+    "project_name": "구조적 해석 프레임워크 개발 프로젝트",
+    "project_purpose": "구문 구조와 일반적인 해석 메커니즘을 결합하여 은유적, 환유적 표현을 포괄적으로 분석하고, 이를 통해 언어 이해의 정밀도를 향상시키는 프레임워크 개발",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Nancy",
+    "core_objectives": [
+      "목표 1: 구문 구조와 해석 메커니즘의 통합",
+      "목표 2: 은유적 및 환유적 표현의 상호작용 분석",
+      "목표 3: 다양한 컨테이너 및 장애물 관련 해석 시나리오 개발"
+    ],
+    "core_idea": "구조적 해석 프레임워크를 통해 은유적, 환유적 표현을 포괄적으로 분석하고, 이를 통해 언어 이해의 정밀도를 향상시킨다.",
+    "idea_description": "구문 구조와 일반적인 해석 메커니즘을 결합하여 은유적, 환유적 표현을 분석하며, 이를 통해 다양한 컨테이너 및 장애물 관련 해석 시나리오를 개발한다. 특히, 기본 사례와 복잡한 사례 모두를 고려하여 프레임워크의 유연성을 확보한다.",
+    "execution_plan": "1단계: 구문 구조와 해석 메커니즘의 초기 설계 (2025.01.01 ~ 2025.02.28)\n2단계: 은유적 및 환유적 표현의 상호작용 분석 (2025.03.01 ~ 2025.04.30)\n3단계: 컨테이너 및 장애물 관련 해석 시나리오 개발 (2025.05.01 ~ 2025.06.30)",
+    "expected_effects": [
+      "기대효과 1: 언어 분석의 정밀도 향상",
+      "기대효과 2: 은유적 및 환유적 표현의 이해 증진",
+      "기대효과 3: 학문적 연구에 대한 기여"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bed016_processed/05_final_result.json",
+    "utterance_count": 505,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_E",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_J",
+      "Speaker_I"
+    ],
+    "original_length": 16078,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-07T02:57:25.391186"
+  }
+}

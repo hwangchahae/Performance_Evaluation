@@ -1,0 +1,35 @@
+{
+  "id": "train_117_chunk_1",
+  "source_dir": "result_EN2002a",
+  "notion_output": "```json\n{\n    \"project_name\": \"화자 특성화 및 팝업 창 구현 프로젝트\",\n    \"project_purpose\": \"회의 중 화자 특성을 시각적으로 표시하여 회의 내용을 효율적으로 탐색할 수 있도록 지원\",\n    \"project_period\": \"2023.11.01 ~ 2024.02.29\",\n    \"project_manager\": \"Speaker_C\",\n    \"core_objectives\": [\n        \"목표 1: 화자 특성을 보여주는 팝업 창 개발\",\n        \"목표 2: 마우스 오른쪽 버튼 클릭을 통한 메뉴 구현\",\n        \"목표 3: GUI가 있는 프로토타입 완성\"\n    ],\n    \"core_idea\": \"화자 특성 시각화 및 팝업 창을 통해 회의 내용을 더 직관적으로 탐색\",\n    \"idea_description\": \"브라우저에서 마우스 오른쪽 버튼을 클릭하여 화자 특성을 표시하는 팝업 창을 구현하고, 이를 통해 회의 내용을 효과적으로 탐색할 수 있는 시스템을 개발\",\n    \"execution_plan\": \"1. 팝업 창 디자인 및 프로토타입 개발 (2023.11.01 ~ 2023.12.15)\\n2. 마우스 오른쪽 버튼 클릭 메뉴 구현 (2023.12.16 ~ 2024.01.15)\\n3. GUI를 포함한 최종 프로토타입 완성 (2024.01.16 ~ 2024.02.29)\",\n    \"expected_effects\": [\n        \"기대효과 1: 회의 중 화자 특성을 시각적으로 파악하여 회의 효율성 증대\",\n        \"기대효과 2: 사용자 인터페이스 개선을 통한 사용자 경험 향상\",\n        \"기대효과 3: 프로토타입을 통해 실용성 검증 및 향후 개발 방향 설정\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_EN2002a/05_final_result.json",
+    "utterance_count": 376,
+    "original_transcript_length": 11248,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 11248
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4987
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:19:55.184991"
+  }
+}

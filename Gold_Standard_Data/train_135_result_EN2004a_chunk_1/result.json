@@ -1,0 +1,35 @@
+{
+  "id": "train_135_chunk_1",
+  "source_dir": "result_EN2004a",
+  "notion_output": "```json\n{\n    \"project_name\": \"회의록 정확성 및 정보 전달 개선 프로젝트\",\n    \"project_purpose\": \"회의록의 정확성을 높이고, 새로운 교사에 대한 정보를 명확히 하여 팀의 정보 전달 효율성을 강화합니다.\",\n    \"project_period\": \"2023.11.01 ~ 2023.12.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 회의록의 불확실성 및 모호한 부분을 식별하고 수정\",\n        \"목표 2: 맞춤법 검사를 통해 회의록의 정확성 향상\",\n        \"목표 3: 새로운 교사에 대한 정보 및 역할 명확화\",\n        \"목표 4: 회의록 작성 시의 구체적인 문제점 및 해결 방안 제시\"\n    ],\n    \"core_idea\": \"회의록의 정확성과 명확성을 높이기 위한 체계적인 접근\",\n    \"idea_description\": \"회의록 작성 시 불확실한 부분을 명확히 하고, 맞춤법 검사를 통해 오류를 줄이며, 새로운 교사에 대한 정보를 명확히 하여 팀의 이해도를 높입니다. 또한, 회의에서 논의된 구체적인 사례를 포함하여 회의 내용 반영도를 높입니다.\",\n    \"execution_plan\": \"1. 불확실한 부분 식별 및 수정 (2023.11.01 ~ 2023.11.15)\\n2. 맞춤법 검사 및 오류 수정 (2023.11.16 ~ 2023.11.30)\\n3. 새로운 교사 정보 수집 및 역할 명확화 (2023.12.01 ~ 2023.12.15)\\n4. 회의록 작성 시 문제점 및 해결 방안 제시 (2023.12.01 ~ 2023.12.15)\\n5. 최종 검토 및 피드백 반영 (2023.12.16 ~ 2023.12.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 회의록의 정확성 및 신뢰성 향상\",\n        \"기대효과 2: 팀 내 정보 전달 효율성 증대\",\n        \"기대효과 3: 새로운 교사에 대한 명확한 역할 정의로 인한 팀워크 강화\",\n        \"기대효과 4: 회의록 작성 시의 문제점 해결로 인한 작성 효율성 향상\"\n    ],\n    \"meeting_discussions\": [\n        \"회의록 작성 시 불확실한 부분은 at 기호를 사용하여 표시\",\n        \"새로운 교사 두 명의 정보 및 역할 명확화 필요\",\n        \"회의록 작성 시 맞춤법 검사 중요성 강조\",\n        \"회의록의 구체적인 문제점 및 해결 방안 논의 필요\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_EN2004a/05_final_result.json",
+    "utterance_count": 368,
+    "original_transcript_length": 11332,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 11332
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4989
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:08:44.572520"
+  }
+}

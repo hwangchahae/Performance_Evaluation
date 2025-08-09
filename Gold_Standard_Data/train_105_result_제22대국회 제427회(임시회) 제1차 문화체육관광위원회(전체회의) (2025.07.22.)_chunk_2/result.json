@@ -1,0 +1,37 @@
+{
+  "id": "train_105_chunk_2",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 문화체육관광위원회(전체회의) (2025.07.22.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"국무위원 청문회 개선 프로젝트\",\n    \"project_purpose\": \"청문회의 투명성과 신뢰성을 높여 국민의 신뢰를 회복\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"김교흥 위원장\",\n    \"core_objectives\": [\n        \"목표 1: 청문회 자료 제출 요구의 적극적 대응\",\n        \"목표 2: 증인 및 참고인 채택 절차 개선\",\n        \"목표 3: 청문회 진행 시 인신공격 및 정쟁 방지\"\n    ],\n    \"core_idea\": \"청문회 투명성 및 신뢰성 강화\",\n    \"idea_description\": \"청문회의 투명성과 신뢰성을 강화하기 위해 자료 제출을 철저히 하고, 증인 및 참고인 채택 절차를 개선하며, 인신공격 및 정쟁을 방지하는 방안을 마련\",\n    \"execution_plan\": \"1. 청문회 자료 제출 요구 강화 (2023.11.01 ~ 2023.11.30)\\n2. 증인 및 참고인 채택 절차 개선 방안 마련 (2023.12.01 ~ 2023.12.31)\\n3. 청문회 진행 가이드라인 수립 및 교육 (2024.01.01 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 청문회의 투명성 증가로 국민 신뢰 회복\",\n        \"기대효과 2: 청문회 절차의 효율성 및 공정성 강화\",\n        \"기대효과 3: 청문회 진행 시 불필요한 갈등 감소\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제1차 문화체육관광위원회(전체회의) (2025.07.22.)/05_final_result.json",
+    "utterance_count": 75,
+    "original_transcript_length": 5872,
+    "speakers": [
+      "박정하 위원",
+      "김승수 위원",
+      "진종오 위원",
+      "위원장 김교흥",
+      "김윤덕 위원",
+      "박수현 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 5872
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 1433
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T00:49:12.887928"
+  }
+}

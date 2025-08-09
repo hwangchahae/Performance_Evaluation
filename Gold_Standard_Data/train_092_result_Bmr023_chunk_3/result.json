@@ -1,0 +1,38 @@
+{
+  "id": "train_092_chunk_3",
+  "source_dir": "result_Bmr023_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"스피커 데이터 기반 시스템 성능 최적화 및 기술적 개선 프로젝트\",\n    \"project_purpose\": \"스피커 데이터 분석을 통해 시스템 성능을 최적화하고, 다양한 스피커 환경에서의 적용 가능성을 높이며, 기술적 개선점을 도출하는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"제인\",\n    \"core_objectives\": [\n        \"목표 1: 스피커 데이터의 심층 분석을 통해 시스템 성능을 평가하고 개선\",\n        \"목표 2: 다양한 스피커 환경에 적용 가능한 일반적인 위치 및 특징 식별\",\n        \"목표 3: EDU 회의 데이터를 활용하여 회의 유형별 특징을 심층 분석\",\n        \"목표 4: PLP 기능 및 RASTA 필터의 효과 분석 및 적용\"\n    ],\n    \"core_idea\": \"스피커 데이터의 심층 분석과 기술적 세부 사항의 적용을 통해 시스템 성능을 최적화하고, 다양한 환경에서의 적용 가능성을 극대화하는 것\",\n    \"idea_description\": \"스피커 데이터의 수집 및 심층 분석을 통해 시스템의 성능을 평가하고, 다양한 스피커 환경에 적용 가능한 일반적인 위치와 특징을 식별하여 시스템의 적용 가능성을 높인다. 또한, PLP 기능 및 RASTA 필터의 효과를 분석하여 기술적 개선점을 도출한다.\",\n    \"execution_plan\": [\n        {\n            \"step\": \"스피커 데이터 수집 및 초기 분석\",\n            \"description\": \"다양한 스피커 데이터를 수집하고, 초기 분석을 통해 시스템 성능을 평가\",\n            \"period\": \"2024.01.01 ~ 2024.01.31\",\n            \"details\": [\n                \"다양한 스피커 환경에서의 데이터 수집\",\n                \"초기 데이터 분석을 통해 성능 평가\",\n                \"PLP 기능 및 RASTA 필터의 초기 적용\"\n            ]\n        },\n        {\n            \"step\": \"다양한 스피커 환경에 적용 가능한 위치 및 특징 식별\",\n            \"description\": \"스피커 데이터 분석을 통해 일반적인 위치와 특징을 식별\",\n            \"period\": \"2024.02.01 ~ 2024.02.28\",\n            \"details\": [\n                \"스피커 효과가 큰 위치 및 특징 식별\",\n                \"탠덤 시스템 및 가우시안 모델 적용\",\n                \"가우시안 모델의 효과 분석 및 개선\"\n            ]\n        },\n        {\n            \"step\": \"EDU 회의 데이터 분석 및 특징 도출\",\n            \"description\": \"EDU 회의 데이터를 활용하여 회의 유형별 특징을 분석하고 시스템 개선 방안 도출\",\n            \"period\": \"2024.03.01 ~ 2024.03.31\",\n            \"details\": [\n                \"EDU 회의 데이터 수집 및 분석\",\n                \"회의 유형별 특징 및 시스템 개선 방안 도출\",\n                \"회의에서 논의된 기술적 세부 사항 적용\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 시스템 성능 최적화 및 다양한 환경에서의 적용 가능성 증대\",\n        \"기대효과 2: 스피커 데이터 분석을 통한 새로운 인사이트 및 기술적 개선점 도출\",\n        \"기대효과 3: EDU 회의 데이터를 활용한 회의 시스템의 전반적 개선\",\n        \"기대효과 4: PLP 기능 및 RASTA 필터의 효과적 활용을 통한 시스템 성능 향상\"\n    ],\n    \"technical_details\": [\n        \"PLP 기능 및 RASTA 필터의 적용 및 효과 분석\",\n        \"가우시안 모델을 통한 스피커 데이터 분석\",\n        \"탠덤 시스템의 입력 및 성능 평가\",\n        \"회의에서 논의된 기술적 세부 사항의 적용 및 효과 분석\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr023_processed/05_final_result.json",
+    "utterance_count": 618,
+    "original_transcript_length": 20828,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 20828
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T22:50:31.269180"
+  }
+}

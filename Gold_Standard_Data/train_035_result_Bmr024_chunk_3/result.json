@@ -1,0 +1,40 @@
+{
+  "id": "train_035_chunk_3",
+  "source_dir": "result_Bmr024_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"DARPA 데모 프로젝트 - IBM 제품 성능 최적화 및 필사 작업 혁신\",\n    \"project_purpose\": \"DARPA 데모를 성공적으로 수행하고 IBM 제품의 성능을 최적화하며, 필사 작업의 시각적 표현을 통해 효율성을 극대화\",\n    \"project_period\": \"2023.11.01 ~ 2023.12.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 20시간 패키지의 모든 요소를 처리 및 배포\",\n        \"목표 2: 시각적 표현을 통해 필사 작업의 효율성 향상\",\n        \"목표 3: IBM 제품의 성능 최적화 및 검증\",\n        \"목표 4: 인간-컴퓨터 및 인간-인간 데이터 수집 및 분석\",\n        \"목표 5: SmartKom 전사 규칙에 따른 필사 작업 절차 확립\"\n    ],\n    \"core_idea\": \"DARPA 데모의 성공적 수행을 위한 체계적 준비 및 실행, IBM 제품의 성능 최적화, 필사 작업의 시각적 표현 활용 및 SmartKom 전사 규칙 준수\",\n    \"idea_description\": \"DARPA 데모를 위해 20시간 패키지를 준비하고, 시각적 표현을 활용하여 필사 작업의 효율성을 높이며, IBM 제품의 성능을 최적화하여 성공적인 데모를 수행. 또한, SmartKom 전사 규칙에 따라 필사 작업을 진행하고, 인간-컴퓨터 및 인간-인간 데이터 수집을 통해 추가적인 성과를 도출\",\n    \"execution_plan\": [\n        \"1. 11월 첫째 주: 20시간 패키지 준비 및 검토, IBM 제품의 초기 성능 분석, SmartKom 전사 규칙에 따른 필사 작업 절차 수립\",\n        \"2. 11월 둘째 주: 시각적 표현을 통한 필사 작업 효율성 테스트 및 개선 방안 도출, IBM 제품의 성능 최적화 방법 구체화\",\n        \"3. 11월 셋째 주: IBM 제품 성능 최적화 작업 및 검증, 필사 작업의 시각적 표현을 통한 효율성 향상 확인\",\n        \"4. 12월 첫째 주: DARPA 데모 리허설 및 최종 점검, 데이터 수집 프로세스 정립 및 SmartKom 전사 규칙 적용 확인\",\n        \"5. 12월 둘째 주: DARPA 데모 수행 및 결과 분석, 인간-컴퓨터 및 인간-인간 데이터 분석, 필사 작업의 시각적 표현 효과 평가\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: DARPA 데모의 성공적 수행으로 인한 프로젝트 신뢰도 향상\",\n        \"기대효과 2: 시각적 표현을 통한 필사 작업의 효율성 증가로 인한 작업 시간 단축\",\n        \"기대효과 3: IBM 제품의 성능 최적화로 인한 제품 경쟁력 강화\",\n        \"기대효과 4: 인간-컴퓨터 및 인간-인간 데이터 분석을 통한 추가적인 인사이트 도출\",\n        \"기대효과 5: SmartKom 전사 규칙 준수를 통한 필사 작업의 일관성 및 정확성 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr024_processed/05_final_result.json",
+    "utterance_count": 1064,
+    "original_transcript_length": 34667,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_I"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 8,
+      "original_length": 34667
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 8,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:28:10.543813"
+  }
+}

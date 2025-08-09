@@ -1,0 +1,52 @@
+{
+  "id": "train_142_chunk_7",
+  "source_dir": "result_제22대국회 제427회(임시회) 제2차 국방위원회(전체회의) (2025.07.15.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"국방개혁 및 해병대 독립 체제 구축\",\n    \"project_purpose\": \"국방개혁을 통해 군 구조 개편 및 해병대의 독립적 체제 구축을 목표로 함\",\n    \"project_period\": \"2025.01.01 ~ 2025.12.31\",\n    \"project_manager\": \"안규백 국방부장관후보자\",\n    \"core_objectives\": [\n        \"목표 1: 군 구조 개편을 통한 효율적인 국방경영 실현\",\n        \"목표 2: 해병대의 독립적 체제 구축 및 전략자산 강화\",\n        \"목표 3: 국방개혁기본계획 수립 및 실행\"\n    ],\n    \"core_idea\": \"군 구조 개편 및 해병대 독립 체제를 통해 국방의 효율성을 극대화하고, 미래의 병력 자원 감소에 대비\",\n    \"idea_description\": \"군 구조 개편은 부대 구조, 병력 구조, 전력 구조의 삼위일체적 접근을 통해 이루어지며, 해병대는 독립적 체제로 강화하여 전략적 자산을 확충\",\n    \"execution_plan\": \"1단계: 국방개혁기본계획 수립 (2025년 1분기), 2단계: 군 구조 개편 실행 (2025년 2분기), 3단계: 해병대 독립 체제 구축 및 전략자산 강화 (2025년 3~4분기)\",\n    \"expected_effects\": [\n        \"기대효과 1: 국방 효율성 증대 및 예산 낭비 감소\",\n        \"기대효과 2: 해병대의 독립적 작전 수행 능력 강화\",\n        \"기대효과 3: 장기적인 병력 자원 감소에 대한 대비책 마련\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제2차 국방위원회(전체회의) (2025.07.15.)/05_final_result.json",
+    "utterance_count": 1696,
+    "original_transcript_length": 94237,
+    "speakers": [
+      "황희 위원",
+      "위원장 성일종",
+      "강대식 위원",
+      "정부측 및",
+      "추미애 위원",
+      "김병주 위원",
+      "출석 전문위원\n수석전문위원",
+      "출석 위원\n강대식",
+      "행정입법 제출\n구분",
+      "임종득 위원",
+      "황명선 위원",
+      "윤상현 위원",
+      "박선원 위원",
+      "김병기 위원",
+      "부승찬 위원",
+      "강선영 위원",
+      "한기호 위원",
+      "국방부장관후보자 안규백",
+      "관련의안 회부\n미래조선업의",
+      "정청래 위원",
+      "백선희 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 21,
+      "original_length": 94237
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 7,
+      "total_chunks": 21,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:21:30.206311"
+  }
+}

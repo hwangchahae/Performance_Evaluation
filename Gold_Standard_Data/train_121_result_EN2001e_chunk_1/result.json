@@ -1,0 +1,36 @@
+{
+  "id": "train_121_chunk_1",
+  "source_dir": "result_EN2001e",
+  "notion_output": "```json\n{\n    \"project_name\": \"프로그램 안정화 및 기능 최적화 프로젝트\",\n    \"project_purpose\": \"프로그램의 안정적인 작동과 기능 최적화를 통해 사용자 경험을 향상시키고, 발표 준비를 완료\",\n    \"project_period\": \"2023.10.15 ~ 2023.11.15\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 프로그램의 작동 오류 수정 및 안정화\",\n        \"목표 2: 입력 데이터에 따른 프로그램 최적화\",\n        \"목표 3: 사용자 인터페이스 개선 및 발표 준비\"\n    ],\n    \"core_idea\": \"프로그램의 안정성과 사용자 경험을 향상시키기 위한 최적화 작업 및 발표 준비\",\n    \"idea_description\": \"현재 프로그램의 불안정한 작동을 개선하고, 입력 데이터에 따른 최적화를 통해 사용자의 편의성을 높이며, 발표를 위한 준비를 완료한다.\",\n    \"execution_plan\": [\n        {\n            \"task\": \"오류 원인 분석 및 수정\",\n            \"details\": \"프로그램의 작동 오류를 분석하고 수정하여 안정성을 확보합니다.\",\n            \"period\": \"2023.10.15 ~ 2023.10.22\"\n        },\n        {\n            \"task\": \"입력 데이터 최적화 작업 및 스크립트 문제 해결\",\n            \"details\": \"입력 데이터에 따른 최적화 작업을 수행하고, 스크립트의 컴파일 문제를 해결합니다.\",\n            \"period\": \"2023.10.23 ~ 2023.10.29\"\n        },\n        {\n            \"task\": \"사용자 인터페이스 개선 및 발표 준비\",\n            \"details\": \"사용자 인터페이스를 개선하고 발표를 위한 자료를 준비합니다.\",\n            \"period\": \"2023.10.30 ~ 2023.11.05\"\n        },\n        {\n            \"task\": \"최종 검토 및 보고서 작성\",\n            \"details\": \"프로젝트의 최종 결과를 검토하고 보고서를 작성합니다.\",\n            \"period\": \"2023.11.06 ~ 2023.11.15\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 프로그램의 안정적인 작동 확보\",\n        \"기대효과 2: 사용자 경험 개선 및 만족도 향상\",\n        \"기대효과 3: 입력 데이터 처리 효율성 증가\",\n        \"기대효과 4: 발표 준비 완료 및 성공적인 발표\"\n    ],\n    \"additional_information\": {\n        \"technical_issues\": [\n            \"스크립트의 컴파일 문제 해결 필요\",\n            \"윈도우 환경에서의 사운드 전달 방법 개선\",\n            \"SSH 설정 및 키 파일 문제 해결\"\n        ],\n        \"presentation_schedule\": \"발표는 2023.11.01에 예정되어 있으며, 발표 준비를 위한 사용자 평가 및 피드백 수집 필요\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_EN2001e/05_final_result.json",
+    "utterance_count": 391,
+    "original_transcript_length": 14912,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 14912
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 4,
+      "chunk_length": 4981
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:32:07.004097"
+  }
+}

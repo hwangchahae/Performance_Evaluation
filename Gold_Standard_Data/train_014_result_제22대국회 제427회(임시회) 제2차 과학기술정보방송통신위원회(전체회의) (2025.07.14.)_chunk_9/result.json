@@ -1,0 +1,52 @@
+{
+  "id": "train_014_chunk_9",
+  "source_dir": "result_제22대국회 제427회(임시회) 제2차 과학기술정보방송통신위원회(전체회의) (2025.07.14.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"AI 산업 진흥 및 규제 개선과 AGI/ASI 연구 프로젝트\",\n    \"project_purpose\": \"AI 산업의 발전을 촉진하고 규제의 유연성을 확보하여 스타트업의 성장 기회를 확대하며, AGI 및 ASI 연구의 방향성을 설정\",\n    \"project_period\": \"2024.01.01 ~ 2024.12.31\",\n    \"project_manager\": \"배경훈\",\n    \"core_objectives\": [\n        \"목표 1: AI 기본법의 고영향 AI 정의 명확화 및 규제 개선\",\n        \"목표 2: AI 파운데이션 모델 개발 지원을 통한 스타트업 활성화\",\n        \"목표 3: AGI 및 ASI 연구 방향성 설정 및 지원\",\n        \"목표 4: 산업 진흥을 위한 과태료 유예 정책 도입\"\n    ],\n    \"core_idea\": \"AI 산업의 규제 완화와 지원을 통해 국내 AI 스타트업의 경쟁력을 강화하고, AGI 및 ASI 연구를 통해 미래 AI 기술 발전의 방향성을 제시\",\n    \"idea_description\": \"AI 기술의 빠른 발전에 맞춰 규제를 유연하게 조정하고, 파운데이션 모델 개발 및 AGI/ASI 연구 지원을 통해 스타트업의 혁신을 촉진\",\n    \"execution_plan\": \"1단계: AI 기본법 개정 논의 및 고영향 AI 정의 확립 (2024.01.01 ~ 2024.03.31)\\n2단계: AI 파운데이션 모델 개발 지원 프로그램 공모 및 선정 (2024.04.01 ~ 2024.06.30)\\n3단계: AGI 및 ASI 연구 방향성 설정 및 지원 방안 마련 (2024.04.01 ~ 2024.06.30)\\n4단계: 과태료 유예 정책 시행 및 산업 진흥 효과 분석 (2024.07.01 ~ 2024.12.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: AI 산업의 규제 완화로 인한 스타트업의 성장 기회 확대\",\n        \"기대효과 2: 파운데이션 모델 개발을 통한 국내 AI 기술 경쟁력 강화\",\n        \"기대효과 3: AGI 및 ASI 연구를 통한 미래 AI 기술 발전 방향성 제시\",\n        \"기대효과 4: 산업 진흥 정책을 통한 경제 활성화 및 일자리 창출\"\n    ],\n    \"additional_notes\": \"회의록에서 언급된 AGI와 ASI 관련 논의를 포함하여 프로젝트의 범위를 확장하고, 규제와 관련된 구체적인 문제점과 해결 방안을 추가함으로써 보다 포괄적인 접근을 시도함.\"\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제2차 과학기술정보방송통신위원회(전체회의) (2025.07.14.)/05_final_result.json",
+    "utterance_count": 2326,
+    "original_transcript_length": 125595,
+    "speakers": [
+      "김우영 위원",
+      "최형두 위원",
+      "조인철 위원",
+      "이정헌 위원",
+      "이훈기 위원",
+      "과학기술정보통신부기획조정실장 구혁채",
+      "한민수 위원",
+      "김장겸 위원",
+      "이준석 위원",
+      "신성범 위원",
+      "박충권 위원",
+      "박민규 위원",
+      "박정훈 위원",
+      "과학기술정보통신부장관후보자 배경훈",
+      "황정아 위원",
+      "최수진 위원",
+      "김현 위원",
+      "위원장 최민희",
+      "이상휘 위원",
+      "이해민 위원",
+      "노종면 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 28,
+      "original_length": 125595
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 9,
+      "total_chunks": 28,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T17:23:34.122329"
+  }
+}

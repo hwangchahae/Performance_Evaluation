@@ -1,0 +1,39 @@
+{
+  "id": "train_100_chunk_3",
+  "source_dir": "result_Buw001_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"회의 데이터 수집 및 관리 최적화 프로젝트\",\n    \"project_purpose\": \"효율적이고 체계적인 회의 데이터 수집 및 관리 체계를 구축하여 회의의 질을 향상시키고 정보 활용도를 극대화\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Mark Liberman\",\n    \"core_objectives\": [\n        \"목표 1: 회의 데이터 수집을 위한 저렴하고 효율적인 카메라 시스템 구축 및 테스트\",\n        \"목표 2: 수집된 데이터를 체계적으로 관리할 수 있는 데이터베이스 시스템 개발 및 통합\",\n        \"목표 3: 회의 후 요약 및 주요 키워드 선택 프로세스 도입 및 최적화\",\n        \"목표 4: 회의 참여자들의 부담을 최소화하면서 데이터 수집 및 활용을 극대화\"\n    ],\n    \"core_idea\": \"회의 데이터를 체계적으로 수집하고 관리하여 정보의 가치를 극대화하고, 회의 참여자들의 부담을 줄여 효율성을 높임\",\n    \"idea_description\": \"저렴한 카메라를 활용하여 회의 전반을 녹화하고, 이를 기반으로 데이터베이스를 구축하여 회의 후 요약 및 키워드 선택을 통해 정보의 가치를 높임. 회의 참여자들에게는 최소한의 부담을 주도록 설계\",\n    \"execution_plan\": \"1단계: 카메라 시스템 설치 및 테스트 (2024.01.01 ~ 2024.02.28)\\n2단계: 데이터베이스 시스템 개발 및 통합 (2024.03.01 ~ 2024.04.30)\\n3단계: 회의 요약 및 키워드 선택 프로세스 도입 및 최적화 (2024.05.01 ~ 2024.06.30)\\n4단계: 회의 참여자들의 피드백 수집 및 시스템 개선 (2024.06.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 회의 데이터의 체계적 관리로 인한 정보 활용도 증가\",\n        \"기대효과 2: 회의 후 요약을 통한 회의 내용 이해도 향상\",\n        \"기대효과 3: 데이터베이스를 통한 장기적인 정보 보존 및 활용 가능성 증대\",\n        \"기대효과 4: 회의 참여자들의 부담을 줄여 회의 효율성 향상\"\n    ],\n    \"technical_details\": {\n        \"camera_system\": \"비용 효율적인 카메라를 사용하여 회의 전반을 녹화하고, 모든 정보를 포착할 수 있도록 방의 모든 부분을 커버\",\n        \"database_system\": \"수집된 데이터를 체계적으로 저장하고 관리할 수 있는 데이터베이스 시스템 개발\",\n        \"summary_process\": \"회의 후 여러 사람의 자발적인 구두 요약을 통해 주요 키워드를 선택하고, 요약 내용을 데이터베이스에 기록\"\n    },\n    \"roles_and_responsibilities\": {\n        \"Mark Liberman\": \"프로젝트 총괄 관리 및 데이터 수집 방법론 개발\",\n        \"Technical Team\": \"카메라 및 데이터베이스 시스템 설치 및 유지보수\",\n        \"Meeting Participants\": \"회의 후 요약 및 키워드 선택 참여\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Buw001_processed/05_final_result.json",
+    "utterance_count": 823,
+    "original_transcript_length": 28612,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 28612
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 7,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T00:28:19.616860"
+  }
+}

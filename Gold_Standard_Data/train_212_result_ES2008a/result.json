@@ -1,0 +1,31 @@
+{
+  "id": "train_212",
+  "source_dir": "result_ES2008a",
+  "notion_output": "```json\n{\n    \"project_name\": \"통합 스마트 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"사용자 친화적이고 트렌디한 통합 리모컨 개발\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"로즈 린드그렌\",\n    \"core_objectives\": [\n        \"목표 1: 독창적이고 트렌디한 디자인 구현\",\n        \"목표 2: 사용하기 편리한 인터페이스 개발\",\n        \"목표 3: 생산 원가의 두 배로 판매 가능한 제품 개발\"\n    ],\n    \"core_idea\": \"단순하고 효율적인 통합 리모컨 개발\",\n    \"idea_description\": \"TV 및 기타 가전제품을 제어할 수 있는 통합 리모컨으로, 사용자가 필요로 하는 주요 기능을 직관적으로 제공\",\n    \"execution_plan\": [\n        \"1. 개념 설계 완료 후 팀 회의 (2023.11.15)\",\n        \"2. 세부 설계 완료 후 팀 회의 (2023.12.01)\",\n        \"3. 사용자 인터페이스 디자인 검토 및 수정 (2023.12.05)\",\n        \"4. 프로토타입 제작 및 테스트 (2023.12.15 ~ 2024.01.15)\",\n        \"5. 최종 디자인 확정 및 생산 준비 (2024.01.31)\"\n    ],\n    \"detailed_features\": [\n        \"기능 1: TV, 디지털 박스, 비디오 레코더 등 다양한 기기 제어 가능\",\n        \"기능 2: 주요 기능(전원, 채널 변경, 볼륨 조절) 직관적 제공\",\n        \"기능 3: 불필요한 버튼 최소화 및 사용자 맞춤형 인터페이스\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 시장에서의 경쟁력 강화 및 브랜드 이미지 개선\",\n        \"기대효과 2: 사용자 만족도 향상 및 고객 충성도 증가\",\n        \"기대효과 3: 매출 증대 및 수익성 개선\"\n    ],\n    \"additional_notes\": [\n        \"회의에서 논의된 바와 같이, 개별 작업 후 회의 일정을 철저히 준수\",\n        \"사용자 인터페이스 디자이너 이안과 협력하여 디자인 세부 사항 반영\",\n        \"산업 디자인 및 사용자 요구 사항에 대한 지속적인 피드백 수집\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2008a/05_final_result.json",
+    "utterance_count": 133,
+    "transcript_length": 4666,
+    "original_transcript_length": 4666,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 4666
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:22:40.605828"
+  }
+}

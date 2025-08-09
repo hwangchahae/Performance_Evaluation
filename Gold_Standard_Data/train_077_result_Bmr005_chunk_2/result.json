@@ -1,0 +1,39 @@
+{
+  "id": "train_077_chunk_2",
+  "source_dir": "result_Bmr005_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"다중 화자 음성 겹침 영역 감지 및 분석 프로젝트\",\n    \"project_purpose\": \"다중 화자 환경에서 음성 겹침 영역을 감지하고 분석하여 음성 인식 및 처리의 정확성을 향상시키는 솔루션 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_G\",\n    \"core_objectives\": [\n        \"목표 1: 차이 매개변수를 연구하여 다중 화자 음성 겹침 영역 감지 솔루션 개발\",\n        \"목표 2: 주간 2~3회 회의를 통해 다양한 환경에서의 음성 데이터 수집\",\n        \"목표 3: 수집된 데이터를 기반으로 겹치는 영역의 스펙트럼 특성 및 이벤트 분석\"\n    ],\n    \"core_idea\": \"다수의 화자가 동시에 말하는 상황에서 음성 데이터를 분석하여 겹치는 영역을 감지하고, 이를 통해 음성 인식 및 처리의 정확성을 높이는 기술 개발\",\n    \"idea_description\": \"다중 화자 환경에서 음성 데이터를 분석하여 겹치는 영역을 감지하고, 스펙트럼 특성을 연구하여 음성 인식의 정확성을 높이는 기술 개발\",\n    \"execution_plan\": [\n        \"1단계: 차이 매개변수 연구 및 솔루션 설계 (2024.01.01 ~ 2024.01.31)\",\n        \"2단계: 주간 회의를 통한 다양한 환경에서의 데이터 수집 (2024.02.01 ~ 2024.02.28)\",\n        \"3단계: 수집 데이터의 스펙트럼 특성 분석 및 솔루션 검증 (2024.03.01 ~ 2024.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 음성 인식 정확도 향상\",\n        \"기대효과 2: 음성 데이터 처리 효율성 증대\",\n        \"기대효과 3: 다수 화자 환경에서의 음성 분석 기술 발전\"\n    ],\n    \"additional_notes\": [\n        \"회의에서 언급된 '축구공 회의'는 데이터 수집을 위한 비공식적 회의로, 참여자들의 자연스러운 대화를 유도하여 다양한 음성 데이터를 확보하는 데 목적이 있음\",\n        \"다수 화자 환경에서의 구체적인 음성 분석 방법으로는 스펙트럼 특성 분석과 이벤트 감지 기술을 활용할 계획\",\n        \"데이터 수집 시, ICSI와 같은 기존 연구 사례를 참고하여 보다 많은 양의 오디오 데이터를 확보할 예정\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr005_processed/05_final_result.json",
+    "utterance_count": 682,
+    "original_transcript_length": 25021,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 25021
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T21:34:42.047703"
+  }
+}

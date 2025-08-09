@@ -1,0 +1,36 @@
+{
+  "id": "train_223_chunk_4",
+  "source_dir": "result_Bro026_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"TIMIT 기반 음성 인식 성능 최적화 프로젝트\",\n    \"project_purpose\": \"TIMIT 데이터셋을 활용하여 음성 인식기의 성능을 최적화하고, 슈와와 스톱 소리의 구별 능력을 향상시키며, 다양한 환경에서의 인식 성능을 개선\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"하리\",\n    \"core_objectives\": [\n        \"목표 1: TIMIT 데이터셋을 활용한 음성 인식기의 정확도 및 안정성 개선\",\n        \"목표 2: 슈와와 스톱 소리의 구별 능력 향상\",\n        \"목표 3: 정규화 방법의 구체적 최적화 및 다양한 환경에서의 테스트\",\n        \"목표 4: 알고리즘의 차별적 측면 추가 및 성능 평가\"\n    ],\n    \"core_idea\": \"TIMIT 데이터셋을 기반으로 음성 인식기의 알고리즘을 분석하고, 정규화 방법을 최적화하여 다양한 소리 구별 능력을 향상시키며, 차별적 알고리즘을 도입하여 성능을 강화\",\n    \"idea_description\": \"TIMIT 데이터셋을 통해 음성 인식기의 알고리즘을 분석하고, 정규화 방법을 조정하여 슈와와 스톱 소리의 구별 능력을 향상시킵니다. 또한, 차별적 알고리즘을 도입하여 다양한 환경에서의 음성 인식 성능을 개선합니다.\",\n    \"execution_plan\": [\n        \"1. TIMIT 데이터셋 분석 및 알고리즘 개선 (2024.01.01 ~ 2024.01.31): 기존 알고리즘을 검토하고, 차별적 측면을 추가하여 성능을 강화합니다.\",\n        \"2. 정규화 방법 최적화 및 테스트 (2024.02.01 ~ 2024.02.28): 정규화 방법의 구체적 조정을 통해 다양한 환경에서의 성능을 테스트합니다.\",\n        \"3. 개선된 알고리즘의 성능 평가 및 피드백 수집 (2024.03.01 ~ 2024.03.31): 다양한 환경에서의 성능을 평가하고, 피드백을 통해 추가 개선점을 도출합니다.\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 음성 인식기의 정확도 향상으로 사용자 경험 개선\",\n        \"기대효과 2: 다양한 환경에서의 음성 인식 성능 향상\",\n        \"기대효과 3: 정규화 방법 최적화를 통한 알고리즘의 안정성 증가\",\n        \"기대효과 4: 차별적 알고리즘 도입을 통한 성능 강화\"\n    ],\n    \"additional_notes\": [\n        \"정규화 방법의 구체적인 조정은 회의에서 논의된 다양한 시나리오를 기반으로 진행됩니다.\",\n        \"알고리즘의 차별적 측면은 감독되지 않은 근접성과 대조적으로 선택됩니다.\",\n        \"훈련 및 테스트는 다양한 환경에서 진행되며, 10~20DB의 훈련과 5~15DB의 테스트 환경을 포함합니다.\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro026_processed/05_final_result.json",
+    "utterance_count": 554,
+    "original_transcript_length": 18490,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 18490
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:42:19.132378"
+  }
+}

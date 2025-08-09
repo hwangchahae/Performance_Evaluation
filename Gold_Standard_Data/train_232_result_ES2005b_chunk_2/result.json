@@ -1,0 +1,35 @@
+{
+  "id": "train_232_chunk_2",
+  "source_dir": "result_ES2005b",
+  "notion_output": "```json\n{\n    \"project_name\": \"스마트 RF 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"텔레비전 시청 경험을 혁신적으로 개선하고, 안전성과 편의성을 고려한 스마트 RF 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: RF 주파수를 활용한 저렴하고 효율적인 스마트 리모컨 개발\",\n        \"목표 2: TV 제조업체와의 협력을 통해 기능 통합 가능성 검토 및 구현\",\n        \"목표 3: 사용자의 안전과 편의성을 고려한 디자인 및 기능 구현\",\n        \"목표 4: 텔레텍스트 및 TFT/LCD 관련 문제 해결 및 개선\",\n        \"목표 5: 내구성을 강화하여 안전성을 높이고, 사용자 피드백을 반영한 디자인 개선\"\n    ],\n    \"core_idea\": \"RF 주파수를 활용하여 텔레비전의 현재 상태를 리모컨이 인식할 수 있도록 하여 사용자 경험을 향상시키고, 텔레텍스트 기능과 TFT/LCD 문제를 해결하여 안전성과 편의성을 고려한 디자인을 통해 사용자 만족도를 높인다.\",\n    \"idea_description\": \"RF 주파수를 활용하여 텔레비전의 현재 상태를 리모컨이 인식할 수 있도록 하여 사용자 경험을 향상시키고, 텔레텍스트 기능과 TFT/LCD 문제를 해결하여 안전성과 편의성을 고려한 디자인을 통해 사용자 만족도를 높인다. 또한, 내구성을 강화하고, 사용자의 안전을 고려한 설계를 통해 제품의 신뢰성을 높인다.\",\n    \"execution_plan\": [\n        \"1단계: 시장 조사 및 요구사항 분석 (2024.01.01 ~ 2024.02.15)\",\n        \"2단계: 기술 설계 및 프로토타입 개발 (2024.02.16 ~ 2024.04.15)\",\n        \"3단계: 사용자 테스트 및 피드백 수집 (2024.04.16 ~ 2024.05.15)\",\n        \"4단계: 최종 제품 개발 및 출시 준비 (2024.05.16 ~ 2024.06.30)\",\n        \"5단계: 텔레텍스트 및 TFT/LCD 문제 해결을 위한 추가 연구 및 개발 (병행 진행)\",\n        \"6단계: 내구성 강화 및 안전성 검토 (병행 진행)\"\n    ],\n    \"technical_considerations\": [\n        \"텔레텍스트 기능의 필요성 및 구현 가능성 검토\",\n        \"TFT/LCD 화면 통합 시 발생할 수 있는 문제점 분석 및 해결 방안 마련\",\n        \"안전 측면에서의 주의 사항 및 강화된 내구성 설계\",\n        \"RF 주파수를 활용한 저렴한 통신 기술 구현\",\n        \"사용자 피드백을 반영한 디자인 개선 및 안전성 강화\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 경험 향상으로 인한 고객 만족도 증가\",\n        \"기대효과 2: 저렴한 비용으로 인한 시장 경쟁력 강화\",\n        \"기대효과 3: 혁신적인 디자인을 통한 브랜드 이미지 개선\",\n        \"기대효과 4: 텔레텍스트 및 TFT/LCD 문제 해결로 인한 제품 신뢰도 향상\",\n        \"기대효과 5: 강화된 내구성과 안전성으로 인한 사용자 신뢰도 증가\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2005b/05_final_result.json",
+    "utterance_count": 234,
+    "original_transcript_length": 7751,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 7751
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 3270
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T07:01:01.182398"
+  }
+}

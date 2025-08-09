@@ -1,0 +1,37 @@
+{
+  "id": "train_043_chunk_2",
+  "source_dir": "result_Bmr026_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"데이터 저장 공간 최적화 및 시스템 성능 개선 프로젝트\",\n    \"project_purpose\": \"외장 드라이브 도입 및 다양한 데이터 분석을 통해 데이터 저장 공간을 확보하고 시스템 성능을 최적화하는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 외장 드라이브를 통한 데이터 저장 공간 확보\",\n        \"목표 2: 데이터 수집 및 분석 프로세스 개선\",\n        \"목표 3: 시스템 성능 5% 이상 향상\"\n    ],\n    \"core_idea\": \"외장 드라이브를 활용하여 데이터 저장 공간을 확보하고, 다양한 데이터 세트를 분석하여 시스템 성능을 최적화\",\n    \"idea_description\": \"외장 드라이브를 활용하여 데이터 저장 공간을 확보하고, TIMIT, ATIS, 월스트리트 저널 데이터 등을 분석하여 시스템 성능을 5% 이상 향상시키는 프로젝트입니다.\",\n    \"execution_plan\": [\n        {\n            \"step\": \"외장 드라이브 사양 선정 및 구매\",\n            \"details\": \"시스템 관리자들이 선호하는 외장 드라이브 사양을 조사하고, 각 컴퓨터당 외장 드라이브 하나씩 설치. 드라이브는 1TB 이상의 저장 용량을 갖추어야 함.\",\n            \"period\": \"2024.01.01 ~ 2024.01.15\"\n        },\n        {\n            \"step\": \"데이터 수집 및 분석 프로세스 개선\",\n            \"details\": \"TIMIT, ATIS, 월스트리트 저널 데이터 등을 활용한 데이터 수집 및 분석 프로세스 최적화. 오류율 절반 감소를 목표로 함.\",\n            \"period\": \"2024.01.16 ~ 2024.02.15\"\n        },\n        {\n            \"step\": \"수집 데이터 분석 및 시스템 성능 평가\",\n            \"details\": \"수집된 데이터를 기반으로 시스템 성능 평가 및 개선. ROVER 시스템을 통한 성능 1.5% 개선 목표.\",\n            \"period\": \"2024.02.16 ~ 2024.03.15\"\n        },\n        {\n            \"step\": \"최종 보고서 작성 및 발표\",\n            \"details\": \"프로젝트 결과를 정리하여 최종 보고서 작성 및 발표. 결과는 연례 보고서로 이어질 예정.\",\n            \"period\": \"2024.03.16 ~ 2024.03.31\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 데이터 저장 공간 부족 문제 해결\",\n        \"기대효과 2: 데이터 수집 및 분석 효율성 향상\",\n        \"기대효과 3: 시스템 성능 5% 이상 향상\"\n    ],\n    \"technical_details\": {\n        \"external_drive_specifications\": \"각 컴퓨터당 외장 드라이브 하나씩 설치, 1TB 이상의 저장 용량\",\n        \"data_analysis_methods\": \"TIMIT 데이터 및 ATIS, 월스트리트 저널 데이터 활용, ROVER 시스템을 통한 성능 개선\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr026_processed/05_final_result.json",
+    "utterance_count": 542,
+    "original_transcript_length": 18406,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 18406
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 4,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T19:03:01.182792"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "train_140_chunk_3",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 농림축산식품해양수산위원회(농림축산식품법안심사소위원회) (2025.07.10.)",
+  "notion_output": {
+    "project_name": "자연재해 보험제도 개선 프로젝트",
+    "project_purpose": "자연재해로 인한 농업 손실을 최소화하고 보험제도의 효율성을 높이기 위한 제도 개선",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "강형석 차관",
+    "core_objectives": [
+      "목표 1: 불가항력적 자연재해에 대한 보험료 할증 제외 기준 마련",
+      "목표 2: 신규 병충해에 대한 조사 및 평가 체계 구축",
+      "목표 3: 보험 가입률을 높이기 위한 국고보조율 조정"
+    ],
+    "core_idea": "자연재해로 인한 농업 손실을 보상하기 위한 보험제도를 개선하여 농업인의 경제적 부담을 줄이고, 보험 가입률을 높여 재무건전성을 확보",
+    "idea_description": "자연재해의 범위를 명확히 하고, 불가항력적 재해에 대한 보험료 할증을 제외함으로써 농업인의 부담을 줄인다. 또한, 신규 병충해에 대한 조사를 강화하고, 국고보조율을 조정하여 보험 가입률을 높인다.",
+    "execution_plan": "1. 불가항력적 자연재해 기준 검토 및 시행령 개정 (2024.01.01 ~ 2024.03.31)\n2. 신규 병충해 조사 및 평가 체계 구축 (2024.02.01 ~ 2024.04.30)\n3. 국고보조율 조정 방안 마련 및 시행 (2024.03.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 농업인의 보험료 부담 감소로 경제적 안정성 확보",
+      "기대효과 2: 신규 병충해에 대한 신속한 대응으로 농업 생산성 향상",
+      "기대효과 3: 보험 가입률 상승으로 보험제도의 재무건전성 강화"
+    ]
+  },
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제1차 농림축산식품해양수산위원회(농림축산식품법안심사소위원회) (2025.07.10.)/05_final_result.json",
+    "utterance_count": 678,
+    "original_transcript_length": 40279,
+    "speakers": [
+      "전종덕 위원",
+      "소위원장 이원택",
+      "농림축산식품부차관 강형석",
+      "정희용 위원",
+      "강명구 위원",
+      "수석전문위원 이정은",
+      "문대림 위원",
+      "문금주 위원",
+      "농림축산식품부재해보험정책과장 정재원",
+      "윤준병 위원",
+      "임미애 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9,
+      "original_length": 40279
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 9,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:13:42.680179"
+  }
+}

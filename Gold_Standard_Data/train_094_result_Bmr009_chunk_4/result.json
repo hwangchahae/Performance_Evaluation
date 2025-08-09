@@ -1,0 +1,36 @@
+{
+  "id": "train_094_chunk_4",
+  "source_dir": "result_Bmr009_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"정규화된 백채널 오버랩 및 스피커 프로필 상관관계 심층 분석 프로젝트\",\n    \"project_purpose\": \"백채널 오버랩의 정규화 효과를 심층 분석하여 스피커 프로필과의 구체적인 상관관계를 규명하고, 실무에서 활용 가능한 데이터 기반의 인사이트를 제공하는 것\",\n    \"project_period\": \"2025.01.01 ~ 2025.03.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 백채널 오버랩의 정규화 효과를 심층 분석하여 데이터의 정확성과 일관성을 높임\",\n        \"목표 2: 스피커 프로필과 오버랩 유형 간의 구체적인 상관관계를 규명하여 실무 활용 가능성 검증\",\n        \"목표 3: 정규화된 데이터 기반의 프로토타입 개발 및 실무 적용 가능성 검증\"\n    ],\n    \"core_idea\": \"정규화된 데이터를 통해 백채널 오버랩과 스피커 프로필 간의 구체적인 상관관계를 분석하고, 이를 통해 실무에서 활용 가능한 인사이트를 도출\",\n    \"idea_description\": \"백채널 오버랩의 정규화 효과를 심층적으로 분석하여 스피커 프로필과의 상관관계를 규명하고, 이를 통해 데이터의 정확성과 일관성을 높이며 실무에서 활용 가능한 인사이트를 제공하는 것을 목표로 한다.\",\n    \"execution_plan\": \"1단계: 데이터 수집 및 정규화 (2025.01.01 ~ 2025.01.31)\\\\n2단계: 정규화 데이터의 심층 분석 및 상관관계 규명 (2025.02.01 ~ 2025.02.28)\\\\n3단계: 프로토타입 개발 및 실무 적용 가능성 검증 (2025.03.01 ~ 2025.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 정규화를 통한 데이터 분석의 정확도 및 일관성 향상\",\n        \"기대효과 2: 스피커 프로필과 오버랩 유형 간의 구체적이고 명확한 상관관계 규명\",\n        \"기대효과 3: 실무에서 활용 가능한 데이터 기반 인사이트 제공 및 향후 연구 개발의 기초 데이터 제공\"\n    ],\n    \"detailed_analysis_methods\": [\n        \"정규화된 백채널 오버랩 데이터를 활용한 상관관계 분석\",\n        \"스피커 프로필과 오버랩 유형 간의 상관관계 매트릭스 작성\",\n        \"정규화의 효과를 평균과 분산을 통해 비교 분석\"\n    ],\n    \"technical_approach\": [\n        \"데이터 정규화: 평균과 분산을 고려한 정규화 기법 적용\",\n        \"상관관계 분석: 상관계수 및 회귀 분석을 통한 관계 규명\",\n        \"프로토타입 개발: 정규화된 데이터를 기반으로 한 분석 도구 개발\"\n    ],\n    \"additional_notes\": [\n        \"회의에서 논의된 정규화의 구체적인 효과를 반영하여 분석 방법을 강화\",\n        \"스피커 프로필과 오버랩 유형의 구체적인 상관관계 분석 방법을 명확히 제시\",\n        \"실무에서 활용 가능한 구체적인 기술적 접근 방법을 제시하여 실행 계획의 논리적 연결성을 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr009_processed/05_final_result.json",
+    "utterance_count": 1080,
+    "original_transcript_length": 34204,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 8,
+      "original_length": 34204
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 8,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T23:31:55.678158"
+  }
+}

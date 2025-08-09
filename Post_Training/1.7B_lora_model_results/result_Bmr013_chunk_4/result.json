@@ -1,0 +1,60 @@
+{
+  "id": "result_Bmr013_processed_chunk_4",
+  "source_dir": "result_Bmr013_processed",
+  "notion_output": {
+    "project_name": "노션 데이터 세분화 및 정규화 프로젝트",
+    "project_purpose": "회원들의 질문에 대한 정규화된 데이터를 수집하고 분석하여 효율적인 의사결정 지원",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_G",
+    "core_objectives": [
+      "1. 회의에서 논의된 문제 해결을 위한 정규화된 데이터 생성",
+      "2. 정규화된 데이터를 통해 회의의 질을 개선하고 효율성을 높임",
+      "3. 정규화된 데이터를 활용한 의사결정 지원 시스템 구축"
+    ],
+    "core_idea": "정규화된 데이터를 통해 회의의 질을 극대화하고, 효율적인 의사결정을 도모",
+    "idea_description": "정규화된 데이터를 통해 회의의 질을 개선하며, 이를 통해 의사결정을 더 효율적으로 지원함.",
+    "execution_plan": [
+      {
+        "phase": "데이터 수집 및 준비",
+        "description": "회의에서 논의된 문제에 대한 데이터를 수집하고 정리한다.",
+        "duration": "2주"
+      },
+      {
+        "phase": "정규화된 데이터 생성",
+        "description": "정규화된 데이터를 생성하여 회의의 질을 개선한다.",
+        "duration": "2주"
+      },
+      {
+        "phase": "데이터 분석 및 보고서 작성",
+        "description": "생성된 정규화된 데이터를 분석하고 보고서를 작성한다.",
+        "duration": "1주"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 회의의 질을 극대화하여 의사결정의 신뢰도 향상",
+      "기대효과 2: 정규화된 데이터를 통한 효율적인 의사결정 지원",
+      "기대효과 3: 정규화된 데이터를 활용한 교육 및 연구 활성화"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr013_processed/05_final_result.json",
+    "utterance_count": 797,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_F",
+      "Speaker_G"
+    ],
+    "original_length": 27322,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-07T02:59:53.855892"
+  }
+}

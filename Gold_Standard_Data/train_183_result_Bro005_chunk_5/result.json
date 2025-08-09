@@ -1,0 +1,38 @@
+{
+  "id": "train_183_chunk_5",
+  "source_dir": "result_Bro005_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"비선형적 징 병합 및 LogRASTA-PLP 최적화 프로젝트\",\n    \"project_purpose\": \"비선형적 징 병합을 통해 데이터베이스의 효율성을 극대화하고, LogRASTA-PLP와 온라인 정규화를 활용하여 CPU 사용량을 최적화하여 성능을 향상시키는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 비선형적 징 병합 알고리즘 개발 및 LogRASTA-PLP 적용\",\n        \"목표 2: 다양한 조건에서의 데이터베이스 최적화 및 테스트\",\n        \"목표 3: CPU 사용량 최적화를 통한 성능 향상 및 온라인 정규화 적용\"\n    ],\n    \"core_idea\": \"징을 비선형적으로 병합하고 LogRASTA-PLP와 온라인 정규화를 활용하여 데이터베이스의 효율성을 높이고, CPU 사용량을 줄여 성능을 개선\",\n    \"idea_description\": \"비선형적 징 병합은 다양한 조건에서 데이터베이스의 효율성을 높이기 위한 방법으로, LogRASTA-PLP와 온라인 정규화를 적용하여 CPU 사용량을 최적화하고 성능을 향상시키는 기술적 접근입니다.\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"1\",\n            \"description\": \"비선형적 징 병합 알고리즘 개발 및 LogRASTA-PLP 적용\",\n            \"tasks\": [\n                \"비선형적 징 병합 알고리즘 설계\",\n                \"LogRASTA-PLP 적용을 위한 기술적 요구사항 분석\",\n                \"알고리즘 프로토타입 개발 및 초기 테스트\"\n            ],\n            \"timeline\": \"2024.01.01 ~ 2024.01.31\"\n        },\n        {\n            \"phase\": \"2\",\n            \"description\": \"다양한 조건에서의 데이터베이스 테스트 및 최적화\",\n            \"tasks\": [\n                \"다양한 테스트 세트 준비 및 데이터베이스 통합\",\n                \"테스트 환경 구축 및 조건별 최적화 테스트 수행\",\n                \"테스트 결과 분석 및 알고리즘 개선\"\n            ],\n            \"timeline\": \"2024.02.01 ~ 2024.02.28\"\n        },\n        {\n            \"phase\": \"3\",\n            \"description\": \"CPU 사용량 최적화 및 성능 검증, 온라인 정규화 적용\",\n            \"tasks\": [\n                \"CPU 사용량 모니터링 및 최적화 방안 수립\",\n                \"온라인 정규화 적용 및 성능 검증\",\n                \"최종 성능 평가 및 보고서 작성\"\n            ],\n            \"timeline\": \"2024.03.01 ~ 2024.03.31\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 데이터베이스의 처리 속도 향상\",\n        \"기대효과 2: CPU 사용량 감소로 인한 비용 절감\",\n        \"기대효과 3: 다양한 조건에서의 데이터베이스 안정성 확보\",\n        \"기대효과 4: LogRASTA-PLP와 온라인 정규화를 통한 데이터 처리 효율성 증대\"\n    ],\n    \"technical_details\": {\n        \"LogRASTA-PLP\": \"LogRASTA-PLP를 통해 데이터의 유통 특성을 최적화하고, 온라인 정규화를 통해 실시간 데이터 처리의 효율성을 높입니다.\",\n        \"online_normalization\": \"온라인 정규화를 통해 다양한 조건에서도 안정적인 데이터 처리가 가능하도록 합니다.\",\n        \"database_optimization\": \"다양한 데이터베이스를 병합하고 최적화하여, 다양한 조건에서도 최상의 성능을 발휘할 수 있도록 합니다.\"\n    },\n    \"potential_challenges\": [\n        \"다양한 조건에서의 데이터베이스 최적화의 복잡성\",\n        \"LogRASTA-PLP와 온라인 정규화의 통합 과정에서 발생할 수 있는 기술적 문제\",\n        \"CPU 사용량 최적화 과정에서의 성능 저하 가능성\"\n    ],\n    \"proposed_solutions\": [\n        \"다양한 테스트 세트를 활용하여 최적화 알고리즘의 성능을 검증\",\n        \"LogRASTA-PLP와 온라인 정규화의 단계적 통합 및 테스트\",\n        \"CPU 사용량 모니터링 및 최적화 알고리즘의 지속적 개선\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 5.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro005_processed/05_final_result.json",
+    "utterance_count": 670,
+    "original_transcript_length": 22286,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 22286
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 5,
+      "chunk_length": 4364
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:20:46.036355"
+  }
+}

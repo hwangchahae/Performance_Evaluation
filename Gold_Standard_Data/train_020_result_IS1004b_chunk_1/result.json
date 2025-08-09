@@ -1,0 +1,35 @@
+{
+  "id": "train_020_chunk_1",
+  "source_dir": "result_IS1004b",
+  "notion_output": "```json\n{\n    \"project_name\": \"Mando: Next-Gen Remote Control Innovation\",\n    \"project_purpose\": \"To develop an advanced remote control that integrates cutting-edge technologies and innovative design to meet diverse user requirements and expand market reach, particularly in the US.\",\n    \"project_period\": \"2025.01.01 ~ 2025.03.31\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"Objective 1: Redesign the remote control to enhance ergonomic comfort and address user interface preferences.\",\n        \"Objective 2: Formulate a strategic marketing plan for successful entry and expansion in the US market.\",\n        \"Objective 3: Integrate advanced technologies such as ASR decoders and multi-functional interfaces to enhance usability and functionality.\"\n    ],\n    \"core_idea\": \"Transforming remote control usability and design through user-centric innovation and technology integration.\",\n    \"idea_description\": \"The project aims to revolutionize remote control design by incorporating new technologies and user interface options, appealing to younger demographics and addressing ergonomic concerns.\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"Phase 1: User Requirement Analysis and Design Enhancement\",\n            \"duration\": \"2025.01.01 ~ 2025.01.31\",\n            \"tasks\": [\n                \"Conduct a comprehensive user requirement analysis focusing on ergonomic design and user interface preferences.\",\n                \"Explore design options including universal design for both hands and innovative form factors.\",\n                \"Develop prototypes emphasizing button layout, functionality, and potential for additional features like lighting control.\"\n            ]\n        },\n        {\n            \"phase\": \"Phase 2: Marketing Strategy Development and Report Compilation\",\n            \"duration\": \"2025.02.01 ~ 2025.02.28\",\n            \"tasks\": [\n                \"Develop a marketing strategy targeting the US market, considering cultural preferences and market trends.\",\n                \"Compile a comprehensive marketing report highlighting the remote's unique selling points and competitive advantages.\",\n                \"Identify potential partnerships and distribution channels, and explore branding opportunities to enhance market presence.\"\n            ]\n        },\n        {\n            \"phase\": \"Phase 3: Technology Integration and Prototype Development\",\n            \"duration\": \"2025.03.01 ~ 2025.03.31\",\n            \"tasks\": [\n                \"Integrate advanced technologies such as ASR decoders and customizable interfaces.\",\n                \"Develop a prototype incorporating new interaction methods like wheel-based controls and special buttons for unique user experiences.\",\n                \"Test and refine the prototype to ensure functionality, user satisfaction, and potential for additional home automation features.\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"Expected Effect 1: Increased user satisfaction and market share through improved design and functionality.\",\n        \"Expected Effect 2: Enhanced brand image due to the adoption of innovative technologies.\",\n        \"Expected Effect 3: Product differentiation and competitive advantage through innovative design and technology integration.\"\n    ],\n    \"technical_details\": [\n        \"Incorporate ASR decoders for enhanced voice recognition capabilities.\",\n        \"Design a universal interface suitable for both hands, with a focus on ergonomic comfort.\",\n        \"Explore the use of special buttons and wheel-based interactions to offer unique user experiences and potential for home automation.\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1004b/05_final_result.json",
+    "utterance_count": 217,
+    "original_transcript_length": 8824,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8824
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4997
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T17:45:05.955642"
+  }
+}

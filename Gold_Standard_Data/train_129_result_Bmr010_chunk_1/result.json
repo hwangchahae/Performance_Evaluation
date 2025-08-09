@@ -1,0 +1,39 @@
+{
+  "id": "train_129_chunk_1",
+  "source_dir": "result_Bmr010_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"다중 음량 스피커 음성 인식 시스템 최적화\",\n    \"project_purpose\": \"다양한 음량의 스피커에 대한 맞춤형 음성 인식 시스템을 개발하여 인식 정확도를 향상시키고 시스템의 효율성을 높임\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_G\",\n    \"core_objectives\": [\n        \"목표 1: 시끄러운 스피커와 조용한 스피커를 위한 맞춤형 믹스 개발\",\n        \"목표 2: 멜 스케일과 라우드니스 기반의 20개 밴드 분석\",\n        \"목표 3: LDA 없이도 효과적인 음성 인식 시스템 구축\",\n        \"목표 4: IRAM 및 Praat 도구 활용 방안 연구\",\n        \"목표 5: 채널 식별자 및 필사자 관련 기술 개발\",\n        \"목표 6: 음성 데이터의 중복 및 겹침 문제 해결\"\n    ],\n    \"core_idea\": \"스피커의 음량 차이를 고려한 맞춤형 믹스를 통해 음성 인식의 정확도를 높이고, 다양한 도구와 기술을 활용하여 시스템의 효율성을 강화\",\n    \"idea_description\": \"스피커의 음량에 따라 두 가지 믹스를 개발하여 각각의 음성 데이터에 최적화된 환경을 제공함으로써 인식률을 향상시킴. 또한, IRAM과 Praat 도구를 활용하여 음성 데이터 분석을 강화하고, 채널 식별자 및 필사자 관련 기술을 개발하여 시스템의 효율성을 높임. 중복 및 겹침 문제를 해결하여 데이터의 정확성을 보장함\",\n    \"execution_plan\": [\n        \"1단계: 시끄러운 스피커와 조용한 스피커의 음성 데이터 수집 및 분석 (2024.01.01 ~ 2024.01.31)\",\n        \"2단계: 멜 스케일과 라우드니스 기반의 밴드 분석 및 맞춤형 믹스 개발 (2024.02.01 ~ 2024.02.15)\",\n        \"3단계: IRAM 및 Praat 도구 활용 방안 연구 및 적용 (2024.02.16 ~ 2024.02.28)\",\n        \"4단계: 채널 식별자 및 필사자 관련 기술 개발 및 테스트 (2024.03.01 ~ 2024.03.15)\",\n        \"5단계: 중복 및 겹침 문제 해결을 위한 데이터 정제 및 최적화 (2024.03.16 ~ 2024.03.20)\",\n        \"6단계: 개발된 믹스를 통한 음성 인식 테스트 및 최적화 (2024.03.21 ~ 2024.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 음성 인식 시스템의 정확도 향상\",\n        \"기대효과 2: 다양한 음량의 스피커에 대한 대응력 강화\",\n        \"기대효과 3: LDA 없이도 효과적인 음성 인식 가능성 확인\",\n        \"기대효과 4: IRAM 및 Praat 도구를 통한 분석 강화\",\n        \"기대효과 5: 채널 식별자 및 필사자 관련 기술 개발로 시스템 효율성 증대\",\n        \"기대효과 6: 데이터 중복 및 겹침 문제 해결로 인한 데이터 정확성 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr010_processed/05_final_result.json",
+    "utterance_count": 608,
+    "original_transcript_length": 20174,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_H",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 20174
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 5,
+      "chunk_length": 4981
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:59:03.688275"
+  }
+}

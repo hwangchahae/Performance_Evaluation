@@ -1,0 +1,35 @@
+{
+  "id": "train_079_chunk_2",
+  "source_dir": "result_TS3004d",
+  "notion_output": "```json\n{\n    \"project_name\": \"혁신적인 다기능 스마트 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"사용자 경험을 혁신하고 시장에서의 경쟁력을 강화하기 위한 다기능 스마트 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 친화적인 인터페이스 설계 및 디지털 펜 문제 해결\",\n        \"목표 2: 충전식 배터리, 백라이트, 슬라이드 버튼 및 스크롤 휠 기능의 구체적인 개선\",\n        \"목표 3: 시장 출시 전 마케팅 전략 수립 및 실행\",\n        \"목표 4: 사용자 피드백을 반영한 최종 제품 조정\"\n    ],\n    \"core_idea\": \"다기능 스마트 리모컨의 사용 편의성과 기능성을 극대화하여 사용자 만족도 향상\",\n    \"idea_description\": \"기존 리모컨의 불편함을 개선하고, 충전식 배터리, 백라이트, 슬라이드 버튼, 스크롤 휠 등의 기능을 추가하여 사용자 경험을 향상시킴. 특히 디지털 펜의 사용성을 개선하여 보다 직관적인 사용자 인터페이스를 제공\",\n    \"execution_plan\": {\n        \"1단계\": {\n            \"기간\": \"2024.01.01 ~ 2024.02.28\",\n            \"내용\": \"사용자 인터페이스 설계 및 디지털 펜 문제 해결. 슬라이드 버튼과 스크롤 휠의 구체적인 개선 방안 마련. 색상 버튼 및 텍스트 버튼의 기능성 강화\"\n        },\n        \"2단계\": {\n            \"기간\": \"2024.03.01 ~ 2024.04.30\",\n            \"내용\": \"기능 구현 및 테스트. 충전식 배터리와 백라이트 기능을 포함한 모든 하드웨어 및 소프트웨어 기능의 통합 테스트. 리모컨의 전원 표시등 및 경고 기능 테스트\"\n        },\n        \"3단계\": {\n            \"기간\": \"2024.05.01 ~ 2024.06.30\",\n            \"내용\": \"시장 출시 준비 및 마케팅 전략 실행. 사용자 피드백을 반영한 최종 조정 및 브랜드 이미지 강화 캠페인 실시. 창의적인 광고 캠페인을 통해 혁신적인 기능 강조\"\n        }\n    },\n    \"marketing_strategy\": [\n        \"전략 1: 소셜 미디어 및 온라인 플랫폼을 통한 브랜드 인지도 강화\",\n        \"전략 2: 사용자 리뷰 및 피드백을 활용한 신뢰성 구축\",\n        \"전략 3: 혁신적인 기능을 강조한 광고 캠페인 진행\",\n        \"전략 4: 사용자 경험을 강조한 체험 이벤트 개최\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상으로 인한 판매 증가\",\n        \"기대효과 2: 혁신적인 기능 추가로 브랜드 이미지 강화\",\n        \"기대효과 3: 시장 점유율 확대 및 경쟁사 대비 우위 확보\",\n        \"기대효과 4: 사용자 피드백을 반영한 제품 개선으로 장기적인 고객 충성도 확보\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.6,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3004d/05_final_result.json",
+    "utterance_count": 363,
+    "original_transcript_length": 10945,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 10945
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T21:42:43.013131"
+  }
+}

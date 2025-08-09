@@ -1,0 +1,35 @@
+{
+  "id": "train_070_chunk_2",
+  "source_dir": "result_ES2016d",
+  "notion_output": "```json\n{\n    \"project_name\": \"혁신적인 스마트 리모컨 개발 및 상용화 프로젝트\",\n    \"project_purpose\": \"소비자에게 혁신적인 사용 경험을 제공하는 스마트 리모컨의 개발 및 성공적인 시장 출시\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 친화적인 디자인 및 기능 확정\",\n        \"목표 2: 예산 내에서 비용 효율적인 제품 개발\",\n        \"목표 3: 시장 출시 전 제품 테스트 및 피드백 수집\",\n        \"목표 4: 50%의 이익을 목표로 하는 수익성 확보\"\n    ],\n    \"core_idea\": \"특수 색상과 소재를 사용한 플라스틱 케이스, LCD 디스플레이 및 다양한 칩온프린트 옵션을 제공하는 스마트 리모컨 개발\",\n    \"idea_description\": \"밝은 노란색의 특수 색상과 플라스틱 소재를 사용한 케이스, LCD 디스플레이, 다양한 칩온프린트 옵션을 통해 소비자에게 혁신적인 사용 경험을 제공\",\n    \"execution_plan\": \"1단계: 디자인 확정 및 예산 설정 (2024.01.01 ~ 2024.02.15)\\n2단계: 프로토타입 제작 및 기술적 세부사항 테스트 (2024.02.16 ~ 2024.04.15)\\n3단계: 최종 제품 생산 및 마케팅 전략 수립 (2024.04.16 ~ 2024.06.30)\",\n    \"budget_discussion\": \"예산 설정이 필요하며, 50%의 이익을 목표로 설정. 추가적인 버튼이나 특수 소재에 대한 비용은 발생하지 않음. 회의에서 논의된 바에 따르면, 예산 내에서 비용 효율성을 유지하며 배터리 및 플라스틱 케이스에 대한 비용을 최소화할 계획.\",\n    \"technical_details\": [\n        \"에너지원: 배터리\",\n        \"전자제품 옵션: 간단한 칩온프린트, 일반 칩온프린트, 고급 칩온프린트, 샘플 센서, 샘플 스피커\",\n        \"케이스 소재: 플라스틱, 특수 색상 적용\",\n        \"디스플레이: LCD 디스플레이\",\n        \"특수 색상: 밝은 노란색\",\n        \"추가 기능: 버튼 추가 가능, 마호가니와 같은 특수 소재 옵션\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 경험 향상으로 인한 고객 만족도 증가\",\n        \"기대효과 2: 혁신적인 디자인과 기능으로 시장 점유율 확대\",\n        \"기대효과 3: 비용 효율적인 생산으로 인한 수익성 향상\"\n    ],\n    \"meeting_summary\": \"회의에서는 예산 설정 및 기술적 세부사항에 대한 논의가 있었으며, 특수 색상과 소재를 활용한 디자인이 강조되었습니다. 또한, LCD 디스플레이와 버튼 추가에 대한 논의가 있었으며, 최종적으로 비용 효율성을 유지하면서도 혁신적인 제품을 개발하는 것을 목표로 하고 있습니다.\"\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2016d/05_final_result.json",
+    "utterance_count": 236,
+    "original_transcript_length": 7678,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 7678
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 3217
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T21:12:07.922312"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "result_TS3006c_chunk_2",
+  "source_dir": "result_TS3006c",
+  "notion_output": {
+    "project_name": "노션 디자인 개선 및 시제 개발 프로젝트",
+    "project_purpose": "노션의 사용자 경험을 개선하고, 다양한 디자인 요소를 통합하여 시제를 개발하여 시장 경쟁력 강화",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 노션의 사용자 친화성을 극대화하기 위한 UI/UX 개선",
+      "목표 2: 다양한 색상과 패턴을 활용한 디자인 요소 통합",
+      "목표 3: 시제 개발을 통해 실제 사용자 반응을 수집하고 개선"
+    ],
+    "core_idea": "노션의 디자인을 사용자 중심으로 재구성하여 시제를 개발함으로써 사용자 요구를 충족시키고 시장을 확장",
+    "idea_description": "노션의 기본적인 UI/UX를 개선하고, 다양한 색상과 패턴을 활용하여 사용자에게 매력적인 디자인을 제공하며, 시제를 통해 실제 사용자의 요구를 반영하여 개선",
+    "execution_plan": [
+      {
+        "phase": "UI/UX 설계 및 색상 패턴 연구",
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "activities": [
+          "사용자 인터뷰 및 설문조사 진행",
+          "노션의 현재 상태 분석 및 사용자 요구 요약",
+          "다양한 색상과 패턴의 선택 및 적용 방향 설정"
+        ]
+      },
+      {
+        "phase": "디자인 구현 및 시제 개발",
+        "duration": "2025.01.16 ~ 2025.02.28",
+        "activities": [
+          "디자인 파일 생성 및 팀 협업",
+          "시제 개발 및 사용자 피드백 수집",
+          "디자인 수정 및 개선"
+        ]
+      },
+      {
+        "phase": "최종 시제 발표 및 마케팅 전략 수립",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "activities": [
+          "마케팅 캠페인 계획 수립",
+          "시제 발표 및 판매 준비",
+          "시장 점유율 추적 및 데이터 분석"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 증가 및 고객 충성도 상승",
+      "기대효과 2: 시장 경쟁력 강화 및 신규 고객 유치",
+      "기대효과 3: 사용자 피드백을 바탕으로의 지속적인 개선 및 혁신"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_TS3006c/05_final_result.json",
+    "utterance_count": 467,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_C"
+    ],
+    "original_length": 13855,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-07T02:57:05.597082"
+  }
+}

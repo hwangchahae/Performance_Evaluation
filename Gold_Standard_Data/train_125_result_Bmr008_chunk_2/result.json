@@ -1,0 +1,37 @@
+{
+  "id": "train_125_chunk_2",
+  "source_dir": "result_Bmr008_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"사회적 역학을 고려한 학술 커뮤니케이션 양식 혁신 프로젝트\",\n    \"project_purpose\": \"학술 회의에서 발표자와 청중 간의 상호작용을 증진시키고, 사회적 역학을 기반으로 한 커뮤니케이션 방식을 도입하여 회의의 효과성을 높인다.\",\n    \"project_period\": \"2025.01.01 ~ 2025.03.31\",\n    \"project_manager\": \"Speaker_C\",\n    \"core_objectives\": [\n        \"목표 1: 발표자와 청중 간의 상호작용을 증진시키는 새로운 양식 개발\",\n        \"목표 2: 사회적 역학 전문가의 참여를 통해 학술 커뮤니케이션에서의 사회적 역학 요소 분석 및 반영\",\n        \"목표 3: 발표자와 청중의 피드백을 수집하여 지속적인 개선 및 최적화\"\n    ],\n    \"core_idea\": \"발표자와 청중 간의 상호작용을 강화하기 위한 새로운 양식을 개발하고, 사회적 역학을 고려한 커뮤니케이션 방식을 도입\",\n    \"idea_description\": \"발표자가 청중과의 상호작용을 통해 더 나은 이해를 도모하고, 사회적 역학을 고려한 커뮤니케이션 방식을 도입하여 회의의 효과성을 높인다.\",\n    \"execution_plan\": [\n        {\n            \"단계\": \"1단계\",\n            \"내용\": \"현재 학술 커뮤니케이션 방식 분석 및 사회적 역학 전문가의 의견 수렴, 회의록에서 논의된 양식 설계 관련 구체적인 내용 반영\",\n            \"기간\": \"2025.01.01 ~ 2025.01.15\"\n        },\n        {\n            \"단계\": \"2단계\",\n            \"내용\": \"새로운 양식 설계 및 시범 적용, 사회적 역학 요소 반영 및 구체적인 설계 지침 마련\",\n            \"기간\": \"2025.01.16 ~ 2025.02.15\"\n        },\n        {\n            \"단계\": \"3단계\",\n            \"내용\": \"피드백 수집 및 양식 개선, 사회적 역학 전문가와의 협력, 회의록에서 논의된 피드백 수집 방법 반영\",\n            \"기간\": \"2025.02.16 ~ 2025.03.15\"\n        },\n        {\n            \"단계\": \"4단계\",\n            \"내용\": \"최종 보고서 작성 및 발표, 회의에서 논의된 사회적 역학 요소 및 양식 개선 사항 반영\",\n            \"기간\": \"2025.03.16 ~ 2025.03.31\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 발표자와 청중 간의 이해도 향상\",\n        \"기대효과 2: 학술 커뮤니케이션의 질적 향상\",\n        \"기대효과 3: 사회적 역학을 고려한 발표 방식의 표준화\",\n        \"기대효과 4: 사회적 역학 전문가의 참여로 인한 커뮤니케이션 방식의 혁신\",\n        \"기대효과 5: 회의록에서 논의된 구체적인 양식 설계 및 사회적 역학 요소 반영으로 인한 실질적 개선\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr008_processed/05_final_result.json",
+    "utterance_count": 1114,
+    "original_transcript_length": 38159,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9,
+      "original_length": 38159
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 9,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:44:27.511900"
+  }
+}

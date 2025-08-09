@@ -1,0 +1,35 @@
+{
+  "id": "train_065_chunk_1",
+  "source_dir": "result_TS3011b",
+  "notion_output": "```json\n{\n    \"project_name\": \"차세대 사용자 중심 다기능 리모컨 개발\",\n    \"project_purpose\": \"모든 연령층에게 매력적이고 사용하기 쉬운 리모컨을 개발하여 시장 점유율을 확대\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"세바스찬\",\n    \"core_objectives\": [\n        \"목표 1: 직관적이고 사용자 친화적인 리모컨 디자인 개발\",\n        \"목표 2: 다기능 리모컨의 기술적 구현 및 비용 효율성 확보\",\n        \"목표 3: 시장 요구에 부합하는 혁신적인 기능 통합\"\n    ],\n    \"core_idea\": \"사용자 경험을 극대화하는 다기능 리모컨 개발\",\n    \"idea_description\": \"젊은 세대와 고령층 모두에게 사용하기 쉬운 리모컨을 개발하여 시장 점유율을 확대하고자 함. 다기능을 제공하면서도 조작감이 좋은 리모컨을 목표로 함. 특히, 적외선 펄스 전송, 리튬 버튼 사용, 다기능 스틱 구현 등 기술적 요소를 활용하여 사용자 경험을 향상시킴.\",\n    \"execution_plan\": \"1단계: 사용자 요구사항 조사 및 분석 (2024.01.01 ~ 2024.02.15)\\n2단계: 리모컨 디자인 및 기능 설계 (2024.02.16 ~ 2024.03.31)\\n3단계: 프로토타입 제작 및 테스트 (2024.04.01 ~ 2024.05.15)\\n4단계: 최종 디자인 확정 및 생산 준비 (2024.05.16 ~ 2024.06.30)\",\n    \"technical_implementation\": [\n        \"적외선 펄스를 통한 TV 세트 제어\",\n        \"리튬 버튼을 사용한 고급 리모컨 설계\",\n        \"단일 칩을 사용한 회로 설계로 비용 절감\",\n        \"볼륨 조절 및 채널 선택을 위한 다기능 스틱 구현\",\n        \"LED 조명을 활용한 사용자 피드백 시스템\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상 및 시장 점유율 증가\",\n        \"기대효과 2: 비용 절감으로 인한 이익률 증가\",\n        \"기대효과 3: 브랜드 이미지 개선 및 고객 충성도 향상\"\n    ],\n    \"design_choices\": [\n        \"간편한 리모컨과 고급 리모컨의 디자인 선택\",\n        \"텔레텍스트 버튼 제외\",\n        \"사용자 인터페이스의 직관성 강화\",\n        \"리모컨의 독특한 기능으로 LED 조명 선호\"\n    ],\n    \"discussion_points\": [\n        \"기술적 구현의 복잡성과 비용에 대한 고려\",\n        \"젊은 세대와 고령층 모두에게 매력적인 기능 구현\",\n        \"리모컨의 내구성을 고려한 디자인 선택\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3011b/05_final_result.json",
+    "utterance_count": 249,
+    "original_transcript_length": 8905,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8905
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4957
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T21:05:35.216067"
+  }
+}

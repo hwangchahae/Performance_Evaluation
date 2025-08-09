@@ -1,0 +1,43 @@
+{
+  "id": "train_201_chunk_1",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 교육위원회(법안심사소위원회) (2025.07.08.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"지방교육재정교부금 개정안 추진 프로젝트\",\n    \"project_purpose\": \"지방교육재정교부금의 특례규정 재도입 및 고교 무상교육 예산 집행을 위한 법률 개정\",\n    \"project_period\": \"2024.12.01 ~ 2025.08.31\",\n    \"project_manager\": \"문정복 소위원장\",\n    \"core_objectives\": [\n        \"목표 1: 지방교육재정교부금 특례규정의 3년 연장안 마련 및 통과\",\n        \"목표 2: 고교 무상교육 예산 4900억 원의 하반기 집행 준비\",\n        \"목표 3: 교육청, 기재부, 대통령실 정책실과의 협의체 구성 및 운영\"\n    ],\n    \"core_idea\": \"지방교육재정교부금의 특례규정을 재도입하여 고교 무상교육의 지속적인 시행을 지원\",\n    \"idea_description\": \"고교 무상교육의 지속적인 시행을 위해 지방교육재정교부금의 특례규정을 재도입하고, 예산 집행을 위한 법적 근거를 마련하여 국가재정의 효율적인 운영을 도모\",\n    \"execution_plan\": \"1. 2024년 12월: 법률 개정안 준비 및 제출\\n2. 2025년 1월: 국회 본회의 통과\\n3. 2025년 2월: 교육청, 기재부, 대통령실과 협의체 구성\\n4. 2025년 3월~6월: 예산 집행 계획 수립 및 실행\\n5. 2025년 7월~8월: 예산 집행 완료 및 결과 보고\",\n    \"expected_effects\": [\n        \"기대효과 1: 고교 무상교육의 지속적인 시행으로 교육 기회의 평등성 강화\",\n        \"기대효과 2: 지방교육재정의 안정적 확보로 지역 간 교육 격차 해소\",\n        \"기대효과 3: 국가재정의 효율적 운영을 통한 교육 정책의 신뢰성 제고\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제1차 교육위원회(법안심사소위원회) (2025.07.08.)/05_final_result.json",
+    "utterance_count": 287,
+    "original_transcript_length": 16184,
+    "speakers": [
+      "소위원장 문정복",
+      "강경숙 위원",
+      "김민전 위원",
+      "조정훈 위원",
+      "수석전문위원 최선영",
+      "김준혁 위원",
+      "백승아 위원",
+      "전문위원 윤상열",
+      "서지영 위원",
+      "교육부차관 오석환",
+      "정을호 위원",
+      "고민정 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 16184
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 4,
+      "chunk_length": 4969
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:52:59.843432"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "train_171_chunk_3",
+  "source_dir": "result_TS3005d",
+  "notion_output": "```json\n{\n    \"project_name\": \"차세대 젊은 세대 맞춤형 LCD 스피커 및 액세서리 개발\",\n    \"project_purpose\": \"젊은 세대의 비판적 요구를 만족시키는 고기능성 LCD 스피커와 다양한 액세서리 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: LCD 터치스크린과 스크롤 옵션을 장착한 스피커 개발\",\n        \"목표 2: 다양한 색상 및 재질 옵션 제공\",\n        \"목표 3: 젊은 세대의 요구를 반영한 마이크 및 기타 기능 추가\"\n    ],\n    \"core_idea\": \"젊은 세대의 비판적인 요구를 만족시키는 고기능성 스피커와 액세서리 개발\",\n    \"idea_description\": \"LCD 터치스크린, 스크롤 옵션, 다양한 색상 및 재질(고무 및 나무) 옵션을 제공하여 사용자 경험을 극대화하고, 젊은 세대의 취향에 맞춘 디자인과 기능을 추가하여 시장 경쟁력을 확보한다.\",\n    \"execution_plan\": [\n        \"1단계: 시장 조사 및 요구사항 분석 (2024.01.01 ~ 2024.01.31)\",\n        \"2단계: 제품 디자인 및 프로토타입 제작 (2024.02.01 ~ 2024.03.31)\",\n        \"3단계: 프로토타입 테스트 및 피드백 수집 (2024.04.01 ~ 2024.04.30)\",\n        \"4단계: 최종 제품 개발 및 생산 준비 (2024.05.01 ~ 2024.06.30)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 젊은 세대의 요구를 반영한 제품으로 시장 점유율 확대\",\n        \"기대효과 2: 다양한 색상, 재질, 기능 제공으로 고객 만족도 향상\",\n        \"기대효과 3: 혁신적인 디자인과 기능으로 브랜드 이미지 강화\"\n    ],\n    \"technical_details\": {\n        \"스크롤 옵션\": \"스크롤 휠을 통한 사용자 인터페이스 개선\",\n        \"마이크 기능\": \"고품질 음성 입력을 위한 내장 마이크\",\n        \"재질 선택\": \"고무와 나무 재질 옵션 제공\",\n        \"색상 옵션\": \"기존 색상 외에 두 가지 특별한 색상 추가\"\n    },\n    \"additional_features\": [\n        \"특징 1: 곡선형 디자인으로 사용자 편의성 강화\",\n        \"특징 2: LCD 디스플레이의 효율적인 사용을 위한 스크롤 휠 제거\",\n        \"특징 3: 각 리모컨마다 다른 색상 옵션 제공\"\n    ],\n    \"design_considerations\": [\n        \"디자인 1: 젊은 세대의 취향을 반영한 현대적이고 세련된 디자인\",\n        \"디자인 2: 사용자 피드백을 반영한 기능적 디자인 개선\",\n        \"디자인 3: 나무와 고무 재질의 조화로운 사용으로 고급스러운 외관 구현\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3005d/05_final_result.json",
+    "utterance_count": 576,
+    "original_transcript_length": 17375,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 17375
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 4,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:45:20.149820"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "train_099_chunk_5",
+  "source_dir": "result_Btr002_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"회의 기록 최적화 및 사용자 경험 개선 프로젝트\",\n    \"project_purpose\": \"효율적인 회의 기록과 사용자 경험 개선을 통해 시스템의 신뢰성과 사용성을 극대화\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 자동화된 태그 추가 시스템 개발 및 구현\",\n        \"목표 2: 회의 기록의 정확성 및 신뢰성 강화\",\n        \"목표 3: 사용자 인터페이스 개선을 통한 직관적 사용 경험 제공\",\n        \"목표 4: 효율적인 회의 기록을 위한 키보드 단축키 및 실행 취소 기능 추가\"\n    ],\n    \"core_idea\": \"자동화된 태그 시스템과 직관적인 사용자 인터페이스를 통해 회의 기록의 효율성과 정확성을 높이며, 사용자의 편의성을 극대화함\",\n    \"idea_description\": \"회의록에서 논의된 '뒤로 가기 탭' 기능과 '볼륨 조절' 기능을 포함하여 사용자 인터페이스를 개선하고, 태그 추가를 자동화하여 사용자의 수동 작업을 최소화함. 또한, 키보드 단축키와 실행 취소 기능을 추가하여 작업 효율성을 높임\",\n    \"execution_plan\": [\n        \"1단계: 현재 시스템 분석 및 문제점 파악 (2023.11.01 ~ 2023.11.15)\",\n        \"2단계: 자동 태그 기능 설계 및 프로토타입 개발 (2023.11.16 ~ 2023.12.15)\",\n        \"3단계: 사용자 인터페이스 개선 및 테스트 (2023.12.16 ~ 2024.01.15)\",\n        \"4단계: 키보드 단축키 및 실행 취소 기능 추가 (2023.12.16 ~ 2024.01.15)\",\n        \"5단계: 최종 시스템 배포 및 피드백 수집 (2024.01.16 ~ 2024.01.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 회의 기록의 정확성 및 신뢰성 향상\",\n        \"기대효과 2: 태그 추가 프로세스의 시간 단축 및 효율성 증대\",\n        \"기대효과 3: 사용자 만족도 향상 및 시스템 사용률 증가\",\n        \"기대효과 4: 작업 오류 최소화 및 기록 속도 향상\"\n    ],\n    \"meeting_discussions\": [\n        \"뒤로 가기 탭 기능을 통해 사용자가 쉽게 이전 단계로 돌아갈 수 있도록 함\",\n        \"볼륨 조절 기능을 통해 회의 내용을 더 명확하게 들을 수 있도록 함\",\n        \"자동화된 태그 추가 시스템을 통해 사용자의 수동 작업을 최소화함\",\n        \"키보드 단축키를 활용한 효율적인 회의 기록 방법 제안\",\n        \"실행 취소 기능 추가를 통한 작업 오류 최소화\"\n    ],\n    \"technical_details\": [\n        \"Shift와 Backspace를 활용한 시간 상자 축소 기능\",\n        \"마우스와 키보드의 사용을 최적화하여 기록 속도 향상\",\n        \"실행 취소 기능 추가를 통한 작업 오류 최소화\",\n        \"볼륨 조절 기능을 통한 명확한 회의 내용 청취\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Btr002_processed/05_final_result.json",
+    "utterance_count": 1391,
+    "original_transcript_length": 43546,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 10,
+      "original_length": 43546
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 10,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T00:18:52.739511"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "train_038_chunk_4",
+  "source_dir": "result_Bmr021_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"ICSI 및 신경망 기반 음성 인식 시스템 성능 최적화 프로젝트\",\n    \"project_purpose\": \"ICSI 시스템의 성능 문제를 해결하고, 신경망과 다양한 음성 특징 집합의 결합을 통해 음성 인식 시스템의 성능을 최적화하는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_F\",\n    \"core_objectives\": [\n        \"목표 1: 신경망과 MSG, PLP, RASTA 특징 집합의 결합을 통한 성능 최적화\",\n        \"목표 2: VTL 없이 SRI 시스템의 진단 실험 수행\",\n        \"목표 3: C-zero 정규화의 중요성 평가 및 최적화\",\n        \"목표 4: ICSI 시스템의 성능 문제 분석 및 개선\",\n        \"목표 5: 필터 뱅크와 분석 대역폭의 역할 평가 및 최적화\"\n    ],\n    \"core_idea\": \"신경망과 다양한 음성 특징 집합을 결합하여 음성 인식 시스템의 정확도를 높이고, ICSI 시스템의 성능 문제를 해결하는 기술적 접근\",\n    \"idea_description\": \"MSG, PLP, RASTA와 같은 다양한 음성 특징을 신경망과 결합하여 확률 수준에서 최적화함으로써 음성 인식의 정확도를 높이고, ICSI 시스템의 성능 문제를 분석하여 개선책을 마련하는 것. 또한, 필터 뱅크와 분석 대역폭의 역할을 평가하여 최적화 방안을 모색\",\n    \"execution_plan\": [\n        {\n            \"step\": \"다양한 특징 집합과 신경망의 결합 실험\",\n            \"period\": \"2024.01.01 ~ 2024.02.28\",\n            \"responsible\": \"Speaker_F\",\n            \"details\": \"MSG, PLP, RASTA 특징 집합을 신경망과 결합하여 실험하고, 확률 수준에서 최적화를 진행\"\n        },\n        {\n            \"step\": \"VTL 없이 SRI 시스템의 진단 실험 수행\",\n            \"period\": \"2024.03.01 ~ 2024.04.30\",\n            \"responsible\": \"Speaker_C\",\n            \"details\": \"VTL 없이 SRI 시스템을 실행하여 성능을 평가하고, 개선 가능성을 탐색\"\n        },\n        {\n            \"step\": \"C-zero 정규화의 중요성 평가 및 최적화\",\n            \"period\": \"2024.05.01 ~ 2024.06.30\",\n            \"responsible\": \"Speaker_D\",\n            \"details\": \"C-zero 정규화가 시스템 성능에 미치는 영향을 분석하고 최적화 방안을 모색\"\n        },\n        {\n            \"step\": \"ICSI 시스템의 성능 문제 분석 및 개선\",\n            \"period\": \"2024.01.01 ~ 2024.06.30\",\n            \"responsible\": \"Speaker_A\",\n            \"details\": \"ICSI 시스템의 성능 문제를 분석하고, 개선을 위한 기술적 접근을 설계\"\n        },\n        {\n            \"step\": \"필터 뱅크와 분석 대역폭의 역할 평가 및 최적화\",\n            \"period\": \"2024.02.01 ~ 2024.03.31\",\n            \"responsible\": \"Speaker_B\",\n            \"details\": \"필터 뱅크와 분석 대역폭이 음성 인식 성능에 미치는 영향을 평가하고 최적화 방안을 모색\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 음성 인식 시스템의 정확도 향상\",\n        \"기대효과 2: VTL 없이도 SRI 시스템의 효율적 운영 가능성 검증\",\n        \"기대효과 3: C-zero 정규화의 최적화를 통한 시스템 성능 개선\",\n        \"기대효과 4: ICSI 시스템의 성능 문제 해결 및 전반적인 시스템 개선\",\n        \"기대효과 5: 필터 뱅크와 분석 대역폭 최적화를 통한 성능 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr021_processed/05_final_result.json",
+    "utterance_count": 505,
+    "original_transcript_length": 16949,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 16949
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 4,
+      "chunk_length": 3505
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:55:02.188785"
+  }
+}

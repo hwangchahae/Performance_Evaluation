@@ -1,0 +1,38 @@
+{
+  "id": "train_253_chunk_2",
+  "source_dir": "result_Btr001_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"다중 채널 음성 인식 및 공선성 문제 해결 프로젝트\",\n    \"project_purpose\": \"다양한 마이크 및 방 설정에서 음성 인식의 신뢰도를 높이고, 발언자의 채널을 효과적으로 분리하여 명확한 회의 기록을 제공하며, 공선성 문제를 해결하여 음성 인식의 정확성을 향상시킴\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_E\",\n    \"core_objectives\": [\n        \"목표 1: 다양한 마이크 설정에서 음성 인식 정확도 90% 이상 달성\",\n        \"목표 2: 발언자별 채널 분리 시스템 구축 및 공선성 문제 해결\",\n        \"목표 3: 성별 및 악센트에 따른 음성 인식 편향 최소화\",\n        \"목표 4: 회의 중 발생하는 중복 및 방해 요소 식별 및 제거\"\n    ],\n    \"core_idea\": \"음성 인식의 신뢰도를 높이고 발언자를 명확히 구분하며, 공선성 문제를 해결하는 시스템 개발\",\n    \"idea_description\": \"다양한 마이크 및 방 설정에서 발생하는 음성 인식의 문제점을 해결하고, 발언자의 채널을 분리하여 명확한 회의 기록을 제공하며, 공선성 문제를 해결하는 기술 개발\",\n    \"execution_plan\": [\n        {\n            \"단계\": \"1단계\",\n            \"내용\": \"다양한 마이크 및 방 설정에서 음성 데이터 수집 및 공선성 문제 분석\",\n            \"기간\": \"2024.01.01 ~ 2024.01.31\",\n            \"세부사항\": \"회의록에서 언급된 마이크 불안정성 및 공선성 문제를 집중적으로 분석하고, 다양한 환경에서의 음성 데이터를 수집하여 문제점을 파악\"\n        },\n        {\n            \"단계\": \"2단계\",\n            \"내용\": \"음성 인식 알고리즘 개선 및 공선성 해결 방안 테스트\",\n            \"기간\": \"2024.02.01 ~ 2024.02.28\",\n            \"세부사항\": \"수집된 데이터를 바탕으로 음성 인식 알고리즘을 개선하고, 공선성 문제 해결을 위한 다양한 방법론을 테스트\"\n        },\n        {\n            \"단계\": \"3단계\",\n            \"내용\": \"채널 분리 시스템 개발 및 통합, 공선성 문제 해결\",\n            \"기간\": \"2024.03.01 ~ 2024.03.31\",\n            \"세부사항\": \"발언자별 채널 분리 시스템을 개발하고, 이를 기존 시스템에 통합하여 공선성 문제를 해결\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 회의 기록의 명확성 및 정확성 향상\",\n        \"기대효과 2: 음성 인식 시스템의 신뢰도 증가\",\n        \"기대효과 3: 다양한 환경에서도 일관된 음성 인식 성능 제공\",\n        \"기대효과 4: 공선성 문제 해결로 인한 음성 인식 정확도 향상\",\n        \"기대효과 5: 발언자별 명확한 채널 분리로 인한 회의 진행의 효율성 증가\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Btr001_processed/05_final_result.json",
+    "utterance_count": 987,
+    "original_transcript_length": 30604,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 30604
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 7,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:47:38.501467"
+  }
+}

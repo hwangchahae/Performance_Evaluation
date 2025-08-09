@@ -1,0 +1,44 @@
+{
+  "id": "train_168_chunk_2",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 보건복지위원회(전체회의) (2025.07.10.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"보건복지부장관 인사청문회 준비 및 자료 제출\",\n    \"project_purpose\": \"보건복지부장관 인사청문회를 원활히 진행하기 위한 자료 제출 및 준비\",\n    \"project_period\": \"2023.07.07 ~ 2023.07.18\",\n    \"project_manager\": \"박주민 위원장\",\n    \"core_objectives\": [\n        \"목표 1: 복지부장관 후보자의 도덕성과 능력 검증\",\n        \"목표 2: 청문회 준비를 위한 자료 제출 요구 및 수집\",\n        \"목표 3: 청문회 일정 및 계획 확정\"\n    ],\n    \"core_idea\": \"복지부장관 후보자의 청문회를 통해 도덕성과 능력을 검증하고, 국민의 신뢰를 확보\",\n    \"idea_description\": \"복지부장관 후보자의 인사청문회를 통해 후보자의 자질을 검증하고, 관련 자료를 신속히 수집하여 청문회를 준비함으로써 국민의 신뢰를 얻고자 함\",\n    \"execution_plan\": \"1. 7월 11일까지 자료 제출 요구 마감\\n2. 7월 14일까지 자료 제출 완료\\n3. 7월 18일 청문회 실시\",\n    \"expected_effects\": [\n        \"기대효과 1: 후보자의 도덕성과 능력에 대한 명확한 검증\",\n        \"기대효과 2: 청문회 준비의 효율성 증대\",\n        \"기대효과 3: 국민의 신뢰 확보 및 청문회 절차의 투명성 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 8.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제1차 보건복지위원회(전체회의) (2025.07.10.)/05_final_result.json",
+    "utterance_count": 184,
+    "original_transcript_length": 9928,
+    "speakers": [
+      "최보윤 위원",
+      "이소영 위원",
+      "김미애 위원",
+      "이수진 위원",
+      "권성동 위원",
+      "위원장 박주민",
+      "서명옥 위원",
+      "소병훈 위원",
+      "전진숙 위원",
+      "서미화 위원",
+      "안상훈 위원",
+      "출석 전문위원\n수석전문위원",
+      "이개호 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 9928
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:42:15.853243"
+  }
+}

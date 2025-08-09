@@ -1,0 +1,45 @@
+{
+  "id": "train_189_chunk_3",
+  "source_dir": "result_제22대국회 제423회(임시회) 제2차 과학기술정보방송통신위원회(전체회의) (2025.03.11.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"방송통신심의위원회 증인 불출석 고발 프로젝트\",\n    \"project_purpose\": \"방송통신심의위원회 위원장의 국회 불출석 및 위증 문제 해결\",\n    \"project_period\": \"2023.10.01 ~ 2023.12.31\",\n    \"project_manager\": \"최민희 위원장\",\n    \"core_objectives\": [\n        \"목표 1: 류희림 위원장의 국회 불출석에 대한 공식 고발 진행\",\n        \"목표 2: 방송통신심의위원회의 독립성과 공정성 확보\",\n        \"목표 3: 민원사주 사건에 대한 철저한 조사와 관련자 책임 추궁\"\n    ],\n    \"core_idea\": \"방송통신심의위원회 위원장의 불출석 및 위증 문제를 해결하고 위원회의 공정성을 강화\",\n    \"idea_description\": \"방송통신심의위원회의 위원장이 국회 출석을 거부하고 위증을 한 문제를 해결하기 위해 공식적인 고발 절차를 진행하고, 위원회의 독립성과 공정성을 강화하기 위한 조치를 취함.\",\n    \"execution_plan\": \"1. 류희림 위원장의 불출석에 대한 고발장 작성 및 제출 (2023.10.15까지)\\n2. 관련 법률 검토 및 고발 절차 진행 (2023.11.01까지)\\n3. 방송통신심의위원회의 독립성 및 공정성 강화 방안 마련 (2023.11.15까지)\\n4. 민원사주 사건에 대한 철저한 조사 및 결과 발표 (2023.12.01까지)\\n5. 관련자 책임 추궁 및 후속 조치 (2023.12.31까지)\",\n    \"expected_effects\": [\n        \"기대효과 1: 국회의 권위와 법적 절차의 중요성 강화\",\n        \"기대효과 2: 방송통신심의위원회의 공정성과 신뢰성 회복\",\n        \"기대효과 3: 민원사주 사건에 대한 명확한 진상 규명 및 책임자 처벌\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 8.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제423회(임시회) 제2차 과학기술정보방송통신위원회(전체회의) (2025.03.11.)/05_final_result.json",
+    "utterance_count": 292,
+    "original_transcript_length": 17439,
+    "speakers": [
+      "위원장 최민희",
+      "이훈기 위원",
+      "신성범 위원",
+      "김장겸 위원",
+      "최수진 위원",
+      "최형두 위원",
+      "한민수 위원",
+      "박정훈 위원",
+      "황정아 위원",
+      "소위원장 최형두",
+      "김현 위원",
+      "과학기술정보통신부장관 유상임",
+      "이정헌 위원",
+      "노종면 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 17439
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 4,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:27:25.081677"
+  }
+}

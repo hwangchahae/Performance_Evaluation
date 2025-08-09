@@ -1,0 +1,35 @@
+{
+  "id": "train_248_chunk_1",
+  "source_dir": "result_IS1000c",
+  "notion_output": "```json\n{\n    \"project_name\": \"사용자 중심 혁신 휴대폰 디자인 프로젝트\",\n    \"project_purpose\": \"기술적 혁신과 사용자 맞춤형 경험을 제공하는 직관적 휴대폰 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"매튜\",\n    \"core_objectives\": [\n        \"목표 1: 직관적이고 사용하기 쉬운 UI/UX 디자인 개발\",\n        \"목표 2: 사용자 맞춤형 디자인을 위한 교체 가능한 다양한 색상과 질감의 커버 제공\",\n        \"목표 3: 배터리 효율성을 극대화하고 사용량을 직관적으로 시각적으로 표시\"\n    ],\n    \"core_idea\": \"기술적 혁신과 사용자 경험을 극대화하는 직관적 휴대폰 디자인\",\n    \"idea_description\": \"기술적으로 혁신적인 디자인을 통해 사용자가 직관적으로 제품을 사용할 수 있도록 하며, 다양한 색상과 질감의 커버를 통해 개인화된 사용자 경험을 제공. 배터리 사용량을 시각적으로 표시하여 사용자에게 직관적인 정보를 제공\",\n    \"execution_plan\": {\n        \"1단계\": {\n            \"기간\": \"2024.01.01 ~ 2024.02.15\",\n            \"활동\": [\n                \"개념 설계 및 팀원 프레젠테이션\",\n                \"프레젠테이션을 통해 각 팀원의 아이디어 검토 및 결정\"\n            ]\n        },\n        \"2단계\": {\n            \"기간\": \"2024.02.16 ~ 2024.04.30\",\n            \"활동\": [\n                \"디자인 프로토타입 제작\",\n                \"사용자 테스트를 통해 UI/UX 개선\",\n                \"배터리 효율성 테스트 및 시각적 표시 방법 개발\"\n            ]\n        },\n        \"3단계\": {\n            \"기간\": \"2024.05.01 ~ 2024.06.30\",\n            \"활동\": [\n                \"최종 디자인 확정\",\n                \"생산 준비 및 초기 생산 라인 설정\"\n            ]\n        }\n    },\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 증가 및 브랜드 이미지 향상\",\n        \"기대효과 2: 시장 점유율 확대 및 매출 증가\",\n        \"기대효과 3: 혁신적인 디자인을 통한 경쟁사 대비 차별화\",\n        \"기대효과 4: 사용자 맞춤형 디자인을 통한 고객 충성도 강화\"\n    ],\n    \"additional_details\": {\n        \"배터리 효율성\": \"배터리 사용량을 시각적으로 표시하여 사용자가 쉽게 이해할 수 있도록 함. 예를 들어, 배터리 잔량에 따라 색상이 변하는 기능을 추가\",\n        \"사용자 맞춤형 디자인\": \"사용자가 원하는 색상과 질감의 커버를 선택할 수 있도록 하여 개인화된 경험 제공. 커버는 3~5유로의 가격대로 제공될 예정\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1000c/05_final_result.json",
+    "utterance_count": 276,
+    "original_transcript_length": 9719,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 9719
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4908
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:09:26.714026"
+  }
+}

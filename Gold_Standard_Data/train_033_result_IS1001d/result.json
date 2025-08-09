@@ -1,0 +1,31 @@
+{
+  "id": "train_033",
+  "source_dir": "result_IS1001d",
+  "notion_output": "```json\n{\n    \"project_name\": \"혁신적인 바나나 모양 케이스 및 기술 제품 개발 프로젝트\",\n    \"project_purpose\": \"사용자 요구를 충족하고 시장에서 경쟁력을 갖춘 혁신적이고 사용하기 쉬운 바나나 모양의 케이스 및 기술 제품 개발\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 노란색 바나나 모양의 케이스 디자인 및 고무 재질을 사용한 스펀지 같은 느낌 구현\",\n        \"목표 2: 제품의 재정적 타당성 검토 및 비용 최적화\",\n        \"목표 3: 사용자 요구 사항 및 시장 동향에 따른 제품 평가\",\n        \"목표 4: 마케팅 전략 수립 및 실행\",\n        \"목표 5: 기술적 혁신성을 갖춘 바퀴가 달린 제품 개발\"\n    ],\n    \"core_idea\": \"노란색 바나나 모양의 케이스에 고무 재질을 씌워 스펀지처럼 느껴지는 제품과 바퀴가 달린 새로운 기술적 제품 개발\",\n    \"idea_description\": \"기술적으로 혁신적이고 사용하기 쉬운 바나나 모양의 케이스와 바퀴가 달린 제품을 개발하여 시장에 출시\",\n    \"execution_plan\": \"1. 제품 디자인 및 프로토타입 개발 (2023.11.01 ~ 2023.11.30)\\n2. 재정적 타당성 검토 및 비용 분석 (2023.12.01 ~ 2023.12.15)\\n3. 사용자 요구 사항 및 시장 동향에 따른 제품 평가 (2023.12.16 ~ 2023.12.31)\\n4. 최종 제품 개발 및 테스트 (2024.01.01 ~ 2024.01.15)\\n5. 마케팅 전략 수립 및 출시 준비 (2024.01.16 ~ 2024.01.31)\",\n    \"evaluation_criteria\": [\n        \"기술적 혁신성\",\n        \"사용 편의성\",\n        \"디자인 및 외관\",\n        \"시장 적합성\",\n        \"재정적 타당성\",\n        \"제품의 견고성 및 내구성\"\n    ],\n    \"marketing_strategy\": \"1. 제품의 혁신성과 사용 편의성을 강조한 광고 캠페인 전개\\n2. 주요 타겟 시장에 대한 집중적인 프로모션\\n3. 사용자 피드백을 반영한 지속적인 제품 개선\\n4. 바나나 모양의 독창성과 기술적 혁신성을 강조한 브랜드 이미지 구축\",\n    \"expected_effects\": [\n        \"기대효과 1: 혁신적이고 사용하기 쉬운 제품으로 시장 점유율 확대\",\n        \"기대효과 2: 비용 최적화를 통한 수익성 향상\",\n        \"기대효과 3: 사용자 요구 사항을 충족하여 고객 만족도 증가\",\n        \"기대효과 4: 기술적 혁신을 통한 브랜드 이미지 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.2,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1001d/05_final_result.json",
+    "utterance_count": 124,
+    "transcript_length": 3875,
+    "original_transcript_length": 3875,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 3875
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:24:14.162042"
+  }
+}

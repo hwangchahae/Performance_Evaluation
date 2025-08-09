@@ -1,0 +1,40 @@
+{
+  "id": "train_247_chunk_7",
+  "source_dir": "result_Bsr001_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"LDC 기반 데이터 배포 및 HPSG 통합 접근 프로젝트\",\n    \"project_purpose\": \"LDC를 통한 데이터 배포와 공유를 통해 연구 효율성을 높이고, HPSG 기반의 통합적 접근 방식을 개발하여 이론적 구속력을 강화\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_H\",\n    \"team_members\": {\n        \"data_collection_lead\": \"Speaker_B\",\n        \"HPSG_framework_specialist\": \"Speaker_G\",\n        \"collaboration_coordinator\": \"Speaker_C\",\n        \"recording_specialist\": \"Speaker_E\"\n    },\n    \"core_objectives\": [\n        \"목표 1: LDC를 통한 효율적인 데이터 배포 시스템 구축\",\n        \"목표 2: 대학 및 외부 기관과의 구체적인 데이터 공유 체계 확립\",\n        \"목표 3: HPSG 문법 기반의 통합적 접근 방식 개발 및 적용\",\n        \"목표 4: 회의 진행 방식 개선을 통한 효율성 증대\"\n    ],\n    \"core_idea\": \"LDC를 활용하여 데이터를 배포하고, 협업을 통해 더 큰 코퍼스를 구축하며, HPSG 문법을 기반으로 한 새로운 접근 방식을 개발\",\n    \"idea_description\": \"LDC를 통해 데이터를 배포하고, 대학 및 외부 기관과의 협력을 통해 데이터를 공유하여 더 큰 코퍼스를 구축함으로써 연구의 효율성을 높임. 또한, HPSG 문법을 기반으로 한 통합적 접근 방식을 개발하여 이론적 구속력을 강화\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"1단계\",\n            \"description\": \"LDC 배포 시스템 설계 및 구현\",\n            \"timeline\": \"2024.01.01 ~ 2024.01.31\",\n            \"tasks\": [\n                \"LDC 배포 시스템 요구사항 분석\",\n                \"시스템 설계 및 프로토타입 개발\",\n                \"시스템 테스트 및 피드백 수집\"\n            ]\n        },\n        {\n            \"phase\": \"2단계\",\n            \"description\": \"데이터 공유를 위한 협력 체계 구축\",\n            \"timeline\": \"2024.02.01 ~ 2024.02.28\",\n            \"tasks\": [\n                \"대학 및 외부 기관과의 협력 네트워크 구축\",\n                \"데이터 공유 프로토콜 및 보안 정책 수립\",\n                \"협력 기관과의 파일럿 프로젝트 실행\"\n            ]\n        },\n        {\n            \"phase\": \"3단계\",\n            \"description\": \"HPSG 기반 통합적 접근 방식 개발\",\n            \"timeline\": \"2024.03.01 ~ 2024.03.31\",\n            \"tasks\": [\n                \"HPSG 문법 기반 접근 방식 연구 및 설계\",\n                \"통합적 접근 방식의 프로토타입 개발\",\n                \"적용 사례 연구 및 결과 분석\"\n            ]\n        },\n        {\n            \"phase\": \"4단계\",\n            \"description\": \"회의 진행 방식 개선\",\n            \"timeline\": \"2024.01.01 ~ 2024.03.31\",\n            \"tasks\": [\n                \"로버트의 규칙 적용을 통한 회의 진행 방식 개선\",\n                \"중복 발언을 줄이기 위한 회의 구조 설계\",\n                \"회의 녹음 및 기록 시스템 최적화\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 데이터 배포 및 공유를 통한 연구 효율성 증대\",\n        \"기대효과 2: 협업을 통한 더 큰 코퍼스 구축으로 인한 연구 범위 확장\",\n        \"기대효과 3: HPSG 기반 접근 방식 개발로 인한 이론적 구속력 강화\",\n        \"기대효과 4: 개선된 회의 진행 방식으로 인한 의사소통 효율성 증대\"\n    ],\n    \"additional_notes\": [\n        \"회의 중 논의된 데이터 수집 및 공유의 구체적인 방법을 반영하여, 각 기관의 데이터 수집 방식을 표준화\",\n        \"HPSG 문법과 관련된 접근 방식은 통합 기반으로, 이론적 구속력을 강화하는 방향으로 개발\",\n        \"회의에서 언급된 로버트의 규칙을 적용하여 회의 진행 방식을 개선하고, 중복 발언을 줄이기 위한 방안 마련\",\n        \"회의 녹음 및 기록을 통해 회의 내용의 투명성과 접근성을 높임\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bsr001_processed/05_final_result.json",
+    "utterance_count": 1028,
+    "original_transcript_length": 34394,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_H",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_I"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 8,
+      "original_length": 34394
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 7,
+      "total_chunks": 8,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:08:07.052229"
+  }
+}

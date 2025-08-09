@@ -1,0 +1,62 @@
+{
+  "id": "result_TS3008d_chunk_1",
+  "source_dir": "result_TS3008d",
+  "notion_output": {
+    "project_name": "혁신적인 리모컨 디자인 및 기능 개발 프로젝트",
+    "project_purpose": "최첨단 기술을 활용하여 다양한 사용자 요구를 충족시키며, 시장 경쟁력을 강화함",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: 다양한 사용자 인터페이스와 디자인을 통합하여 사용성을 높임",
+      "목표 2: 최첨단 기술을 활용하여 효율적인 신호 전송 및 관리 기능 추가",
+      "목표 3: 시장 선점 차원에서의 독특한 디자인을 확보하여 소비자 매출 증가"
+    ],
+    "core_idea": "다양한 사용자 요구를 반영한 혁신적인 디자인과 기능을 갖춘 리모컨 개발",
+    "idea_description": "각종 사용자 요구를 반영하여 다양한 버튼과 디자인을 통해 사용성을 높이고, 최첨단 기술을 활용하여 신호 전송 및 관리를 효율화하며, 독특한 디자인을 통해 시장에서의 경쟁력을 강화함.",
+    "execution_plan": [
+      {
+        "phase": "설계 및 개념 검토",
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "description": "다양한 사용자 요구와 기술적 가능성에 대한 연구 및 설계 개념 검토"
+      },
+      {
+        "phase": "기술 개발 및 시험",
+        "duration": "2025.01.16 ~ 2025.02.28",
+        "description": "최첨단 기술을 활용한 신호 전송 및 관리 기능 개발 및 시험"
+      },
+      {
+        "phase": "디자인 및 제작",
+        "duration": "2025.03.01 ~ 2025.03.15",
+        "description": "독특한 디자인을 적용한 리모컨 제작 및 생산 준비"
+      },
+      {
+        "phase": "마케팅 및 론칭",
+        "duration": "2025.03.16 ~ 2025.03.31",
+        "description": "시장에 론칭 및 마케팅 전략 수립 및 실행"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 향상 및 고객 재구매율 증가",
+      "기대효과 2: 시장 점유율 확대 및 매출 증가",
+      "기대효과 3: 독창적인 디자인으로 브랜드 이미지 강화 및 시장 경쟁력 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_TS3008d/05_final_result.json",
+    "utterance_count": 440,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 14071,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-07T02:56:55.467053"
+  }
+}

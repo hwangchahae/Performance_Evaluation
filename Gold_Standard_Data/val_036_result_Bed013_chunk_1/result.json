@@ -1,0 +1,36 @@
+{
+  "id": "val_036_chunk_1",
+  "source_dir": "result_Bed013_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"SmartKom 모듈 의도 설정 및 결정 노드 최적화 프로젝트\",\n    \"project_purpose\": \"SmartKom 시스템의 모듈별 의도 설정과 결정 노드 최적화를 통해 사용자 맞춤형 경험을 제공하고 시스템 효율성을 극대화합니다.\",\n    \"project_period\": \"2023.07.04 ~ 2023.08.31\",\n    \"project_manager\": \"볼프강 발스터\",\n    \"core_objectives\": [\n        \"목표 1: SmartKom의 모든 모듈에 대한 의도 설정 및 모듈별 책임자 협업 강화\",\n        \"목표 2: 결정 노드의 사후 확률 최적화 및 기술적 접근 방법 구체화\",\n        \"목표 3: 시스템의 자율적 학습 및 오류 수정 기능 강화\"\n    ],\n    \"core_idea\": \"모듈별 의도 설정을 통해 사용자 맞춤형 경험을 제공하고, 결정 노드의 확률 최적화를 통해 시스템의 의사결정 과정을 개선합니다.\",\n    \"idea_description\": \"사용자 설정에 기반한 의도 설정을 통해 시스템이 사용자 요구를 보다 정확하게 이해하고, 결정 노드의 확률 최적화를 통해 시스템의 의사결정 과정을 개선합니다. 이를 위해 모듈별 책임자와의 협업을 통해 기술적 접근 방법을 구체화합니다.\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"1단계\",\n            \"period\": \"2023.07.04 ~ 2023.07.20\",\n            \"tasks\": [\n                \"모듈 의도 설정 및 사용자 설정 수집\",\n                \"모듈별 책임자 회의 진행\",\n                \"회의록에 따라 모듈별 책임자 정보 수집 및 협업 체계 구축\"\n            ]\n        },\n        {\n            \"phase\": \"2단계\",\n            \"period\": \"2023.07.21 ~ 2023.08.10\",\n            \"tasks\": [\n                \"결정 노드 확률 최적화 알고리즘 개발\",\n                \"기술적 접근 방법 구체화\",\n                \"회의에서 논의된 기술적 세부사항 반영\"\n            ]\n        },\n        {\n            \"phase\": \"3단계\",\n            \"period\": \"2023.08.11 ~ 2023.08.31\",\n            \"tasks\": [\n                \"시스템 테스트 및 오류 수정\",\n                \"자율적 학습 기능 검증\",\n                \"시스템의 자율적 학습 및 오류 수정 기능 강화\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 맞춤형 경험 제공으로 인한 사용자 만족도 향상\",\n        \"기대효과 2: 결정 노드 최적화를 통한 시스템 처리 속도 향상 및 기술적 접근 방법의 명확화\",\n        \"기대효과 3: 자율적 학습 기능 강화로 인한 시스템 유지보수 비용 절감\"\n    ],\n    \"additional_notes\": \"회의록에서 언급된 SmartKom의 모듈별 책임자와의 협업을 통해 모듈 의도 설정을 보다 효과적으로 진행하며, 결정 노드 최적화와 관련된 기술적 접근 방법을 구체화하여 프로젝트의 성공 가능성을 높입니다. 특히, 결정 노드의 사후 확률 최적화와 관련된 알고리즘 개발에 중점을 두어 시스템의 자율적 학습 기능을 강화합니다.\"\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed013_processed/05_final_result.json",
+    "utterance_count": 744,
+    "original_transcript_length": 24608,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 24608
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 6,
+      "chunk_length": 4997
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T10:40:18.725989"
+  }
+}

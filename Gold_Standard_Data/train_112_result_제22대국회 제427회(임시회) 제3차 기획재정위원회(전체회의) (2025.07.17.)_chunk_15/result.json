@@ -1,0 +1,54 @@
+{
+  "id": "train_112_chunk_15",
+  "source_dir": "result_제22대국회 제427회(임시회) 제3차 기획재정위원회(전체회의) (2025.07.17.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"대한민국 경제 경쟁력 강화 및 사회적 보호 프로젝트\",\n    \"project_purpose\": \"경제 정책의 실패 원인을 분석하고, 플랫폼 노동자 보호 및 AI, 반도체 분야의 규제 완화를 통해 국가 경쟁력을 강화하며 국민 행복을 증진\",\n    \"project_period\": \"2024.01.01 ~ 2024.12.31\",\n    \"project_manager\": \"구윤철\",\n    \"core_objectives\": [\n        \"목표 1: 경제 정책 실패 원인 분석 및 구체적 개선 방안 수립\",\n        \"목표 2: 플랫폼 노동자 보호를 위한 구체적인 법적 제도 개선\",\n        \"목표 3: AI 및 반도체 분야의 규제 완화 및 인프라 지원 강화\"\n    ],\n    \"core_idea\": \"경제 정책 개선과 규제 개혁을 통해 국가 경쟁력을 강화하고 국민 행복을 증진\",\n    \"idea_description\": \"현재 경제 정책의 문제점을 구체적으로 분석하고, 플랫폼 노동자 보호 및 AI, 반도체 분야의 규제 완화를 통해 경제 성장을 도모하는 프로젝트\",\n    \"execution_plan\": [\n        \"1단계: 경제 정책 실패 원인 분석 및 개선 방안 수립 (2024.01.01 ~ 2024.03.31)\",\n        \"2단계: 플랫폼 노동자 보호를 위한 구체적인 법적 제도 개선안 마련 (2024.04.01 ~ 2024.06.30)\",\n        \"3단계: AI 및 반도체 분야 규제 완화 및 인프라 지원 방안 수립 (2024.07.01 ~ 2024.09.30)\",\n        \"4단계: 정책 시행 및 모니터링 (2024.10.01 ~ 2024.12.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 경제 정책의 효율성 및 효과성 증대\",\n        \"기대효과 2: 플랫폼 노동자의 법적 보호 강화 및 근로 환경 개선\",\n        \"기대효과 3: AI 및 반도체 분야의 혁신 촉진 및 국가 경쟁력 강화\"\n    ],\n    \"detailed_plan\": {\n        \"economic_policy_failure_analysis\": \"문재인 정부 시절의 경제 정책 실패 사례를 분석하고, 국무조정실장으로서의 역할을 포함한 구체적인 실패 원인을 도출\",\n        \"platform_worker_protection\": \"플랫폼 노동자 400만 명을 대상으로 근로기준법 사각지대 해소를 위한 법적 제도 개선 방안을 마련\",\n        \"ai_semiconductor_regulation_relaxation\": \"AI 투자 100조 원 시대를 열기 위한 GPU 5만 개 이상 확보 및 한국형 챗GPT 개발 지원, 연구원들이 자유롭게 일할 수 있는 환경 조성을 위한 규제 완화\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제3차 기획재정위원회(전체회의) (2025.07.17.)/05_final_result.json",
+    "utterance_count": 1930,
+    "original_transcript_length": 109213,
+    "speakers": [
+      "조승래 위원",
+      "유상범 위원",
+      "차규근 위원",
+      "최기상 위원",
+      "정태호 위원",
+      "안도걸 위원",
+      "천하람 위원",
+      "김영진 위원",
+      "박홍근 위원",
+      "김태년 위원",
+      "윤영석 위원",
+      "이인선 위원",
+      "최은석 위원",
+      "권영세 위원",
+      "박성훈 위원",
+      "정일영 위원",
+      "오기형 위원",
+      "위원장 임이자",
+      "부총리겸기획재정부장관후보자 구윤철",
+      "진성준 위원",
+      "김영환 위원",
+      "박대출 위원",
+      "박수영 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 25,
+      "original_length": 109213
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 15,
+      "total_chunks": 25,
+      "chunk_length": 4999
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T01:52:28.696518"
+  }
+}

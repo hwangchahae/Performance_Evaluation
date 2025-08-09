@@ -1,0 +1,35 @@
+{
+  "id": "train_073_chunk_1",
+  "source_dir": "result_ES2016b",
+  "notion_output": "```json\n{\n    \"project_name\": \"다기능 리모컨 디자인 혁신 프로젝트\",\n    \"project_purpose\": \"사용자 친화적이고 현대적인 디자인의 다기능 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"마누엘\",\n    \"core_objectives\": [\n        \"목표 1: 사용자가 원하는 현대적이고 미적인 리모컨 디자인 개발\",\n        \"목표 2: 위치 추적 기능을 포함한 다기능 리모컨 설계\",\n        \"목표 3: RSI(반복적 긴장 부상)를 줄이는 인체공학적 디자인 구현\"\n    ],\n    \"core_idea\": \"사용자 중심의 혁신적 리모컨 디자인\",\n    \"idea_description\": \"사용자 설문조사 결과를 바탕으로 미적이고 기능적인 리모컨을 설계하여 시장 경쟁력을 높임\",\n    \"execution_plan\": \"1단계: 사용자 요구 분석 및 설문조사 결과 검토 (2024.01.01 ~ 2024.01.31)\\n2단계: 디자인 컨셉 개발 및 프로토타입 제작 (2024.02.01 ~ 2024.03.31)\\n3단계: 사용자 테스트 및 피드백 반영 (2024.04.01 ~ 2024.04.30)\\n4단계: 최종 디자인 확정 및 생산 준비 (2024.05.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 증가 및 브랜드 이미지 개선\",\n        \"기대효과 2: 시장 점유율 확대 및 매출 증대\",\n        \"기대효과 3: 사용자 경험 개선을 통한 장기적인 고객 충성도 확보\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2016b/05_final_result.json",
+    "utterance_count": 272,
+    "original_transcript_length": 9717,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 9717
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4981
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T21:18:18.544545"
+  }
+}

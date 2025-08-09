@@ -1,0 +1,35 @@
+{
+  "id": "train_007_chunk_1",
+  "source_dir": "result_ES2015d",
+  "notion_output": "```json\n{\n    \"project_name\": \"인체공학적 단일 핸드헬드 리모컨 혁신 프로젝트\",\n    \"project_purpose\": \"사용자의 편의성과 건강을 고려하여 인체공학적 설계를 적용한 혁신적인 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 인체공학적 설계를 통해 사용자 편의성 및 건강 증대\",\n        \"목표 2: 프로토타입의 예산 적합성 검토 및 조정\",\n        \"목표 3: 기술적 혁신성 평가 및 개선\",\n        \"목표 4: 사용자 피드백을 통한 디자인 및 기능 개선\"\n    ],\n    \"core_idea\": \"단일 핸드헬드 장치로서 인체공학적 설계를 통해 사용자의 편의성을 극대화하고, 반복 스트레스 손상을 줄이는 혁신적 디자인\",\n    \"idea_description\": \"LED와 고무 소재를 활용한 인체공학적 리모컨으로, 한 손으로 조작 가능하며, 엄지손가락으로 접근 가능한 버튼 설계로 반복 스트레스 손상을 줄이는 설계\",\n    \"execution_plan\": [\n        \"1. 프로토타입 완성 및 예산 검토 (2024.01.01 ~ 2024.01.15)\",\n        \"2. 사용자 피드백 수집 및 설계 개선 (2024.01.16 ~ 2024.02.15)\",\n        \"3. 최종 프로토타입 제작 및 기술적 평가 (2024.02.16 ~ 2024.03.31)\",\n        \"4. LED 및 고무 소재의 구체적인 사용 방법에 대한 기술적 설명 추가\",\n        \"5. 예산 적합성 검토에 대한 구체적인 계획 수립\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 증가 및 시장 경쟁력 강화\",\n        \"기대효과 2: 인체공학적 설계를 통한 사용자 건강 보호\",\n        \"기대효과 3: 혁신적 디자인으로 브랜드 이미지 개선\",\n        \"기대효과 4: 기술적 혁신성을 통한 제품 차별화\"\n    ],\n    \"technical_details\": {\n        \"LED_usage\": \"리모컨의 상태 표시 및 사용자 피드백을 위한 LED 사용\",\n        \"rubber_material\": \"사용자의 그립감을 향상시키고, 미끄럼 방지를 위한 고무 소재 사용\",\n        \"ergonomic_design\": \"엄지손가락으로 접근 가능한 버튼 배치와 손바닥에 딱 맞는 그립감 제공\",\n        \"additional_features\": \"전원 콘센트, 켜기/끄기 버튼, 채널 및 볼륨 조절 기능 포함\"\n    },\n    \"budget_review\": {\n        \"initial_budget\": \"프로토타입 개발 초기 예산 설정 및 검토\",\n        \"budget_adjustments\": \"사용자 피드백 및 기술적 평가 결과에 따른 예산 조정 계획\"\n    },\n    \"user_feedback_plan\": {\n        \"feedback_collection\": \"사용자 테스트를 통해 피드백 수집\",\n        \"design_improvement\": \"수집된 피드백을 바탕으로 디자인 및 기능 개선\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2015d/05_final_result.json",
+    "utterance_count": 412,
+    "original_transcript_length": 12406,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 12406
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4991
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T16:46:02.213054"
+  }
+}

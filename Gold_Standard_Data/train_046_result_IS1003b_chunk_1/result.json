@@ -1,0 +1,35 @@
+{
+  "id": "train_046_chunk_1",
+  "source_dir": "result_IS1003b",
+  "notion_output": "```json\n{\n    \"project_name\": \"정교한 무선 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"사용하기 쉬운 인터페이스와 강력한 기능을 갖춘 무선 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"데이비드 조던\",\n    \"core_objectives\": [\n        \"목표 1: 사용하기 쉬운 사용자 인터페이스 설계\",\n        \"목표 2: 강력하고 다양한 기능 구현\",\n        \"목표 3: 무선 기술을 통한 비용 절감\"\n    ],\n    \"core_idea\": \"사용자 친화적인 무선 리모컨 개발\",\n    \"idea_description\": \"정교한 기능을 갖추면서도 사용하기 쉬운 무선 리모컨을 개발하여 시장 경쟁력을 강화\",\n    \"execution_plan\": \"1단계: 사용자 인터페이스 디자인 (2024.01.01 ~ 2024.02.28)\\n2단계: 기능 구현 및 테스트 (2024.03.01 ~ 2024.04.30)\\n3단계: 무선 기술 통합 및 최적화 (2024.05.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 증가로 인한 판매량 증대\",\n        \"기대효과 2: 무선 기술 도입으로 인한 생산 비용 절감\",\n        \"기대효과 3: 시장 점유율 확대 및 브랜드 이미지 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1003b/05_final_result.json",
+    "utterance_count": 185,
+    "original_transcript_length": 6547,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 6547
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4998
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T19:47:57.200312"
+  }
+}

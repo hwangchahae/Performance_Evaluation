@@ -1,0 +1,42 @@
+{
+  "id": "train_184_chunk_1",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 법제사법위원회(법안심사제1소위원회) (2025.07.11.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"상법 개정안 공청회 후속 조치 프로젝트\",\n    \"project_purpose\": \"상법 개정안에 대한 공청회 결과를 바탕으로 법안 심사 및 개정 추진\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"김용민 소위원장\",\n    \"core_objectives\": [\n        \"목표 1: 상법 개정안에 대한 공청회 결과 분석 및 보고서 작성\",\n        \"목표 2: 공청회에서 제기된 쟁점 사항에 대한 추가 연구 및 검토\",\n        \"목표 3: 상법 개정안의 최종 초안 작성 및 소위원회 제출\"\n    ],\n    \"core_idea\": \"공청회에서 제기된 다양한 의견과 쟁점을 체계적으로 분석하여 상법 개정안을 보다 완성도 있게 준비\",\n    \"idea_description\": \"공청회에서 논의된 집중투표제와 감사위원 분리선출 등의 쟁점을 중심으로, 기업의 투명하고 책임 있는 경영을 제도적으로 뒷받침할 수 있는 상법 개정안을 마련\",\n    \"execution_plan\": \"1. 공청회 결과 분석 및 보고서 작성 (2023.11.01 ~ 2023.11.15)\\n2. 쟁점 사항에 대한 추가 연구 및 검토 (2023.11.16 ~ 2023.12.15)\\n3. 상법 개정안 초안 작성 (2023.12.16 ~ 2024.01.15)\\n4. 소위원회 제출 및 검토 (2024.01.16 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 상법 개정안의 완성도 향상 및 법안 통과 가능성 증대\",\n        \"기대효과 2: 기업의 투명성 및 책임 경영 강화\",\n        \"기대효과 3: 주주와 기업 간의 상생 구조 마련\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 8.4,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제1차 법제사법위원회(법안심사제1소위원회) (2025.07.11.)/05_final_result.json",
+    "utterance_count": 412,
+    "original_transcript_length": 24679,
+    "speakers": [
+      "장동혁 위원",
+      "주진우 위원",
+      "진술인 최준선",
+      "서영교 위원",
+      "진술인 정우용",
+      "소위원장 김용민",
+      "전현희 위원",
+      "박균택 위원",
+      "곽규택 위원",
+      "진술인 김우찬",
+      "진술인 윤태준"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 24679
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 6,
+      "chunk_length": 4949
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:21:00.199130"
+  }
+}

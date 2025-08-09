@@ -1,7 +1,7 @@
 # 결과 파일들 (용량이 크고 개인별로 다름)
-*.csv
-*.json
-*.txt
+# *.csv
+# *.json
+# *.txt
 
 # config.json은 포함하되, 개인 설정은 별도로
 config.local.json

@@ -1,0 +1,47 @@
+{
+  "id": "val_173_chunk_1",
+  "source_dir": "result_IS1001b",
+  "notion_output": {
+    "project_name": "다기능 스마트 리모컨 개발 및 시장 확대 프로젝트",
+    "project_purpose": "사용자 편의성을 극대화하고, 다양한 기기 간의 유연한 컨트롤을 가능하게 하는 다기능 리모컨을 개발하여 시장을 선점하며, 젊은 세대와 부모층의 요구를 동시에 충족시키는 것을 목표로 합니다.",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 사용자 요구 사항을 반영한 리모컨의 기능 설계",
+      "목표 2: 기술적 기능 설계 및 작업 설계의 최적화",
+      "목표 3: 사용성 연구실에서 수집한 데이터를 바탕으로 사용자 경험 개선"
+    ],
+    "core_idea": "다기능 리모컨을 통해 다양한 기기의 조절이 가능하도록 하고, 사용자의 불편함을 줄이는 것을 목표로 합니다.",
+    "idea_description": "리모컨은 TV, 스피커 등 다양한 기기를 조절할 수 있도록 설계되며, 사용자가 쉽게 접근할 수 있도록 직관적인 UI를 제공합니다. 특히, 젊은 세대와 부모층의 요구를 모두 충족시키는 것이 목표입니다.",
+    "execution_plan": "1단계: 사용자 요구 사항 및 기술적 설계 (2024.01.01 ~ 2024.02.28)\n2단계: 프로토타입 개발 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 최종 제품 개발 및 생산 준비 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 향상 및 리모컨의 시장 점유율 증가",
+      "기대효과 2: 다양한 기기 간의 유연한 컨트롤 가능성",
+      "기대효과 3: 젊은 세대와 부모층의 동시 요구 충족"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_IS1001b/05_final_result.json",
+    "utterance_count": 276,
+    "original_transcript_length": 9187,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 9187
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4992
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-06T14:10:07.433027"
+  }
+}

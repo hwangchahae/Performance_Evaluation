@@ -1,0 +1,35 @@
+{
+  "id": "train_239_chunk_1",
+  "source_dir": "result_ES2009d",
+  "notion_output": "```json\n{\n    \"project_name\": \"친환경 및 사용자 친화적 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"친환경적이고 사용자 경험을 극대화한 리모컨을 개발하여 시장에서의 경쟁력을 강화하고 지속 가능한 제품 개발을 추진\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"사라\",\n    \"core_objectives\": [\n        \"목표 1: 태양 전지와 배터리 옵션에 대한 최종 결정을 통해 리모컨 프로토타입 개발\",\n        \"목표 2: 사용자 편의성을 높이기 위한 음성 인식 기능 및 페이징 기능 통합\",\n        \"목표 3: 생산 비용 최적화 및 예산 초과 문제 해결\"\n    ],\n    \"core_idea\": \"친환경적이며 고급 기능을 갖춘 리모컨 개발\",\n    \"idea_description\": \"태양 전지와 배터리 옵션을 고려하여 친환경성을 강조하고, 음성 인식 및 페이징 기능을 통해 사용자 경험을 향상시키는 리모컨을 개발\",\n    \"execution_plan\": \"1단계: 기존 회의록 검토 및 상세 설계 회의 (2024.01.01 ~ 2024.01.15)\\n2단계: 태양 전지 및 배터리 옵션에 대한 최종 결정 및 프로토타입 개발 (2024.01.16 ~ 2024.02.15)\\n3단계: 프로토타입 테스트 및 사용자 피드백 수집 (2024.02.16 ~ 2024.03.31)\\n4단계: 생산 비용 분석 및 예산 초과 문제 해결 방안 마련 (2024.04.01 ~ 2024.04.30)\\n5단계: 최종 프로토타입 검토 및 시장 출시 준비 (2024.05.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 친환경 제품으로서의 브랜드 이미지 강화\",\n        \"기대효과 2: 사용자 편의성 증대로 인한 고객 만족도 향상\",\n        \"기대효과 3: 생산 비용 절감 및 예산 관리 개선으로 인한 수익성 개선\"\n    ],\n    \"conflict_resolution\": \"회의에서 논의된 바와 같이, 태양 전지와 배터리 옵션에 대한 갈등을 해결하기 위해 타협점을 찾아 태양 전지 없이 프로젝트를 진행하기로 결정\",\n    \"budget_management\": \"예산 초과 문제를 해결하기 위해 생산 비용을 재분석하고, 비용 절감 방안을 마련하여 예산 내에서 프로젝트를 진행\"\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2009d/05_final_result.json",
+    "utterance_count": 318,
+    "original_transcript_length": 10859,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 10859
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4993
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T07:27:10.078097"
+  }
+}

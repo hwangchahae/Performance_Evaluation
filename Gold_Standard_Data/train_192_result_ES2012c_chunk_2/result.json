@@ -1,0 +1,35 @@
+{
+  "id": "train_192_chunk_2",
+  "source_dir": "result_ES2012c",
+  "notion_output": "```json\n{\n    \"project_name\": \"Real Reaction 차세대 제품 개발 프로젝트\",\n    \"project_purpose\": \"혁신적인 디자인과 기능을 통해 사용자 경험을 극대화하고, 브랜드 인지도를 강화하여 시장에서의 경쟁력을 확보하는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 편의성을 극대화한 혁신적인 제품 디자인 구현\",\n        \"목표 2: 브랜드 인지도를 높이기 위한 회사 로고의 전략적 배치\",\n        \"목표 3: 장기 배터리 수명과 교체 가능한 케이스를 통한 유지보수 비용 절감\",\n        \"목표 4: 맞춤형 칩을 통한 기술 혁신 및 제품 성능 향상\"\n    ],\n    \"core_idea\": \"사용자 친화적이며 기술 혁신을 반영한 Real Reaction 차세대 제품 개발\",\n    \"idea_description\": \"기존 제품의 장점을 유지하면서도 교체 가능한 케이스와 맞춤형 칩을 통해 기술 혁신을 이루고, 사용자 경험을 개선하며 브랜드 인지도를 높이는 전략적 제품 개발\",\n    \"execution_plan\": \"1. 2024.01.01 ~ 2024.02.28: 제품 디자인 및 기능 결정 (교체 가능한 케이스 및 맞춤형 칩 포함)\\n2. 2024.03.01 ~ 2024.04.30: 프로토타입 제작 및 테스트 (디자인 및 기능 테스트)\\n3. 2024.05.01 ~ 2024.06.30: 최종 제품 개발 및 출시 준비 (장기 배터리 및 브랜드 로고 배치 최적화)\",\n    \"expected_effects\": [\n        \"기대효과 1: 시장 점유율 증가 및 매출 증대\",\n        \"기대효과 2: 사용자 만족도 향상 및 브랜드 충성도 강화\",\n        \"기대효과 3: 유지보수 비용 절감 및 장기적인 고객 관계 구축\",\n        \"기대효과 4: 기술 혁신을 통한 제품 경쟁력 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2012c/05_final_result.json",
+    "utterance_count": 235,
+    "original_transcript_length": 8075,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8075
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 3591
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T05:33:35.916613"
+  }
+}

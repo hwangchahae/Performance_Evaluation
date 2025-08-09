@@ -1,0 +1,38 @@
+{
+  "id": "train_107_chunk_5",
+  "source_dir": "result_Bed006_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"독일 TV 프로그램 데이터베이스 및 SPG 액션 분석 프로젝트\",\n    \"project_purpose\": \"독일 TV 프로그램 데이터베이스 구축과 SPG 액션 분석을 통해 커뮤니케이션 이벤트의 효율성을 높이는 전략 개발\",\n    \"project_period\": \"2024.04.26 ~ 2024.05.04\",\n    \"project_manager\": \"Speaker_F\",\n    \"core_objectives\": [\n        \"목표 1: 독일 TV 프로그램 관련 데이터베이스 구축\",\n        \"목표 2: SPG 액션 데이터베이스를 통해 커뮤니케이션 이벤트 분석 및 보고서 작성\",\n        \"목표 3: 분석 결과를 바탕으로 커뮤니케이션 개선 전략 개발\"\n    ],\n    \"core_idea\": \"독일 TV 프로그램 데이터를 체계적으로 수집하고 SPG 액션을 분석하여 커뮤니케이션 이벤트의 효율성을 높이는 전략을 개발\",\n    \"idea_description\": \"독일 TV 프로그램 관련 데이터를 수집하여 데이터베이스에 저장하고, 이를 SPG 액션과 연계하여 분석하여 커뮤니케이션 이벤트의 패턴과 인사이트를 도출합니다. 이 프로젝트는 데이터베이스 구축, 데이터 분석, 커뮤니케이션 전략 개발의 세 단계로 진행됩니다.\",\n    \"execution_plan\": \"1단계: 독일 TV 프로그램 데이터베이스 구축 (2024.04.26 ~ 2024.04.28)\\n2단계: SPG 액션 데이터 분석 및 보고서 작성 (2024.04.29 ~ 2024.05.02)\\n3단계: 커뮤니케이션 전략 개발 (2024.05.03 ~ 2024.05.04)\",\n    \"expected_effects\": [\n        \"기대효과 1: 독일 TV 프로그램 및 SPG 액션에 대한 체계적인 데이터베이스 구축으로 데이터 관리 효율성 향상\",\n        \"기대효과 2: 커뮤니케이션 이벤트 분석 결과를 통해 효과적인 전략 개발 가능\",\n        \"기대효과 3: 커뮤니케이션 효율성 향상 및 조직 내 협업 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 5.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed006_processed/05_final_result.json",
+    "utterance_count": 723,
+    "original_transcript_length": 26075,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 26075
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T01:30:35.142276"
+  }
+}

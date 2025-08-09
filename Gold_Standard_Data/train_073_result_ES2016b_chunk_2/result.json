@@ -1,0 +1,35 @@
+{
+  "id": "train_073_chunk_2",
+  "source_dir": "result_ES2016b",
+  "notion_output": "```json\n{\n    \"project_name\": \"스마트 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"사용자 친화적인 스마트 리모컨 개발을 통해 전자제품의 패션성과 기능성을 강화\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 인터페이스를 간단하게 설계하여 사용 편의성 향상\",\n        \"목표 2: 기업 색상과 슬로건을 반영한 디자인 구현\",\n        \"목표 3: 에너지원 및 부품의 비용 효율성 분석\"\n    ],\n    \"core_idea\": \"리모컨의 기능을 단순화하면서도 패셔너블한 디자인을 적용하여 시장 경쟁력 강화\",\n    \"idea_description\": \"리모컨의 버튼 수를 최소화하고, 기업의 색상인 회색과 노란색을 활용한 디자인을 통해 브랜드 이미지를 강화합니다. 또한, 배터리나 태양 전지와 같은 에너지원의 효율성을 검토하여 비용을 절감합니다.\",\n    \"execution_plan\": \"1단계: 사용자 인터페이스 컨셉 확정 (2024.01.01 ~ 2024.02.15)\\n2단계: 에너지원 및 부품 비용 분석 (2024.02.16 ~ 2024.03.31)\\n3단계: 디자인 시안 제작 및 검토 (2024.04.01 ~ 2024.04.30)\\n4단계: 프로토타입 제작 및 테스트 (2024.05.01 ~ 2024.05.31)\\n5단계: 최종 디자인 및 생산 준비 (2024.06.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상 및 브랜드 이미지 강화\",\n        \"기대효과 2: 비용 절감을 통한 가격 경쟁력 확보\",\n        \"기대효과 3: 혁신적인 디자인으로 시장 점유율 확대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2016b/05_final_result.json",
+    "utterance_count": 272,
+    "original_transcript_length": 9717,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 9717
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T21:18:36.798434"
+  }
+}

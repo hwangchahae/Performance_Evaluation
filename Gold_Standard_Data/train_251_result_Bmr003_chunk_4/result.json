@@ -1,0 +1,37 @@
+{
+  "id": "train_251_chunk_4",
+  "source_dir": "result_Bmr003_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"스마트 스피커 식별 및 자막 생성 시스템 개발\",\n    \"project_purpose\": \"회의 및 방송에서 자동으로 스피커를 식별하고 자막을 생성하여 기록의 정확성과 효율성을 극대화한다.\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"스티브\",\n    \"core_objectives\": [\n        \"목표 1: 스피커 변경 시 자동 식별 알고리즘 개발 및 구현\",\n        \"목표 2: 10~100시간의 음성 데이터를 활용한 도구 훈련 및 검증\",\n        \"목표 3: 스피커 마킹 및 데이터 처리 방법의 최적화\",\n        \"목표 4: 사용자 피드백을 통한 도구의 지속적 개선\"\n    ],\n    \"core_idea\": \"스피커 식별 및 자막 생성의 자동화로 회의 기록의 혁신적 개선\",\n    \"idea_description\": \"스피커가 변경될 때마다 자동으로 식별하고 자막을 생성하는 도구를 개발하여 회의 기록의 정확성과 효율성을 높인다. 이를 통해 인적 자원의 절감과 비용 효율성을 증대시킨다.\",\n    \"execution_plan\": [\n        \"1단계: 데이터 수집 및 알고리즘 개발 (2024.01.01 ~ 2024.01.31)\",\n        \"2단계: 도구 훈련 및 초기 테스트 (2024.02.01 ~ 2024.02.28)\",\n        \"3단계: 성능 검증 및 최종 개선 (2024.03.01 ~ 2024.03.31)\",\n        \"4단계: 사용자 피드백 수집 및 반영 (2024.03.15 ~ 2024.03.31)\"\n    ],\n    \"technical_approach\": [\n        \"Perl 스크립트 및 X Waves를 이용한 데이터 처리\",\n        \"STM 파일 및 XML 포맷을 활용한 데이터 정렬 및 추출\",\n        \"오디오 DVD 및 테이프를 통한 음성 데이터 수집 및 분석\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 회의 기록의 정확성 향상\",\n        \"기대효과 2: 회의 기록 작성 시간 단축\",\n        \"기대효과 3: 인적 자원 절감 및 비용 효율성 증대\",\n        \"기대효과 4: 사용자 만족도 향상 및 시장 경쟁력 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr003_processed/05_final_result.json",
+    "utterance_count": 831,
+    "original_transcript_length": 27783,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 27783
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 7,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:41:46.651637"
+  }
+}

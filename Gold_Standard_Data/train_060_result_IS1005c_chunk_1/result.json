@@ -1,0 +1,35 @@
+{
+  "id": "train_060_chunk_1",
+  "source_dir": "result_IS1005c",
+  "notion_output": "```json\n{\n    \"project_name\": \"바나나 디자인 혁신 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"사용자 편의성과 기술 혁신성을 겸비한 바나나 디자인의 새로운 리모컨 개발\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 친화적인 인터페이스 디자인\",\n        \"목표 2: TFT 및 적외선 기술을 활용한 리모컨 개발\",\n        \"목표 3: 에너지 효율성을 고려한 전원 회로 설계\",\n        \"목표 4: 바나나 모양의 혁신적 디자인 구현\",\n        \"목표 5: 사용자 요구에 맞춘 리모컨 기능 최적화\"\n    ],\n    \"core_idea\": \"사용자 경험을 극대화하는 바나나 디자인의 혁신적 리모컨\",\n    \"idea_description\": \"TFT 스크린과 적외선 기술을 결합하여 사용이 간편하고 혁신적인 리모컨을 개발하며, 바나나 모양의 디자인을 통해 창의성을 더하고, 에너지 절약 기능을 추가하여 사용자 편의성을 높입니다.\",\n    \"execution_plan\": \"1단계: 사용자 요구사항 분석 및 바나나 디자인 컨셉 확립 (2023.11.01 ~ 2023.11.15)\\n2단계: 기술 설계 및 바나나 모양 프로토타입 개발 (2023.11.16 ~ 2023.12.15)\\n3단계: 프로토타입 테스트 및 피드백 수집 (2023.12.16 ~ 2024.01.15)\\n4단계: 최종 제품 개발 및 출시 준비 (2024.01.16 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 증가로 인한 시장 점유율 확대\",\n        \"기대효과 2: 혁신적 기술 도입으로 브랜드 이미지 강화\",\n        \"기대효과 3: 에너지 절약 기능으로 환경 친화적 제품 이미지 구축\",\n        \"기대효과 4: 독특한 바나나 디자인으로 인한 제품 차별화\"\n    ],\n    \"technical_details\": [\n        \"TFT 스크린 크기: 최소 7인치\",\n        \"적외선 기술을 통한 원거리 제어\",\n        \"바나나 모양의 외관 디자인\",\n        \"에너지 효율성을 위한 태양 전지 옵션\",\n        \"사용자 인터페이스에 숨겨진 버튼 기능 포함\",\n        \"스펀지 같은 부드러운 외관과 단단한 내부 구조\",\n        \"리모컨의 무게와 크기를 최적화하여 사용자 편의성 강화\"\n    ],\n    \"additional_considerations\": [\n        \"회의에서 논의된 바나나 디자인의 창의적 요소 반영\",\n        \"리모컨의 기술 혁신성과 사용 편의성의 균형 유지\",\n        \"패션 트렌드와의 연계를 통한 디자인 차별화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1005c/05_final_result.json",
+    "utterance_count": 204,
+    "original_transcript_length": 7241,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 7241
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4965
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T20:50:51.847713"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "train_233_chunk_1",
+  "source_dir": "result_IS1008c",
+  "notion_output": "```json\n{\n    \"project_name\": \"차세대 사용자 맞춤형 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"사용자 맞춤형 리모컨 개발을 통해 시장 경쟁력을 강화하고, 소비자 만족도를 높인다.\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 맞춤형 리모컨의 개념 설계 및 기능적 디자인 확립\",\n        \"목표 2: 나무 재질을 활용한 친환경 디자인 개발\",\n        \"목표 3: 마케팅 전략 수립 및 실행을 통해 판매 증가\"\n    ],\n    \"core_idea\": \"사용자 맞춤형 디자인과 친환경 소재를 결합한 리모컨 개발\",\n    \"idea_description\": \"사용자의 손 크기에 맞춘 인체공학적 디자인과 나무 재질을 사용하여 내구성을 높이고, 사용자 경험을 개선한다. 또한, 다양한 기능을 제공하여 사용자 편의성을 극대화한다.\",\n    \"execution_plan\": \"1단계: 개념 설계 및 기능적 디자인 확립 (2024.01.01 ~ 2024.02.28)\\n2단계: 나무 재질 및 부품 선정 (2024.03.01 ~ 2024.03.31)\\n3단계: 프로토타입 제작 및 테스트 (2024.04.01 ~ 2024.04.30)\\n4단계: 마케팅 전략 수립 및 실행 (2024.05.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 맞춤형 리모컨을 통한 소비자 만족도 향상\",\n        \"기대효과 2: 친환경 소재 사용으로 브랜드 이미지 개선\",\n        \"기대효과 3: 마케팅 전략을 통한 판매량 증가 및 시장 점유율 확대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1008c/05_final_result.json",
+    "utterance_count": 131,
+    "original_transcript_length": 5294,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 5294
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4972
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T07:01:20.984872"
+  }
+}

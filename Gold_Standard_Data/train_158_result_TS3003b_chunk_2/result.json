@@ -1,0 +1,35 @@
+{
+  "id": "train_158_chunk_2",
+  "source_dir": "result_TS3003b",
+  "notion_output": "```json\n{\n    \"project_name\": \"차세대 TV 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"젊은층과 노인층 모두를 타겟으로 하는 혁신적인 TV 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 젊은층을 겨냥한 신제품 디자인 개발\",\n        \"목표 2: 기업 이미지를 반영한 제품 기능 구현\",\n        \"목표 3: 텔레텍스트 기능 포함 여부 결정 및 구현\"\n    ],\n    \"core_idea\": \"다양한 연령층을 위한 사용자 친화적 TV 리모컨\",\n    \"idea_description\": \"젊은층을 겨냥한 디자인과 노인층을 위한 기능성을 겸비한 TV 리모컨을 개발하여 시장 경쟁력을 확보\",\n    \"execution_plan\": \"1. 시장 조사 및 요구사항 분석 (2024.01.01 ~ 2024.02.15)\\n2. 디자인 및 기능 설계 (2024.02.16 ~ 2024.03.31)\\n3. 프로토타입 개발 및 테스트 (2024.04.01 ~ 2024.05.15)\\n4. 최종 제품 개발 및 출시 준비 (2024.05.16 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 젊은층과 노인층 모두를 만족시키는 제품으로 시장 점유율 확대\",\n        \"기대효과 2: 기업 이미지 강화 및 브랜드 가치 상승\",\n        \"기대효과 3: 사용자 피드백을 통한 제품 개선 및 혁신 지속\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3003b/05_final_result.json",
+    "utterance_count": 259,
+    "original_transcript_length": 9418,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 9418
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 4959
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:09:53.288642"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "train_105_chunk_1",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 문화체육관광위원회(전체회의) (2025.07.22.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"국무위원후보자 인사청문회 준비 프로젝트\",\n    \"project_purpose\": \"문화체육관광부장관 후보자 인사청문회의 원활한 진행과 자료 제출 관리\",\n    \"project_period\": \"2023.07.16 ~ 2023.07.29\",\n    \"project_manager\": \"위원장 김교흥\",\n    \"core_objectives\": [\n        \"목표 1: 인사청문회 실시계획서 채택 및 일정 확정\",\n        \"목표 2: 자료 제출 요구 및 수집 관리\",\n        \"목표 3: 청문회 증인 및 참고인 출석 여부 결정\"\n    ],\n    \"core_idea\": \"인사청문회의 철저한 준비와 진행을 통해 후보자의 자질과 능력을 검증\",\n    \"idea_description\": \"문화체육관광부장관 후보자에 대한 인사청문회를 통해 후보자의 자질과 능력을 검증하고, 국민의 신뢰를 얻기 위한 철저한 준비와 자료 수집을 목표로 한다.\",\n    \"execution_plan\": \"1. 7월 16일: 인사청문회 실시계획서 채택\\n2. 7월 23일: 서면질의서 제출 마감\\n3. 7월 26일: 자료 제출 마감\\n4. 7월 28일: 구두질의 요지서 제출 마감\\n5. 7월 29일: 인사청문회 개최\",\n    \"expected_effects\": [\n        \"기대효과 1: 후보자의 자질과 능력에 대한 철저한 검증\",\n        \"기대효과 2: 국민의 신뢰를 얻는 투명한 청문회 진행\",\n        \"기대효과 3: 청문회 준비 과정에서의 원활한 자료 수집 및 관리\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제1차 문화체육관광위원회(전체회의) (2025.07.22.)/05_final_result.json",
+    "utterance_count": 75,
+    "original_transcript_length": 5872,
+    "speakers": [
+      "박정하 위원",
+      "김승수 위원",
+      "진종오 위원",
+      "위원장 김교흥",
+      "김윤덕 위원",
+      "박수현 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 5872
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4949
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T00:48:57.585082"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "result_Bmr006_processed_chunk_6",
+  "source_dir": "result_Bmr006_processed",
+  "notion_output": {
+    "project_name": "회의 녹화 및 자동 세그먼터 활용 프로젝트",
+    "project_purpose": "회의 녹화 데이터를 효율적으로 관리하고, 자동 세그먼터를 활용하여 데이터를 분석 및 활용함으로써 회의의 생산성을 극대화하고, 데이터 처리의 효율성을 높인다.",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_F",
+    "core_objectives": [
+      "목표 1: 회의 녹화 데이터를 효율적으로 저장하고 관리하기 위한 시스템 구축",
+      "목표 2: 자동 세그먼터를 활용하여 회의 녹화 데이터를 분석하고, 중요한 정보를 추출한다.",
+      "목표 3: 회의 녹화 데이터를 활용하여 회의의 생산성을 증진시키고, 데이터 처리의 효율성을 높인다."
+    ],
+    "core_idea": "회의 녹화 데이터를 효율적으로 관리하고, 자동 세그먼터를 활용하여 데이터를 분석 및 활용함으로써 회의의 생산성을 극대화하고, 데이터 처리의 효율성을 높인다.",
+    "idea_description": "회의 녹화 데이터를 효율적으로 저장하고 관리하기 위해 디스크 공간을 확보하며, 자동 세그먼터를 활용하여 데이터를 분석하고 중요한 정보를 추출한다. 또한, 회의 녹화 데이터를 활용하여 회의의 생산성을 증진시키고, 데이터 처리의 효율성을 높인다.",
+    "execution_plan": "1단계: 회의 녹화 데이터 수집 및 저장 시스템 구축 (2024.01.01 ~ 2024.02.28)\n2단계: 자동 세그먼터를 활용한 데이터 분석 및 중요 정보 추출 (2024.03.01 ~ 2024.04.30)\n3단계: 회의 녹화 데이터를 활용한 회의 생산성 증진 및 데이터 처리 효율성 향상 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 회의 녹화 데이터의 효율적인 저장 및 관리로 인한 데이터 손실 최소화",
+      "기대효과 2: 자동 세그먼터를 활용한 데이터 분석으로 인한 회의의 생산성 증진",
+      "기대효과 3: 회의 녹화 데이터를 활용한 데이터 처리 효율성 향상으로 인한 비용 절감"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr006_processed/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_E"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 6,
+    "processing_date": "2025-08-07T02:56:44.653413"
+  }
+}

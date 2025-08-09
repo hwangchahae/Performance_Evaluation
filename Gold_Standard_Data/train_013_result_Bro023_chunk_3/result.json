@@ -1,0 +1,36 @@
+{
+  "id": "train_013_chunk_3",
+  "source_dir": "result_Bro023_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"노이즈 최소화 및 스펙트럼 필터링 개선 프로젝트\",\n    \"project_purpose\": \"노이즈가 많은 전력 스펙트럼에서 깨끗한 신호를 추정하고 필터링 기법을 개선하여 신호 품질을 향상시키는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"스테판\",\n    \"core_objectives\": [\n        \"목표 1: 노이즈가 있는 전력 스펙트럼에서 SF 추정치를 정확히 계산\",\n        \"목표 2: 위너 필터를 통한 신호 오차 최소화\",\n        \"목표 3: 다양한 평활화 기법을 적용하여 필터의 성능 개선\"\n    ],\n    \"core_idea\": \"노이즈가 많은 환경에서 신호를 보다 정확하게 추정하기 위한 필터링 및 평활화 기법의 개선\",\n    \"idea_description\": \"노이즈가 있는 전력 스펙트럼에서 SF를 추정하고, 위너 필터를 통해 신호 오차를 최소화하며, 시간 및 주파수 영역에서의 평활화 기법을 적용하여 필터의 성능을 개선합니다.\",\n    \"execution_plan\": \"1단계: 초기 노이즈 부분에서 NF 추정 및 SF 추정치 계산 (2024.01.01 ~ 2024.01.31)\\n2단계: 위너 필터 적용 및 신호 오차 최소화 실험 (2024.02.01 ~ 2024.02.28)\\n3단계: 시간 및 주파수 영역에서의 평활화 기법 적용 및 성능 평가 (2024.03.01 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 신호 품질 향상으로 인한 데이터 처리 정확도 증가\",\n        \"기대효과 2: 다양한 환경에서의 필터링 기법 적용 가능성 확대\",\n        \"기대효과 3: 노이즈 감소로 인한 사용자 경험 개선\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bro023_processed/05_final_result.json",
+    "utterance_count": 580,
+    "original_transcript_length": 21680,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 21680
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T17:14:48.496660"
+  }
+}

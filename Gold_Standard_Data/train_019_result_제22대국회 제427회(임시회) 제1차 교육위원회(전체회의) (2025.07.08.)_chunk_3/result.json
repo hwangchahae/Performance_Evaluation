@@ -1,0 +1,40 @@
+{
+  "id": "train_019_chunk_3",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 교육위원회(전체회의) (2025.07.08.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"교육법 개정 및 통합 조정 프로젝트\",\n    \"project_purpose\": \"교육 관련 법률의 개정 및 통합을 통해 교육 환경 개선과 법률 체계의 효율성을 증대시키는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"김영호 위원장\",\n    \"core_objectives\": [\n        \"목표 1: 지방교육재정교부금법 일부개정법률안의 통합 조정 및 위원회안 제안\",\n        \"목표 2: 초·중등교육법 일부개정법률안의 통합 조정 및 위원회안 제안\",\n        \"목표 3: 고등교육법 일부개정법률안의 수정 의결\",\n        \"목표 4: 교육환경 보호에 관한 법률 일부개정법률안의 통합 조정 및 위원회안 제안\",\n        \"목표 5: 사립학교법 일부개정법률안의 통합 조정 및 위원회안 제안\"\n    ],\n    \"core_idea\": \"교육 관련 법률의 효율적 개정 및 통합을 통해 교육 제도의 체계적 개선을 도모\",\n    \"idea_description\": \"교육부 및 관련 위원회와의 협의를 통해 법률 개정안을 통합 조정하고, 본회의에서의 원활한 통과를 목표로 함\",\n    \"execution_plan\": \"1단계: 소위원회 심사 결과 반영 및 통합 조정 (2024.01.01 ~ 2024.01.31)\\n2단계: 위원회안 제안 및 본회의 제출 준비 (2024.02.01 ~ 2024.02.28)\\n3단계: 본회의 통과 및 하위법령 정비 (2024.03.01 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 교육 관련 법률의 체계적 정비로 인한 행정 효율성 증대\",\n        \"기대효과 2: 교육 환경 개선을 통한 교육의 질 향상\",\n        \"기대효과 3: 법률 개정 과정을 통한 정부 및 교육부의 협력 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제1차 교육위원회(전체회의) (2025.07.08.)/05_final_result.json",
+    "utterance_count": 183,
+    "original_transcript_length": 11073,
+    "speakers": [
+      "소위원장 문정복",
+      "조정훈 위원",
+      "김대식 위원",
+      "위원장 김영호",
+      "김준혁 위원",
+      "문정복 위원",
+      "서지영 위원",
+      "교육부차관 오석환",
+      "고민정 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 11073
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 3,
+      "chunk_length": 2117
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T17:43:52.634235"
+  }
+}

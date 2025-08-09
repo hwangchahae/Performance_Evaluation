@@ -1,0 +1,39 @@
+{
+  "id": "train_100_chunk_5",
+  "source_dir": "result_Buw001_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"회의 요약 및 질의 생성 프로젝트\",\n    \"project_purpose\": \"회의 내용을 효과적으로 요약하고, 추가 질의를 생성하여 회의의 생산성을 높이는 것\",\n    \"project_period\": \"2023.11.01 ~ 2023.12.31\",\n    \"project_manager\": \"랜데이\",\n    \"core_objectives\": [\n        \"목표 1: 회의 내용을 체계적으로 요약하여 문서화\",\n        \"목표 2: 회의에서 다루지 않은 추가 질의 생성\",\n        \"목표 3: 회의록과 요약본을 통해 회의 후속 작업 지원\"\n    ],\n    \"core_idea\": \"회의 내용을 요약하고 추가 질의를 생성하여 회의의 생산성을 극대화\",\n    \"idea_description\": \"회의에서 논의된 내용을 바탕으로 요약본을 작성하고, 추가 질의를 통해 회의의 이해도를 높이며, 후속 작업을 위한 기반을 마련\",\n    \"execution_plan\": \"1. 회의 내용 수집 및 요약 (2023.11.01 ~ 2023.11.15)\\n2. 추가 질의 생성 및 검토 (2023.11.16 ~ 2023.11.30)\\n3. 요약본 및 질의 문서화 (2023.12.01 ~ 2023.12.15)\\n4. 최종 검토 및 배포 (2023.12.16 ~ 2023.12.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 회의 내용의 명확한 이해와 기록을 통해 후속 작업의 효율성 증가\",\n        \"기대효과 2: 추가 질의를 통해 회의에서 다루지 않은 부분에 대한 심층적 이해 제공\",\n        \"기대효과 3: 회의록과 요약본을 통한 정보 공유로 팀 내 커뮤니케이션 개선\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Buw001_processed/05_final_result.json",
+    "utterance_count": 823,
+    "original_transcript_length": 28612,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 28612
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 7,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T00:29:27.013004"
+  }
+}

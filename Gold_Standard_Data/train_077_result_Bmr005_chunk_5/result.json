@@ -1,0 +1,39 @@
+{
+  "id": "train_077_chunk_5",
+  "source_dir": "result_Bmr005_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"회의 음향 최적화 및 기록 정확성 향상 프로젝트\",\n    \"project_purpose\": \"회의 중 발생하는 에코와 원거리장 효과를 제거하고, 회의 기록의 정확성을 높여 업무 효율을 증대시키기 위함\",\n    \"project_period\": \"2023.11.01 ~ 2024.02.28\",\n    \"project_manager\": \"Speaker_E\",\n    \"core_objectives\": [\n        \"목표 1: 에코 및 원거리장 효과 제거를 위한 필터링 시스템 개발\",\n        \"목표 2: 회의 기록의 정확성을 높이기 위한 다중 스트림 접근법 및 교차 상관 필터 구현\",\n        \"목표 3: 회의 기록의 쿼리 기능 강화 및 숫자 표기 자동화 스크립트 개발\"\n    ],\n    \"core_idea\": \"음향 최적화와 기록 정확성을 동시에 개선하여 회의의 질을 높인다\",\n    \"idea_description\": \"에코 및 원거리장 효과를 제거하기 위한 필터링 시스템을 개발하고, 다중 스트림 접근법과 교차 상관 필터를 통해 회의 기록의 정확성을 높이며, 쿼리 기능과 숫자 표기 자동화 스크립트를 강화하여 회의 기록의 활용도를 높인다.\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"1단계\",\n            \"description\": \"에코 및 원거리장 효과 제거 필터링 시스템 개발\",\n            \"timeline\": \"2023.11.01 ~ 2023.11.30\",\n            \"tasks\": [\n                \"에코 제거 필터링 시스템의 기본 설계\",\n                \"원거리장 효과 분석 및 제거 방법론 개발\",\n                \"필터링 시스템의 초기 테스트 및 피드백 수집\",\n                \"에코 제거를 위한 중간값 필터 및 에너지 감지기 구현\"\n            ]\n        },\n        {\n            \"phase\": \"2단계\",\n            \"description\": \"다중 스트림 접근법 및 교차 상관 필터 구현\",\n            \"timeline\": \"2023.12.01 ~ 2023.12.31\",\n            \"tasks\": [\n                \"다중 스트림 접근법 설계 및 개발\",\n                \"교차 상관 필터의 구현 및 테스트\",\n                \"시스템 통합 및 성능 개선\",\n                \"필터링 시스템의 성능 평가 및 개선\"\n            ]\n        },\n        {\n            \"phase\": \"3단계\",\n            \"description\": \"회의 기록 쿼리 기능 강화 및 숫자 표기 자동화 스크립트 개발\",\n            \"timeline\": \"2024.01.01 ~ 2024.02.28\",\n            \"tasks\": [\n                \"쿼리 기능 강화 및 사용자 인터페이스 개선\",\n                \"숫자 표기 자동화 스크립트 개발 및 테스트\",\n                \"최종 시스템 통합 및 사용자 교육\",\n                \"회의 기록기 쿼리 기능의 실제 적용 및 피드백 수집\"\n            ]\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 회의 중 에코 및 원거리장 효과로 인한 불편 감소\",\n        \"기대효과 2: 회의 기록의 정확성 향상으로 인한 업무 효율 증가\",\n        \"기대효과 3: 쿼리 기능 및 숫자 표기 자동화로 회의 기록 활용도 증대\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.6,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr005_processed/05_final_result.json",
+    "utterance_count": 682,
+    "original_transcript_length": 25021,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 25021
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T21:38:20.442777"
+  }
+}

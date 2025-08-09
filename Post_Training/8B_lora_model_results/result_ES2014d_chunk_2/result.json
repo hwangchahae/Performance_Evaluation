@@ -1,0 +1,41 @@
+{
+  "id": "result_ES2014d_chunk_2",
+  "source_dir": "result_ES2014d",
+  "notion_output": {
+    "project_name": "버튼 디자인 및 생산 개선 프로젝트",
+    "project_purpose": "버튼 디자인의 효율성을 높이고, 다양한 소재와 색상을 활용하여 시장 경쟁력을 강화하며, 고객 만족도를 증진시키는 것을 목표로 합니다.",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 버튼 디자인의 효율성을 20% 이상 향상시키기",
+      "목표 2: 고무 케이스 제거 후 버튼의 사용 편의성을 유지하기",
+      "목표 3: 다양한 색상과 소재를 활용하여 제품의 시장 경쟁력을 강화하기"
+    ],
+    "core_idea": "버튼 디자인을 개선하고, 다양한 소재와 색상을 활용하여 사용자 경험을 향상시키며, 생산 비용을 절감합니다.",
+    "idea_description": "현재 버튼 디자인은 고무 케이스를 제거하면서도 사용 편의성을 유지하도록 설계되었습니다. 또한, 다양한 색상과 소재를 활용하여 제품의 시장 경쟁력을 강화하고, 사용자의 선택권을 넓혀줍니다. 특히, 특별한 형태의 버튼을 도입하여 독창성을 강조합니다.",
+    "execution_plan": "1단계: 디자인 검토 및 수정 (2025.01.01 ~ 2025.01.15)\n2단계: 색상 및 소재 선정 (2025.01.16 ~ 2025.01.31)\n3단계: 샘플 제작 및 테스트 (2025.02.01 ~ 2025.02.15)\n4단계: 생산 준비 및 출시 (2025.02.16 ~ 2025.03.31)",
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 15% 증가",
+      "기대효과 2: 시장 점유율 10% 증가",
+      "기대효과 3: 생산 비용 10% 절감"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_ES2014d/05_final_result.json",
+    "utterance_count": 317,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "original_length": 10631,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-07T02:50:41.307898"
+  }
+}

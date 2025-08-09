@@ -1,0 +1,52 @@
+{
+  "id": "train_142_chunk_17",
+  "source_dir": "result_제22대국회 제427회(임시회) 제2차 국방위원회(전체회의) (2025.07.15.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"국방부 장관 후보자 업무 추진 계획\",\n    \"project_purpose\": \"국방부 장관 후보자의 주요 정책 및 업무 계획 수립\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"안규백 국방부 장관 후보자\",\n    \"core_objectives\": [\n        \"목표 1: 전작권 전환 관련 투명한 보고 및 설명 과정 마련\",\n        \"목표 2: 대구경북통합신공항 프로젝트의 성공적 추진\",\n        \"목표 3: 장병 입영제도 선택형 모병제 설계 및 준비\"\n    ],\n    \"core_idea\": \"국방부 장관 후보자의 정책 및 업무 추진을 위한 체계적 계획 수립\",\n    \"idea_description\": \"국방부 장관 후보자가 제시한 주요 정책 및 업무 계획을 기반으로 실행 가능한 단계별 추진 계획을 수립하여 국방부의 효율적 운영을 도모합니다.\",\n    \"execution_plan\": \"단계별로 전작권 전환 로드맵 마련, 대구경북통합신공항 TF 구성 및 추진, 선택형 모병제 설계 및 준비를 진행합니다.\",\n    \"expected_effects\": [\n        \"기대효과 1: 전작권 전환 과정의 투명성 제고 및 국회와의 원활한 소통\",\n        \"기대효과 2: 대구경북통합신공항 프로젝트의 성공적 추진을 통한 지역 발전\",\n        \"기대효과 3: 장병 입영제도 개선을 통한 군 인력의 효율적 관리\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제2차 국방위원회(전체회의) (2025.07.15.)/05_final_result.json",
+    "utterance_count": 1696,
+    "original_transcript_length": 94237,
+    "speakers": [
+      "황희 위원",
+      "위원장 성일종",
+      "강대식 위원",
+      "정부측 및",
+      "추미애 위원",
+      "김병주 위원",
+      "출석 전문위원\n수석전문위원",
+      "출석 위원\n강대식",
+      "행정입법 제출\n구분",
+      "임종득 위원",
+      "황명선 위원",
+      "윤상현 위원",
+      "박선원 위원",
+      "김병기 위원",
+      "부승찬 위원",
+      "강선영 위원",
+      "한기호 위원",
+      "국방부장관후보자 안규백",
+      "관련의안 회부\n미래조선업의",
+      "정청래 위원",
+      "백선희 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 21,
+      "original_length": 94237
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 17,
+      "total_chunks": 21,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:27:11.051713"
+  }
+}

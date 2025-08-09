@@ -1,0 +1,35 @@
+{
+  "id": "train_252_chunk_2",
+  "source_dir": "result_IS1003d",
+  "notion_output": "```json\n{\n    \"project_name\": \"태양열 기반 스마트 리모컨 개발 및 상용화 프로젝트\",\n    \"project_purpose\": \"친환경 에너지를 활용하여 사용자 편의성을 극대화한 스마트 리모컨을 개발하고 상용화하여 시장 점유율을 확대\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 태양열 전지 및 샘플 센서를 활용한 스마트 리모컨 프로토타입 개발\",\n        \"목표 2: 사용자 친화적인 인터페이스 및 색상 디자인 구현\",\n        \"목표 3: 비용 효율적인 생산 및 마케팅 전략 수립\"\n    ],\n    \"core_idea\": \"태양열 전지를 활용하여 에너지 절약과 사용자 경험을 개선한 스마트 리모컨\",\n    \"idea_description\": \"기존 배터리 기반 리모컨을 대체할 수 있는 태양열 전지 및 샘플 센서 기반의 리모컨을 개발하여, 에너지 절약과 환경 보호를 동시에 실현하며, 사용자 편의성을 높임\",\n    \"execution_plan\": \"1단계: 기술 검토 및 프로토타입 설계 (2024.01.01 ~ 2024.02.28)\\n2단계: 프로토타입 제작 및 테스트 (2024.03.01 ~ 2024.04.30)\\n3단계: 사용자 피드백 수집 및 디자인 개선 (2024.05.01 ~ 2024.05.31)\\n4단계: 최종 제품 생산 및 마케팅 준비 (2024.06.01 ~ 2024.06.30)\",\n    \"technical_details\": {\n        \"sensor_and_chip\": \"샘플 센서를 일반 칩으로 교체하여 전자 장치의 효율성을 높임. 이중 곡선 디자인을 통해 사용자 경험을 향상시킴\",\n        \"interface_design\": \"사용자 편의성을 고려하여 푸시 버튼이 달린 스크롤 휠과 같은 직관적인 인터페이스 제공. 켜짐/꺼짐 기능과 채널 변경을 쉽게 할 수 있도록 설계\",\n        \"color_scheme\": \"빨간색, 노란색, 검은색을 활용한 사용자 맞춤형 색상 옵션 제공. 노란색과 검은색은 일반적인 색상으로 선택하여 사용자의 다양한 취향을 반영\"\n    },\n    \"feedback_and_improvement\": {\n        \"methodology\": \"사용자 테스트를 통해 인터페이스 및 디자인 피드백을 수집하고, 이를 반영하여 최종 디자인을 개선\",\n        \"specific_methods\": \"설문조사 및 사용자 인터뷰를 통해 피드백 수집. 특히 리모컨의 외관과 사용 편의성에 대한 피드백을 중점적으로 수집\"\n    },\n    \"expected_effects\": [\n        \"기대효과 1: 에너지 절약을 통한 환경 보호 기여\",\n        \"기대효과 2: 사용자 경험 개선으로 인한 시장 점유율 확대\",\n        \"기대효과 3: 비용 절감 및 제품 차별화를 통한 경쟁력 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1003d/05_final_result.json",
+    "utterance_count": 363,
+    "original_transcript_length": 11115,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 11115
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:45:28.186471"
+  }
+}

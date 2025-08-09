@@ -1,0 +1,39 @@
+{
+  "id": "train_113_chunk_2",
+  "source_dir": "result_Bmr011_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"다채널 데이터 저장 및 분석 최적화 프로젝트 with NIST/LDC 협업\",\n    \"project_purpose\": \"다채널 데이터를 효율적으로 저장하고 분석하여 연구 비용을 절감하고 유연성을 극대화하며, NIST나 LDC와의 협업을 통해 데이터 활용을 극대화하는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_E\",\n    \"core_objectives\": [\n        \"목표 1: 다채널 데이터 저장 방식 개선 및 공간 절약\",\n        \"목표 2: 빔 형성 결과의 효율적 저장 및 분석\",\n        \"목표 3: 데이터 세트의 최적화 및 활용 방안 개발\",\n        \"목표 4: NIST/LDC와의 협업을 통한 데이터 활용 극대화\",\n        \"목표 5: 회의 녹화와 관련된 인프라 문제 해결 및 윤리적 고려\"\n    ],\n    \"core_idea\": \"다채널 데이터를 효율적으로 저장하고 분석하여 연구 비용을 절감하고 유연성을 극대화하는 시스템을 개발하며, NIST나 LDC와의 협업을 통해 데이터 활용을 극대화\",\n    \"idea_description\": \"다채널 데이터를 저장할 때 공간을 절약하고, 빔 형성 결과를 효율적으로 저장하여 분석에 활용할 수 있는 시스템을 개발합니다. 이를 통해 연구 비용을 절감하고, 데이터 분석의 유연성을 높입니다. 또한, NIST나 LDC와의 협업을 통해 데이터 활용을 극대화합니다.\",\n    \"execution_plan\": [\n        \"1단계: 현재 데이터 저장 방식 분석 및 문제점 파악 (2024.01.01 ~ 2024.02.28)\",\n        \"2단계: 새로운 데이터 저장 및 분석 시스템 설계 (2024.03.01 ~ 2024.04.30)\",\n        \"3단계: NIST/LDC와의 협업 방안 모색 및 협의 (2024.03.01 ~ 2024.04.30)\",\n        \"4단계: 시스템 개발 및 테스트 (2024.05.01 ~ 2024.06.15)\",\n        \"5단계: 최종 검토 및 시스템 배포 (2024.06.16 ~ 2024.06.30)\",\n        \"6단계: 회의 녹화 인프라 문제 해결 및 윤리적 고려 사항 반영 (2024.01.01 ~ 2024.06.30)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 데이터 저장 공간 절약으로 인한 비용 절감\",\n        \"기대효과 2: 빔 형성 결과의 효율적 분석을 통한 연구 성과 향상\",\n        \"기대효과 3: 데이터 분석의 유연성 증가로 인한 다양한 연구 가능성 확대\",\n        \"기대효과 4: NIST/LDC와의 협업을 통한 데이터 활용 극대화\",\n        \"기대효과 5: 회의 녹화 및 데이터 수집 품질 향상\"\n    ],\n    \"additional_considerations\": [\n        \"회의 녹화와 관련된 인프라 문제 해결 필요\",\n        \"인간 주체의 문제와 비디오 촬영에 대한 윤리적 고려 필요\",\n        \"고품질의 근거리 통신 마이크 장착을 통한 데이터 수집 품질 향상\",\n        \"NIST나 LDC와의 협업 가능성 및 구체적 협업 방안 마련\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr011_processed/05_final_result.json",
+    "utterance_count": 657,
+    "original_transcript_length": 23106,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 23106
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:01:19.607104"
+  }
+}

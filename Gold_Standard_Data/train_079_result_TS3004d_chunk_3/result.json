@@ -1,0 +1,35 @@
+{
+  "id": "train_079_chunk_3",
+  "source_dir": "result_TS3004d",
+  "notion_output": "```json\n{\n    \"project_name\": \"고급 칩 프로토타입 개발 및 사용성 평가\",\n    \"project_purpose\": \"고급 칩의 프로토타입을 개발하고, 사용성 및 외관을 평가하여 시장 경쟁력을 강화\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 고급 칩의 프로토타입을 제작하여 초기 평가 진행\",\n        \"목표 2: 사용성 기준을 설정하고 이에 따른 평가 실시\",\n        \"목표 3: 사용자 피드백을 수집하고 이를 반영하여 제품 개선\",\n        \"목표 4: 회의에서 논의된 경고 사항 및 의견을 반영하여 프로젝트 진행\"\n    ],\n    \"core_idea\": \"고급 칩의 프로토타입을 통해 사용성과 외관을 평가하고, 사용자 피드백과 회의에서 논의된 경고 사항을 반영하여 제품을 개선함으로써 시장 요구에 부합하는 제품을 개발\",\n    \"idea_description\": \"고급 칩의 프로토타입을 제작하여 사용성과 외관을 평가하고, 사용자 피드백과 회의에서 논의된 다양한 의견을 반영하여 제품을 개선하여 시장 경쟁력을 강화한다.\",\n    \"execution_plan\": \"1단계: 프로토타입 제작 및 초기 평가 (2023.11.01 ~ 2023.11.15)\\n2단계: 사용성 기준 설정 및 평가 (2023.11.16 ~ 2023.12.15)\\n3단계: 사용자 피드백 수집 및 분석 (2023.12.16 ~ 2023.12.31)\\n4단계: 제품 개선 및 최종 검토 (2024.01.01 ~ 2024.01.31)\\n5단계: 회의에서 논의된 경고 사항 및 의견 반영 (2023.11.01 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 피드백을 통한 제품 개선으로 고객 만족도 향상\",\n        \"기대효과 2: 시장 요구에 맞춘 제품 개발로 경쟁력 강화\",\n        \"기대효과 3: 사용성 평가를 통한 제품의 품질 및 기능성 향상\",\n        \"기대효과 4: 회의에서 논의된 경고 사항을 반영하여 프로젝트의 안정성 및 신뢰성 강화\"\n    ],\n    \"additional_notes\": \"회의록에서 언급된 '고급 칩'과 관련된 논의는 주로 프로토타입 평가와 사용성 기준 설정에 집중되었으며, 프로젝트 매니저는 Speaker_A로 명확히 지정됨. 회의 중 언급된 경고와 의견들은 프로젝트 진행 시 주의사항으로 반영됨. 특히, 경고와 의견을 반영하여 프로젝트의 안정성을 강화하는 것이 중요함.\"\n}\n```",
+  "quality_metrics": {
+    "final_score": 5.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3004d/05_final_result.json",
+    "utterance_count": 363,
+    "original_transcript_length": 10945,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 10945
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 3,
+      "chunk_length": 1981
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T21:43:53.947065"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "train_059_chunk_5",
+  "source_dir": "result_Bmr015_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"자동 호흡 감지 및 전사 시스템 개발\",\n    \"project_purpose\": \"회의 중 호흡 및 중복 영역을 자동으로 감지하고 전사하여 효율성을 높이는 시스템 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 호흡 감지기를 개발하여 회의 중 호흡을 자동으로 인식\",\n        \"목표 2: 중복 영역을 분석하여 전사 정확도 향상\",\n        \"목표 3: 자동 전사 시스템을 통해 시간 절약 및 효율성 증대\"\n    ],\n    \"core_idea\": \"호흡 감지 및 중복 영역 분석을 통한 자동 전사 시스템\",\n    \"idea_description\": \"회의 중 발생하는 호흡 및 중복 영역을 자동으로 감지하여 전사 시스템의 정확도를 높이고, 이를 통해 회의 후 전사에 소요되는 시간을 절감하는 기술적 솔루션\",\n    \"execution_plan\": \"1단계: 호흡 감지 알고리즘 개발 (2024.01.01 ~ 2024.02.28)\\n2단계: 중복 영역 분석 시스템 구축 (2024.03.01 ~ 2024.04.30)\\n3단계: 자동 전사 시스템 통합 및 테스트 (2024.05.01 ~ 2024.06.15)\\n4단계: 시스템 최적화 및 배포 (2024.06.16 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 전사 시간 30% 절감\",\n        \"기대효과 2: 전사 정확도 95% 이상 달성\",\n        \"기대효과 3: 회의 후속 작업의 효율성 증대 및 인력 비용 절감\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr015_processed/05_final_result.json",
+    "utterance_count": 676,
+    "original_transcript_length": 22956,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 22956
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T20:49:05.485243"
+  }
+}

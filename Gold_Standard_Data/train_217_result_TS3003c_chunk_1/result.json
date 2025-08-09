@@ -1,0 +1,35 @@
+{
+  "id": "train_217_chunk_1",
+  "source_dir": "result_TS3003c",
+  "notion_output": "```json\n{\n    \"project_name\": \"노년층을 위한 혁신적인 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"노년층 사용자를 위한 사용이 편리한 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 노년층 사용자를 위한 직관적인 리모컨 디자인 개발\",\n        \"목표 2: 도킹 스테이션과 호환 가능한 리모컨 기능 구현\",\n        \"목표 3: 비용 효율적인 배터리 및 충전 솔루션 제공\"\n    ],\n    \"core_idea\": \"노년층의 사용 편의성을 고려한 리모컨 디자인 및 기능 개선\",\n    \"idea_description\": \"리모컨을 도킹 스테이션에 쉽게 놓을 수 있는 디자인과, 전화기 모양의 직관적 형태를 채택하여 노년층의 사용 편의성을 높입니다. 또한, LCD 화면을 추가하여 사용성을 향상시키고, 일반 배터리와 운동 에너지를 활용한 충전 솔루션을 제공합니다.\",\n    \"execution_plan\": \"1단계: 리모컨 디자인 및 기능 요구사항 수집 (2024.01.01 ~ 2024.02.15)\\n2단계: 프로토타입 개발 및 테스트 (2024.02.16 ~ 2024.04.30)\\n3단계: 최종 디자인 확정 및 생산 준비 (2024.05.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 노년층 사용자의 리모컨 사용 편의성 증가\",\n        \"기대효과 2: 시장에서의 경쟁력 강화 및 매출 증가\",\n        \"기대효과 3: 비용 효율적인 제품 개발로 인한 제조 비용 절감\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3003c/05_final_result.json",
+    "utterance_count": 246,
+    "original_transcript_length": 8514,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8514
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4998
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:28:04.251506"
+  }
+}

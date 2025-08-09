@@ -1,0 +1,50 @@
+{
+  "id": "val_322_chunk_6",
+  "source_dir": "result_Bed009_processed",
+  "notion_output": {
+    "project_name": "인터페이스 기반의 심층 개념적 기초 활용 프로젝트",
+    "project_purpose": "심층적인 개념적 기초를 인터페이스로 활용하여 다양한 도메인에서의 효율성을 극대화하고, 사용자 경험을 개선하며, 의사결정 지원 시스템을 강화한다.",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: 다양한 도메인에서의 심층 개념적 기초 적용",
+      "목표 2: 사용자 모델과 온톨로지를 통합하여 정보 처리 최적화",
+      "목표 3: 의사결정 네트워크를 통해 결정 지원 시스템 강화"
+    ],
+    "core_idea": "심층적인 개념적 기초를 인터페이스로 활용하여 사용자와 시스템 간의 상호작용을 혁신적으로 개선하고, 의사결정의 정확성을 높인다.",
+    "idea_description": "온톨로지와 사용자 모델을 결합하여 입력단에서 모든 정보를 처리하고, 이를 의사결정 네트워크로 전환하여 결정을 지원한다. 또한, 다양한 도메인에서의 적용 가능성을 고려하여 시스템의 유연성을 높인다.",
+    "execution_plan": "1단계: 온톨로지 및 사용자 모델 통합 설계 (2024.01.01 ~ 2024.01.31)\n2단계: 의사결정 네트워크 구축 및 테스트 (2024.02.01 ~ 2024.02.28)\n3단계: 다양한 도메인에서의 시스템 적용 및 최적화 (2024.03.01 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 사용자 경험의 질적 향상",
+      "기대효과 2: 의사결정 속도 및 정확성 증가",
+      "기대효과 3: 시스템의 유연성과 확장성 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_Bed009_processed/05_final_result.json",
+    "utterance_count": 691,
+    "original_transcript_length": 23895,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 23895
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 6,
+      "chunk_length": 1472
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-06T16:32:54.540299"
+  }
+}

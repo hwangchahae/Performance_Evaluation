@@ -1,0 +1,30 @@
+{
+  "id": "train_149",
+  "source_dir": "result_제22대국회 제418회(정기회) 제7차 과학기술정보방송통신위원회(전체회의) (2024.10.14.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"2024년도 국정감사 증인 동행명령장 발부 및 집행\",\n    \"project_purpose\": \"2024년도 국정감사에서 증인 출석을 위한 동행명령장 발부 및 집행 절차를 체계적으로 수행\",\n    \"project_period\": \"2023.10.01 ~ 2023.12.31\",\n    \"project_manager\": \"최민희 위원장\",\n    \"core_objectives\": [\n        \"목표 1: 동행명령장 발부 절차의 법적 적합성 확보\",\n        \"목표 2: 증인 출석을 위한 동행명령장 집행\",\n        \"목표 3: 국정감사 진행의 원활한 운영\"\n    ],\n    \"core_idea\": \"증인 출석을 위한 동행명령장 발부 및 집행의 체계적 수행\",\n    \"idea_description\": \"국정감사에서 증인 출석을 보장하기 위해 동행명령장을 발부하고 이를 적법하게 집행하여 회의의 원활한 진행을 도모\",\n    \"execution_plan\": \"1. 동행명령장 발부 절차 검토 및 법적 자문 (2023.10.01 ~ 2023.10.15)\\n2. 동행명령장 작성 및 위원회 승인 (2023.10.16 ~ 2023.10.20)\\n3. 동행명령장 집행 및 증인 출석 확인 (2023.10.21 ~ 2023.12.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 증인 출석률 향상으로 국정감사 효율성 증대\",\n        \"기대효과 2: 법적 절차 준수로 인한 위원회 신뢰도 향상\",\n        \"기대효과 3: 국정감사 진행의 원활화로 인한 정책 검토의 질적 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제418회(정기회) 제7차 과학기술정보방송통신위원회(전체회의) (2024.10.14.)/05_final_result.json",
+    "utterance_count": 40,
+    "transcript_length": 2008,
+    "original_transcript_length": 2008,
+    "speakers": [
+      "위원장 최민희",
+      "노종면 위원",
+      "최형두 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 2008
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:43:39.029395"
+  }
+}

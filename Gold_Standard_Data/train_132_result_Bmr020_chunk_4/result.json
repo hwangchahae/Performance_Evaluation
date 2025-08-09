@@ -1,0 +1,38 @@
+{
+  "id": "train_132_chunk_4",
+  "source_dir": "result_Bmr020_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"다채널 최적화 및 회의 품질 개선 프로젝트\",\n    \"project_purpose\": \"다양한 채널의 중복성을 제거하고, 노트북 소리 문제를 해결하여 회의의 효율성과 품질을 높임\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 중복되는 채널 섹션을 식별하고 제거하여 채널 효율성을 20% 향상\",\n        \"목표 2: 강제 정렬을 통해 데이터의 정확성을 15% 증가\",\n        \"목표 3: 노트북 소리 문제 해결을 통해 회의 품질을 30% 개선\",\n        \"목표 4: 파이프라인 최적화를 통해 자원 활용도를 25% 증가\"\n    ],\n    \"core_idea\": \"채널의 중복성을 제거하고 강제 정렬을 통해 데이터의 타당성을 확보하며, 노트북 소리 문제를 해결하여 회의 품질을 개선\",\n    \"idea_description\": \"채널을 최적화하여 중복을 줄이고, 강제 정렬을 통해 데이터의 정확성을 높이며, 노트북 소리 문제를 해결하여 회의 품질을 개선하고, 파이프라인을 개선하여 자원 활용을 극대화하는 프로젝트\",\n    \"execution_plan\": [\n        \"1단계: 중복 섹션 식별 및 제거 (2024.01.01 ~ 2024.01.31)\",\n        \"2단계: 강제 정렬을 통한 데이터 정확성 확보 (2024.02.01 ~ 2024.02.28)\",\n        \"3단계: 노트북 소리 문제 해결 및 테스트 (2024.02.15 ~ 2024.03.15)\",\n        \"4단계: 파이프라인 최적화 및 테스트 (2024.03.01 ~ 2024.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 채널 효율성 20% 향상\",\n        \"기대효과 2: 데이터 정확성 15% 증가\",\n        \"기대효과 3: 회의 품질 30% 개선\",\n        \"기대효과 4: 자원 활용도 25% 증가\"\n    ],\n    \"additional_notes\": [\n        \"노트북 소리 문제는 회의 중 발생하는 소음으로, 이를 해결하기 위한 구체적인 조치가 필요함.\",\n        \"회의록에서 언급된 '노트북 소리' 문제를 해결하기 위해 소리 감지 및 차단 시스템 도입 검토.\",\n        \"회의 중 소리 문제를 해결함으로써 회의의 집중도를 높이고, 효율적인 의사소통을 지원.\",\n        \"회의에서 논의된 구체적인 조치로는 소리 감지 시스템의 테스트 및 구현, 중복된 채널의 식별 및 제거 방법론 개발이 포함됨.\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.2,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr020_processed/05_final_result.json",
+    "utterance_count": 478,
+    "original_transcript_length": 15775,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 15775
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 4,
+      "chunk_length": 2341
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:06:42.183809"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "train_119_chunk_1",
+  "source_dir": "result_ES2003d",
+  "notion_output": "```json\n{\n    \"project_name\": \"인체공학적 리모컨 디자인 개선 프로젝트\",\n    \"project_purpose\": \"인체공학적 디자인을 유지하면서 패션 요소를 결합한 리모컨 개발\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 인체공학적 디자인을 유지하면서 플라스틱 케이스 사용\",\n        \"목표 2: LCD 디스플레이를 통한 차별화된 사용자 경험 제공\",\n        \"목표 3: 예산 내에서 고급 칩과 스크롤 휠 통합\"\n    ],\n    \"core_idea\": \"인체공학적 디자인과 패션 요소의 결합\",\n    \"idea_description\": \"리모컨의 인체공학적 디자인을 유지하면서 최신 패션 트렌드를 반영한 플라스틱 케이스와 고급 LCD 디스플레이를 사용하여 차별화된 사용자 경험을 제공\",\n    \"execution_plan\": \"1단계: 디자인 검토 및 수정 (2023.11.01 ~ 2023.11.15)\\n2단계: 프로토타입 제작 및 테스트 (2023.11.16 ~ 2023.12.15)\\n3단계: 사용자 피드백 수집 및 개선 (2023.12.16 ~ 2023.12.31)\\n4단계: 최종 디자인 확정 및 생산 준비 (2024.01.01 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 편의성을 높인 인체공학적 디자인으로 만족도 향상\",\n        \"기대효과 2: 패션 요소 결합으로 시장에서의 차별화 및 브랜드 이미지 강화\",\n        \"기대효과 3: 예산 내에서 고급 기능을 제공하여 비용 효율성 달성\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2003d/05_final_result.json",
+    "utterance_count": 304,
+    "original_transcript_length": 10896,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 10896
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4933
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:26:53.678046"
+  }
+}

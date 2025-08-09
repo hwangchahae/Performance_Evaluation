@@ -1,0 +1,35 @@
+{
+  "id": "train_041_chunk_1",
+  "source_dir": "result_ES2013b",
+  "notion_output": "```json\n{\n    \"project_name\": \"차세대 스마트 리모컨 혁신 프로젝트\",\n    \"project_purpose\": \"사용자 경험을 극대화하고 시장에서의 경쟁력을 강화하기 위해 기존 리모컨의 기능을 혁신적으로 개선하고 새로운 기술을 도입\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 친화적인 인터페이스와 직관적인 디자인을 갖춘 리모컨 개발\",\n        \"목표 2: 최신 기술을 활용하여 리모컨의 기능을 혁신적으로 개선\",\n        \"목표 3: 시장 조사 결과를 기반으로 한 제품 개발 및 최적화\",\n        \"목표 4: 리모컨의 버튼 배열 최적화 및 불필요한 기능 제거\"\n    ],\n    \"core_idea\": \"기존 리모컨의 기능을 재구성하여 사용자가 쉽게 접근할 수 있는 차세대 스마트 리모컨을 개발\",\n    \"idea_description\": \"리모컨의 버튼 배열을 최적화하고, 인터넷과의 연동성을 고려하여 새로운 기능을 추가. 특히, 메뉴 기능과 최신 기술을 활용하여 다른 도구와의 상호작용성을 강화. 텔레텍스트와 같은 구식 기능을 제거하고 대형 버튼 및 접근 가능한 메뉴를 갖춘 매끄럽고 세련된 디자인을 구현.\",\n    \"execution_plan\": \"1단계: 시장 조사 및 요구 사항 분석 (2024.01.01 ~ 2024.02.15)\\n2단계: 디자인 및 프로토타입 개발 (2024.02.16 ~ 2024.03.31)\\n3단계: 기능 테스트 및 수정 (2024.04.01 ~ 2024.05.15)\\n4단계: 최종 제품 출시 준비 및 마케팅 전략 수립 (2024.05.16 ~ 2024.06.30)\",\n    \"functional_requirements\": [\n        \"기능 1: 사용자가 쉽게 접근할 수 있는 직관적인 버튼 배열\",\n        \"기능 2: 인터넷과의 연동성을 고려한 스마트 기능 추가\",\n        \"기능 3: 대형 버튼 및 접근 가능한 메뉴를 갖춘 매끄럽고 세련된 디자인\",\n        \"기능 4: 텔레텍스트와 같은 구식 기능을 제거하고 최신 기술로 대체\",\n        \"기능 5: 리모컨의 키와 버튼을 재구성하여 불필요한 기능 제거\"\n    ],\n    \"market_research\": {\n        \"target_market\": \"91% 및 76%의 고객층을 포함하여 400만 명 이상의 잠재 고객\",\n        \"customer_feedback\": \"현재 리모컨에 대한 불만족도 높음, 새로운 기능과 디자인에 대한 수요 존재\",\n        \"competitive_analysis\": \"경쟁 제품의 기능 및 기술 분석을 통해 차별화된 제품 개발\",\n        \"additional_research\": \"LCD 화면 및 최신 기술 도입에 대한 수요 조사\"\n    },\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 20% 향상\",\n        \"기대효과 2: 시장 점유율 10% 증가\",\n        \"기대효과 3: 브랜드 이미지 개선 및 기술 선도 기업으로의 자리매김\"\n    ],\n    \"user_interface_strategy\": \"사용자 피드백을 기반으로 한 인터페이스 개선, 대형 버튼 및 직관적인 메뉴 배치로 접근성 강화. 특히, 화면에 텍스트가 표시되는 기능을 도입하여 사용자 편의성을 높임.\"\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2013b/05_final_result.json",
+    "utterance_count": 222,
+    "original_transcript_length": 8332,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 8332
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "chunk_length": 4943
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:58:56.833225"
+  }
+}

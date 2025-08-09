@@ -1,0 +1,50 @@
+{
+  "id": "val_322_chunk_4",
+  "source_dir": "result_Bed009_processed",
+  "notion_output": {
+    "project_name": "DAML 기반 외부 서비스 연동 및 확장 프로젝트",
+    "project_purpose": "외부 서비스와의 원활한 연동을 통해 시스템의 기능성을 강화하고, 다양한 응용 프로그램을 쉽게 확장할 수 있도록 지원",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Srini",
+    "core_objectives": [
+      "목표 1: 외부 서비스와의 구조적 인터페이스 설계 및 구현",
+      "목표 2: 다양한 응용 프로그램의 플러그인형 확장 가능성 제공",
+      "목표 3: 외부 서비스의 기능 모델러 및 자체 설명 기능 개발"
+    ],
+    "core_idea": "외부 서비스와의 원활한 연동을 통해 시스템의 기능성을 강화하고, 다양한 응용 프로그램을 쉽게 확장할 수 있도록 지원",
+    "idea_description": "외부 서비스와의 구조적 인터페이스를 설계하여, 다양한 응용 프로그램이 쉽게 플러그인형으로 추가될 수 있도록 함. 이를 통해 시스템의 기능성을 강화하고, 외부 서비스의 기능 모델러 및 자체 설명 기능을 통해 사용자의 이해도를 높임.",
+    "execution_plan": "1단계: 외부 서비스와의 인터페이스 설계 및 구현 (2024.01.01 ~ 2024.02.28)\n2단계: 다양한 응용 프로그램의 플러그인형 확장 가능성 제공 (2024.03.01 ~ 2024.04.30)\n3단계: 외부 서비스의 기능 모델러 및 자체 설명 기능 개발 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 시스템의 기능성 강화로 인한 사용자 만족도 증가",
+      "기대효과 2: 다양한 응용 프로그램의 신속한 확장 가능성 제공",
+      "기대효과 3: 외부 서비스의 기능 모델러 및 자체 설명 기능을 통한 사용자 교육 및 지원 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_Bed009_processed/05_final_result.json",
+    "utterance_count": 691,
+    "original_transcript_length": 23895,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_C",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 23895
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-06T16:32:26.083309"
+  }
+}

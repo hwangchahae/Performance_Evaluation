@@ -1,0 +1,33 @@
+{
+  "id": "train_025",
+  "source_dir": "result_제22대국회 제423회(임시회) 제1차 과학기술정보방송통신위원회(과학기술원자력법안심사소위원회) (2025.03.11.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"합성생물학 육성법안 추진 프로젝트\",\n    \"project_purpose\": \"합성생물학 육성법안의 제정 및 시행을 통해 국내 바이오 산업 생태계 확장과 인재 육성\",\n    \"project_period\": \"2023.11.01 ~ 2024.03.31\",\n    \"project_manager\": \"최형두 소위원장\",\n    \"core_objectives\": [\n        \"목표 1: 합성생물학 육성법안의 국회 통과 및 시행\",\n        \"목표 2: 바이오 분야 인재 육성을 위한 정책 마련\",\n        \"목표 3: 해외 우수 인재 유치를 위한 제도 개선\"\n    ],\n    \"core_idea\": \"합성생물학 분야의 법적 기반을 마련하여 산업 생태계 확장과 인재 육성을 촉진\",\n    \"idea_description\": \"합성생물학 육성법안을 통해 바이오 산업의 법적 지원을 강화하고, 국내외 인재를 효과적으로 육성 및 유치하여 산업 발전을 도모\",\n    \"execution_plan\": \"1. 법안 의결 및 시행 준비 (2023.11.01 ~ 2023.12.31)\\n2. 바이오 인재 육성 정책 개발 (2024.01.01 ~ 2024.02.28)\\n3. 해외 인재 유치 제도 개선 및 시행 (2024.03.01 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 합성생물학 분야의 법적 기반 마련으로 산업 생태계 확장\",\n        \"기대효과 2: 국내 바이오 인재 육성 강화 및 고용 창출\",\n        \"기대효과 3: 해외 우수 인재 유치를 통한 글로벌 경쟁력 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제423회(임시회) 제1차 과학기술정보방송통신위원회(과학기술원자력법안심사소위원회) (2025.03.11.)/05_final_result.json",
+    "utterance_count": 51,
+    "transcript_length": 3910,
+    "original_transcript_length": 3910,
+    "speakers": [
+      "김우영 위원",
+      "과학기술정보통신부제1차관 이창윤",
+      "박민규 위원",
+      "전문위원 임명현",
+      "황정아 위원",
+      "소위원장 최형두"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 3910
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T18:02:53.312404"
+  }
+}

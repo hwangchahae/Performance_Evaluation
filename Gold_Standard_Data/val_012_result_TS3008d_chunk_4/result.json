@@ -1,0 +1,35 @@
+{
+  "id": "val_012_chunk_4",
+  "source_dir": "result_TS3008d",
+  "notion_output": "```json\n{\n    \"project_name\": \"고급 디스플레이 및 도킹 스테이션 통합 개발 프로젝트\",\n    \"project_purpose\": \"고급 디스플레이와 간단한 칩을 활용하여 사용자 경험을 혁신하고, 시장 경쟁력을 강화하는 도킹 스테이션 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 고급 디스플레이에 적합한 고급 칩 설계 및 구현\",\n        \"목표 2: 도킹 스테이션의 버튼, 케이블 인터페이스 및 장치 검색 기능의 구체적 설계 및 구현\",\n        \"목표 3: 도킹 스테이션 프로토타입 개발 및 테스트를 통한 기능 검증\"\n    ],\n    \"core_idea\": \"고급 디스플레이와 간단한 칩을 결합하여 비용 효율적이면서도 기능적으로 뛰어난 도킹 스테이션을 개발\",\n    \"idea_description\": \"고급 디스플레이를 통해 사용자 경험을 극대화하고, 간단한 칩을 사용하여 비용을 절감하며, 도킹 스테이션의 다양한 기능을 통합하여 시장 경쟁력을 강화\",\n    \"execution_plan\": [\n        \"1단계: 고급 디스플레이 및 칩 설계 및 테스트 (2024.01.01 ~ 2024.02.28)\",\n        \"2단계: 도킹 스테이션 하드웨어 및 소프트웨어 설계, 장치 검색 기능 구현 (2024.03.01 ~ 2024.04.15)\",\n        \"3단계: 프로토타입 개발 및 기능 검증, 사용자 피드백 수집 (2024.04.16 ~ 2024.06.30)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 고급 디스플레이를 통한 사용자 만족도 및 시장 인지도 향상\",\n        \"기대효과 2: 간단한 칩 사용으로 인한 비용 절감 및 생산성 향상\",\n        \"기대효과 3: 장치 검색 기능 및 다양한 인터페이스 통합으로 인한 사용자 편의성 증대\"\n    ],\n    \"technical_requirements\": [\n        \"고급 디스플레이에 적합한 칩의 전력 소모 및 성능 기준 설정\",\n        \"도킹 스테이션의 버튼 및 케이블 인터페이스의 물리적 설계 기준\",\n        \"장치 검색 기능을 위한 소프트웨어 알고리즘 개발\",\n        \"도킹 스테이션의 현실적 가능성을 검토하고, 기술적 요구사항을 명확히 함\"\n    ],\n    \"meeting_notes_integration\": [\n        \"디스플레이에는 고급 칩이 필요하며, 푸시 버튼과 스크롤 휠에는 간단한 칩이 필요함\",\n        \"도킹 스테이션에는 케이블과 버튼, 장치 검색 기능이 포함되어야 함\",\n        \"도킹 스테이션 개발의 현실적 가능성을 검토하고, 기술적 요구사항을 명확히 함\",\n        \"도킹 스테이션의 구체적 기능 구현 방법을 논의함\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.4,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3008d/05_final_result.json",
+    "utterance_count": 440,
+    "original_transcript_length": 14071,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 14071
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 4,
+      "chunk_length": 613
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T09:46:00.149407"
+  }
+}

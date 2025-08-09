@@ -1,0 +1,68 @@
+{
+  "id": "val_233_chunk_2",
+  "source_dir": "result_ES2003b",
+  "notion_output": {
+    "project_name": "다중 기기 지원 교체용 리모컨 개발 및 시장 진입 프로젝트",
+    "project_purpose": "다양한 가전 기기를 하나의 리모컨으로 제어함으로써 사용자의 편의성을 극대화하고, 리모컨 시장의 합리화를 도모하며, 차별화된 제품으로 시장 점유율을 확보하기 위한 프로젝트",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 다양한 가전 기기를 하나의 리모컨으로 통합 제어 가능하도록 설계",
+      "목표 2: 사용자 친화적인 인터페이스 및 직관적인 조작성 제공",
+      "목표 3: 차별화된 기능을 통해 시장 경쟁력 강화"
+    ],
+    "core_idea": "다중 기기 지원 교체용 리모컨",
+    "idea_description": "거실에 설치된 다양한 가전 기기를 하나의 리모컨으로 제어할 수 있도록 설계된 제품입니다. 조이스틱을 활용하여 간편하게 조작할 수 있으며, LCD 화면을 통해 각 기기의 상태를 확인할 수 있습니다. 또한, 위치 감지 기능을 통해 리모컨의 위치를 파악하여 사용자가 쉽게 접근할 수 있도록 합니다.",
+    "execution_plan": [
+      {
+        "phase": "1차 연구 및 설계",
+        "duration": "2024.01.01 ~ 2024.02.28",
+        "details": "시장 조사 및 사용자 요구 분석, 기술적 설계, 초기 프로토타입 개발"
+      },
+      {
+        "phase": "2차 개발 및 테스트",
+        "duration": "2024.03.01 ~ 2024.04.30",
+        "details": "제품 개발, 사용자 테스트, 피드백 수집 및 수정"
+      },
+      {
+        "phase": "마무리 및 생산 준비",
+        "duration": "2024.05.01 ~ 2024.05.31",
+        "details": "최종 검수, 생산 준비, 마케팅 전략 수립"
+      },
+      {
+        "phase": "마케팅 및 판매",
+        "duration": "2024.06.01 ~ 2024.06.30",
+        "details": "마케팅 활동 시작, 제품 출시 및 판매"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 사용자 편의성 증가로 인한 고객 만족도 향상",
+      "기대효과 2: 리모컨 시장의 합리화로 인한 비용 절감 및 효율성 증대",
+      "기대효과 3: 차별화된 제품으로 인한 시장 점유율 확대"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/batch_triplet_results_input/result_ES2003b/05_final_result.json",
+    "utterance_count": 196,
+    "original_transcript_length": 7254,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 7254
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 2785
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-06T14:41:54.908632"
+  }
+}

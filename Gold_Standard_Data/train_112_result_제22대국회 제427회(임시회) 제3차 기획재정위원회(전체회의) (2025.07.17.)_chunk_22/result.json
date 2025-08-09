@@ -1,0 +1,54 @@
+{
+  "id": "train_112_chunk_22",
+  "source_dir": "result_제22대국회 제427회(임시회) 제3차 기획재정위원회(전체회의) (2025.07.17.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"AI 기반 지역 산업 활성화 프로젝트\",\n    \"project_purpose\": \"지방 산업에 AI 기술을 접목하여 지역 경제를 활성화하고 규제 완화를 통한 기업 유치\",\n    \"project_period\": \"2024.01.01 ~ 2024.12.31\",\n    \"project_manager\": \"구윤철\",\n    \"core_objectives\": [\n        \"목표 1: 지방 산업에 AI 기술을 접목하여 생산성 향상\",\n        \"목표 2: 규제 완화를 통해 지방 기업 유치 및 성장 촉진\",\n        \"목표 3: 세제 인센티브를 통한 비수도권 기업 유치\"\n    ],\n    \"core_idea\": \"AI 기술을 활용하여 지방 산업의 경쟁력을 강화하고, 규제 완화 및 세제 인센티브를 통해 기업 유치를 촉진\",\n    \"idea_description\": \"부울경 지역을 중심으로 AI 기술을 조선업 등 주요 산업에 접목하고, 규제 완화 및 세제 인센티브를 통해 기업들이 지방으로 이전할 수 있는 환경 조성\",\n    \"execution_plan\": \"1. AI 기술 적용 가능성 조사 및 파일럿 프로그램 (2024.01 ~ 2024.03)\\n2. 규제 완화 방안 마련 및 시행 (2024.04 ~ 2024.06)\\n3. 세제 인센티브 정책 시행 및 기업 유치 활동 (2024.07 ~ 2024.12)\",\n    \"expected_effects\": [\n        \"기대효과 1: 지역 산업의 생산성 증가 및 경제 활성화\",\n        \"기대효과 2: 지방으로의 기업 이전 증가 및 일자리 창출\",\n        \"기대효과 3: 세수 증가 및 지방 자치단체의 재정 자립도 향상\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제3차 기획재정위원회(전체회의) (2025.07.17.)/05_final_result.json",
+    "utterance_count": 1930,
+    "original_transcript_length": 109213,
+    "speakers": [
+      "조승래 위원",
+      "유상범 위원",
+      "차규근 위원",
+      "최기상 위원",
+      "정태호 위원",
+      "안도걸 위원",
+      "천하람 위원",
+      "김영진 위원",
+      "박홍근 위원",
+      "김태년 위원",
+      "윤영석 위원",
+      "이인선 위원",
+      "최은석 위원",
+      "권영세 위원",
+      "박성훈 위원",
+      "정일영 위원",
+      "오기형 위원",
+      "위원장 임이자",
+      "부총리겸기획재정부장관후보자 구윤철",
+      "진성준 위원",
+      "김영환 위원",
+      "박대출 위원",
+      "박수영 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 25,
+      "original_length": 109213
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 22,
+      "total_chunks": 25,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T01:56:36.370908"
+  }
+}

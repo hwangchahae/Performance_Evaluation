@@ -1,0 +1,30 @@
+{
+  "id": "train_082",
+  "source_dir": "result_제22대국회 제427회(임시회) 제3차 보건복지위원회(전체회의) (2025.07.21.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"보건복지부장관 인사청문경과보고서 채택 프로젝트\",\n    \"project_purpose\": \"보건복지부장관 후보자 인사청문경과보고서의 신속한 채택을 통해 보건복지부의 안정적 운영을 지원\",\n    \"project_period\": \"2023.07.18 ~ 2023.07.24\",\n    \"project_manager\": \"박주민 위원장\",\n    \"core_objectives\": [\n        \"목표 1: 인사청문경과보고서의 신속한 채택\",\n        \"목표 2: 여야 간 합의 도출을 통한 원활한 회의 진행\",\n        \"목표 3: 보건복지부장관 임명을 통한 보건의료 및 복지 정책의 안정적 운영\"\n    ],\n    \"core_idea\": \"보건복지부장관 후보자에 대한 인사청문경과보고서를 신속히 채택하여 보건복지부의 리더십 공백을 최소화\",\n    \"idea_description\": \"인사청문회에서 제기된 질의와 답변을 토대로 보고서를 작성하고, 이를 바탕으로 여야 간 합의를 통해 신속히 채택함으로써 보건복지부의 정책 추진을 지원\",\n    \"execution_plan\": \"1. 인사청문회 질의 및 답변 정리 (2023.07.18)\\n2. 인사청문경과보고서 초안 작성 및 검토 (2023.07.19 ~ 2023.07.20)\\n3. 여야 간 협의 및 합의 도출 (2023.07.21 ~ 2023.07.23)\\n4. 보고서 최종 채택 및 발표 (2023.07.24)\",\n    \"expected_effects\": [\n        \"기대효과 1: 보건복지부장관 임명을 통해 보건의료 및 복지 정책의 신속한 추진\",\n        \"기대효과 2: 여야 간 협력을 통한 국회의 원활한 운영\",\n        \"기대효과 3: 국민의 신뢰 회복 및 민생 안정화 기여\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 8.0,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제3차 보건복지위원회(전체회의) (2025.07.21.)/05_final_result.json",
+    "utterance_count": 43,
+    "transcript_length": 2811,
+    "original_transcript_length": 2811,
+    "speakers": [
+      "위원장 박주민",
+      "이수진 위원",
+      "이주영 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 2811
+    },
+    "is_chunk": false,
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T21:45:28.926751"
+  }
+}

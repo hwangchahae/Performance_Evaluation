@@ -1,0 +1,37 @@
+{
+  "id": "train_072_chunk_1",
+  "source_dir": "result_Bdb001_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"고성능 XML 기반 데이터베이스 및 타임라인 시스템 구축\",\n    \"project_purpose\": \"효율적인 데이터 관리 및 분석을 위한 XML 기반 데이터베이스 시스템과 타임라인 인코딩 시스템의 최적화\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: XML 형식을 활용하여 유연하고 확장 가능한 데이터베이스 시스템 설계 및 구현\",\n        \"목표 2: 타임라인 태그를 통한 시간적 데이터 인코딩 및 관리 시스템 구축\",\n        \"목표 3: Perl 스크립트를 활용한 XML 파싱의 효율성 증대 및 자동화\",\n        \"목표 4: 파일 시스템의 용량 제한 문제 해결 및 대용량 파일 처리 최적화\"\n    ],\n    \"core_idea\": \"XML 기반 데이터베이스 시스템을 구축하여 시간적 데이터의 효율적 관리 및 분석을 지원하며, Perl 스크립트를 통한 XML 파싱과 대용량 데이터 처리 최적화를 통해 시스템의 성능을 극대화\",\n    \"idea_description\": \"XML 형식을 활용하여 데이터베이스를 설계하고, 타임라인 태그를 통해 시간적 데이터를 인코딩하여 분석 및 관리의 효율성을 높인다. Perl 스크립트를 통해 XML 파싱을 간소화하고, 파일 시스템의 용량 제한 문제를 해결하기 위해 바이너리 인코딩을 활용하여 대용량 데이터를 효과적으로 처리한다.\",\n    \"execution_plan\": [\n        \"1단계: XML 형식의 데이터베이스 설계 및 Perl 스크립트 개발 (2024.01.01 ~ 2024.02.15)\",\n        \"2단계: 타임라인 태그 및 인코딩 시스템 구현 (2024.02.16 ~ 2024.03.31)\",\n        \"3단계: 파일 시스템 용량 제한 해결 및 대용량 파일 처리 최적화 (2024.04.01 ~ 2024.05.15)\",\n        \"4단계: 시스템 테스트 및 검증 (2024.05.16 ~ 2024.06.15)\",\n        \"5단계: 최종 보고서 작성 및 프로젝트 완료 (2024.06.16 ~ 2024.06.30)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 데이터 관리 효율성 향상 및 분석 시간 단축\",\n        \"기대효과 2: 대용량 데이터 처리 능력 강화 및 파일 시스템 용량 문제 해결\",\n        \"기대효과 3: 시스템의 유연성 및 확장성 증가\",\n        \"기대효과 4: Perl 스크립트를 통한 XML 파싱의 간소화로 개발 생산성 향상\"\n    ],\n    \"technical_details\": {\n        \"XML_Parser\": \"Perl 스크립트를 사용하여 XML 파싱을 수행하며, 이는 NIST의 권장 방식과 유사한 구조를 따릅니다.\",\n        \"Binary_Encoding\": \"프레임 수준에서 바이너리 인코딩을 사용하여 데이터의 효율성을 극대화합니다.\",\n        \"File_System_Limitations\": \"대부분의 OS에서 2GB 파일 시스템 제한을 고려하여, 대용량 파일은 바이너리로 인코딩하여 처리합니다.\",\n        \"Timeline_Tagging\": \"타임라인 태그는 단일 타임라인 구조를 사용하며, 각 발언에 스피커 ID 태그를 부여하여 데이터의 정확성을 높입니다.\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bdb001_processed/05_final_result.json",
+    "utterance_count": 420,
+    "original_transcript_length": 15742,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 15742
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 4,
+      "chunk_length": 4989
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T21:14:28.622117"
+  }
+}

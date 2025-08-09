@@ -1,0 +1,38 @@
+{
+  "id": "train_204_chunk_6",
+  "source_dir": "result_Bns003_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"MPLS 도메인 내 분산 라우팅 및 활성 경로 최적화 프로젝트\",\n    \"project_purpose\": \"MPLS 도메인에서 분산 라우팅 정책과 활성 경로를 최적화하여 네트워크 효율성을 극대화하고, 멀티캐스트 항목 제거를 통해 성능을 개선하며, Christian Tschudin의 정의에 기반한 활성 경로의 성공적인 구현을 목표로 한다.\",\n    \"project_period\": \"2023.11.01 ~ 2024.01.31\",\n    \"project_manager\": \"스벤 부흐홀츠\",\n    \"core_objectives\": [\n        \"목표 1: Christian Tschudin의 정의에 기반한 활성 경로의 성공적인 구현 및 테스트\",\n        \"목표 2: MPLS 도메인의 분산 라우팅 정책 및 알고리즘 검토 및 개선\",\n        \"목표 3: 멀티캐스트 항목 제거를 통한 네트워크 성능 최적화\",\n        \"목표 4: 다양한 장치와의 호환성을 고려한 라우팅 정책 개발\"\n    ],\n    \"core_idea\": \"MPLS 도메인 내에서 분산 라우팅 정책과 활성 경로를 최적화하여 네트워크의 효율성을 높이고, 멀티캐스트 항목을 제거하여 성능을 개선하며, 새로운 그룹 멤버의 참여를 통해 다양한 장치와의 호환성을 고려한 라우팅 정책을 개발한다.\",\n    \"idea_description\": \"MPLS 도메인에서의 분산 라우팅은 네트워크의 효율성을 높이는 중요한 요소입니다. Christian Tschudin의 정의에 따라 활성 경로를 성공적으로 구현하고, 기존의 라우팅 정책을 검토하여 최적화합니다. 또한, 불필요한 멀티캐스트 항목을 제거하여 네트워크의 부하를 줄이고, 다양한 장치와의 호환성을 고려하여 라우팅 정책을 개발합니다.\",\n    \"execution_plan\": \"1단계: Christian Tschudin의 정의에 기반한 활성 경로 분석 및 구현 계획 수립 (2023.11.01 ~ 2023.11.15)\\n2단계: 현재 MPLS 도메인의 라우팅 정책 및 알고리즘 분석 (2023.11.16 ~ 2023.11.30)\\n3단계: 개선된 라우팅 정책 및 알고리즘 설계 (2023.12.01 ~ 2023.12.31)\\n4단계: 활성 경로 구현 및 테스트 (2024.01.01 ~ 2024.01.15)\\n5단계: 멀티캐스트 항목 제거 및 최종 성능 평가 (2024.01.16 ~ 2024.01.31)\\n6단계: 다양한 장치와의 호환성을 고려한 라우팅 정책 개발 및 테스트 (2024.01.16 ~ 2024.01.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 네트워크 효율성 20% 향상\",\n        \"기대효과 2: 라우팅 정책 개선으로 인한 데이터 전송 속도 증가\",\n        \"기대효과 3: 멀티캐스트 항목 제거로 인한 네트워크 부하 감소\",\n        \"기대효과 4: 다양한 장치와의 호환성 개선으로 인한 네트워크 안정성 증가\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bns003_processed/05_final_result.json",
+    "utterance_count": 767,
+    "original_transcript_length": 24886,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 24886
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 6,
+      "chunk_length": 2447
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T06:10:13.409489"
+  }
+}

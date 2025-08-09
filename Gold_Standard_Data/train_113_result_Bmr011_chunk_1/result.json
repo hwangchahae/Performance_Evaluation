@@ -1,0 +1,39 @@
+{
+  "id": "train_113_chunk_1",
+  "source_dir": "result_Bmr011_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"회의 녹음 품질 및 일관성 향상 프로젝트\",\n    \"project_purpose\": \"회의 녹음의 품질과 일관성을 개선하여 데이터 수집 및 분석의 정확성을 높임\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 근거리 마이크의 품질을 개선하여 신호 포착 능력 향상\",\n        \"목표 2: 각 스피커의 마이크 착용 방식 표준화\",\n        \"목표 3: 회의 녹음의 균일성 확보\",\n        \"목표 4: 마이크 배열 및 비디오 녹화 기술 연구 및 적용\"\n    ],\n    \"core_idea\": \"근거리 마이크의 품질을 개선하고 착용 방식을 표준화하며 마이크 배열 및 비디오 녹화 기술을 연구하여 회의 녹음의 정확성과 일관성을 높이는 것\",\n    \"idea_description\": \"현재 사용 중인 마이크의 품질을 분석하고, 더 나은 품질의 마이크로 교체하여 신호 포착 능력을 향상시킵니다. 각 스피커의 마이크 착용 방식을 표준화하여 녹음의 일관성을 높입니다. 또한, 마이크 배열 및 비디오 녹화 기술을 연구하여 회의의 모든 요소를 포괄적으로 기록합니다.\",\n    \"execution_plan\": [\n        \"1단계: 현재 마이크 품질 분석 및 개선 필요성 평가 (2024.01.01 ~ 2024.01.15)\",\n        \"2단계: 새로운 마이크 모델 조사 및 구매 (2024.01.16 ~ 2024.01.31)\",\n        \"3단계: 마이크 착용 방식 표준화 및 교육 (2024.02.01 ~ 2024.02.15)\",\n        \"4단계: 마이크 배열 및 비디오 녹화 기술 연구 및 시범 적용 (2024.02.16 ~ 2024.02.28)\",\n        \"5단계: 개선된 마이크 및 착용 방식으로 시범 회의 진행 및 피드백 수집 (2024.03.01 ~ 2024.03.15)\",\n        \"6단계: 최종 조정 및 프로젝트 완료 (2024.03.16 ~ 2024.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 녹음 품질 향상으로 인한 데이터 분석 정확도 증가\",\n        \"기대효과 2: 표준화된 마이크 착용 방식으로 인한 녹음 일관성 확보\",\n        \"기대효과 3: 마이크 배열 및 비디오 녹화 기술 적용으로 회의의 포괄적 기록 가능\",\n        \"기대효과 4: 개선된 녹음 품질로 인한 회의 효율성 증대\"\n    ],\n    \"additional_notes\": [\n        \"회의에서 언급된 마이크 배열 연구와 비디오 녹화 가능성을 적극적으로 탐색할 것\",\n        \"회의 녹음의 균일성을 확보하기 위해 각 스피커의 마이크 착용 방식에 대한 구체적인 가이드라인을 마련할 것\",\n        \"SRI와 같은 외부 기관과의 협력을 통해 인프라 개선을 위한 투자 기회를 모색할 것\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr011_processed/05_final_result.json",
+    "utterance_count": 657,
+    "original_transcript_length": 23106,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 23106
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 6,
+      "chunk_length": 4998
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T02:00:28.353978"
+  }
+}

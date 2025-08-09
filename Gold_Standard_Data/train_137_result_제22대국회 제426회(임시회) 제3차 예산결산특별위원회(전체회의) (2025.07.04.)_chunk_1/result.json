@@ -1,0 +1,43 @@
+{
+  "id": "train_137_chunk_1",
+  "source_dir": "result_제22대국회 제426회(임시회) 제3차 예산결산특별위원회(전체회의) (2025.07.04.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"2025년도 제2회 추가경정예산안 및 기금운용계획변경안 처리\",\n    \"project_purpose\": \"추경안의 신속한 처리를 통해 경기 회복과 민생 안정을 도모\",\n    \"project_period\": \"2025.07.01 ~ 2025.07.31\",\n    \"project_manager\": \"한병도 위원장\",\n    \"core_objectives\": [\n        \"목표 1: 2025년도 제2회 추가경정예산안의 신속한 처리\",\n        \"목표 2: 민생회복 소비쿠폰 사업의 국비 지원율 조정 및 신속한 배정\",\n        \"목표 3: 무공해차 보급 확대 사업의 예산 증액 및 집행\"\n    ],\n    \"core_idea\": \"추경안의 신속한 처리와 예산 증액을 통해 경제 활성화 및 민생 안정에 기여\",\n    \"idea_description\": \"이번 회의에서는 2025년도 제2회 추가경정예산안과 22건의 기금운용계획변경안을 심사하고, 민생회복 소비쿠폰 사업과 무공해차 보급 확대 사업 등의 예산 증액을 통해 내수 활성화 및 경기 회복을 목표로 한다.\",\n    \"execution_plan\": \"1. 2025년도 제2회 추가경정예산안의 본회의 처리 (2025.07.10까지)\\n2. 민생회복 소비쿠폰 사업의 국비 지원율 조정 및 배정 (2025.07.15까지)\\n3. 무공해차 보급 확대 사업의 예산 증액 및 집행 계획 수립 (2025.07.20까지)\\n4. 각 기금운용계획변경안의 수정 및 원안 의결 (2025.07.25까지)\\n5. 예산 집행 및 효과 모니터링 (2025.07.31까지)\",\n    \"expected_effects\": [\n        \"기대효과 1: 내수 활성화를 통한 경기 회복\",\n        \"기대효과 2: 취약계층의 민생 안정 지원\",\n        \"기대효과 3: 무공해차 보급 확대를 통한 환경 개선\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제426회(임시회) 제3차 예산결산특별위원회(전체회의) (2025.07.04.)/05_final_result.json",
+    "utterance_count": 198,
+    "original_transcript_length": 12646,
+    "speakers": [
+      "한기호 위원",
+      "이소영 위원",
+      "조정훈 위원",
+      "박형수 위원",
+      "소위원장대리 이소영",
+      "김위상 위원",
+      "김용만 위원",
+      "기획재정부제2차관 임기근",
+      "위원장 한병도",
+      "기획재정부장관직무대행 이형일",
+      "배준영 위원",
+      "임미애 위원"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 12646
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4971
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T03:10:08.673557"
+  }
+}

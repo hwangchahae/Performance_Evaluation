@@ -1,0 +1,35 @@
+{
+  "id": "train_155_chunk_2",
+  "source_dir": "result_IS1006c",
+  "notion_output": "```json\n{\n    \"project_name\": \"트렌디한 스펀지 스타일 스마트 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"사용자 경험을 혁신하고 최신 트렌드를 반영한 스펀지 스타일 스마트 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"라마\",\n    \"core_objectives\": [\n        \"목표 1: 사용자 데이터를 기반으로 한 맞춤형 리모컨 기능 구현\",\n        \"목표 2: 스펀지 같은 디자인과 고무 소재를 활용한 혁신적인 제품 개발\",\n        \"목표 3: 사용이 간편한 인터페이스 설계\",\n        \"목표 4: 다양한 색상과 형태의 리모컨 제공\"\n    ],\n    \"core_idea\": \"사용자 친화적이고 트렌디한 스펀지 스타일 스마트 리모컨 개발\",\n    \"idea_description\": \"사용자의 사용 패턴을 분석하여 맞춤형 기능을 제공하고, 스펀지 같은 디자인과 고무 소재를 활용하여 최신 트렌드를 반영한 다양한 색상과 형태의 리모컨을 개발. 과일과 채소에서 영감을 받은 색상과 형태를 고려하여 디자인.\",\n    \"execution_plan\": \"1단계: 사용자 요구사항 분석 및 데이터 수집 (2024.01.01 ~ 2024.02.15)\\n2단계: 스펀지 스타일 디자인 및 프로토타입 개발 (2024.02.16 ~ 2024.04.30)\\n3단계: 사용자 테스트 및 피드백 반영 (2024.05.01 ~ 2024.05.31)\\n4단계: 최종 제품 출시 준비 및 마케팅 전략 수립 (2024.06.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 증가 및 브랜드 이미지 개선\",\n        \"기대효과 2: 시장 점유율 확대 및 매출 증대\",\n        \"기대효과 3: 혁신적인 제품으로 인한 경쟁 우위 확보\"\n    ],\n    \"additional_considerations\": [\n        \"고무 소재의 실현 가능성 및 스펀지 같은 디자인 요소의 구현 방법 검토\",\n        \"과일과 채소에서 영감을 받은 색상 및 형태의 다양성 고려\",\n        \"리모컨의 업그레이드 가능성 및 사용자 맞춤형 기능 제공 방법 탐색\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1006c/05_final_result.json",
+    "utterance_count": 227,
+    "original_transcript_length": 7672,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 7672
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 3220
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T04:04:28.841459"
+  }
+}

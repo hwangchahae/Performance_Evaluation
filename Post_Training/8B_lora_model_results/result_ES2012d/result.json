@@ -1,0 +1,40 @@
+{
+  "id": "result_ES2012d",
+  "source_dir": "result_ES2012d",
+  "notion_output": {
+    "project_name": "혁신적 스마트 액세서리 개발 프로젝트",
+    "project_purpose": "창의적인 디자인과 기술 결합을 통해 시장에서 차별화된 제품을 개발하고, 고객 경험을 극대화하며, 회사의 미래 성장을 도모함",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 창의적인 디자인 브리핑을 바탕으로 제품 개발",
+      "목표 2: 예산 내에서 모든 기준을 충족하는 제품 개발",
+      "목표 3: 시장에서 경쟁력을 갖춘 제품 출시 및 판매 목표 달성"
+    ],
+    "core_idea": "스마트 액세서리 개발을 통한 고객 경험 향상 및 시장 점유율 확대",
+    "idea_description": "스마트 액세서리는 사용자가 쉽게 접근할 수 있도록 설계되며, 다양한 기능을 내장하여 사용자 편의성을 높임. 특히, 음성 센서를 활용한 인터페이스와 교체 가능한 커버 디자인으로 고객의 개인화된 경험을 제공.",
+    "execution_plan": "1단계: 디자인 브리핑 및 초기 설계 (2025.01.01 ~ 2025.02.15)\n2단계: 프로토타입 개발 및 테스트 (2025.02.16 ~ 2025.04.15)\n3단계: 피드백 반영 및 최종 제품 개발 (2025.04.16 ~ 2025.05.15)\n4단계: 마케팅 및 판매 준비 (2025.05.16 ~ 2025.06.15)\n5단계: 제품 출시 및 후속 서비스 제공 (2025.06.16 ~ 2025.06.30)",
+    "expected_effects": [
+      "기대효과 1: 고객 만족도 증가 및 브랜드 이미지 강화",
+      "기대효과 2: 시장 점유율 확대 및 매출 증가",
+      "기대효과 3: 회사의 미래 성장 가능성 확대"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_ES2012d/05_final_result.json",
+    "utterance_count": 125,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "original_length": 4055,
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1
+    },
+    "is_chunk": false,
+    "processing_date": "2025-08-07T02:51:23.264731"
+  }
+}

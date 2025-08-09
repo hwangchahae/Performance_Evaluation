@@ -1,0 +1,57 @@
+{
+  "id": "result_IS1001b_chunk_1",
+  "source_dir": "result_IS1001b",
+  "notion_output": {
+    "project_name": "리모컨 사용 편의성 및 사용성 개선 프로젝트",
+    "project_purpose": "리모컨의 사용 편의성을 극대화하고, 다양한 사용자의 요구사항을 충족시키며, 시장의 변화에 따른 요구를 반영함으로써 제품의 경쟁력을 강화",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 사용자 요구 사항 사양을 바탕으로 최적화된 리모컨 기능 설계",
+      "목표 2: 사용자 인터페이스를 통해 다양한 사용자층의 요구를 충족하는 디자인 개선",
+      "목표 3: 시장의 변화에 따른 요구사항 반영을 통한 제품의 혁신"
+    ],
+    "core_idea": "리모컨의 사용 편의성을 극대화하고, 다양한 사용자층의 요구를 충족하며, 시장의 변화에 따른 요구사항을 반영하여 제품의 경쟁력을 강화",
+    "idea_description": "현재 리모컨의 문제점인 버튼의 복잡성과 사용 편의성을 해결하고, 사용자 요구 사항을 반영하여 다양한 사용자층의 요구를 충족시키며, 시장의 변화에 따른 요구사항을 반영하여 제품의 혁신을 도모한다.",
+    "execution_plan": [
+      {
+        "phase": "기능 설계 및 사용자 요구 사양 수집",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "description": "사용자 요구 사양을 수집하고, 기능 설계를 진행하여 사용자 요구 사항을 충족하는 기능을 마련한다."
+      },
+      {
+        "phase": "디자인 개선 및 시범 테스트",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "description": "디자인 개선을 통해 사용자 요구 사양을 충족하는 디자인을 적용하고, 시범 테스트를 통해 실제 사용 시의 문제점을 발견하고 수정한다."
+      },
+      {
+        "phase": "최종 검수 및 론칭 준비",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "description": "최종 검수를 통해 제품의 품질을 확보하고, 마케팅 전략을 수립하여 제품을 론칭한다."
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 사용자 요구 사양을 충족하여 사용성이 크게 향상됨",
+      "기대효과 2: 다양한 사용자층의 요구를 반영하여 제품의 다양성 증가",
+      "기대효과 3: 시장의 변화에 따른 요구사항 반영으로 제품의 경쟁력 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_IS1001b/05_final_result.json",
+    "utterance_count": 276,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "original_length": 9187,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-07T02:57:34.727070"
+  }
+}

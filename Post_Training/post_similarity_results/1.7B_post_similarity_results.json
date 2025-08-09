@@ -1,0 +1,515 @@
+{
+  "timestamp": "2025-08-10T02:11:08.021673",
+  "sampling_info": {
+    "sample_size": 100,
+    "total_available": 147,
+    "sampling_rate": "68.0%"
+  },
+  "summary": {
+    "total_files": 100,
+    "mean_tfidf_cosine": 0.18213457106564296,
+    "mean_embedding_cosine": 0.8874217904004535
+  },
+  "details": [
+    {
+      "file_name": "val_029_result_Bed016_chunk_1",
+      "tfidf_cosine": 0.1037622318007636,
+      "embedding_cosine": 0.830242612289996
+    },
+    {
+      "file_name": "val_030_result_Bed009_chunk_1",
+      "tfidf_cosine": 0.2876843540460562,
+      "embedding_cosine": 0.9654140182333457
+    },
+    {
+      "file_name": "val_010_result_Bro003_chunk_1",
+      "tfidf_cosine": 0.1757709468873576,
+      "embedding_cosine": 0.8805663671666477
+    },
+    {
+      "file_name": "val_007_result_Bmr025_chunk_3",
+      "tfidf_cosine": 0.18061289335409028,
+      "embedding_cosine": 0.8436828322313705
+    },
+    {
+      "file_name": "val_006_result_Bmr019_chunk_3",
+      "tfidf_cosine": 0.13680193363380894,
+      "embedding_cosine": 0.8309931756117386
+    },
+    {
+      "file_name": "val_048_result_Bmr006_chunk_1",
+      "tfidf_cosine": 0.14200334093104763,
+      "embedding_cosine": 0.8803217720458998
+    },
+    {
+      "file_name": "val_036_result_Bed013_chunk_5",
+      "tfidf_cosine": 0.23150500277342564,
+      "embedding_cosine": 0.7976629929359107
+    },
+    {
+      "file_name": "val_042_result_TS3009d_chunk_3",
+      "tfidf_cosine": 0.1319315661673564,
+      "embedding_cosine": 0.9068573583118581
+    },
+    {
+      "file_name": "val_036_result_Bed013_chunk_1",
+      "tfidf_cosine": 0.14333196283760177,
+      "embedding_cosine": 0.8915604431268651
+    },
+    {
+      "file_name": "val_001_result_ES2016a",
+      "tfidf_cosine": 0.17792347991174023,
+      "embedding_cosine": 0.943034095994878
+    },
+    {
+      "file_name": "val_030_result_Bed009_chunk_3",
+      "tfidf_cosine": 0.25114012337626224,
+      "embedding_cosine": 0.911547027762313
+    },
+    {
+      "file_name": "val_030_result_Bed009_chunk_2",
+      "tfidf_cosine": 0.22892217145425361,
+      "embedding_cosine": 0.9120950336600295
+    },
+    {
+      "file_name": "val_036_result_Bed013_chunk_2",
+      "tfidf_cosine": 0.06651859100982856,
+      "embedding_cosine": 0.8405290652754855
+    },
+    {
+      "file_name": "val_006_result_Bmr019_chunk_1",
+      "tfidf_cosine": 0.2724427109891433,
+      "embedding_cosine": 0.8815459656153688
+    },
+    {
+      "file_name": "val_006_result_Bmr019_chunk_5",
+      "tfidf_cosine": 0.22033039513776226,
+      "embedding_cosine": 0.9521304127878498
+    },
+    {
+      "file_name": "val_050_result_TS3008a",
+      "tfidf_cosine": 0.19423106637690346,
+      "embedding_cosine": 0.9190830076363297
+    },
+    {
+      "file_name": "val_045_result_TS3012c_chunk_3",
+      "tfidf_cosine": 0.2506552677663987,
+      "embedding_cosine": 0.9291606008408508
+    },
+    {
+      "file_name": "val_040_result_Bmr013_chunk_2",
+      "tfidf_cosine": 0.13816466214123907,
+      "embedding_cosine": 0.8298156800496743
+    },
+    {
+      "file_name": "val_026_result_ES2015c_chunk_3",
+      "tfidf_cosine": 0.2949144652244942,
+      "embedding_cosine": 0.8962193755582599
+    },
+    {
+      "file_name": "val_006_result_Bmr019_chunk_2",
+      "tfidf_cosine": 0.15987283244681644,
+      "embedding_cosine": 0.8334588063023267
+    },
+    {
+      "file_name": "val_032_result_TS3010b_chunk_2",
+      "tfidf_cosine": 0.24077642491059884,
+      "embedding_cosine": 0.9263074253466084
+    },
+    {
+      "file_name": "val_010_result_Bro003_chunk_6",
+      "tfidf_cosine": 0.11688617049336002,
+      "embedding_cosine": 0.9014673440664261
+    },
+    {
+      "file_name": "val_032_result_TS3010b_chunk_1",
+      "tfidf_cosine": 0.34586368707495874,
+      "embedding_cosine": 0.9487301047027754
+    },
+    {
+      "file_name": "val_004_result_ES2014d_chunk_3",
+      "tfidf_cosine": 0.14464793769493184,
+      "embedding_cosine": 0.827351396238678
+    },
+    {
+      "file_name": "val_025_result_IS1000b_chunk_3",
+      "tfidf_cosine": 0.19702808453938583,
+      "embedding_cosine": 0.9496318550110389
+    },
+    {
+      "file_name": "val_066_result_Bed002_chunk_1",
+      "tfidf_cosine": 0.2185605646423035,
+      "embedding_cosine": 0.9680578662433659
+    },
+    {
+      "file_name": "val_043_result_ES2007d_chunk_2",
+      "tfidf_cosine": 0.1891062335932653,
+      "embedding_cosine": 0.957541089968485
+    },
+    {
+      "file_name": "val_063_result_IS1009d_chunk_1",
+      "tfidf_cosine": 0.1331691691912316,
+      "embedding_cosine": 0.9170457912728736
+    },
+    {
+      "file_name": "val_034_result_Bed012_chunk_3",
+      "tfidf_cosine": 0.1163424774068337,
+      "embedding_cosine": 0.9053806043160084
+    },
+    {
+      "file_name": "val_022_result_ES2002c_chunk_1",
+      "tfidf_cosine": 0.19761278966429982,
+      "embedding_cosine": 0.9379854124853273
+    },
+    {
+      "file_name": "val_040_result_Bmr013_chunk_6",
+      "tfidf_cosine": 0.24411471588308317,
+      "embedding_cosine": 0.9485914093673752
+    },
+    {
+      "file_name": "val_048_result_Bmr006_chunk_9",
+      "tfidf_cosine": 0.17365996016409244,
+      "embedding_cosine": 0.9407411958572048
+    },
+    {
+      "file_name": "val_063_result_IS1009d_chunk_2",
+      "tfidf_cosine": 0.24190502069835912,
+      "embedding_cosine": 0.94635276537037
+    },
+    {
+      "file_name": "val_034_result_Bed012_chunk_2",
+      "tfidf_cosine": 0.14287646127553488,
+      "embedding_cosine": 0.8677928742725268
+    },
+    {
+      "file_name": "val_036_result_Bed013_chunk_6",
+      "tfidf_cosine": 0.32230848484741026,
+      "embedding_cosine": 0.8747971286356665
+    },
+    {
+      "file_name": "val_011_result_IS1007d_chunk_2",
+      "tfidf_cosine": 0.1924195785796993,
+      "embedding_cosine": 0.8915240652941528
+    },
+    {
+      "file_name": "val_031_result_IS1001b_chunk_1",
+      "tfidf_cosine": 0.18663727628707516,
+      "embedding_cosine": 0.9390979007645048
+    },
+    {
+      "file_name": "val_044_result_Bed010_chunk_2",
+      "tfidf_cosine": 0.20823808977805008,
+      "embedding_cosine": 0.863259809474857
+    },
+    {
+      "file_name": "val_030_result_Bed009_chunk_6",
+      "tfidf_cosine": 0.18677045539884407,
+      "embedding_cosine": 0.7792074788293911
+    },
+    {
+      "file_name": "val_056_result_Bmr012_chunk_5",
+      "tfidf_cosine": 0.07745176296526268,
+      "embedding_cosine": 0.7983996466205374
+    },
+    {
+      "file_name": "val_044_result_Bed010_chunk_1",
+      "tfidf_cosine": 0.11555374101503295,
+      "embedding_cosine": 0.8414424613212452
+    },
+    {
+      "file_name": "val_056_result_Bmr012_chunk_2",
+      "tfidf_cosine": 0.14973314199915827,
+      "embedding_cosine": 0.8587219168769264
+    },
+    {
+      "file_name": "val_056_result_Bmr012_chunk_1",
+      "tfidf_cosine": 0.08225089157649967,
+      "embedding_cosine": 0.7919938099697645
+    },
+    {
+      "file_name": "val_058_result_Bro004_chunk_2",
+      "tfidf_cosine": 0.1344845743712801,
+      "embedding_cosine": 0.8354488589560665
+    },
+    {
+      "file_name": "val_009_result_Bmr001_chunk_2",
+      "tfidf_cosine": 0.31181651916946385,
+      "embedding_cosine": 0.9420036579233673
+    },
+    {
+      "file_name": "val_066_result_Bed002_chunk_6",
+      "tfidf_cosine": 0.2418596565614485,
+      "embedding_cosine": 0.8972730105601654
+    },
+    {
+      "file_name": "val_041_result_ES2004a",
+      "tfidf_cosine": 0.15924835687525,
+      "embedding_cosine": 0.910938042857527
+    },
+    {
+      "file_name": "val_006_result_Bmr019_chunk_4",
+      "tfidf_cosine": 0.2885623769110242,
+      "embedding_cosine": 0.9227259116608676
+    },
+    {
+      "file_name": "val_046_result_Bmr028_chunk_6",
+      "tfidf_cosine": 0.1771978199546265,
+      "embedding_cosine": 0.9029326709419436
+    },
+    {
+      "file_name": "val_044_result_Bed010_chunk_4",
+      "tfidf_cosine": 0.20376560840842547,
+      "embedding_cosine": 0.8976787972467539
+    },
+    {
+      "file_name": "val_062_result_TS3006c_chunk_3",
+      "tfidf_cosine": 0.22078975388198666,
+      "embedding_cosine": 0.94568075193179
+    },
+    {
+      "file_name": "val_030_result_Bed009_chunk_5",
+      "tfidf_cosine": 0.1119580845351593,
+      "embedding_cosine": 0.8400538382587646
+    },
+    {
+      "file_name": "val_045_result_TS3012c_chunk_2",
+      "tfidf_cosine": 0.21463334071640164,
+      "embedding_cosine": 0.9057472548304144
+    },
+    {
+      "file_name": "val_048_result_Bmr006_chunk_3",
+      "tfidf_cosine": 0.09355832369734961,
+      "embedding_cosine": 0.8194413406922714
+    },
+    {
+      "file_name": "val_021_result_Bro011_chunk_2",
+      "tfidf_cosine": 0.23530723381157162,
+      "embedding_cosine": 0.8113776045664124
+    },
+    {
+      "file_name": "val_021_result_Bro011_chunk_1",
+      "tfidf_cosine": 0.09603848481137815,
+      "embedding_cosine": 0.8741651198871954
+    },
+    {
+      "file_name": "val_056_result_Bmr012_chunk_3",
+      "tfidf_cosine": 0.12399694548239079,
+      "embedding_cosine": 0.934560476484859
+    },
+    {
+      "file_name": "val_010_result_Bro003_chunk_4",
+      "tfidf_cosine": 0.06642014331297966,
+      "embedding_cosine": 0.8556669345449581
+    },
+    {
+      "file_name": "val_036_result_Bed013_chunk_3",
+      "tfidf_cosine": 0.29330191413812046,
+      "embedding_cosine": 0.8564456497294929
+    },
+    {
+      "file_name": "val_061_result_TS3009b_chunk_3",
+      "tfidf_cosine": 0.2088577432317159,
+      "embedding_cosine": 0.9471253287912503
+    },
+    {
+      "file_name": "val_004_result_ES2014d_chunk_1",
+      "tfidf_cosine": 0.20344772908008146,
+      "embedding_cosine": 0.8601315671471171
+    },
+    {
+      "file_name": "val_049_result_Bro028_chunk_1",
+      "tfidf_cosine": 0.10794679763559333,
+      "embedding_cosine": 0.8624211763342788
+    },
+    {
+      "file_name": "val_029_result_Bed016_chunk_2",
+      "tfidf_cosine": 0.09872073389856109,
+      "embedding_cosine": 0.8083228596210411
+    },
+    {
+      "file_name": "val_002_result_ES2014a",
+      "tfidf_cosine": 0.16476521748416753,
+      "embedding_cosine": 0.9641369340708703
+    },
+    {
+      "file_name": "val_055_result_ES2007b_chunk_2",
+      "tfidf_cosine": 0.18218496196711595,
+      "embedding_cosine": 0.876500005901619
+    },
+    {
+      "file_name": "val_049_result_Bro028_chunk_2",
+      "tfidf_cosine": 0.1791813423475065,
+      "embedding_cosine": 0.9118503808535638
+    },
+    {
+      "file_name": "val_026_result_ES2015c_chunk_2",
+      "tfidf_cosine": 0.18888574328938,
+      "embedding_cosine": 0.8497509034726783
+    },
+    {
+      "file_name": "val_043_result_ES2007d_chunk_1",
+      "tfidf_cosine": 0.14248961066072766,
+      "embedding_cosine": 0.8790393904679865
+    },
+    {
+      "file_name": "val_035_result_IS1000d_chunk_3",
+      "tfidf_cosine": 0.1679742543733974,
+      "embedding_cosine": 0.8725224658206593
+    },
+    {
+      "file_name": "val_019_result_ES2013a",
+      "tfidf_cosine": 0.22010846893975808,
+      "embedding_cosine": 0.9503878201163731
+    },
+    {
+      "file_name": "val_022_result_ES2002c_chunk_2",
+      "tfidf_cosine": 0.22099370813686842,
+      "embedding_cosine": 0.9299387288341476
+    },
+    {
+      "file_name": "val_017_result_IS1007b_chunk_2",
+      "tfidf_cosine": 0.10403651572003839,
+      "embedding_cosine": 0.8746916044701003
+    },
+    {
+      "file_name": "val_056_result_Bmr012_chunk_4",
+      "tfidf_cosine": 0.26981131144882364,
+      "embedding_cosine": 0.9297279659326129
+    },
+    {
+      "file_name": "val_026_result_ES2015c_chunk_1",
+      "tfidf_cosine": 0.19555037905712455,
+      "embedding_cosine": 0.9100986541415377
+    },
+    {
+      "file_name": "val_051_result_TS3010a",
+      "tfidf_cosine": 0.1484465994410697,
+      "embedding_cosine": 0.7986650073639441
+    },
+    {
+      "file_name": "val_009_result_Bmr001_chunk_3",
+      "tfidf_cosine": 0.17681603880705485,
+      "embedding_cosine": 0.8337064347336431
+    },
+    {
+      "file_name": "val_030_result_Bed009_chunk_4",
+      "tfidf_cosine": 0.11199715096127413,
+      "embedding_cosine": 0.896944108775069
+    },
+    {
+      "file_name": "val_034_result_Bed012_chunk_4",
+      "tfidf_cosine": 0.15465818443547832,
+      "embedding_cosine": 0.8301297871054235
+    },
+    {
+      "file_name": "val_028_result_ES2012d",
+      "tfidf_cosine": 0.1102254405552228,
+      "embedding_cosine": 0.8759415809403887
+    },
+    {
+      "file_name": "val_029_result_Bed016_chunk_4",
+      "tfidf_cosine": 0.09786505882255926,
+      "embedding_cosine": 0.8006254250690786
+    },
+    {
+      "file_name": "val_024_result_TS3004a",
+      "tfidf_cosine": 0.2057017754224274,
+      "embedding_cosine": 0.9336977401579194
+    },
+    {
+      "file_name": "val_012_result_TS3008d_chunk_3",
+      "tfidf_cosine": 0.18471431381178355,
+      "embedding_cosine": 0.9447665473128001
+    },
+    {
+      "file_name": "val_005_result_ES2003b_chunk_1",
+      "tfidf_cosine": 0.24173052905028025,
+      "embedding_cosine": 0.940054531287124
+    },
+    {
+      "file_name": "val_010_result_Bro003_chunk_2",
+      "tfidf_cosine": 0.21173406490626429,
+      "embedding_cosine": 0.8938165508174724
+    },
+    {
+      "file_name": "val_046_result_Bmr028_chunk_2",
+      "tfidf_cosine": 0.11827364297450697,
+      "embedding_cosine": 0.8785324648352625
+    },
+    {
+      "file_name": "val_048_result_Bmr006_chunk_6",
+      "tfidf_cosine": 0.17028217179776703,
+      "embedding_cosine": 0.922163645269115
+    },
+    {
+      "file_name": "val_016_result_ES2015a",
+      "tfidf_cosine": 0.1985844924299881,
+      "embedding_cosine": 0.8960002655407704
+    },
+    {
+      "file_name": "val_058_result_Bro004_chunk_3",
+      "tfidf_cosine": 0.12185372115373602,
+      "embedding_cosine": 0.7876733682329955
+    },
+    {
+      "file_name": "val_044_result_Bed010_chunk_3",
+      "tfidf_cosine": 0.24439723696712595,
+      "embedding_cosine": 0.8247713358732321
+    },
+    {
+      "file_name": "val_025_result_IS1000b_chunk_2",
+      "tfidf_cosine": 0.2159463428069185,
+      "embedding_cosine": 0.9433421358082403
+    },
+    {
+      "file_name": "val_046_result_Bmr028_chunk_3",
+      "tfidf_cosine": 0.1524763033587196,
+      "embedding_cosine": 0.9122502100439823
+    },
+    {
+      "file_name": "val_040_result_Bmr013_chunk_5",
+      "tfidf_cosine": 0.1059641773218085,
+      "embedding_cosine": 0.9026017725984389
+    },
+    {
+      "file_name": "val_040_result_Bmr013_chunk_1",
+      "tfidf_cosine": 0.28815783759330654,
+      "embedding_cosine": 0.8893751474165899
+    },
+    {
+      "file_name": "val_031_result_IS1001b_chunk_2",
+      "tfidf_cosine": 0.2865867418753984,
+      "embedding_cosine": 0.9676262606636369
+    },
+    {
+      "file_name": "val_066_result_Bed002_chunk_4",
+      "tfidf_cosine": 0.19218255135271248,
+      "embedding_cosine": 0.8182529740688906
+    },
+    {
+      "file_name": "val_011_result_IS1007d_chunk_1",
+      "tfidf_cosine": 0.151882954607554,
+      "embedding_cosine": 0.9499202649426749
+    },
+    {
+      "file_name": "val_066_result_Bed002_chunk_3",
+      "tfidf_cosine": 0.12608484150383567,
+      "embedding_cosine": 0.8168932641176587
+    },
+    {
+      "file_name": "val_062_result_TS3006c_chunk_2",
+      "tfidf_cosine": 0.2277842664554387,
+      "embedding_cosine": 0.846431618247663
+    },
+    {
+      "file_name": "val_036_result_Bed013_chunk_4",
+      "tfidf_cosine": 0.18033073182090328,
+      "embedding_cosine": 0.8539023841588735
+    },
+    {
+      "file_name": "val_044_result_Bed010_chunk_6",
+      "tfidf_cosine": 0.14845316447582457,
+      "embedding_cosine": 0.9479665118726758
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "train_253_chunk_4",
+  "source_dir": "result_Btr001_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"Tigerfish 시스템 오류 식별 및 사용자 경험 최적화 프로젝트\",\n    \"project_purpose\": \"Tigerfish 시스템의 오류를 체계적으로 식별하고 수정하여 사용자 경험을 최적화하며, 시스템의 신뢰성을 강화한다.\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_E\",\n    \"core_objectives\": [\n        \"목표 1: 회의에서 논의된 구체적인 오류 사례(TF 표기 오류, 구두점 및 대문자 사용 오류, 시간 단위 수정 필요성)를 식별하고 우선순위에 따라 수정한다.\",\n        \"목표 2: 사용자 피드백을 기반으로 시스템 개선 방안을 마련하고, 사용자 경험을 향상시킨다.\",\n        \"목표 3: 개선된 시스템의 성능을 테스트하고 검증하여 안정성과 신뢰성을 확보한다.\"\n    ],\n    \"core_idea\": \"회의에서 논의된 구체적인 오류를 체계적으로 분석하고, 사용자 경험을 개선하기 위한 구체적인 해결책을 제시한다.\",\n    \"idea_description\": \"현재 Tigerfish 시스템에는 여러 오류가 존재하며, 이는 사용자 경험을 저해하고 있다. 특히, TF 표기 오류, 구두점 및 대문자 사용 오류, 시간 단위 수정 필요성을 식별하고, 사용자 피드백을 반영하여 시스템을 개선함으로써 사용자 만족도를 높인다.\",\n    \"execution_plan\": [\n        \"1단계: 회의에서 논의된 구체적인 오류 사례 식별 및 분석 (2024.01.01 ~ 2024.01.31)\",\n        \"2단계: 사용자 피드백 수집 및 개선 방안 마련 (2024.02.01 ~ 2024.02.28)\",\n        \"3단계: 시스템 개선 및 테스트 (2024.03.01 ~ 2024.03.31)\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 구체적인 오류 사례의 감소로 인한 사용자 만족도 증가\",\n        \"기대효과 2: 개선된 시스템의 안정성 및 신뢰성 향상\",\n        \"기대효과 3: 사용자 피드백을 반영한 지속적인 시스템 개선\"\n    ],\n    \"meeting_discussions\": [\n        \"회의에서 논의된 주요 오류 사례: TF 표기 오류, 구두점 및 대문자 사용 오류, 시간 단위 수정 필요성\",\n        \"회의에서 결정된 사항: 오류 식별 후 우선순위에 따라 수정, 사용자 피드백 반영하여 개선 방안 마련\",\n        \"회의에서 언급된 추가 사항: 사용자 경험을 저해하는 요소로서 전경 화자 식별의 어려움과 디지털 인터페이스 부재로 인한 오디오테이프 사용 문제\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Btr001_processed/05_final_result.json",
+    "utterance_count": 987,
+    "original_transcript_length": 30604,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 30604
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 7,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-04T08:48:56.454116"
+  }
+}

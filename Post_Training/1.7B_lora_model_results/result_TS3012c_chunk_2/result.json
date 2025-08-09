@@ -1,0 +1,68 @@
+{
+  "id": "result_TS3012c_chunk_2",
+  "source_dir": "result_TS3012c",
+  "notion_output": {
+    "project_name": "리모컨 디자인 개선 및 시장 확산 프로젝트",
+    "project_purpose": "새로운 디자인 패턴을 통해 시장 경쟁력을 강화하고, 고객 요구에 맞춘 다양한 기능을 탑재하여 브랜드 이미지를 한층 더 높이는 동시에 판매량을 증가시키는 것",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 새로운 디자인 패턴 적용으로 시장 경쟁력 강화",
+      "목표 2: 다양한 기능 탑재로 고객 만족도 향상",
+      "목표 3: 생산성 향상 및 효율적 배포 방안 마련"
+    ],
+    "core_idea": "LCD 화면과 티타늄 곡선을 결합하여 시각적으로 매력적인 디자인을 도입",
+    "idea_description": "LCD 화면을 활용하여 시각적 매력성을 높이고, 티타늄 곡선을 적용하여 디자인을 더욱 세련되게 함으로써 시장에서의 경쟁력을 강화하며, 다양한 기능을 탑재하여 고객의 요구에 맞춘 제품을 개발한다.",
+    "execution_plan": [
+      {
+        "phase": "디자인 개념 검토",
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "activities": [
+          "LCD와 티타늄 곡선의 혁신적 결합을 위한 디자인 개념 검토",
+          "시장 트렌드 및 고객 피드백을 반영한 디자인 개발 방향 설정"
+        ]
+      },
+      {
+        "phase": "기술적 구현 및 테스트",
+        "duration": "2025.01.16 ~ 2025.02.28",
+        "activities": [
+          "디자인을 기반으로 티타늄 곡선을 적용한 제품 구조 설계",
+          "LCD 화면과 티타늄 곡선을 결합한 제품의 기능적 테스트",
+          "고객 피드백을 반영한 최종 디자인 수정 및 보완"
+        ]
+      },
+      {
+        "phase": "생산 준비 및 배포",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "activities": [
+          "디자인 최종 확정 후 생산 준비",
+          "시장에 대한 포지셔닝 마케팅 전략 수립",
+          "배송 및 판매 계획 수립"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 시장 경쟁력 강화로 인한 판매량 증가",
+      "기대효과 2: 고객 만족도 향상으로 인한 브랜드 이미지 개선",
+      "기대효과 3: 생산성 향상으로 인한 비용 절감 및 효율적 배포"
+    ]
+  },
+  "metadata": {
+    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_TS3012c/05_final_result.json",
+    "utterance_count": 425,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 14077,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-07T02:56:25.170321"
+  }
+}

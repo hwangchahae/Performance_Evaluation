@@ -1,0 +1,51 @@
+{
+  "id": "train_050_chunk_5",
+  "source_dir": "result_제22대국회 제427회(임시회) 제2차 환경노동위원회(전체회의) (2025.07.16.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"노조법 개정 및 직장 내 괴롭힘 근절 프로젝트\",\n    \"project_purpose\": \"노조법 개정을 통해 노동자의 권리를 보호하고 직장 내 괴롭힘을 근절하여 노동 환경을 개선한다.\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"김영훈\",\n    \"core_objectives\": [\n        \"목표 1: 노조법 2·3조 개정을 통해 실질적 사용자 책임을 명확히 한다.\",\n        \"목표 2: 직장 내 괴롭힘 사례를 조사하고 근절 방안을 마련한다.\",\n        \"목표 3: 노동자 권리 보호를 위한 법적 지원 체계를 강화한다.\"\n    ],\n    \"core_idea\": \"노동 환경 개선을 위한 법적 제도 정비\",\n    \"idea_description\": \"노조법 개정을 통해 사용자 책임을 명확히 하고, 직장 내 괴롭힘을 근절하여 노동자들이 안전하고 공정한 환경에서 일할 수 있도록 법적 지원 체계를 강화한다.\",\n    \"execution_plan\": \"1단계: 노조법 개정안 마련 및 국회 제출 (2024.01.01 ~ 2024.03.31)\\n2단계: 직장 내 괴롭힘 사례 조사 및 보고서 작성 (2024.02.01 ~ 2024.04.30)\\n3단계: 법적 지원 체계 강화 방안 마련 및 시행 (2024.03.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 노동자 권리 보호 강화로 인한 노동 환경 개선\",\n        \"기대효과 2: 직장 내 괴롭힘 감소로 인한 근로자 만족도 향상\",\n        \"기대효과 3: 노사 간 갈등 감소로 인한 산업 평화 조성\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.8,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제427회(임시회) 제2차 환경노동위원회(전체회의) (2025.07.16.)/05_final_result.json",
+    "utterance_count": 2081,
+    "original_transcript_length": 117704,
+    "speakers": [
+      "고용노동부장관후보자 김영훈",
+      "조지연 위원",
+      "위원장대리 김형동",
+      "우재준 위원",
+      "참고인 강철",
+      "이학영 위원",
+      "정혜경 위원",
+      "위원장 안호영",
+      "김위상 위원",
+      "김주영 위원",
+      "박정 위원",
+      "이용우 위원",
+      "김태선 위원",
+      "김형동 위원",
+      "송언석 위원",
+      "박해철 위원",
+      "김소희 위원",
+      "강득구 위원",
+      "박홍배 위원",
+      "위원장대리 김주영"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 27,
+      "original_length": 117704
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 27,
+      "chunk_length": 5000
+    },
+    "dataset_type": "train",
+    "processing_date": "2025-08-03T19:56:02.277051"
+  }
+}
