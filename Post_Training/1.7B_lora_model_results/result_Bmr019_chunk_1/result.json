@@ -1,61 +1,54 @@
 {
-  "id": "result_Bmr019_processed_chunk_1",
-  "source_dir": "result_Bmr019_processed",
+  "id": "result_Bmr019_chunk_1",
+  "source_dir": "result_Bmr019",
   "notion_output": {
-    "project_name": "TI-digits 인식 최적화 프로젝트",
-    "project_purpose": "TI-digits 데이터베이스를 활용하여 스피커 ID 추출 및 인식 정확도를 향상",
-    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_name": "TI-digits 및 SRI 시스템 최적화 프로젝트",
+    "project_purpose": "TI-digits 데이터베이스와 SRI 시스템을 통해 다양한 화자의 숫자 인식 능력을 향상하고, 시스템의 효율성을 증대시킨다.",
+    "project_period": "2025.01.01 ~ 2025.03.31",
     "project_manager": "Speaker_D",
     "core_objectives": [
-      "TI-digits 데이터베이스를 통한 스피커 ID 추출 및 인식 정확도 향상",
-      "파형 이름을 통해 스피커 ID 추출 및 분석",
-      "SRI 시스템을 활용한 광대역 훈련 모델 적용",
-      "데이터 수집 및 처리를 통한 인식 성능 최적화"
+      "목표 1: TI-digits 데이터베이스와 SRI 시스템을 통한 숫자 인식 성능 향상",
+      "목표 2: 다양한 화자의 숫자 인식 능력을 확보하기 위한 데이터 수집 및 처리 방안 마련",
+      "목표 3: 시스템의 효율성 및 정확성을 높이는 알고리즘 개선"
     ],
-    "core_idea": "TI-digits 데이터베이스를 활용하여 스피커 ID 추출 및 인식 정확도를 향상하기 위한 최적화 방안을 마련",
-    "idea_description": "TI-digits 데이터베이스를 통해 스피커 ID를 추출하고, 이를 이용하여 인식 정확도를 향상시키며, SRI 시스템을 활용한 광대역 훈련 모델을 적용하여 인식 성능을 최적화한다.",
+    "core_idea": "TI-digits 데이터베이스와 SRI 시스템을 활용하여 다양한 화자의 숫자 인식을 개선한다.",
+    "idea_description": "TI-digits 데이터베이스를 통해 다양한 화자의 숫자 인식을 향상시키며, SRI 시스템을 통해 시스템의 효율성을 높인다. 특히, TI-digits 데이터베이스와 SRI 시스템을 결합하여 더욱 정교한 인식을 도모한다.",
     "execution_plan": [
       {
         "phase": "데이터 수집 및 준비",
-        "duration": "2024.01.01 ~ 2024.01.15",
-        "description": "TI-digits 데이터베이스의 스피커 ID 추출 및 분석을 위한 데이터 수집 및 준비"
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "description": "TI-digits 데이터베이스와 SRI 시스템을 통해 필요한 데이터를 수집하고 준비한다."
       },
       {
-        "phase": "파형 이름을 통한 스피커 ID 추출 및 분석",
-        "duration": "2024.01.16 ~ 2024.02.15",
-        "description": "파형 이름을 통해 스피커 ID를 추출하고, 이를 이용하여 인식 정확도를 분석"
+        "phase": "알고리즘 개선 및 테스트",
+        "duration": "2025.01.16 ~ 2025.02.15",
+        "description": "TI-digits 데이터베이스와 SRI 시스템을 통한 알고리즘 개선 및 테스트를 진행한다."
       },
       {
-        "phase": "SRI 시스템 활용 광대역 훈련 모델 적용",
-        "duration": "2024.02.16 ~ 2024.03.15",
-        "description": "SRI 시스템을 활용하여 광대역 훈련 모델을 적용하여 인식 성능을 최적화"
-      },
-      {
-        "phase": "인식 성능 최적화 및 검증",
-        "duration": "2024.03.16 ~ 2024.03.31",
-        "description": "최종 인식 성능을 검증하고, 필요한 수정 및 개선사항을 반영"
+        "phase": "최종 검증 및 발표",
+        "duration": "2025.02.16 ~ 2025.03.31",
+        "description": "최종 검증을 통해 성능을 검토하고, 결과를 발표한다."
       }
     ],
     "expected_effects": [
-      "인식 정확도의 10% 이상 증가",
-      "데이터 수집 및 처리 과정에서의 효율성 향상",
-      "SRI 시스템을 통한 광대역 훈련 모델의 적용으로 인식 성능의 극대화",
-      "회원들의 만족도 향상 및 사용자 경험 개선"
+      "기대효과 1: TI-digits 데이터베이스와 SRI 시스템을 통한 숫자 인식 성능 향상",
+      "기대효과 2: 다양한 화자의 숫자 인식 능력을 확보하여 시스템의 다양성 증대",
+      "기대효과 3: 시스템의 효율성 및 정확성을 높여 운영 비용 절감"
     ]
   },
   "metadata": {
-    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr019_processed/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bmr019/05_final_result.json",
     "utterance_count": 630,
     "speakers": [
-      "Speaker_A",
-      "Speaker_B",
       "Speaker_E",
-      "Speaker_I",
-      "Speaker_C",
-      "Speaker_D",
-      "Speaker_H",
+      "Speaker_B",
       "Speaker_F",
-      "Speaker_G"
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_I"
     ],
     "original_length": 21243,
     "chunking_info": {
@@ -64,6 +57,6 @@
     },
     "is_chunk": true,
     "chunk_index": 1,
-    "processing_date": "2025-08-07T02:59:47.428729"
+    "processing_date": "2025-08-09T23:37:50.604800"
   }
 }

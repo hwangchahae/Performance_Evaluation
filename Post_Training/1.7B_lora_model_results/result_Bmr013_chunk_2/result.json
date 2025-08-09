@@ -1,52 +1,57 @@
 {
-  "id": "result_Bmr013_processed_chunk_2",
-  "source_dir": "result_Bmr013_processed",
+  "id": "result_Bmr013_chunk_2",
+  "source_dir": "result_Bmr013",
   "notion_output": {
-    "project_name": "노션 및 전사본 통합 플랫폼 개발",
-    "project_purpose": "노션과 전사본을 통합하여 효율적인 정보 처리 및 분석을 지원하며, 다양한 사용자층을 위한 접근성을 높임",
+    "project_name": "Switchboard 및 사전 시스템 통합 프로젝트",
+    "project_purpose": "Switchboard의 다양한 기능을 활용하여 사전 시스템과의 통합을 통해 효율성을 극대화하고, 다양한 사용자 요구사항을 충족시킴",
     "project_period": "2025.01.01 ~ 2025.03.31",
-    "project_manager": "Speaker_E",
+    "project_manager": "Speaker_D",
     "core_objectives": [
-      "목표 1: 노션과 전사본의 데이터베이스 통합 및 저장",
-      "목표 2: 다양한 사용자층을 위한 접근성 강화",
-      "목표 3: 전사본의 효율적 분석 및 활용"
+      "목표 1: Switchboard의 다양한 기능을 사전 시스템과 통합하여 사용자 경험 향상",
+      "목표 2: 다양한 사용자 요구사항을 반영한 시스템 개선",
+      "목표 3: 전화 라벨링 및 기타 관련 기능의 최적화"
     ],
-    "core_idea": "노션과 전사본을 통합하여 데이터를 원활하게 관리하고 분석할 수 있도록 함",
-    "idea_description": "노션과 전사본의 데이터를 통합하여 사용자의 요구에 따라 다양한 형태로 제공하고, 효율적인 정보 검색 및 분석을 지원함.",
+    "core_idea": "Switchboard와 사전 시스템의 통합을 통해 사용자의 다양한 요구를 충족시키고, 시스템의 효율성을 높임",
+    "idea_description": "Switchboard의 다양한 기능을 사전 시스템과 결합하여 사용자에게 더욱 편리한 서비스를 제공함. 또한, 사용자 요구사항을 반영하여 시스템을 개선하고, 전화 라벨링 등 기타 관련 기능을 최적화하여 사용자 만족도를 높임.",
     "execution_plan": [
       {
-        "phase": "데이터 수집 및 준비",
-        "duration": "2025.01.01 ~ 2025.01.31",
-        "details": "노션과 전사본의 데이터를 수집하고 준비하여 초기 데이터베이스를 구축."
+        "phase": "설계 및 기초 시스템 검토",
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "description": "Switchboard와 사전 시스템의 기능을 분석하고, 통합 방향성을 결정하며, 초기 설계를 완료."
       },
       {
-        "phase": "시스템 설계 및 개발",
-        "duration": "2025.02.01 ~ 2025.02.28",
-        "details": "시스템 설계 및 개발을 진행하여 노션과 전사본을 통합하는 기능을 구현."
+        "phase": "통합 시스템 개발",
+        "duration": "2025.01.16 ~ 2025.02.28",
+        "description": "Switchboard와 사전 시스템을 통합하여 사용자 요구를 충족하는 시스템을 개발하고, 초기 버전을 출시."
       },
       {
-        "phase": "테스트 및 피드백 반영",
+        "phase": "테스트 및 피드백 수집",
         "duration": "2025.03.01 ~ 2025.03.15",
-        "details": "시스템을 테스트하고 사용자 피드백을 반영하여 개선점을 수정."
+        "description": "개발된 시스템을 실제 환경에 적용하고, 사용자로부터의 피드백을 수집하여 개선점을 파악."
+      },
+      {
+        "phase": "최종 수정 및 출시",
+        "duration": "2025.03.16 ~ 2025.03.31",
+        "description": "피드백을 반영하여 최종 시스템을 수정하고, 공식 출시."
       }
     ],
     "expected_effects": [
-      "기대효과 1: 데이터 관리의 효율성 증가",
-      "기대효과 2: 다양한 사용자층의 접근성 향상",
-      "기대효과 3: 전사본의 분석 및 활용의 다양성 확보"
+      "기대효과 1: 사용자 요구사항을 반영한 시스템 개선으로 사용자 만족도 증가",
+      "기대효과 2: 다양한 기능을 통합하여 사용자 경험 향상",
+      "기대효과 3: 전화 라벨링 및 기타 관련 기능의 최적화로 운영 비용 절감"
     ]
   },
   "metadata": {
-    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr013_processed/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bmr013/05_final_result.json",
     "utterance_count": 797,
     "speakers": [
-      "Speaker_A",
-      "Speaker_B",
       "Speaker_E",
-      "Speaker_C",
-      "Speaker_D",
+      "Speaker_B",
       "Speaker_F",
-      "Speaker_G"
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A"
     ],
     "original_length": 27322,
     "chunking_info": {
@@ -55,6 +60,6 @@
     },
     "is_chunk": true,
     "chunk_index": 2,
-    "processing_date": "2025-08-07T02:59:53.847663"
+    "processing_date": "2025-08-09T23:37:57.489639"
   }
 }

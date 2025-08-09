@@ -38,6 +38,7 @@ class ModelConfig:
     MAX_MODEL_LEN: int = 8192  # 최대 컨텍스트 길이
     DTYPE: str = "auto"  # 또는 "float16", "bfloat16"
     TRUST_REMOTE_CODE: bool = True  # Qwen 모델에 필요
+    QUANTIZATION: str = "awq"  # AWQ 4-bit 양자화 활성화
 
 
 @dataclass
@@ -159,17 +160,26 @@ class QwenVLLMMeetingGenerator:
             
             # vLLM 모델 초기화
             logger.info(f"vLLM 모델 로딩: {model_path}")
-            self.model = LLM(
-                model=model_path,
-                tensor_parallel_size=self.config.TENSOR_PARALLEL_SIZE,
-                gpu_memory_utilization=self.config.GPU_MEMORY_UTILIZATION,
-                max_model_len=self.config.MAX_MODEL_LEN,
-                dtype=self.config.DTYPE,
-                trust_remote_code=self.config.TRUST_REMOTE_CODE,
-                enforce_eager=False,  # CUDA graphs 사용 (더 빠름)
-                max_num_batched_tokens=self.config.MAX_MODEL_LEN,
-                max_num_seqs=256,  # 동시 처리 시퀀스 수
-            )
+            
+            # 기본 모델 설정
+            model_kwargs = {
+                "model": model_path,
+                "tensor_parallel_size": self.config.TENSOR_PARALLEL_SIZE,
+                "gpu_memory_utilization": self.config.GPU_MEMORY_UTILIZATION,
+                "max_model_len": self.config.MAX_MODEL_LEN,
+                "dtype": self.config.DTYPE,
+                "trust_remote_code": self.config.TRUST_REMOTE_CODE,
+                "enforce_eager": False,  # CUDA graphs 사용 (더 빠름)
+                "max_num_batched_tokens": self.config.MAX_MODEL_LEN,
+                "max_num_seqs": 256,  # 동시 처리 시퀀스 수
+            }
+            
+            # 양자화 설정 추가 (있으면)
+            if self.config.QUANTIZATION:
+                model_kwargs["quantization"] = self.config.QUANTIZATION
+                logger.info(f"양자화 방식: {self.config.QUANTIZATION}")
+            
+            self.model = LLM(**model_kwargs)
             
             # 샘플링 파라미터 설정
             self.sampling_params = SamplingParams(

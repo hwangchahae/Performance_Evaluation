@@ -1,0 +1,609 @@
+import json
+import os
+import logging
+from typing import List, Dict, Any, Optional, Tuple
+from datetime import datetime
+from pathlib import Path
+from dataclasses import dataclass, field
+from enum import Enum
+
+from vllm import LLM, SamplingParams
+from transformers import AutoTokenizer
+from huggingface_hub import login
+
+# 로깅 설정
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
+
+class ModelConfig:
+    """모델 설정 관리 클래스"""
+    BASE_MODEL_PATH: str = "Qwen/Qwen3-1.7B-AWQ"  # Hugging Face AWQ 모델
+    MAX_NEW_TOKENS: int = 2048
+    TEMPERATURE: float = 0.3
+    TOP_P: float = 0.9
+    REPETITION_PENALTY: float = 1.1
+    CHUNK_SIZE: int = 5000
+    CHUNK_OVERLAP: int = 512
+    TEST_FILE_LIMIT: int = 0  # 0이면 전체 파일 처리, 양수면 해당 개수만 처리
+    
+    # vLLM 전용 설정
+    TENSOR_PARALLEL_SIZE: int = 1  # GPU 수 (필요시 증가)
+    GPU_MEMORY_UTILIZATION: float = 0.9  # GPU 메모리 사용률
+    MAX_MODEL_LEN: int = 8192  # 최대 컨텍스트 길이
+    DTYPE: str = "auto"  # AWQ는 자동으로 int4 사용
+    QUANTIZATION: str = "awq"  # AWQ 양자화 명시
+    TRUST_REMOTE_CODE: bool = True  # Qwen 모델에 필요
+
+
+@dataclass
+class MeetingData:
+    """회의 데이터 구조체"""
+    transcript: Optional[str] = None
+    chunks: Optional[List[str]] = None
+    metadata: Dict[str, Any] = field(default_factory=dict)
+    
+    @property
+    def is_chunked(self) -> bool:
+        return self.chunks is not None
+
+
+@dataclass
+class ProcessingStats:
+    """처리 통계 관리"""
+    total: int = 0
+    processed: int = 0
+    success: int = 0
+    failed: int = 0
+    chunked: int = 0
+    
+    @property
+    def success_rate(self) -> float:
+        if self.processed == 0:
+            return 0.0
+        return (self.success / self.processed) * 100
+
+
+class QwenAWQMeetingGenerator:
+    """vLLM을 사용한 Qwen AWQ 모델 회의록 생성기"""
+    
+    def __init__(self, config: Optional[ModelConfig] = None):
+        """
+        생성자
+        
+        Args:
+            config: 모델 설정 객체
+        """
+        self.config = config or ModelConfig()
+        self.model = None
+        self.tokenizer = None
+        self.sampling_params = None
+        
+        self._initialize_model()
+    
+    
+    def _initialize_model(self) -> None:
+        """vLLM 모델 초기화"""
+        try:
+            logger.info("vLLM AWQ 모델 초기화 시작...")
+            
+            # 토크나이저 로드
+            self.tokenizer = AutoTokenizer.from_pretrained(self.config.BASE_MODEL_PATH)
+            if self.tokenizer.pad_token is None:
+                self.tokenizer.pad_token = self.tokenizer.eos_token
+            
+            # vLLM 모델 초기화 (AWQ 양자화)
+            logger.info(f"vLLM AWQ 모델 로딩: {self.config.BASE_MODEL_PATH}")
+            self.model = LLM(
+                model=self.config.BASE_MODEL_PATH,
+                quantization=self.config.QUANTIZATION,  # AWQ 양자화
+                tensor_parallel_size=self.config.TENSOR_PARALLEL_SIZE,
+                gpu_memory_utilization=self.config.GPU_MEMORY_UTILIZATION,
+                max_model_len=self.config.MAX_MODEL_LEN,
+                dtype=self.config.DTYPE,
+                trust_remote_code=self.config.TRUST_REMOTE_CODE,
+                enforce_eager=False,  # CUDA graphs 사용 (더 빠름)
+                max_num_batched_tokens=self.config.MAX_MODEL_LEN,
+                max_num_seqs=256,  # 동시 처리 시퀀스 수
+            )
+            
+            # 샘플링 파라미터 설정
+            self.sampling_params = SamplingParams(
+                temperature=self.config.TEMPERATURE,
+                top_p=self.config.TOP_P,
+                repetition_penalty=self.config.REPETITION_PENALTY,
+                max_tokens=self.config.MAX_NEW_TOKENS,
+                stop_token_ids=[self.tokenizer.eos_token_id] if self.tokenizer.eos_token_id else None,
+            )
+            
+            logger.info("vLLM AWQ 모델 로딩 완료!")
+            
+        except Exception as e:
+            logger.error(f"vLLM AWQ 모델 초기화 실패: {e}")
+            raise
+    
+    def find_meeting_files(self, base_dir: str) -> List[Path]:
+        """
+        회의 파일 검색
+        
+        Args:
+            base_dir: 검색할 기본 디렉토리
+            
+        Returns:
+            발견된 파일 경로 리스트
+        """
+        base_path = Path(base_dir)
+        if not base_path.exists():
+            logger.warning(f"디렉토리가 존재하지 않음: {base_dir}")
+            return []
+        
+        target_files = list(base_path.rglob("05_final_result.json"))
+        logger.info(f"{len(target_files)}개의 회의 파일 발견")
+        return target_files
+    
+    def chunk_text(self, text: str, chunk_size: int = 5000, overlap: int = 512) -> List[str]:
+        """텍스트를 청킹하여 나누기"""
+        if len(text) <= chunk_size:
+            return [text]
+        
+        chunks = []
+        start = 0
+        
+        while start < len(text):
+            end = start + chunk_size
+            
+            if end >= len(text):
+                chunk = text[start:]
+            else:
+                chunk = text[start:end]
+                
+                # 마지막 완전한 문장에서 끊기 시도
+                last_period = chunk.rfind('.')
+                last_newline = chunk.rfind('\n')
+                break_point = max(last_period, last_newline)
+                
+                if break_point > start + chunk_size // 2:
+                    chunk = text[start:break_point + 1]
+                    end = break_point + 1
+            
+            chunks.append(chunk.strip())
+            
+            if end >= len(text):
+                break
+                
+            start = end - overlap
+        
+        return chunks
+    
+    def load_meeting_data(self, file_path: Path) -> Optional[MeetingData]:
+        """
+        회의 데이터 로드
+        
+        Args:
+            file_path: 파일 경로
+            
+        Returns:
+            MeetingData 객체 또는 None
+        """
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            # 텍스트 변환
+            meeting_lines = []
+            speakers = set()
+            
+            for item in data:
+                timestamp = item.get('timestamp', 'Unknown')
+                speaker = item.get('speaker', 'Unknown')
+                text = item.get('text', '')
+                speakers.add(speaker)
+                meeting_lines.append(f"[{timestamp}] {speaker}: {text}")
+            
+            full_text = '\n'.join(meeting_lines)
+            
+            # 메타데이터 생성
+            metadata = {
+                "source_file": str(file_path),
+                "utterance_count": len(data),
+                "speakers": list(speakers),
+                "original_length": len(full_text)
+            }
+            
+            # 청킹 여부 결정
+            if len(full_text) > self.config.CHUNK_SIZE:
+                logger.info(f"긴 텍스트 감지 ({len(full_text)}자) - 청킹 처리")
+                chunks = self.chunk_text(full_text, self.config.CHUNK_SIZE, self.config.CHUNK_OVERLAP)
+                metadata["chunking_info"] = {
+                    "is_chunked": True,
+                    "total_chunks": len(chunks)
+                }
+                return MeetingData(chunks=chunks, metadata=metadata)
+            else:
+                metadata["chunking_info"] = {
+                    "is_chunked": False,
+                    "total_chunks": 1
+                }
+                return MeetingData(transcript=full_text, metadata=metadata)
+                
+        except Exception as e:
+            logger.error(f"파일 로드 오류 ({file_path}): {e}")
+            return None
+    
+    def generate_response(self, system_prompt: str, user_prompt: str) -> Optional[str]:
+        """
+        vLLM을 사용한 모델 응답 생성
+        
+        Args:
+            system_prompt: 시스템 프롬프트
+            user_prompt: 사용자 프롬프트
+            
+        Returns:
+            생성된 응답 또는 None
+        """
+        try:
+            messages = [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ]
+            
+            # 프롬프트 생성
+            prompt = self.tokenizer.apply_chat_template(
+                messages,
+                tokenize=False,
+                add_generation_prompt=True
+            )
+            
+            # vLLM 생성
+            outputs = self.model.generate(
+                prompts=[prompt],
+                sampling_params=self.sampling_params
+            )
+            
+
+            # 첫 번째 출력 가져오기
+            if outputs and len(outputs) > 0:
+                response = outputs[0].outputs[0].text
+                return response.strip()
+            
+            return None
+            
+        except Exception as e:
+            logger.error(f"응답 생성 오류: {e}")
+            return None
+    
+    def generate_batch_responses(self, prompts: List[Tuple[str, str]]) -> List[Optional[str]]:
+        """
+        배치 처리를 위한 vLLM 생성 (더 효율적)
+        
+        Args:
+            prompts: (system_prompt, user_prompt) 튜플 리스트
+            
+        Returns:
+            생성된 응답 리스트
+        """
+        try:
+            # 모든 프롬프트 준비
+            formatted_prompts = []
+            for system_prompt, user_prompt in prompts:
+                messages = [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt}
+                ]
+                prompt = self.tokenizer.apply_chat_template(
+                    messages,
+                    tokenize=False,
+                    add_generation_prompt=True
+                )
+                formatted_prompts.append(prompt)
+            
+            # vLLM 배치 생성
+            outputs = self.model.generate(
+                prompts=formatted_prompts,
+                sampling_params=self.sampling_params
+            )
+            
+            # 결과 추출
+            results = []
+            for output in outputs:
+                if output.outputs:
+                    results.append(output.outputs[0].text.strip())
+                else:
+                    results.append(None)
+            
+            return results
+            
+        except Exception as e:
+            logger.error(f"배치 응답 생성 오류: {e}")
+            return [None] * len(prompts)
+    
+    def parse_json_response(self, response: str) -> Dict[str, Any]:
+        """
+        JSON 응답 파싱
+        
+        Args:
+            response: 모델 응답 문자열
+            
+        Returns:
+            파싱된 딕셔너리
+        """
+        try:
+            # JSON 블록 추출
+            if "```json" in response:
+                start = response.find("```json") + 7
+                end = response.find("```", start)
+                response = response[start:end].strip()
+            elif "{" in response:
+                start = response.find("{")
+                end = response.rfind("}") + 1
+                response = response[start:end]
+            
+            return json.loads(response)
+        except json.JSONDecodeError:
+            logger.warning("JSON 파싱 실패, 원본 텍스트 반환")
+            return {"raw_text": response}
+    
+    def generate_notion_project(self, transcript: str) -> Dict[str, Any]:
+        """
+        노션 프로젝트 생성
+        
+        Args:
+            transcript: 회의록 텍스트
+            
+        Returns:
+            생성 결과
+        """
+        try:
+            # 프롬프트 임포트
+            from prd_generation_prompts import generate_notion_project_prompt
+            user_prompt = generate_notion_project_prompt(transcript)
+            system_prompt = """당신은 회의록을 분석하여 체계적인 프로젝트 기획안을 작성하는 전문가입니다.
+회의에서 논의된 내용을 바탕으로 명확하고 실행 가능한 기획안을 작성해주세요.
+응답은 반드시 요청된 JSON 형식으로만 제공하세요."""
+            
+            response = self.generate_response(system_prompt, user_prompt)
+            
+            if not response:
+                return {"success": False, "error": "응답 생성 실패"}
+            
+            result = self.parse_json_response(response)
+            return {"success": True, "result": result}
+            
+        except Exception as e:
+            logger.error(f"노션 프로젝트 생성 오류: {e}")
+            return {"success": False, "error": str(e)}
+    
+    def process_meeting(self, 
+                       meeting_data: MeetingData,
+                       output_dir: Path,
+                       file_index: int,
+                       parent_folder: str) -> Tuple[int, int]:
+        """
+        회의 데이터 처리
+        
+        Args:
+            meeting_data: 회의 데이터
+            output_dir: 출력 디렉토리
+            file_index: 파일 인덱스
+            parent_folder: 부모 폴더명
+            
+        Returns:
+            (성공 수, 실패 수) 튜플
+        """
+        success_count = 0
+        fail_count = 0
+        
+        if meeting_data.is_chunked:
+            # 청킹된 데이터 배치 처리 준비
+            batch_prompts = []
+            
+            from prd_generation_prompts import generate_notion_project_prompt
+            
+            system_prompt = """당신은 회의록을 분석하여 체계적인 프로젝트 기획안을 작성하는 전문가입니다.
+회의에서 논의된 내용을 바탕으로 명확하고 실행 가능한 기획안을 작성해주세요.
+응답은 반드시 요청된 JSON 형식으로만 제공하세요."""
+            
+            # 배치 프롬프트 준비
+            for chunk_text in meeting_data.chunks:
+                user_prompt = generate_notion_project_prompt(chunk_text)
+                batch_prompts.append((system_prompt, user_prompt))
+            
+            logger.info(f"{len(batch_prompts)}개 청크 배치 처리 시작")
+            
+            # 배치 생성
+            responses = self.generate_batch_responses(batch_prompts)
+            
+            # 결과 처리
+            total_chunks = len(meeting_data.chunks)
+            for chunk_idx, (chunk_text, response) in enumerate(zip(meeting_data.chunks, responses)):
+                # 청크가 1개면 _chunk_X 붙이지 않음
+                if total_chunks == 1:
+                    chunk_dir = output_dir / parent_folder
+                    chunk_id = parent_folder
+                else:
+                    chunk_dir = output_dir / f"{parent_folder}_chunk_{chunk_idx+1}"
+                    chunk_id = f"{parent_folder}_chunk_{chunk_idx+1}"
+                
+                chunk_dir.mkdir(exist_ok=True)
+                
+                if response:
+                    result_data = self.parse_json_response(response)
+                    
+                    chunk_result = {
+                        "id": chunk_id,
+                        "source_dir": parent_folder,
+                        "notion_output": result_data,
+                        "metadata": {
+                            **meeting_data.metadata,
+                            "is_chunk": total_chunks > 1,
+                            "chunk_index": chunk_idx + 1 if total_chunks > 1 else None,
+                                "processing_date": datetime.now().isoformat()
+                        }
+                    }
+                    
+                    with open(chunk_dir / "result.json", 'w', encoding='utf-8') as f:
+                        json.dump(chunk_result, f, ensure_ascii=False, indent=2)
+                    
+                    success_count += 1
+                    if total_chunks > 1:
+                        logger.info(f"청크 {chunk_idx+1}/{total_chunks} 저장 완료")
+                    else:
+                        logger.info(f"저장 완료")
+                else:
+                    fail_count += 1
+                    if total_chunks > 1:
+                        logger.error(f"청크 {chunk_idx+1}/{total_chunks} 생성 실패")
+                    else:
+                        logger.error(f"생성 실패")
+                    
+        else:
+            # 단일 텍스트 처리 (청크되지 않은 파일도 저장)
+            logger.info("전체 회의록 처리 중")
+            result = self.generate_notion_project(meeting_data.transcript)
+            
+            if result["success"]:
+                # 단일 파일도 저장
+                single_dir = output_dir / parent_folder
+                single_dir.mkdir(exist_ok=True)
+                
+                single_result = {
+                    "id": parent_folder,
+                    "source_dir": parent_folder,
+                    "notion_output": result["result"],
+                    "metadata": {
+                        **meeting_data.metadata,
+                        "is_chunk": False,
+                        "chunk_index": None,
+                        "processing_date": datetime.now().isoformat()
+                    }
+                }
+                
+                with open(single_dir / "result.json", 'w', encoding='utf-8') as f:
+                    json.dump(single_result, f, ensure_ascii=False, indent=2)
+                
+                success_count += 1
+                logger.info("저장 완료")
+            else:
+                fail_count += 1
+                logger.error(f"생성 실패: {result.get('error')}")
+        
+        return success_count, fail_count
+
+
+def setup_huggingface_auth() -> bool:
+    """
+    Hugging Face 인증 설정
+    
+    Returns:
+        인증 성공 여부
+    """
+    hf_token = os.getenv("HUGGINGFACE_TOKEN")
+    
+    if not hf_token:
+        logger.warning("HUGGINGFACE_TOKEN 환경변수가 설정되지 않았습니다.")
+        hf_token = input("Hugging Face 토큰을 입력하세요: ").strip()
+        if not hf_token:
+            logger.error("토큰이 입력되지 않았습니다.")
+            return False
+    
+    try:
+        login(token=hf_token)
+        logger.info("Hugging Face 로그인 성공!")
+        return True
+    except Exception as e:
+        logger.error(f"Hugging Face 로그인 실패: {e}")
+        return False
+
+
+def main():
+    """메인 실행 함수"""
+    logger.info("=" * 60)
+    logger.info("vLLM을 사용한 Qwen AWQ 모델 회의록 처리 시작!")
+    logger.info("=" * 60)
+    
+    # Hugging Face 인증
+    if not setup_huggingface_auth():
+        return
+    
+    # 설정 로드
+    config = ModelConfig()
+    
+    # 결과 저장 폴더 생성
+    output_dir = Path(f"1.7B_awq_model_results")
+    output_dir.mkdir(exist_ok=True)
+    logger.info(f"결과 저장 폴더: {output_dir}")
+    
+    # 모델 초기화
+    try:
+        generator = QwenAWQMeetingGenerator(config)
+    except Exception as e:
+        logger.error(f"모델 초기화 실패: {e}")
+        return
+    
+    # 회의 파일 검색
+    input_dir = "./Raw_Data_val"  # 런팟에서는 현재 디렉토리 기준
+    meeting_files = generator.find_meeting_files(input_dir)
+    
+    if not meeting_files:
+        logger.error(f"{input_dir} 폴더에서 파일을 찾을 수 없습니다.")
+        return
+    
+    # 테스트 모드 처리
+    if config.TEST_FILE_LIMIT > 0:
+        meeting_files = meeting_files[:config.TEST_FILE_LIMIT]
+        logger.info(f"테스트 모드: {len(meeting_files)}개 파일만 처리")
+    else:
+        logger.info(f"전체 파일 처리 모드: {len(meeting_files)}개 파일 처리")
+    
+    # 통계 초기화
+    stats = ProcessingStats(total=len(meeting_files))
+    dataset = []
+    
+    # 각 파일 처리
+    for i, file_path in enumerate(meeting_files, 1):
+        parent_folder = file_path.parent.name
+        logger.info(f"\n[{i}/{len(meeting_files)}] {parent_folder}/{file_path.name} 처리 중...")
+        
+        try:
+            # 데이터 로드
+            meeting_data = generator.load_meeting_data(file_path)
+            if not meeting_data:
+                stats.failed += 1
+                stats.processed += 1
+                continue
+            
+            if meeting_data.is_chunked:
+                stats.chunked += 1
+            
+            # 처리
+            success, fail = generator.process_meeting(
+                meeting_data, output_dir, i, parent_folder
+            )
+            
+            stats.success += success
+            stats.failed += fail
+            stats.processed += success + fail
+            
+        except Exception as e:
+            logger.error(f"처리 중 오류: {e}")
+            stats.failed += 1
+            stats.processed += 1
+    
+    # 결과 출력
+    logger.info("=" * 60)
+    logger.info("처리 완료 통계:")
+    logger.info(f"  전체 파일: {stats.total}개")
+    logger.info(f"  처리 완료: {stats.processed}개")
+    logger.info(f"  성공: {stats.success}개")
+    logger.info(f"  실패: {stats.failed}개")
+    logger.info(f"  청킹 처리: {stats.chunked}개")
+    logger.info(f"  성공률: {stats.success_rate:.1f}%")
+    
+    logger.info(f"\n✅ 모든 처리 완료! 결과는 {output_dir}에 저장되었습니다.")
+
+
+if __name__ == "__main__":
+    main()

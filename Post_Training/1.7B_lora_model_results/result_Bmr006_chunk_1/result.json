@@ -1,51 +1,48 @@
 {
-  "id": "result_Bmr006_processed_chunk_1",
-  "source_dir": "result_Bmr006_processed",
+  "id": "result_Bmr006_chunk_1",
+  "source_dir": "result_Bmr006",
   "notion_output": {
-    "project_name": "익명화된 회의 데이터 분석 및 활용 프로젝트",
-    "project_purpose": "회원들의 개인 정보를 익명화하여 데이터 수집의 비밀성을 유지하고, 분석을 통해 중요한 패턴을 발견하며, 이를 활용하여 교육 및 연구에 도움을 줍니다.",
+    "project_name": "익명화 및 데이터 분석 프로젝트",
+    "project_purpose": "회원들의 익명화된 이름을 통해 데이터의 특성과 패턴을 분석하여 의사결정을 개선하고 비밀 유지",
     "project_period": "2025.01.01 ~ 2025.03.31",
-    "project_manager": "Speaker_A",
+    "project_manager": "Liz",
     "core_objectives": [
-      "목표 1: 회의 데이터의 익명화 및 저장",
-      "목표 2: 데이터 분석을 통한 중요한 패턴 탐색",
-      "목표 3: 익명화된 데이터의 활용을 통한 교육 및 연구 지원"
+      "목표 1: 익명화된 이름을 사용하여 데이터의 특성과 패턴을 분석",
+      "목표 2: 회의의 주제와 관련된 데이터의 구조화 및 저장",
+      "목표 3: 익명화된 이름을 통해 회의의 질을 향상시키기 위한 분석"
     ],
-    "core_idea": "회원의 개인 정보를 익명화하여 데이터 수집의 비밀성을 유지하고, 분석을 통해 중요한 패턴을 탐색하여 교육 및 연구에 도움을 줍니다.",
-    "idea_description": "회원의 개인 정보를 익명화하여 데이터 수집의 비밀성을 유지하고, 분석을 통해 중요한 패턴을 탐색하여 교육 및 연구에 도움을 줍니다. 특히, 회의의 주제와 관련된 패턴을 탐색하여 교육 및 연구에 도움을 줍니다.",
+    "core_idea": "데이터의 익명화를 통해 회의의 질을 향상하고, 필요한 정보를 효율적으로 활용",
+    "idea_description": "회원들의 익명화된 이름을 사용하여 데이터의 특성과 패턴을 분석하며, 이를 통해 회의의 질을 향상시키고 필요한 정보를 효율적으로 활용합니다.",
     "execution_plan": [
       {
-        "phase": "데이터 수집 및 익명화",
-        "duration": "2025.01.01 ~ 2025.01.31",
-        "details": "회원의 개인 정보를 익명화하여 데이터 수집을 진행합니다."
+        "phase": "데이터 수집 및 준비",
+        "description": "회원들의 익명화된 이름을 사용하여 데이터를 수집하고, 필요한 정보를 구조화합니다."
       },
       {
-        "phase": "데이터 분석 및 패턴 탐색",
-        "duration": "2025.02.01 ~ 2025.02.28",
-        "details": "익명화된 데이터를 분석하여 중요한 패턴을 탐색합니다."
+        "phase": "데이터 분석 및 보고서 작성",
+        "description": "분석된 데이터를 통합하여 보고서를 작성하고, 필요한 정보를 효율적으로 활용합니다."
       },
       {
-        "phase": "결과물 제출 및 활용",
-        "duration": "2025.03.01 ~ 2025.03.31",
-        "details": "분석 결과물을 제출하고, 교육 및 연구에 활용합니다."
+        "phase": "보고서 제출 및 피드백 수집",
+        "description": "보고서를 제출하고, 피드백을 수집하여 프로젝트의 성공을 평가합니다."
       }
     ],
     "expected_effects": [
-      "기대효과 1: 개인정보 보호 및 데이터 수집의 비밀성 유지",
-      "기대효과 2: 중요한 패턴 탐색을 통한 교육 및 연구의 질 향상",
-      "기대효과 3: 익명화된 데이터의 활용을 통한 교육 및 연구 지원"
+      "기대효과 1: 데이터의 특성과 패턴을 분석하여 의사결정을 개선",
+      "기대효과 2: 익명화된 이름을 통해 회의의 질을 향상시키고 필요한 정보를 효율적으로 활용",
+      "기대효과 3: 회의의 질을 향상시키면서 필요한 정보를 효율적으로 활용"
     ]
   },
   "metadata": {
-    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr006_processed/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bmr006/05_final_result.json",
     "utterance_count": 1183,
     "speakers": [
-      "Speaker_A",
-      "Speaker_B",
       "Speaker_E",
-      "Speaker_C",
+      "Speaker_B",
+      "Speaker_F",
       "Speaker_D",
-      "Speaker_F"
+      "Speaker_C",
+      "Speaker_A"
     ],
     "original_length": 40348,
     "chunking_info": {
@@ -54,6 +51,6 @@
     },
     "is_chunk": true,
     "chunk_index": 1,
-    "processing_date": "2025-08-07T03:00:08.663578"
+    "processing_date": "2025-08-09T23:38:21.333145"
   }
 }

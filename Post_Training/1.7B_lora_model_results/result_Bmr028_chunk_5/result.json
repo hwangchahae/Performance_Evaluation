@@ -1,53 +1,58 @@
 {
-  "id": "result_Bmr028_processed_chunk_5",
-  "source_dir": "result_Bmr028_processed",
+  "id": "result_Bmr028_chunk_5",
+  "source_dir": "result_Bmr028",
   "notion_output": {
-    "project_name": "노션 기반 데이터 분석 및 예측 시스템 개발",
-    "project_purpose": "데이터 분석 및 예측을 위한 효율적인 시스템 구축 및 운영",
-    "project_period": "2024.01.01 ~ 2024.03.31",
-    "project_manager": "Speaker_H",
+    "project_name": "노션 기반 데이터 분석 및 채점 최적화 프로젝트",
+    "project_purpose": "데이터 분석 및 채점 과정에서의 효율성과 정확성을 극대화하고, 부정행위 관련 문제 해결을 위한 시스템 개선",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
     "core_objectives": [
-      "목표 1: 데이터 분석 및 예측을 위한 기준선 설정 및 채점 시스템 개선",
-      "목표 2: 다양한 데이터 유형의 분석을 통한 예측 모델 개발",
-      "목표 3: 노션 플랫폼 활용을 통한 시스템 운영 및 유지보수 지원"
+      "목표 1: 데이터 분석 및 채점 시스템의 효율성 향상",
+      "목표 2: 부정행위 관련 문제 해결을 위한 시스템 개선",
+      "목표 3: 다양한 데이터 세트를 통한 성능 평가 및 최적화"
     ],
-    "core_idea": "데이터 분석 및 예측을 위한 기준선 설정 및 채점 시스템 개선을 통해 효율적인 분석을 가능하게 함",
-    "idea_description": "회원들의 데이터 분석 및 예측을 위해 기준선을 설정하고, 이를 바탕으로 채점 시스템을 개선하여 데이터의 정확성을 높임.",
+    "core_idea": "데이터 분석 및 채점 시스템의 효율성과 정확성을 높이고, 부정행위 관련 문제를 해결하며, 다양한 데이터 세트를 활용하여 성능을 평가",
+    "idea_description": "현재 시스템의 한계를 극복하고, 데이터 분석 및 채점의 효율성을 높이며, 부정행위 관련 문제를 해결하기 위해 필요한 기술적 개선을 진행한다. 또한 다양한 데이터 세트를 통해 성능을 평가하고 최적화한다.",
     "execution_plan": [
       {
         "phase": "데이터 수집 및 준비",
-        "duration": "2024.01.01 ~ 2024.01.31",
-        "description": "다양한 데이터 유형을 수집하고, 필요한 preprocessing 작업을 수행."
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "description": "다양한 데이터 세트를 수집하고 준비하여 분석 및 채점 시스템에 적용"
       },
       {
-        "phase": "기준선 설정 및 채점 시스템 개선",
-        "duration": "2024.02.01 ~ 2024.02.28",
-        "description": "기준선을 설정하고, 채점 시스템을 개선하여 데이터의 정확성을 높임."
+        "phase": "시스템 개선 및 테스트",
+        "duration": "2025.01.16 ~ 2025.02.15",
+        "description": "데이터 분석 및 채점 시스템의 개선을 위한 기술적 개발 및 테스트 진행"
       },
       {
-        "phase": "모델 개발 및 테스트",
-        "duration": "2024.03.01 ~ 2024.03.15",
-        "description": "분석 모델을 개발하고, 다양한 데이터셋을 사용하여 테스트 및 피드백을 반영."
+        "phase": "부정행위 문제 해결 및 피드백 수집",
+        "duration": "2025.02.16 ~ 2025.02.28",
+        "description": "부정행위 관련 문제를 해결하고, 사용자 피드백을 수집하여 시스템 개선에 반영"
+      },
+      {
+        "phase": "최종 성능 평가 및 보고서 작성",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "description": "모든 작업을 완료한 후 성능 평가 및 보고서 작성"
       }
     ],
     "expected_effects": [
-      "기대효과 1: 데이터 분석의 정확도 향상",
-      "기대효과 2: 다양한 데이터 유형의 분석을 통한 예측 모델의 다양성 확보",
-      "기대효과 3: 노션 플랫폼을 활용한 시스템 운영 및 유지보수 지원으로의 효율성 증대"
+      "기대효과 1: 데이터 분석 및 채점의 효율성 향상으로 생산성 증가",
+      "기대효과 2: 부정행위 관련 문제 해결을 통한 시스템 안정성 확보",
+      "기대효과 3: 다양한 데이터 세트를 통한 성능 최적화 및 개선"
     ]
   },
   "metadata": {
-    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr028_processed/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bmr028/05_final_result.json",
     "utterance_count": 814,
     "speakers": [
-      "Speaker_A",
-      "Speaker_B",
       "Speaker_E",
-      "Speaker_C",
-      "Speaker_D",
-      "Speaker_H",
+      "Speaker_B",
       "Speaker_F",
-      "Speaker_G"
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A"
     ],
     "original_length": 27961,
     "chunking_info": {
@@ -56,6 +61,6 @@
     },
     "is_chunk": true,
     "chunk_index": 5,
-    "processing_date": "2025-08-07T02:59:33.933606"
+    "processing_date": "2025-08-09T23:37:35.649364"
   }
 }

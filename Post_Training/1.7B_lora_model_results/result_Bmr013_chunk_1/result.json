@@ -1,53 +1,52 @@
 {
-  "id": "result_Bmr013_processed_chunk_1",
-  "source_dir": "result_Bmr013_processed",
+  "id": "result_Bmr013_chunk_1",
+  "source_dir": "result_Bmr013",
   "notion_output": {
-    "project_name": "TI-Digits 데이터 처리 및 AI 모델 훈련 프로젝트",
-    "project_purpose": "TI-Digits 데이터의 최적화 및 AI 모델 훈련을 통해 데이터 활용 효율성을 극대화하고, 다양한 데이터 세트를 통합하여 최적의 성능을 달성함",
-    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_name": "TI-Digit Recognition System Enhancement Project",
+    "project_purpose": "TI-Digit 데이터를 통해 최첨단 인공지능 모델을 개발하여 다양한 산업에서의 적용 가능성을 극대화하고 비용 효율성을 높임",
+    "project_period": "2025.01.01 ~ 2025.03.31",
     "project_manager": "Speaker_D",
     "core_objectives": [
-      "목표 1: TI-Digits 데이터 세트의 최적화 및 필터링",
-      "목표 2: 다양한 데이터 세트(숫자, 뇌사 상태 등)의 통합 및 분석",
-      "목표 3: AI 모델의 훈련 및 테스트 세트 적용",
-      "목표 4: 데이터 처리 속도 및 정확도 향상을 위한 최적화 방안 도출"
+      "목표 1: TI-Digit 데이터를 이용한 최신 AI 모델 훈련 및 평가",
+      "목표 2: 데이터 처리 및 분석을 위한 최적의 알고리즘 개선",
+      "목표 3: 실시간 데이터 처리 시스템 구축 및 운영"
     ],
-    "core_idea": "데이터의 최적화 및 AI 모델의 훈련을 통해 데이터 활용 효율성을 높이고, 다양한 데이터 세트를 통합하여 최적의 성능을 달성함",
-    "idea_description": "TI-Digits 데이터 세트의 필터링 및 최적화를 통해 데이터의 질을 높이고, 다양한 데이터 세트를 통합하여 모델의 성능을 향상시킴. 또한, 데이터 처리 속도와 정확도를 최적화하여 실용성을 높임.",
+    "core_idea": "TI-Digit 데이터를 활용하여 최첨단 AI 모델을 개발하고, 이를 다양한 산업에 적용하여 경제적 가치를 창출함",
+    "idea_description": "TI-Digit 데이터를 훈련시키고, 이를 통해 최신 AI 모델을 개발하며, 데이터 처리 및 분석을 위한 최적의 알고리즘을 개선하여 실시간 처리 시스템을 구축함. 이를 통해 산업의 효율성을 극대화하고 비용을 절감함.",
     "execution_plan": [
       {
         "phase": "데이터 수집 및 준비",
-        "description": "TI-Digits 데이터 세트의 필터링 및 최적화를 위한 데이터 수집 및 준비 작업을 진행하며, 다양한 데이터 세트를 통합하여 데이터의 다양성을 확보함.",
-        "duration": "2주"
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "description": "TI-Digit 데이터를 수집하고, 필요한 필터링 및 분석을 수행하여 데이터의 신뢰성을 높임."
       },
       {
-        "phase": "AI 모델 훈련 및 검증",
-        "description": "훈련 세트와 테스트 세트를 사용하여 AI 모델의 성능을 테스트하고, 최적의 모델을 선택하여 데이터 처리를 수행함.",
-        "duration": "3주"
+        "phase": "모델 훈련 및 평가",
+        "duration": "2025.01.16 ~ 2025.02.28",
+        "description": "최신 AI 모델을 훈련하고, 데이터를 통해 모델의 성능을 평가하여 개선점을 도출함."
       },
       {
-        "phase": "최적화 및 개선",
-        "description": "모델의 성능을 평가하고, 데이터 처리 속도와 정확도를 최적화하여 실용성을 높임.",
-        "duration": "1주"
+        "phase": "알고리즘 개선 및 시스템 구축",
+        "duration": "2025.03.01 ~ 2025.03.15",
+        "description": "데이터 처리 및 분석을 위한 최적의 알고리즘을 개선하고, 실시간 처리 시스템을 구축하여 운영 가능성을 확보함."
       }
     ],
     "expected_effects": [
-      "기대효과 1: 데이터 처리 속도 및 정확도의 극대화로 비용 절감 및 생산성 증가",
-      "기대효과 2: 다양한 데이터 세트의 통합을 통해 모델의 성능 향상 및 신뢰성 강화",
-      "기대효과 3: 데이터 처리의 효율성 향상으로 고객 만족도 증가 및 사업 확장 가능성 확보"
+      "기대효과 1: TI-Digit 데이터를 통해 최첨단 AI 모델의 개발로 산업의 효율성 증대",
+      "기대효과 2: 실시간 데이터 처리 시스템을 구축하여 비용 절감 및 생산성 향상",
+      "기대효과 3: 다양한 산업에서의 적용 가능성 확대로 경제적 가치 창출"
     ]
   },
   "metadata": {
-    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bmr013_processed/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bmr013/05_final_result.json",
     "utterance_count": 797,
     "speakers": [
-      "Speaker_A",
-      "Speaker_B",
       "Speaker_E",
-      "Speaker_C",
-      "Speaker_D",
+      "Speaker_B",
       "Speaker_F",
-      "Speaker_G"
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A"
     ],
     "original_length": 27322,
     "chunking_info": {
@@ -56,6 +55,6 @@
     },
     "is_chunk": true,
     "chunk_index": 1,
-    "processing_date": "2025-08-07T02:59:53.842631"
+    "processing_date": "2025-08-09T23:37:57.485795"
   }
 }

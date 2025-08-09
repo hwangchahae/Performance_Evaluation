@@ -1,52 +1,66 @@
 {
-  "id": "result_Bed009_processed_chunk_1",
-  "source_dir": "result_Bed009_processed",
+  "id": "result_Bed009_chunk_1",
+  "source_dir": "result_Bed009",
   "notion_output": {
     "project_name": "SmartKom 인식 및 관광 정보 시스템 개발",
-    "project_purpose": "SmartKom 인식기에 대한 다양한 데이터 수집 및 처리를 통해 관광 정보를 제공하고, 장소로 가는 방법을 알려주는 시스템을 개발",
+    "project_purpose": "SmartKom 인식기에 대한 다양한 데이터 수집 및 처리를 통해 관광 정보를 효율적으로 제공하고, 이를 이용하여 관광 경험을 향상시키는 시스템 구축",
     "project_period": "2025.01.01 ~ 2025.03.31",
     "project_manager": "Speaker_D",
     "core_objectives": [
-      "목표 1: SmartKom 인식기의 기본 기능을 통합하여 관광 정보를 제공",
-      "목표 2: 다양한 데이터 입력을 받고, 이를 분석하여 관광 정보를 생성",
-      "목표 3: 시스템의 효율성을 높이고, 사용자 경험을 개선"
+      "목표 1: SmartKom 인식기의 기본 기능을 통합하여 데이터 수집 및 처리 시스템 구축",
+      "목표 2: 다양한 문장 및 구문 분석을 통해 관광 정보의 정확성을 높임",
+      "목표 3: 관광 정보를 제공하는 시스템을 설계 및 구현",
+      "목표 4: 데이터 수집 및 처리 과정에서 발생할 수 있는 문제를 해결하여 시스템의 안정성을 확보"
     ],
-    "core_idea": "SmartKom 인식기와 관련된 다양한 데이터를 수집하고, 이를 분석하여 관광 정보를 제공하는 시스템을 개발",
-    "idea_description": "SmartKom 인식기의 기본 기능을 통합하여 관광 정보를 제공하고, 다양한 데이터 입력을 받으며 이를 분석하여 관광 정보를 생성하며, 시스템의 효율성을 높이는 과정",
+    "core_idea": "SmartKom 인식기와 관련된 다양한 데이터를 수집하고, 이를 통해 관광 정보를 제공하는 시스템을 구축",
+    "idea_description": "SmartKom 인식기의 기능을 활용하여 다양한 문장을 분석하고, 이를 통해 관광 정보를 제공하는 시스템을 구축하며, 이를 통해 관광 경험을 향상시킴",
     "execution_plan": [
       {
-        "phase": "데이터 수집 및 초기 설정",
+        "phase": "데이터 수집 및 초기 분석",
         "duration": "2025.01.01 ~ 2025.01.31",
-        "description": "SmartKom 인식기의 기본 기능을 설정하고, 다양한 데이터 입력을 위한 시스템을 구축"
+        "tasks": [
+          "SmartKom 인식기의 기본 기능을 통합하여 데이터 수집 시스템 구축",
+          "다양한 문장 및 구문 분석을 위한 프로그램 개발",
+          "데이터 수집 및 초기 분석을 위한 테스트 진행"
+        ]
       },
       {
-        "phase": "데이터 분석 및 정보 생성",
+        "phase": "관광 정보 시스템 설계 및 구현",
         "duration": "2025.02.01 ~ 2025.02.28",
-        "description": "수집된 데이터를 분석하여 관광 정보를 생성하고, 이를 시스템에 반영"
+        "tasks": [
+          "관광 정보 시스템 설계 및 구현",
+          "관광 정보를 제공하는 시스템을 설계 및 구현",
+          "관광 정보 시스템의 안정성 검증"
+        ]
       },
       {
-        "phase": "시스템 최적화 및 테스트",
+        "phase": "시스템 운영 및 개선",
         "duration": "2025.03.01 ~ 2025.03.31",
-        "description": "최적화된 시스템을 테스트하고, 사용자 피드백을 반영하여 개선"
+        "tasks": [
+          "시스템 운영 및 유지보수",
+          "관광 정보 시스템의 성능 평가 및 개선",
+          "관광 정보 시스템의 사용자 피드백을 반영한 개선"
+        ]
       }
     ],
     "expected_effects": [
-      "기대효과 1: 관광 정보의 정확성과 신속성 향상",
-      "기대효과 2: 사용자 만족도 증가",
-      "기대효과 3: 시스템의 효율성 및 사용자 친화성 향상"
+      "기대효과 1: 관광 정보의 정확성 향상으로 관객 만족도 증가",
+      "기대효과 2: SmartKom 인식기의 데이터 수집 및 처리 효율성 향상",
+      "기대효과 3: 관광 정보 시스템의 안정성 확보로 서비스 질 향상",
+      "기대효과 4: 다양한 문장 및 구문 분석을 통해 관광 정보의 다양성 확보"
     ]
   },
   "metadata": {
-    "source_file": "0806_파인튜닝모델로결과내기/validation_data_folder/result_Bed009_processed/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bed009/05_final_result.json",
     "utterance_count": 691,
     "speakers": [
-      "Speaker_A",
-      "Speaker_B",
       "Speaker_E",
-      "Speaker_C",
-      "Speaker_D",
+      "Speaker_B",
       "Speaker_F",
-      "Speaker_G"
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A"
     ],
     "original_length": 23895,
     "chunking_info": {
@@ -55,6 +69,6 @@
     },
     "is_chunk": true,
     "chunk_index": 1,
-    "processing_date": "2025-08-07T03:00:51.095657"
+    "processing_date": "2025-08-09T23:39:04.884252"
   }
 }
