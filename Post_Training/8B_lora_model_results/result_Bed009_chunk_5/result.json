@@ -2,51 +2,35 @@
   "id": "result_Bed009_chunk_5",
   "source_dir": "result_Bed009",
   "notion_output": {
-    "project_name": "Morphix 및 Fastus 기반의 심층적 의미 문법 파서 개발",
-    "project_purpose": "Morphix와 Fastus의 심층적 의미 문법을 활용하여 효율적인 언어 처리 파서를 개발하여 다양한 데이터를 분석하고 처리하는 능력을 강화한다.",
+    "project_name": "Verbmobil 및 Morphix 기반의 다용도 AI 통합 시스템 개발",
+    "project_purpose": "Verbmobil의 지식 기반과 Morphix의 온라인 기능을 활용하여 다양한 분야에서 활용 가능한 AI 통합 시스템 개발",
     "project_period": "2024.01.01 ~ 2024.06.30",
     "project_manager": "Speaker_B",
     "core_objectives": [
-      "목표 1: Morphix와 Fastus의 심층적 의미 문법을 통합하여 새로운 파서 개발",
-      "목표 2: Fastus의 템플릿 파서 기능을 최적화하여 성능 향상",
-      "목표 3: 심층적 의미론을 활용한 깊은 의미 구조 파악 및 맥락 매핑"
+      "목표 1: Verbmobil의 지식 기반을 활용하여 다양한 분야에서 활용 가능한 AI 시스템 개발",
+      "목표 2: Morphix의 온라인 기능을 통합하여 실시간 데이터 처리 및 분석 기능 구현",
+      "목표 3: AVE(Automatic Verb Extraction) 알고리즘 개발을 통해 자연어 처리 효율성 증대"
     ],
-    "core_idea": "Morphix와 Fastus의 심층적 의미 문법을 결합하여 새로운 파서를 개발하고, 이를 통해 다양한 데이터를 분석하며, 심층적 의미론을 활용한 깊은 의미 구조를 파악하고 맥락에 맞게 매핑한다.",
-    "idea_description": "Morphix와 Fastus의 심층적 의미 문법을 결합하여 새로운 파서를 개발하고, 이를 통해 다양한 데이터를 분석하며, 심층적 의미론을 활용한 깊은 의미 구조를 파악하고 맥락에 맞게 매핑한다. 이는 특히 여행 및 관광 분야에서의 데이터 처리를 강화하고, 다양한 맥락에서의 의미를 정확하게 파악하는 데 기여한다.",
-    "execution_plan": [
-      {
-        "phase": "1차 개발",
-        "description": "Morphix와 Fastus의 심층적 의미 문법을 분석하고, 파서의 기본 구조 설계 및 개발",
-        "period": "2024.01.01 ~ 2024.02.28"
-      },
-      {
-        "phase": "2차 최적화",
-        "description": "Fastus의 템플릿 파서 기능을 최적화하고, 심층적 의미론을 활용한 깊은 의미 구조 매핑",
-        "period": "2024.03.01 ~ 2024.04.30"
-      },
-      {
-        "phase": "3차 테스트 및 피드백 수집",
-        "description": "개발된 파서를 실제 데이터에 적용하여 성능 테스트 및 사용자 피드백 수집",
-        "period": "2024.05.01 ~ 2024.06.30"
-      }
-    ],
+    "core_idea": "Verbmobil의 지식 기반과 Morphix의 온라인 기능을 결합하여 다양한 분야에서 활용 가능한 AI 시스템 개발",
+    "idea_description": "Verbmobil의 지식 기반과 Morphix의 온라인 기능을 결합하여 다양한 분야에서 활용 가능한 AI 시스템을 개발합니다. 이 시스템은 AVE 알고리즘을 통해 자연어 처리 효율성을 높이고, 다양한 데이터베이스와의 연동을 통해 실시간 데이터 처리 및 분석 기능을 제공합니다.",
+    "execution_plan": "1단계: Verbmobil의 지식 기반 분석 및 Morphix의 온라인 기능 통합 (2024.01.01 ~ 2024.02.28)\n2단계: AVE 알고리즘 개발 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 시스템 통합 및 최종 테스트 (2024.05.01 ~ 2024.06.30)",
     "expected_effects": [
-      "기대효과 1: 다양한 데이터 분석의 효율성 증가",
-      "기대효과 2: 심층적 의미론을 활용한 정확한 의미 파악",
-      "기대효과 3: Fastus의 템플릿 파서 기능 최적화로 성능 향상"
+      "기대효과 1: 다양한 분야에서 활용 가능한 AI 시스템 제공",
+      "기대효과 2: 실시간 데이터 처리 및 분석 기능 제공",
+      "기대효과 3: 자연어 처리 효율성 증대 및 데이터 분석 정확도 향상"
     ]
   },
   "metadata": {
-    "source_file": "Raw_Data_val/result_Bed009/05_final_result.json",
+    "source_file": "../Raw_Data_val/result_Bed009/05_final_result.json",
     "utterance_count": 691,
     "speakers": [
-      "Speaker_A",
       "Speaker_G",
       "Speaker_C",
       "Speaker_D",
-      "Speaker_E",
+      "Speaker_F",
       "Speaker_B",
-      "Speaker_F"
+      "Speaker_A",
+      "Speaker_E"
     ],
     "original_length": 23895,
     "chunking_info": {
@@ -55,6 +39,6 @@
     },
     "is_chunk": true,
     "chunk_index": 5,
-    "processing_date": "2025-08-09T23:33:24.925519"
+    "processing_date": "2025-08-10T09:33:36.216770"
   }
 }

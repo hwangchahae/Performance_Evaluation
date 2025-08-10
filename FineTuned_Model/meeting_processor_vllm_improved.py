@@ -134,7 +134,8 @@ def load_json_file(file_path):
             data = json.load(f)
             
             if isinstance(data, list):
-                return [{"speaker": item.get("speaker"), 
+                return [{"timestamp": item.get("timestamp", "Unknown"),
+                        "speaker": item.get("speaker", "Unknown"), 
                         "text": clean_text(item.get("text", ""))} 
                        for item in data if "text" in item]
             return []
@@ -193,6 +194,7 @@ def process_files_batch(files_data: List[Tuple[str, str, List[str]]]) -> List[Di
             })
     
     # 배치 생성
+    logger.info(f"🔄 {len(all_prompts)}개 프롬프트 배치 생성 중...")
     responses = batch_generate_responses(all_prompts)
     
     # 결과 정리
@@ -207,6 +209,7 @@ def process_files_batch(files_data: List[Tuple[str, str, List[str]]]) -> List[Di
         }
         results.append(result)
     
+    logger.info(f"✅ {len(results)}개 결과 생성 완료")
     return results
 
 def save_results(results: List[Dict], output_dir: str):
@@ -221,17 +224,19 @@ def save_results(results: List[Dict], output_dir: str):
             grouped[folder] = []
         grouped[folder].append(result)
     
-    # 저장
+    # 저장 - 모든 파일 개별 폴더로 저장
+    saved_count = 0
     for folder_name, folder_results in grouped.items():
         for result in folder_results:
-            if result["total_chunks"] == 1:
-                # 단일 파일
-                chunk_dir = os.path.join(output_dir, folder_name)
-                chunk_id = folder_name
-            else:
+            # 청킹 여부와 관계없이 모든 파일에 대해 폴더 생성
+            if result["metadata"]["is_chunked"]:
                 # 청킹된 파일
                 chunk_dir = os.path.join(output_dir, f"{folder_name}_chunk_{result['chunk_idx']+1}")
                 chunk_id = f"{folder_name}_chunk_{result['chunk_idx']+1}"
+            else:
+                # 청킹되지 않은 파일도 폴더 생성
+                chunk_dir = os.path.join(output_dir, folder_name)
+                chunk_id = folder_name
             
             os.makedirs(chunk_dir, exist_ok=True)
             
@@ -250,8 +255,9 @@ def save_results(results: List[Dict], output_dir: str):
             
             with open(os.path.join(chunk_dir, "result.json"), 'w', encoding='utf-8') as f:
                 json.dump(output_data, f, ensure_ascii=False, indent=2)
+            saved_count += 1
     
-    logger.info(f"✅ {len(results)}개 결과 저장 완료")
+    logger.info(f"✅ {saved_count}개 결과 저장 완료 ({len(grouped)}개 원본 파일)")
 
 def main():
     """메인 실행 함수"""
@@ -283,22 +289,34 @@ def main():
     current_batch = []
     current_chunk_count = 0
     batch_num = 1
+    total_processed = 0
     
     for folder_name, file_path in target_files:
         utterances = load_json_file(file_path)
         if not utterances:
+            logger.warning(f"⚠️ {folder_name} 파일 로드 실패, 건너뜀")
             continue
             
-        # 텍스트 결합 및 청킹
-        full_text = "\n".join([utt["text"] for utt in utterances if utt["text"]])
+        # 텍스트 결합 및 청킹 (qwen3_lora와 동일한 방식)
+        meeting_lines = []
+        for utt in utterances:
+            if utt["text"]:
+                timestamp = utt.get("timestamp", "Unknown")
+                speaker = utt.get("speaker", "Unknown")
+                text = utt["text"]
+                meeting_lines.append(f"[{timestamp}] {speaker}: {text}")
+        full_text = "\n".join(meeting_lines)
         chunks = chunk_text(full_text, chunk_size=5000, overlap=512)
+        
+        logger.info(f"📄 {folder_name}: {len(chunks)}개 청크 생성 (원본 {len(full_text)}자)")
         
         # 청크 수 확인
         if current_chunk_count + len(chunks) > max_chunks_per_batch and current_batch:
             # 현재 배치 처리
-            logger.info(f"📦 배치 {batch_num} 처리 중... ({current_chunk_count}개 청크)")
+            logger.info(f"📦 배치 {batch_num} 처리 중... ({len(current_batch)}개 파일, {current_chunk_count}개 청크)")
             results = process_files_batch(current_batch)
             save_results(results, output_directory)
+            total_processed += len(current_batch)
             
             # 새 배치 시작
             batch_num += 1
@@ -311,9 +329,12 @@ def main():
     
     # 마지막 배치 처리
     if current_batch:
-        logger.info(f"📦 배치 {batch_num} 처리 중... ({current_chunk_count}개 청크)")
+        logger.info(f"📦 배치 {batch_num} 처리 중... ({len(current_batch)}개 파일, {current_chunk_count}개 청크)")
         results = process_files_batch(current_batch)
         save_results(results, output_directory)
+        total_processed += len(current_batch)
+    
+    logger.info(f"📊 총 {total_processed}개 파일 처리 완료")
     
     logger.info("🎉 모든 처리 완료!")
 

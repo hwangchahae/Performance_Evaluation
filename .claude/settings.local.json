@@ -6,7 +6,8 @@
       "Bash(touch:*)",
       "Bash(rm:*)",
       "Bash(ren:*)",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Bash(dir:*)"
     ],
     "deny": []
   }

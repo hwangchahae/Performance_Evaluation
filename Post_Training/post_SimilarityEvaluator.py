@@ -112,6 +112,7 @@ class FileMatcher:
     def find_matches(gold_base_path: str, result_base_path: str) -> List[FileMatch]:
         """정답과 결과 파일 매칭 - 단일 JSON 파일 버전"""
         matches = []
+        unmatched_results = []  # 매칭 실패한 결과 파일들
         gold_path = Path(gold_base_path)
         result_path = Path(result_base_path)
         
@@ -128,45 +129,79 @@ class FileMatcher:
         # 각 result 폴더에 대해 매칭되는 gold 폴더 찾기
         for result_folder in result_folders:
             # 폴더명에서 매칭 정보 추출
-            # 예: result_Bed002_chunk_1
+            # 예: result_Bed002_chunk_1 또는 result_제22대국회..._chunk_1
             folder_name = result_folder.name
-            match = re.search(r'result_([A-Za-z0-9]+)_chunk_(\d+)', folder_name)
-            if not match:
-                match = re.search(r'result_([A-Za-z0-9]+)$', folder_name)
+            matched = False
+            
+            # chunk가 있는 경우를 먼저 체크 (한국어 파일명 포함)
+            match = re.search(r'result_(.+)_chunk_(\d+)$', folder_name)
+            if match:
+                base_name = match.group(1)
+                chunk_num = match.group(2)
+            else:
+                # chunk가 없는 경우
+                match = re.search(r'result_(.+)$', folder_name)
                 if match:
                     base_name = match.group(1)
                     chunk_num = ""
                 else:
+                    unmatched_results.append(folder_name)
                     continue
-            else:
-                base_name = match.group(1)
-                chunk_num = match.group(2)
             
             # Gold 폴더에서 매칭 찾기
+            # Gold 폴더 형식: val_XXX_result_NAME_chunk_X 또는 val_XXX_result_NAME
+            
+            # 특수문자를 이스케이프 처리
+            import fnmatch
+            escaped_base_name = base_name.replace('(', r'\(').replace(')', r'\)').replace('[', r'\[').replace(']', r'\]')
+            
             if chunk_num:
-                # 폴더 이름 패턴들
-                gold_folder_pattern1 = f"*result_{base_name}_chunk_{chunk_num}"
-                gold_folder_pattern2 = f"*result_{base_name}_chunk{chunk_num}"
-                
-                # 패턴들 시도
-                for pattern in [gold_folder_pattern1, gold_folder_pattern2]:
-                    matching_folders = list(gold_path.glob(pattern))
-                    if matching_folders:
-                        gold_folder = matching_folders[0]
-                        identifier = f"{base_name}_chunk{chunk_num}"
-                        matches.append(FileMatch(gold_folder, result_folder, identifier))
-                        logger.debug(f"매칭 성공: {gold_folder.name} <-> {result_folder.name}")
-                        break
+                # chunk가 있는 경우 - 직접 폴더 이름 매칭
+                # val_로 시작하는 모든 폴더 순회
+                for folder in gold_path.iterdir():
+                    if folder.is_dir() and folder.name.startswith('val_'):
+                        # 정확한 매칭 체크
+                        if (f"_result_{base_name}_chunk_{chunk_num}" in folder.name or
+                            f"_result_{base_name}_chunk{chunk_num}" in folder.name):
+                            gold_folder = folder
+                            identifier = f"{base_name}_chunk{chunk_num}"
+                            matches.append(FileMatch(gold_folder, result_folder, identifier))
+                            logger.debug(f"매칭 성공: {gold_folder.name} <-> {result_folder.name}")
+                            matched = True
+                            break
             else:
                 # chunk가 없는 경우
-                gold_folder_pattern = f"*result_{base_name}"
-                matching_folders = list(gold_path.glob(gold_folder_pattern))
-                if matching_folders:
-                    gold_folder = matching_folders[0]
-                    matches.append(FileMatch(gold_folder, result_folder, base_name))
-                    logger.debug(f"매칭 성공: {gold_folder.name} <-> {result_folder.name}")
+                for folder in gold_path.iterdir():
+                    if folder.is_dir() and folder.name.startswith('val_'):
+                        # chunk가 없는 경우의 매칭
+                        if f"_result_{base_name}" in folder.name and not re.search(r'_chunk_?\d+$', folder.name):
+                            gold_folder = folder
+                            matches.append(FileMatch(gold_folder, result_folder, base_name))
+                            logger.debug(f"매칭 성공: {gold_folder.name} <-> {result_folder.name}")
+                            matched = True
+                            break
+            
+            # 매칭 실패한 경우 기록
+            if not matched:
+                unmatched_results.append(folder_name)
+                logger.warning(f"매칭 실패: {folder_name}")
         
-        logger.info(f"총 {len(matches)}개 파일 쌍 매칭 완료")
+        # 매칭 실패한 파일들 보고
+        if unmatched_results:
+            logger.warning(f"\n매칭 실패한 결과 파일 {len(unmatched_results)}개:")
+            for unmatched in unmatched_results:
+                logger.warning(f"  - {unmatched}")
+            
+            # 파일로도 저장
+            unmatched_file = Path(result_base_path) / "unmatched_files.txt"
+            with open(unmatched_file, 'w', encoding='utf-8') as f:
+                f.write(f"매칭 실패한 파일 목록 ({datetime.now().isoformat()})\n")
+                f.write("=" * 60 + "\n\n")
+                for unmatched in unmatched_results:
+                    f.write(f"{unmatched}\n")
+            logger.info(f"매칭 실패 파일 목록 저장: {unmatched_file}")
+        
+        logger.info(f"총 {len(matches)}개 파일 쌍 매칭 완료, {len(unmatched_results)}개 실패")
         return matches
     
     @staticmethod
@@ -458,17 +493,25 @@ class LocalSimilarityEvaluator:
         print("=" * 80)
         
         # 상위/하위 10개 결과 (TF-IDF와 Embedding 각각 표시)
-        if len(result.scores) > 20:
+        if len(result.scores) >= 20:
             sorted_tfidf = sorted(result.scores, key=lambda x: x.tfidf_cosine, reverse=True)
             sorted_embedding = sorted(result.scores, key=lambda x: x.embedding_cosine, reverse=True)
             
             print("\n[TF-IDF 기준] 상위 10개 파일:")
             for i, score in enumerate(sorted_tfidf[:10], 1):
-                print(f"{i}. {score.file_name}: TF-IDF={score.tfidf_cosine:.4f}, Embedding={score.embedding_cosine:.4f}")
+                print(f"{i:2d}. {score.file_name[:50]:50s}: TF-IDF={score.tfidf_cosine:.4f}, Embedding={score.embedding_cosine:.4f}")
+            
+            print("\n[TF-IDF 기준] 하위 10개 파일:")
+            for i, score in enumerate(sorted_tfidf[-10:], 1):
+                print(f"{i:2d}. {score.file_name[:50]:50s}: TF-IDF={score.tfidf_cosine:.4f}, Embedding={score.embedding_cosine:.4f}")
             
             print("\n[Embedding 기준] 상위 10개 파일:")
             for i, score in enumerate(sorted_embedding[:10], 1):
-                print(f"{i}. {score.file_name}: TF-IDF={score.tfidf_cosine:.4f}, Embedding={score.embedding_cosine:.4f}")
+                print(f"{i:2d}. {score.file_name[:50]:50s}: TF-IDF={score.tfidf_cosine:.4f}, Embedding={score.embedding_cosine:.4f}")
+            
+            print("\n[Embedding 기준] 하위 10개 파일:")
+            for i, score in enumerate(sorted_embedding[-10:], 1):
+                print(f"{i:2d}. {score.file_name[:50]:50s}: TF-IDF={score.tfidf_cosine:.4f}, Embedding={score.embedding_cosine:.4f}")
     
     def _save_results(self, result: EvaluationResult):
         """결과 저장"""
@@ -512,7 +555,7 @@ class LocalSimilarityEvaluator:
             f.write(f"  - Embedding 코사인 유사도: {result.mean_embedding_cosine:.4f}\n")
             
             # 상위/하위 10개 결과 추가
-            if len(result.scores) > 20:
+            if len(result.scores) >= 20:
                 sorted_tfidf = sorted(result.scores, key=lambda x: x.tfidf_cosine, reverse=True)
                 sorted_embedding = sorted(result.scores, key=lambda x: x.embedding_cosine, reverse=True)
                 
@@ -522,23 +565,23 @@ class LocalSimilarityEvaluator:
                 
                 f.write("[TF-IDF 기준] 상위 10개 파일:\n")
                 for i, score in enumerate(sorted_tfidf[:10], 1):
-                    f.write(f"{i}. {score.file_name}\n")
-                    f.write(f"   - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
+                    f.write(f"{i:2d}. {score.file_name}\n")
+                    f.write(f"    - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
                 
                 f.write("\n[TF-IDF 기준] 하위 10개 파일:\n")
                 for i, score in enumerate(sorted_tfidf[-10:], 1):
-                    f.write(f"{i}. {score.file_name}\n")
-                    f.write(f"   - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
+                    f.write(f"{i:2d}. {score.file_name}\n")
+                    f.write(f"    - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
                 
                 f.write("\n[Embedding 기준] 상위 10개 파일:\n")
                 for i, score in enumerate(sorted_embedding[:10], 1):
-                    f.write(f"{i}. {score.file_name}\n")
-                    f.write(f"   - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
+                    f.write(f"{i:2d}. {score.file_name}\n")
+                    f.write(f"    - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
                 
                 f.write("\n[Embedding 기준] 하위 10개 파일:\n")
                 for i, score in enumerate(sorted_embedding[-10:], 1):
-                    f.write(f"{i}. {score.file_name}\n")
-                    f.write(f"   - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
+                    f.write(f"{i:2d}. {score.file_name}\n")
+                    f.write(f"    - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
                     
         logger.info(f"요약 저장: {summary_file}")
 

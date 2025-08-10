@@ -21,9 +21,9 @@ logger = logging.getLogger(__name__)
 
 class ModelConfig:
     """모델 설정 관리 클래스"""
-    BASE_MODEL_PATH: str = "Qwen/Qwen3-4B"
-    LORA_MODEL_PATH: str = "qwen3_lora_ttalkkac_4b"
-    MERGED_MODEL_PATH: str = "4B_merged_qwen3_lora_model"  # 병합된 모델 저장 경로
+    BASE_MODEL_PATH: str = "Qwen/Qwen3-8B"
+    LORA_MODEL_PATH: str = "qwen3_lora_ttalkkac_8b"
+    MERGED_MODEL_PATH: str = "8B_merged_qwen3_lora_model"  # 병합된 모델 저장 경로
     MAX_NEW_TOKENS: int = 2048
     TEMPERATURE: float = 0.3
     TOP_P: float = 0.9
@@ -106,27 +106,76 @@ class QwenVLLMMeetingGenerator:
         logger.info("LoRA 병합 시작...")
         try:
             import torch
-            from transformers import AutoModelForCausalLM
+            from transformers import AutoModelForCausalLM, AutoTokenizer
             from peft import PeftModel
+            import gc
+            
+            # 메모리 정리
+            gc.collect()
+            torch.cuda.empty_cache()
             
             logger.info(f"베이스 모델 로딩: {self.config.BASE_MODEL_PATH}")
+            # float16 사용하고 trust_remote_code 추가
             base_model = AutoModelForCausalLM.from_pretrained(
                 self.config.BASE_MODEL_PATH,
-                torch_dtype=torch.bfloat16,
-                device_map="cpu"  # 병합 시에는 CPU 사용
+                torch_dtype=torch.float16,  # bfloat16 대신 float16 사용
+                device_map="cpu",  # 병합 시에는 CPU 사용
+                trust_remote_code=True,
+                low_cpu_mem_usage=True  # 메모리 사용량 최소화
             )
             
             logger.info(f"LoRA 어댑터 로딩: {lora_path}")
-            model = PeftModel.from_pretrained(base_model, str(lora_path))
+            
+            # safetensors 파일이 있으면 이름 변경
+            safetensors_file = lora_path / "adapter_model.safetensors"
+            if safetensors_file.exists():
+                logger.warning("safetensors 파일 감지 - bin 파일 사용을 위해 이름 변경")
+                safetensors_backup = lora_path / "adapter_model.safetensors.disabled"
+                if safetensors_backup.exists():
+                    safetensors_backup.unlink()
+                safetensors_file.rename(safetensors_backup)
+                logger.info("safetensors 파일을 .disabled로 이름 변경")
+            
+            # bin 파일 확인
+            bin_file = lora_path / "adapter_model.bin"
+            if not bin_file.exists():
+                logger.warning("adapter_model.bin이 없습니다. safetensors를 변환합니다...")
+                from safetensors.torch import load_file
+                safetensors_disabled = lora_path / "adapter_model.safetensors.disabled"
+                if safetensors_disabled.exists():
+                    state_dict = load_file(str(safetensors_disabled))
+                    torch.save(state_dict, str(bin_file))
+                    logger.info("✅ bin 파일로 변환 완료")
+            
+            # LoRA 어댑터 로드 - 로컬 파일 직접 로드
+            logger.info("LoRA 어댑터를 로컬 파일에서 직접 로드합니다...")
+            model = PeftModel.from_pretrained(
+                base_model, 
+                lora_path,  # str() 제거 - Path 객체 직접 전달
+                is_trainable=False,  # 추론 모드
+                local_files_only=True,  # 로컬 파일만 사용
+                use_safetensors=False,  # SafeTensors 비활성화
+            )
             
             logger.info("모델 병합 중...")
             merged_model = model.merge_and_unload()
             
             logger.info(f"병합된 모델 저장: {merged_path}")
-            merged_model.save_pretrained(str(merged_path))
+            merged_path.mkdir(parents=True, exist_ok=True)
+            
+            # safetensors 형식으로 저장
+            merged_model.save_pretrained(
+                str(merged_path),
+                safe_serialization=True,
+                max_shard_size="4GB"
+            )
             
             # 토크나이저도 저장
-            tokenizer = AutoTokenizer.from_pretrained(self.config.BASE_MODEL_PATH)
+            logger.info("토크나이저 저장 중...")
+            tokenizer = AutoTokenizer.from_pretrained(
+                self.config.BASE_MODEL_PATH,
+                trust_remote_code=True
+            )
             tokenizer.save_pretrained(str(merged_path))
             
             logger.info("✅ LoRA 병합 완료!")
@@ -135,12 +184,20 @@ class QwenVLLMMeetingGenerator:
             del base_model
             del model
             del merged_model
+            gc.collect()
             torch.cuda.empty_cache()
             
             return str(merged_path)
             
         except Exception as e:
             logger.error(f"LoRA 병합 실패: {e}")
+            logger.error(f"에러 타입: {type(e).__name__}")
+            
+            # 더 자세한 에러 정보 출력
+            import traceback
+            logger.error("상세 에러:")
+            logger.error(traceback.format_exc())
+            
             logger.warning("베이스 모델을 사용합니다.")
             return self.config.BASE_MODEL_PATH
     
@@ -593,7 +650,7 @@ def main():
     config = ModelConfig()
     
     # 결과 저장 폴더 생성
-    output_dir = Path(f"4B_lora_model_results")
+    output_dir = Path(f"8B_lora_model_results")
     output_dir.mkdir(exist_ok=True)
     logger.info(f"결과 저장 폴더: {output_dir}")
     
@@ -605,7 +662,7 @@ def main():
         return
     
     # 회의 파일 검색
-    input_dir = "./Raw_Data_val"  # 런팟에서는 현재 디렉토리 기준
+    input_dir = "../Raw_Data_val"  # 런팟에서는 현재 디렉토리 기준
     meeting_files = generator.find_meeting_files(input_dir)
     
     if not meeting_files:

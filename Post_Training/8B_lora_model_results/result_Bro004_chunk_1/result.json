@@ -2,36 +2,36 @@
   "id": "result_Bro004_chunk_1",
   "source_dir": "result_Bro004",
   "notion_output": {
-    "project_name": "TIMIT 및 TI-Digits 훈련 데이터 전환 최적화 프로젝트",
-    "project_purpose": "TIMIT 데이터를 TI-Digits 데이터로 전환하면서 성능 손실을 최소화하고, 신경망 훈련을 통해 성능을 개선하기 위한 연구 및 개발",
-    "project_period": "2023.11.01 ~ 2024.02.28",
-    "project_manager": "Speaker_D",
+    "project_name": "Aurora 시스템 성능 최적화 프로젝트",
+    "project_purpose": "PLP, JRASTA, MFCC 등의 다양한 기법을 활용하여 스피치 인식 시스템의 정확도 및 효율성을 극대화",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_H",
     "core_objectives": [
-      "목표 1: TIMIT 데이터를 TI-Digits 데이터로 전환하면서 10% 이상의 성능 손실을 줄이는 방법 탐색",
-      "목표 2: 신경망 훈련을 활용하여 성능을 30% 이상 개선",
-      "목표 3: PLP, JRASTA, MSG 등 다양한 특징 추출 방식의 비교 및 최적화"
+      "목표 1: TI-digits와 TIMIT 데이터셋을 활용한 PLP, JRASTA, MFCC 기법의 성능 비교 및 최적화",
+      "목표 2: 신경망 훈련을 통한 훈련 과정의 병렬화 및 효율성 증대",
+      "목표 3: 10% 이상의 상대적 성능 개선 목표 설정 및 달성"
     ],
-    "core_idea": "TIMIT 데이터를 TI-Digits 데이터로 전환하면서 성능 손실을 최소화하고, 신경망 훈련을 통해 성능을 개선하는 방법을 찾는 것",
-    "idea_description": "TIMIT 데이터를 TI-Digits 데이터로 전환하면서 발생하는 10% 이상의 성능 손실을 줄이고, 신경망 훈련을 통해 성능을 30% 이상 개선하려는 프로젝트이다. PLP, JRASTA, MSG 등의 특징 추출 방식을 비교하여 최적의 방식을 선정하고, 이를 통해 성능을 극대화한다.",
-    "execution_plan": "1단계: TIMIT 데이터를 TI-Digits 데이터로 전환 및 성능 평가 (2023.11.01 ~ 2023.11.30)\n2단계: 신경망 훈련 및 성능 개선 실험 (2023.12.01 ~ 2024.01.31)\n3단계: PLP, JRASTA, MSG 등 특징 추출 방식 비교 및 최적화 (2024.02.01 ~ 2024.02.28)",
+    "core_idea": "다양한 스피치 인식 기법을 비교하고 최적화하여 시스템 성능을 극대화",
+    "idea_description": "TI-digits와 TIMIT 데이터셋을 활용하여 PLP, JRASTA, MFCC 등의 기법을 비교하며, 신경망 훈련을 통해 훈련 과정을 병렬화하고 효율성을 높이는 방향으로 연구",
+    "execution_plan": "1단계: 데이터셋 준비 및 기법 선택 (2024.01.01 ~ 2024.02.15)\n2단계: PLP, JRASTA, MFCC 기법의 성능 평가 및 비교 실험 (2024.02.16 ~ 2024.04.15)\n3단계: 신경망 훈련을 통한 훈련 과정 최적화 및 병렬화 (2024.04.16 ~ 2024.05.15)\n4단계: 최종 성능 평가 및 보고서 작성 (2024.05.16 ~ 2024.06.30)",
     "expected_effects": [
-      "기대효과 1: TIMIT 데이터를 TI-Digits 데이터로 전환 시 발생하는 10% 이상의 성능 손실을 5% 이하로 줄임",
-      "기대효과 2: 신경망 훈련을 통해 성능을 30% 이상 개선",
-      "기대효과 3: PLP, JRASTA, MSG 등 다양한 특징 추출 방식 중 가장 효율적인 방식을 선택하여 성능을 극대화"
+      "기대효과 1: 10% 이상의 상대적 성능 개선",
+      "기대효과 2: 신경망 훈련을 통한 훈련 과정의 효율성 증대",
+      "기대효과 3: 다양한 기법을 활용한 시스템 성능의 종합적 개선"
     ]
   },
   "metadata": {
-    "source_file": "Raw_Data_val/result_Bro004/05_final_result.json",
+    "source_file": "../Raw_Data_val/result_Bro004/05_final_result.json",
     "utterance_count": 413,
     "speakers": [
-      "Speaker_A",
       "Speaker_G",
-      "Speaker_C",
       "Speaker_H",
+      "Speaker_C",
       "Speaker_D",
-      "Speaker_E",
+      "Speaker_F",
       "Speaker_B",
-      "Speaker_F"
+      "Speaker_A",
+      "Speaker_E"
     ],
     "original_length": 12710,
     "chunking_info": {
@@ -40,6 +40,6 @@
     },
     "is_chunk": true,
     "chunk_index": 1,
-    "processing_date": "2025-08-09T23:30:52.550228"
+    "processing_date": "2025-08-10T09:28:29.389285"
   }
 }

@@ -16,6 +16,17 @@ __pycache__/
 # Pre_Training/*_model_test_results/
 # Post_Training/qwen3_*_lora_meeting_results/
 
+# 모델 파일들 (용량이 크고 재생성 가능)
+FineTuned_Model/*/adapter_model.safetensors
+FineTuned_Model/*/adapter_model.bin
+FineTuned_Model/*/pytorch_model.bin
+FineTuned_Model/*/model.safetensors
+FineTuned_Model/*_merged_*/
+*_merged_qwen3_lora_model/
+*.pth
+*.pt
+*.ckpt
+
 # 임시 파일
 *.tmp
 *.log
