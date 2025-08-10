@@ -8,20 +8,14 @@ import torch
 from datetime import datetime
 from typing import List, Dict, Tuple
 import logging
-import argparse
-
-# 회의 분석 프롬프트 임포트
-from meeting_analysis_prompts import (
-    generate_meeting_analysis_system_prompt,
-    generate_meeting_analysis_user_prompt
-)
 
 # 로깅 설정
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# 모델 선택 (기본값, 나중에 argparse로 변경)
+# 모델 선택
 model_path = "Qwen/Qwen3-4B-AWQ"
+logger.info(f"🚀 선택된 모델: {model_path}")
 
 # 전역 모델 및 토크나이저
 llm = None
@@ -64,6 +58,35 @@ def initialize_model():
             repetition_penalty=1.05,
         )
         logger.info(f"✅ 모델 초기화 완료")
+
+def generate_notion_project_prompt(meeting_transcript: str) -> str:
+    """노션 기획안 생성 프롬프트"""
+    return f"""다음 회의 전사본을 바탕으로 노션에 업로드할 프로젝트 기획안을 작성하세요.
+
+**회의 전사본:**
+{meeting_transcript}
+
+**작성 지침:**
+1. 회의에서 논의된 내용을 바탕으로 체계적인 기획안을 작성
+2. 프로젝트명은 회의 내용을 바탕으로 적절히 명명
+3. 목적과 목표는 명확하고 구체적으로 작성
+4. 실행 계획은 실현 가능한 단계별로 구성
+5. 기대 효과는 정량적/정성적 결과를 포함
+6. 모든 내용은 한국어로 작성
+
+**응답 형식:**
+다음 JSON 형식으로 응답하세요:
+{{
+    "project_name": "프로젝트명",
+    "project_purpose": "프로젝트의 주요 목적",
+    "project_period": "예상 수행 기간",
+    "project_manager": "담당자명",
+    "core_objectives": ["목표 1", "목표 2", "목표 3"],
+    "core_idea": "핵심 아이디어",
+    "idea_description": "아이디어 설명",
+    "execution_plan": "실행 계획",
+    "expected_effects": ["효과 1", "효과 2", "효과 3"]
+}}"""
 
 def chunk_text(text: str, chunk_size: int = 5000, overlap: int = 512) -> List[str]:
     """텍스트를 청킹하여 나누기 (문자 단위) - qwen3_lora와 동일"""
@@ -125,29 +148,15 @@ def load_json_file(file_path):
         logger.error(f"파일 로드 오류 ({file_path}): {e}")
         return []
 
-def batch_generate_responses(prompts: List[Tuple[str, str]]) -> List[str]:
+def batch_generate_responses(prompts: List[str]) -> List[str]:
     """배치 처리로 여러 프롬프트 동시 생성 - 최대 속도"""
     if not prompts:
         return []
     
     logger.info(f"🚀 {len(prompts)}개 프롬프트 배치 처리 중...")
     
-    # 모든 프롬프트를 chat template으로 포맷
-    formatted_prompts = []
-    for system_prompt, user_prompt in prompts:
-        messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt}
-        ]
-        prompt = tokenizer.apply_chat_template(
-            messages,
-            tokenize=False,
-            add_generation_prompt=True
-        )
-        formatted_prompts.append(prompt)
-    
     # 모든 프롬프트를 한 번에 처리
-    outputs = llm.generate(formatted_prompts, sampling_params, use_tqdm=False)
+    outputs = llm.generate(prompts, sampling_params, use_tqdm=False)
     
     # 빠른 결과 추출
     return [output.outputs[0].text.strip() if output.outputs else "{}" for output in outputs]
@@ -172,24 +181,17 @@ def process_files_batch(files_data: List[Tuple[str, str, List[str]]]) -> List[Di
     all_prompts = []
     metadata = []
     
-    # 시스템 프롬프트 생성 (회의 분석용)
-    system_prompt = generate_meeting_analysis_system_prompt(num_tasks=5)
-    
     # 모든 프롬프트 준비
     for folder_name, file_path, chunks in files_data:
         for idx, chunk in enumerate(chunks):
-            # 사용자 프롬프트 생성
-            user_prompt = generate_meeting_analysis_user_prompt(chunk)
-            
-            # 시스템과 사용자 프롬프트를 튜플로 저장
-            all_prompts.append((system_prompt, user_prompt))
+            prompt = generate_notion_project_prompt(chunk)
+            all_prompts.append(prompt)
             metadata.append({
                 "folder_name": folder_name,
                 "file_path": file_path,
                 "chunk_idx": idx,
                 "total_chunks": len(chunks),
-                "is_chunked": len(chunks) > 1,
-                "prompt_type": "meeting_analysis"
+                "is_chunked": len(chunks) > 1
             })
     
     # 배치 생성
@@ -259,19 +261,11 @@ def save_results(results: List[Dict], output_dir: str):
     
     logger.info(f"✅ {saved_count}개 결과 저장 완료 ({len(grouped)}개 원본 파일)")
 
-def main(input_dir=None, output_dir=None, model_size=None):
+def main():
     """메인 실행 함수"""
     # 설정 - 속도 최적화
-    base_directory = input_dir or "../Raw_Data_val"
-    
-    # 출력 디렉토리 설정
-    if output_dir:
-        output_directory = output_dir
-    elif model_size:
-        output_directory = f"{model_size}_meeting_analysis_results"
-    else:
-        output_directory = "4B_meeting_analysis_results"
-    
+    base_directory = "../Raw_Data_val"
+    output_directory = "4B_awq_model_results_improved"
     batch_size = 30  # 더 큰 배치 크기
     max_chunks_per_batch = 300  # 더 많은 청크를 한번에 처리
     
@@ -322,28 +316,4 @@ def main(input_dir=None, output_dir=None, model_size=None):
     logger.info("🎉 모든 처리 완료!")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='회의록 처리 시스템')
-    parser.add_argument('--model', type=str, default="4B",
-                        choices=['1.7B', '4B', '8B'],
-                        help='사용할 모델 크기 (1.7B, 4B, 8B)')
-    parser.add_argument('--input_dir', type=str, 
-                        default="../Raw_Data_val",
-                        help='입력 디렉토리 경로')
-    parser.add_argument('--output_dir', type=str,
-                        default=None,
-                        help='출력 디렉토리 경로')
-    
-    args = parser.parse_args()
-    
-    # 모델 경로 설정
-    model_paths = {
-        '1.7B': "Qwen/Qwen3-1.7B-AWQ",
-        '4B': "Qwen/Qwen3-4B-AWQ", 
-        '8B': "Qwen/Qwen3-8B-AWQ"
-    }
-    
-    # 전역 model_path 업데이트
-    model_path = model_paths[args.model]
-    logger.info(f"🚀 선택된 모델: {model_path}")
-    
-    main(input_dir=args.input_dir, output_dir=args.output_dir, model_size=args.model)
+    main()

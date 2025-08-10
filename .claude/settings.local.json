@@ -7,7 +7,8 @@
       "Bash(rm:*)",
       "Bash(ren:*)",
       "Bash(mv:*)",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "Bash(claude config set:*)"
     ],
     "deny": []
   }

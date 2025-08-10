@@ -476,13 +476,11 @@ class QwenVLLMMeetingGenerator:
         """
         try:
             # 프롬프트 임포트
-            from meeting_analysis_prompts import (
-                generate_meeting_analysis_system_prompt,
-                generate_meeting_analysis_user_prompt
-            )
-            
-            system_prompt = generate_meeting_analysis_system_prompt(num_tasks=5)
-            user_prompt = generate_meeting_analysis_user_prompt(transcript)
+            from prd_generation_prompts import generate_notion_project_prompt
+            user_prompt = generate_notion_project_prompt(transcript)
+            system_prompt = """당신은 회의록을 분석하여 체계적인 프로젝트 기획안을 작성하는 전문가입니다.
+회의에서 논의된 내용을 바탕으로 명확하고 실행 가능한 기획안을 작성해주세요.
+응답은 반드시 요청된 JSON 형식으로만 제공하세요."""
             
             response = self.generate_response(system_prompt, user_prompt)
             
@@ -520,16 +518,15 @@ class QwenVLLMMeetingGenerator:
             # 청킹된 데이터 배치 처리 준비
             batch_prompts = []
             
-            from meeting_analysis_prompts import (
-                generate_meeting_analysis_system_prompt,
-                generate_meeting_analysis_user_prompt
-            )
+            from prd_generation_prompts import generate_notion_project_prompt
             
-            system_prompt = generate_meeting_analysis_system_prompt(num_tasks=5)
+            system_prompt = """당신은 회의록을 분석하여 체계적인 프로젝트 기획안을 작성하는 전문가입니다.
+회의에서 논의된 내용을 바탕으로 명확하고 실행 가능한 기획안을 작성해주세요.
+응답은 반드시 요청된 JSON 형식으로만 제공하세요."""
             
             # 배치 프롬프트 준비
             for chunk_text in meeting_data.chunks:
-                user_prompt = generate_meeting_analysis_user_prompt(chunk_text)
+                user_prompt = generate_notion_project_prompt(chunk_text)
                 batch_prompts.append((system_prompt, user_prompt))
             
             logger.info(f"{len(batch_prompts)}개 청크 배치 처리 시작")
