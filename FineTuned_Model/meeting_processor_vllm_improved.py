@@ -29,17 +29,18 @@ def initialize_model():
     if llm is None:
         logger.info(f"🔧 모델 초기화 중...")
         
-        # VLLM 엔진 초기화
+        # VLLM 엔진 초기화 - 속도 최적화
         llm = LLM(
             model=model_path,
-            quantization="awq",  # AWQ 양자화 사용
             tensor_parallel_size=1,
-            max_model_len=16384,
-            gpu_memory_utilization=0.85,  # GPU 메모리 여유 확보 (44.95GB 가용)
+            max_model_len=8192,  # 컨텍스트 길이 감소로 속도 향상
+            gpu_memory_utilization=0.85,
             trust_remote_code=True,
-            enforce_eager=False,
-            max_num_seqs=256,  # 동시 처리 수
-            enable_prefix_caching=True,  # 프리픽스 캐싱 활성화
+            enforce_eager=False,  # CUDA graphs 사용
+            max_num_seqs=512,  # 더 많은 동시 처리
+            enable_prefix_caching=True,
+            max_num_batched_tokens=8192,
+            dtype="half",  # float16으로 속도 향상
         )
         
         # 토크나이저 로드
@@ -48,11 +49,13 @@ def initialize_model():
             trust_remote_code=True
         )
         
-        # 샘플링 파라미터
+        # 샘플링 파라미터 - 속도 최적화
         sampling_params = SamplingParams(
-            temperature=0.2,
-            max_tokens=2048,
+            temperature=0.1,  # 더 낮은 temperature로 빠른 수렴
+            max_tokens=1024,  # 토큰 수 감소
             skip_special_tokens=True,
+            top_p=0.9,
+            repetition_penalty=1.05,
         )
         logger.info(f"✅ 모델 초기화 완료")
 
@@ -146,37 +149,17 @@ def load_json_file(file_path):
         return []
 
 def batch_generate_responses(prompts: List[str]) -> List[str]:
-    """배치 처리로 여러 프롬프트 동시 생성"""
+    """배치 처리로 여러 프롬프트 동시 생성 - 최대 속도"""
     if not prompts:
         return []
     
     logger.info(f"🚀 {len(prompts)}개 프롬프트 배치 처리 중...")
     
-    # 더 큰 배치 크기로 한 번에 처리
-    try:
-        outputs = llm.generate(prompts, sampling_params, use_tqdm=False)  # tqdm 비활성화로 속도 개선
-    except Exception as e:
-        logger.error(f"배치 생성 실패: {e}")
-        # 실패 시 작은 배치로 재시도
-        results = []
-        for i in range(0, len(prompts), 10):
-            sub_batch = prompts[i:i+10]
-            sub_outputs = llm.generate(sub_batch, sampling_params, use_tqdm=False)
-            for output in sub_outputs:
-                if output.outputs:
-                    results.append(output.outputs[0].text.strip())
-                else:
-                    results.append("{}")
-        return results
+    # 모든 프롬프트를 한 번에 처리
+    outputs = llm.generate(prompts, sampling_params, use_tqdm=False)
     
-    results = []
-    for output in outputs:
-        if output.outputs:
-            results.append(output.outputs[0].text.strip())
-        else:
-            results.append("{}")
-    
-    return results
+    # 빠른 결과 추출
+    return [output.outputs[0].text.strip() if output.outputs else "{}" for output in outputs]
 
 def parse_json_response(response: str) -> Dict:
     """JSON 응답 파싱"""
@@ -245,14 +228,15 @@ def save_results(results: List[Dict], output_dir: str):
     # 저장 - 모든 파일 개별 폴더로 저장
     saved_count = 0
     for folder_name, folder_results in grouped.items():
+        total_chunks = len(folder_results)
         for result in folder_results:
-            # 청킹 여부와 관계없이 모든 파일에 대해 폴더 생성
-            if result["metadata"]["is_chunked"]:
-                # 청킹된 파일
+            # qwen3_lora와 동일한 로직: 청크가 1개면 _chunk_X 붙이지 않음
+            if result["metadata"]["is_chunked"] and total_chunks > 1:
+                # 청킹된 파일이고 청크가 2개 이상일 때만 _chunk_ 붙임
                 chunk_dir = os.path.join(output_dir, f"{folder_name}_chunk_{result['chunk_idx']+1}")
                 chunk_id = f"{folder_name}_chunk_{result['chunk_idx']+1}"
             else:
-                # 청킹되지 않은 파일도 폴더 생성
+                # 청크가 1개이거나 청킹되지 않은 파일
                 chunk_dir = os.path.join(output_dir, folder_name)
                 chunk_id = folder_name
             
@@ -279,11 +263,11 @@ def save_results(results: List[Dict], output_dir: str):
 
 def main():
     """메인 실행 함수"""
-    # 설정 - 상대 경로 사용
-    base_directory = "../Raw_Data_val"  # Performance_Evaluation/Raw_Data_val
-    output_directory = "4B_awq_model_results_improved"  # 현재 폴더에 생성
-    batch_size = 10  # 한 번에 처리할 파일 수 (증가시켜 속도 개선)
-    max_chunks_per_batch = 100  # 배치당 최대 청크 수 (증가시켜 속도 개선)
+    # 설정 - 속도 최적화
+    base_directory = "../Raw_Data_val"
+    output_directory = "4B_awq_model_results_improved"
+    batch_size = 30  # 더 큰 배치 크기
+    max_chunks_per_batch = 300  # 더 많은 청크를 한번에 처리
     
     logger.info(f"🚀 개선된 처리 시작")
     logger.info(f"📂 입력: {base_directory}")
@@ -303,11 +287,9 @@ def main():
     
     logger.info(f"📁 {len(target_files)}개 파일 발견")
     
-    # 배치 단위로 처리 (청크 수 제한 추가)
-    current_batch = []
-    current_chunk_count = 0
-    batch_num = 1
-    total_processed = 0
+    # 모든 파일을 한번에 처리 준비 (최대 속도)
+    all_files_data = []
+    total_chunks = 0
     
     for folder_name, file_path in target_files:
         utterances = load_json_file(file_path)
@@ -315,43 +297,21 @@ def main():
             logger.warning(f"⚠️ {folder_name} 파일 로드 실패, 건너뜀")
             continue
             
-        # 텍스트 결합 및 청킹 (qwen3_lora와 완전히 동일한 방식)
-        meeting_lines = []
-        for utt in utterances:
-            timestamp = utt.get('timestamp', 'Unknown')
-            speaker = utt.get('speaker', 'Unknown')
-            text = utt.get('text', '')
-            meeting_lines.append(f"[{timestamp}] {speaker}: {text}")
+        # 텍스트 결합 및 청킹 (qwen3_lora와 동일)
+        meeting_lines = [f"[{utt.get('timestamp', 'Unknown')}] {utt.get('speaker', 'Unknown')}: {utt.get('text', '')}" 
+                        for utt in utterances]
         full_text = "\n".join(meeting_lines)
         chunks = chunk_text(full_text, chunk_size=5000, overlap=512)
         
-        logger.info(f"📄 {folder_name}: {len(chunks)}개 청크 생성 (원본 {len(full_text)}자)")
-        
-        # 청크 수 확인
-        if current_chunk_count + len(chunks) > max_chunks_per_batch and current_batch:
-            # 현재 배치 처리
-            logger.info(f"📦 배치 {batch_num} 처리 중... ({len(current_batch)}개 파일, {current_chunk_count}개 청크)")
-            results = process_files_batch(current_batch)
-            save_results(results, output_directory)
-            total_processed += len(current_batch)
-            
-            # 새 배치 시작
-            batch_num += 1
-            current_batch = [(folder_name, file_path, chunks)]
-            current_chunk_count = len(chunks)
-        else:
-            # 현재 배치에 추가
-            current_batch.append((folder_name, file_path, chunks))
-            current_chunk_count += len(chunks)
+        all_files_data.append((folder_name, file_path, chunks))
+        total_chunks += len(chunks)
+        logger.info(f"📄 {folder_name}: {len(chunks)}개 청크")
     
-    # 마지막 배치 처리
-    if current_batch:
-        logger.info(f"📦 배치 {batch_num} 처리 중... ({len(current_batch)}개 파일, {current_chunk_count}개 청크)")
-        results = process_files_batch(current_batch)
-        save_results(results, output_directory)
-        total_processed += len(current_batch)
+    logger.info(f"📊 총 {len(all_files_data)}개 파일, {total_chunks}개 청크 처리 시작")
     
-    logger.info(f"📊 총 {total_processed}개 파일 처리 완료")
+    # 모든 파일을 한번에 배치 처리
+    results = process_files_batch(all_files_data)
+    save_results(results, output_directory)
     
     logger.info("🎉 모든 처리 완료!")
 
