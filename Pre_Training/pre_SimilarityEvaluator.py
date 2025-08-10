@@ -287,8 +287,17 @@ class SimilarityMetrics:
             stop_words=None
         )
         
-        # OpenAI 클라이언트 초기화 (환경변수에서만 API 키 읽기)
-        api_key = os.getenv("OPENAI_API_KEY") 
+        # OpenAI 클라이언트 초기화 (환경변수에서 API 키 읽기, 없으면 .env 파일에서)
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            # .env 파일 확인
+            env_path = Path(__file__).parent / ".env"
+            if env_path.exists():
+                with open(env_path, 'r') as f:
+                    for line in f:
+                        if line.startswith("OPENAI_API_KEY="):
+                            api_key = line.split("=", 1)[1].strip()
+                            break 
         if api_key:
             self.openai_client = OpenAI(api_key=api_key)
             logger.info(f"OpenAI 클라이언트 초기화 완료 (모델: {config.embedding_model})")
@@ -470,18 +479,26 @@ class LocalSimilarityEvaluator:
         print(f"평균 Embedding 코사인 유사도: {result.mean_embedding_cosine:.4f}")
         print("=" * 80)
         
-        # 상위/하위 5개 결과 (TF-IDF와 Embedding 각각 표시)
-        if len(result.scores) > 10:
+        # 상위/하위 10개 결과 (TF-IDF와 Embedding 각각 표시)
+        if len(result.scores) >= 20:
             sorted_tfidf = sorted(result.scores, key=lambda x: x.tfidf_cosine, reverse=True)
             sorted_embedding = sorted(result.scores, key=lambda x: x.embedding_cosine, reverse=True)
             
-            print("\n[TF-IDF 기준] 상위 5개 파일:")
-            for i, score in enumerate(sorted_tfidf[:5], 1):
-                print(f"{i}. {score.file_name}: TF-IDF={score.tfidf_cosine:.4f}, Embedding={score.embedding_cosine:.4f}")
+            print("\n[TF-IDF 기준] 상위 10개 파일:")
+            for i, score in enumerate(sorted_tfidf[:10], 1):
+                print(f"{i:2d}. {score.file_name[:50]:50s}: TF-IDF={score.tfidf_cosine:.4f}, Embedding={score.embedding_cosine:.4f}")
             
-            print("\n[Embedding 기준] 상위 5개 파일:")
-            for i, score in enumerate(sorted_embedding[:5], 1):
-                print(f"{i}. {score.file_name}: TF-IDF={score.tfidf_cosine:.4f}, Embedding={score.embedding_cosine:.4f}")
+            print("\n[TF-IDF 기준] 하위 10개 파일:")
+            for i, score in enumerate(sorted_tfidf[-10:], 1):
+                print(f"{i:2d}. {score.file_name[:50]:50s}: TF-IDF={score.tfidf_cosine:.4f}, Embedding={score.embedding_cosine:.4f}")
+            
+            print("\n[Embedding 기준] 상위 10개 파일:")
+            for i, score in enumerate(sorted_embedding[:10], 1):
+                print(f"{i:2d}. {score.file_name[:50]:50s}: TF-IDF={score.tfidf_cosine:.4f}, Embedding={score.embedding_cosine:.4f}")
+            
+            print("\n[Embedding 기준] 하위 10개 파일:")
+            for i, score in enumerate(sorted_embedding[-10:], 1):
+                print(f"{i:2d}. {score.file_name[:50]:50s}: TF-IDF={score.tfidf_cosine:.4f}, Embedding={score.embedding_cosine:.4f}")
     
     def _save_results(self, result: EvaluationResult):
         """결과 저장"""
@@ -524,8 +541,8 @@ class LocalSimilarityEvaluator:
             f.write(f"  - TF-IDF 코사인 유사도: {result.mean_tfidf_cosine:.4f}\n")
             f.write(f"  - Embedding 코사인 유사도: {result.mean_embedding_cosine:.4f}\n")
             
-            # 상위/하위 5개 결과 추가
-            if len(result.scores) > 10:
+            # 상위/하위 10개 결과 추가
+            if len(result.scores) >= 20:
                 sorted_tfidf = sorted(result.scores, key=lambda x: x.tfidf_cosine, reverse=True)
                 sorted_embedding = sorted(result.scores, key=lambda x: x.embedding_cosine, reverse=True)
                 
@@ -533,25 +550,25 @@ class LocalSimilarityEvaluator:
                 f.write("상위/하위 성능 파일\n")
                 f.write("=" * 60 + "\n\n")
                 
-                f.write("[TF-IDF 기준] 상위 5개 파일:\n")
-                for i, score in enumerate(sorted_tfidf[:5], 1):
-                    f.write(f"{i}. {score.file_name}\n")
-                    f.write(f"   - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
+                f.write("[TF-IDF 기준] 상위 10개 파일:\n")
+                for i, score in enumerate(sorted_tfidf[:10], 1):
+                    f.write(f"{i:2d}. {score.file_name}\n")
+                    f.write(f"    - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
                 
-                f.write("\n[TF-IDF 기준] 하위 5개 파일:\n")
-                for i, score in enumerate(sorted_tfidf[-5:], 1):
-                    f.write(f"{i}. {score.file_name}\n")
-                    f.write(f"   - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
+                f.write("\n[TF-IDF 기준] 하위 10개 파일:\n")
+                for i, score in enumerate(sorted_tfidf[-10:], 1):
+                    f.write(f"{i:2d}. {score.file_name}\n")
+                    f.write(f"    - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
                 
-                f.write("\n[Embedding 기준] 상위 5개 파일:\n")
-                for i, score in enumerate(sorted_embedding[:5], 1):
-                    f.write(f"{i}. {score.file_name}\n")
-                    f.write(f"   - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
+                f.write("\n[Embedding 기준] 상위 10개 파일:\n")
+                for i, score in enumerate(sorted_embedding[:10], 1):
+                    f.write(f"{i:2d}. {score.file_name}\n")
+                    f.write(f"    - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
                 
-                f.write("\n[Embedding 기준] 하위 5개 파일:\n")
-                for i, score in enumerate(sorted_embedding[-5:], 1):
-                    f.write(f"{i}. {score.file_name}\n")
-                    f.write(f"   - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
+                f.write("\n[Embedding 기준] 하위 10개 파일:\n")
+                for i, score in enumerate(sorted_embedding[-10:], 1):
+                    f.write(f"{i:2d}. {score.file_name}\n")
+                    f.write(f"    - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
                     
         logger.info(f"요약 저장: {summary_file}")
 

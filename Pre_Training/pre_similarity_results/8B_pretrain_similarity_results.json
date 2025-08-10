@@ -1,515 +1,515 @@
 {
-  "timestamp": "2025-08-10T02:54:30.843075",
+  "timestamp": "2025-08-10T21:06:54.865473",
   "sampling_info": {
     "sample_size": 100,
-    "total_available": 751,
-    "sampling_rate": "13.3%"
+    "total_available": 368,
+    "sampling_rate": "27.2%"
   },
   "summary": {
     "total_files": 100,
-    "mean_tfidf_cosine": 0.16189126107773127,
-    "mean_embedding_cosine": 0.8873108560559533
+    "mean_tfidf_cosine": 0.28947353615157095,
+    "mean_embedding_cosine": 0.9220646395329335
   },
   "details": [
     {
-      "file_name": "train_158_result_TS3003b_chunk_2",
-      "tfidf_cosine": 0.15050829061570403,
-      "embedding_cosine": 0.9156042960974097
+      "file_name": "val_047_result_제22대국회 제427회(임시회) 제2차 산업통상자원중소벤처기업위원회(전체회의) (2025.07.15.)_chunk_21",
+      "tfidf_cosine": 0.26464088546615544,
+      "embedding_cosine": 0.873638601802793
     },
     {
-      "file_name": "val_048_result_Bmr006_chunk_5",
-      "tfidf_cosine": 0.26527318914934594,
-      "embedding_cosine": 0.9000299573184958
+      "file_name": "val_006_result_Bmr019_chunk_3",
+      "tfidf_cosine": 0.25749025382381335,
+      "embedding_cosine": 0.8581218659674879
     },
     {
-      "file_name": "train_107_result_Bed006_chunk_1",
-      "tfidf_cosine": 0.17560858613675023,
-      "embedding_cosine": 0.8724028403701687
+      "file_name": "val_044_result_Bed010_chunk_1",
+      "tfidf_cosine": 0.22982276326734805,
+      "embedding_cosine": 0.8496529136396638
     },
     {
-      "file_name": "train_183_result_Bro005_chunk_1",
-      "tfidf_cosine": 0.08735131088079812,
-      "embedding_cosine": 0.7787518672410899
+      "file_name": "val_042_result_TS3009d_chunk_3",
+      "tfidf_cosine": 0.2552358550808781,
+      "embedding_cosine": 0.9477413766295785
     },
     {
-      "file_name": "train_174_result_Bns001_chunk_10",
-      "tfidf_cosine": 0.18131429204457422,
-      "embedding_cosine": 0.8827173536536106
+      "file_name": "val_063_result_IS1009d_chunk_2",
+      "tfidf_cosine": 0.2059480377419966,
+      "embedding_cosine": 0.9236315382787542
     },
     {
-      "file_name": "train_231_result_Bmr027_chunk_3",
-      "tfidf_cosine": 0.10016777008955126,
-      "embedding_cosine": 0.8237576160995512
+      "file_name": "val_035_result_IS1000d_chunk_2",
+      "tfidf_cosine": 0.45071314403100565,
+      "embedding_cosine": 0.9254737107282784
     },
     {
-      "file_name": "train_129_result_Bmr010_chunk_1",
-      "tfidf_cosine": 0.1724312982824497,
-      "embedding_cosine": 0.9143921228544101
+      "file_name": "val_010_result_Bro003_chunk_1",
+      "tfidf_cosine": 0.24614199282885077,
+      "embedding_cosine": 0.9311049464555494
     },
     {
-      "file_name": "train_077_result_Bmr005_chunk_1",
-      "tfidf_cosine": 0.22397606754843566,
-      "embedding_cosine": 0.9436263241247071
+      "file_name": "val_040_result_Bmr013_chunk_4",
+      "tfidf_cosine": 0.3050821827594714,
+      "embedding_cosine": 0.9278940638946535
     },
     {
-      "file_name": "train_143_result_TS3006d_chunk_4",
-      "tfidf_cosine": 0.09508680340026893,
-      "embedding_cosine": 0.8262713096170539
+      "file_name": "val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_15",
+      "tfidf_cosine": 0.17824692646721457,
+      "embedding_cosine": 0.9407744360736487
     },
     {
-      "file_name": "val_016_result_ES2015a",
-      "tfidf_cosine": 0.16821112788706163,
-      "embedding_cosine": 0.9124312163766007
+      "file_name": "val_054_result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)_chunk_19",
+      "tfidf_cosine": 0.2545936804947597,
+      "embedding_cosine": 0.9302160744757051
     },
     {
-      "file_name": "train_153_result_Bmr002_chunk_1",
-      "tfidf_cosine": 0.1368313947239631,
-      "embedding_cosine": 0.9293255121356203
+      "file_name": "val_056_result_Bmr012_chunk_1",
+      "tfidf_cosine": 0.20507422823948201,
+      "embedding_cosine": 0.8145516715184338
     },
     {
-      "file_name": "train_225_result_IS1003c_chunk_1",
-      "tfidf_cosine": 0.22811760190263342,
-      "embedding_cosine": 0.9053230599256883
+      "file_name": "val_053_result_제22대국회 제427회(임시회) 제2차 농림축산식품해양수산위원회(전체회의) (2025.07.14.)_chunk_2",
+      "tfidf_cosine": 0.2604602892442069,
+      "embedding_cosine": 0.8972177745973283
     },
     {
-      "file_name": "train_175_result_EN2005a_chunk_5",
-      "tfidf_cosine": 0.20704321589803382,
-      "embedding_cosine": 0.9087758399121079
+      "file_name": "val_018_result_제22대국회 제426회(임시회) 제3차 환경노동위원회(전체회의) (2025.07.04.)",
+      "tfidf_cosine": 0.23479051498868253,
+      "embedding_cosine": 0.9413552893882882
     },
     {
-      "file_name": "train_044_result_Bed008_chunk_2",
-      "tfidf_cosine": 0.20784482424087422,
-      "embedding_cosine": 0.8610113309610684
+      "file_name": "val_044_result_Bed010_chunk_5",
+      "tfidf_cosine": 0.13166385152267418,
+      "embedding_cosine": 0.8373389967825251
     },
     {
-      "file_name": "train_107_result_Bed006_chunk_6",
-      "tfidf_cosine": 0.13645672119174718,
-      "embedding_cosine": 0.8487667340066414
+      "file_name": "val_044_result_Bed010_chunk_4",
+      "tfidf_cosine": 0.20008242799403056,
+      "embedding_cosine": 0.9103375825689544
     },
     {
-      "file_name": "train_153_result_Bmr002_chunk_7",
-      "tfidf_cosine": 0.08158164748314595,
-      "embedding_cosine": 0.8625164212322349
+      "file_name": "val_056_result_Bmr012_chunk_4",
+      "tfidf_cosine": 0.273194174762581,
+      "embedding_cosine": 0.897538920434178
     },
     {
-      "file_name": "train_043_result_Bmr026_chunk_2",
-      "tfidf_cosine": 0.1748988429840666,
-      "embedding_cosine": 0.8927641200703382
-    },
-    {
-      "file_name": "train_190_result_Bmr029_chunk_2",
-      "tfidf_cosine": 0.16184388142320144,
-      "embedding_cosine": 0.8845356673753848
-    },
-    {
-      "file_name": "train_104_result_ES2009c_chunk_1",
-      "tfidf_cosine": 0.12435882371410353,
-      "embedding_cosine": 0.9022280691578038
-    },
-    {
-      "file_name": "train_130_result_IS1004d_chunk_2",
-      "tfidf_cosine": 0.14879719142801084,
-      "embedding_cosine": 0.892209700192222
-    },
-    {
-      "file_name": "train_107_result_Bed006_chunk_3",
-      "tfidf_cosine": 0.15137427552178123,
-      "embedding_cosine": 0.8627699057177731
-    },
-    {
-      "file_name": "train_070_result_ES2016d_chunk_1",
-      "tfidf_cosine": 0.19295774400765578,
-      "embedding_cosine": 0.9063255062399654
-    },
-    {
-      "file_name": "train_156_result_Bmr022_chunk_4",
-      "tfidf_cosine": 0.10794629549072962,
-      "embedding_cosine": 0.876000385620194
-    },
-    {
-      "file_name": "train_085_result_TS3004c_chunk_3",
-      "tfidf_cosine": 0.1892414795664105,
-      "embedding_cosine": 0.8629951928115864
-    },
-    {
-      "file_name": "val_061_result_TS3009b_chunk_2",
-      "tfidf_cosine": 0.17991231642909752,
-      "embedding_cosine": 0.9392952749063517
-    },
-    {
-      "file_name": "train_237_result_TS3012b_chunk_1",
-      "tfidf_cosine": 0.1819086810990384,
-      "embedding_cosine": 0.9583642651495052
-    },
-    {
-      "file_name": "train_175_result_EN2005a_chunk_2",
-      "tfidf_cosine": 0.16877937915092778,
-      "embedding_cosine": 0.9075492300217601
-    },
-    {
-      "file_name": "train_043_result_Bmr026_chunk_4",
-      "tfidf_cosine": 0.17404011547669745,
-      "embedding_cosine": 0.8526062435153967
-    },
-    {
-      "file_name": "val_022_result_ES2002c_chunk_2",
-      "tfidf_cosine": 0.22949459201644848,
-      "embedding_cosine": 0.9202131768161719
-    },
-    {
-      "file_name": "train_046_result_IS1003b_chunk_2",
-      "tfidf_cosine": 0.17949420434061397,
-      "embedding_cosine": 0.9502663803970752
-    },
-    {
-      "file_name": "train_183_result_Bro005_chunk_4",
-      "tfidf_cosine": 0.16585284303068162,
-      "embedding_cosine": 0.8560440358434126
-    },
-    {
-      "file_name": "val_066_result_Bed002_chunk_3",
-      "tfidf_cosine": 0.2012203147058644,
-      "embedding_cosine": 0.890023385657793
-    },
-    {
-      "file_name": "val_040_result_Bmr013_chunk_6",
-      "tfidf_cosine": 0.205758895965951,
-      "embedding_cosine": 0.8887228954546531
-    },
-    {
-      "file_name": "val_012_result_TS3008d_chunk_4",
-      "tfidf_cosine": 0.03241251613601164,
-      "embedding_cosine": 0.7726167460344159
-    },
-    {
-      "file_name": "train_047_result_TS3011d_chunk_1",
-      "tfidf_cosine": 0.27350828331282806,
-      "embedding_cosine": 0.9142486831314612
-    },
-    {
-      "file_name": "train_141_result_Bro025_chunk_2",
-      "tfidf_cosine": 0.2105653094374762,
-      "embedding_cosine": 0.9223025284050462
-    },
-    {
-      "file_name": "train_075_result_TS3009c_chunk_1",
-      "tfidf_cosine": 0.21308402640517107,
-      "embedding_cosine": 0.8674636387478721
-    },
-    {
-      "file_name": "val_040_result_Bmr013_chunk_2",
-      "tfidf_cosine": 0.1915525065605951,
-      "embedding_cosine": 0.8481979633271918
-    },
-    {
-      "file_name": "val_007_result_Bmr025_chunk_3",
-      "tfidf_cosine": 0.1538417009483965,
-      "embedding_cosine": 0.8908904822595276
-    },
-    {
-      "file_name": "train_024_result_Bro024_chunk_4",
-      "tfidf_cosine": 0.18041815051092072,
-      "embedding_cosine": 0.8996860765892074
-    },
-    {
-      "file_name": "train_237_result_TS3012b_chunk_3",
-      "tfidf_cosine": 0.17697474411361236,
-      "embedding_cosine": 0.879121299344849
-    },
-    {
-      "file_name": "train_153_result_Bmr002_chunk_6",
-      "tfidf_cosine": 0.2607639774633072,
-      "embedding_cosine": 0.9337904900428622
-    },
-    {
-      "file_name": "train_100_result_Buw001_chunk_1",
-      "tfidf_cosine": 0.23569974789088102,
-      "embedding_cosine": 0.9195851939906312
-    },
-    {
-      "file_name": "train_251_result_Bmr003_chunk_3",
-      "tfidf_cosine": 0.13080080220286638,
-      "embedding_cosine": 0.9388655255497507
-    },
-    {
-      "file_name": "train_247_result_Bsr001_chunk_3",
-      "tfidf_cosine": 0.18785529004515336,
-      "embedding_cosine": 0.8410135846360355
-    },
-    {
-      "file_name": "train_223_result_Bro026_chunk_4",
-      "tfidf_cosine": 0.1040470492059157,
-      "embedding_cosine": 0.8674541931861246
-    },
-    {
-      "file_name": "train_057_result_IS1005a",
-      "tfidf_cosine": 0.25392693679410977,
-      "embedding_cosine": 0.9408209701562995
-    },
-    {
-      "file_name": "train_204_result_Bns003_chunk_5",
-      "tfidf_cosine": 0.2889387778611788,
-      "embedding_cosine": 0.9173254962663308
-    },
-    {
-      "file_name": "val_030_result_Bed009_chunk_6",
-      "tfidf_cosine": 0.15446511323601458,
-      "embedding_cosine": 0.8522342052763718
-    },
-    {
-      "file_name": "train_119_result_ES2003d_chunk_3",
-      "tfidf_cosine": 0.18626110507292482,
-      "embedding_cosine": 0.9292515941377737
-    },
-    {
-      "file_name": "val_002_result_ES2014a",
-      "tfidf_cosine": 0.18653697178622133,
-      "embedding_cosine": 0.9675486162410547
-    },
-    {
-      "file_name": "train_125_result_Bmr008_chunk_3",
-      "tfidf_cosine": 0.124734078928179,
-      "embedding_cosine": 0.8067474130155442
-    },
-    {
-      "file_name": "train_099_result_Btr002_chunk_8",
-      "tfidf_cosine": 0.12069888796232511,
-      "embedding_cosine": 0.8348795214389194
-    },
-    {
-      "file_name": "val_029_result_Bed016_chunk_3",
-      "tfidf_cosine": 0.054213108008555666,
-      "embedding_cosine": 0.8329395371343432
-    },
-    {
-      "file_name": "train_007_result_ES2015d_chunk_1",
-      "tfidf_cosine": 0.19538740202107893,
-      "embedding_cosine": 0.9251142667139431
-    },
-    {
-      "file_name": "train_063_result_Bro012_chunk_1",
-      "tfidf_cosine": 0.19975091086861432,
-      "embedding_cosine": 0.8595228406553517
-    },
-    {
-      "file_name": "train_018_result_IS1008d_chunk_1",
-      "tfidf_cosine": 0.3291425829674418,
-      "embedding_cosine": 0.8658354908909043
+      "file_name": "val_025_result_IS1000b_chunk_2",
+      "tfidf_cosine": 0.519155718737342,
+      "embedding_cosine": 0.9726841921687215
     },
     {
       "file_name": "val_017_result_IS1007b_chunk_2",
-      "tfidf_cosine": 0.04260112336149332,
-      "embedding_cosine": 0.8189086244410837
+      "tfidf_cosine": 0.30383897538317783,
+      "embedding_cosine": 0.8598108548803504
     },
     {
-      "file_name": "train_247_result_Bsr001_chunk_7",
-      "tfidf_cosine": 0.16625872430536076,
-      "embedding_cosine": 0.8479958072021054
+      "file_name": "val_023_result_제22대국회 제427회(임시회) 제1차 행정안전위원회(법안심사제1소위원회) (2025.07.08.)_chunk_16",
+      "tfidf_cosine": 0.2999635893385489,
+      "embedding_cosine": 0.9706393141937275
     },
     {
-      "file_name": "train_136_result_IS1001c_chunk_2",
-      "tfidf_cosine": 0.2078464851537512,
-      "embedding_cosine": 0.9556930738922638
-    },
-    {
-      "file_name": "train_038_result_Bmr021_chunk_1",
-      "tfidf_cosine": 0.23027464045002044,
-      "embedding_cosine": 0.90836550069469
-    },
-    {
-      "file_name": "train_127_result_Bed015_chunk_1",
-      "tfidf_cosine": 0.1358709584981736,
-      "embedding_cosine": 0.9058077585771251
+      "file_name": "val_053_result_제22대국회 제427회(임시회) 제2차 농림축산식품해양수산위원회(전체회의) (2025.07.14.)_chunk_4",
+      "tfidf_cosine": 0.27390629890061824,
+      "embedding_cosine": 0.9503423987753812
     },
     {
       "file_name": "val_044_result_Bed010_chunk_2",
-      "tfidf_cosine": 0.09183003481781514,
-      "embedding_cosine": 0.808579126007046
+      "tfidf_cosine": 0.2760736306710305,
+      "embedding_cosine": 0.9074508328431455
     },
     {
-      "file_name": "train_171_result_TS3005d_chunk_1",
-      "tfidf_cosine": 0.17516200069734064,
-      "embedding_cosine": 0.9461917772506122
+      "file_name": "val_054_result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)_chunk_6",
+      "tfidf_cosine": 0.21819616382679552,
+      "embedding_cosine": 0.9393140639494726
     },
     {
-      "file_name": "val_046_result_Bmr028_chunk_4",
-      "tfidf_cosine": 0.16971266957924658,
-      "embedding_cosine": 0.868410713914667
+      "file_name": "val_002_result_ES2014a",
+      "tfidf_cosine": 0.32329892810962957,
+      "embedding_cosine": 0.9820858375706877
+    },
+    {
+      "file_name": "val_047_result_제22대국회 제427회(임시회) 제2차 산업통상자원중소벤처기업위원회(전체회의) (2025.07.15.)_chunk_26",
+      "tfidf_cosine": 0.3282570870014506,
+      "embedding_cosine": 0.9262544201573766
+    },
+    {
+      "file_name": "val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_26",
+      "tfidf_cosine": 0.33456691850232617,
+      "embedding_cosine": 0.9297509294912933
+    },
+    {
+      "file_name": "val_057_result_제22대국회 제426회(임시회) 제2차 예산결산특별위원회(2025년도제2회추가경정예산안등조정소위원회) (2025.07.04.)_chunk_4",
+      "tfidf_cosine": 0.27903054649245573,
+      "embedding_cosine": 0.9675973043033321
+    },
+    {
+      "file_name": "val_025_result_IS1000b_chunk_3",
+      "tfidf_cosine": 0.3750110187988587,
+      "embedding_cosine": 0.9431001618590616
+    },
+    {
+      "file_name": "val_013_result_제22대국회 제427회(임시회) 제1차 정무위원회(전체회의) (2025.07.15.)_chunk_10",
+      "tfidf_cosine": 0.21558187128431586,
+      "embedding_cosine": 0.929705099699188
+    },
+    {
+      "file_name": "val_053_result_제22대국회 제427회(임시회) 제2차 농림축산식품해양수산위원회(전체회의) (2025.07.14.)_chunk_19",
+      "tfidf_cosine": 0.16484374318528716,
+      "embedding_cosine": 0.9190443381630053
+    },
+    {
+      "file_name": "val_032_result_TS3010b_chunk_1",
+      "tfidf_cosine": 0.4318856163601592,
+      "embedding_cosine": 0.9613079828867714
+    },
+    {
+      "file_name": "val_066_result_Bed002_chunk_4",
+      "tfidf_cosine": 0.22030216066439123,
+      "embedding_cosine": 0.8974081078953702
     },
     {
       "file_name": "val_021_result_Bro011_chunk_2",
-      "tfidf_cosine": 0.0802392122269184,
-      "embedding_cosine": 0.832991137252705
+      "tfidf_cosine": 0.15309978898447574,
+      "embedding_cosine": 0.8643039414296716
     },
     {
-      "file_name": "val_029_result_Bed016_chunk_4",
-      "tfidf_cosine": 0.07547176729131656,
-      "embedding_cosine": 0.7148216120532027
+      "file_name": "val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_23",
+      "tfidf_cosine": 0.23546313623800685,
+      "embedding_cosine": 0.9424331551123735
     },
     {
-      "file_name": "train_263_result_TS3011a",
-      "tfidf_cosine": 0.11811147661817678,
-      "embedding_cosine": 0.9402999611845033
+      "file_name": "val_020_result_제22대국회 제424회(임시회) 제1차 과학기술정보방송통신위원회(과학기술원자력법안심사소위원회) (2025.04.16.)_chunk_4",
+      "tfidf_cosine": 0.24994564026908878,
+      "embedding_cosine": 0.9243028418218696
     },
     {
-      "file_name": "train_251_result_Bmr003_chunk_7",
-      "tfidf_cosine": 0.07754300559920188,
-      "embedding_cosine": 0.8381814088274853
+      "file_name": "val_047_result_제22대국회 제427회(임시회) 제2차 산업통상자원중소벤처기업위원회(전체회의) (2025.07.15.)_chunk_8",
+      "tfidf_cosine": 0.42317117279857225,
+      "embedding_cosine": 0.9611484750256565
     },
     {
-      "file_name": "train_111_result_TS3008b_chunk_3",
-      "tfidf_cosine": 0.0681727846766972,
-      "embedding_cosine": 0.8501540427325749
+      "file_name": "val_058_result_Bro004_chunk_3",
+      "tfidf_cosine": 0.20455604036527072,
+      "embedding_cosine": 0.913590067874884
+    },
+    {
+      "file_name": "val_025_result_IS1000b_chunk_1",
+      "tfidf_cosine": 0.3390167040588302,
+      "embedding_cosine": 0.9485485507777544
+    },
+    {
+      "file_name": "val_020_result_제22대국회 제424회(임시회) 제1차 과학기술정보방송통신위원회(과학기술원자력법안심사소위원회) (2025.04.16.)_chunk_2",
+      "tfidf_cosine": 0.23689808456836386,
+      "embedding_cosine": 0.9628401308303673
+    },
+    {
+      "file_name": "val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_3",
+      "tfidf_cosine": 0.3168592766688217,
+      "embedding_cosine": 0.9438559193004288
+    },
+    {
+      "file_name": "val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_20",
+      "tfidf_cosine": 0.19959994166897957,
+      "embedding_cosine": 0.8722472366336419
+    },
+    {
+      "file_name": "val_027_result_제22대국회 제426회(임시회) 제2차 과학기술정보방송통신위원회(전체회의) (2025.06.27.)_chunk_1",
+      "tfidf_cosine": 0.3461602061040509,
+      "embedding_cosine": 0.8834559423364461
+    },
+    {
+      "file_name": "val_040_result_Bmr013_chunk_1",
+      "tfidf_cosine": 0.201314984347487,
+      "embedding_cosine": 0.8923914057379874
+    },
+    {
+      "file_name": "val_059_result_제22대국회 제426회(임시회) 제1차 과학기술정보방송통신위원회(예산결산심사소위원회) (2025.06.27.)_chunk_4",
+      "tfidf_cosine": 0.39765680899338957,
+      "embedding_cosine": 0.9293735808869252
+    },
+    {
+      "file_name": "val_065_result_제22대국회 제424회(임시회) 제4차 과학기술정보방송통신위원회(전체회의) (2025.04.24.)_chunk_1",
+      "tfidf_cosine": 0.45634505103178097,
+      "embedding_cosine": 0.9262735018791963
+    },
+    {
+      "file_name": "val_053_result_제22대국회 제427회(임시회) 제2차 농림축산식품해양수산위원회(전체회의) (2025.07.14.)_chunk_5",
+      "tfidf_cosine": 0.2679948661995983,
+      "embedding_cosine": 0.9438932031701727
     },
     {
       "file_name": "val_061_result_TS3009b_chunk_1",
-      "tfidf_cosine": 0.21378920987988442,
-      "embedding_cosine": 0.952550897519348
+      "tfidf_cosine": 0.4981368094783204,
+      "embedding_cosine": 0.9419305126923883
     },
     {
-      "file_name": "val_005_result_ES2003b_chunk_1",
-      "tfidf_cosine": 0.16954576632807,
-      "embedding_cosine": 0.9355887085921253
+      "file_name": "val_036_result_Bed013_chunk_1",
+      "tfidf_cosine": 0.27822000604767255,
+      "embedding_cosine": 0.8925606540179118
     },
     {
-      "file_name": "val_063_result_IS1009d_chunk_1",
-      "tfidf_cosine": 0.16502574748341967,
-      "embedding_cosine": 0.9485755682358674
+      "file_name": "val_013_result_제22대국회 제427회(임시회) 제1차 정무위원회(전체회의) (2025.07.15.)_chunk_16",
+      "tfidf_cosine": 0.36969628018194545,
+      "embedding_cosine": 0.9592845073974305
     },
     {
-      "file_name": "train_253_result_Btr001_chunk_2",
-      "tfidf_cosine": 0.11441715771521062,
-      "embedding_cosine": 0.9018546054427816
+      "file_name": "val_054_result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)_chunk_14",
+      "tfidf_cosine": 0.19765580708275904,
+      "embedding_cosine": 0.9408099373324074
     },
     {
-      "file_name": "train_058_result_Bmr014_chunk_3",
-      "tfidf_cosine": 0.1786163958500923,
-      "embedding_cosine": 0.9033962792402034
+      "file_name": "val_007_result_Bmr025_chunk_4",
+      "tfidf_cosine": 0.2102167884913157,
+      "embedding_cosine": 0.897491513870297
     },
     {
-      "file_name": "train_099_result_Btr002_chunk_1",
-      "tfidf_cosine": 0.07064593238892702,
-      "embedding_cosine": 0.8982143152705829
+      "file_name": "val_008_result_제22대국회 제426회(임시회) 제1차 과학기술정보방송통신위원회(전체회의) (2025.06.26.)_chunk_5",
+      "tfidf_cosine": 0.3487137749994409,
+      "embedding_cosine": 0.957426785266842
+    },
+    {
+      "file_name": "val_048_result_Bmr006_chunk_6",
+      "tfidf_cosine": 0.3099004435841371,
+      "embedding_cosine": 0.9123802772572529
+    },
+    {
+      "file_name": "val_054_result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)_chunk_21",
+      "tfidf_cosine": 0.15665063407317023,
+      "embedding_cosine": 0.9012386125074419
+    },
+    {
+      "file_name": "val_003_result_제22대국회 제418회(정기회) 제5차 과학기술정보방송통신위원회(예산결산심사소위원회) (2024.11.19.)_chunk_2",
+      "tfidf_cosine": 0.2038539677752558,
+      "embedding_cosine": 0.8951184471829057
+    },
+    {
+      "file_name": "val_059_result_제22대국회 제426회(임시회) 제1차 과학기술정보방송통신위원회(예산결산심사소위원회) (2025.06.27.)_chunk_6",
+      "tfidf_cosine": 0.3163603240349601,
+      "embedding_cosine": 0.9194553312810929
+    },
+    {
+      "file_name": "val_053_result_제22대국회 제427회(임시회) 제2차 농림축산식품해양수산위원회(전체회의) (2025.07.14.)_chunk_13",
+      "tfidf_cosine": 0.26526865157466356,
+      "embedding_cosine": 0.9358183203333015
+    },
+    {
+      "file_name": "val_043_result_ES2007d_chunk_2",
+      "tfidf_cosine": 0.3489610107309183,
+      "embedding_cosine": 0.9531582790378661
+    },
+    {
+      "file_name": "val_048_result_Bmr006_chunk_1",
+      "tfidf_cosine": 0.2668856376980951,
+      "embedding_cosine": 0.8880868400084574
+    },
+    {
+      "file_name": "val_036_result_Bed013_chunk_2",
+      "tfidf_cosine": 0.4967414712082998,
+      "embedding_cosine": 0.955451059552323
+    },
+    {
+      "file_name": "val_031_result_IS1001b_chunk_1",
+      "tfidf_cosine": 0.3895840569604411,
+      "embedding_cosine": 0.9606006080701396
+    },
+    {
+      "file_name": "val_015_result_제22대국회 제418회(정기회) 제11차 과학기술정보방송통신위원회(전체회의) (2024.10.25.)",
+      "tfidf_cosine": 0.37794800289957475,
+      "embedding_cosine": 0.9361573870911772
+    },
+    {
+      "file_name": "val_047_result_제22대국회 제427회(임시회) 제2차 산업통상자원중소벤처기업위원회(전체회의) (2025.07.15.)_chunk_11",
+      "tfidf_cosine": 0.18846456583193394,
+      "embedding_cosine": 0.9013426393580495
+    },
+    {
+      "file_name": "val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_19",
+      "tfidf_cosine": 0.29329788985715277,
+      "embedding_cosine": 0.8973935727486597
+    },
+    {
+      "file_name": "val_040_result_Bmr013_chunk_3",
+      "tfidf_cosine": 0.18841001947838346,
+      "embedding_cosine": 0.8545627575928788
+    },
+    {
+      "file_name": "val_038_result_제22대국회 제427회(임시회) 제4차 기획재정위원회(전체회의) (2025.07.18.)",
+      "tfidf_cosine": 0.246828019190196,
+      "embedding_cosine": 0.9415137953851949
+    },
+    {
+      "file_name": "val_047_result_제22대국회 제427회(임시회) 제2차 산업통상자원중소벤처기업위원회(전체회의) (2025.07.15.)_chunk_3",
+      "tfidf_cosine": 0.17686409962336608,
+      "embedding_cosine": 0.8875860196672338
+    },
+    {
+      "file_name": "val_013_result_제22대국회 제427회(임시회) 제1차 정무위원회(전체회의) (2025.07.15.)_chunk_13",
+      "tfidf_cosine": 0.23795656267947335,
+      "embedding_cosine": 0.9146853620835015
+    },
+    {
+      "file_name": "val_059_result_제22대국회 제426회(임시회) 제1차 과학기술정보방송통신위원회(예산결산심사소위원회) (2025.06.27.)_chunk_7",
+      "tfidf_cosine": 0.39512914876775235,
+      "embedding_cosine": 0.9517501252331568
+    },
+    {
+      "file_name": "val_021_result_Bro011_chunk_4",
+      "tfidf_cosine": 0.317824168598113,
+      "embedding_cosine": 0.9400408357394376
+    },
+    {
+      "file_name": "val_008_result_제22대국회 제426회(임시회) 제1차 과학기술정보방송통신위원회(전체회의) (2025.06.26.)_chunk_1",
+      "tfidf_cosine": 0.4552970176192615,
+      "embedding_cosine": 0.949671993752405
+    },
+    {
+      "file_name": "val_059_result_제22대국회 제426회(임시회) 제1차 과학기술정보방송통신위원회(예산결산심사소위원회) (2025.06.27.)_chunk_2",
+      "tfidf_cosine": 0.11467409423151684,
+      "embedding_cosine": 0.8221902601715554
+    },
+    {
+      "file_name": "val_026_result_ES2015c_chunk_2",
+      "tfidf_cosine": 0.26700167498328914,
+      "embedding_cosine": 0.9259731019247506
+    },
+    {
+      "file_name": "val_061_result_TS3009b_chunk_2",
+      "tfidf_cosine": 0.4741339903719078,
+      "embedding_cosine": 0.9489390191775218
+    },
+    {
+      "file_name": "val_048_result_Bmr006_chunk_2",
+      "tfidf_cosine": 0.4095506802590466,
+      "embedding_cosine": 0.9512944691181521
     },
     {
       "file_name": "val_049_result_Bro028_chunk_3",
-      "tfidf_cosine": 0.2083591144767256,
-      "embedding_cosine": 0.8156946951512515
+      "tfidf_cosine": 0.2926885353259342,
+      "embedding_cosine": 0.8043573924998155
     },
     {
-      "file_name": "train_035_result_Bmr024_chunk_5",
-      "tfidf_cosine": 0.16774450587996728,
-      "embedding_cosine": 0.9348649635021582
+      "file_name": "val_054_result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)_chunk_13",
+      "tfidf_cosine": 0.3219713109008696,
+      "embedding_cosine": 0.9642125744042167
     },
     {
-      "file_name": "val_010_result_Bro003_chunk_2",
-      "tfidf_cosine": 0.19129118778105808,
-      "embedding_cosine": 0.8941067940662455
+      "file_name": "val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_6",
+      "tfidf_cosine": 0.5752043259065526,
+      "embedding_cosine": 0.9595253098685903
     },
     {
-      "file_name": "train_085_result_TS3004c_chunk_1",
-      "tfidf_cosine": 0.18076597994434085,
-      "embedding_cosine": 0.9393861123187899
+      "file_name": "val_053_result_제22대국회 제427회(임시회) 제2차 농림축산식품해양수산위원회(전체회의) (2025.07.14.)_chunk_17",
+      "tfidf_cosine": 0.3528785603016197,
+      "embedding_cosine": 0.9619223942377303
     },
     {
-      "file_name": "train_127_result_Bed015_chunk_3",
-      "tfidf_cosine": 0.05316176659804873,
-      "embedding_cosine": 0.7407026520537161
+      "file_name": "val_013_result_제22대국회 제427회(임시회) 제1차 정무위원회(전체회의) (2025.07.15.)_chunk_17",
+      "tfidf_cosine": 0.5014121280762983,
+      "embedding_cosine": 0.9476209193013423
     },
     {
-      "file_name": "train_163_result_IS1006a",
-      "tfidf_cosine": 0.1592299950819622,
-      "embedding_cosine": 0.9477180320032661
+      "file_name": "val_053_result_제22대국회 제427회(임시회) 제2차 농림축산식품해양수산위원회(전체회의) (2025.07.14.)_chunk_20",
+      "tfidf_cosine": 0.1309414466322514,
+      "embedding_cosine": 0.9337749936640329
     },
     {
-      "file_name": "train_171_result_TS3005d_chunk_2",
-      "tfidf_cosine": 0.16619239139675568,
-      "embedding_cosine": 0.9227741273621755
+      "file_name": "val_042_result_TS3009d_chunk_1",
+      "tfidf_cosine": 0.16050724754158363,
+      "embedding_cosine": 0.9177981682957461
     },
     {
-      "file_name": "train_182_result_Bmr016_chunk_2",
-      "tfidf_cosine": 0.09916700257206866,
-      "embedding_cosine": 0.7939054449533297
+      "file_name": "val_054_result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)_chunk_4",
+      "tfidf_cosine": 0.3159066409864277,
+      "embedding_cosine": 0.9348550739735925
     },
     {
-      "file_name": "train_215_result_ES2013c_chunk_2",
-      "tfidf_cosine": 0.13583633551297955,
-      "embedding_cosine": 0.9465276301522696
+      "file_name": "val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_10",
+      "tfidf_cosine": 0.39831999430569764,
+      "embedding_cosine": 0.9604841485249312
     },
     {
-      "file_name": "val_045_result_TS3012c_chunk_3",
-      "tfidf_cosine": 0.1436720754190874,
-      "embedding_cosine": 0.9095230683866338
+      "file_name": "val_060_result_제22대국회 제420회(임시회) 제2차 과학기술정보방송통신위원회(전체회의) (2025.01.06.)_chunk_5",
+      "tfidf_cosine": 0.2555362297739683,
+      "embedding_cosine": 0.938337199775109
     },
     {
-      "file_name": "train_058_result_Bmr014_chunk_4",
-      "tfidf_cosine": 0.2715482904877485,
-      "embedding_cosine": 0.8395415122075882
+      "file_name": "val_029_result_Bed016_chunk_1",
+      "tfidf_cosine": 0.21750579990318405,
+      "embedding_cosine": 0.9081194443125274
     },
     {
-      "file_name": "train_134_result_ES2004b_chunk_2",
-      "tfidf_cosine": 0.14016571423360016,
-      "embedding_cosine": 0.9017976113798805
+      "file_name": "val_031_result_IS1001b_chunk_2",
+      "tfidf_cosine": 0.23954254711017794,
+      "embedding_cosine": 0.9635787107977773
     },
     {
-      "file_name": "train_099_result_Btr002_chunk_9",
-      "tfidf_cosine": 0.043053074553287544,
-      "embedding_cosine": 0.8359145559875587
+      "file_name": "val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_22",
+      "tfidf_cosine": 0.2989292690786213,
+      "embedding_cosine": 0.9582652080389816
     },
     {
-      "file_name": "val_010_result_Bro003_chunk_5",
-      "tfidf_cosine": 0.18422380937978716,
-      "embedding_cosine": 0.9411244014193557
+      "file_name": "val_060_result_제22대국회 제420회(임시회) 제2차 과학기술정보방송통신위원회(전체회의) (2025.01.06.)_chunk_1",
+      "tfidf_cosine": 0.24665801907839796,
+      "embedding_cosine": 0.9122522795231274
     },
     {
-      "file_name": "train_217_result_TS3003c_chunk_1",
-      "tfidf_cosine": 0.1625460822899218,
-      "embedding_cosine": 0.9529230334446411
+      "file_name": "val_052_result_제22대국회 제426회(임시회) 제2차 법제사법위원회(전체회의) (2025.07.03.)_chunk_3",
+      "tfidf_cosine": 0.3493901635781419,
+      "embedding_cosine": 0.9445898534078938
     },
     {
-      "file_name": "train_073_result_ES2016b_chunk_2",
-      "tfidf_cosine": 0.12621574710391323,
-      "embedding_cosine": 0.9410422054459584
+      "file_name": "val_061_result_TS3009b_chunk_3",
+      "tfidf_cosine": 0.34566680852706244,
+      "embedding_cosine": 0.9468781225134122
     },
     {
-      "file_name": "train_043_result_Bmr026_chunk_3",
-      "tfidf_cosine": 0.24131293632178094,
-      "embedding_cosine": 0.8995792528103916
+      "file_name": "val_009_result_Bmr001_chunk_2",
+      "tfidf_cosine": 0.21766415149607513,
+      "embedding_cosine": 0.9031662800281766
     },
     {
-      "file_name": "train_258_result_Bro021_chunk_3",
-      "tfidf_cosine": 0.17592260687203912,
-      "embedding_cosine": 0.9079668860123387
+      "file_name": "val_026_result_ES2015c_chunk_3",
+      "tfidf_cosine": 0.21614123949120395,
+      "embedding_cosine": 0.8862716869623151
     },
     {
-      "file_name": "val_034_result_Bed012_chunk_2",
-      "tfidf_cosine": 0.1584066128534174,
-      "embedding_cosine": 0.9060922838004322
+      "file_name": "val_054_result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)_chunk_2",
+      "tfidf_cosine": 0.2687716464998157,
+      "embedding_cosine": 0.8976851015887126
     },
     {
-      "file_name": "val_046_result_Bmr028_chunk_5",
-      "tfidf_cosine": 0.09142805153296625,
-      "embedding_cosine": 0.8793189488597517
+      "file_name": "val_054_result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)_chunk_16",
+      "tfidf_cosine": 0.3086322890776999,
+      "embedding_cosine": 0.941317214502646
     },
     {
-      "file_name": "train_048_result_TS3011c_chunk_2",
-      "tfidf_cosine": 0.0991146747989076,
-      "embedding_cosine": 0.8964845839000852
+      "file_name": "val_023_result_제22대국회 제427회(임시회) 제1차 행정안전위원회(법안심사제1소위원회) (2025.07.08.)_chunk_13",
+      "tfidf_cosine": 0.3172896222642414,
+      "embedding_cosine": 0.971439175759077
     },
     {
-      "file_name": "train_029_result_Bro018_chunk_5",
-      "tfidf_cosine": 0.18476656402491323,
-      "embedding_cosine": 0.9068210429969483
+      "file_name": "val_027_result_제22대국회 제426회(임시회) 제2차 과학기술정보방송통신위원회(전체회의) (2025.06.27.)_chunk_9",
+      "tfidf_cosine": 0.27951473426810436,
+      "embedding_cosine": 0.9249130473350289
     },
     {
-      "file_name": "train_121_result_EN2001e_chunk_3",
-      "tfidf_cosine": 0.1563201620983592,
-      "embedding_cosine": 0.935010103287711
+      "file_name": "val_013_result_제22대국회 제427회(임시회) 제1차 정무위원회(전체회의) (2025.07.15.)_chunk_15",
+      "tfidf_cosine": 0.11269715921493477,
+      "embedding_cosine": 0.8546222808299739
     },
     {
       "file_name": "val_010_result_Bro003_chunk_3",
-      "tfidf_cosine": 0.09628233607197709,
-      "embedding_cosine": 0.8096111517162179
+      "tfidf_cosine": 0.2422988216709517,
+      "embedding_cosine": 0.8705406922356365
+    },
+    {
+      "file_name": "val_047_result_제22대국회 제427회(임시회) 제2차 산업통상자원중소벤처기업위원회(전체회의) (2025.07.15.)_chunk_17",
+      "tfidf_cosine": 0.30112437593438524,
+      "embedding_cosine": 0.9238121488326239
+    },
+    {
+      "file_name": "val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_4",
+      "tfidf_cosine": 0.3347597716342758,
+      "embedding_cosine": 0.9704679523385233
     }
   ]
 }

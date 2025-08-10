@@ -4,57 +4,65 @@ Task Master의 검증된 프롬프트 구조를 회의록 분석에 맞게 적�
 """
 
 def generate_meeting_analysis_system_prompt(num_tasks: int = 5) -> str:
-    """회의 분석을 위한 시스템 프롬프트 생성"""
+    """회의 분석을 위한 시스템 프롬프트"""
     return f"""You are an AI assistant specialized in analyzing meeting transcripts and generating actionable tasks.
 
-**Your Role:**
-- Meeting Analysis Expert
-- Task Generation Specialist
-- Priority Assessment Analyst
-- Korean Language Processing Expert
+Your Role:
+Meeting Analysis Expert
+Task Generation Specialist
+Priority Assessment Analyst
+Korean Language Processing Expert
 
-**Analysis Guidelines:**
-1. Create exactly {num_tasks} actionable tasks from the meeting content
-2. Each task should be specific, measurable, and implementable
-3. Order tasks by priority and logical dependencies
-4. Include clear validation criteria for each task
-5. Set appropriate priority levels (high/medium/low)
-6. Identify responsible parties when mentioned
-7. Extract realistic deadlines from context
-8. Focus on concrete next steps rather than abstract concepts
+Analysis Guidelines:
+Create exactly {num_tasks} actionable tasks from the meeting content
+Each task should be specific, measurable, and implementable
+Order tasks by priority and logical dependencies
+Include clear validation criteria for each task
+Set appropriate priority levels (high/medium/low)
+Identify responsible parties when mentioned
+Extract realistic deadlines from context
+Focus on concrete next steps rather than abstract concepts
 
-**Task Quality Standards:**
-- Tasks must be atomic and focused on a single outcome
-- Include specific deliverables and success criteria
-- Consider dependencies between tasks
-- Provide clear testing/validation approaches
-- Be actionable within a reasonable timeframe
+Task Quality Standards:
+Tasks must be atomic and focused on a single outcome
+Include specific deliverables and success criteria
+Consider dependencies between tasks
+Provide clear testing/validation approaches
+Be actionable within a reasonable timeframe
 
-**Priority Assessment:**
-- HIGH: Critical for project success, blocking other tasks, immediate attention required
-- MEDIUM: Important but not urgent, can be scheduled within normal workflow
-- LOW: Nice to have, can be deferred if resources are limited
+Priority Assessment:
+HIGH: Critical for project success, blocking other tasks, immediate attention required
+MEDIUM: Important but not urgent, can be scheduled within normal workflow
+LOW: Nice to have, can be deferred if resources are limited
 
-**Language Processing:**
-- Process Korean meeting content accurately
-- Maintain context and nuance in Korean business communication
-- Extract action items that may be implied rather than explicitly stated
-- Handle Korean business terminology and hierarchy appropriately
+Language Processing:
+Process Korean meeting content accurately
+Maintain context and nuance in Korean business communication
+Extract action items that may be implied rather than explicitly stated
+Handle Korean business terminology and hierarchy appropriately
 
-**Output Format:**
+Output Format:
 Always respond with valid JSON structure following the exact schema provided.
 No additional text or explanation outside the JSON response.
 """
 
 def generate_meeting_analysis_user_prompt(transcript: str, additional_context: str = "") -> str:
-    """회의 분석을 위한 사용자 프롬프트 생성"""
+    """회의 분석을 위한 사용자 프롬프트"""
     context_section = f"\n\n**Additional Context:**\n{additional_context}" if additional_context else ""
     
-    return f"""Analyze the following meeting transcript and extract actionable tasks:
+    return f"""Analyze the following meeting transcript and create a structured Notion project proposal:
 
 **Meeting Transcript:**
 {transcript}
 {context_section}
+
+**작성 지침:**
+1. 회의에서 논의된 내용을 바탕으로 체계적인 기획안을 작성
+2. 프로젝트명은 회의 내용을 바탕으로 적절히 명명
+3. 목적과 목표는 명확하고 구체적으로 작성
+4. 실행 계획은 실현 가능한 단계별로 구성
+5. 기대 효과는 정량적/정성적 결과를 포함
+6. 모든 내용은 한국어로 작성
 
 **Analysis Requirements:**
 1. Identify all action items, decisions, and next steps
@@ -71,8 +79,28 @@ def generate_meeting_analysis_user_prompt(transcript: str, additional_context: s
 - Group related activities into coherent tasks
 - Ensure each task has clear success criteria
 
-**Response Format:**
-Provide a JSON response with the exact structure specified in the schema.
+**응답 형식:**
+다음 JSON 형식으로 응답하세요:
+{{
+    "project_name": "프로젝트명",
+    "project_purpose": "프로젝트의 주요 목적",
+    "project_period": "예상 수행 기간 (예: 2025.01.01 ~ 2025.03.31)",
+    "project_manager": "담당자명 (회의에서 언급된 경우)",
+    "core_objectives": [
+        "목표 1: 구체적인 목표",
+        "목표 2: 구체적인 목표",
+        "목표 3: 구체적인 목표"
+    ],
+    "core_idea": "핵심 아이디어 설명",
+    "idea_description": "아이디어의 기술적/비즈니스적 설명",
+    "execution_plan": "단계별 실행 계획과 일정",
+    "expected_effects": [
+        "기대효과 1: 자세한 설명",
+        "기대효과 2: 자세한 설명",
+        "기대효과 3: 자세한 설명"
+    ]
+}}
+
 All text should be in Korean unless technical terms require English.
 """
 

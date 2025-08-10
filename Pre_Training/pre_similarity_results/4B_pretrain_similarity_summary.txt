@@ -2,65 +2,105 @@
 로컬 회의록 유사도 평가 요약 (랜덤 샘플링)
 ============================================================
 
-평가 시간: 2025-08-10T02:52:06.249618
-전체 파일 수: 636
+평가 시간: 2025-08-10T21:03:29.007550
+전체 파일 수: 368
 샘플링 크기: 100
 실제 평가 파일 수: 100
-샘플링 비율: 15.7%
+샘플링 비율: 27.2%
 랜덤 시드: 42
 
 평균 점수:
-  - TF-IDF 코사인 유사도: 0.1986
-  - Embedding 코사인 유사도: 0.8832
+  - TF-IDF 코사인 유사도: 0.0539
+  - Embedding 코사인 유사도: 0.7441
 
 ============================================================
 상위/하위 성능 파일
 ============================================================
 
-[TF-IDF 기준] 상위 5개 파일:
-1. train_058_result_Bmr014_chunk_3
-   - TF-IDF: 0.4180, Embedding: 0.9329
-2. train_119_result_ES2003d_chunk_3
-   - TF-IDF: 0.3583, Embedding: 0.9580
-3. train_100_result_Buw001_chunk_1
-   - TF-IDF: 0.3305, Embedding: 0.9259
-4. train_146_result_IS1008a
-   - TF-IDF: 0.3214, Embedding: 0.9110
-5. train_251_result_Bmr003_chunk_3
-   - TF-IDF: 0.3125, Embedding: 0.9385
+[TF-IDF 기준] 상위 10개 파일:
+ 1. val_061_result_TS3009b_chunk_3
+    - TF-IDF: 0.2591, Embedding: 0.7729
+ 2. val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_22
+    - TF-IDF: 0.2283, Embedding: 0.8837
+ 3. val_013_result_제22대국회 제427회(임시회) 제1차 정무위원회(전체회의) (2025.07.15.)_chunk_17
+    - TF-IDF: 0.1994, Embedding: 0.9180
+ 4. val_008_result_제22대국회 제426회(임시회) 제1차 과학기술정보방송통신위원회(전체회의) (2025.06.26.)_chunk_1
+    - TF-IDF: 0.1901, Embedding: 0.9227
+ 5. val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_4
+    - TF-IDF: 0.1791, Embedding: 0.9314
+ 6. val_031_result_IS1001b_chunk_2
+    - TF-IDF: 0.1700, Embedding: 0.9318
+ 7. val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_6
+    - TF-IDF: 0.1699, Embedding: 0.9452
+ 8. val_047_result_제22대국회 제427회(임시회) 제2차 산업통상자원중소벤처기업위원회(전체회의) (2025.07.15.)_chunk_26
+    - TF-IDF: 0.1668, Embedding: 0.8893
+ 9. val_047_result_제22대국회 제427회(임시회) 제2차 산업통상자원중소벤처기업위원회(전체회의) (2025.07.15.)_chunk_8
+    - TF-IDF: 0.1463, Embedding: 0.8565
+10. val_047_result_제22대국회 제427회(임시회) 제2차 산업통상자원중소벤처기업위원회(전체회의) (2025.07.15.)_chunk_11
+    - TF-IDF: 0.1459, Embedding: 0.9299
 
-[TF-IDF 기준] 하위 5개 파일:
-1. val_044_result_Bed010_chunk_2
-   - TF-IDF: 0.0889, Embedding: 0.7806
-2. train_099_result_Btr002_chunk_9
-   - TF-IDF: 0.0883, Embedding: 0.8291
-3. train_235_result_Bed014_chunk_2
-   - TF-IDF: 0.0809, Embedding: 0.8454
-4. train_107_result_Bed006_chunk_1
-   - TF-IDF: 0.0785, Embedding: 0.8237
-5. val_029_result_Bed016_chunk_4
-   - TF-IDF: 0.0777, Embedding: 0.7632
+[TF-IDF 기준] 하위 10개 파일:
+ 1. val_066_result_Bed002_chunk_4
+    - TF-IDF: 0.0000, Embedding: 0.5372
+ 2. val_058_result_Bro004_chunk_3
+    - TF-IDF: 0.0000, Embedding: 0.4650
+ 3. val_053_result_제22대국회 제427회(임시회) 제2차 농림축산식품해양수산위원회(전체회의) (2025.07.14.)_chunk_5
+    - TF-IDF: 0.0000, Embedding: 0.4963
+ 4. val_054_result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)_chunk_21
+    - TF-IDF: 0.0000, Embedding: 0.4853
+ 5. val_059_result_제22대국회 제426회(임시회) 제1차 과학기술정보방송통신위원회(예산결산심사소위원회) (2025.06.27.)_chunk_6
+    - TF-IDF: 0.0000, Embedding: 0.4883
+ 6. val_021_result_Bro011_chunk_4
+    - TF-IDF: 0.0000, Embedding: 0.4660
+ 7. val_061_result_TS3009b_chunk_2
+    - TF-IDF: 0.0000, Embedding: 0.5696
+ 8. val_048_result_Bmr006_chunk_2
+    - TF-IDF: 0.0000, Embedding: 0.3879
+ 9. val_029_result_Bed016_chunk_1
+    - TF-IDF: 0.0000, Embedding: 0.5369
+10. val_054_result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)_chunk_16
+    - TF-IDF: 0.0000, Embedding: 0.5164
 
-[Embedding 기준] 상위 5개 파일:
-1. val_002_result_ES2014a
-   - TF-IDF: 0.1743, Embedding: 0.9615
-2. train_119_result_ES2003d_chunk_3
-   - TF-IDF: 0.3583, Embedding: 0.9580
-3. val_050_result_TS3008a
-   - TF-IDF: 0.2305, Embedding: 0.9566
-4. train_116_result_IS1004a
-   - TF-IDF: 0.2163, Embedding: 0.9441
-5. val_022_result_ES2002c_chunk_2
-   - TF-IDF: 0.2493, Embedding: 0.9432
+[Embedding 기준] 상위 10개 파일:
+ 1. val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_6
+    - TF-IDF: 0.1699, Embedding: 0.9452
+ 2. val_053_result_제22대국회 제427회(임시회) 제2차 농림축산식품해양수산위원회(전체회의) (2025.07.14.)_chunk_4
+    - TF-IDF: 0.0590, Embedding: 0.9373
+ 3. val_031_result_IS1001b_chunk_2
+    - TF-IDF: 0.1700, Embedding: 0.9318
+ 4. val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_4
+    - TF-IDF: 0.1791, Embedding: 0.9314
+ 5. val_047_result_제22대국회 제427회(임시회) 제2차 산업통상자원중소벤처기업위원회(전체회의) (2025.07.15.)_chunk_11
+    - TF-IDF: 0.1459, Embedding: 0.9299
+ 6. val_053_result_제22대국회 제427회(임시회) 제2차 농림축산식품해양수산위원회(전체회의) (2025.07.14.)_chunk_19
+    - TF-IDF: 0.0995, Embedding: 0.9287
+ 7. val_008_result_제22대국회 제426회(임시회) 제1차 과학기술정보방송통신위원회(전체회의) (2025.06.26.)_chunk_1
+    - TF-IDF: 0.1901, Embedding: 0.9227
+ 8. val_023_result_제22대국회 제427회(임시회) 제1차 행정안전위원회(법안심사제1소위원회) (2025.07.08.)_chunk_13
+    - TF-IDF: 0.0687, Embedding: 0.9209
+ 9. val_013_result_제22대국회 제427회(임시회) 제1차 정무위원회(전체회의) (2025.07.15.)_chunk_17
+    - TF-IDF: 0.1994, Embedding: 0.9180
+10. val_054_result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)_chunk_14
+    - TF-IDF: 0.0443, Embedding: 0.9155
 
-[Embedding 기준] 하위 5개 파일:
-1. val_044_result_Bed010_chunk_2
-   - TF-IDF: 0.0889, Embedding: 0.7806
-2. train_183_result_Bro005_chunk_1
-   - TF-IDF: 0.1395, Embedding: 0.7775
-3. val_029_result_Bed016_chunk_3
-   - TF-IDF: 0.1055, Embedding: 0.7754
-4. val_029_result_Bed016_chunk_4
-   - TF-IDF: 0.0777, Embedding: 0.7632
-5. train_127_result_Bed015_chunk_3
-   - TF-IDF: 0.1035, Embedding: 0.7454
+[Embedding 기준] 하위 10개 파일:
+ 1. val_054_result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)_chunk_16
+    - TF-IDF: 0.0000, Embedding: 0.5164
+ 2. val_044_result_Bed010_chunk_1
+    - TF-IDF: 0.0111, Embedding: 0.5107
+ 3. val_036_result_Bed013_chunk_2
+    - TF-IDF: 0.0006, Embedding: 0.5035
+ 4. val_053_result_제22대국회 제427회(임시회) 제2차 농림축산식품해양수산위원회(전체회의) (2025.07.14.)_chunk_5
+    - TF-IDF: 0.0000, Embedding: 0.4963
+ 5. val_059_result_제22대국회 제426회(임시회) 제1차 과학기술정보방송통신위원회(예산결산심사소위원회) (2025.06.27.)_chunk_6
+    - TF-IDF: 0.0000, Embedding: 0.4883
+ 6. val_017_result_IS1007b_chunk_2
+    - TF-IDF: 0.0161, Embedding: 0.4876
+ 7. val_054_result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)_chunk_21
+    - TF-IDF: 0.0000, Embedding: 0.4853
+ 8. val_021_result_Bro011_chunk_4
+    - TF-IDF: 0.0000, Embedding: 0.4660
+ 9. val_058_result_Bro004_chunk_3
+    - TF-IDF: 0.0000, Embedding: 0.4650
+10. val_048_result_Bmr006_chunk_2
+    - TF-IDF: 0.0000, Embedding: 0.3879
