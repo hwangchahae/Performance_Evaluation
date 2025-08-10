@@ -23,7 +23,7 @@ class ModelConfig:
     """모델 설정 관리 클래스"""
     BASE_MODEL_PATH: str = "Qwen/Qwen3-4B"
     LORA_MODEL_PATH: str = "qwen3_lora_ttalkkac_4b"
-    MERGED_MODEL_PATH: str = "merged_qwen3_lora_model"  # 병합된 모델 저장 경로
+    MERGED_MODEL_PATH: str = "4B_merged_qwen3_lora_model"  # 병합된 모델 저장 경로
     MAX_NEW_TOKENS: int = 2048
     TEMPERATURE: float = 0.3
     TOP_P: float = 0.9
