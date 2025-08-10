@@ -255,9 +255,9 @@ def save_results(results: List[Dict], output_dir: str):
 
 def main():
     """메인 실행 함수"""
-    # 설정
-    base_directory = "../Raw_Data_val"
-    output_directory = "4B_awq_model_results_improved"
+    # 설정 - 상대 경로 사용
+    base_directory = "../Raw_Data_val"  # Performance_Evaluation/Raw_Data_val
+    output_directory = "4B_awq_model_results_improved"  # 현재 폴더에 생성
     batch_size = 3  # 한 번에 처리할 파일 수 (메모리 고려하여 축소)
     max_chunks_per_batch = 30  # 배치당 최대 청크 수
     
