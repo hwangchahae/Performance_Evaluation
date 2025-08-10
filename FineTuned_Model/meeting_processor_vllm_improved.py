@@ -125,15 +125,29 @@ def load_json_file(file_path):
         logger.error(f"파일 로드 오류 ({file_path}): {e}")
         return []
 
-def batch_generate_responses(prompts: List[str]) -> List[str]:
+def batch_generate_responses(prompts: List[Tuple[str, str]]) -> List[str]:
     """배치 처리로 여러 프롬프트 동시 생성 - 최대 속도"""
     if not prompts:
         return []
     
     logger.info(f"🚀 {len(prompts)}개 프롬프트 배치 처리 중...")
     
+    # 모든 프롬프트를 chat template으로 포맷
+    formatted_prompts = []
+    for system_prompt, user_prompt in prompts:
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ]
+        prompt = tokenizer.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True
+        )
+        formatted_prompts.append(prompt)
+    
     # 모든 프롬프트를 한 번에 처리
-    outputs = llm.generate(prompts, sampling_params, use_tqdm=False)
+    outputs = llm.generate(formatted_prompts, sampling_params, use_tqdm=False)
     
     # 빠른 결과 추출
     return [output.outputs[0].text.strip() if output.outputs else "{}" for output in outputs]
@@ -167,10 +181,8 @@ def process_files_batch(files_data: List[Tuple[str, str, List[str]]]) -> List[Di
             # 사용자 프롬프트 생성
             user_prompt = generate_meeting_analysis_user_prompt(chunk)
             
-            # 시스템 프롬프트와 사용자 프롬프트 결합
-            full_prompt = f"{system_prompt}\n\n{user_prompt}"
-            
-            all_prompts.append(full_prompt)
+            # 시스템과 사용자 프롬프트를 튜플로 저장
+            all_prompts.append((system_prompt, user_prompt))
             metadata.append({
                 "folder_name": folder_name,
                 "file_path": file_path,
