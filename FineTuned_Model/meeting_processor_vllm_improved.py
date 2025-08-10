@@ -32,14 +32,13 @@ def initialize_model():
         # VLLM 엔진 초기화
         llm = LLM(
             model=model_path,
-            quantization="awq" if "AWQ" in model_path else None,
+            quantization="awq",  # AWQ 양자화 사용
             tensor_parallel_size=1,
             max_model_len=16384,
-            gpu_memory_utilization=0.95,  # GPU 메모리 최대 활용
+            gpu_memory_utilization=0.85,  # GPU 메모리 여유 확보 (44.95GB 가용)
             trust_remote_code=True,
             enforce_eager=False,
-            max_num_seqs=512,  # 더 많은 동시 처리
-            max_num_batched_tokens=32768,  # 배치 토큰 수 증가
+            max_num_seqs=256,  # 동시 처리 수
             enable_prefix_caching=True,  # 프리픽스 캐싱 활성화
         )
         
@@ -54,8 +53,6 @@ def initialize_model():
             temperature=0.2,
             max_tokens=2048,
             skip_special_tokens=True,
-            use_beam_search=False,  # 빔 서치 비활성화로 속도 개선
-            top_k=10,  # top-k 샘플링으로 속도 개선
         )
         logger.info(f"✅ 모델 초기화 완료")
 
@@ -138,10 +135,11 @@ def load_json_file(file_path):
             data = json.load(f)
             
             if isinstance(data, list):
+                # qwen3_lora와 동일하게 clean_text 제거
                 return [{"timestamp": item.get("timestamp", "Unknown"),
                         "speaker": item.get("speaker", "Unknown"), 
-                        "text": clean_text(item.get("text", ""))} 
-                       for item in data if "text" in item]
+                        "text": item.get("text", "")} 
+                       for item in data]  # 모든 item 포함 (text 없어도)
             return []
     except Exception as e:
         logger.error(f"파일 로드 오류 ({file_path}): {e}")
@@ -317,11 +315,13 @@ def main():
             logger.warning(f"⚠️ {folder_name} 파일 로드 실패, 건너뜀")
             continue
             
-        # 텍스트 결합 및 청킹 (qwen3_lora와 동일한 방식) - 리스트 컴프리헨션으로 최적화
-        meeting_lines = [
-            f"[{utt.get('timestamp', 'Unknown')}] {utt.get('speaker', 'Unknown')}: {utt['text']}"
-            for utt in utterances if utt.get("text")
-        ]
+        # 텍스트 결합 및 청킹 (qwen3_lora와 완전히 동일한 방식)
+        meeting_lines = []
+        for utt in utterances:
+            timestamp = utt.get('timestamp', 'Unknown')
+            speaker = utt.get('speaker', 'Unknown')
+            text = utt.get('text', '')
+            meeting_lines.append(f"[{timestamp}] {speaker}: {text}")
         full_text = "\n".join(meeting_lines)
         chunks = chunk_text(full_text, chunk_size=5000, overlap=512)
         
