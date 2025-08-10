@@ -19,6 +19,10 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from openai import OpenAI
+from dotenv import load_dotenv
+
+# .env 파일 로드
+load_dotenv()
 
 # 로깅 설정
 logging.basicConfig(
@@ -341,7 +345,7 @@ class LocalSimilarityEvaluator:
             config: 평가 설정
         """
         self.config = config or EvaluationConfig()
-        self.model_size = "1.7B"  # 기본값
+        self.model_size = "8B"  # 기본값
         self.output_config = None  # 출력 설정
         
         self.file_matcher = FileMatcher()
@@ -453,17 +457,17 @@ class LocalSimilarityEvaluator:
         print(f"평균 Embedding 코사인 유사도: {result.mean_embedding_cosine:.4f}")
         print("=" * 80)
         
-        # 상위/하위 5개 결과 (TF-IDF와 Embedding 각각 표시)
-        if len(result.scores) > 10:
+        # 상위/하위 10개 결과 (TF-IDF와 Embedding 각각 표시)
+        if len(result.scores) > 20:
             sorted_tfidf = sorted(result.scores, key=lambda x: x.tfidf_cosine, reverse=True)
             sorted_embedding = sorted(result.scores, key=lambda x: x.embedding_cosine, reverse=True)
             
-            print("\n[TF-IDF 기준] 상위 5개 파일:")
-            for i, score in enumerate(sorted_tfidf[:5], 1):
+            print("\n[TF-IDF 기준] 상위 10개 파일:")
+            for i, score in enumerate(sorted_tfidf[:10], 1):
                 print(f"{i}. {score.file_name}: TF-IDF={score.tfidf_cosine:.4f}, Embedding={score.embedding_cosine:.4f}")
             
-            print("\n[Embedding 기준] 상위 5개 파일:")
-            for i, score in enumerate(sorted_embedding[:5], 1):
+            print("\n[Embedding 기준] 상위 10개 파일:")
+            for i, score in enumerate(sorted_embedding[:10], 1):
                 print(f"{i}. {score.file_name}: TF-IDF={score.tfidf_cosine:.4f}, Embedding={score.embedding_cosine:.4f}")
     
     def _save_results(self, result: EvaluationResult):
@@ -475,7 +479,7 @@ class LocalSimilarityEvaluator:
             summary_file = self.output_config['summary_file']
         else:
             # 기본값
-            model_size = getattr(self, 'model_size', '1.7B')
+            model_size = getattr(self, 'model_size', '8B')
             json_file = f"{model_size}_post_similarity_results.json"
             csv_file = f"{model_size}_post_similarity_results.csv"
             summary_file = f"{model_size}_post_similarity_summary.txt"
@@ -507,8 +511,8 @@ class LocalSimilarityEvaluator:
             f.write(f"  - TF-IDF 코사인 유사도: {result.mean_tfidf_cosine:.4f}\n")
             f.write(f"  - Embedding 코사인 유사도: {result.mean_embedding_cosine:.4f}\n")
             
-            # 상위/하위 5개 결과 추가
-            if len(result.scores) > 10:
+            # 상위/하위 10개 결과 추가
+            if len(result.scores) > 20:
                 sorted_tfidf = sorted(result.scores, key=lambda x: x.tfidf_cosine, reverse=True)
                 sorted_embedding = sorted(result.scores, key=lambda x: x.embedding_cosine, reverse=True)
                 
@@ -516,23 +520,23 @@ class LocalSimilarityEvaluator:
                 f.write("상위/하위 성능 파일\n")
                 f.write("=" * 60 + "\n\n")
                 
-                f.write("[TF-IDF 기준] 상위 5개 파일:\n")
-                for i, score in enumerate(sorted_tfidf[:5], 1):
+                f.write("[TF-IDF 기준] 상위 10개 파일:\n")
+                for i, score in enumerate(sorted_tfidf[:10], 1):
                     f.write(f"{i}. {score.file_name}\n")
                     f.write(f"   - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
                 
-                f.write("\n[TF-IDF 기준] 하위 5개 파일:\n")
-                for i, score in enumerate(sorted_tfidf[-5:], 1):
+                f.write("\n[TF-IDF 기준] 하위 10개 파일:\n")
+                for i, score in enumerate(sorted_tfidf[-10:], 1):
                     f.write(f"{i}. {score.file_name}\n")
                     f.write(f"   - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
                 
-                f.write("\n[Embedding 기준] 상위 5개 파일:\n")
-                for i, score in enumerate(sorted_embedding[:5], 1):
+                f.write("\n[Embedding 기준] 상위 10개 파일:\n")
+                for i, score in enumerate(sorted_embedding[:10], 1):
                     f.write(f"{i}. {score.file_name}\n")
                     f.write(f"   - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
                 
-                f.write("\n[Embedding 기준] 하위 5개 파일:\n")
-                for i, score in enumerate(sorted_embedding[-5:], 1):
+                f.write("\n[Embedding 기준] 하위 10개 파일:\n")
+                for i, score in enumerate(sorted_embedding[-10:], 1):
                     f.write(f"{i}. {score.file_name}\n")
                     f.write(f"   - TF-IDF: {score.tfidf_cosine:.4f}, Embedding: {score.embedding_cosine:.4f}\n")
                     
@@ -556,7 +560,7 @@ def load_config(config_path: Optional[str] = None) -> Dict:
     return config_data
 
 
-def get_paths(config_data: Dict, model_size: str = "1.7B", training_type: str = "post_training") -> Tuple[str, str, Dict]:
+def get_paths(config_data: Dict, model_size: str = "8B", training_type: str = "post_training") -> Tuple[str, str, Dict]:
     """설정에서 경로 추출"""
     base_dir = os.path.dirname(os.path.abspath(__file__))
     parent_dir = os.path.dirname(base_dir)  # Performance_Evaluation 폴더
@@ -578,7 +582,7 @@ def get_paths(config_data: Dict, model_size: str = "1.7B", training_type: str = 
     return gold_path, result_path, output_config
 
 
-def main(model_size: str = "1.7B", config_path: Optional[str] = None):
+def main(model_size: str = "8B", config_path: Optional[str] = None):
     """메인 실행 함수
     
     Args:

@@ -1,0 +1,43 @@
+{
+  "id": "result_Bed002_chunk_1",
+  "source_dir": "result_Bed002",
+  "notion_output": {
+    "project_name": "MeetingRecorder Project",
+    "project_purpose": "회의에서 생성된 정보를 편리하게 검색 및 활용할 수 있는 휴대용 장치 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: 회의 중 생성된 정보를 편리하게 저장하고 검색할 수 있는 휴대용 장치 개발",
+      "목표 2: 다양한 회의 환경에서의 성능을 고려한 기술적 혁신",
+      "목표 3: 사용자 친화적인 인터페이스 및 동의서 관리 시스템 구축"
+    ],
+    "core_idea": "회의에서 생성된 정보를 효율적으로 관리하고 활용할 수 있는 휴대용 장치",
+    "idea_description": "회의 중 생성된 정보를 편리하게 저장하고 검색할 수 있는 휴대용 장치를 개발하여, 회의 참석자의 정보 접근성을 높이고, 데이터의 정확성과 보안성을 강화한다.",
+    "execution_plan": "1단계: 요구사항 분석 및 설계 (2024.01.01 ~ 2024.02.28)\n2단계: 프로토타입 개발 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 최종 제품 개발 및 출시 준비 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 회의 정보의 즉시 접근 가능성이 증가하여 생산성 향상",
+      "기대효과 2: 다양한 회의 환경에서도 뛰어난 성능을 발휘하여 사용자 만족도 상승",
+      "기대효과 3: 사용자 친화적인 인터페이스 덕분에 데이터 관리의 효율성 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed002/05_final_result.json",
+    "utterance_count": 656,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F"
+    ],
+    "original_length": 24390,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-09T23:33:36.714010"
+  }
+}

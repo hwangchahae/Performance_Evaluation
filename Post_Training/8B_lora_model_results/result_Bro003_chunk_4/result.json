@@ -1,0 +1,44 @@
+{
+  "id": "result_Bro003_chunk_4",
+  "source_dir": "result_Bro003",
+  "notion_output": {
+    "project_name": "큐브 기반 다중 기능 판별 신경망 개발 프로젝트",
+    "project_purpose": "다양한 기능을 하나로 통합하여 효율적인 판별 신경망을 개발하고, 이를 통해 데이터 처리 및 인식 성능을 극대화",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: 큐브 기반의 다중 기능 판별 신경망 설계 및 구현",
+      "목표 2: PLP와 MSG를 활용한 신경망 성능 향상",
+      "목표 3: 다양한 데이터 세트에서의 테스트 및 최적화"
+    ],
+    "core_idea": "큐브를 활용하여 다중 기능을 하나로 통합하고, 이를 통해 판별 신경망의 성능을 극대화",
+    "idea_description": "큐브는 3차원 공간을 활용하여 다양한 기능을 하나로 결합하며, 이를 판별 신경망에 적용하여 데이터 처리의 효율성을 높입니다. PLP와 MSG를 활용하여 신경망의 성능을 향상시키고, 다양한 데이터 세트에서의 테스트를 통해 최적화합니다.",
+    "execution_plan": "1단계: 큐브 기반 신경망 설계 (2024.01.01 ~ 2024.02.28)\n2단계: PLP와 MSG를 통합하여 신경망 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 다양한 데이터 세트에서의 최적화 및 성능 평가 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 데이터 처리 시간 단축 및 성능 향상",
+      "기대효과 2: 다양한 데이터 세트에서의 유연한 적용 가능성",
+      "기대효과 3: 판별 신경망의 정밀도 및 효율성 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bro003/05_final_result.json",
+    "utterance_count": 746,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F"
+    ],
+    "original_length": 25793,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-09T23:31:05.654975"
+  }
+}

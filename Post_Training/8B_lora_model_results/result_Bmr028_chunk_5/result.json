@@ -1,0 +1,45 @@
+{
+  "id": "result_Bmr028_chunk_5",
+  "source_dir": "result_Bmr028",
+  "notion_output": {
+    "project_name": "채점 효율성 및 신뢰성 개선 프로젝트",
+    "project_purpose": "현재 채점 방식의 한계를 극복하고, 새로운 대본을 활용하여 채점 과정의 효율성과 신뢰성을 동시에 향상시키며, 이를 통해 인식기 성능을 최적화한다.",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 새로운 대본을 활용하여 채점 과정의 효율성을 30% 이상 향상시킴",
+      "목표 2: 인식기의 성능을 향상시키기 위한 다양한 데이터 세그먼트와의 협업 확대",
+      "목표 3: 채점 과정에서 발생하는 오류를 줄이고, 이를 통해 전체 성능을 개선"
+    ],
+    "core_idea": "새로운 대본을 활용하여 채점 과정을 최적화하고, 이를 통해 인식기의 성능을 향상시킨다.",
+    "idea_description": "현재 채점 방식의 한계를 극복하기 위해 새로운 대본을 도입하고, 이를 통해 채점 과정의 효율성을 크게 향상시킨다. 또한, 데이터 세그먼트를 활용하여 인식기의 성능을 개선하고, 이를 통해 채점 과정에서 발생하는 오류를 줄인다.",
+    "execution_plan": "1단계: 새로운 대본을 준비하고, 현재 채점 방식과의 호환성을 검증 (2024.01.01 ~ 2024.01.31)\n2단계: 데이터 세그먼트를 활용하여 인식기 성능을 향상시키는 실험 진행 (2024.02.01 ~ 2024.02.28)\n3단계: 실험 결과를 분석하고, 최적화된 채점 방식을 결정 (2024.03.01 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 채점 과정의 효율성이 30% 이상 향상되어 작업 시간이 절약됨",
+      "기대효과 2: 인식기의 성능이 향상되어 채점 오류가 줄어듬",
+      "기대효과 3: 새로운 대본을 통한 채점 과정의 신뢰성이 높아짐"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr028/05_final_result.json",
+    "utterance_count": 814,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F"
+    ],
+    "original_length": 27961,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-09T23:31:17.877287"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "result_Bmr025_chunk_4",
+  "source_dir": "result_Bmr025",
+  "notion_output": {
+    "project_name": "XML 기반 회의록 분석 및 활용 프로젝트",
+    "project_purpose": "회의록을 XML 형식으로 변환하여 효율적인 정보 관리 및 활용성을 높이고, 이를 통해 회의의 효율성을 증진하며, 새로운 기술 도입을 통해 혁신적인 프로젝트 개발을 추진한다.",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: 회의록을 XML 형식으로 변환하여 정보 관리 효율성 증대",
+      "목표 2: XML 도구를 활용하여 회의록의 검색 및 분석 용이성 강화",
+      "목표 3: 새로운 기술 도입을 통한 혁신적인 프로젝트 개발"
+    ],
+    "core_idea": "회의록을 XML 형식으로 변환하여 정보를 효율적으로 관리하고, 이를 통해 회의의 효율성을 증진하며, 새로운 기술 도입을 통해 혁신적인 프로젝트 개발을 추진한다.",
+    "idea_description": "회의록을 XML 형식으로 변환하여 정보를 효율적으로 관리하고, 이를 통해 회의의 효율성을 증진하며, 새로운 기술 도입을 통해 혁신적인 프로젝트 개발을 추진한다. XML 도구를 활용하여 회의록의 검색 및 분석 용이성을 강화하고, 이를 통해 회의의 효율성을 극대화한다.",
+    "execution_plan": "1단계: 회의록 수집 및 XML 형식 변환 (2024.01.01 ~ 2024.01.31)\n2단계: XML 도구 검토 및 선택 (2024.02.01 ~ 2024.02.15)\n3단계: XML 도구 적용 및 회의록 분석 (2024.02.16 ~ 2024.02.28)\n4단계: 새로운 기술 도입 및 혁신 프로젝트 개발 (2024.03.01 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 회의록 관리의 효율성 증대로 인한 시간 절약",
+      "기대효과 2: XML 도구 활용로 인한 정보 검색 및 분석 용이성 강화",
+      "기대효과 3: 혁신적인 프로젝트 개발로 인한 기업 경쟁력 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr025/05_final_result.json",
+    "utterance_count": 453,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F"
+    ],
+    "original_length": 16243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-09T23:31:28.247313"
+  }
+}

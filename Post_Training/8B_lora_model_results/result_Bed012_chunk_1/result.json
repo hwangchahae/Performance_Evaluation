@@ -1,0 +1,41 @@
+{
+  "id": "result_Bed012_chunk_1",
+  "source_dir": "result_Bed012",
+  "notion_output": {
+    "project_name": "베이즈넷 기반 상황 및 사용자 인식 시스템",
+    "project_purpose": "베이즈넷을 활용하여 다양한 상황과 사용자의 행동을 분석하고, 이를 통해 효율적인 의사결정을 지원하는 시스템 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: 베이즈넷을 통한 상황 및 사용자 데이터 수집 및 분석 시스템 구축",
+      "목표 2: XML 스키마를 활용한 데이터 입력 및 관찰 방법 개선",
+      "목표 3: 상황 벡터와 사용자 벡터를 통한 결정 노드의 최적화"
+    ],
+    "core_idea": "베이즈넷을 활용하여 다양한 상황과 사용자의 행동을 분석하고, 이를 통해 의사결정을 지원하는 시스템",
+    "idea_description": "베이즈넷을 이용하여 상황과 사용자의 행동을 분석하고, 이를 통해 최적의 결정을 내리는 시스템을 개발합니다. XML 스키마를 통해 데이터를 입력하고, 상황 벡터와 사용자 벡터를 활용하여 결정 노드를 최적화합니다.",
+    "execution_plan": "1단계: 베이즈넷 구조 설계 및 XML 스키마 개발 (2024.01.01 ~ 2024.02.28)\n2단계: 상황 및 사용자 데이터 수집 및 분석 시스템 구현 (2024.03.01 ~ 2024.04.30)\n3단계: 시스템 테스트 및 최적화 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 데이터 수집 및 분석의 효율성 증가로 인한 의사결정 시간 단축",
+      "기대효과 2: XML 스키마를 통한 데이터 입력의 간편성 및 정확성 향상",
+      "기대효과 3: 상황 벡터와 사용자 벡터를 통한 결정 노드의 최적화로 인한 시스템 성능 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed012/05_final_result.json",
+    "utterance_count": 520,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "original_length": 17584,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-09T23:33:00.749149"
+  }
+}

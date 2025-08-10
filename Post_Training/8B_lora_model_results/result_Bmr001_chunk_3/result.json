@@ -1,0 +1,40 @@
+{
+  "id": "result_Bmr001_chunk_3",
+  "source_dir": "result_Bmr001",
+  "notion_output": {
+    "project_name": "사운드 출력 최적화 및 회의 기록 시스템 개선 프로젝트",
+    "project_purpose": "회의 기록의 효율성을 높이고 사운드 출력의 질을 개선하여 협업 환경을 강화한다.",
+    "project_period": "2023.11.01 ~ 2024.01.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 사운드 블라스터를 통해 사운드 출력의 질을 개선",
+      "목표 2: 회의 기록 시스템의 효율성을 높여 필사본 작성 시간을 줄인다",
+      "목표 3: 다양한 마이크 사용을 통해 회의 참여자의 소리를 명확하게 녹음"
+    ],
+    "core_idea": "사운드 출력 최적화와 회의 기록 시스템의 혁신을 통해 협업의 효율성을 극대화한다.",
+    "idea_description": "회의 중 사운드 출력의 질을 높이기 위해 사운드 블라스터를 도입하고, 회의 기록 시스템을 개선하여 필사본 작성 시간을 줄인다. 또한, 다양한 마이크를 활용하여 각 참가자의 소리를 명확하게 녹음한다.",
+    "execution_plan": "1단계: 사운드 블라스터 설치 및 테스트 (2023.11.01 ~ 2023.11.15)\n2단계: 회의 기록 시스템 개선 및 필사본 작성 방식 변경 (2023.11.16 ~ 2023.12.15)\n3단계: 다양한 마이크 사용 시범 프로그램 진행 및 피드백 수집 (2023.12.16 ~ 2024.01.15)\n4단계: 최종 시스템 검토 및 개선 (2024.01.16 ~ 2024.01.31)",
+    "expected_effects": [
+      "기대효과 1: 사운드 출력의 질 향상으로 인한 협업 효율성 증가",
+      "기대효과 2: 필사본 작성 시간 감소로 인한 생산성 향상",
+      "기대효과 3: 다양한 마이크 사용으로 인한 회의 참여자의 소리 명확화"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr001/05_final_result.json",
+    "utterance_count": 400,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "original_length": 13357,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 3,
+    "processing_date": "2025-08-09T23:32:28.341722"
+  }
+}

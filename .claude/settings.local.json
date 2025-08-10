@@ -4,7 +4,9 @@
       "Bash(python:*)",
       "Bash(pip install:*)",
       "Bash(touch:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(ren:*)",
+      "Bash(mv:*)"
     ],
     "deny": []
   }

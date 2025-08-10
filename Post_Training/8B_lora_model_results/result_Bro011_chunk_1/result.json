@@ -1,0 +1,43 @@
+{
+  "id": "result_Bro011_chunk_1",
+  "source_dir": "result_Bro011",
+  "notion_output": {
+    "project_name": "LDA 필터링 및 다운샘플링 최적화 프로젝트",
+    "project_purpose": "LDA 필터링과 다운샘플링을 통해 신호 처리의 효율성을 극대화하고, 이를 통해 더욱 정확하고 빠른 데이터 처리를 가능하게 합니다.",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: LDA 필터링의 주파수 응답을 분석하여 최적화",
+      "목표 2: 다운샘플링 전의 필터링을 개선하여 데이터 손실 최소화",
+      "목표 3: RASTA 필터링과의 비교를 통해 최적의 필터링 방법 선정"
+    ],
+    "core_idea": "LDA 필터링과 다운샘플링을 통합하여 신호 처리의 성능을 향상시키는 기술 개발",
+    "idea_description": "LDA 필터링을 활용하여 주파수 특성을 강화하고, 다운샘플링 전에 필터링을 통해 데이터 손실을 줄이는 방안을 탐구합니다. 또한, RASTA 필터링과의 비교를 통해 최적의 필터링 방법을 결정합니다.",
+    "execution_plan": "1단계: LDA 필터링의 주파수 응답 분석 (2024.01.01 ~ 2024.01.31)\n2단계: 다운샘플링 전 필터링 개선 및 실험 (2024.02.01 ~ 2024.02.28)\n3단계: RASTA 필터링과의 비교 실험 및 최적화 (2024.03.01 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 신호 처리의 정확도 증가",
+      "기대효과 2: 데이터 처리 속도 향상",
+      "기대효과 3: 필터링 최적화를 통한 운영 비용 절감"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bro011/05_final_result.json",
+    "utterance_count": 612,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F"
+    ],
+    "original_length": 19277,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-09T23:30:41.785341"
+  }
+}

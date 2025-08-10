@@ -2,7 +2,7 @@
 로컬 회의록 유사도 평가 요약 (랜덤 샘플링)
 ============================================================
 
-평가 시간: 2025-08-10T02:40:04.215872
+평가 시간: 2025-08-10T13:39:46.536034
 전체 파일 수: 148
 샘플링 크기: 100
 실제 평가 파일 수: 100
@@ -10,57 +10,97 @@
 랜덤 시드: 42
 
 평균 점수:
-  - TF-IDF 코사인 유사도: 0.2552
-  - Embedding 코사인 유사도: 0.8978
+  - TF-IDF 코사인 유사도: 0.2882
+  - Embedding 코사인 유사도: 0.9014
 
 ============================================================
 상위/하위 성능 파일
 ============================================================
 
-[TF-IDF 기준] 상위 5개 파일:
-1. val_004_result_ES2014d_chunk_1
-   - TF-IDF: 0.4914, Embedding: 0.9095
-2. val_039_result_IS1009b_chunk_2
-   - TF-IDF: 0.4700, Embedding: 0.9634
-3. val_030_result_Bed009_chunk_6
-   - TF-IDF: 0.4644, Embedding: 0.8252
-4. val_043_result_ES2007d_chunk_1
-   - TF-IDF: 0.4399, Embedding: 0.9216
+[TF-IDF 기준] 상위 10개 파일:
+1. val_039_result_IS1009b_chunk_2
+   - TF-IDF: 0.4778, Embedding: 0.9534
+2. val_025_result_IS1000b_chunk_2
+   - TF-IDF: 0.4741, Embedding: 0.9440
+3. val_026_result_ES2015c_chunk_2
+   - TF-IDF: 0.4514, Embedding: 0.9289
+4. val_005_result_ES2003b_chunk_2
+   - TF-IDF: 0.4491, Embedding: 0.9612
+5. val_056_result_Bmr012_chunk_2
+   - TF-IDF: 0.4459, Embedding: 0.9044
+6. val_063_result_IS1009d_chunk_1
+   - TF-IDF: 0.4437, Embedding: 0.9726
+7. val_061_result_TS3009b_chunk_3
+   - TF-IDF: 0.4404, Embedding: 0.9586
+8. val_043_result_ES2007d_chunk_1
+   - TF-IDF: 0.4382, Embedding: 0.9334
+9. val_009_result_Bmr001_chunk_2
+   - TF-IDF: 0.4348, Embedding: 0.9519
+10. val_035_result_IS1000d_chunk_2
+   - TF-IDF: 0.4343, Embedding: 0.9216
+
+[TF-IDF 기준] 하위 10개 파일:
+1. val_034_result_Bed012_chunk_3
+   - TF-IDF: 0.1593, Embedding: 0.9367
+2. val_036_result_Bed013_chunk_3
+   - TF-IDF: 0.1577, Embedding: 0.9171
+3. val_049_result_Bro028_chunk_1
+   - TF-IDF: 0.1574, Embedding: 0.9042
+4. val_048_result_Bmr006_chunk_9
+   - TF-IDF: 0.1563, Embedding: 0.8601
+5. val_046_result_Bmr028_chunk_3
+   - TF-IDF: 0.1500, Embedding: 0.8299
+6. val_046_result_Bmr028_chunk_4
+   - TF-IDF: 0.1475, Embedding: 0.8830
+7. val_040_result_Bmr013_chunk_3
+   - TF-IDF: 0.1393, Embedding: 0.8659
+8. val_029_result_Bed016_chunk_1
+   - TF-IDF: 0.1275, Embedding: 0.8515
+9. val_030_result_Bed009_chunk_5
+   - TF-IDF: 0.1186, Embedding: 0.8091
+10. val_040_result_Bmr013_chunk_5
+   - TF-IDF: 0.0986, Embedding: 0.8569
+
+[Embedding 기준] 상위 10개 파일:
+1. val_030_result_Bed009_chunk_1
+   - TF-IDF: 0.3618, Embedding: 0.9776
+2. val_063_result_IS1009d_chunk_1
+   - TF-IDF: 0.4437, Embedding: 0.9726
+3. val_066_result_Bed002_chunk_1
+   - TF-IDF: 0.3767, Embedding: 0.9669
+4. val_002_result_ES2014a
+   - TF-IDF: 0.3205, Embedding: 0.9615
+5. val_005_result_ES2003b_chunk_2
+   - TF-IDF: 0.4491, Embedding: 0.9612
+6. val_061_result_TS3009b_chunk_3
+   - TF-IDF: 0.4404, Embedding: 0.9586
+7. val_032_result_TS3010b_chunk_1
+   - TF-IDF: 0.2289, Embedding: 0.9568
+8. val_045_result_TS3012c_chunk_4
+   - TF-IDF: 0.3506, Embedding: 0.9545
+9. val_039_result_IS1009b_chunk_2
+   - TF-IDF: 0.4778, Embedding: 0.9534
+10. val_009_result_Bmr001_chunk_2
+   - TF-IDF: 0.4348, Embedding: 0.9519
+
+[Embedding 기준] 하위 10개 파일:
+1. val_029_result_Bed016_chunk_2
+   - TF-IDF: 0.2087, Embedding: 0.8487
+2. val_036_result_Bed013_chunk_6
+   - TF-IDF: 0.2524, Embedding: 0.8435
+3. val_048_result_Bmr006_chunk_3
+   - TF-IDF: 0.2922, Embedding: 0.8410
+4. val_056_result_Bmr012_chunk_1
+   - TF-IDF: 0.2044, Embedding: 0.8392
 5. val_036_result_Bed013_chunk_2
-   - TF-IDF: 0.4334, Embedding: 0.9549
-
-[TF-IDF 기준] 하위 5개 파일:
-1. val_048_result_Bmr006_chunk_3
-   - TF-IDF: 0.1089, Embedding: 0.8314
-2. val_036_result_Bed013_chunk_4
-   - TF-IDF: 0.1079, Embedding: 0.8380
-3. val_030_result_Bed009_chunk_5
-   - TF-IDF: 0.0979, Embedding: 0.8213
-4. val_040_result_Bmr013_chunk_2
-   - TF-IDF: 0.0837, Embedding: 0.8059
-5. val_007_result_Bmr025_chunk_3
-   - TF-IDF: 0.0444, Embedding: 0.7961
-
-[Embedding 기준] 상위 5개 파일:
-1. val_066_result_Bed002_chunk_1
-   - TF-IDF: 0.2190, Embedding: 0.9694
-2. val_002_result_ES2014a
-   - TF-IDF: 0.2155, Embedding: 0.9691
-3. val_025_result_IS1000b_chunk_2
-   - TF-IDF: 0.2511, Embedding: 0.9685
-4. val_031_result_IS1001b_chunk_1
-   - TF-IDF: 0.3125, Embedding: 0.9643
-5. val_063_result_IS1009d_chunk_1
-   - TF-IDF: 0.2214, Embedding: 0.9635
-
-[Embedding 기준] 하위 5개 파일:
-1. val_055_result_ES2007b_chunk_2
-   - TF-IDF: 0.1889, Embedding: 0.8091
-2. val_040_result_Bmr013_chunk_2
-   - TF-IDF: 0.0837, Embedding: 0.8059
-3. val_007_result_Bmr025_chunk_3
-   - TF-IDF: 0.0444, Embedding: 0.7961
-4. val_029_result_Bed016_chunk_4
-   - TF-IDF: 0.1124, Embedding: 0.7729
-5. val_009_result_Bmr001_chunk_2
-   - TF-IDF: 0.2375, Embedding: 0.6978
+   - TF-IDF: 0.2065, Embedding: 0.8362
+6. val_029_result_Bed016_chunk_4
+   - TF-IDF: 0.2532, Embedding: 0.8325
+7. val_046_result_Bmr028_chunk_3
+   - TF-IDF: 0.1500, Embedding: 0.8299
+8. val_040_result_Bmr013_chunk_2
+   - TF-IDF: 0.1875, Embedding: 0.8204
+9. val_030_result_Bed009_chunk_5
+   - TF-IDF: 0.1186, Embedding: 0.8091
+10. val_055_result_ES2007b_chunk_2
+   - TF-IDF: 0.2392, Embedding: 0.7985

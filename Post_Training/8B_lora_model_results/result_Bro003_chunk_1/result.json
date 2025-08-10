@@ -1,0 +1,44 @@
+{
+  "id": "result_Bro003_chunk_1",
+  "source_dir": "result_Bro003",
+  "notion_output": {
+    "project_name": "Computing Efficiency Enhancement and Data Management Optimization Project",
+    "project_purpose": "Computing efficiency and data management optimization to address current challenges in computing performance and data transfer issues.",
+    "project_period": "2023.10.01 ~ 2024.03.31",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: 현재 컴퓨팅 성능 문제 해결 및 데이터 전송 속도 개선",
+      "목표 2: 스프레드시트와 관련된 컴퓨팅 효율성 증대",
+      "목표 3: 데이터 백업 및 슬래시-스크래치 공간 활용 최적화"
+    ],
+    "core_idea": "Computing efficiency and data management optimization through hardware upgrades and efficient data handling strategies.",
+    "idea_description": "This project focuses on upgrading hardware components such as adding 18 gigabytes of memory and optimizing data transfer processes to enhance computing performance. It also involves implementing a systematic approach to data backup and utilizing slash-scratch spaces effectively to ensure data integrity and accessibility.",
+    "execution_plan": "1. Hardware Upgrade: Add 18GB of memory to improve computing speed and handle large datasets efficiently.\n2. Data Transfer Optimization: Implement strategies to reduce the time required for data transfer between systems, particularly for repetitive calculations.\n3. Backup System Implementation: Ensure all critical data is backed up using both slash-scratch spaces and external drives, with specific attention to Unix workstations and NT machines.\n4. Regular Monitoring and Adjustments: Continuously monitor system performance and adjust strategies as needed based on feedback from meetings and user needs.\n5. Training and Documentation: Provide training sessions for users on new systems and document procedures for effective data management.",
+    "expected_effects": [
+      "기대효과 1: Computing performance improvement by 30% due to hardware upgrades and optimized data transfer processes.",
+      "기대효과 2: Reduced downtime and increased productivity through efficient data handling and backup systems.",
+      "기대효과 3: Enhanced data security and reliability through comprehensive backup solutions and regular monitoring."
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bro003/05_final_result.json",
+    "utterance_count": 746,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F"
+    ],
+    "original_length": 25793,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-09T23:31:05.640357"
+  }
+}

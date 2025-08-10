@@ -1,0 +1,44 @@
+{
+  "id": "result_Bed010_chunk_5",
+  "source_dir": "result_Bed010",
+  "notion_output": {
+    "project_name": "러닝 시스템 통합 및 EML 서버 공유 프로젝트",
+    "project_purpose": "러닝 시스템의 최신 버전 개발과 EML 서버 공유를 통해 시스템 통합 및 혁신적인 기능 도입",
+    "project_period": "2023.10.01 ~ 2023.12.31",
+    "project_manager": "Tilman",
+    "core_objectives": [
+      "목표 1: 러닝 시스템의 최신 버전 개발 및 단축키 활용",
+      "목표 2: EML 서버 공유를 통한 시스템 통합",
+      "목표 3: 시스템 그룹과의 협력 강화 및 혁신적인 기능 도입"
+    ],
+    "core_idea": "러닝 시스템과 EML 서버의 통합을 통해 효율성을 높이고 혁신적인 기능을 도입",
+    "idea_description": "러닝 시스템의 최신 버전을 개발하고, EML 서버를 공유하여 시스템 통합을 통해 효율성을 높이며, 시스템 그룹과의 협력을 통해 혁신적인 기능을 도입합니다.",
+    "execution_plan": "1단계: 러닝 시스템의 현재 버전 분석 및 단축키 활용 가능성 검토 (2023.10.01 ~ 2023.10.15)\n2단계: EML 서버 공유 계획 수립 및 시스템 통합 방안 마련 (2023.10.16 ~ 2023.11.15)\n3단계: 시스템 그룹과의 협력 강화 및 혁신적인 기능 도입 (2023.11.16 ~ 2023.12.15)\n4단계: 프로토타입 개발 및 테스트 (2023.12.16 ~ 2023.12.31)",
+    "expected_effects": [
+      "기대효과 1: 러닝 시스템의 성능 향상 및 사용자 경험 개선",
+      "기대효과 2: EML 서버 공유를 통한 데이터 공유 및 협업 증대",
+      "기대효과 3: 시스템 그룹과의 협력 강화로 혁신적인 기능 도입 및 시장 경쟁력 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed010/05_final_result.json",
+    "utterance_count": 677,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F"
+    ],
+    "original_length": 23517,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-09T23:33:12.909782"
+  }
+}

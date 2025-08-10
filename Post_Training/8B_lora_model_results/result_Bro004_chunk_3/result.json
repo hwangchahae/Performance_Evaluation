@@ -1,0 +1,61 @@
+{
+  "id": "result_Bro004_chunk_3",
+  "source_dir": "result_Bro004",
+  "notion_output": {
+    "project_name": "VAD 및 LDA 훈련 최적화 프로젝트",
+    "project_purpose": "VAD(말 인식) 및 LDA(Latent Dirichlet Allocation) 모델의 성능을 향상시키며, 이를 통해 데이터 처리 효율성을 극대화하고, 다양한 시나리오에서의 적용 가능성을 확보한다.",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: VAD 모델의 성능을 개선하기 위해 다양한 그물 크기를 비교 분석하고, 최적의 그물 크기를 결정한다.",
+      "목표 2: LDA 모델의 성능을 향상시키기 위해 LDA와 SLDA의 차이점을 분석하고, 시간적 LDA의 장점을 활용한다.",
+      "목표 3: HTK의 침묵 모델과의 연동을 통해 데이터 처리 속도를 높이고, 이전 실험에서의 결과를 검증한다."
+    ],
+    "core_idea": "VAD 및 LDA 모델의 성능을 향상시키기 위한 최적화 과정",
+    "idea_description": "회의에서 논의된 VAD와 LDA 모델의 성능 문제를 해결하기 위해 다양한 그물 크기와 시간적 LDA의 장점을 활용하여 모델을 최적화한다. 또한, HTK의 침묵 모델과의 연동을 통해 데이터 처리 속도를 높이며, 이전 실험에서의 결과를 검증한다.",
+    "execution_plan": [
+      {
+        "step": "1차 실험",
+        "description": "다양한 그물 크기를 사용하여 VAD 모델의 성능을 비교 분석하고, 최적의 그물 크기를 결정한다.",
+        "period": "2024.01.01 ~ 2024.01.31"
+      },
+      {
+        "step": "2차 실험",
+        "description": "LDA 모델의 성능을 향상시키기 위해 LDA와 SLDA의 차이점을 분석하고, 시간적 LDA의 장점을 활용하여 모델을 최적화한다.",
+        "period": "2024.02.01 ~ 2024.02.28"
+      },
+      {
+        "step": "3차 실험",
+        "description": "HTK의 침묵 모델과의 연동을 통해 데이터 처리 속도를 높이고, 이전 실험에서의 결과를 검증한다.",
+        "period": "2024.03.01 ~ 2024.03.31"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: VAD 모델의 성능 개선으로 인한 데이터 처리 속도 증가",
+      "기대효과 2: LDA 모델의 성능 향상으로 인한 데이터 분류 정확도 증가",
+      "기대효과 3: HTK의 침묵 모델과의 연동을 통한 데이터 처리 효율성 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bro004/05_final_result.json",
+    "utterance_count": 413,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F"
+    ],
+    "original_length": 12710,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 3,
+    "processing_date": "2025-08-09T23:30:52.560643"
+  }
+}
