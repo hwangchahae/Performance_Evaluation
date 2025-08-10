@@ -1,0 +1,30 @@
+{
+  "id": "result_제22대국회 제427회(임시회) 제1차 행정안전위원회(법안심사제1소위원회) (2025.07.08.)_chunk_6",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 행정안전위원회(법안심사제1소위원회) (2025.07.08.)",
+  "notion_output": {
+    "project_name": "AI 기반 고객 서비스 개선 프로젝트",
+    "project_purpose": "고객 응대 효율성 향상 및 만족도 향상",
+    "project_period": "2024년 1월 ~ 2024년 12월",
+    "project_manager": "김철수",
+    "core_objectives": [
+      "고객 문의 처리 시간 단축",
+      "고객 불만 사항 감소",
+      "고객 만족도 향상"
+    ],
+    "core_idea": "AI 기반의 자동화된 고객 응대 시스템 도입",
+    "idea_description": "AI 기반의 고객 응대 시스템을 도입하여 고객의 문의를 즉시 처리하고, 반복적인 문의를 줄이며, 고객의 만족도를 높이는 것을 목표로 합니다.",
+    "execution_plan": "1. AI 기반 고객 응대 시스템 개발 및 테스트\n2. 시스템 운영 및 모니터링\n3. 고객 피드백 수집 및 시스템 최적화",
+    "expected_effects": [
+      "고객 응대 시간 30% 감소",
+      "고객 불만 사항 20% 감소",
+      "고객 만족도 15% 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_제22대국회 제427회(임시회) 제1차 행정안전위원회(법안심사제1소위원회) (2025.07.08.)/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 6,
+    "total_chunks": 18,
+    "processing_date": "2025-08-10T11:47:04.042019"
+  }
+}

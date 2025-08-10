@@ -1,0 +1,41 @@
+{
+  "id": "result_ES2003b_chunk_1",
+  "source_dir": "result_ES2003b",
+  "notion_output": {
+    "project_name": "NextGen Universal Remote Control Project",
+    "project_purpose": "다기능 리모컨 개발을 통해 사용자 경험을 혁신하고, 다양한 기기 간 통합성을 강화함으로써 시장 경쟁력을 확보",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: 사용자 중심 설계를 적용한 다기능 리모컨 개발",
+      "목표 2: 음성 인식 및 조이스틱 조작을 통합한 직관적인 사용자 인터페이스 구축",
+      "목표 3: 에너지 효율성과 비용 최적화를 통한 경제성 확보"
+    ],
+    "core_idea": "다기능 리모컨을 통해 TV와 기타 가전 기기 간의 통합성을 강화하고, 사용자의 편의성을 극대화",
+    "idea_description": "리모컨은 TV뿐만 아니라 다양한 가전 기기를 제어할 수 있도록 설계되며, 음성 인식과 조이스틱 조작을 결합하여 사용자가 쉽게 접근할 수 있도록 함. 또한, 사용자에게 친숙한 인터페이스와 직관적인 조작 방식을 제공",
+    "execution_plan": "1단계: 사용자 피드백 수집 및 기존 리모컨 분석 (2025.01.01 ~ 2025.02.15)\n2단계: 사용자 중심 설계 및 프로토타입 개발 (2025.02.16 ~ 2025.03.31)\n3단계: 테스트 및 피드백 반영 (2025.04.01 ~ 2025.04.30)\n4단계: 최종 제품 생산 및 출시 준비 (2025.05.01 ~ 2025.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 30% 증가 및 고객 유지율 20% 향상",
+      "기대효과 2: 리모컨 교체 시장 점유율 15% 확대",
+      "기대효과 3: 에너지 효율성 20% 개선 및 제조 비용 10% 절감"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_ES2003b/05_final_result.json",
+    "utterance_count": 196,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "original_length": 7254,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T09:27:10.740191"
+  }
+}

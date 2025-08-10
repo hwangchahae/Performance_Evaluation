@@ -1,0 +1,47 @@
+{
+  "id": "result_Bed016_chunk_2",
+  "source_dir": "result_Bed016",
+  "notion_output": {
+    "project_name": "Enhanced Interpretation Framework Development",
+    "project_purpose": "구문과 해석 메커니즘을 결합하여 다양한 상황에서의 해석을 개선하고, 은유적 및 환유적 경우를 포괄적으로 처리하는 프레임워크 개발",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_G",
+    "core_objectives": [
+      "목표 1: 구문과 해석 메커니즘의 통합을 통해 다양한 상황에서의 해석을 개선",
+      "목표 2: 은유적 및 환유적 경우를 포괄적으로 처리하는 추가 메커니즘 개발",
+      "목표 3: 기본 사례와 복잡한 사례 모두를 지원하는 프레임워크 구축"
+    ],
+    "core_idea": "구문과 해석 메커니즘을 결합하여 다양한 상황에서의 해석을 개선하고, 은유적 및 환유적 경우를 포괄적으로 처리하는 프레임워크 개발",
+    "idea_description": "구문을 사용하여 규칙을 채울 수 있는 모든 가능한 것에 대해 구문을 가질 필요 없이, 기본 사례와 복잡한 사례 모두를 지원하는 프레임워크를 개발. 은유적 및 환유적 경우를 포괄적으로 처리하기 위한 추가 메커니즘을 도입.",
+    "execution_plan": "1단계: 연구 및 설계 (2025.01.01 ~ 2025.02.28)\n   - 구문과 해석 메커니즘의 통합 방안 연구\n   - 은유적 및 환유적 경우를 포괄하는 추가 메커니즘 설계\n2단계: 개발 및 테스트 (2025.03.01 ~ 2025.04.30)\n   - 프레임워크 개발 및 초기 테스트\n   - 은유적 및 환유적 경우를 처리하는 메커니즘 검증\n3단계: 최종 검토 및 배포 (2025.05.01 ~ 2025.06.30)\n   - 전체 시스템 검토 및 최종 수정\n   - 프레임워크 공식 배포 및 사용자 교육",
+    "expected_effects": [
+      "기대효과 1: 다양한 상황에서의 해석 정확도 향상",
+      "기대효과 2: 은유적 및 환유적 경우를 포괄적으로 처리하여 해석의 다양성 증대",
+      "기대효과 3: 프레임워크의 유연성과 확장성을 통해 장기적인 활용 가능성 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bed016/05_final_result.json",
+    "utterance_count": 505,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_H",
+      "Speaker_J",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_I",
+      "Speaker_F",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_E"
+    ],
+    "original_length": 16078,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T09:31:55.353080"
+  }
+}

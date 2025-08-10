@@ -1,0 +1,14 @@
+{
+  "id": "result_IS1009b_chunk_2",
+  "source_dir": "result_IS1009b",
+  "notion_output": {
+    "raw_text": "**JSON Schema:**\n{\n    \"type\": \"object\",\n    \"properties\": {\n        \"project_name\": {\"type\": \"string\"},\n        \"project_purpose\": {\"type\": \"string\"},\n        \"project_period\": {\"type\": \"string\"},\n        \"project_manager\": {\"type\": \"string\"},\n        \"core_objectives\": {\n            \"type\": \"array\",\n            \"items\": {\"type\": \"string\"}\n        },\n        \"core_idea\": {\"type\": \"string\"},\n        \"idea_description\": {\"type\": \"string\"},\n        \"execution_plan\": {\"type\": \"string\"},\n        \"expected_effects\": {\n            \"type\": \"array\",\n            \"items\": {\"type\": \"string\"}\n        }\n    },\n    \"required\": [\"project_name\", \"project_purpose\", \"project_period\", \"project_manager\", \"core_objectives\", \"core_idea\", \"idea_description\", \"execution_plan\", \"expected_effects\"]\n}\n```\n\n**예시:**\n{\n    \"project_name\": \"스마트 홈 제어 시스템 개발\",\n    \"project_purpose\": \"사용자 중심의 스마트 홈 제어 시스템을 개발하여 집의 다양한 장치를 통합적으로 제어할 수 있도록 합니다.\",\n    \"project_period\": \"2023년 11월 ~ 2024년 2월\",\n    \"project_manager\": \"김철수\",\n    \"core_objectives\": [\n        \"사용자 친화적인 인터페이스 개발\",\n        \"다양한 홈 장치의 통합 제어 기능 구현\",\n        \"개선된 사용자 경험 제공\"\n    ],\n    \"core_idea\": \"사용자 중심의 인터페이스와 통합 제어 기능을 결합한 스마트 홈 시스템\",\n    \"idea_description\": \"이 시스템은 사용자의 일상적인 요구에 따라 집안의 다양한 장치를 통합적으로 제어할 수 있도록 설계되었습니다. 사용자 친화적인 인터�://\n}\n\n**주의:** 예시는 참고용이며, 반드시 JSON 형식으로 응답해야 합니다.\n```\n```json\n{\n    \"project_name\": \"사용자 중심 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"사용자 친화적이고 직관적인 리모컨을 설계하여 사용자 경험을 향상시키고, 제품의 판매성을 높이기 위해 개발하는 프로젝트입니다.\",\n    \"project_period\": \"2023년 12월 ~ 2024년 2월\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"사용자 친화적인 인터페이스 개발\",\n        \"리모컨의 직관적 조작 및 간단한 사용성 확보\",\n        \"제품의 판매성과 사용자 만족도 향상\"\n    ],\n    \"core_idea\": \"사용자 중심의 인터페이스와 직관적인 조작 기능을 결합한 리모컨 개발\",\n    \"idea_description\": \"이 프로젝트는 사용자가 쉽게 접근할 수 있는 간단하고 직관적인 리모컨을 개발하는 것을 목표로 합니다. 사용자가 리모컨을 통해 편리하게 장치를 조종할 수 있도록 설계하며, 사용자 친화적인 디자인과 직관적인 조작 기능을 결합하여 사용자 경험을 향상시킵니다. 또한, 제품의 판매성을 높이기 위해 사용자들이 쉽게 사용할 수 있도록 간단한 사용자 인터페이스와 직관적인 조작 기능을 제공합니다.\",\n    \"execution_plan\": \"1. 사용자 조사 및 요구사항 분석: 사용자들의 편의성과 직관성에 대한 요구사항을 조사하여 기능 설계에 반영합니다.\\n2. 사용자 친화적인 인터페이스 설계: 사용자 친화적인 디자인을 고려한 인터페이스를 설계합니다.\\n3. 리모컨 기능 개발: 사용자 친화적인 조작 기능과 직관적인 사용성을 고려한 리모컨 기능을 개발합니다.\\n4. 테스트 및 피드백 수집: 개발된 리모컨을 테스트하여 사용자들의 피드백을 수집하고 개선합니다.\\n5. 최종 제품 제작 및 검증: 개선된 리모컨을 제작하고, 사용자 테스트를 통해 최종 제품을 검증합니다.\",\n    \"expected_effects"
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_IS1009b/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 2,
+    "total_chunks": 2,
+    "processing_date": "2025-08-10T11:47:04.543408"
+  }
+}

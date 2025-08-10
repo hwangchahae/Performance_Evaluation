@@ -1,0 +1,12 @@
+{
+  "id": "result_Bed012_chunk_3",
+  "source_dir": "result_Bed012",
+  "notion_output": {},
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bed012/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 3,
+    "total_chunks": 4,
+    "processing_date": "2025-08-10T11:34:30.073954"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "result_TS3010b_chunk_1",
+  "source_dir": "result_TS3010b",
+  "notion_output": {
+    "project_name": "스마트 홈 시스템 개발 프로젝트",
+    "project_purpose": "사용자가 편리하게 집의 다양한 장치를 통합하여 조절할 수 있도록 스마트 홈 시스템을 개발하고, 시장에 출시하여 수익을 창출하기 위해",
+    "project_period": "2023년 1월부터 2023년 6월까지",
+    "project_manager": "김철수",
+    "core_objectives": [
+      "스마트 홈 시스템의 기능 개선",
+      "사용자 친화적인 인터페이스 개발",
+      "시장 진입 및 수익 창출"
+    ],
+    "core_idea": "사용자가 편리하게 집의 다양한 장치를 통합하여 조절할 수 있는 스마트 홈 시스템",
+    "idea_description": "스마트 홈 시스템은 사용자가 편리하게 집의 다양한 장치를 통합하여 조절할 수 있도록 하며, 사용자 친화적인 인터페이스와 함께 시장에 출시되어 수익을 창출할 수 있도록 설계되었습니다.",
+    "execution_plan": "1. 시장 조사 및 사용자 니즈 분석\n2. 기술적 검토 및 시스템 설계\n3. 개발 및 테스트\n4. 시장 진입 및 상업적 출시",
+    "expected_effects": [
+      "사용자 만족도 향상",
+      "제품의 시장 점유율 증가",
+      "수익 창출 및 기업 성장"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_TS3010b/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 1,
+    "total_chunks": 2,
+    "processing_date": "2025-08-10T11:47:04.475753"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "result_ES2016a",
+  "source_dir": "result_ES2016a",
+  "notion_output": {
+    "project_name": "스마트 홈 자동화 시스템 개발 프로젝트",
+    "project_purpose": "사용자 중심의 스마트 홈 자동화 시스템을 개발하여 고객의 일상 생활을 편리하게 만들어 줄 것입니다.",
+    "project_period": "2024년 1월부터 2024년 6월까지",
+    "project_manager": "김철수",
+    "core_objectives": [
+      "사용자 중심의 인터페이스 디자인 개발",
+      "스마트 홈 기기 간 통신 및 연동 기능 구현",
+      "사용자 데이터 기반의 맞춤형 자동화 설정 제공"
+    ],
+    "core_idea": "사용자 중심의 인터페이스 디자인과 맞춤형 자동화 설정을 결합한 스마트 홈 자동화 시스템",
+    "idea_description": "이 시스템은 사용자의 일상 생활 패턴을 분석하여 자동으로 가전 기기의 작동을 조절하며, 사용자에게 맞춤형 제안을 제공합니다.",
+    "execution_plan": "1단계: 사용자 요구사항 조사 및 분석, 2단계: 사용자 중심 인터페이스 디자인 개발, 3단계: 스마트 홈 기기 연동 기능 구현, 4단계: 사용자 데이터 기반 맞춤형 자동화 설정 개발, 5단계: 시스템 테스트 및 최적화",
+    "expected_effects": [
+      "사용자가 일상 생활을 편리하게 만들어 줄 것",
+      "사용자 데이터 기반의 맞춤형 서비스 제공",
+      "사용자 만족도 향상 및 제품 판매량 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_ES2016a/05_final_result.json",
+    "is_chunk": false,
+    "chunk_index": null,
+    "total_chunks": 1,
+    "processing_date": "2025-08-10T11:47:04.574997"
+  }
+}

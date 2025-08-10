@@ -1,0 +1,41 @@
+{
+  "id": "result_IS1000d_chunk_1",
+  "source_dir": "result_IS1000d",
+  "notion_output": {
+    "project_name": "IR 리모컨 디자인 및 개발 프로젝트",
+    "project_purpose": "비용 효율적이면서도 사용자 친화적인 IR 리모컨을 설계하고 개발하여 시장 경쟁력을 확보",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: IR 리모컨의 기본 디자인 완성 및 사용자 편의성 강화",
+      "목표 2: 예산 내에서 최적의 기능 구현 및 성능 테스트",
+      "목표 3: 시장 출시 준비 및 마케팅 전략 수립"
+    ],
+    "core_idea": "비용 효율적인 IR 리모컨 디자인",
+    "idea_description": "기본적인 IR 리모컨 디자인을 완성하고, 사용자 친화적인 인터페이스와 다양한 기능을 갖춘 제품을 개발하여 시장에 출시",
+    "execution_plan": "1단계: 디자인 완성 및 사용자 피드백 수집 (2025.01.01 ~ 2025.02.15)\n2단계: 기능 구현 및 성능 테스트 (2025.02.16 ~ 2025.04.15)\n3단계: 마케팅 전략 수립 및 시장 출시 준비 (2025.04.16 ~ 2025.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 증가 및 브랜드 이미지 강화",
+      "기대효과 2: 시장 점유율 확대 및 매출 증가",
+      "기대효과 3: 혁신적인 디자인으로 경쟁력 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_IS1000d/05_final_result.json",
+    "utterance_count": 433,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "original_length": 13960,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T09:23:48.694673"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "result_Bmr012_chunk_2",
+  "source_dir": "result_Bmr012",
+  "notion_output": {
+    "raw_text": "**주의사항:**\n- JSON 형식에 맞게 작성\n- 프로젝트명은 회의 내용을 바탕으로 적절히 명명\n- 다른 요소는 회의 내용을 바탕으로 적절히 작성\n- 반드시 JSON 형식으로 작성\n- 반드시 \"project_name\" 필드가 포함되어야 함\n- 반드시 \"core_objectives\" 배열이 포함되어야 함\n- 반드시 \"core_idea\" 필드가 포함되어야 함\n- 반드시 \"idea_description\" 필드가 포함되어야 함\n- 반드시 \"execution_plan\" 필드가 포함되어야 함\n- 반드시 \"expected_effects\" 배열이 포함되어야 함\n- 반드시 \"project_manager\" 필드가 포함되어야 함\n- 반드시 \"project_period\" 필드가 포함되어야 함\n- 반드시 \"project_purpose\" 필드가 포함되어야 함\n- 반드시 \"core_idea\" 필드가 포함되어야 함\n- 반드시 \"idea_description\" 필드가 포함되어야 함\n- 반드시 \"execution_plan\" 필드가 포함되어야 함\n- 반드시 \"expected_effects\" 배열이 포함되어야 함\n- 반드시 \"project_manager\" 필드가 포함되어야 함\n- 반드시 \"project_period\" 필드가 포함되어야 함\n- 반드시 \"project_purpose\" 필드가 포함되어야 함\n- 반드시 \"core_objectives\" 배열이 포함되어야 함\n- 반드시 \"core_idea\" 필드가 포함되어야 함\n- 반드시 \"idea_description\" 필드가 포함되어야 함\n- 반드시 \"execution_plan\" 필드가 포함되어야 함\n- 반드시 \"expected_effects\" 배열이 포함되어야 함\n\n**주의사항:**\n- JSON 형식에 맞게 작성\n- 프로젝트명은 회의 내용을 바탕으로 적절히 명명\n- 다른 요소는 회의 내용을 바탕으로 적절히 작성\n- 반드시 JSON 형식으로 작성\n- 반드시 \"project_name\" 필드가 포함되어야 함\n- 반드시 \"core_objectives\" 배열이 포함되어야 함\n- 반드시 \"core_idea\" 필드가 포함되어야 함\n- 반드시 \"idea_description\" 필드가 포함되어야 함\n- 반드시 \"execution_plan\" 필드가 포함되어야 함\n- 반드시 \"expected_effects\" 배열이 포함되어야 함\n- 반드시 \"project_manager\" 필드가 포함되어야 함\n- 반드시 \"project_period\" 필드가 포함되어야 함\n- 반드시 \"project_purpose\" 필드가 포함되어야 함\n- 반드시 \"core_idea\" 필드가 포함되어야 함\n- 반드시 \"idea_description\" 필드가 포함되어야 함\n- 반드시 \"execution_plan\" 필드가 포함되어야 함\n- 반드시 \"expected_effects\" 배열이 포함되어야 함\n\n**주의사항:**\n- JSON 형식에 맞게 작성\n- 프로젝트명은 회의 내용을 바탕으로 적절히 명명\n- 다른 요소는 회의 내용을 바탕으로 적절히 작성\n- 반드시 JSON 형식으로 작성\n- 반드시 \"project_name\" 필드가 포함되어야 함\n- 반드시 \"core_objectives\" 배열이 포함되어야 함\n- 반드시 \"core_idea\" 필드가 포함되어야 함\n- 반드시 \"idea_description\" 필드가 포함되어야 함\n- 반드시 \"execution_plan\" 필드가 포함되어야 함\n- 반드시 \"expected_effects\" 배열이 포함되어야 함\n- 반드시 \"project_manager\" 필드가 포함되어야 함\n- 반드시 \"project_period\" 필드가 포함되어야 함\n- 반드시 \"project_purpose\" 필드가 포함되어야 함\n- 반드시 \"core_idea\" 필드가 포함되어야 함\n- 반드시 \"idea_description\" 필드가 포함되어어야 함\n- 반드시 \"execution_plan\" 필드가 포함되어야 함\n- 반드시 \"expected_effects\" 배열이 포함되어야 함\n\n**주의사항:**\n- JSON 형식에 맞게 작성\n- 프로젝트명은 회의 내용을 바탕으로 적절히 명명\n- 다른 요소는 회의 내용을 바탕으로 적절히 작성\n- 반드시 JSON 형식으로 작성\n- 반드시 \"project_name\" 필드가 포함되어야 함\n- 반드시 \"core_objectives\" 배열이 포함되어야 함\n- 반드시 \"core_idea\" 필드가 포함되어야 함\n- 반드시 \"idea_description\" 필드가 포함되어야 함\n- 반드시 \"execution_plan\" 필드가 포함되어야 함\n- 반드시 \"expected_effects\" 배열이 포함되어야 함\n- 반드시 \"project_manager\" 필드가 포함되어야 함\n- 반드시 \"project_period\" 필드가 포함되어야 함\n- 반드시 \"project_purpose\" 필드가 포함되어야"
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bmr012/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 2,
+    "total_chunks": 5,
+    "processing_date": "2025-08-10T11:47:04.784504"
+  }
+}

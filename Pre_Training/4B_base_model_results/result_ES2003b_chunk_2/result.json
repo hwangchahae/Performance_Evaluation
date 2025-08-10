@@ -1,0 +1,30 @@
+{
+  "id": "result_ES2003b_chunk_2",
+  "source_dir": "result_ES2003b",
+  "notion_output": {
+    "project_name": "AI 기반 고객 서비스 플랫폼 개발",
+    "project_purpose": "고객의 문의를 AI로 자동 처리하여 대기 시간을 줄이고 응답 정확도를 향상시키기 위한 시스템 구축",
+    "project_period": "2024년 1월 ~ 2024년 6월",
+    "project_manager": "김철수",
+    "core_objectives": [
+      "고객 문의 처리 시간을 50% 감소",
+      "AI의 응답 정확도를 95% 이상 달성",
+      "시스템의 가동률을 99.9% 이상 유지"
+    ],
+    "core_idea": "AI 기반의 고객 서비스 플랫폼을 구축하여 고객의 문의를 자동으로 처리하고, 실시간으로 분석하여 문제를 예방",
+    "idea_description": "이 플랫폼은 고객의 문의를 AI가 자동으로 분류하고, 필요한 정보를 제공하며, 실시간으로 데이터를 분석하여 서비스 개선을 도모합니다.",
+    "execution_plan": "1단계: AI 모델 개발 및 훈련 데이터 수집 (2024년 1월 ~ 2월), 2단계: 시스템 구축 및 테스트 (2024년 3월 ~ 4월), 3단계: 실제 환경에서 운영 및 최적화 (2024년 5월 ~ 6월)",
+    "expected_effects": [
+      "고객의 대기 시간이 50% 감소",
+      "AI의 응답 정확도가 95% 이상 달성",
+      "시스템의 가동률이 99.9% 이상 유지"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_ES2003b/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 2,
+    "total_chunks": 2,
+    "processing_date": "2025-08-10T11:47:04.620537"
+  }
+}

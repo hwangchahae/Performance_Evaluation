@@ -1,0 +1,14 @@
+{
+  "id": "result_Bed013_chunk_4",
+  "source_dir": "result_Bed013",
+  "notion_output": {
+    "raw_text": "**주의:**\n- JSON 형식에 맞게 작성\n- 각 항목은 반드시 문자열로 작성\n- \"core_idea\"와 \"idea_description\"는 반드시 포함\n- \"execution_plan\"은 배열로 작성\n- \"core_objectives\"는 배열로 작성\n- \"project_name\", \"project_purpose\", \"project_period\", \"project_manager\", \"core_objectives\", \"core_idea\", \"idea_description\", \"execution_plan\", \"expected_effects\"는 필수 필드\n- \"project_manager\"는 회의에서 언급된 사람 중 한 명을 선택하여 작성\n- \"project_period\"는 회의에서 언급된 시간을 바탕으로 작성\n- \"core_objectives\"는 회의에서 언급된 주요 목표를 추출\n- \"core_idea\"와 \"idea_description\"는 회의에서 언급된 아이디어를 요약\n- \"execution_plan\"은 회의에서 언급된 실행 단계를 추출\n- \"expected_effects\"는 회의에서 언급된 예상 효과를 추출\n\n**추가 지침:**\n- \"project_name\"은 회의에서 언급된 \"오페라\"와 \"베이즈넷\"을 결합하여 적절하게 명명\n- \"project_period\"는 회의에서 언급된 \"내년 봄방학\"을 기준으로 작성\n- \"project_manager\"는 회의에서 언급된 \"Speaker_E\"를 선택\n- \"core_objectives\"는 회의에서 언급된 \"발화 속에서 특정한 실체를 만난다\", \"담론 역사에서 우리가 얻을 수 있는 다른 담론 정보는 무엇인가?\", \"EDU의 모든 내용은 항상 화자를 추론하고 있다는 것입니다.\"를 추출\n- \"core_idea\"는 \"베이즈넷을 기반으로 한 담론 분석 및 정보 추론 시스템 개발\"\n- \"idea_description\"는 \"베이즈넷을 기반으로 한 담론 분석 및 정보 추론 시스템을 개발하여, 발화 속에서 특정한 실체를 인식하고, 담론 역사에서 얻을 수 있는 다른 담론 정보를 추론하며, EDU의 모든 내용이 화자를 추론하는 방식을 모델링하는 시스템을 구축하는 것\"\n- \"execution_plan\"은 회의에서 언급된 \"세부 사항을 구상해 보겠습니다\", \"발화 속에서 특정한 실체를 만난다\", \"담론 역사에서 우리가 얻을 수 있는 다른 담론 정보는 무엇인가?\", \"EDU의 모든 내용은 항상 화자를 추론하고 있다는 것입니다.\"를 추출\n- \"expected_effects\"는 회의에서 언급된 \"확실히\", \"그것이 바로 우리가 찾고 있는 것입니다\", \"그것이 바로 우리가 찾고 있는 것입니다\"를 추출\n\n**예시:**\n{\n    \"project_name\": \"...\"\n    \"project_purpose\": \"...\"\n    \"project_period\": \"...\"\n    \"project_manager\": \"...\"\n    \"core_objectives\": [\"...\", \"...\", \"...\"]\n    \"core_idea\": \"...\"\n    \"idea_description\": \"...\"\n    \"execution_plan\": [\"...\", \"...\", \"...\", \"...\"]\n    \"expected_effects\": [\"...\", \"...\", \"...\"]\n}\n\n**주의:**\n- JSON 형식에 맞게 작성\n- 각 항목은 반드시 문자열로 작성\n- \"core_idea\"와 \"idea_description\"는 반드시 포함\n- \"execution_plan\"은 배열로 작성\n- \"core_objectives\"는 배열로 작성\n- \"project_name\", \"project_purpose\", \"project_period\", \"project_manager\", \"core_objectives\", \"core_idea\", \"idea_description\", \"execution_plan\", \"expected_effects\"는 필수 필드\n- \"project_manager\"는 회의에서 언급된 사람 중 한 명을 선택하여 작성\n- \"project_period\"는 회의에서 언급된 시간을 바탕으로 작성\n- \"core_objectives\"는 회의에서 언급된 주요 목표를 추출\n- \"core_idea\"와 \"idea_description\"는 회의에서 언급된 아이디어를 요약\n- \"execution_plan\"은 회의에서 언급된 실행 단계를 추출\n- \"expected_effects\"는 회의에서 언提及된 예상 효과를 추출\n\n**추가 지침:**\n- \"project_name\"은 회의에서 언급된 \"오페라\"와 \"베이즈넷\"을 결합하여 적절하게 명명\n- \"project_period\"는 회의에서 언급된 \"내년 봄방학\""
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bed013/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 4,
+    "total_chunks": 6,
+    "processing_date": "2025-08-10T11:47:04.852834"
+  }
+}

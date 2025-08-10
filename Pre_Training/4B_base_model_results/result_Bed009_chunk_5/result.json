@@ -1,0 +1,30 @@
+{
+  "id": "result_Bed009_chunk_5",
+  "source_dir": "result_Bed009",
+  "notion_output": {
+    "project_name": "AI 기반 고객 서비스 플랫폼 개발",
+    "project_purpose": "고객의 문의를 AI로 자동 처리하여 응답 시간을 줄이고, 고객 만족도를 향상시키기 위한 시스템 구축",
+    "project_period": "2023년 1월 ~ 2023년 12월",
+    "project_manager": "김철수",
+    "core_objectives": [
+      "고객 문의 처리율 90% 이상 달성",
+      "평균 응답 시간 2분 이내",
+      "고객 만족도 95% 이상"
+    ],
+    "core_idea": "AI 기반의 자연어 처리 기술을 활용한 고객 서비스 플랫폼 구축",
+    "idea_description": "AI 기반의 고객 서비스 플랫폼은 고객의 문의를 자동으로 분류하고 처리하여 응답 시간을 줄이며, 고객의 요구를 정확하게 이해하여 만족도를 높이는 시스템을 제공합니다.",
+    "execution_plan": "1. AI 모델 훈련 데이터 수집 및 준비 (1개월), 2. 모델 훈련 및 최적화 (2개월), 3. 시스템 통합 및 테스트 (1개월), 4. 실제 환경에서 운영 및 모니터링 (1개월)",
+    "expected_effects": [
+      "고객 문의 처리율 90% 이상 달성",
+      "평균 응답 시간 2분 이내",
+      "고객 만족도 95% 이상"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bed009/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 5,
+    "total_chunks": 6,
+    "processing_date": "2025-08-10T11:47:04.918590"
+  }
+}

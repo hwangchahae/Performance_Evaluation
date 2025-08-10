@@ -1,0 +1,44 @@
+{
+  "id": "result_Bmr013_chunk_2",
+  "source_dir": "result_Bmr013",
+  "notion_output": {
+    "project_name": "Switchboard 전사 프로젝트",
+    "project_purpose": "Switchboard 데이터를 활용하여 전사 프로젝트를 개선하고, 다양한 특징을 반영하여 더 정확한 결과를 도출",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_E",
+    "core_objectives": [
+      "목표 1: Switchboard 데이터를 활용하여 전사 프로젝트의 정확성을 높임",
+      "목표 2: 다양한 특징을 반영하여 전사 프로젝트의 효율성을 증대",
+      "목표 3: 전사 프로젝트의 결과물을 실제 적용 가능한 형태로 변환"
+    ],
+    "core_idea": "Switchboard 데이터를 활용하여 전사 프로젝트를 개선하고, 다양한 특징을 반영하여 더 정확한 결과를 도출",
+    "idea_description": "Switchboard 데이터를 활용하여 전사 프로젝트를 개선하고, 다양한 특징을 반영하여 더 정확한 결과를 도출. 특히, 사전 및 전화 라벨을 활용하여 전사 프로젝트의 정확성을 높이고, 다양한 특징을 반영하여 효율성을 증대.",
+    "execution_plan": "1단계: Switchboard 데이터 수집 및 분석 (2025.01.01 ~ 2025.01.31)\n2단계: 전사 프로젝트 개선 및 정확성 검증 (2025.02.01 ~ 2025.02.31)\n3단계: 결과물의 실제 적용 가능성 검토 및 최종 보고서 작성 (2025.03.01 ~ 2025.03.31)",
+    "expected_effects": [
+      "기대효과 1: 전사 프로젝트의 정확성이 20% 이상 향상됨",
+      "기대효과 2: 전사 프로젝트의 효율성이 15% 이상 증가함",
+      "기대효과 3: 전사 프로젝트의 결과물이 실제 적용 가능한 형태로 변환됨"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bmr013/05_final_result.json",
+    "utterance_count": 797,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_F",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_E"
+    ],
+    "original_length": 27322,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T09:30:23.241868"
+  }
+}

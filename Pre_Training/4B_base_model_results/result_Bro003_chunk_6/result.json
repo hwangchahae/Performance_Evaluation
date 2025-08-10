@@ -1,0 +1,30 @@
+{
+  "id": "result_Bro003_chunk_6",
+  "source_dir": "result_Bro003",
+  "notion_output": {
+    "project_name": "AI 기반 음성 인식 시스템 개발",
+    "project_purpose": "고성능의 음성 인식 시스템을 개발하여 다양한 음성 데이터를 처리할 수 있도록 하며, 사용자 친화적인 인터페이스를 제공함.",
+    "project_period": "2023년 10월 ~ 2024년 1월",
+    "project_manager": "김철수",
+    "core_objectives": [
+      "고성능의 음성 인식 모델 개발",
+      "다양한 언어 및 방언 지원",
+      "실시간 음성 처리 및 인터페이스 개선"
+    ],
+    "core_idea": "다중 기계 활용을 통한 효율적인 음성 데이터 처리 및 훈련 시스템 구축",
+    "core_idea_description": "다수의 컴퓨터 및 SPERT 보드를 활용하여 대규모 음성 데이터 훈련 및 처리를 효율화하고, HTK 및 신경망 기반의 고성능 음성 인식 시스템을 구현함.",
+    "execution_plan": "1. SPERT 보드 및 HTK 환경 설정 및 테스트\n2. 다양한 음성 데이터 수집 및 준비\n3. 신경망 훈련 및 최적화\n4. 시스템 통합 및 테스트\n5. 사용자 피드백 반영 및 최종 배포",
+    "expected_effects": [
+      "음성 인식 정확도 향상",
+      "훈련 시간 및 자원 사용 최적화",
+      "사용자 친화적인 인터페이스 제공"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bro003/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 6,
+    "total_chunks": 6,
+    "processing_date": "2025-08-10T11:47:04.702835"
+  }
+}

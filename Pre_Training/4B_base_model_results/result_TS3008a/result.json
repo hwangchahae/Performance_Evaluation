@@ -1,0 +1,30 @@
+{
+  "id": "result_TS3008a",
+  "source_dir": "result_TS3008a",
+  "notion_output": {
+    "project_name": "스마트 홈 제어 시스템 개발 프로젝트",
+    "project_purpose": "사용자 중심의 스마트 홈 제어 시스템을 개발하여 집의 에너지 효율성을 높이고 사용자 만족도를 향상시키기 위한 시스템 구축",
+    "project_period": "2023년 1월 ~ 2023년 6월",
+    "project_manager": "김철수",
+    "core_objectives": [
+      "사용자 인터페이스의 직관성과 사용자 친화성을 높이기",
+      "에너지 효율성 향상 및 시스템 안정성 확보",
+      "사용자 만족도를 높이기 위한 맞춤형 기능 개발"
+    ],
+    "core_idea": "사용자 중심의 인터페이스 설계와 에너지 효율성 향상 기능을 결합한 스마트 홈 제어 시스템",
+    "idea_description": "이 프로젝트는 사용자 인터�스의 직관성과 에너지 효율성 향상 기능을 결합하여 사용자 만족도를 높이고, 집의 에너지 소비를 줄이는 것을 목표로 합니다.",
+    "execution_plan": "1단계: 사용자 인터페이스 설계 및 사용자 조사, 2단계: 에너지 효율성 향상 기능 개발, 3단계: 시스템 통합 및 테스트, 4단계: 최종 배포 및 사용자 피드백 수집",
+    "expected_effects": [
+      "사용자 만족도 30% 상승",
+      "집의 에너지 소비량 20% 감소",
+      "시스템의 안정성 및 신뢰성 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_TS3008a/05_final_result.json",
+    "is_chunk": false,
+    "chunk_index": null,
+    "total_chunks": 1,
+    "processing_date": "2025-08-10T11:47:04.523237"
+  }
+}

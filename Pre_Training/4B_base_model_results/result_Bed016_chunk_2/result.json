@@ -1,0 +1,30 @@
+{
+  "id": "result_Bed016_chunk_2",
+  "source_dir": "result_Bed016",
+  "notion_output": {
+    "project_name": "프로젝트명",
+    "project_purpose": "프로젝트의 주요 목적",
+    "project_period": "예상 수행 기간",
+    "project_manager": "담당자명",
+    "core_objectives": [
+      "목표 1",
+      "목표 2",
+      "목표 3"
+    ],
+    "core_idea": "핵심 아이디어",
+    "idea_description": "아이디어 설명",
+    "execution_plan": "실행 계획",
+    "expected_effects": [
+      "효과 1",
+      "효과 2",
+      "효과 3"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bed016/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 2,
+    "total_chunks": 4,
+    "processing_date": "2025-08-10T11:47:04.838121"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "result_ES2007b_chunk_1",
+  "source_dir": "result_ES2007b",
+  "notion_output": {
+    "project_name": "스마트 홈 자동화 시스템 개발 프로젝트",
+    "project_purpose": "개인의 일상 생활을 편리하게 만들고, 에너지 효율성을 높이기 위해 스마트 홈 자동화 시스템을 개발하는 일",
+    "project_period": "2024년 1월부터 2024년 6월까지",
+    "project_manager": "김철수",
+    "core_objectives": [
+      "사용자 중심의 인터페이스 설계",
+      "에너지 효율성 향상",
+      "시스템의 안정성 및 신뢰성 확보"
+    ],
+    "core_idea": "사용자 중심의 인터페이스와 에너지 효율성 향상을 위한 스마트 홈 자동화 시스템",
+    "idea_description": "이 프로젝트는 사용자에게 편리하고 직관적인 인터�스를 제공하면서 동시에 에너지 소비를 최소화하는 스마트 홈 자동화 시스템을 개발하는 것입니다.",
+    "execution_plan": "1. 사용자 요구사항 분석 및 인터페이스 디자인\n2. 에너지 효율성 향상 기술 개발\n3. 시스템 통합 및 테스트\n4. 최종 검수 및 배포",
+    "expected_effects": [
+      "사용자의 일상 생활 편의성 향상",
+      "에너지 소비량의 감소",
+      "시스템의 안정성 및 신뢰성 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_ES2007b/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 1,
+    "total_chunks": 2,
+    "processing_date": "2025-08-10T11:47:04.610193"
+  }
+}

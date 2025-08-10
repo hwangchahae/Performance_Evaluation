@@ -1,0 +1,30 @@
+{
+  "id": "result_TS3006c_chunk_2",
+  "source_dir": "result_TS3006c",
+  "notion_output": {
+    "project_name": "스마트 홈 자동화 시스템 개발",
+    "project_purpose": "가정 내 모든 전자기기의 자동화 및 통합 관리",
+    "project_period": "2023년 11월 1일 ~ 2024년 1월 31일",
+    "project_manager": "김철수",
+    "core_objectives": [
+      "전체 시스템의 통합 및 조율",
+      "사용자 친화적인 인터페이스 개발",
+      "에너지 효율성 향상"
+    ],
+    "core_idea": "모바일 앱을 통해 가정 내 모든 전자기기를 통합적으로 제어할 수 있는 시스템",
+    "idea_description": "이 시스템은 사용자가 모바일 앱을 통해 집안의 라이트, 냉방, 난방, 라디오, TV 등 모든 전자기기를 하나의 앱으로 통합적으로 제어할 수 있도록 합니다.",
+    "execution_plan": "1. 시스템 아키텍처 설계\n2. 모바일 앱 개발\n3. 시스템 테스트 및 최적화\n4. 최종 배포",
+    "expected_effects": [
+      "사용자의 일상 생활 편의성 향상",
+      "전체 전자기기의 에너지 소비 감소",
+      "시스템의 안정성 및 신뢰성 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_TS3006c/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 2,
+    "total_chunks": 3,
+    "processing_date": "2025-08-10T11:47:04.528595"
+  }
+}

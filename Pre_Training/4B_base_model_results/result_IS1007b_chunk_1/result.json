@@ -1,0 +1,30 @@
+{
+  "id": "result_IS1007b_chunk_1",
+  "source_dir": "result_IS1007b",
+  "notion_output": {
+    "project_name": "스마트 홈 자동화 시스템 개발",
+    "project_purpose": "가정 내 모든 장치의 자동화 및 통합 제어를 통해 사용자 편의성과 에너지 효율성을 높이기 위한 시스템 개발",
+    "project_period": "2025년 1월 ~ 2025년 6월",
+    "project_manager": "김철수",
+    "core_objectives": [
+      "가정 내 장치의 통합 제어 시스템 구축",
+      "사용자 편의성 향상",
+      "에너지 소비 최소화"
+    ],
+    "core_idea": "사용자가 모바일 앱을 통해 집안의 모든 장치를 하나의 플랫폼에서 제어할 수 있도록 하여 편의성과 효율성을 높이는 시스템",
+    "idea_description": "스마트폰을 통해 온도, 조명, 라디오, 냉장고 등을 하나의 앱으로 통합 제어하여 사용자가 편리하게 조절할 수 있도록 합니다.",
+    "execution_plan": "1. 사용자 인터페이스 디자인 및 개발\n2. IoT 장치 통합 및 API 연동\n3. 시스템 테스트 및 최적화\n4. 실제 환경에서의 시범 운영",
+    "expected_effects": [
+      "사용자 편의성 향상",
+      "에너지 소비 감소",
+      "시스템의 신뢰성 및 안정성 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_IS1007b/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 1,
+    "total_chunks": 2,
+    "processing_date": "2025-08-10T11:47:04.550560"
+  }
+}

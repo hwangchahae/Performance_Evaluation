@@ -1,0 +1,41 @@
+{
+  "id": "result_ES2014d_chunk_1",
+  "source_dir": "result_ES2014d",
+  "notion_output": {
+    "project_name": "Premium Button Interface Device Development",
+    "project_purpose": "비용 효율성을 유지하면서 고급 버튼 인터페이스 장치를 개발하여 시장 경쟁력을 강화하고, 사용자 경험을 극대화한다.",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Alice",
+    "core_objectives": [
+      "목표 1: 고무 및 플라스틱을 결합한 특수 소재를 활용하여 버튼 인터페이스를 설계하고, 제작 비용을 12유로 이내로 관리한다.",
+      "목표 2: 시장 조사와 재무 분석을 통해 평가 기준을 설정하고, 프로토타입을 평가하여 개선점을 도출한다.",
+      "목표 3: 운동 에너지와 음성 인식 기능을 통합하여 사용자 경험을 향상시키고, 예산 내에서 기술적 혁신을 구현한다."
+    ],
+    "core_idea": "고급 버튼 인터페이스 장치를 개발하여 사용자 경험을 향상시키고, 시장 경쟁력을 강화한다.",
+    "idea_description": "버튼 인터페이스는 고무와 플라스틱을 결합하여 제작되며, 특수 색상과 형태를 적용하여 고급감을 부여한다. 운동 에너지와 음성 인식 기능을 통합하여 사용자 편의성을 증진시키고, 제작 비용을 최소화한다.",
+    "execution_plan": "1단계: 초기 설계 및 소재 선택 (2024.01.01 ~ 2024.01.15)\n2단계: 프로토타입 개발 및 시장 조사 기반 평가 (2024.01.16 ~ 2024.02.15)\n3단계: 피드백 반영 및 최종 설계 완료 (2024.02.16 ~ 2024.03.15)\n4단계: 생산 준비 및 마케팅 계획 수립 (2024.03.16 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 시장 경쟁력 강화 및 매출 증가",
+      "기대효과 2: 사용자 만족도 향상 및 브랜드 이미지 개선",
+      "기대효과 3: 제작 비용 절감 및 운영 효율성 증대"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_ES2014d/05_final_result.json",
+    "utterance_count": 317,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "original_length": 10631,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T09:25:21.766345"
+  }
+}

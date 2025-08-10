@@ -1,0 +1,14 @@
+{
+  "id": "result_제22대국회 제427회(임시회) 제1차 국토교통위원회(국토법안심사소위원회) (2025.07.15.)_chunk_9",
+  "source_dir": "result_제22대국회 제427회(임시회) 제1차 국토교통위원회(국토법안심사소위원회) (2025.07.15.)",
+  "notion_output": {
+    "raw_text": "**예시:**\n{\n    \"project_name\": \"도시 교통 혁신 프로젝트\",\n    \"project_purpose\": \"도시 교통 시스템의 효율성과 안전성을 높이기 위해 도시 교통 시스템을 혁신적으로 개선하고, 새로운 기술을 도입하여 교통 혼잡을 완화하고 안전한 교통 환경을 조성하기 위한 프로젝트입니다.\",\n    \"project_period\": \"2025년 1월부터 2027년 12월까지\",\n    \"project_manager\": \"김철수\",\n    \"core_objectives\": [\n        \"도시 교통 시스템의 효율성 향상\",\n        \"신기술 도입을 통한 교통 혼잡 완화\",\n        \"안전한 교통 환경 조성\"\n    ],\n    \"core_idea\": \"지능형 교통 시스템 및 신기술 도입을 통해 교통 혼잡을 해결하고 안전한 교통 환경을 조성하는 것을 목표로 합니다.\",\n    \"idea_description\": \"도시 교통 시스템은 기존의 교통 혼잡과 안전 문제를 해결하기 위해 지능형 교통 시스템을 도입하고, 신기술을 활용하여 교통 흐름을 최적화하고 안전성을 높입니다.\",\n    \"execution_plan\": \"1. 교통 데이터 수집 및 분석을 통해 교통 패턴 파악\\n2. 지능형 교통 시스템 개발 및 테스트\\n3. 시범 도입 및 피드백 반영\\n4. 전국적으로 확대 적용\",\n    \"expected_effects\": [\n        \"교통 혼잡률 20% 감소\",\n        \"사망 및 부상 사고율 15% 감소\",\n        \"시민 만족도 향상\"\n    ]\n}\n\n**주의:**\n- 반드시 JSON 형식으로 응답해야 하며, JSON 형식이 잘못되면 평가에서 0점 처리됨\n- JSON의 각 필드는 반드시 문자열 타입으로 처리해야 하며, 배열은 string 타입으로 처리해야 함\n- 예시와 같이 각 필드의 값은 반드시 문자열 타입으로 처리해야 함\n- JSON의 각 필드는 반드시 double quote(\")로 묶여야 함\n- JSON의 각 필드는 반드시 comma(,)로 구분되어야 함\n- JSON의 마지막 항목에는 반드시 comma(,)가 없어야 함\n- JSON의 시작과 끝은 반드시 curly braces({})로 감싸야 함\n- JSON의 각 줄은 반드시 newline(\\n)으로 끝나야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여야 함\n- JSON의 각 줄은 반드시 double quote(\")로 묶여"
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_제22대국회 제427회(임시회) 제1차 국토교통위원회(국토법안심사소위원회) (2025.07.15.)/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 9,
+    "total_chunks": 11,
+    "processing_date": "2025-08-10T11:47:04.196075"
+  }
+}

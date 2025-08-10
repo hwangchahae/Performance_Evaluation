@@ -1,0 +1,43 @@
+{
+  "id": "result_Bmr006_chunk_5",
+  "source_dir": "result_Bmr006",
+  "notion_output": {
+    "project_name": "고급 발언 분류 및 데이터 관리 프로젝트",
+    "project_purpose": "발언 분류 알고리즘 개선 및 회의 녹음 데이터 효율적 관리를 위한 기술적 혁신",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Stephen",
+    "core_objectives": [
+      "목표 1: 클러스터링 알고리즘과 신경망을 활용한 발언 분류 시스템 개발",
+      "목표 2: 회의 녹음 데이터 저장 공간 확보 및 최적화",
+      "목표 3: 발언 중첩 및 배경 소음을 고려한 데이터 처리 기법 개발"
+    ],
+    "core_idea": "발언 분류 및 데이터 관리의 효율성을 극대화하기 위한 기술적 접근",
+    "idea_description": "클러스터링 알고리즘과 신경망을 결합하여 발언 분류의 정확도를 높이고, 회의 녹음 데이터의 저장 및 관리를 최적화함으로써 데이터 처리 효율성을 증대시킴.",
+    "execution_plan": "1단계: 알고리즘 연구 및 테스트 (2024.01.01 ~ 2024.02.28)\n2단계: 회의 녹음 데이터 수집 및 저장 공간 확보 (2024.03.01 ~ 2024.04.15)\n3단계: 발언 중첩 및 배경 소음 처리 기법 개발 (2024.04.16 ~ 2024.05.15)\n4단계: 시스템 통합 및 최종 검증 (2024.05.16 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 발언 분류 정확도 20% 향상",
+      "기대효과 2: 회의 녹음 데이터 저장 비용 절감",
+      "기대효과 3: 발언 중첩 및 배경 소음 처리로 인한 데이터 품질 개선"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bmr006/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_F",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_E"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-10T09:31:15.339613"
+  }
+}

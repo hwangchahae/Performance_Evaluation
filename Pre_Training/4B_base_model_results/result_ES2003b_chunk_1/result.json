@@ -1,0 +1,30 @@
+{
+  "id": "result_ES2003b_chunk_1",
+  "source_dir": "result_ES2003b",
+  "notion_output": {
+    "project_name": "스마트 홈 통합 시스템",
+    "project_purpose": "가정 내 모든 가전의 통합 제어 및 최적화",
+    "project_period": "2024년 1월 ~ 2024년 12월",
+    "project_manager": "김철수",
+    "core_objectives": [
+      "가전 기기 간의 데이터 통신을 구현",
+      "사용자 친화적인 인터페이스 개발",
+      "에너지 효율성 향상"
+    ],
+    "core_idea": "모든 가전 기기를 하나의 플랫폼으로 통합하여 사용자에게 편리하고 효율적인 제어를 제공",
+    "idea_description": "사용자는 하나의 앱이나 리모컨으로 집안의 모든 가전을 제어할 수 있으며, 자동화된 스케줄링과 에너지 소비 최적화 기능을 통해 생활의 편의성과 에너지 절약을 동시에 달성",
+    "execution_plan": "1. 기술 스택 선정 및 개발 환경 설정\n2. 사용자 인터페이스 디자인 및 UI/UX 개선\n3. 시스템 통합 및 테스트",
+    "expected_effects": [
+      "사용자가 가전 제어에 대한 접근성이 크게 향상",
+      "에너지 소비량의 20% 감소",
+      "사용자 만족도 30% 상승"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_ES2003b/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 1,
+    "total_chunks": 2,
+    "processing_date": "2025-08-10T11:47:04.617785"
+  }
+}

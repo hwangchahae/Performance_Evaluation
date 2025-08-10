@@ -1,0 +1,46 @@
+{
+  "id": "result_Bmr012_chunk_4",
+  "source_dir": "result_Bmr012",
+  "notion_output": {
+    "project_name": "Enhanced Meeting Transcription Project",
+    "project_purpose": "회의록의 정확도와 효율성을 극대화하기 위한 음향 장비 및 기술 개선",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 음향 장비의 성능 개선을 통한 회의록 정확도 향상",
+      "목표 2: 강제 정렬 기법 도입으로 회의록의 정밀도 증대",
+      "목표 3: 새로운 연결 방식 및 채널 배치 최적화"
+    ],
+    "core_idea": "음향 장비와 기술적 접근을 통해 회의록의 정확도와 효율성을 극대화",
+    "idea_description": "현재의 음향 장비 문제점을 해결하고, 강제 정렬 기법을 활용하여 회의록의 정확도를 높이는 동시에 새로운 연결 방식과 채널 배치를 최적화함으로써 회의의 생산성을 극대화한다.",
+    "execution_plan": "1단계: 현재 음향 장비 상태 평가 및 문제점 분석 (2025.01.01 ~ 2025.01.15)\n2단계: 새로운 음향 장비 및 연결 방식 도입 준비 (2025.01.16 ~ 2025.02.15)\n3단계: 강제 정렬 기법 적용 및 테스트 (2025.02.16 ~ 2025.03.15)\n4단계: 최종 검토 및 개선 사항 반영 (2025.03.16 ~ 2025.03.31)",
+    "expected_effects": [
+      "기대효과 1: 회의록의 정확도 20% 향상",
+      "기대효과 2: 회의 참여자의 만족도 증가",
+      "기대효과 3: 회의 후 처리 시간 감소"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bmr012/05_final_result.json",
+    "utterance_count": 602,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_H",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_I",
+      "Speaker_F",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_E"
+    ],
+    "original_length": 20997,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-10T09:30:44.724434"
+  }
+}

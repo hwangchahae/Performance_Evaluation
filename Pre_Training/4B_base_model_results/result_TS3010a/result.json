@@ -1,0 +1,60 @@
+{
+  "id": "result_TS3010a",
+  "source_dir": "result_TS3010a",
+  "notion_output": {
+    "type": "object",
+    "properties": {
+      "project_name": {
+        "type": "string"
+      },
+      "project_purpose": {
+        "type": "string"
+      },
+      "project_period": {
+        "type": "string"
+      },
+      "project_manager": {
+        "type": "string"
+      },
+      "core_objectives": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "core_idea": {
+        "type": "string"
+      },
+      "idea_description": {
+        "type": "string"
+      },
+      "execution_plan": {
+        "type": "string"
+      },
+      "expected_effects": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "project_name",
+      "project_purpose",
+      "project_period",
+      "project_manager",
+      "core_objectives",
+      "core_idea",
+      "idea_description",
+      "execution_plan",
+      "expected_effects"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_TS3010a/05_final_result.json",
+    "is_chunk": false,
+    "chunk_index": null,
+    "total_chunks": 1,
+    "processing_date": "2025-08-10T11:47:04.480473"
+  }
+}

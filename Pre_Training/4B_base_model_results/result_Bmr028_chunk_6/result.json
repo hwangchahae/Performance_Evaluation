@@ -1,0 +1,30 @@
+{
+  "id": "result_Bmr028_chunk_6",
+  "source_dir": "result_Bmr028",
+  "notion_output": {
+    "project_name": "AI 기반 고객 서비스 자동화 프로젝트",
+    "project_purpose": "고객 문의를 AI로 자동 처리하여 대기 시간을 줄이고 서비스 품질을 향상시키기 위한 시스템 구축",
+    "project_period": "2024년 1월 ~ 2024년 6월",
+    "project_manager": "김철수",
+    "core_objectives": [
+      "고객 문의 처리 시간을 50% 감소",
+      "AI의 정확도를 95% 이상 달성",
+      "시스템의 가동률을 99.9% 이상 유지"
+    ],
+    "core_idea": "AI 기반의 고객 서비스 자동화 시스템을 구축하여 고객의 문의를 자동으로 처리함",
+    "idea_description": "AI 기반의 고객 서비스 자동화 시스템은 고객의 문의를 분류하고 처리하여 대기 시간을 줄이고, 서비스 품질을 향상시킵니다.",
+    "execution_plan": "1. AI 모델을 학습 및 테스트\n2. 시스템 구축 및 통합\n3. 시범 운영 및 피드백 수집\n4. 최종 배포 및 운영",
+    "expected_effects": [
+      "고객의 대기 시간이 50% 감소",
+      "AI의 정확도가 95% 이상 달성",
+      "시스템의 가동률이 99.9% 이상 유지"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bmr028/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 6,
+    "total_chunks": 7,
+    "processing_date": "2025-08-10T11:47:04.717225"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "result_Bed002_chunk_1",
+  "source_dir": "result_Bed002",
+  "notion_output": {
+    "project_name": "AI 기반 고객 서비스 플랫폼 구축 프로젝트",
+    "project_purpose": "고객의 문의를 AI로 자동 처리하여 대기 시간을 줄이고 응답 속도를 높이기 위한 시스템 구축",
+    "project_period": "2024년 1월 ~ 2024년 6월",
+    "project_manager": "김철수",
+    "core_objectives": [
+      "AI 기반 챗봇 개발",
+      "고객 데이터 분석 및 활용",
+      "시스템 통합 및 테스트"
+    ],
+    "core_idea": "AI 기반의 고객 서비스 플랫폼을 구축하여 고객의 문의를 자동으로 처리하고, 고객 데이터를 분석하여 서비스 개선을 도모함",
+    "idea_description": "이 플랫폼은 AI 기술을 활용하여 고객의 문의를 즉시 처리하고, 고객의 행동 패턴을 분석하여 맞춤형 서비스를 제공함으로써 고객 만족도를 높이고, 운영 효율성을 향상시킬 수 있음",
+    "execution_plan": "1. AI 기반 챗봇 개발 및 테스트\n2. 고객 데이터 수집 및 분석\n3. 시스템 통합 및 최종 테스트",
+    "expected_effects": [
+      "고객 대기 시간 30% 감소",
+      "고객 만족도 20% 상승",
+      "운영 비용 15% 절감"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bed002/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 1,
+    "total_chunks": 6,
+    "processing_date": "2025-08-10T11:47:04.924531"
+  }
+}

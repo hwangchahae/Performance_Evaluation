@@ -1,0 +1,14 @@
+{
+  "id": "result_Bed010_chunk_6",
+  "source_dir": "result_Bed010",
+  "notion_output": {
+    "raw_text": "**JSON Schema:**\n{\n    \"type\": \"object\",\n    \"properties\": {\n        \"project_name\": {\"type\": \"string\"},\n        \"project_purpose\": {\"type\": \"string\"},\n        \"project_period\": {\"type\": \"string\"},\n        \"project_manager\": {\"type\": \"string\"},\n        \"core_objectives\": {\n            \"type\": \"array\",\n            \"items\": {\"type\": \"string\"}\n        },\n        \"core_idea\": {\"type\": \"string\"},\n        \"idea_description\": {\"type\": \"string\"},\n        \"execution_plan\": {\"type\": \"string\"},\n        \"expected_effects\": {\n            \"type\": \"array\",\n            \"items\": {\"type\": \"string\"}\n        }\n    },\n    \"required\": [\"project_name\", \"project_purpose\", \"project_period\", \"project_manager\", \"core_objectives\", \"core_idea\", \"idea_description\", \"execution_plan\", \"expected_effects\"]\n}\n\n**예시:**\n{\n    \"project_name\": \"AI 기반의 개인화된 학습 플랫폼 구축 프로젝트\",\n    \"project_purpose\": \"개인의 학습 스타일과 속도에 맞춘 맞춤형 학습 콘텐츠 제공\",\n    \"project_period\": \"2023년 1월 ~ 2024년 12월\",\n    \"project_manager\": \"김철수\",\n    \"core_objectives\": [\n        \"학습자의 학습 스타일 분석 및 모델링\",\n        \"실시간 학습 데이터 수집 및 처리\",\n        \"개인화된 학습 콘텐츠 제작 및 제공\"\n    ],\n    \"core_idea\": \"학습자의 학습 스타일과 속도에 맞춘 맞춤형 학습 콘텐츠를 제공하는 AI 기반 플랫폼\",\n    \"core_idea\": \"학습자의 학습 스타일과 속도에 맞춘 맞춤형 학습 콘텐츠를 제공하는 AI 기반 플랫폼\",\n    \"idea_description\": \"이 플랫폼은 학습자의 성능 데이터와 행동 패턴을 분석하여, 그에 맞는 최적의 학습 콘텐츠를 자동으로 추천하고, 학습 과정을 개인화하여 효율성을 높입니다.\",\n    \"execution_plan\": \"1단계: 학습자 데이터 수집 및 분석 시스템 개발\\n2단계: AI 모델 훈련 및 학습 콘텐츠 생성 알고리즘 개발\\n3단계: 플랫폼 구축 및 테스트\\n4단계: 실제 사용자에게 제공 및 피드백 수집\",\n    \"expected_effects\": [\n        \"학습자별 학습 효율성 향상\",\n        \"학습 시간 단축\",\n        \"학습 성과 향상\"\n    ]\n}\n\n**주의:** 예시에서 \"core_idea\"와 \"idea_description\"는 동일한 값으로 복제되어 있습니다. 이는 오류입니다. 수정해주세요.\n**주의:** JSON Schema에서 \"core_idea\"와 \"idea_description\"는 각각 다른 속성입니다. 위 예시에서 \"core_idea\"와 \"idea_description\"가 동일한 값으로 복제되어 있는 것은 오류입니다. 수정해주세요.\n\n**정확한 예시:**\n{\n    \"project_name\": \"AI 기반의 개인화된 학습 플랫폼 구축 프로젝트\",\n    \"project_purpose\": \"개인의 학습 스타일과 속도에 맞춘 맞춤형 학습 콘텐츠 제공\",\n    \"project_period\": \"2023년 1월 ~ 2024년 12월\",\n    \"project_manager\": \"김철수\",\n    \"core_objectives\": [\n        \"학습자의 학습 스타일 분석 및 모델링\",\n        \"실시간 학습 데이터 수집 및 처리\",\n        \"개인화된 학습 콘텐츠 제작 및 제공\"\n    ],\n    \"core_idea\": \"학습자의 학습 스타일과 속도에 맞춘 맞춤형 학습 콘텐츠를 제공하는 AI 기반 플랫폼\",\n    \"idea_description\": \"이 플랫폼은 학습자의 성능 데이터와 행동 패턴을 분석하여, 그에 맞는 최적의 학습 콘텐츠를 자동으로 추천하고, 학습 과"
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bed010/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 6,
+    "total_chunks": 6,
+    "processing_date": "2025-08-10T11:47:04.896591"
+  }
+}

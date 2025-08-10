@@ -1,0 +1,14 @@
+{
+  "id": "result_Bmr001_chunk_2",
+  "source_dir": "result_Bmr001",
+  "notion_output": {
+    "raw_text": "**주의:** JSON의 각 값은 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다. \n\n**예시:**\n{\n    \"project_name\": \"프로젝트명\",\n    \"project_purpose\": \"프로젝트의 주요 목적\",\n    \"project_period\": \"예상 수행 기간\",\n    \"project_manager\": \"담당자명\",\n    \"core_objectives\": \"목표 1, 목표 2, 목표 3\",\n    \"core_idea\": \"핵심 아이디어\",\n    \"idea_description\": \"아이디어 설명\",\n    \"execution_plan\": \"실행 계획\",\n    \"expected_effects\": \"효과 1, 효율 2, 효율 3\"\n}\n\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다. \n\n**예시:**\n{\n    \"project_name\": \"프로젝트명\",\n    \"project_purpose\": \"프로젝트의 주요 목적\",\n    \"project_period\": \"예상 수행 기간\",\n    \"project_manager\": \"담당자명\",\n    \"core_objectives\": \"목표 1, 목표 2, 목표 3\",\n    \"core_idea\": \"핵심 아이디어\",\n    \"idea_description\": \"아이디어 설명\",\n    \"execution_plan\": \"실행 계획\",\n    \"expected_effects\": \"효과 1, 효율 2, 효율 3\"\n}\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다. \n\n**예시:**\n{\n    \"project_name\": \"프로젝트명\",\n    \"project_purpose\": \"프로젝트의 주요 목적\",\n    \"project_period\": \"예상 수행 기간\",\n    \"project_manager\": \"담당자명\",\n    \"core_objectives\": \"목표 1, 목표 2, 목표 3\",\n    \"core_idea\": \"핵심 아이디어\",\n    \"idea_description\": \"아이디어 설명\",\n    \"execution_plan\": \"실행 계획\",\n    \"expected_effects\": \"효과 1, 효율 2, 효율 3\"\n}\n\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다. \n\n**예시:**\n{\n    \"project_name\": \"프로젝트명\",\n    \"project_purpose\": \"프로젝트의 주요 목적\",\n    \"project_period\": \"예상 수행 기간\",\n    \"project_manager\": \"담당자명\",\n    \"core_objectives\": \"목표 1, 목표 2, 목표 3\",\n    \"core_idea\": \"핵심 아이디어\",\n    \"idea_description\": \"아이디어 설명\",\n    \"execution_plan\": \"실행 계획\",\n    \"expected_effects\": \"효과 1, 효율 2, 효율 3\"\n}\n\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다. \n\n**예시:**\n{"
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bmr001/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 2,
+    "total_chunks": 3,
+    "processing_date": "2025-08-10T11:47:04.828786"
+  }
+}

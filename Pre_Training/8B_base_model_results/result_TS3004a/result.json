@@ -1,0 +1,41 @@
+{
+  "id": "result_TS3004a",
+  "source_dir": "result_TS3004a",
+  "notion_output": {
+    "project_name": "혁신적 리모컨 디자인 및 기능 개발 프로젝트",
+    "project_purpose": "유럽 시장에서 경쟁력을 갖춘 혁신적인 리모컨을 개발하여 5천만 유로 이상의 매출을 달성함",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 터치스크린을 통한 사용자 인터페이스 개선",
+      "목표 2: 리모컨의 기능적 디자인 최적화",
+      "목표 3: 유럽 시장에서의 브랜드 인지도 증대"
+    ],
+    "core_idea": "터치스크린을 활용한 리모컨의 기능적 및 디자인적 혁신",
+    "idea_description": "터치스크린을 통해 사용자가 쉽게 조작할 수 있는 리모컨을 개발하며, 다양한 버튼과 사용자 인터페이스를 통해 사용성을 극대화한다.",
+    "execution_plan": "1단계: 기능적 디자인 검토 및 수정 (2025.01.01 ~ 2025.02.15)\n2단계: 개념 설계 및 구성 요소 사양 결정 (2025.02.16 ~ 2025.03.31)\n3단계: 세부 설계 및 프로토타입 제작 (2025.04.01 ~ 2025.05.15)\n4단계: 테스트 및 피드백 수집 (2025.05.16 ~ 2025.06.15)\n5단계: 최종 제품 출시 및 마케팅 활동 (2025.06.16 ~ 2025.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 경험 개선으로 인한 고객 만족도 상승",
+      "기대효과 2: 혁신적인 디자인으로 인한 시장 점유율 확대",
+      "기대효과 3: 브랜드 가치 증가 및 매출 성장"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_TS3004a/05_final_result.json",
+    "utterance_count": 143,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "original_length": 4498,
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1
+    },
+    "is_chunk": false,
+    "chunk_index": null,
+    "processing_date": "2025-08-10T09:22:08.370672"
+  }
+}

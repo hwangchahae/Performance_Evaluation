@@ -1,0 +1,60 @@
+{
+  "id": "result_Bro028_chunk_5",
+  "source_dir": "result_Bro028",
+  "notion_output": {
+    "type": "object",
+    "properties": {
+      "project_name": {
+        "type": "string"
+      },
+      "project_purpose": {
+        "type": "string"
+      },
+      "project_period": {
+        "type": "string"
+      },
+      "project_manager": {
+        "type": "string"
+      },
+      "core_objectives": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "core_idea": {
+        "type": "string"
+      },
+      "idea_description": {
+        "type": "string"
+      },
+      "execution_plan": {
+        "type": "string"
+      },
+      "expected_effects": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "project_name",
+      "project_purpose",
+      "project_period",
+      "project_manager",
+      "core_objectives",
+      "core_idea",
+      "idea_description",
+      "execution_plan",
+      "expected_effects"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bro028/05_final_result.json",
+    "is_chunk": true,
+    "chunk_index": 5,
+    "total_chunks": 5,
+    "processing_date": "2025-08-10T11:47:04.657033"
+  }
+}

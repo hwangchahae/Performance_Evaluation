@@ -119,30 +119,31 @@ class FileMatcher:
         
         logger.info("파일 매칭 시작...")
         
-        # Result JSON 파일들 로드 (pre_result_*.json 패턴)
-        result_files = [f for f in result_path.glob("pre_result_*.json") if f.is_file()]
-        if not result_files:
-            # pre_ 접두사가 없는 파일도 확인 (호환성)
-            result_files = [f for f in result_path.glob("result_*.json") if f.is_file()]
-        logger.info(f"Result JSON 파일 {len(result_files)}개 발견")
+        # Result 폴더들에서 result.json 파일 찾기
+        result_folders = [f for f in result_path.iterdir() if f.is_dir() and f.name.startswith("result_")]
+        logger.info(f"Result 폴더 {len(result_folders)}개 발견")
         
-        # 각 result JSON 파일에 대해 매칭되는 gold 폴더 찾기
-        for result_file in result_files:
-            # 파일명에서 매칭 정보 추출
-            # 예: pre_result_Bed002_chunk1.json 또는 result_Bed002_chunk1.json
-            file_name = result_file.stem  # .json 제거
-            # pre_ 접두사 제거 (있는 경우)
-            if file_name.startswith("pre_"):
-                file_name = file_name[4:]  # "pre_" 제거
-            match = re.search(r'result_([A-Za-z0-9]+)_chunk(\d+)', file_name)
+        # 각 result 폴더에 대해 매칭되는 gold 폴더 찾기
+        for result_folder in result_folders:
+            # result.json 파일 확인
+            result_json_file = result_folder / "result.json"
+            if not result_json_file.exists():
+                logger.warning(f"result.json 파일 없음: {result_folder}")
+                continue
+                
+            # 폴더명에서 매칭 정보 추출
+            folder_name = result_folder.name
+            match = re.search(r'result_([A-Za-z0-9]+)_chunk_(\d+)', folder_name)
             if not match:
-                # chunk가 없는 경우 (예: result_Bro015.json)
-                match = re.search(r'result_([A-Za-z0-9]+)$', file_name)
+                # chunk가 없는 경우 (예: result_Bro015)
+                match = re.search(r'result_([A-Za-z0-9]+)$', folder_name)
                 if match:
                     base_name = match.group(1)
                     chunk_num = ""
                 else:
-                    continue
+                    # 한글 폴더명 처리
+                    base_name = folder_name.replace("result_", "")
+                    chunk_num = ""
             else:
                 base_name = match.group(1)
                 chunk_num = match.group(2)
@@ -159,8 +160,8 @@ class FileMatcher:
                     if matching_folders:
                         gold_folder = matching_folders[0]
                         identifier = f"{base_name}_chunk{chunk_num}"
-                        matches.append(FileMatch(gold_folder, result_file, identifier))
-                        logger.debug(f"매칭 성공: {gold_folder.name} <-> {result_file.name}")
+                        matches.append(FileMatch(gold_folder, result_json_file, identifier))
+                        logger.debug(f"매칭 성공: {gold_folder.name} <-> {result_folder.name}")
                         break
             else:
                 # chunk가 없는 경우
@@ -168,8 +169,14 @@ class FileMatcher:
                 matching_folders = list(gold_path.glob(gold_folder_pattern))
                 if matching_folders:
                     gold_folder = matching_folders[0]
-                    matches.append(FileMatch(gold_folder, result_file, base_name))
-                    logger.debug(f"매칭 성공: {gold_folder.name} <-> {result_file.name}")
+                    matches.append(FileMatch(gold_folder, result_json_file, base_name))
+                    logger.debug(f"매칭 성공: {gold_folder.name} <-> {result_folder.name}")
+                else:
+                    # 정확한 폴더명 매칭 시도 (한글 이름 등)
+                    gold_folder = gold_path / folder_name
+                    if gold_folder.exists():
+                        matches.append(FileMatch(gold_folder, result_json_file, base_name))
+                        logger.debug(f"매칭 성공: {gold_folder.name} <-> {result_folder.name}")
         
         logger.info(f"총 {len(matches)}개 파일 쌍 매칭 완료")
         return matches
