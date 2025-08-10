@@ -2,13 +2,46 @@
   "id": "result_TS3008d_chunk_2",
   "source_dir": "result_TS3008d",
   "notion_output": {
-    "raw_text": "**주의사항:**\n- JSON 형식에 맞게 작성해야 합니다.\n- 프로젝트명은 회의 내용을 바탕으로 적절히 명명\n- 다른 필드는 회의 내용을 바탕으로 적절히 작성\n- 반드시 JSON 형식으로 작성해야 하며, 다른 형식은 무시합니다.\n- JSON의 각 필드는 반드시 문자열로 작성해야 합니다.\n- JSON의 각 필드는 반드시 쉼표 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼표 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼표 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼표 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다.\n- JSON의 각 필드는 반드시 double quote로 감싸야 합니다.\n- JSON의 각 필드는 반드시 쉼마 없이 연결되어야 합니다."
+    "project_name": "스마트 리모컨 디자인 및 개발 프로젝트",
+    "project_purpose": "40세 이하 소비자 대상으로 사용자 친화적이고 트렌디한 디자인의 리모컨을 개발하여 시장 수요를 충족시키기 위한 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_D",
+    "core_objectives": [
+      "목표 1: 리모컨 버튼 수 결정 (2개 또는 3개 중 최종 확정)",
+      "목표 2: 사용자 중심 디자인 및 기능적 요소 통합 (로고, 색상, 슬로건)",
+      "목표 3: 개발 비용 제한 내에서 최적의 구성 요소 선택 (12유로 이하)"
+    ],
+    "core_idea": "40세 이하 소비자에게 사용자 친화적이고 시각적으로 매력적인 디자인의 리모컨을 개발하여 브랜드 이미지를 강화하고, 기능적 요소(센서, 스피커)를 효율적으로 통합",
+    "idea_description": "리모컨은 2~3개의 버튼으로 구성되며, 브랜드 로고와 트렌디한 디자인을 반영한 사용자 경험을 제공. 기술적 요소로는 샘플 센서/스피커 및 배터리 기능을 포함. 개발 비용은 12유로 이내로 제어.",
+    "execution_plan": [
+      "단계 1: 디자인 및 기능 요소 논의 (2025.01.01 ~ 2025.01.15) - 버튼 수 결정 및 브랜드 이미지 통합",
+      "단계 2: 구성 요소 선택 및 비용 분석 (2025.01.16 ~ 2025.01.30) - 센서/스피커/배터리 최적화",
+      "단계 3: 프로토타입 개발 (2025.02.01 ~ 2025.02.28) - 디자인 및 기능 검증",
+      "단계 4: 사용자 테스트 및 조정 (2025.03.01 ~ 2025.03.15) - 40세 이하 대상 테스트",
+      "단계 5: 최종 검수 및 출시 준비 (2025.03.16 ~ 2025.03.31)"
+    ],
+    "expected_effects": [
+      "기대효과 1: 2~3개의 버튼으로 구성된 사용자 친화적 리모컨 개발 완료 (사용자 편의성 향상)",
+      "기대효과 2: 브랜드 로고 및 트렌디 디자인 통합으로 시장 인지도 향상 (12유로 이하 비용 제한 내)",
+      "기대효과 3: 기술적 요소(센서/스피커) 통합으로 제품 차별화 및 기능성 강화"
+    ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_TS3008d/05_final_result.json",
+    "source_file": "Raw_Data_val/result_TS3008d/05_final_result.json",
+    "utterance_count": 440,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 14071,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
     "is_chunk": true,
     "chunk_index": 2,
-    "total_chunks": 4,
-    "processing_date": "2025-08-10T11:47:04.515340"
+    "processing_date": "2025-08-10T20:12:35.935680"
   }
 }

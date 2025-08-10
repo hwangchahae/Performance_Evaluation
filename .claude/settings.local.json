@@ -8,7 +8,9 @@
       "Bash(ren:*)",
       "Bash(mv:*)",
       "Bash(dir:*)",
-      "Bash(claude config set:*)"
+      "Bash(claude config set:*)",
+      "Bash(git checkout:*)",
+      "Bash(mkdir:*)"
     ],
     "deny": []
   }

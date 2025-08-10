@@ -2,13 +2,65 @@
   "id": "result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)_chunk_6",
   "source_dir": "result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)",
   "notion_output": {
-    "raw_text": "**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼표로 구분된 문자열로 입력해야 합니다.\n**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼표로 구분된 문자열로 입력해야 합니다.\n**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼표로 구분된 문자열로 입력해야 합니다.\n\n**예시:**\n{\n    \"project_name\": \"프로젝트명\",\n    \"project_purpose\": \"프로젝트의 주요 목적\",\n    \"project_period\": \"예상 수행 기간\",\n    \"project_manager\": \"담당자명\",\n    \"core_objectives\": \"목표 1, 목표 2, 목표 3\",\n    \"core_idea\": \"핵심 아이디어\",\n    \"idea_description\": \"아이디어 설명\",\n    \"execution_plan\": \"실행 계획\",\n    \"expected_effects\": \"효과 1, 효과 2, 효과 3\"\n}\n\n**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼표로 구분된 문자열로 입력해야 합니다.\n**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼표로 구분된 문자열로 입력해야 합니다.\n**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼표로 구분된 문자열로 입력해야 합니다.\n\n**예시:**\n{\n    \"project_name\": \"프로젝트명\",\n    \"project_purpose\": \"프로젝트의 주요 목적\",\n    \"project_period\": \"예상 수행 기간\",\n    \"project_manager\": \"담당자명\",\n    \"core_objectives\": \"목표 1, 목표 2, 목표 3\",\n    \"core_idea\": \"핵심 아이디어\",\n    \"idea_description\": \"아이디어 설명\",\n    \"execution_plan\": \"실행 계획\",\n    \"expected_effects\": \"효과 1, 효과 2, 효과 3\"\n}\nOkay, let's tackle this. The user wants a project plan based on the meeting transcript provided. First, I need to understand the main points discussed in the meeting. \n\nThe meeting seems to focus on the concerns about the integrity and neutrality of the National Tax Service (NTS), especially after the tax investigation issues. There's mention of low public trust scores, the need for stricter enforcement, and specific cases like the I-S-T-A airline case where there were allegations of tax evasion. Also, there's a discussion about the candidate's background, potential conflicts of interest, and the handling of tax reports.\n\nSo, the project needs to address these issues. The main purpose would be to enhance the transparency and neutrality of the NTS. The core objectives should include improving public trust, ensuring strict enforcement of tax laws, and addressing past controversies. The execution plan would involve audits, public reporting, and conflict-of-interest policies. The expected effects would be increased public confidence, reduced tax evasion, and improved governance.\n\nI need to make sure the project name reflects the focus on integrity and transparency. The period should be a few months, maybe 3-6 months. The manager could be the head of the NTS or a dedicated task force. The core idea is to strengthen the NTS's independence and accountability. The idea description would explain how the project will achieve this through audits, public reporting, and policy changes. The execution plan would break down the steps into phases: audit, reporting, policy implementation. The expected effects would include both quantitative (like reduced tax evasion) and qualitative (increased trust) outcomes.\n\nWait, the user mentioned that the NTS chief candidate has a political background, so the project should also address potential conflicts of interest. That's part of the core objectives. Also, the example given in the instructions shows that the core objectives are listed as an array, so I need to format them correctly as comma-separated strings. Let me check the example again to ensure I'm following the structure properly.\n```\n\n{\n    \"project_name\": \"국세청의 정치적 중립성 강화 및 신뢰도 개선 프로젝트\",\n    \"project_purpose\": \"국세청의 정치적 중립성과 신뢰도를 강화하여 국민의 신뢰를 회복하고 세무 조사의 공정성을 확보하기 위해 실시하는 프로젝트\",\n    \"project_period\": \"2024년 4월 ~ 2025년 1월 (약 9개월)\",\n    \"project_manager\": \"국세청장 후보자 임광현\",\n    \"core_objectives\": \"국"
+    "project_name": "국세청 정치적 중립성 강화 및 세수 증대 프로젝트",
+    "project_purpose": "국세청의 정치적 중립성 강화와 세수 확보를 위한 체계적 프로젝트로, 국민 신뢰도 회복과 재정 안정화를 목표로 합니다.",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "임광현 국세청장후보자",
+    "core_objectives": [
+      "국세청의 정치적 중립성 강화를 위한 내부 감시 체계 구축",
+      "국세수입의 94%를 차지하는 체납세 확보를 위한 강화된 조사 기준 마련",
+      "이스타항공 탈세 사건 대응을 위한 책임 소재성 있는 처리 절차 개선"
+    ],
+    "core_idea": "국세청의 정치적 중립성과 신뢰도를 확보하기 위해 내부 감시 체계를 강화하고, 세수 확보를 위한 체계적인 조사 기준을 도입함으로써 국민의 주권 존중과 재정 안정성을 동시에 달성하는 전략",
+    "idea_description": "국세청의 정치적 중립성은 국민 신뢰의 핵심 요소로, 이에 대한 체계적 감시 체계를 구축함으로써 신뢰도를 회복하고, 세수 확보를 위한 체납세 조사 기준을 강화함으로써 재정 안정성을 확보하는 이중 목표를 달성하는 프로젝트입니다.",
+    "execution_plan": [
+      "2025.01.01-01.15: 정치적 중립성 강화를 위한 내부 감시 체계 설계 (국세청 내부 감시 부서 구성)",
+      "2025.01.16-02.28: 세수 확보를 위한 체납세 조사 기준 개선 (국세청 세무조사 부서 재조직)",
+      "2025.02.29-03.31: 이스타항공 탈세 사건 대응을 위한 책임 소재성 있는 처리 절차 개선 (국세청 내부 감시 체계 활성화)",
+      "2025.03.31-04.30: 프로젝트 성과 검증 및 정책 개선안 제시"
+    ],
+    "expected_effects": [
+      "국세청의 정치적 중립성 신뢰도 3점에서 4점으로 개선 (국세청장 후보자 신뢰도 조사 결과)",
+      "체납세 수입 증가로 국세수입의 94%를 차지하는 체납세 조사 효율성 20% 향상",
+      "이스타항공 탈세 사건 대응을 위한 책임 소재성 있는 처리 절차로 국민의 신뢰도 회복"
+    ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)/05_final_result.json",
+    "source_file": "Raw_Data_val/result_제22대국회 제427회(임시회) 제2차 기획재정위원회(전체회의) (2025.07.15.)/05_final_result.json",
+    "utterance_count": 1686,
+    "speakers": [
+      "윤영석 위원",
+      "박대출 위원",
+      "천하람 위원",
+      "박성훈 위원",
+      "김영환 위원",
+      "국세청장후보자 임광현",
+      "김태년 위원",
+      "위원장대리 박수영",
+      "차규근 위원",
+      "최기상 위원",
+      "안도걸 위원",
+      "이인선 위원",
+      "위원장 임이자",
+      "유상범 위원",
+      "박홍근 위원",
+      "정태호 위원",
+      "김영진 위원",
+      "정일영 위원",
+      "박수영 위원",
+      "권영세 위원",
+      "조승래 위원",
+      "진성준 위원",
+      "오기형 위원",
+      "최은석 위원"
+    ],
+    "original_length": 99066,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 22
+    },
     "is_chunk": true,
     "chunk_index": 6,
-    "total_chunks": 22,
-    "processing_date": "2025-08-10T11:47:03.944008"
+    "processing_date": "2025-08-10T20:07:33.269416"
   }
 }

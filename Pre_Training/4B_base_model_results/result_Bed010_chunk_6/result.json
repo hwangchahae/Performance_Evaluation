@@ -2,13 +2,48 @@
   "id": "result_Bed010_chunk_6",
   "source_dir": "result_Bed010",
   "notion_output": {
-    "raw_text": "**JSON Schema:**\n{\n    \"type\": \"object\",\n    \"properties\": {\n        \"project_name\": {\"type\": \"string\"},\n        \"project_purpose\": {\"type\": \"string\"},\n        \"project_period\": {\"type\": \"string\"},\n        \"project_manager\": {\"type\": \"string\"},\n        \"core_objectives\": {\n            \"type\": \"array\",\n            \"items\": {\"type\": \"string\"}\n        },\n        \"core_idea\": {\"type\": \"string\"},\n        \"idea_description\": {\"type\": \"string\"},\n        \"execution_plan\": {\"type\": \"string\"},\n        \"expected_effects\": {\n            \"type\": \"array\",\n            \"items\": {\"type\": \"string\"}\n        }\n    },\n    \"required\": [\"project_name\", \"project_purpose\", \"project_period\", \"project_manager\", \"core_objectives\", \"core_idea\", \"idea_description\", \"execution_plan\", \"expected_effects\"]\n}\n\n**예시:**\n{\n    \"project_name\": \"AI 기반의 개인화된 학습 플랫폼 구축 프로젝트\",\n    \"project_purpose\": \"개인의 학습 스타일과 속도에 맞춘 맞춤형 학습 콘텐츠 제공\",\n    \"project_period\": \"2023년 1월 ~ 2024년 12월\",\n    \"project_manager\": \"김철수\",\n    \"core_objectives\": [\n        \"학습자의 학습 스타일 분석 및 모델링\",\n        \"실시간 학습 데이터 수집 및 처리\",\n        \"개인화된 학습 콘텐츠 제작 및 제공\"\n    ],\n    \"core_idea\": \"학습자의 학습 스타일과 속도에 맞춘 맞춤형 학습 콘텐츠를 제공하는 AI 기반 플랫폼\",\n    \"core_idea\": \"학습자의 학습 스타일과 속도에 맞춘 맞춤형 학습 콘텐츠를 제공하는 AI 기반 플랫폼\",\n    \"idea_description\": \"이 플랫폼은 학습자의 성능 데이터와 행동 패턴을 분석하여, 그에 맞는 최적의 학습 콘텐츠를 자동으로 추천하고, 학습 과정을 개인화하여 효율성을 높입니다.\",\n    \"execution_plan\": \"1단계: 학습자 데이터 수집 및 분석 시스템 개발\\n2단계: AI 모델 훈련 및 학습 콘텐츠 생성 알고리즘 개발\\n3단계: 플랫폼 구축 및 테스트\\n4단계: 실제 사용자에게 제공 및 피드백 수집\",\n    \"expected_effects\": [\n        \"학습자별 학습 효율성 향상\",\n        \"학습 시간 단축\",\n        \"학습 성과 향상\"\n    ]\n}\n\n**주의:** 예시에서 \"core_idea\"와 \"idea_description\"는 동일한 값으로 복제되어 있습니다. 이는 오류입니다. 수정해주세요.\n**주의:** JSON Schema에서 \"core_idea\"와 \"idea_description\"는 각각 다른 속성입니다. 위 예시에서 \"core_idea\"와 \"idea_description\"가 동일한 값으로 복제되어 있는 것은 오류입니다. 수정해주세요.\n\n**정확한 예시:**\n{\n    \"project_name\": \"AI 기반의 개인화된 학습 플랫폼 구축 프로젝트\",\n    \"project_purpose\": \"개인의 학습 스타일과 속도에 맞춘 맞춤형 학습 콘텐츠 제공\",\n    \"project_period\": \"2023년 1월 ~ 2024년 12월\",\n    \"project_manager\": \"김철수\",\n    \"core_objectives\": [\n        \"학습자의 학습 스타일 분석 및 모델링\",\n        \"실시간 학습 데이터 수집 및 처리\",\n        \"개인화된 학습 콘텐츠 제작 및 제공\"\n    ],\n    \"core_idea\": \"학습자의 학습 스타일과 속도에 맞춘 맞춤형 학습 콘텐츠를 제공하는 AI 기반 플랫폼\",\n    \"idea_description\": \"이 플랫폼은 학습자의 성능 데이터와 행동 패턴을 분석하여, 그에 맞는 최적의 학습 콘텐츠를 자동으로 추천하고, 학습 과"
+    "project_name": "다국어 공간 묘사 시스템 구축 프로젝트",
+    "project_purpose": "다국어 환경에서 공간 정보를 구조화하고 시각화할 수 있는 시스템을 개발하여, 인지 지도 기반의 공간 묘사를 기술적으로 구현",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_F (Deep Map 프로젝트 책임자)",
+    "core_objectives": [
+      "목표 1: 독일어, 영어, 일본어 3개 언어로 확장된 공간 묘사 시스템 구축",
+      "목표 2: 인지 지도 기반의 공간 정보 구조화 및 시각화 기능 개발",
+      "목표 3: 신경 차이에 따른 공간 묘사의 깊이 구현"
+    ],
+    "core_idea": "다국어 환경에서 인지 지도 기술을 기반으로 공간 정보를 구조화하여, 사용자가 다양한 언어로 접근할 수 있는 시스템을 구현",
+    "idea_description": "Deep Map 프로젝트를 기반으로 한 다국어 지원 시스템으로, 공간 묘사의 차이를 기반으로 인지 지도를 생성하고, 신경 차이에 따른 깊이 구현을 통해 사용자 경험을 향상시킴",
+    "execution_plan": [
+      "단계 1: 기존 Deep Map 프로젝트 분석 (2025.01.01 ~ 2025.01.15) - 언어 처리 기능 검토",
+      "단계 2: 3개 언어 지원 기능 개발 (2025.01.16 ~ 2025.02.28) - 일본어 처리 기능 추가",
+      "단계 3: 공간 묘사 시스템 구현 (2025.02.29 ~ 2025.03.15) - 인지 지도 기반 구조화",
+      "단계 4: 시스템 테스트 및 최적화 (2025.03.16 ~ 2025.03.31) - 다국어 환경 테스트"
+    ],
+    "expected_effects": [
+      "효과 1: 3개 언어 지원을 통한 글로벌 사용자 접근성 향상 (사용자 수 30% 증가)",
+      "효과 2: 인지 지도 기반의 공간 묘사 정확도 20% 향상",
+      "효과 3: 신경 차이에 따른 공간 정보 처리 속도 15% 개선"
+    ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_Bed010/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bed010/05_final_result.json",
+    "utterance_count": 677,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 23517,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
     "is_chunk": true,
     "chunk_index": 6,
-    "total_chunks": 6,
-    "processing_date": "2025-08-10T11:47:04.896591"
+    "processing_date": "2025-08-10T20:18:25.808229"
   }
 }

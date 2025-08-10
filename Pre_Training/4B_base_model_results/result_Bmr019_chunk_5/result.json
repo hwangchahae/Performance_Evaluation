@@ -2,13 +2,51 @@
   "id": "result_Bmr019_chunk_5",
   "source_dir": "result_Bmr019",
   "notion_output": {
-    "raw_text": "**주의사항:**\n- JSON 형식에 맞게 작성해야 합니다.\n- 프로젝트명은 회의 내용을 바탕으로 적절히 명명\n- 다른 요소는 회의 내용을 바탕으로 작성\n- 반드시 JSON 형식으로만 응답해야 합니다.\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리\n- JSON 형식이 잘못되면 0점 처리"
+    "project_name": "데이터 동기화 및 처리 프로젝트",
+    "project_purpose": "다중 채널 데이터를 실시간으로 동기화하고 정렬하여 SRI 시스템의 인식 정확도를 향상시키는 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_B",
+    "core_objectives": [
+      "목표 1: 채널별 데이터를 실시간으로 동기화하여 중복 처리를 최소화",
+      "목표 2: SRI 시스템과의 연동을 통한 프런트엔드 인식 정확도 향상",
+      "목표 3: 배경 처리 작업을 통해 데이터 정렬 및 병합 효율성 개선"
+    ],
+    "core_idea": "다중 채널 데이터를 실시간으로 수집, 정렬, 병합하여 SRI 시스템과의 연동을 강화하는 시스템 통합 프로젝트",
+    "idea_description": "데이터 동기화 기술을 기반으로 채널별 데이터를 실시간으로 통합하고, SRI 시스템의 인식 정확도를 향상시키며, 배경 처리 작업을 통해 데이터 정렬 및 병합 효율성을 개선하는 기술적/비즈니스적 접근",
+    "execution_plan": [
+      "단계 1: 채널별 데이터 수집 및 동기화 (2025.01.01 ~ 2025.01.15)",
+      "단계 2: 데이터 정렬 및 병합 작업 개발 (2025.01.16 ~ 2025.02.01)",
+      "단계 3: SRI 시스템 연동 및 테스트 (2025.02.02 ~ 2025.02.28)",
+      "단계 4: 배경 처리 작업 최적화 (2025.02.29 ~ 2025.03.15)",
+      "단계 5: 시스템 테스트 및 배포 (2025.03.16 ~ 2025.03.31)"
+    ],
+    "expected_effects": [
+      "효과 1: 데이터 중복률 30% 감소 및 처리 속도 20% 향상",
+      "효과 2: SRI 시스템 인식 정확도 15% 향상",
+      "효과 3: 배경 처리 작업 실행 시간 40% 단축"
+    ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_Bmr019/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bmr019/05_final_result.json",
+    "utterance_count": 630,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_G",
+      "Speaker_I",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_E",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_F"
+    ],
+    "original_length": 21243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
     "is_chunk": true,
     "chunk_index": 5,
-    "total_chunks": 5,
-    "processing_date": "2025-08-10T11:47:04.741804"
+    "processing_date": "2025-08-10T20:16:47.020871"
   }
 }

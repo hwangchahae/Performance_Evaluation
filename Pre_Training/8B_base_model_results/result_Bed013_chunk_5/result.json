@@ -2,47 +2,21 @@
   "id": "result_Bed013_chunk_5",
   "source_dir": "result_Bed013",
   "notion_output": {
-    "project_name": "Ontology-Driven Context-Aware Navigation System Enhancement",
-    "project_purpose": "온톨로지와 베이즈 네트워크를 통합하여 사용자의 위치 및 경로에 대한 이해력을 강화하고, 자연스러운 담론 처리 능력을 개선",
-    "project_period": "2024.01.01 ~ 2024.06.30",
-    "project_manager": "Speaker_A",
-    "core_objectives": [
-      "목표 1: Ontology을 활용한 사용자 의도 및 목표 추론 시스템 개발",
-      "목표 2: 베이즈 네트워크를 통한 위치 및 경로의 확률적 분석 기능 구현",
-      "목표 3: 실제 사용 사례(예: 채소 이름 인식)를 통한 시스템 검증 및 최적화"
-    ],
-    "core_idea": "온톨로지와 베이즈 네트워크를 결합하여 사용자의 위치 및 경로에 대한 이해력을 증진시키고, 자연스러운 담론 처리를 지원하는 시스템 개발",
-    "idea_description": "온톨로지를 통해 사용자의 의도와 목표를 추론하고, 베이즈 네트워크를 활용하여 위치 및 경로의 확률적 분석을 수행함으로써 사용자에게 보다 정확하고 자연스러운 응답을 제공한다. 특히, 사용자가 언급한 채소 이름이나 기타 물체에 대한 인식을 통해 시스템의 성능을 검증하고 개선한다.",
-    "execution_plan": [
-      "1단계: 온톨로지 구축 및 초기 테스트 (2024.01.01 ~ 2024.02.15)",
-      "2단계: 베이즈 네트워크 설계 및 위치/경로 분석 기능 개발 (2024.02.16 ~ 2024.04.15)",
-      "3단계: 사용자 의도 추론 모듈 개발 및 통합 (2024.04.16 ~ 2024.05.15)",
-      "4단계: 실제 사용 사례를 통한 시스템 검증 및 최적화 (2024.05.16 ~ 2024.06.15)",
-      "5단계: 최종 시스템 배포 및 유지 관리 계획 수립 (2024.06.16 ~ 2024.06.30)"
-    ],
-    "expected_effects": [
-      "기대효과 1: 사용자의 위치 및 경로에 대한 정확한 이해로 인한 응답 시간 단축",
-      "기대효과 2: 자연스러운 담론 처리로 인한 사용자 경험 향상",
-      "기대효과 3: 온톨로지와 베이즈 네트워크의 융합을 통한 시스템의 적응력 및 학습 능력 강화"
-    ]
+    "raw_text": "**참고:**\n- 프로젝트명은 회의 내용을 반영하여 명명\n- 목적과 목표는 회의에서 언급된 주제와 관련\n- 실행 계획은 회의에서 논의된 아이디어와 실행 가능한 단계로 구성\n- 기대 효과는 회의에서 언급된 결과와 관련\n- 모든 내용은 한국어로 작성\n- JSON 형식을 엄격히 준수\n- JSON에 특수문자는 사용하지 않음\n- JSON에 중간에 줄바꿈은 없음\n- JSON에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에 공백은 없음\n- JSON에 중간에"
   },
   "metadata": {
     "source_file": "../Raw_Data_val/result_Bed013/05_final_result.json",
     "utterance_count": 744,
     "speakers": [
-      "Speaker_C",
       "Speaker_D",
+      "Speaker_C",
       "Speaker_B",
       "Speaker_A",
       "Speaker_E"
     ],
     "original_length": 24608,
-    "chunking_info": {
-      "is_chunked": true,
-      "total_chunks": 6
-    },
     "is_chunk": true,
     "chunk_index": 5,
-    "processing_date": "2025-08-10T09:32:26.754699"
+    "processing_date": "2025-08-10T16:22:38.117678"
   }
 }

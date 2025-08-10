@@ -2,59 +2,45 @@
   "id": "result_TS3010a",
   "source_dir": "result_TS3010a",
   "notion_output": {
-    "type": "object",
-    "properties": {
-      "project_name": {
-        "type": "string"
-      },
-      "project_purpose": {
-        "type": "string"
-      },
-      "project_period": {
-        "type": "string"
-      },
-      "project_manager": {
-        "type": "string"
-      },
-      "core_objectives": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "core_idea": {
-        "type": "string"
-      },
-      "idea_description": {
-        "type": "string"
-      },
-      "execution_plan": {
-        "type": "string"
-      },
-      "expected_effects": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      }
-    },
-    "required": [
-      "project_name",
-      "project_purpose",
-      "project_period",
-      "project_manager",
-      "core_objectives",
-      "core_idea",
-      "idea_description",
-      "execution_plan",
-      "expected_effects"
+    "project_name": "혁신적인 리모컨 디자인 프로젝트",
+    "project_purpose": "사용자 중심의 창의적이고 실용적인 리모컨 설계를 통해 시장에서 차별화된 제품을 개발하는 일",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "사용자 친화적인 인터페이스 설계를 통한 직관적인 조작성 확보",
+      "다양한 기기와의 호환성 향상으로 시장 수요에 부합하는 기능 개발",
+      "배터리 사용하지 않는 지속 가능한 에너지 솔루션 구현"
+    ],
+    "core_idea": "사용자 경험을 중심으로 편리한 조작, 시각적 인터페이스, 다기종 호환성을 갖춘 리모컨 제품 개발",
+    "idea_description": "리모컨의 버튼 배열과 색상 조화를 통해 직관적인 조작성을 확보하고, TV, 채널, 볼륨 조절 기능을 기반으로 다양한 기기와의 호환성을 확보하며, 배터리 없이 작동하는 에너지 효율적인 설계를 실현하는 제품",
+    "execution_plan": [
+      "1. 2025.01.01-01.15: 사용자 중심 디자인 프로토타입 개발 (버튼 배열, 색상, 저장 기능)",
+      "2. 2025.01.16-02.01: 기능 테스트 및 사용자 피드백 반영 (리모컨 위치, 소리 효과, 호환성 검증)",
+      "3. 2025.02.02-03.01: 최종 제품 개발 및 배터리-less 기능 구현",
+      "4. 2025.03.02-03.31: 시장 테스트 및 제품 출시 준비"
+    ],
+    "expected_effects": [
+      "사용자 조작 편의성 30% 향상 및 90% 이상의 만족도 도출",
+      "다양한 기기 호환성 80% 이상 확보로 시장 확장 기회 창출",
+      "배터리-less 기능으로 5년 이상의 제품 수명 연장 및 환경 부담 감소"
     ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_TS3010a/05_final_result.json",
+    "source_file": "Raw_Data_val/result_TS3010a/05_final_result.json",
+    "utterance_count": 79,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 2352,
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1
+    },
     "is_chunk": false,
     "chunk_index": null,
-    "total_chunks": 1,
-    "processing_date": "2025-08-10T11:47:04.480473"
+    "processing_date": "2025-08-10T20:12:07.654427"
   }
 }

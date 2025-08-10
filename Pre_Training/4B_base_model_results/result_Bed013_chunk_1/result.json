@@ -2,29 +2,45 @@
   "id": "result_Bed013_chunk_1",
   "source_dir": "result_Bed013",
   "notion_output": {
-    "project_name": "AI 기반 고객 지원 시스템 개발",
-    "project_purpose": "고객의 문의에 대한 신속하고 정확한 대응을 제공하기 위해 AI 기반의 자동화된 고객 지원 시스템을 개발하고 운영합니다.",
-    "project_period": "2023년 10월 ~ 2024년 1월",
-    "project_manager": "김철수",
+    "project_name": "SmartKom 의도 기반 대화 시스템 개발 프로젝트",
+    "project_purpose": "의도를 기반으로 자동 대화 생성 및 결정 노드 처리를 통합한 AI 시스템 개발",
+    "project_period": "2025.07.03 ~ 2025.08.03",
+    "project_manager": "Speaker_E",
     "core_objectives": [
-      "고객 문의의 80%를 자동화된 시스템으로 처리",
-      "고객 만족도를 90% 이상으로 향상",
-      "시스템의 응답 시간을 2초 이내로 개선"
+      "의도를 기반으로 대화를 자동 생성하는 시스템 구축",
+      "결정 노드의 사후 확률 기반 처리 알고리즘 개발",
+      "모듈 간 의도 전달 및 일관성 확보"
     ],
-    "core_idea": "AI 기반의 자연어 처리 기술을 활용하여 고객의 문의를 분류하고 대답을 자동화하는 시스템을 구축",
-    "idea_description": "고객의 문의를 분류하고 대답을 자동화하는 AI 기반의 고객 지원 시스템을 개발하여 고객의 문의에 신속하고 정확하게 대응함으로써 고객 만족도를 높이고, 고객 지원 비용을 절감합니다.",
-    "execution_plan": "1. AI 모델을 학습시키기 위한 데이터 수집 및 전처리\n2. 자연어 처리 기술을 적용하여 문의 분류 및 대답 생성\n3. 시스템 테스트 및 최적화\n4. 실제 환경에서 시스템 운영 및 모니터링",
+    "core_idea": "의도를 기반으로 시스템이 스스로 대화를 생성하고 결정을 내리는 구조를 설계",
+    "idea_description": "의도를 부여해 시스템이 무에서 유를 창조하는 방식으로 작동하도록 설계. 결정 노드에서의 확률 기반 처리와 모듈 간 의도 전달을 통합하여 자동 대화 생성 시스템 구현",
+    "execution_plan": [
+      "2025.07.03-07.10: 시스템 구조 설계 및 의도 처리 알고리즘 개발",
+      "2025.07.11-07.25: 결정 노드 확률 처리 모듈 개발 및 테스트",
+      "2025.07.26-08.03: 모듈 통합 테스트 및 의도 전달 메커니즘 최적화"
+    ],
     "expected_effects": [
-      "고객 지원 시간의 감소로 인한 비용 절감",
-      "고객의 문의에 대한 신속하고 정확한 대응",
-      "고객 만족도의 향상"
+      "의도 기반 대화 생성 시스템의 반응 속도 30% 향상",
+      "결정 노드의 정확도 95% 이상 달성",
+      "모듈 간 일관성 확보로 시스템 통합 시간 40% 절감"
     ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_Bed013/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bed013/05_final_result.json",
+    "utterance_count": 744,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_E",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 24608,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
     "is_chunk": true,
     "chunk_index": 1,
-    "total_chunks": 6,
-    "processing_date": "2025-08-10T11:47:04.845247"
+    "processing_date": "2025-08-10T20:18:02.384857"
   }
 }

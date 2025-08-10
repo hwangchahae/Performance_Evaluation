@@ -2,13 +2,45 @@
   "id": "result_ES2007b_chunk_2",
   "source_dir": "result_ES2007b",
   "notion_output": {
-    "raw_text": "**JSON Schema:**\n{\n    \"type\": \"object\",\n    \"properties\": {\n        \"project_name\": {\"type\": \"string\"},\n        \"project_purpose\": {\"type\": \"string\"},\n        \"project_period\": {\"type\": \"string\"},\n        \"project_manager\": {\"type\": \"string\"},\n        \"core_objectives\": {\n            \"type\": \"array\",\n            \"items\": {\"type\": \"string\"}\n        },\n        \"core_idea\": {\"type\": \"string\"},\n        \"idea_description\": {\"type\": \"string\"},\n        \"execution_plan\": {\"type\": \"string\"},\n        \"expected_effects\": {\n            \"type\": \"array\",\n            \"items\": {\"type\": \"string\"}\n        }\n    },\n    \"required\": [\"project_name\", \"project_purpose\", \"project_period\", \"project_manager\", \"core_objectives\", \"core_idea\", \"idea_description\", \"execution_plan\", \"expected_effects\"]\n}\n\n**예시:**\n{\n    \"project_name\": \"AI 기반 고객 서비스 자동화 프로젝트\",\n    \"project_purpose\": \"고객 문의 처리 시간을 줄여 고객 만족도를 향상시키기 위해 AI를 활용한 자동화 시스템 구축\",\n    \"project_period\": \"2023년 11월 1일 ~ 2024년 1월 31일\",\n    \"project_manager\": \"김철수\",\n    \"core_objectives\": [\n        \"고객 문의 처리 시간을 50% 감소\",\n        \"고객 만족도를 20% 향상\",\n        \"시스템 유지보수 비용을 30% 절감\"\n    ],\n    \"core_idea\": \"AI 기반의 자동화 시스템을 도입하여 고객 서비스 효율성을 높임\",\n    \"idea_description\": \"AI 기반의 대화형 인공지능을 사용하여 자주 묻는 질문에 즉각적으로 답변하고, 복잡한 문의는 전문 콜센터로 전달함\",\n    \"execution_plan\": \"1. AI 모델 개발 및 훈련 데이터 수집 (2023년 11월 1일 ~ 12월 15일)\\n2. 시스템 통합 및 테스트 (2023년 12월 16일 ~ 2024년 1월 10일)\\n3. 시스템 운영 및 지속적인 개선 (2024년 1월 11일 ~ 1월 31일)\",\n    \"expected_effects\": [\n        \"고객 문의 처리 시간 50% 감소\",\n        \"고객 만족도 20% 향상\",\n        \"시스템 유지보수 비용 30% 절감\"\n    ]\n}\n**전사본에서 추출된 핵심 정보:**\n- \"간단한 옵션\" (적외선, 에너지원, 배터리)\n- \"스팸 메일\" (이메일 관련)\n- \"참가자 1번\" (참가자 관리)\n- \"RR\" (기호가 있는 것처럼 실제 반응)\n- \"색깔만 가져야 합니다\" (색상 제한)\n- \"비슷한 맥락\" (다른 제품과 비교)\n- \"슬로건\" (브랜드 아이덴티티)\n- \"브랜드 빚\" (브랜드 이미지 관리)\n- \"시원한\" (시간 관리)\n\n**추가 정보:**\n- 회의는 27:33까지 진행됨\n- 회의 중간에 \"스팸 메일\"과 \"참가자 1번\" 관련된 대화가 있었음\n- \"RR\"와 \"색깔\"은 브랜드 이미지 관리와 관련된 내용\n- \"슬로건\"과 \"브랜드 빚\"은 브랜드 아이덴티티 관리와 관련된 내용\n- \"시원한\"은 시간 관리를 의미함\n\n**프로젝트명 제안:**\n- \"브랜드 이미지 관리 및 브랜드 아이덴티티 강화 프로젝트\"\n- \"브랜드 빚 관리 및 브랜드 이미지 최적화 프로젝트\"\n- \"브랜드 아이덴티티 및 브랜드 이미지 관리 프로젝트\"\n\n**프로젝트명 선택:**\n- \"브랜드 이미지 관리 및 브랜드 아이덴티티 강화 프로젝트\" (브랜드 이미지와 아이덴"
+    "project_name": "단순화된 제품 개발 프로젝트",
+    "project_purpose": "단순화된 제품 설계를 통해 효율성과 사용자 경험을 향상시키기 위한 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_A",
+    "core_objectives": [
+      "제품 기능을 최소한의 요소로 축소하여 사용자 친화성을 높이기",
+      "에너지 효율성과 적외선 기술을 중심으로 제품 구조를 재설계",
+      "고위 관리자들의 기준에 부합하는 표준화된 디자인 구현"
+    ],
+    "core_idea": "단일 색상과 간단한 기능 집중을 통한 제품의 최소화된 디자인",
+    "idea_description": "적외선 기술과 배터리 기반의 에너지 효율성을 중심으로 제품의 복잡성을 줄이고, 고위 관리자들의 기준에 부합하는 표준화된 디자인을 도입하여 사용자 경험과 제조 효율성을 동시에 향상시킬 예정",
+    "execution_plan": [
+      "2025.01.01-2025.01.15: 기존 제품 분석 및 단순화 방안 수립 (스피커_A 주도)",
+      "2025.01.16-2025.02.01: 적외선 기술과 배터리 시스템 통합 설계 (스피커_D, 스피커_C 협력)",
+      "2025.02.02-2025.02.28: 단일 색상 디자인 검증 및 사용자 테스트 (스피커_B 주도)",
+      "2025.02.29-2025.03.31: 최종 검수 및 생산 준비 (스피커_A, 스피커_D 공동 책임)"
+    ],
+    "expected_effects": [
+      "제품 복잡도 30% 감소 및 사용자 테스트에서 90% 이상의 만족도 향상",
+      "에너지 소비량 20% 절감 및 배터리 수명 연장",
+      "고위 관리자들의 승인을 받은 표준화된 디자인으로 생산 비용 15% 절감"
+    ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_ES2007b/05_final_result.json",
+    "source_file": "Raw_Data_val/result_ES2007b/05_final_result.json",
+    "utterance_count": 170,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 5770,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
     "is_chunk": true,
     "chunk_index": 2,
-    "total_chunks": 2,
-    "processing_date": "2025-08-10T11:47:04.612246"
+    "processing_date": "2025-08-10T20:15:05.705538"
   }
 }

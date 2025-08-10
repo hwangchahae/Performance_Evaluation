@@ -2,13 +2,47 @@
   "id": "result_Bro028_chunk_1",
   "source_dir": "result_Bro028",
   "notion_output": {
-    "raw_text": "**주의사항:**\n- JSON 형식에 맞게 작성해야 합니다.\n- 프로젝트명은 회의 내용을 바탕으로 적절히 명명\n- 다른 요소는 회의 내용을 바탕으로 적절히 작성\n- 반드시 JSON 형식으로 응답해야 합니다.\n- JSON 형식이 잘못되면 0점 처리됩니다.\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시 double quote 사용\n- JSON 형식은 반드시 valid JSON 형식\n- JSON 형식은 반드시 한 줄로 작성해야 합니다.\n- JSON 형식은 반드시 문자열로 작성해야 합니다.\n- JSON 형식은 반드시"
+    "project_name": "음성 활동 탐지 및 다중 스트림 통합 프로젝트",
+    "project_purpose": "현재 시스템의 지연 시간 및 정확도 개선을 위해 VAD 기능과 다중 스트림 처리 기술을 통합하여 시스템 성능을 향상시키는 것을 목표로 합니다.",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_E",
+    "core_objectives": [
+      "기존 VAD 기능의 정확도를 2-7% 향상시켜 인간의 성과와의 차이를 줄이기",
+      "두 개의 스트림(신경망 기반 및 스펙트럼 기반)을 통합하여 시스템의 처리 효율성 향상",
+      "다양한 지식 소스(예: 피치 정보, 특징 벡터)를 결합하여 시스템의 분류 정확도 향상"
+    ],
+    "core_idea": "현재 시스템의 제한된 처리 능력을 극복하기 위해 VAD 기능을 개선하고, 두 개의 데이터 스트림(신경망 및 스펙트럼 기반)을 통합하여 시스템의 분류 정확도와 처리 속도를 동시에 향상시킨다.",
+    "idea_description": "기존 시스템의 지연 시간(2시간 30분)을 줄이기 위해 60초 제한 기능을 도입하고, 두 개의 스트림을 결합하여 신경망과 스펙트럼 데이터를 동시에 활용함으로써 시스템의 분류 정확도를 향상시킨다. 또한, 피치 정보와 특징 벡터를 결합하여 인간의 성과와의 차이를 최소화한다.",
+    "execution_plan": [
+      "2025.01.01-01.15: 기존 시스템 분석 및 VAD 기능의 문제점 도출 (2주)",
+      "2025.01.16-02.01: 두 개의 스트림(신경망 및 스펙트럼) 통합 기술 개발 (3주)",
+      "2025.02.02-02.15: 피치 정보와 특징 벡터 결합 모델 개발 (3주)",
+      "2025.02.16-03.01: 시스템 통합 및 테스트 (3주)",
+      "2025.03.02-03.31: 최종 시스템 검증 및 배포 (3주)"
+    ],
+    "expected_effects": [
+      "VAD 정확도 향상: 인간의 성과와의 차이를 2-7% 감소 (정량적)",
+      "처리 속도 향상: 지연 시간 2시간 30분에서 60초로 단축 (정량적)",
+      "시스템 효율성 향상: 다중 스트림 통합으로 처리 능력 30% 증가 (정량적/정성적)"
+    ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_Bro028/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bro028/05_final_result.json",
+    "utterance_count": 575,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_E",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 19606,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
     "is_chunk": true,
     "chunk_index": 1,
-    "total_chunks": 5,
-    "processing_date": "2025-08-10T11:47:04.639534"
+    "processing_date": "2025-08-10T20:15:40.114667"
   }
 }

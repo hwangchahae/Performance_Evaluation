@@ -2,44 +2,43 @@
   "id": "result_Bed002_chunk_4",
   "source_dir": "result_Bed002",
   "notion_output": {
-    "project_name": "DeepMap 및 JavaBayes 기반 인터랙티브 시스템 개발",
-    "project_purpose": "DeepMap과 JavaBayes를 활용하여 사용자가 자연스럽게 상호작용할 수 있는 인터랙티브 시스템을 개발하고, 이를 통해 사용자 경험을 개선하며 데이터 수집 및 분석을 강화한다.",
-    "project_period": "2025.01.01 ~ 2025.06.30",
-    "project_manager": "Speaker_F",
+    "project_name": "DeepMap 데이터 기반 인터랙티브 시스템 개발",
+    "project_purpose": "사용자와의 상호작용을 통해 경험적으로 검증된 데이터를 수집하고, 이를 기반으로 인터랙티브 시스템을 개발하여 사용자 행동과 맥락을 분석하는 것을 목표로 합니다.",
+    "project_period": "2023-11-01 ~ 2023-12-15",
+    "project_manager": "김지훈",
     "core_objectives": [
-      "목표 1: DeepMap을 통한 환경 인식 및 위치 정보 수집",
-      "목표 2: JavaBayes를 이용한 사용자 행동 분석 및 예측",
-      "목표 3: 사용자와의 자연스러운 상호작용을 위한 인터페이스 설계 및 개발",
-      "목표 4: 사용자 경험 개선을 위한 피드백 수집 및 반영"
+      "사용자와의 상호작용을 통해 경험적으로 검증된 데이터를 수집",
+      "인터랙티브 시스템을 개발하여 사용자 행동과 맥락을 분석",
+      "XML M-three-L 구조를 기반으로 시스템을 구현"
     ],
-    "core_idea": "DeepMap과 JavaBayes를 결합하여 사용자가 쉽게 이해하고 조작할 수 있는 인터랙티브 시스템을 개발한다.",
-    "idea_description": "DeepMap을 통해 사용자의 위치와 환경을 인식하고, JavaBayes를 활용하여 사용자의 행동을 분석 및 예측함으로써 사용자와의 상호작용을 최적화한다. 이러한 시스템은 사용자에게 직관적이며 효율적인 경험을 제공한다.",
-    "execution_plan": "1단계: DeepMap과 JavaBayes의 기술적 요구사항 분석 및 준비 (2025.01.01 ~ 2025.02.15)\n2단계: 사용자 행동 데이터 수집 및 분석을 위한 시스템 설계 (2025.02.16 ~ 2025.03.31)\n3단계: 인터랙티브 시스템 개발 및 테스트 (2025.04.01 ~ 2025.05.15)\n4단계: 사용자 피드백 수집 및 시스템 개선 (2025.05.16 ~ 2025.06.30)",
+    "core_idea": "사용자와의 상호작용을 통해 데이터를 수집하고, 이를 기반으로 인터랙티브 시스템을 개발하여 사용자 행동과 맥락을 분석하는 것",
+    "idea_description": "사용자와의 대화를 통해 데이터를 수집하고, 이를 기반으로 인터랙티브 시스템을 개발하여 사용자 행동과 맥락을 분석하는 프로젝트입니다. 이 시스템은 사용자의 의도와 맥락을 파악하여 더 나은 서비스를 제공할 수 있도록 설계되었습니다.",
+    "execution_plan": [
+      "데이터 수집: 사용자와의 상호작용을 통해 데이터를 수집",
+      "시스템 개발: 수집된 데이터를 기반으로 인터랙티브 시스템을 개발",
+      "XML M-three-L 구조 구현: 시스템에 XML M-three-L 구조를 적용하여 데이터를 처리",
+      "테스트 및 개선: 시스템을 테스트하고, 개선하여 최적화"
+    ],
     "expected_effects": [
-      "기대효과 1: 사용자 경험의 질적 및 양적 개선",
-      "기대효과 2: 데이터 수집 및 분석의 정확성 증가",
-      "기대효과 3: 시스템의 사용자 친화성 및 접근성을 높임으로써 사용자 참여도 증가",
-      "기대효과 4: 인터랙티브 시스템을 통한 비즈니스 성장 가능성 확대"
+      "사용자 행동과 맥락을 분석하여 서비스 개선에 기여",
+      "인터랙티브 시스템을 통해 사용자 경험 향상",
+      "XML M-three-L 구조를 기반으로 시스템 성능 향상"
     ]
   },
   "metadata": {
     "source_file": "../Raw_Data_val/result_Bed002/05_final_result.json",
     "utterance_count": 656,
     "speakers": [
-      "Speaker_C",
       "Speaker_D",
-      "Speaker_F",
+      "Speaker_C",
       "Speaker_B",
       "Speaker_A",
+      "Speaker_F",
       "Speaker_E"
     ],
     "original_length": 24390,
-    "chunking_info": {
-      "is_chunked": true,
-      "total_chunks": 6
-    },
     "is_chunk": true,
     "chunk_index": 4,
-    "processing_date": "2025-08-10T09:33:53.000781"
+    "processing_date": "2025-08-10T16:24:25.193823"
   }
 }

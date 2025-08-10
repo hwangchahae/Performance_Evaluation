@@ -2,34 +2,49 @@
   "id": "result_Bro004_chunk_2",
   "source_dir": "result_Bro004",
   "notion_output": {
-    "project_name": "AI 기반 음성 인식 시스템 개발",
-    "project_purpose": "고품질 음성 데이터를 기반으로 음성 인식 정확도를 향상시키기 위해 AI 기반의 음성 인식 시스템을 개발하고 최적화하는 일",
-    "project_period": "2023년 11월 ~ 2024년 2월",
-    "project_manager": "김철수",
+    "project_name": "HTK Aurora 베이스라인 최적화 프로젝트",
+    "project_purpose": "HTK Aurora 베이스라인 시스템의 성능을 향상시키기 위해 TI(숫자) 기반 모델 최적화 및 노이즈 대응 능력 강화",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_H",
     "core_objectives": [
-      "고품질 음성 데이터 수집 및 처리",
-      "AI 기반 음성 인식 알고리즘 개발",
-      "시스템 최적화 및 테스트"
+      "TI(숫자) 기반 모델의 정확도 향상 (70% 이상의 정확도 달성)",
+      "TIMIT 데이터셋을 기반으로 한 노이즈 저항성 강화",
+      "PLP 특징과 VAD 기법의 조합을 통한 분류 효율성 개선"
     ],
-    "core_idea": "AI 기반의 음성 인식 시스템을 통해 음성 데이터의 정확도를 향상시키고, 사용자 경험을 개선",
-    "idea_description": "AI 기반의 음성 인식 시스템은 고품질의 음성 데이터를 기반으로 음성 인식 정확도를 향상시키며, 사용자에게 더 정확하고 신속한 음성 인식 서비스를 제공합니다.",
+    "core_idea": "HTK Aurora 베이스라인 시스템을 TI(숫자) 기반 모델로 전환하고, TIMIT 데이터셋을 활용한 PLP 특징과 VAD 기법의 조합을 통해 노이즈에 강한 분류 모델 개발",
+    "idea_description": "TI(숫자) 기반 모델로의 전환을 통해 100% 정확도 달성, TIMIT 데이터셋을 기반으로 한 PLP 특징의 분포 분석, VAD 기법을 통한 분류 결정의 이분법적 개선",
     "execution_plan": [
-      "음성 데이터 수집 및 전처리",
-      "AI 알고리즘 개발 및 테스트",
-      "시스템 통합 및 최적화",
-      "사용자 테스트 및 피드백 수집"
+      "2025.01.01-01.15: TIMIT 데이터셋 수집 및 TI(숫자) 기반 모델 구축 (책임자: 스피커_H)",
+      "2025.01.16-02.01: PLP 특징 분석 및 VAD 기법 통합 (책임자: 스피커_D)",
+      "2025.02.02-03.01: 노이즈 저항성 테스트 및 모델 최적화 (책임자: 스피커_A)",
+      "2025.03.02-03.31: 최종 모델 검증 및 문서화 (책임자: 스피커_H)"
     ],
     "expected_effects": [
-      "음성 인식 정확도 10% 향상",
-      "사용자 만족도 20% 증가",
-      "시스템 처리 속도 15% 개선"
+      "분류 정확도 70% 이상 달성 (기존 100% 기준)",
+      "노이즈 환경에서도 85% 이상의 분류 정확도 유지",
+      "모델 훈련 시간 30% 단축 및 데이터 사용 효율성 향상"
     ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_Bro004/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bro004/05_final_result.json",
+    "utterance_count": 413,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 12710,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
     "is_chunk": true,
     "chunk_index": 2,
-    "total_chunks": 3,
-    "processing_date": "2025-08-10T11:47:04.677715"
+    "processing_date": "2025-08-10T20:16:00.805836"
   }
 }

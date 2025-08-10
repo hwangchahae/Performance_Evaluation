@@ -2,13 +2,45 @@
   "id": "result_Bmr001_chunk_2",
   "source_dir": "result_Bmr001",
   "notion_output": {
-    "raw_text": "**주의:** JSON의 각 값은 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다. \n\n**예시:**\n{\n    \"project_name\": \"프로젝트명\",\n    \"project_purpose\": \"프로젝트의 주요 목적\",\n    \"project_period\": \"예상 수행 기간\",\n    \"project_manager\": \"담당자명\",\n    \"core_objectives\": \"목표 1, 목표 2, 목표 3\",\n    \"core_idea\": \"핵심 아이디어\",\n    \"idea_description\": \"아이디어 설명\",\n    \"execution_plan\": \"실행 계획\",\n    \"expected_effects\": \"효과 1, 효율 2, 효율 3\"\n}\n\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다. \n\n**예시:**\n{\n    \"project_name\": \"프로젝트명\",\n    \"project_purpose\": \"프로젝트의 주요 목적\",\n    \"project_period\": \"예상 수행 기간\",\n    \"project_manager\": \"담당자명\",\n    \"core_objectives\": \"목표 1, 목표 2, 목표 3\",\n    \"core_idea\": \"핵심 아이디어\",\n    \"idea_description\": \"아이디어 설명\",\n    \"execution_plan\": \"실행 계획\",\n    \"expected_effects\": \"효과 1, 효율 2, 효율 3\"\n}\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다. \n\n**예시:**\n{\n    \"project_name\": \"프로젝트명\",\n    \"project_purpose\": \"프로젝트의 주요 목적\",\n    \"project_period\": \"예상 수행 기간\",\n    \"project_manager\": \"담당자명\",\n    \"core_objectives\": \"목표 1, 목표 2, 목표 3\",\n    \"core_idea\": \"핵심 아이디어\",\n    \"idea_description\": \"아이디어 설명\",\n    \"execution_plan\": \"실행 계획\",\n    \"expected_effects\": \"효과 1, 효율 2, 효율 3\"\n}\n\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다. \n\n**예시:**\n{\n    \"project_name\": \"프로젝트명\",\n    \"project_purpose\": \"프로젝트의 주요 목적\",\n    \"project_period\": \"예상 수행 기간\",\n    \"project_manager\": \"담당자명\",\n    \"core_objectives\": \"목표 1, 목표 2, 목표 3\",\n    \"core_idea\": \"핵심 아이디어\",\n    \"idea_description\": \"아이디어 설명\",\n    \"execution_plan\": \"실행 계획\",\n    \"expected_effects\": \"효과 1, 효율 2, 효율 3\"\n}\n\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다.\n**주의:** JSON의 각 값은 반드시 문자열로, 배열은 쉼표로 구분된 문자열로 표현해야 합니다. \n\n**예시:**\n{"
+    "project_name": "데이터 관리 및 회의 효율화 프로젝트",
+    "project_purpose": "데이터 저장/백업 시스템 최적화 및 회의 관리 프로세스 개선을 통한 업무 효율성 제고",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_C",
+    "core_objectives": [
+      "9GB 드라이브 포맷 및 40GB/50GB 대규모 저장 장비 구매를 통한 데이터 저장 시스템 구축",
+      "16채널 44kHz 녹음 데이터 압축(토니 로빈슨 무손실 압축 기술 적용) 및 CD-ROM 백업 시스템 구현",
+      "즉흥적 회의 관리 시스템 개선(유선 사무실 대신 PDA 도입, 디코더 회의 도입)"
+    ],
+    "core_idea": "데이터 저장 효율성과 회의 관리 시스템의 통합적인 최적화를 통해 IT 인프라 및 업무 프로세스의 효율성을 높이는 방안",
+    "idea_description": "1) 9GB 드라이브의 사용 가능 용량 분석을 기반으로 대규모 저장 장비 도입 및 데이터 압축 기술 적용 2) 즉흥적 회의 관리 시스템 개선을 위한 PDA 도입 및 디코더 회의 프로토콜 수립 3) 데이터 백업 시스템의 안정성 확보를 위한 CD-ROM 기반 백업 방식 도입",
+    "execution_plan": [
+      "2025.01.01-01.15: 9GB 드라이브 사용 가능 용량 분석 및 40GB/50GB 저장 장비 구매 결정",
+      "2025.01.16-02.01: 토니 로빈슨 무손실 압축 기술 적용 시스템 개발 및 16채널 44kHz 데이터 압축 테스트",
+      "2025.02.02-02.15: CD-ROM 기반 백업 시스템 구축 및 데이터 복구 테스트",
+      "2025.02.16-03.01: PDA 도입 및 디코더 회의 프로토콜 개발",
+      "2025.03.02-03.31: 시스템 통합 테스트 및 최종 검수"
+    ],
+    "expected_effects": [
+      "데이터 저장 비용 30% 감소 및 백업 시스템 안정성 향상(16채널 44kHz 데이터 압축률 50% 개선)",
+      "즉흥적 회의 관리 시간 절감(유선 사무실 대신 PDA 사용으로 20%의 시간 절감)",
+      "디코더 회의 프로토콜 도입으로 회의 효율성 25% 향상"
+    ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_Bmr001/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bmr001/05_final_result.json",
+    "utterance_count": 400,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "original_length": 13357,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
     "is_chunk": true,
     "chunk_index": 2,
-    "total_chunks": 3,
-    "processing_date": "2025-08-10T11:47:04.828786"
+    "processing_date": "2025-08-10T20:17:38.071459"
   }
 }

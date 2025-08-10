@@ -2,59 +2,45 @@
   "id": "result_IS1009d_chunk_2",
   "source_dir": "result_IS1009d",
   "notion_output": {
-    "type": "object",
-    "properties": {
-      "project_name": {
-        "type": "string"
-      },
-      "project_purpose": {
-        "type": "string"
-      },
-      "project_period": {
-        "type": "string"
-      },
-      "project_manager": {
-        "type": "string"
-      },
-      "core_objectives": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "core_idea": {
-        "type": "string"
-      },
-      "idea_description": {
-        "type": "string"
-      },
-      "execution_plan": {
-        "type": "string"
-      },
-      "expected_effects": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      }
-    },
-    "required": [
-      "project_name",
-      "project_purpose",
-      "project_period",
-      "project_manager",
-      "core_objectives",
-      "core_idea",
-      "idea_description",
-      "execution_plan",
-      "expected_effects"
+    "project_name": "소프트 텍스처 제품 디자인 및 제안 프로젝트",
+    "project_purpose": "손에 잡히는 질감과 편안함을 강조하는 소프트 텍스처 제품의 디자인 및 제안서 작성",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_D",
+    "core_objectives": [
+      "목표 1: 소프트 텍스처와 둥근 형태를 강조하는 제품 디자인 완료",
+      "목표 2: 소비자 조사 그룹에 프로토타입을 제시하여 피드백 수집",
+      "목표 3: 최종 제안서 작성 및 화이트보드 발표를 통한 프로젝트 마무리"
+    ],
+    "core_idea": "편안함과 소프트 텍스처를 강조하는 제품 디자인",
+    "idea_description": "생물 형태를 띤 둥근 디자인과 부드러운 텍스처를 결합하여 사용자 경험을 향상시키고, 소비자 조사 그룹의 피드백을 반영한 최종 제안서 작성",
+    "execution_plan": [
+      "단계 1: 2025.01.01 ~ 2025.01.15 - 소프트 텍스처 및 둥근 형태 디자인 확정 (화이트보드 발표 준비)",
+      "단계 2: 2025.01.16 ~ 2025.02.01 - 프로토타입 제작 및 소비자 조사 그룹에 제시",
+      "단계 3: 2025.02.02 ~ 2025.02.15 - 피드백 반영 후 최종 제안서 작성",
+      "단계 4: 2025.02.16 ~ 2025.03.31 - 화이트보드 발표 및 프로젝트 마무리"
+    ],
+    "expected_effects": [
+      "기대효과 1: 소비자 조사 그룹의 85% 이상 긍정적 피드백을 받는다 (정량적)",
+      "기대효과 2: 제품 디자인의 편안함과 소프트 텍스처가 시장에서 차별화된다는 인식 확산 (정성적)",
+      "기대효과 3: 프로젝트 완료 후 3개월 내 제품 출시 및 판매량 10% 증가 (정량적)"
     ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_IS1009d/05_final_result.json",
+    "source_file": "Raw_Data_val/result_IS1009d/05_final_result.json",
+    "utterance_count": 264,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 8915,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
     "is_chunk": true,
     "chunk_index": 2,
-    "total_chunks": 2,
-    "processing_date": "2025-08-10T11:47:04.538614"
+    "processing_date": "2025-08-10T20:13:12.146311"
   }
 }

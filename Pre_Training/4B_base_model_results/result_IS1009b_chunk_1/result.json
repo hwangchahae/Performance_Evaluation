@@ -2,13 +2,46 @@
   "id": "result_IS1009b_chunk_1",
   "source_dir": "result_IS1009b",
   "notion_output": {
-    "raw_text": "**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼표로 구분된 문자열로 입력해야 합니다.\n**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼표로 구분된 문자열로 입력해야 합니다.\n**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼호로 구분된 문자열로 입력해야 합니다.\n\n**예시:**\n{\n    \"project_name\": \"프로젝트명\",\n    \"project_purpose\": \"프로젝트의 주요 목적\",\n    \"project_period\": \"예상 수행 기간\",\n    \"project_manager\": \"담당자명\",\n    \"core_objectives\": \"목표 1, 목표 2, 목표 3\",\n    \"core_idea\": \"핵심 아이디어\",\n    \"idea_description\": \"아이디어 설명\",\n    \"execution_plan\": \"실행 계획\",\n    \"expected_effects\": \"효과 1, 효과 2, 효과 3\"\n}\n\n**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼표로 구분된 문자열로 입력해야 합니다.\n**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼호로 구분된 문자열로 입력해야 합니다.\n**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼호로 구분된 문자열로 입력해야 합니다. \n\n**예시:**\n{\n    \"project_name\": \"프로젝트명\",\n    \"project_purpose\": \"프로젝트의 주요 목적\",\n    \"project_period\": \"예상 수행 기간\",\n    \"project_manager\": \"담당자명\",\n    \"core_objectives\": \"목표 1, 목표 2, 목표 3\",\n    \"core_idea\": \"핵심 아이디어\",\n    \"idea_description\": \"아이디어 설명\",\n    \"execution_plan\": \"실행 계획\",\n    \"expected_effects\": \"효과 1, 효과 2, 효과 3\"\n}\n**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼호로 구분된 문자열로 입력해야 합니다. \n\n**예시:**\n{\n    \"project_name\": \"프로젝트명\",\n    \"project_purpose\": \"프로젝트의 주요 목적\",\n    \"project_period\": \"예상 수행 기간\",\n    \"project_manager\": \"담당자명\",\n    \"core_objectives\": \"목표 1, 목표 2, 목표 3\",\n    \"core_idea\": \"핵심 아이디어\",\n    \"idea_description\": \"아이디어 설명\",\n    \"execution_plan\": \"실행 계획\",\n    \"expected_effects\": \"효과 1, 효과 2, 효과 3\"\n}\n\n**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼호로 구분된 문자열로 입력해야 합니다. \n\n**예시:**\n{\n    \"project_name\": \"프로젝트명\",\n    \"project_purpose\": \"프로젝트의 주요 목적\",\n    \"project_period\": \"예상 수행 기간\",\n    \"project_manager\": \"담당자명\",\n    \"core_objectives\": \"목표 1, 목표 2, 목표 3\",\n    \"core_idea\": \"핵심 아이디어\",\n    \"idea_description\": \"아이디어 설명\",\n    \"execution_plan\": \"실행 계획\",\n    \"expected_effects\": \"효과 1, 효과 2, 효과 3\"\n}\n\n**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼호로 구분된 문자열로 입력해야 합니다. \n\n**예시:**\n{\n    \"project_name\": \"프로젝트명\",\n    \"project_purpose\": \"프로젝트의 주요 목적\",\n    \"project_period\": \"예상 수행 기간\",\n    \"project_manager\": \"담당자명\",\n    \"core_objectives\": \"목표 1, 목표 2, 목표 3\",\n    \"core_idea\": \"핵심 아이디어\",\n    \"idea_description\": \"아이디어 설명\",\n    \"execution_plan\": \"실행 계획\",\n    \"expected_effects\": \"효과 1, 효과 2, 효과 3\"\n}\n\n**주의:** JSON의 각 필드는 반드시 문자열로 입력해야 하며, 배열은 쉼호로 구분된 문자열로 입력해야 합니다. \n\n**예시"
+    "project_name": "타ッチ 센서 기반 리모컨 개발 프로젝트",
+    "project_purpose": "촉각 인터페이스를 통한 직관적인 제어 경험 제공 및 다기능 통합 리모컨 개발",
+    "project_period": "2023.10.01 ~ 2024.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "타ッチ 센서 기반의 촉각 피드백 시스템 개발",
+      "리모컨 내장 조명 및 채널 제어 기능 통합",
+      "비용 효율성과 사용자 친화성 확보"
+    ],
+    "core_idea": "사용자가 촉각으로 인식 가능한 터치 센서를 탑재한 리모컨을 개발하여, TV 채널 조절, 조명 제어, 전구 조작 등 다중 기능을 직관적으로 제어할 수 있도록 설계",
+    "idea_description": "리모컨의 버튼이 촉각적으로 구분되며, 사용자가 터치 시 감촉 차이를 인식할 수 있도록 설계. 채널 변경, 볼륨 조절, 조명 제어 기능을 하나의 장치로 통합하고, 사용자 편의성과 비용 효율성을 고려한 최소 기능 구조로 개발",
+    "execution_plan": [
+      "2023.10.01-10.15: 촉각 센서 기술 탐색 및 사용자 조사 (Speaker_D, Speaker_B 제안)",
+      "2023.10.16-10.30: 프로토타입 설계 및 터치 센서 통합 설계 (Speaker_C, Speaker_A 협의)",
+      "2023.11.01-11.20: 사용자 테스트 및 피드백 반영 (Speaker_D, Speaker_B 검토)",
+      "2023.11.21-12.15: 최종 설계 및 제작 (Speaker_A, Speaker_C 협의)",
+      "2024.01.01-03.31: 시장 분석 및 예산 검토 (Speaker_A 주도)"
+    ],
+    "expected_effects": [
+      "사용자 80% 이상이 촉각 피드백을 통해 직관적으로 제어 가능하게 되어 사용자 만족도 향상",
+      "단일 리모컨으로 TV, 조명, 전구 제어 기능을 통합하여 제품 가격 대비 기능 수준 30% 향상",
+      "제작 및 유지보수 비용 20% 절감하여 가격 경쟁력 강화"
+    ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_IS1009b/05_final_result.json",
+    "source_file": "Raw_Data_val/result_IS1009b/05_final_result.json",
+    "utterance_count": 214,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 8139,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
     "is_chunk": true,
     "chunk_index": 1,
-    "total_chunks": 2,
-    "processing_date": "2025-08-10T11:47:04.541110"
+    "processing_date": "2025-08-10T20:13:19.303084"
   }
 }

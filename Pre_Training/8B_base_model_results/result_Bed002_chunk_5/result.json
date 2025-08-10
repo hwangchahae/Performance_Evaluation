@@ -2,42 +2,22 @@
   "id": "result_Bed002_chunk_5",
   "source_dir": "result_Bed002",
   "notion_output": {
-    "project_name": "DeepMap 상호작용 및 데이터 수집 프로젝트",
-    "project_purpose": "사용자와의 상호작용을 용이하게 하고 데이터 수집을 효율화하여 비즈니스 가치를 극대화",
-    "project_period": "2025.01.01 ~ 2025.03.31",
-    "project_manager": "Kevin Murphy",
-    "core_objectives": [
-      "목표 1: 상호작용이 쉬운 인터페이스 개발",
-      "목표 2: 데이터 수집 및 분석을 위한 체계적 프레임워크 구축",
-      "목표 3: XML 기반의 모듈 간 데이터 교환 시스템 구현"
-    ],
-    "core_idea": "XML 기반의 모듈화 시스템을 통해 상호작용을 쉽게 하고 데이터 수집을 효율화",
-    "idea_description": "XML을 활용한 모듈화 시스템을 통해 다양한 데이터 수집 점에서의 정보를 효율적으로 관리하고, 사용자와의 상호작용을 최적화함으로써 비즈니스 효율성을 증대시키는 프로젝트",
-    "execution_plan": "1단계: XML 기반의 모듈 설계 및 개발 (2025.01.01 ~ 2025.01.31)\n2단계: 데이터 수집 점 설정 및 초기 데이터 수집 (2025.02.01 ~ 2025.02.28)\n3단계: 모듈 간 데이터 교환 시스템 테스트 및 최적화 (2025.03.01 ~ 2025.03.31)",
-    "expected_effects": [
-      "기대효과 1: 사용자 경험 향상으로 인한 고객 만족도 증가",
-      "기대효과 2: 데이터 수집 및 분석 속도 향상으로 인한 의사결정 지원 강화",
-      "기대효과 3: XML 기반 시스템을 통한 모듈 간 협업 효율성 증대"
-    ]
+    "raw_text": "**참고:**\n- 프로젝트명은 \"XML 기반 지도 정보 통합 시스템 개발\"과 유사한 형식으로 명명\n- 프로젝트 목적은 \"지도 정보를 통합하여 사용자에게 더 편리한 정보 제공\"과 유사한 형식\n- 기대 효과는 \"사용자 만족도 30% 상승\", \"데이터 처리 속도 20% 개선\"과 유사한 형식\n- 실행 계획은 단계별로 구체적인 활동을 기술\n- 담당자는 \"김철수\"로 설정\n- 프로젝트 기간은 \"2023-09-01 ~ 2023-12-31\"로 설정\n- \"core_idea\"와 \"idea_description\"은 XML 기반의 지도 정보 통합 시스템에 대한 설명\n- \"execution_plan\"은 단계별로 구체적인 활동을 기술\n- \"expected_effects\"는 정량적/정성적 효과를 포함\n\n**주의:**\n- JSON 형식을 엄격히 준수\n- JSON 키는 소문자로 작성\n- JSON 값은 문자열로 작성\n- JSON은 유효한 형식이어야 함\n- JSON은 UTF-8 인코딩을 사용\n- JSON은 줄바꿈 없이 작성\n- JSON은 공백 없이 작성\n- JSON은 특수문자 없이 작성\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바음을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을 사용\n- JSON은 최소한의 공백을 사용\n- JSON은 최소한의 줄바꿈을"
   },
   "metadata": {
     "source_file": "../Raw_Data_val/result_Bed002/05_final_result.json",
     "utterance_count": 656,
     "speakers": [
-      "Speaker_C",
       "Speaker_D",
-      "Speaker_F",
+      "Speaker_C",
       "Speaker_B",
       "Speaker_A",
+      "Speaker_F",
       "Speaker_E"
     ],
     "original_length": 24390,
-    "chunking_info": {
-      "is_chunked": true,
-      "total_chunks": 6
-    },
     "is_chunk": true,
     "chunk_index": 5,
-    "processing_date": "2025-08-10T09:33:53.006521"
+    "processing_date": "2025-08-10T16:24:25.197430"
   }
 }

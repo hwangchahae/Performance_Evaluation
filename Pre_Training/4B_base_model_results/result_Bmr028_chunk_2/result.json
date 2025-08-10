@@ -2,33 +2,49 @@
   "id": "result_Bmr028_chunk_2",
   "source_dir": "result_Bmr028",
   "notion_output": {
-    "project_name": "프로젝트명",
-    "project_purpose": "프로젝트의 주요 목적",
-    "project_period": "예상 수행 기간",
-    "project_manager": "담당자명",
+    "project_name": "Tcl-Tk 기반 프로토타입 개발 및 시연 준비",
+    "project_purpose": "Tcl-Tk 기반의 프로토타입 개발을 통해 사용자 인터페이스 및 시연을 준비하고, 성능 최적화를 통한 기술적 검증을 수행하기 위한 프로젝트",
+    "project_period": "2025.07.01 ~ 2025.07.26",
+    "project_manager": "스피커_D",
     "core_objectives": [
-      "목표 1",
-      "목표 2",
-      "목표 3"
+      "Tcl-Tk 기반의 프로토타입 개발을 완료하고 사용자 인터페이스를 구현",
+      "2초 이내의 반복 처리 성능을 달성하여 시연 준비",
+      "7월 26일 시연 일정에 맞춘 최종 검증 및 자료 준비"
     ],
-    "core_idea": "핵심 아이디어",
-    "idea_description": "아이디어 설명",
+    "core_idea": "Tcl-Tk 기반의 프로토타입 개발을 통해 사용자 인터페이스 구현과 성능 최적화를 병행하여 기술적 검증을 수행하고, 시연 일정에 맞춘 최종 결과물을 제공",
+    "idea_description": "Tcl-Tk의 빠른 처리 속도와 샘플링 효율성을 활용한 프로토타입 개발을 통해 사용자 인터페이스 구현과 성능 최적화를 동시에 수행하고, 시연 일정에 맞춘 최종 검증을 통해 기술적 성과를 검증",
     "execution_plan": [
-      "실행 계획 1",
-      "실행 계획 2",
-      "실행 계획 3"
+      "2025.06.01-2025.06.15: Tcl-Tk 기반 프로토타입 개발 및 사용자 인터페이스 설계 (스피커_D, 스피커_A)",
+      "2025.06.16-2025.06.30: 2초 이내 성능 최적화 및 테스트 (스피커_D, 스피커_F)",
+      "2025.07.01-2025.07.15: 시연 준비 및 자료 정리 (스피커_D, 스피커_H)",
+      "2025.07.16-2025.07.26: 시연 실행 및 최종 검증 (스피커_D, 스피커_C)"
     ],
     "expected_effects": [
-      "효과 1",
-      "효과 2",
-      "효과 3"
+      "2025.07.26 시연에서 Tcl-Tk 기반 프로토타입의 성능과 사용자 인터페이스가 기술적 검증을 완료",
+      "2초 이내의 반복 처리 성능 달성으로 시스템 효율성 향상",
+      "프로젝트 관리 및 자원 분배를 통해 팀 내 협업 효율성 향상"
     ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_Bmr028/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bmr028/05_final_result.json",
+    "utterance_count": 814,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_E",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_F"
+    ],
+    "original_length": 27961,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7
+    },
     "is_chunk": true,
     "chunk_index": 2,
-    "total_chunks": 7,
-    "processing_date": "2025-08-10T11:47:04.707632"
+    "processing_date": "2025-08-10T20:16:27.578280"
   }
 }

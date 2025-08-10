@@ -2,29 +2,51 @@
   "id": "result_Bed016_chunk_2",
   "source_dir": "result_Bed016",
   "notion_output": {
-    "project_name": "프로젝트명",
-    "project_purpose": "프로젝트의 주요 목적",
-    "project_period": "예상 수행 기간",
-    "project_manager": "담당자명",
+    "project_name": "의미 해석 및 구조 통합 프로젝트",
+    "project_purpose": "구문 구조와 해석 메커니즘의 통합을 통해 복잡한 의미(은유, 환유)를 효과적으로 처리하고, 프로젝트 제안서의 일관성을 유지하는 데 중점을 둔 기획",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_G",
     "core_objectives": [
-      "목표 1",
-      "목표 2",
-      "목표 3"
+      "기본 사례에 대한 구문 구조와 해석 메커니즘의 통합을 통해 의미의 다층적 처리를 구현",
+      "은유적/환유적 의미를 포함한 모든 경우에 대한 해석 일관성을 확보",
+      "제안서의 기존 구조를 유지하면서 새로운 해석 메커니즘을 추가하여 프로젝트의 유연성을 높임"
     ],
-    "core_idea": "핵심 아이디어",
-    "idea_description": "아이디어 설명",
-    "execution_plan": "실행 계획",
+    "core_idea": "구문 구조와 해석 메커니즘을 통합하여 의미의 다층적 처리를 가능하게 하며, 이를 통해 기존 제안서의 일관성을 유지하면서도 새로운 해석 방식을 도입",
+    "idea_description": "의미의 다층적 처리를 위해 구문 구조와 해석 메커니즘을 결합하여,은유적/환유적 의미를 포함한 모든 경우에 대한 해석을 일관되게 수행함. 이는 프로젝트 제안서의 기존 구조를 유지하면서도 새로운 해석 메커니즘을 추가하여 유연성을 높이는 방안을 제시",
+    "execution_plan": [
+      "2025.01.01-2025.01.15: 제안서의 기존 구조 분석 및 해석 메커니즘의 필요성 평가",
+      "2025.01.16-2025.02.01: 구문 구조와 해석 메커니즘의 통합 방안 개발 및 프로토타입 구축",
+      "2025.02.02-2025.03.01: 기본 사례에 대한 테스트 실행 및 결과 분석",
+      "2025.03.02-2025.03.31: 최종 메커니즘 통합 및 제안서 수정 작업 완료"
+    ],
     "expected_effects": [
-      "효과 1",
-      "효과 2",
-      "효과 3"
+      "은유적/환유적 의미의 다층적 처리를 통해 해석의 정확성 향상 (정량적: 30% 이상의 해석 오류 감소)",
+      "제안서의 일관성 유지와 동시에 새로운 해석 메커니즘의 추가로 프로젝트의 유연성 향상 (정성적: 기존 구조의 복잡도 감소)",
+      "해석 메커니즘의 통합을 통해 프로젝트의 실행 효율성 향상 (정량적: 처리 시간 20% 단축)"
     ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_Bed016/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bed016/05_final_result.json",
+    "utterance_count": 505,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_G",
+      "Speaker_I",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_J",
+      "Speaker_E",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_F"
+    ],
+    "original_length": 16078,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
     "is_chunk": true,
     "chunk_index": 2,
-    "total_chunks": 4,
-    "processing_date": "2025-08-10T11:47:04.838121"
+    "processing_date": "2025-08-10T20:17:49.212270"
   }
 }

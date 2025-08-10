@@ -2,13 +2,78 @@
   "id": "result_제22대국회 제426회(임시회) 제2차 법제사법위원회(전체회의) (2025.07.03.)_chunk_2",
   "source_dir": "result_제22대국회 제426회(임시회) 제2차 법제사법위원회(전체회의) (2025.07.03.)",
   "notion_output": {
-    "raw_text": "**주의사항:**\n- JSON 형식에 맞게 작성\n- 프로젝트명은 회의 내용을 바탕으로 적절히 명명\n- 다른 항목은 회의 내용을 바탕으로 적절히 작성\n- 반드시 JSON 형식으로 응답\n- 반드시 \"project_name\" 필드를 포함\n- 반드시 \"core_objectives\" 배열을 포함\n- 반드시 \"core_idea\" 필드를 포함\n- 반드시 \"idea_description\" 필드를 포함\n- 반드시 \"execution_plan\" 필드를 포함\n- 반드시 \"expected_effects\" 배열을 포함\n- 반드시 \"project_manager\" 필드를 포함\n- 반드시 \"project_period\" 필드를 포함\n- 반드시 \"project_purpose\" 필드를 포함\n- 반드시 \"core_idea\" 필드를 포함\n- 반드시 \"idea_description\" 필드를 포함\n- 반드시 \"execution_plan\" 필드를 포함\n- 반드시 \"expected_effects\" 배열을 포함\n- 반드시 \"project_manager\" 필드를 포함\n- 반드시 \"project_period\" 필드를 포함\n- 반드시 \"project_purpose\" 필드를 포함\n- 반드시 \"core_idea\" 필드를 포함\n- 반드시 \"idea_description\" 필드를 포함\n- 반드시 \"execution_plan\" 필드를 포함\n- 반드시 \"expected_effects\" 배열을 포함\n- 반드시 \"project_manager\" 필드를 포함\n- 반드시 \"project_period\" 필드를 포함\n- 반드시 \"project_purpose\" 필드를 포함\n- 반드시 \"core_idea\" 필드를 포함\n- 반드시 \"idea_description\" 필드를 포함\n- 반드시 \"execution_plan\" 필드를 포함\n- 반드시 \"expected_effects\" 배열을 포함\n\n**중요:**\n- 위의 지침을 충분히 이해하고, 반드시 JSON 형식으로 응답\n- 프로젝트명은 회의 내용을 바탕으로 적절히 명명\n- 다른 항목은 회의 내용을 바탕으로 적절히 작성\n- 반드시 JSON 형식으로 응답\n- 반드시 \"project_name\" 필드를 포함\n- 반드시 \"core_objectives\" 배열을 포함\n- 반드시 \"core_idea\" 필드를 포함\n- 반드시 \"idea_description\" 필드를 포함\n- 반드시 \"execution_plan\" 필드를 포함\n- 반드시 \"expected_effects\" 배열을 포함\n- 반드시 \"project_manager\" 필드를 포함\n- 반드시 \"project_period\" 필드를 포함\n- 반드시 \"project_purpose\" 필드를 포함\n- 반드시 \"core_idea\" 필드를 포함\n- 반드시 \"idea_description\" 필드를 포함\n- 반드시 \"execution_plan\" 필드를 포함\n- 반드시 \"expected_effects\" 배열을 포함\n- 반드시 \"project_manager\" 필드를 포함\n- 반드시 \"project_period\" 필드를 포함\n- 반드시 \"project_purpose\" 필드를 포함\n- 반드시 \"core_idea\" 필드를 포함\n- 반드시 \"idea_description\" 필드를 포함\n- 반드시 \"execution_plan\" 필드를 포함\n- 반드시 \"expected_effects\" 배열을 포함\n\n**중요:**\n- 위의 지침을 충분히 이해하고, 반드시 JSON 형식으로 응답\n- 프로젝트명은 회의 내용을 바탕으로 적절히 명명\n- 다른 항목은 회의 내용을 바탕으로 적절히 작성\n- 반드시 JSON 형식으로 응답\n- 반드시 \"project_name\" 필드를 포함\n- 반드시 \"core_objectives\" 배열을 포함\n- 반드시 \"core_idea\" 필드를 포함\n- 반드시 \"idea_description\" 필드를 포함\n- 반드시 \"execution_plan\" 필드를 포함\n- 반드시 \"expected_effects\" 배열을 포함\n- 반드시 \"project_manager\" 필드를 포함\n- 반드시 \"project_period\" 필드를 포함\n- 반드시 \"project_purpose\" 필드를 포함\n- 반드시 \"core_idea\" 필드를 포함\n- 반드시 \"idea_description\" 필드를 포함\n- 반드시 \"execution_plan\" 필드를 포함\n- 반드시 \"expected_effects\" 배열을 포함\n- 반드시 \"project_manager\" 필드를 포함\n- 반드시 \"project_period\" 필드를 포함\n- 반드시 \"project_purpose\" 필드를 포함\n- 반드시 \"core_idea\" 필드를 포함\n- 반드시 \"idea_description\" 필드를 포함\n- 반드시 \"execution_plan\" 필드를 포함\n- 반드시 \"expected_effects\" 배열을 포함\n\n**중요:**\n- 위의 지침을 충분히 이해하고, 반드시 JSON 형식으로 응답\n- 프로젝트명은 회의 내용을 바탕으로 적절히 명명\n- 다른 항목은 회의 내용을 바탕으로 적절히 작성\n- 반드시 JSON 형식으로"
+    "project_name": "법제개정 및 농업정책 조정 프로젝트",
+    "project_purpose": "의료법 개정 및 계엄법 관련 법제개선, 농업정책 조정을 통한 법적 체계 강화 및 산업 지원 체계 구축",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "농림축산식품부장관 송미령",
+    "core_objectives": [
+      "의료법 개정안과 계엄법 관련 법제개선을 위한 체계적 검토 및 조정",
+      "한우산업 탄소중립 전환 및 농업진흥지역 재정비에 따른 정책 개선",
+      "농지 용도변경을 통한 도시화 및 농업 생산성 향상 지원 체계 구축"
+    ],
+    "core_idea": "법적 체계의 일관성과 농업 정책의 실현성 강화를 통한 사회적 문제 해결",
+    "idea_description": "의료법 개정을 통한 현행범인 관리 체계 개선과 계엄법의 법적 구속력 강화를 병행하고, 한우산업 전환을 위한 정책 지원 체계를 구축함으로써 법적·정책적 통합을 통해 사회적 문제를 체계적으로 해결하는 방안",
+    "execution_plan": [
+      {
+        "step": "1단계: 법제개선 검토",
+        "responsibility": "국회 농림축산식품해양수산위원회",
+        "timeline": "2025.01.10 ~ 2025.01.20",
+        "description": "의료법 개정안과 계엄법 관련 법제개선을 위한 전문위원 보고서 분석 및 체계적 검토"
+      },
+      {
+        "step": "2단계: 농업정책 조정",
+        "responsibility": "농림축산식품부장관",
+        "timeline": "2025.01.21 ~ 2025.02.28",
+        "description": "한우산업 전환 지원 정책과 농지 용도변경 관련 지방청과의 협의 및 실태조사 수행"
+      },
+      {
+        "step": "3단계: 정책 실행 및 모니터링",
+        "responsibility": "국회 농림축산식품해양수산위원회",
+        "timeline": "2025.02.29 ~ 2025.03.31",
+        "description": "정책 실행을 위한 지자체와의 협력 강화 및 정책 효과 모니터링 체계 구축"
+      }
+    ],
+    "expected_effects": [
+      "의료법 개정안의 법적 구속력 강화로 현행범인 관리 체계의 법적 근거 확보",
+      "한우산업 탄소중립 전환 정책의 실행 효과로 2025년도 농업 생산성 5% 향상",
+      "농지 용도변경 관련 정책으로 도시화 지역의 농업 생산성과 지역경제 활성화 30% 증가"
+    ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_제22대국회 제426회(임시회) 제2차 법제사법위원회(전체회의) (2025.07.03.)/05_final_result.json",
+    "source_file": "Raw_Data_val/result_제22대국회 제426회(임시회) 제2차 법제사법위원회(전체회의) (2025.07.03.)/05_final_result.json",
+    "utterance_count": 505,
+    "speakers": [
+      "위원장 이춘석",
+      "이성윤 위원",
+      "농림축산식품부장관 송미령",
+      "송석준 위원",
+      "국방부장관직무대행 이두희",
+      "박지원 위원",
+      "소위원장 김용민",
+      "문화체육관광부제2차관 장미란",
+      "신동욱 위원",
+      "전문위원 김성완",
+      "박준태 위원",
+      "박은정 위원",
+      "서영교 위원",
+      "김기표 위원",
+      "김용민 위원",
+      "수석전문위원 정환철",
+      "장동혁 위원",
+      "조배숙 위원",
+      "전문위원 이화실",
+      "법무부장관직무대행 이진수",
+      "전현희 위원",
+      "법원행정처장 천대엽",
+      "전문위원 이은정"
+    ],
+    "original_length": 32818,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 8
+    },
     "is_chunk": true,
     "chunk_index": 2,
-    "total_chunks": 8,
-    "processing_date": "2025-08-10T11:47:04.226791"
+    "processing_date": "2025-08-10T20:09:37.374571"
   }
 }
