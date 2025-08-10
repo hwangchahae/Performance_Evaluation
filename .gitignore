@@ -39,3 +39,4 @@ api_key.txt
 !README.md
 !config.json
 !config.example.json
+*.bak
