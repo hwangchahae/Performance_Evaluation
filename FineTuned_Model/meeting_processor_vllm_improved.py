@@ -35,10 +35,12 @@ def initialize_model():
             quantization="awq" if "AWQ" in model_path else None,
             tensor_parallel_size=1,
             max_model_len=16384,
-            gpu_memory_utilization=0.9,  # 더 높게 설정
+            gpu_memory_utilization=0.95,  # GPU 메모리 최대 활용
             trust_remote_code=True,
             enforce_eager=False,
-            max_num_seqs=256,  # 배치 처리 최적화
+            max_num_seqs=512,  # 더 많은 동시 처리
+            max_num_batched_tokens=32768,  # 배치 토큰 수 증가
+            enable_prefix_caching=True,  # 프리픽스 캐싱 활성화
         )
         
         # 토크나이저 로드
@@ -52,6 +54,8 @@ def initialize_model():
             temperature=0.2,
             max_tokens=2048,
             skip_special_tokens=True,
+            use_beam_search=False,  # 빔 서치 비활성화로 속도 개선
+            top_k=10,  # top-k 샘플링으로 속도 개선
         )
         logger.info(f"✅ 모델 초기화 완료")
 
@@ -149,7 +153,23 @@ def batch_generate_responses(prompts: List[str]) -> List[str]:
         return []
     
     logger.info(f"🚀 {len(prompts)}개 프롬프트 배치 처리 중...")
-    outputs = llm.generate(prompts, sampling_params)
+    
+    # 더 큰 배치 크기로 한 번에 처리
+    try:
+        outputs = llm.generate(prompts, sampling_params, use_tqdm=False)  # tqdm 비활성화로 속도 개선
+    except Exception as e:
+        logger.error(f"배치 생성 실패: {e}")
+        # 실패 시 작은 배치로 재시도
+        results = []
+        for i in range(0, len(prompts), 10):
+            sub_batch = prompts[i:i+10]
+            sub_outputs = llm.generate(sub_batch, sampling_params, use_tqdm=False)
+            for output in sub_outputs:
+                if output.outputs:
+                    results.append(output.outputs[0].text.strip())
+                else:
+                    results.append("{}")
+        return results
     
     results = []
     for output in outputs:
@@ -264,8 +284,8 @@ def main():
     # 설정 - 상대 경로 사용
     base_directory = "../Raw_Data_val"  # Performance_Evaluation/Raw_Data_val
     output_directory = "4B_awq_model_results_improved"  # 현재 폴더에 생성
-    batch_size = 3  # 한 번에 처리할 파일 수 (메모리 고려하여 축소)
-    max_chunks_per_batch = 30  # 배치당 최대 청크 수
+    batch_size = 10  # 한 번에 처리할 파일 수 (증가시켜 속도 개선)
+    max_chunks_per_batch = 100  # 배치당 최대 청크 수 (증가시켜 속도 개선)
     
     logger.info(f"🚀 개선된 처리 시작")
     logger.info(f"📂 입력: {base_directory}")
@@ -297,14 +317,11 @@ def main():
             logger.warning(f"⚠️ {folder_name} 파일 로드 실패, 건너뜀")
             continue
             
-        # 텍스트 결합 및 청킹 (qwen3_lora와 동일한 방식)
-        meeting_lines = []
-        for utt in utterances:
-            if utt["text"]:
-                timestamp = utt.get("timestamp", "Unknown")
-                speaker = utt.get("speaker", "Unknown")
-                text = utt["text"]
-                meeting_lines.append(f"[{timestamp}] {speaker}: {text}")
+        # 텍스트 결합 및 청킹 (qwen3_lora와 동일한 방식) - 리스트 컴프리헨션으로 최적화
+        meeting_lines = [
+            f"[{utt.get('timestamp', 'Unknown')}] {utt.get('speaker', 'Unknown')}: {utt['text']}"
+            for utt in utterances if utt.get("text")
+        ]
         full_text = "\n".join(meeting_lines)
         chunks = chunk_text(full_text, chunk_size=5000, overlap=512)
         
