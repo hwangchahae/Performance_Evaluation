@@ -1,0 +1,135 @@
+================================================================================
+COMPREHENSIVE PERFORMANCE EVALUATION REPORT
+================================================================================
+
+Generated: 2025-08-11 09:47:40
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Best performing model: 4B
+Maximum improvement: 0.49% (Embedding)
+Average TF-IDF improvement: 25.20%
+Average Embedding improvement: 0.40%
+
+================================================================================
+DETAILED RESULTS BY MODEL
+================================================================================
+
+1.7B Model
+----------------------------------------
+TF-IDF Cosine Similarity:
+  Pre-training:  0.1878
+  Fine-tuning:   0.1912
+  Improvement:   0.0034 (1.81%)
+
+Embedding Cosine Similarity:
+  Pre-training:  0.9002
+  Fine-tuning:   0.9024
+  Improvement:   0.0022 (0.25%)
+
+✓ Positive improvement - Fine-tuning somewhat effective
+
+4B Model
+----------------------------------------
+TF-IDF Cosine Similarity:
+  Pre-training:  0.2086
+  Fine-tuning:   0.2847
+  Improvement:   0.0761 (36.50%)
+
+Embedding Cosine Similarity:
+  Pre-training:  0.9115
+  Fine-tuning:   0.9159
+  Improvement:   0.0045 (0.49%)
+
+✓ Positive improvement - Fine-tuning somewhat effective
+
+8B Model
+----------------------------------------
+TF-IDF Cosine Similarity:
+  Pre-training:  0.2108
+  Fine-tuning:   0.2895
+  Improvement:   0.0786 (37.30%)
+
+Embedding Cosine Similarity:
+  Pre-training:  0.9178
+  Fine-tuning:   0.9219
+  Improvement:   0.0042 (0.45%)
+
+✓ Positive improvement - Fine-tuning somewhat effective
+
+================================================================================
+STATISTICAL SUMMARY
+================================================================================
+
+1.7B Model Statistics:
+  Pre-training:
+    Mean: 0.9002
+    Std:  0.0329
+    Min:  0.7962
+    Max:  0.9535
+  Fine-tuning:
+    Mean: 0.9024
+    Std:  0.0435
+    Min:  0.7874
+    Max:  0.9674
+
+4B Model Statistics:
+  Pre-training:
+    Mean: 0.9115
+    Std:  0.0378
+    Min:  0.7816
+    Max:  0.9606
+  Fine-tuning:
+    Mean: 0.9159
+    Std:  0.0406
+    Min:  0.8051
+    Max:  0.9776
+
+8B Model Statistics:
+  Pre-training:
+    Mean: 0.9178
+    Std:  0.0336
+    Min:  0.8245
+    Max:  0.9683
+  Fine-tuning:
+    Mean: 0.9219
+    Std:  0.0373
+    Min:  0.8010
+    Max:  0.9826
+
+================================================================================
+KEY FINDINGS
+================================================================================
+
+1.7B Model - Top Performing Samples (Fine-tuned):
+  1. val_023_result_제22대국회 제427회(임시회) 제1차 행정안전위원회(법안심사제1소위원회) (2025.07.08.)_chunk_13
+     Embedding: 0.9674
+     TF-IDF: 0.3151
+  2. val_043_result_ES2007d_chunk_2
+     Embedding: 0.9577
+     TF-IDF: 0.1586
+  3. val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_23
+     Embedding: 0.9573
+     TF-IDF: 0.1418
+
+1.7B Model - Lowest Performing Samples (Fine-tuned):
+  1. val_029_result_Bed016_chunk_1
+     Embedding: 0.8052
+     TF-IDF: 0.0604
+  2. val_047_result_제22대국회 제427회(임시회) 제2차 산업통상자원중소벤처기업위원회(전체회의) (2025.07.15.)_chunk_3
+     Embedding: 0.7886
+     TF-IDF: 0.0378
+  3. val_064_result_제22대국회 제427회(임시회) 제2차 외교통일위원회(전체회의) (2025.07.14.)_chunk_20
+     Embedding: 0.7874
+     TF-IDF: 0.0513
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+⚠ Fine-tuning shows mixed results
+• Review training data quality and diversity
+• Consider adjusting hyperparameters
+
+Recommended model for deployment: 8B
+  Combined score: 0.6057

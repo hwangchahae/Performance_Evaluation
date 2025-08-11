@@ -10,7 +10,10 @@
       "Bash(dir:*)",
       "Bash(claude config set:*)",
       "Bash(git checkout:*)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(start cmd /k:*)",
+      "Bash(start http://localhost:5000)",
+      "Bash(start C:UsersPlaydataDesktopPerformance_Evaluationdashboard.html)"
     ],
     "deny": []
   }

@@ -2,62 +2,69 @@
   "id": "result_Bro003_chunk_3",
   "source_dir": "result_Bro003",
   "notion_output": {
-    "project_name": "큐브 테스트 시스템 개발",
-    "project_purpose": "데이터 처리 및 테스트 기능을 통한 효율적인 훈련 및 평가 시스템 구축",
-    "project_period": "2025년 3월 ~ 2025년 6월",
-    "project_manager": "김철수",
+    "project_name": "데이터 처리 및 훈련 프로젝트",
+    "project_purpose": "대규모 데이터셋을 효율적으로 처리하고, 훈련 및 테스트 과정에서의 정확도를 높이기 위한 기술적 구현",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_C",
     "core_objectives": [
-      "데이터베이스에서 라벨을 적용하여 테스트 데이터를 분류",
-      "전화기 및 기타 장치의 훈련 데이터를 처리하고 테스트를 수행",
-      "큐브 기반의 훈련 및 평가 시스템을 구축"
+      "대규모 데이터셋의 구조화된 처리 및 라벨 변환 기술 적용",
+      "훈련 데이터와 테스트 데이터의 차원별 분리 및 노이즈 처리",
+      "데이터 백업 시스템 구축 및 배터리 관리 기술 개발"
     ],
-    "core_idea": "큐브 기반의 훈련 및 평가 시스템을 구축하여 데이터 처리 및 테스트 기능을 통한 효율적인 훈련 및 평가를 지원",
-    "idea_description": "회 의 논의 내용을 바탕으로, 훈련 데이터를 큐브에 적용하여 테스트를 수행하고, 데이터베이스에서 라벨을 적용하여 테스트 데이터를 분류하는 방식을 도입하여 훈련 및 평가 시스템을 개선하고, 훈련 데이터의 처리 효율성을 높이기 위한 프로젝트를 진행합니다.",
+    "core_idea": "데이터 큐브 기반의 분산 처리와 라벨 변환을 통한 훈련 효율성 향상",
+    "idea_description": "데이터 큐브를 통해 훈련 데이터와 테스트 데이터의 차원별 분리 및 노이즈 처리를 수행하며, 라벨 변환을 통해 데이터의 구조적 특징을 추출합니다. 이 과정에서 대규모 데이터셋의 처리 속도를 최적화하고, 훈련 정확도를 높이는 동시에 데이터 백업 시스템을 구축하여 장기적인 데이터 관리 가능성을 확보합니다.",
     "execution_plan": [
       {
-        "phase": "설계 및 준비",
-        "tasks": [
-          "데이터베이스 설계 및 라벨링 규칙 정의",
-          "큐브 기반 훈련 시스템 구축 계획 수립",
-          "필요한 리소스 및 인력 확보"
-        ]
+        "step": "1. 데이터 큐브 구축 및 라벨 변환 기술 개발",
+        "deadline": "2025.01.15",
+        "responsible_party": "Speaker_C, Speaker_D",
+        "action": "데이터 큐브 구조 설계 및 라벨 변환 알고리즘 구현"
       },
       {
-        "phase": "데이터 수집 및 처리",
-        "tasks": [
-          "훈련 데이터 및 테스트 데이터 수집",
-          "데이터 전처리 및 라벨링",
-          "데이터베이스에 라벨을 적용"
-        ]
+        "step": "2. 훈련 및 테스트 데이터 분리 및 노이즈 처리",
+        "deadline": "2025.01.30",
+        "responsible_party": "Speaker_G, Speaker_B",
+        "action": "데이터 차원별 분리 및 노이즈 제거 기술 적용"
       },
       {
-        "phase": "시스템 구축 및 테스트",
-        "tasks": [
-          "큐브 기반 훈련 시스템 구축",
-          "테스트 데이터의 분류 및 처리",
-          "시스템 테스트 및 최적화"
-        ]
+        "step": "3. 데이터 백업 시스템 구축 및 배터리 관리",
+        "deadline": "2025.02.15",
+        "responsible_party": "Speaker_D, Speaker_E",
+        "action": "디스크 백업 시스템 개발 및 배터리 교체 절차 정의"
       },
       {
-        "phase": "배포 및 운영",
-        "tasks": [
-          "시스템 배포 및 초기 운영",
-          "사용자 교육 및 문서화",
-          "연속적인 유지보수 및 업데이트"
-        ]
+        "step": "4. 테스트 및 성능 평가",
+        "deadline": "2025.03.01",
+        "responsible_party": "Speaker_C, Speaker_F",
+        "action": "데이터 처리 효율성 및 훈련 정확도 평가"
       }
     ],
     "expected_effects": [
-      "데이터 처리 속도 향상: 훈련 데이터 처리 시간 감소",
-      "테스트 정확도 향상: 테스트 데이터 분류 정확도 증가",
-      "시스템 효율성 향상: 큐브 기반 훈련 시스템의 안정성 및 성능 개선"
+      "데이터 처리 시간 단축: 30% 이상 개선",
+      "훈련 정확도 향상: 20% 이상 증가",
+      "데이터 백업 시스템 구축 완료: 100% 확보",
+      "배터리 수명 연장: 20% 이상 개선"
     ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_Bro003/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bro003/05_final_result.json",
+    "utterance_count": 746,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_E"
+    ],
+    "original_length": 25793,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
     "is_chunk": true,
     "chunk_index": 3,
-    "total_chunks": 6,
-    "processing_date": "2025-08-10T11:34:29.879727"
+    "processing_date": "2025-08-10T22:43:17.530518"
   }
 }

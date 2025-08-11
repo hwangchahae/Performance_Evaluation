@@ -1,0 +1,44 @@
+{
+  "1.7B": {
+    "tfidf": {
+      "pre": 0.18781662555755677,
+      "post": 0.19122475972330436,
+      "absolute_improvement": 0.0034081341657475894,
+      "relative_improvement": 1.8146072828377806
+    },
+    "embedding": {
+      "pre": 0.9001819233600404,
+      "post": 0.902428681426342,
+      "absolute_improvement": 0.0022467580663015907,
+      "relative_improvement": 0.24958933388878643
+    }
+  },
+  "4B": {
+    "tfidf": {
+      "pre": 0.20858989063866404,
+      "post": 0.28471781149030123,
+      "absolute_improvement": 0.07612792085163719,
+      "relative_improvement": 36.49645753135372
+    },
+    "embedding": {
+      "pre": 0.9114673931206818,
+      "post": 0.9159219946357712,
+      "absolute_improvement": 0.0044546015150893625,
+      "relative_improvement": 0.4887285654660337
+    }
+  },
+  "8B": {
+    "tfidf": {
+      "pre": 0.2108381245280397,
+      "post": 0.28947353615157095,
+      "absolute_improvement": 0.07863541162353124,
+      "relative_improvement": 37.2965808719634
+    },
+    "embedding": {
+      "pre": 0.9177847003955028,
+      "post": 0.9219355707538297,
+      "absolute_improvement": 0.004150870358326952,
+      "relative_improvement": 0.45227059859880103
+    }
+  }
+}

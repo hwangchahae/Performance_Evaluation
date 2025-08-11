@@ -2,36 +2,40 @@
   "id": "result_IS1001b_chunk_1",
   "source_dir": "result_IS1001b",
   "notion_output": {
-    "project_name": "스마트 리모컨 개발 프로젝트",
-    "project_purpose": "사용자 친화적인 리모컨을 개발하여 사용자 경험을 개선하고, 다양한 기기와의 호환성을 높임",
-    "project_period": "3개월",
-    "project_manager": "김지현",
+    "project_name": "스마트 리모컨 UX 개선 프로젝트",
+    "project_purpose": "사용자 경험 개선을 위한 간단하고 직관적인 리모컨 디자인 개발",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
     "core_objectives": [
-      "사용자 친화적인 인터페이스 설계",
-      "다양한 기기와의 호환성 확보",
-      "사용자 피드백 반영 및 개선"
+      "현재 리모컨의 복잡한 버튼 배열을 단순화하여 사용자 편의성 향상",
+      "TV 및 컴퓨터 장비 연동 기능 통합 개발",
+      "15~25세 사용자 중심의 직관적 UI/UX 설계 완료"
     ],
-    "core_idea": "사용자 중심의 인터페이스와 기기 호환성을 기반으로 한 스마트 리모컨 개발",
-    "idea_description": "사용자들이 쉽게 사용할 수 있도록 직관적인 인터페이스와 다양한 기기와의 호환성을 갖춘 리모컨을 개발",
-    "execution_plan": "1) 사용자 조사 및 피드백 수집, 2) 기능 및 디자인 설계, 3) 개발 및 테스트, 4) 최종 제품 출시",
+    "core_idea": "사용자 피로도를 줄이기 위한 직관적 버튼 배치와 선형/무작위 접근 기능을 결합한 리모컨",
+    "idea_description": "현존하는 리모컨의 복잡성을 해결하기 위해 표준 버튼 1개로 핵심 기능(채널/볼륨)을 구현하고, 사용자 인터페이스를 단순화하여 모든 연령층 사용 가능하도록 설계. 100명 대상 사용성 연구 결과 반영.",
+    "execution_plan": "1. 1월: 사용자 요구 사항 분석 및 기능 정의 (1~15일)\n2. 2월: UI/UX 디자인 개발 및 프로토타이핑 (16~25일)\n3. 3월: 개발 및 테스트 (26~31일)",
     "expected_effects": [
-      "사용자 만족도 30% 상승",
-      "호환 기기 수 50종 이상 확보",
-      "시장 공략 성공"
+      "사용자 피로도 40% 감소 (사용성 연구 결과 기준)",
+      "15~25세 사용자 대상 80% 이상의 제품 만족도 달성",
+      "리모컨 기능 복잡도 50% 감소 (버튼 수 및 사용 편의성 기준)"
     ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_IS1001b/05_final_result.json",
+    "source_file": "Raw_Data_val/result_IS1001b/05_final_result.json",
     "utterance_count": 276,
     "speakers": [
+      "Speaker_A",
       "Speaker_D",
       "Speaker_C",
-      "Speaker_B",
-      "Speaker_A"
+      "Speaker_B"
     ],
     "original_length": 9187,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
     "is_chunk": true,
     "chunk_index": 1,
-    "processing_date": "2025-08-10T16:15:03.411601"
+    "processing_date": "2025-08-10T22:11:35.363739"
   }
 }

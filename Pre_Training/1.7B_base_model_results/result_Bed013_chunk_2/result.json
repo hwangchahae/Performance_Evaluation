@@ -2,13 +2,73 @@
   "id": "result_Bed013_chunk_2",
   "source_dir": "result_Bed013",
   "notion_output": {
-    "raw_text": "**주의 사항:**\n- JSON 형식을 따르기 위해, 모든 필드는 반드시 포함되어야 합니다.\n- 프로젝트명, 목적, 목표, 실행 계획, 기대 효과는 반드시 포함되어야 합니다.\n- 프로젝트명은 회의 내용을 바탕으로 적절히 명명\n- 프로젝트명은 영어로 작성\n- JSON 형식을 사용하여 응답해야 합니다.\n- 프로젝트명은 \"Project Name\"으로 시작해야 합니다.\n- 프로젝트명은 중복되지 않으며, 유니크해야 합니다.\n- 프로젝트명은 회의 내용을 반영해야 합니다.\n- 프로젝트명은 최대 100자 까지 가능합니다.\n- 프로젝트명은 공백 없이 작성해야 합니다.\n- 프로젝트명은 \"Project Name\"으로 시작해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description\" 형식으로 작성해야 합니다.\n- 프로젝트명은 \"Project Name\" + \" \" + \"Project Description"
+    "project_name": "국제 학회 논문 작성 프로젝트",
+    "project_purpose": "국제 학회에 제출할 논문을 작성하고 분석을 수행하여 연구 결과를 체계적으로 전달하기 위한 프로젝트",
+    "project_period": "2025.06.01 ~ 2025.06.15",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "논문의 구조와 내용을 체계적으로 정리하고 분석 수행",
+      "국제 학회에 제출할 논문을 6월 15일 기한 내 완성",
+      "논문의 형식 및 표준을 맞추기 위한 수정 및 정리"
+    ],
+    "core_idea": "논문 작성은 연구 내용의 분석과 기술적 표현을 통해 국제 학회에 효과적으로 전달하는 것이 핵심입니다. 주요 내용은 연구 문제, 분석 방법, 결과 및 결론으로 구성되며, 형식은 TeX 스타일을 사용하여 정확한 표기와 정리가 필요합니다.",
+    "idea_description": "논문은 4페이지 내외의 구조로 구성되며, 연구 문제를 제시하고 분석을 수행한 후 결과를 정리하는 방식으로 작성됩니다. 형식은 TeX 스타일을 사용하여 수식과 참고문헌을 정확히 표기하고, ASCII 기반의 형식은 수정하여 기술적 정확도를 확보합니다. 연구 내용은 Speaker_C와 Speaker_E가 주도하며, Speaker_D와 Speaker_A가 내용 검토 및 수정을 담당합니다.",
+    "execution_plan": [
+      {
+        "step": "연구 내용 정리",
+        "responsibility": "Speaker_C, Speaker_D",
+        "deadline": "2025.05.31",
+        "status": "완료"
+      },
+      {
+        "step": "논문 구조 설계",
+        "responsibility": "Speaker_E, Speaker_A",
+        "deadline": "2025.06.01",
+        "status": "완료"
+      },
+      {
+        "step": "논문 작성",
+        "responsibility": "Speaker_C, Speaker_E",
+        "deadline": "2025.06.15",
+        "status": "진행 중"
+      },
+      {
+        "step": "논문 수정 및 정리",
+        "responsibility": "Speaker_D, Speaker_A",
+        "deadline": "2025.06.15",
+        "status": "완료"
+      },
+      {
+        "step": "형식 검토 및 수정",
+        "responsibility": "Speaker_E",
+        "deadline": "2025.06.15",
+        "status": "진행 중"
+      }
+    ],
+    "expected_effects": [
+      "논문이 6월 15일 기한 내 완성 및 제출",
+      "논문 형식이 TeX 스타일을 준수한 정확한 표기 및 수식을 포함",
+      "연구 내용의 분석과 기술적 표현이 국제 학회에 효과적으로 전달됨",
+      "논문의 수식 및 참고문헌이 정확하고 체계적으로 구성됨"
+    ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_Bed013/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bed013/05_final_result.json",
+    "utterance_count": 744,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_E"
+    ],
+    "original_length": 24608,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
     "is_chunk": true,
     "chunk_index": 2,
-    "total_chunks": 6,
-    "processing_date": "2025-08-10T11:34:30.054114"
+    "processing_date": "2025-08-10T22:45:05.713197"
   }
 }

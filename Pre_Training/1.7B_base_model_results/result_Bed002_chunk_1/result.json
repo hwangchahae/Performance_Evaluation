@@ -2,13 +2,55 @@
   "id": "result_Bed002_chunk_1",
   "source_dir": "result_Bed002",
   "notion_output": {
-    "raw_text": "**주의 사항:**\n- JSON 형식을 따르기 위해, 모든 필드는 반드시 존재해야 합니다.\n- 프로젝트명은 회의 내용을 바탕으로 적절히 명명\n- 프로젝트명은 반드시 \"Meeting Recorder\" 또는 \"Meeting Recorder Project\" 또는 \"Meeting Recorder\"로 시작해야 합니다.\n- 프로젝트명은 최대 200자까지 포함 가능합니다.\n- 프로젝트명은 반드시 한국어로 작성되어야 합니다.\n- 프로젝트명은 중복되지 않아야 합니다.\n- 프로젝트명은 프로젝트의 핵심 내용을 반영해야 합니다.\n- 프로젝트명은 반드시 \"Meeting Recorder\" 또는 \"Meeting Recorder Project\" 또는 \"Meeting Recorder\"로 시작해야 합니다.\n- 프로젝트명은 최대 200자까지 포함 가능합니다.\n- 프로젝트명은 반드시 한국어로 작성되어야 합니다.\n- 프로젝트명은 중복되지 않아야 합니다.\n- 프로젝트명은 프로젝트의 핵심 내용을 반영해야 합니다.\n- 프로젝트명은 반드시 \"Meeting Recorder\" 또는 \"Meeting Recorder Project\" 또는 \"Meeting Recorder\"로 시작해야 합니다.\n- 프로젝트명은 최대 200자까지 포함 가능합니다.\n- 프로젝트명은 반드시 한국어로 작성되어야 합니다.\n- 프로젝트명은 중복되지 않아야 합니다.\n- 프로젝트명은 프로젝트의 핵심 내용을 반영해야 합니다.\n- 프로젝트명은 반드시 \"Meeting Recorder\" 또는 \"Meeting Recorder Project\" 또는 \"Meeting Recorder\"로 시작해야 합니다.\n- 프로젝트명은 최대 200자까지 포함 가능합니다.\n- 프로젝트명은 반드시 한국어로 작성되어야 합니다.\n- 프로젝트명은 중복되지 않아야 합니다.\n- 프로젝트명은 프로젝트의 핵심 내용을 반영해야 합니다.\n- 프로젝트명은 반드시 \"Meeting Recorder\" 또는 \"Meeting Recorder Project\" 또는 \"Meeting Recorder\"로 시작해야 합니다.\n- 프로젝트명은 최대 200자까지 포함 가능합니다.\n- 프로젝트명은 반드시 한국어로 작성되어야 합니다.\n- 프로젝트명은 중복되지 않아야 합니다.\n- 프로젝트명은 프로젝트의 핵심 내용을 반영해야 합니다.\n- 프로젝트명은 반드시 \"Meeting Recorder\" 또는 \"Meeting Recorder Project\" 또는 \"Meeting Recorder\"로 시작해야 합니다.\n- 프로젝트명은 최대 200자까지 포함 가능합니다.\n- 프로젝트명은 반드시 한국어로 작성되어야 합니다.\n- 프로젝트명은 중복되지 않아야 합니다.\n- 프로젝트명은 프로젝트의 핵심 내용을 반영해야 합니다.\n- 프로젝트명은 반드시 \"Meeting Recorder\" 또는 \"Meeting Recorder Project\" 또는 \"Meeting Recorder\"로 시작해야 합니다.\n- 프로젝트명은 최대 200자까지 포함 가능합니다.\n- 프로젝트명은 반드시 한국어로 작성되어야 합니다.\n- 프로젝트명은 중복되지 않아야 합니다.\n- 프로젝트명은 프로젝트의 핵심 내용을 반영해야 합니다.\n- 프로젝트명은 반드시 \"Meeting Recorder\" 또는 \"Meeting Recorder Project\" 또는 \"Meeting Recorder\"로 시작해야 합니다.\n- 프로젝트명은 최대 200자까지 포함 가능합니다.\n- 프로젝트명은 반드시 한국어로 작성되어야 합니다.\n- 프로젝트명은 중복되지 않아야 합니다.\n- 프로젝트명은 프로젝트의 핵심 내용을 반영해야 합니다.\n- 프로젝트명은 반드시 \"Meeting Recorder\" 또는 \"Meeting Recorder Project\" 또는 \"Meeting Recorder\"로 시작해야 합니다.\n- 프로젝트명은 최대 200자까지 포함 가능합니다.\n- 프로젝트명은 반드시 한국어로 작성되어야 합니다.\n- 프로젝트명은 중복되지 않아야 합니다.\n- 프로젝트명은 프로젝트의 핵심 내용을 반영해야 합니다.\n- 프로젝트명은 반드시 \"Meeting Recorder\" 또는 \"Meeting Recorder Project\" 또는 \"Meeting Recorder\"로 시작해야 합니다.\n- 프로젝트명은 최대 200자까지 포함 가능합니다.\n- 프로젝트명은 반드시 한국어로 작성되어야 합니다.\n- 프로젝트명은 중복되지 않아야 합니다."
+    "project_name": "Meeting Recorder",
+    "project_purpose": "회원들의 회의 기록을 휴대용 장치로 기록하고, 정보 검색 및 공개 가능하게 하는 기술적 시스템 개발",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "회의 기록을 휴대용 PDA로 실시간 기록 및 저장",
+      "회원의 익명성 보장 및 정보 접근성 확보",
+      "회의 내용을 편집 가능한 양식으로 제공"
+    ],
+    "core_idea": "회의 기록을 실시간으로 휴대용 장치에 기록하고, 이후 회의에서 검색 및 편집 가능한 형식으로 제공하는 기술적 시스템",
+    "idea_description": "1. 무선 마이크와 TI-digits 기반의 데이터 수집 시스템 구축\n2. 회의 내용을 익명 처리하고, 편집 가능한 양식으로 제공하는 기록 기능\n3. PDA에 기록된 데이터를 실시간으로 보여주는 화면 기반 시스템 개발\n4. 회의 기록을 대중에게 공개할 수 있는 암호화 기술 적용",
+    "execution_plan": [
+      {
+        "step": "1. 기술적 기반 구축",
+        "details": "무선 마이크와 TI-digits 기반의 데이터 수집 시스템 설계 및 테스트, PDA와의 통신 시스템 구축"
+      },
+      {
+        "step": "2. 기록 및 편집 기능 개발",
+        "details": "회의 내용을 익명 처리하고, 편집 가능한 양식으로 기록, 회의 기록을 편집 가능한 형식으로 제공"
+      },
+      {
+        "step": "3. 시스템 테스트 및 최적화",
+        "details": "실제 회의를 기록하고, 편집 및 검색 기능 테스트, 사용자 피드백을 바탕으로 최적화"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 회의 기록을 휴대용 PDA로 실시간 기록 및 저장",
+      "기대효과 2: 회의 내용을 익명 처리하고, 편집 가능한 양식으로 제공",
+      "기대효과 3: 회의 기록을 대중에게 공개할 수 있는 암호화 기술 적용"
+    ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_Bed002/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bed002/05_final_result.json",
+    "utterance_count": 656,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_E"
+    ],
+    "original_length": 24390,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
     "is_chunk": true,
     "chunk_index": 1,
-    "total_chunks": 6,
-    "processing_date": "2025-08-10T11:34:30.117085"
+    "processing_date": "2025-08-10T22:45:52.914706"
   }
 }

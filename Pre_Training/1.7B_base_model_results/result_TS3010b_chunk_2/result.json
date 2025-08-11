@@ -2,54 +2,71 @@
   "id": "result_TS3010b_chunk_2",
   "source_dir": "result_TS3010b",
   "notion_output": {
-    "project_name": "TV 텔레텍스트 사용성 개선 프로젝트",
-    "project_purpose": "텔레텍스트 기기의 사용성을 향상시키고, 다양한 사용자층(젊은 세대와 노인)의 요구사항을 충족시키기 위해 기능 및 디자인 개선을 목표로 합니다.",
-    "project_period": "2025년 1월 ~ 2025년 6월",
-    "project_manager": "김철수",
+    "project_name": "TV Remote Control Usability Enhancement Project",
+    "project_purpose": "고령층과 젊은층을 대상으로 한 텔레비전 리모컨의 사용성 개선을 위한 프로젝트를 수행하여, 기능성과 디자인의 균형을 맞추고, 사용자 경험을 향상시키는 데 기여",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
     "core_objectives": [
-      "텔레텍스트 기기의 사용성을 향상시키기 위한 디자인 개선을 수행",
-      "젊은 세대와 노인 사용자의 요구사항을 반영한 기능 개선을 도출",
-      "사용성 랩 테스트 결과를 바탕으로 최적화된 제품 설계를 완료"
+      "리모컨 디자인 개선: LCD 화면과 사용자 친화적인 버튼 배치 구축",
+      "다양한 사용자 그룹에 대한 사용성 테스트 수행",
+      "비용과 사용성 간 균형을 맞춘 제품 개발"
     ],
-    "core_idea": "텔레텍스트 기기의 리모컨 디자인 개선 및 사용성 향상을 위한 혁신적 접근법을 적용",
-    "idea_description": "텔레텍스트 기기의 리모컨 디자인은 사용성과 편의성을 높이는 데 중요한 요소입니다. 젊은 세대는 기능에 집중하며, 노인 사용자는 디자인의 편리함을 중시합니다. 따라서, 리모컨의 디자인을 개선하고, 사용자가 쉽게 접근할 수 있는 기능을 제공하는 것이 핵심입니다. 또한, 사용성 랩 테스트를 통해 실제 사용자들의 요구사항을 반영하여 최적화된 제품 설계를 도출할 계획입니다.",
+    "core_idea": "다양한 사용자 그룹(젊은층, 고령층)에 맞춘 리모컨 디자인 개선을 통해 기능성과 사용성의 균형을 맞추고, 사용자 만족도를 높이는 제품 개발",
+    "idea_description": "고령층은 리모컨의 디자인과 사용성에 더 민감하며, 젊은층은 기능성에 집중해야 함. LCD 화면과 버튼 수를 최적화하여 사용성을 향상시키고, 비용을 줄이는 동시에 사용자 친화적인 제품을 개발. 사용자 테스트를 통해 디자인과 기능의 조화를 도출.",
     "execution_plan": [
       {
-        "phase": "설계 및 연구",
-        "activities": [
-          "사용성 랩 테스트를 수행하여 사용자들의 요구사항을 파악",
-          "텔레텍스트 기기의 기능 및 디자인 분석을 진행",
-          "젊은 세대와 노인 사용자들의 요구사항을 정리"
-        ]
+        "task": "리모컨 디자인 연구 및 개념 설계",
+        "deadline": "2025.01.15",
+        "responsible_party": "Speaker_A, Speaker_D",
+        "status": "완료"
       },
       {
-        "phase": "디자인 개선",
-        "activities": [
-          "리모컨 디자인 개선을 위한 기능 재구성",
-          "사용자 친화적인 버튼 배치 및 색상 조정",
-          "사용성 랩 테스트 결과를 반영한 디자인 최적화"
-        ]
+        "task": "다양한 사용자 그룹의 사용성 테스트 수행",
+        "deadline": "2025.02.01",
+        "responsible_party": "Speaker_D",
+        "status": "진행 중"
       },
       {
-        "phase": "개발 및 테스트",
-        "activities": [
-          "디자인된 리모컨 기능을 기반으로 제품 개발",
-          "테스트 환경에서 사용성 테스트를 수행",
-          "테스트 결과를 바탕으로 개선사항을 반영한 최종 제품 제작"
-        ]
+        "task": "테스트 결과 분석 및 디자인 개선",
+        "deadline": "2025.02.15",
+        "responsible_party": "Speaker_D",
+        "status": "진행 중"
+      },
+      {
+        "task": "최종 제품 개발 및 테스트",
+        "deadline": "2025.03.01",
+        "responsible_party": "Speaker_A, Speaker_D",
+        "status": "진행 중"
+      },
+      {
+        "task": "테스트 결과 요약 및 보고서 작성",
+        "deadline": "2025.03.15",
+        "responsible_party": "Speaker_A",
+        "status": "완료"
       }
     ],
     "expected_effects": [
-      "사용성 랩 테스트 결과를 바탕으로 사용자 친화적인 디자인 개선",
-      "텔레텍스트 기기의 사용자 만족도 향상",
-      "젊은 세대와 노인 사용자들의 요구사항을 반영한 기능 확장"
+      "기대효과 1: 100명 이상의 사용자 테스트를 통해 디자인 개선 사항을 80% 이상 반영",
+      "기대효과 2: 고령층과 젊은층 모두의 사용성 향상으로 20% 이상의 판매량 증가",
+      "기대효과 3: 비용 절감 15%를 달성하여 제품의 경쟁력 강화"
     ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_TS3010b/05_final_result.json",
+    "source_file": "Raw_Data_val/result_TS3010b/05_final_result.json",
+    "utterance_count": 218,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D"
+    ],
+    "original_length": 7553,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
     "is_chunk": true,
     "chunk_index": 2,
-    "total_chunks": 2,
-    "processing_date": "2025-08-10T11:34:29.566396"
+    "processing_date": "2025-08-10T22:38:36.227698"
   }
 }

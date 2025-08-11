@@ -2,13 +2,71 @@
   "id": "result_Bed010_chunk_6",
   "source_dir": "result_Bed010",
   "notion_output": {
-    "raw_text": "**주의 사항:**\n- JSON 형식을 따르기 위해 각 필드는 반드시 문자열 타입으로 작성해야 합니다.\n- 모든 필드는 필수 필드로 설정되어야 합니다.\n- 프로젝트명은 회의 내용을 바탕으로 적절히 명명\n- 프로젝트명은 반드시 \"Deep Map\" 또는 \"Deep Map Project\" 또는 \"Deep Map 프로젝트\"로 시작해야 합니다.\n- 프로젝트명은 최대 100자까지 입력 가능합니다.\n- 프로젝트명은 한글 및 영어 혼합 가능\n- 프로젝트명은 반드시 \"Deep Map\" 또는 \"Deep Map Project\" 또는 \"Deep Map 프로젝트\"로 시작해야 합니다.\n- 프로젝트명은 최대 100자까지 입력 가능합니다.\n- 프로젝트명은 한글 및 영어 혼합 가능\n- 프로젝트명은 반드시 \"Deep Map\" 또는 \"Deep Map Project\" 또는 \"Deep Map 프로젝트\"로 시작해야 합니다.\n- 프로젝트명은 최대 100자까지 입력 가능합니다.\n- 프로젝트명은 한글 및 영어 혼합 가능\n- 프로젝트명은 반드시 \"Deep Map\" 또는 \"Deep Map Project\" 또는 \"Deep Map 프로젝트\"로 시작해야 합니다.\n- 프로젝트명은 최대 100자까지 입력 가능합니다.\n- 프로젝트명은 한글 및 영어 혼합 가능\n- 프로젝트명은 반드시 \"Deep Map\" 또는 \"Deep Map Project\" 또는 \"Deep Map 프로젝트\"로 시작해야 합니다.\n- 프로젝트명은 최대 100자까지 입력 가능합니다.\n- 프로젝트명은 한글 및 영어 혼합 가능\n- 프로젝트명은 반드시 \"Deep Map\" 또는 \"Deep Map Project\" 또는 \"Deep Map 프로젝트\"로 시작해야 합니다.\n- 프로젝트명은 최대 100자까지 입력 가능합니다.\n- 프로젝트명은 한글 및 영어 혼합 가능\n- 프로젝트명은 반드시 \"Deep Map\" 또는 \"Deep Map Project\" 또는 \"Deep Map 프로젝트\"로 시작해야 합니다.\n- 프로젝트명은 최대 100자까지 입력 가능합니다.\n- 프로젝트명은 한글 및 영어 혼합 가능\n- 프로젝트명은 반드시 \"Deep Map\" 또는 \"Deep Map Project\" 또는 \"Deep Map 프로젝트\"로 시작해야 합니다.\n- 프로젝트명은 최대 100자까지 입력 가능합니다.\n- 프로젝트명은 한글 및 영어 혼합 가능\n- 프로젝트명은 반드시 \"Deep Map\" 또는 \"Deep Map Project\" 또는 \"Deep Map 프로젝트\"로 시작해야 합니다.\n- 프로젝트명은 최대 100자까지 입력 가능합니다.\n- 프로젝트명은 한글 및 영어 혼합 가능\n- 프로젝트명은 반드시 \"Deep Map\" 또는 \"Deep Map Project\" 또는 \"Deep Map 프로젝트\"로 시작해야 합니다.\n- 프로젝트명은 최대 100자까지 입력 가능합니다.\n- 프로젝트명은 한글 및 영어 혼합 가능\n- 프로젝트명은 반드시 \"Deep Map\" 또는 \"Deep Map Project\" 또는 \"Deep Map 프로젝트\"로 시작해야 합니다.\n- 프로젝트명은 최대 100자까지 입력 가능합니다.\n- 프로젝트명은 한글 및 영어 혼합 가능\n- 프로젝트명은 반드시 \"Deep Map\" 또는 \"Deep Map Project\" 또는 \"Deep Map 프로젝트\"로 시작해야 합니다.\n- 프로젝트명은 최대 100자까지 입력 가능합니다.\n- 프로젝트명은 한글 및 영어 혼합 가능\n- 프로젝트명은 반드시 \"Deep Map\" 또는 \"Deep Map Project\" 또는 \"Deep Map 프로젝트\"로 시작해야 합니다.\n- 프로젝트명은 최대 100자까지 입력 가능합니다.\n- 프로젝트명은 한글 및 영어 혼합 가능\n- 프로젝트명은 반드시 \"Deep Map\" 또는 \"Deep Map Project\" 또는 \"Deep Map 프로젝트\"로 시작해야 합니다.\n- 프로젝트명은 최대 100자까지 입력 가능합니다.\n- 프로젝트명은 한글 및 영어 혼합 가능\n- 프로젝트명"
+    "project_name": "DeepMap Spatial Cognitive Mapping Project",
+    "project_purpose": "세계적 지도와 공간 묘사를 기반으로 인지 지도를 구축하고, 다국어로 확장하여 공간적 관계를 체계적으로 이해하는 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "세계적 지도와 공간 묘사를 기반으로 인지 지도를 구축",
+      "독일어, 영어, 일본어 3개 언어로 확장된 공간 묘사 프로젝트 개발",
+      "공간 묘사의 차이점과 구조를 분석하여 체계적인 전치사 구조 설계"
+    ],
+    "core_idea": "세계적 지도와 공간 묘사를 기반으로 인지 지도를 구축하고, 다국어로 확장하여 공간적 관계를 체계적으로 이해하는 프로젝트",
+    "idea_description": "이 프로젝트는 'Deep Map'이라는 기존 프로젝트를 기반으로, 공간 묘사 데이터를 활용하여 인지 지도를 구축합니다. 산타바바라의 세계를 대표하는 지도를 기반으로, 공간적 관계를 체계적으로 분석하고, 독일어, 영어, 일본어 3개 언어로 확장하여 다양한 사용자층을 대상으로 합니다. 공간 묘사의 차이점과 구조를 분석하여 전치사 구조를 설계하며, 이는 인지 지도의 깊이와 구현력을 높이기 위한 핵심 기반입니다.",
+    "execution_plan": [
+      {
+        "phase": "1. 데이터 수집 및 초기 공간 묘사",
+        "tasks": [
+          "세계적 지도와 공간 묘사 데이터 수집",
+          "A 지점에서 B 지점의 공간 묘사 생성",
+          "공간 묘사의 차이점 분석"
+        ],
+        "deadline": "2025.01.15"
+      },
+      {
+        "phase": "2. 다국어 확장 및 전치사 구조 설계",
+        "tasks": [
+          "독일어, 영어, 일본어 3개 언어로 프로젝트 확장",
+          "전치사 구조 설계 및 구현",
+          "공간 묘사의 차이점과 구조 분석"
+        ],
+        "deadline": "2025.02.28"
+      },
+      {
+        "phase": "3. 테스트 및 최적화",
+        "tasks": [
+          "프로젝트 테스트 및 사용자 피드백 수집",
+          "공간 묘사의 정확도 및 효율성 개선",
+          "전치사 구조의 실용성 검증"
+        ],
+        "deadline": "2025.03.15"
+      }
+    ],
+    "expected_effects": [
+      "공간 묘사의 정확도와 효율성 향상 (정량적)",
+      "다국어로 확장된 인지 지도의 사용자 접근성 증가 (정성적)",
+      "공간적 관계의 체계적 이해 및 전치사 구조의 실용성 확보 (정량적)"
+    ]
   },
   "metadata": {
-    "source_file": "../Raw_Data_val/result_Bed010/05_final_result.json",
+    "source_file": "Raw_Data_val/result_Bed010/05_final_result.json",
+    "utterance_count": 677,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_F",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_E"
+    ],
+    "original_length": 23517,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
     "is_chunk": true,
     "chunk_index": 6,
-    "total_chunks": 6,
-    "processing_date": "2025-08-10T11:34:30.092939"
+    "processing_date": "2025-08-10T22:45:29.124594"
   }
 }
