@@ -1,0 +1,49 @@
+{
+  "id": "result_Bed010_chunk_6",
+  "source_dir": "result_Bed010",
+  "notion_output": {
+    "project_name": "Deep Map 공간 묘사 프로젝트",
+    "project_purpose": "다국어 환경에서 공간 인식 차이를 분석하고, 인지 지도 기반의 공간 묘사 시스템을 개발하여 언어 간 인지 차이를 시각화하는 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "다국어(독일어, 영어, 일본어) 기반 공간 묘사 시스템 개발",
+      "언어 간 인지 차이 분석 및 시각화 도구 구축",
+      "인지 지도 기반의 공간 이동 경로 생성 알고리즘 개발"
+    ],
+    "core_idea": "공간 인식 차이를 기반으로 한 다국어 인지 지도 시스템을 구축하여, 언어 간 인지 차이를 시각화하고 분석하는 프로젝트",
+    "idea_description": "Deep Map 프로젝트를 기반으로 공간 묘사의 언어 간 차이를 분석하고, 인지 지도 기반의 시각화 도구를 개발하여 사용자가 공간 관계를 이해하는 방식의 차이를 명확화하는 기술적/비즈니스적 솔루션",
+    "execution_plan": [
+      "1단계(2025.01-02): 다국어 공간 묘사 데이터 수집 및 정제 (Speaker_F 주도)",
+      "2단계(2025.03): 인지 지도 알고리즘 개발 및 테스트 (Dan Montello 기반 기술 도입)",
+      "3단계(2025.04-05): 언어 간 공간 인식 차이 분석 및 시각화 도구 개발 (Speaker_C 주도)",
+      "4단계(2025.06): 시스템 통합 및 최종 검증 (모든 팀 협력)"
+    ],
+    "expected_effects": [
+      "3개 언어 간 공간 인식 차이 분석 완료 (정량적 데이터 기반)",
+      "사용자 공간 이동 경로 생성 정확도 30% 향상 (정성적 평가)",
+      "인지 지도 기반 시각화 도구로 50% 이상의 사용자 이해도 향상 (정량적 측정)"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed010/05_final_result.json",
+    "utterance_count": 677,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_G"
+    ],
+    "original_length": 23517,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 6,
+    "processing_date": "2025-08-10T22:17:44.503336"
+  }
+}

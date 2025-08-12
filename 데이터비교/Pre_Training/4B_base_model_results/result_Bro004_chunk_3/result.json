@@ -1,0 +1,50 @@
+{
+  "id": "result_Bro004_chunk_3",
+  "source_dir": "result_Bro004",
+  "notion_output": {
+    "project_name": "데이터 처리 및 모델 최적화 프로젝트",
+    "project_purpose": "음성 활동 탐지(VAD) 및 데이터 처리 모델(LDA/SLDA)의 성능 최적화를 통한 시스템 효율성 향상",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_D",
+    "core_objectives": [
+      "1. TLDA와 SLDA의 차이점 분석을 통한 모델 성능 비교",
+      "2. 처리 파워 800MHz 대 550MHz로의 감소에 따른 시스템 최적화",
+      "3. IBM 기계와 리눅스 환경의 호환성 검증 및 대체 시스템 구축"
+    ],
+    "core_idea": "음성 데이터 처리 시스템의 효율성과 정확성을 높이기 위해 기존 모델(TLDA/SLDA)의 성능 분석, 처리 파워 최적화, 시스템 호환성 검증을 통합적으로 수행하는 프로젝트",
+    "idea_description": "VAD 모델의 성능 평가를 기반으로 데이터 처리 효율성을 향상시키고, 처리 파워 감소에 따른 시스템 재설계를 통해 리소스 사용 효율성을 높이면서, IBM 기계와 리눅스 환경의 호환성을 검증하여 신뢰성 있는 시스템 구축을 목표로 합니다.",
+    "execution_plan": [
+      "1. 2025.01.05 ~ 2025.01.15: TLDA/SLDA 모델의 성능 차이점 분석 및 데이터 처리 효율성 평가",
+      "2. 2025.01.16 ~ 2025.02.01: 처리 파워 감소에 따른 시스템 재설계 및 최적화 작업",
+      "3. 2025.02.02 ~ 2025.02.28: IBM 기계와 리눅스 환경의 호환성 검증 및 대체 시스템 구축",
+      "4. 2025.02.29 ~ 2025.03.15: 최종 시스템 테스트 및 성능 측정"
+    ],
+    "expected_effects": [
+      "1. 모델 성능 향상: TLDA/SLDA의 처리 효율성 15% 이상 향상",
+      "2. 시스템 최적화: 처리 파워 감소로 인한 리소스 사용 비용 20% 절감",
+      "3. 호환성 확보: IBM 기계와 리눅스 환경의 시스템 통합 성공률 95% 이상 달성"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bro004/05_final_result.json",
+    "utterance_count": 413,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 12710,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 3,
+    "processing_date": "2025-08-10T20:16:00.811528"
+  }
+}

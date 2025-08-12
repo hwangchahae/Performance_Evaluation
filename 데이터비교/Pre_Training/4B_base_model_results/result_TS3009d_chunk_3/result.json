@@ -1,0 +1,46 @@
+{
+  "id": "result_TS3009d_chunk_3",
+  "source_dir": "result_TS3009d",
+  "notion_output": {
+    "project_name": "디지털 펜과 SMART보드 통합 프로젝트",
+    "project_purpose": "비용 효율적인 디지털 툴을 통한 협업 및 데이터 관리 시스템 구축",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_A",
+    "core_objectives": [
+      "1. $1 달러 리모컨의 기능적 적정성 검증",
+      "2. SMART보드의 다중 용도 활용 방안 수립",
+      "3. 공유 폴더 기반 문서 관리 시스템 구축"
+    ],
+    "core_idea": "저비용 디지털 툴과 기존 SMART보드의 유기적 통합을 통해 협업 효율성 향상",
+    "idea_description": "티타늄 플라스틱 리모컨과 SMART보드의 협업 기능을 결합하여, 데이터 공유, 문서 작성, 실시간 협업을 동시에 지원하는 통합 솔루션 개발",
+    "execution_plan": [
+      "1. 2025.01.05 ~ 01.15: 리모컨 기능 검증 및 비용 분석 (스피커_A 주관)",
+      "2. 2025.01.16 ~ 02.01: SMART보드 다중 용도 시나리오 개발 (스피커_B 주관)",
+      "3. 2025.02.02 ~ 02.15: 공유 폴더 시스템 구축 계획 수립 (스피커_C 주관)",
+      "4. 2025.02.16 ~ 03.31: 시스템 테스트 및 최종 검수 (스피커_A, B, C 협업)"
+    ],
+    "expected_effects": [
+      "1. 리모컨 도입로 인한 협업 비용 절감 (예: 월 15% 감소)",
+      "2. SMART보드의 다중 용도 활용로 시간 절약 (예: 문서 작성 시간 30% 감소)",
+      "3. 공유 폴더 시스템으로 문서 관리 효율성 향상 (예: 검색 시간 50% 감소)"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3009d/05_final_result.json",
+    "utterance_count": 379,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 11745,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 3,
+    "processing_date": "2025-08-10T20:12:16.344574"
+  }
+}

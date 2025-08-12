@@ -1,0 +1,47 @@
+{
+  "id": "result_TS3009b_chunk_1",
+  "source_dir": "result_TS3009b",
+  "notion_output": {
+    "project_name": "스마트 리모컨 디자인 프로젝트",
+    "project_purpose": "사용자 중심의 편리하고 미적 디자인을 갖춘 리모컨 개발을 통한 제품 차별화",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "사용자 인터페이스의 직관성과 효율성 향상",
+      "경쟁사 리모컨 기능 통합 및 최소화",
+      "디자인의 미적 가치와 기능적 완성도 균형 달성"
+    ],
+    "core_idea": "사용자 경험을 최우선으로 고려한 간결한 버튼 배열과 시각적 인터페이스를 갖춘 리모컨 개발",
+    "idea_description": "리모컨의 에너지 시스템(전원, LED, 적외선)을 기반으로 사용자 인터페이스를 최소화하면서도 핵심 기능(예: TV, DVD 조절)을 직관적으로 제어할 수 있는 디자인 구현",
+    "execution_plan": [
+      "2025.01.01-01.15: 시장 분석 및 경쟁사 리모컨 기능 조사",
+      "2025.01.16-02.01: 사용자 조사 및 편의성 테스트 수행",
+      "2025.02.02-02.15: 디자인 프로토타입 개발 및 사용자 피드백 반영",
+      "2025.02.16-03.01: 최종 디자인 검증 및 테스트",
+      "2025.03.02-03.31: 생산 준비 및 시장 출시"
+    ],
+    "expected_effects": [
+      "사용자 만족도 30% 상승: 직관적인 버튼 배열과 명확한 시각 피드백으로 조작 편의성 향상",
+      "경쟁사 대비 20% 이상의 디자인 차별화: 미적 완성도와 기능적 효율성의 균형",
+      "제품 출시 후 6개월 내 15% 이상의 시장 점유율 확보: 사용자 중심 디자인으로 브랜드 인지도 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3009b/05_final_result.json",
+    "utterance_count": 366,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 11902,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T20:12:26.343717"
+  }
+}

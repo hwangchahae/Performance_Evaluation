@@ -1,0 +1,43 @@
+{
+  "id": "result_Bmr006_chunk_6",
+  "source_dir": "result_Bmr006",
+  "notion_output": {
+    "project_name": "회의 녹화 및 자동 세그먼트 분석 프로젝트",
+    "project_purpose": "회의 녹화 데이터를 활용하여 자동 세그먼트 분석을 통해 효율적인 회의 관리를 위한 기술 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_F",
+    "core_objectives": [
+      "목표 1: 회의 녹화 데이터를 수집하고 저장",
+      "목표 2: 자동 세그먼트 분석 도구 개발 및 테스트",
+      "목표 3: 회의 녹화 데이터를 활용한 클러스터링 및 라벨링 시스템 구축"
+    ],
+    "core_idea": "회의 녹화 데이터를 활용하여 자동 세그먼트 분석을 통해 회의 관리를 효율화",
+    "idea_description": "회의 녹화 데이터를 수집하고, 자동 세그먼트 분석 도구를 개발하여 회의 중 발생하는 중요한 정보를 자동으로 분석하고 라벨링함으로써 회의 관리의 효율성을 높인다.",
+    "execution_plan": "1단계: 회의 녹화 데이터 수집 및 저장 (2024.01.01 ~ 2024.02.28)\n2단계: 자동 세그먼트 분석 도구 개발 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 클러스터링 및 라벨링 시스템 구축 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 회의 관리의 효율성 증대",
+      "기대효과 2: 자동 세그먼트 분석을 통한 데이터 처리 속도 향상",
+      "기대효과 3: 클러스터링 및 라벨링을 통한 데이터 분석의 정확성 증대"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bmr006/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_F",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_E"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 6,
+    "processing_date": "2025-08-10T09:31:15.342410"
+  }
+}

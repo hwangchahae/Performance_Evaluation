@@ -1,0 +1,49 @@
+{
+  "id": "result_Bed002_chunk_5",
+  "source_dir": "result_Bed002",
+  "notion_output": {
+    "project_name": "XML 기반 지식 통합 프로젝트",
+    "project_purpose": "다양한 데이터 소스를 XML 기반 표준으로 통합하여 상호작용 가능하고 수정이 쉬운 지식 시스템 구축",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_C",
+    "core_objectives": [
+      "XML 기반 데이터 교환 프로토콜 개발",
+      "OIL/EMML 기반 온톨로지 통합 프레임워크 구축",
+      "상황적 맥락 인식 시스템 개발"
+    ],
+    "core_idea": "Deep Map 기반의 XML 기반 지식 시스템을 통해 다양한 데이터 형식을 표준화하여 상호작용 가능성을 높이고, 상황적 맥락을 기반으로 한 지식 추론을 수행하는 체계적인 프레임워크 개발",
+    "idea_description": "XML 기반의 데이터 교환 포맷과 OIL/EMML 기반 온톨로지를 결합하여, 지리 정보, 조직 구조, 인물 정보 등 다양한 데이터 유형을 통합하는 시스템을 구현함으로써 데이터 간의 의미적 연계를 가능하게 하며, 상황적 맥락을 기반으로 한 지식 추론을 수행할 수 있는 기반 구조를 마련",
+    "execution_plan": [
+      "1. 요구사항 분석 (2025.01.01-2025.01.15): XML 기반 데이터 교환 표준 및 온톨로지 통합 방식 정의",
+      "2. 시스템 설계 (2025.01.16-2025.02.01): Deep Map 기반의 XML 프로토콜 구조 설계 및 온톨로지 통합 아키텍처 개발",
+      "3. 데이터 수집 (2025.02.02-2025.02.15): 빵집, 호텔, 성 등 다양한 데이터 소스에서 정보 수집",
+      "4. 시스템 통합 (2025.02.16-2025.03.01): XML 기반 데이터 교환 및 온톨로지 통합 구현",
+      "5. 테스트 및 최적화 (2025.03.02-2025.03.15): 상황적 맥락 인식 기능 검증 및 성능 최적화"
+    ],
+    "expected_effects": [
+      "기대효과 1: 다양한 데이터 형식 간의 표준화된 교환 프로토콜로 데이터 상호작용 효율성 30% 향상",
+      "기대효과 2: 상황적 맥락 기반 지식 추론 시스템으로 데이터 의미적 연계 정확도 25% 향상",
+      "기대효과 3: XML 기반 프레임워크로 시스템 확장성 40% 향상 및 유지보수 용이성 개선"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed002/05_final_result.json",
+    "utterance_count": 656,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_E",
+      "Speaker_D",
+      "Speaker_F"
+    ],
+    "original_length": 24390,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-10T20:18:51.892461"
+  }
+}

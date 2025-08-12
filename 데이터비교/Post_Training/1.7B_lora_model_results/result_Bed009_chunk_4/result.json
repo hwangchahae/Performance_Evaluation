@@ -1,0 +1,72 @@
+{
+  "id": "result_Bed009_chunk_4",
+  "source_dir": "result_Bed009",
+  "notion_output": {
+    "project_name": "DAML 기반 다중 응용 프로그램 개발 및 운영 프로젝트",
+    "project_purpose": "DAML의 기능 모델러 및 자체 설명 기능을 활용하여 다양한 응용 프로그램을 개발하고 운영하며, 외부 서비스와의 연동성을 강화함으로써 효율성을 극대화",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: DAML 기반의 기능 모델러 및 자체 설명 기능 구축",
+      "목표 2: 다양한 응용 프로그램과의 연동성 확보",
+      "목표 3: 외부 서비스와의 데이터 교환 및 통합"
+    ],
+    "core_idea": "DAML의 기능 모델러 및 자체 설명 기능을 활용하여 다양한 응용 프로그램을 개발하고 운영하며, 외부 서비스와의 연동성을 강화함으로써 효율성을 극대화",
+    "idea_description": "DAML의 기능 모델러 및 자체 설명 기능을 통해 각 응용 프로그램의 구조를 명확히 하고, 외부 서비스와의 데이터 교환을 통해 시스템의 확장을 가능하게 함으로써 효율성을 높임",
+    "execution_plan": [
+      {
+        "phase": "기능 모델러 및 자체 설명 기능 설계",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "tasks": [
+          "DAML 기능 모델러 및 자체 설명 기능의 설계",
+          "기능 모델러 및 자체 설명 기능의 구현 방안 도출",
+          "기능 모델러 및 자체 설명 기능의 성능 평가 및 최적화"
+        ]
+      },
+      {
+        "phase": "다양한 응용 프로그램과의 연동성 확보",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "tasks": [
+          "각 응용 프로그램과의 연동성 구축",
+          "연동성 테스트 및 수정",
+          "연동성 관련 문제 해결"
+        ]
+      },
+      {
+        "phase": "외부 서비스와의 데이터 교환 및 통합",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "tasks": [
+          "외부 서비스와의 데이터 교환 및 통합 방안 마련",
+          "데이터 통합 테스트 및 수정",
+          "데이터 통합 관련 문제 해결"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 다양한 응용 프로그램의 구조 명확화 및 운영 용이성 증가",
+      "기대효과 2: 외부 서비스와의 연동성 강화로 시스템 확장 가능성 증가",
+      "기대효과 3: DAML 기반의 효율성 극대화 및 비용 절감"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed009/05_final_result.json",
+    "utterance_count": 691,
+    "speakers": [
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "original_length": 23895,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-09T23:39:04.895428"
+  }
+}

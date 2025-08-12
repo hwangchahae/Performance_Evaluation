@@ -1,0 +1,72 @@
+{
+  "id": "result_IS1000b_chunk_1",
+  "source_dir": "result_IS1000b",
+  "notion_output": {
+    "project_name": "REM Remote Control Optimization Project",
+    "project_purpose": "리모컨의 사용자 경험 개선 및 시장 확대를 위한 기술적 개선과 마케팅 전략 수립",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "리모컨의 사용자 친화적 디자인 개선을 통한 34%의 학습 시간 절감",
+      "리모컨의 RSI 유해성 문제 해결을 위한 편의성 및 사용성 향상",
+      "12.50유로 단가의 제품 개발을 통한 시장 확대"
+    ],
+    "core_idea": "리모컨의 기술적 기능을 고정된 시스템으로부터 사용자 요구 사항을 반영한 디자인으로 전환",
+    "idea_description": "리모컨의 송신기/수신기, 칩, 적외선 센서 등을 통합한 간단한 터치 기능을 적용, 사용자 친화적인 인터페이스 개발. 34%의 학습 시간 절감을 위한 단순한 버튼 설계, RSI 유해성 문제를 해결하기 위한 편의성 개선. 12.50유로 단가로 제품 개발을 통해 시장 확대",
+    "execution_plan": [
+      {
+        "phase": "연구 및 분석",
+        "start_date": "2025.01.01",
+        "end_date": "2025.01.10",
+        "details": "리모컨 사용자 설문, RSI 유해성 분석, 시장 조사"
+      },
+      {
+        "phase": "디자인 개발",
+        "start_date": "2025.01.11",
+        "end_date": "2025.01.20",
+        "details": "사용자 친화적 버튼 설계, 터치 기능 구현, 적외선 센서 통합"
+      },
+      {
+        "phase": "프로토타입 제작",
+        "start_date": "2025.01.21",
+        "end_date": "2025.01.30",
+        "details": "리모컨 및 수신기 설계, 칩 선택 및 통신 시스템 구현"
+      },
+      {
+        "phase": "테스트 및 최적화",
+        "start_date": "2025.02.01",
+        "end_date": "2025.02.15",
+        "details": "사용자 테스트, RSI 유해성 검증, 사용성 개선"
+      },
+      {
+        "phase": "마케팅 및 출시",
+        "start_date": "2025.02.16",
+        "end_date": "2025.03.31",
+        "details": "제품 가격 책정, 브랜드 커뮤니케이션, 시장 확대 전략 수립"
+      }
+    ],
+    "expected_effects": [
+      "사용자 학습 시간 절감: 34% 감소 (기존 100% → 66%)",
+      "RSI 유해성 감소: 326%의 사용자 피드백에서 80% 이상의 만족도",
+      "시장 점유율: 12.50유로 단가로 500만 개 이상 판매 예상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_IS1000b/05_final_result.json",
+    "utterance_count": 325,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_D"
+    ],
+    "original_length": 11280,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:40:47.694139"
+  }
+}

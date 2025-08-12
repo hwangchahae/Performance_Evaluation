@@ -1,0 +1,41 @@
+{
+  "id": "result_IS1007b_chunk_1",
+  "source_dir": "result_IS1007b",
+  "notion_output": {
+    "project_name": "다음세대 스마트 TV 리모컨 개발",
+    "project_purpose": "인터넷 대중화에 맞춘 사용자 중심의 간결하고 효율적인 TV 리모컨 디자인 및 기능 개발",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "리모컨 기능 최적화: 불필요한 기능(예: 조명 조절) 제거 및 TV 전용 기능 강화",
+      "사용자 인터페이스 개선: 직관적인 UI/UX 설계 및 블루투스 기반 원격 제어 기능 구현",
+      "미래 기술 대응: 디지털 TV 전환에 따른 텔레텍스트 기능 폐지 및 KIV(키 인터페이스) 통합"
+    ],
+    "core_idea": "FPGA 기반 유연한 하드웨어 아키텍처와 적외선/블루투스 복합 통신 방식을 결합한 TV 전용 리모컨",
+    "idea_description": "저비용 FPGA 칩을 활용한 기능 확장성과 블루투스 기반의 간편한 설정 프로세스를 결합하여, 사용자 맞춤형 설정과 미래 기술 대응을 위한 확장 가능성을 제공하는 리모컨 솔루션",
+    "execution_plan": "1월: 시장 조사 및 기능 정의(2025.01.10), 2월: FPGA 기반 하드웨어 설계(2025.02.01-02.15), 3월: 프로토타입 제작 및 테스트(2025.03.01-03.15)",
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 30% 상승(단순화된 UI/UX 적용으로)",
+      "기대효과 2: 제조 비용 20% 절감(FPGA 기반 통합 설계로)",
+      "기대효과 3: 디지털 TV 전환 대응률 100%(텔레텍스트 기능 폐지 및 KIV 통합으로)"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_IS1007b/05_final_result.json",
+    "utterance_count": 157,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C",
+      "Speaker_B"
+    ],
+    "original_length": 5067,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:11:23.466604"
+  }
+}

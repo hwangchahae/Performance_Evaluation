@@ -1,0 +1,35 @@
+{
+  "id": "val_034_chunk_2",
+  "source_dir": "result_Bed012_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"베이즈넷 기반 Where-Is 노드 최적화 및 의사결정 지원 시스템 구축\",\n    \"project_purpose\": \"베이즈넷을 활용하여 Where-Is 구조 내 노드의 통합 및 최적화, 의사결정 지원 시스템 구축을 통해 데이터 처리 효율성과 의사결정 정확성을 향상\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: Where-Is 구조에 적합한 노드 가중치 부여 및 역할 정의\",\n        \"목표 2: 베이즈넷을 활용한 사후 확률 계산 및 최적화\",\n        \"목표 3: 중복 노드 제거 및 최적의 의사결정 트리 구축\",\n        \"목표 4: 특정 노드의 역할과 중요성에 대한 명확한 이해\",\n        \"목표 5: 'Go-there', 'Info-on', 'Location' 노드의 통합을 통한 의사결정의 일관성 강화\"\n    ],\n    \"core_idea\": \"Where-Is 구조 내 노드의 효율적 통합 및 최적화\",\n    \"idea_description\": \"베이즈넷을 활용하여 Where-Is 구조의 노드를 통합하고, 사후 확률을 기반으로 최적의 의사결정을 지원하는 시스템 구축. 특히, 'Go-there', 'Info-on', 'Location' 노드의 통합을 통해 의사결정의 일관성을 높이고, 특정 노드의 역할과 중요성을 명확히 하여 의사결정의 정확성을 높임.\",\n    \"execution_plan\": \"1단계: 현재 노드 구조 분석 및 가중치 부여 (2024.01.01 ~ 2024.01.31)\\n2단계: 베이즈넷을 통한 사후 확률 계산 및 최적화 (2024.02.01 ~ 2024.02.28)\\n3단계: 중복 노드 제거 및 의사결정 트리 구축 (2024.03.01 ~ 2024.03.31)\\n4단계: 특정 노드의 역할과 중요성에 대한 명확한 정의 및 문서화 (2024.03.01 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 노드 통합으로 인한 데이터 처리 효율성 향상\",\n        \"기대효과 2: 최적의 의사결정 트리 구축으로 의사결정 속도 증가\",\n        \"기대효과 3: 중복 노드 제거로 인한 시스템 자원 절약\",\n        \"기대효과 4: 특정 노드의 역할 명확화로 의사결정의 정확성 향상\",\n        \"기대효과 5: 'Go-there', 'Info-on', 'Location' 노드의 통합을 통한 의사결정의 일관성 강화\"\n    ],\n    \"technical_details\": {\n        \"bayesian_network_usage\": \"베이즈넷을 활용하여 각 노드의 사후 확률을 계산하고, 이를 기반으로 의사결정 트리를 최적화함. 특히, 'Go-there', 'Info-on', 'Location' 노드의 통합을 통해 의사결정의 일관성을 높임.\",\n        \"node_roles\": \"회의에서 논의된 바와 같이, 특정 노드의 역할과 중요성을 명확히 하여 의사결정에 필요한 정보를 제공함. 특히, 'Go-there', 'Info-on', 'Location' 노드의 통합을 통해 의사결정의 일관성을 높임.\"\n    }\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed012_processed/05_final_result.json",
+    "utterance_count": 520,
+    "original_transcript_length": 17584,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 17584
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 4,
+      "chunk_length": 5000
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T10:36:30.362089"
+  }
+}

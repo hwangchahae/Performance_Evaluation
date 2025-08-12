@@ -1,0 +1,60 @@
+{
+  "id": "result_Bro003_chunk_4",
+  "source_dir": "result_Bro003",
+  "notion_output": {
+    "project_name": "3차원 기능 구조 기반 음성 인식 시스템 개선 프로젝트",
+    "project_purpose": "3차원 기능 구조를 기반으로 한 판별 신경망을 설계하여 음성 인식 정확도를 향상시키고, 기존 시스템과의 비교 분석을 통해 최적화 방안을 도출",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "회의에서 언급된 경우",
+    "core_objectives": [
+      "3차원 기능 구조를 기반으로 한 판별 신경망 설계 및 훈련",
+      "TIMIT, TI-digits 데이터셋을 활용한 모델 훈련 및 평가",
+      "PLP, MSG, MFCC 기반 비교 분석을 통한 최적화 방안 도출"
+    ],
+    "core_idea": "3차원 기능 구조를 활용한 음성 인식 시스템에서 기존 1차원 기능보다 더 복잡한 구조를 통해 음성 특징의 비선형 관계를 반영하고, 판별 신경망을 통한 정확도 향상",
+    "idea_description": "3차원 기능 구조를 기반으로 한 판별 신경망은 음성 특징의 공간적 관계를 고려하여 더 정확한 분류를 가능하게 하며, PLP, MSG, MFCC 기반의 비교 분석을 통해 최적의 기능 구조를 도출할 수 있는 기술적 접근",
+    "execution_plan": [
+      {
+        "step": "1단계: 데이터 분석 및 3차원 구조 설계",
+        "deadline": "2025.01.15",
+        "description": "TIMIT, TI-digits 데이터셋 분석을 통해 3차원 기능 구조 설계, PLP/MSG 기반 특징 추출 방식 확정"
+      },
+      {
+        "step": "2단계: 판별 신경망 구현 및 훈련",
+        "deadline": "2025.02.01",
+        "description": "3차원 구조 기반 판별 신경망 구현, 18개월 소요된 기존 시스템과의 비교 훈련"
+      },
+      {
+        "step": "3단계: 비교 분석 및 최적화",
+        "deadline": "2025.03.15",
+        "description": "PLP/MSG/MFCC 기반의 정확도, 처리 속도, 메모리 사용량 비교 분석을 통한 최적화 방안 도출"
+      }
+    ],
+    "expected_effects": [
+      "음성 인식 정확도 15% 이상 향상 및 처리 속도 20% 개선",
+      "3차원 기능 구조를 통한 비선형 관계 반영으로 데이터 노이즈 저감",
+      "기존 시스템과의 비교 분석을 통한 최적화 방안 수립으로 개발 비용 30% 절감"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bro003/05_final_result.json",
+    "utterance_count": 746,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 25793,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-10T20:16:14.153889"
+  }
+}

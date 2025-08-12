@@ -1,0 +1,41 @@
+{
+  "id": "result_ES2003b_chunk_2",
+  "source_dir": "result_ES2003b",
+  "notion_output": {
+    "project_name": "다중 기기 통합 리모컨 개발 프로젝트",
+    "project_purpose": "다양한 가전 기기를 하나의 리모컨으로 제어하여 사용자의 편의성을 극대화하고, 시장 경쟁력을 강화하며, 사용자 경험을 개선하기 위함",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 다양한 기기의 기능을 하나의 리모컨으로 통합하여 사용자 편의성 증대",
+      "목표 2: 사용자 인터페이스의 직관성 및 사용성 향상",
+      "목표 3: 시장 점유율 확보 및 경쟁력 강화"
+    ],
+    "core_idea": "다양한 기기의 기능을 하나의 리모컨으로 통합하여 사용자가 하나의 장치로 모든 기기를 제어할 수 있도록 하는 혁신적인 리모컨 개발",
+    "idea_description": "리모컨의 버튼을 최소화하고, 메뉴 탐색을 통해 각 기기의 특정 기능을 조종하도록 설계하여 사용자의 작업 효율성을 높이고, 또한 조이스틱을 활용하여 더 직관적인 조작을 가능하게 함.",
+    "execution_plan": "1단계: 요구사항 분석 및 설계 (2024.01.01 ~ 2024.02.28)\n2단계: 프로토타입 개발 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 최종 제품 개발 및 시장 출시 준비 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 편의성 증가로 인한 고객 만족도 향상",
+      "기대효과 2: 단일 리모컨 사용으로 인한 비용 절감 및 운영 효율성 증대",
+      "기대효과 3: 시장 점유율 확보 및 브랜드 이미지 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_ES2003b/05_final_result.json",
+    "utterance_count": 196,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 7254,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T23:13:11.689735"
+  }
+}

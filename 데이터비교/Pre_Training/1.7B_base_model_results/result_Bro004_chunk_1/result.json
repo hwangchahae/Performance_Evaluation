@@ -1,0 +1,77 @@
+{
+  "id": "result_Bro004_chunk_1",
+  "source_dir": "result_Bro004",
+  "notion_output": {
+    "project_name": "TI-digits 및 HMM 기반 신경망 훈련 시스템 개발",
+    "project_purpose": "TIMIT에서 TI-digits로의 전환 시 성능 저하를 완화하고, HMM 기반 신경망을 통한 정확도 향상 및 다채널 처리 기술을 도입하여 음성 인식 시스템 개선",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "TI-digits 훈련에서 TIMIT 훈련으로의 전환 시 10% 이상의 성능 향상",
+      "HMM 기반 신경망을 통한 음성 인식 정확도 향상 (기존 30% → 40% 이상)",
+      "다채널 처리 기술을 통한 병렬화된 훈련 및 결과 재현성 확보"
+    ],
+    "core_idea": "신경망 기반 음성 인식 시스템을 구축하여 TIMIT에서 TI-digits로의 전환 시 성능 저하를 완화하고, HMM 기반 모델과 신경망을 결합하여 정확도 향상 및 다채널 처리를 실현",
+    "idea_description": "1. TIMIT과 TI-digits의 성능 차이를 분석하여 10% 이상의 성능 향상이 가능한지 확인\n2. HMM 기반 신경망 모델을 설계하여 TIMIT 훈련 데이터를 기반으로 훈련\n3. 다채널 처리 기술을 적용하여 병렬화된 훈련을 수행\n4. PLP, JRASTA, MFCC 등의 기존 훈련 기법과 신경망을 결합하여 최적화",
+    "execution_plan": [
+      {
+        "phase": "데이터 및 기술 준비",
+        "tasks": [
+          "TIMIT 및 TI-digits 데이터 수집 및 정제",
+          "HMM 기반 신경망 모델 설계",
+          "다채널 처리 기술 적용",
+          "신경망 훈련 및 테스트 기반 성능 분석"
+        ],
+        "timeline": "2025.01.01 ~ 2025.01.15"
+      },
+      {
+        "phase": "신경망 훈련 및 평가",
+        "tasks": [
+          "신경망 모델 훈련 (병렬화 기술 적용)",
+          "TIMIT 데이터 훈련 및 TI-digits 데이터 테스트",
+          "정확도 및 성능 비교 분석",
+          "다채널 처리 기술의 영향 평가"
+        ],
+        "timeline": "2025.01.16 ~ 2025.02.05"
+      },
+      {
+        "phase": "최적화 및 테스트",
+        "tasks": [
+          "신경망 모델 최적화 및 훈련",
+          "다채널 처리 기술의 실시간 적용",
+          "실제 음성 인식 시스템 통합 테스트",
+          "결과 분석 및 개선"
+        ],
+        "timeline": "2025.02.06 ~ 2025.03.05"
+      }
+    ],
+    "expected_effects": [
+      "TIMIT에서 TI-digits로의 전환 시 10% 이상의 성능 향상 (기존 30% → 40% 이상)",
+      "신경망 기반 음성 인식 시스템의 정확도 향상 (기존 30% → 45% 이상)",
+      "다채널 처리 기술 적용 시 병렬화된 훈련 및 결과 재현성 확보",
+      "신경망과 HMM 기반 모델의 협업을 통한 최적화된 음성 인식 시스템 구축"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bro004/05_final_result.json",
+    "utterance_count": 413,
+    "speakers": [
+      "Speaker_H",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_E"
+    ],
+    "original_length": 12710,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:43:04.285022"
+  }
+}

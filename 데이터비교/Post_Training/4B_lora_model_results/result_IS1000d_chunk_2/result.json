@@ -1,0 +1,41 @@
+{
+  "id": "result_IS1000d_chunk_2",
+  "source_dir": "result_IS1000d",
+  "notion_output": {
+    "project_name": "혁신 리모컨 프로젝트",
+    "project_purpose": "시장에 존재하는 리모컨 제품과 차별화되는 혁신적인 기능과 디자인을 갖춘 리모컨 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 혁신적인 디자인 및 기능을 통한 시장 경쟁력 강화",
+      "목표 2: 25유로 내에서 경쟁력 있는 가격으로 시장 진입",
+      "목표 3: 다양한 사용자층을 고려한 맞춤형 기능 제공"
+    ],
+    "core_idea": "혁신적인 리모컨 개발",
+    "idea_description": "현재 시장에 존재하는 리모컨과 차별화되도록 혁신적인 디자인과 기능을 결합한 제품을 개발합니다. 특히, 사용자의 편의성을 극대화하고, 다양한 사용자층을 만족시킬 수 있는 기능을 포함합니다.",
+    "execution_plan": "1단계: 시장 조사 및 경쟁 분석 (2024.01.01 ~ 2024.02.28)\n2단계: 혁신적인 디자인 및 기능 개발 (2024.03.01 ~ 2024.04.30)\n3단계: 제품 테스트 및 피드백 수집 (2024.05.01 ~ 2024.05.31)\n4단계: 최종 수정 및 생산 준비 (2024.06.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 시장 경쟁력 강화로 인한 매출 증가",
+      "기대효과 2: 사용자 만족도 향상으로 인한 브랜드 신뢰도 증가",
+      "기대효과 3: 다양한 사용자층의 요구를 충족함으로써 시장 확장 가능성 증대"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_IS1000d/05_final_result.json",
+    "utterance_count": 433,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_A"
+    ],
+    "original_length": 13960,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T23:11:39.594638"
+  }
+}

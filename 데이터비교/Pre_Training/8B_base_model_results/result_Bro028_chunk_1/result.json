@@ -1,0 +1,49 @@
+{
+  "id": "result_Bro028_chunk_1",
+  "source_dir": "result_Bro028",
+  "notion_output": {
+    "project_name": "Integrated Speech Recognition System Enhancement Project",
+    "project_purpose": "현재 시스템의 지연시간 및 메모리 문제를 개선하고, 두 개의 데이터 스트림(신경망 및 MIP)을 통합하여 인식 정확도를 향상시키는 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_E",
+    "core_objectives": [
+      "VAD 시스템의 지연시간 2시간 30분을 60분으로 최대 75% 단축",
+      "두 개의 데이터 스트림(신경망 및 MIP)을 통합하여 인식 정확도 2-7% 향상",
+      "메모리 사용량 최적화로 시스템 안정성 향상"
+    ],
+    "core_idea": "다양한 데이터 스트림을 통합하고, VAD 알고리즘을 개선하여 인간의 성과 수준에 근접한 시스템 구축",
+    "idea_description": "현재 시스템의 VAD 문제를 해결하기 위해 계층적 구조를 도입하고, 신경망과 MIP 데이터를 결합하여 정확도를 높이는 기술적 접근. 메모리 최적화를 통해 시스템 안정성을 강화하는 전략",
+    "execution_plan": [
+      "2025.01.01-01.31: 현재 시스템 분석 및 문제점 정리 (VAD 지연, 메모리 부족)",
+      "2025.02.01-02.28: 두 데이터 스트림 통합 알고리즘 개발 및 테스트",
+      "2025.03.01-03.31: VAD 알고리즘 최적화 및 지연시간 감소 검증",
+      "2025.04.01-04.30: 메모리 최적화 기능 개발 및 시스템 통합",
+      "2025.05.01-05.31: 최종 테스트 및 성능 평가 (인간 성과 대비 2-6% 향상 목표)",
+      "2025.06.01-06.30: 결과 보고 및 시스템 배포"
+    ],
+    "expected_effects": [
+      "VAD 처리 시간 75% 단축으로 시스템 효율성 극대화",
+      "데이터 스트림 통합으로 인식 정확도 2-7% 향상 (인간 성과 수준 접근)",
+      "메모리 사용량 50% 감소로 시스템 안정성 및 확장성 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bro028/05_final_result.json",
+    "utterance_count": 575,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "original_length": 19606,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:14:11.313370"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "result_Bmr013_chunk_4",
+  "source_dir": "result_Bmr013",
+  "notion_output": {
+    "project_name": "노션 활용의 효율적 회의 세분화 및 분석 프로젝트",
+    "project_purpose": "회의 데이터를 노션을 통해 정리하고 분석하여 의사결정 지원 및 개선점을 도출",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "회의 데이터를 노션에 정리하여 저장",
+      "데이터를 분석하여 회의의 풍부성을 평가",
+      "회원들의 의견을 반영하여 개선점 도출"
+    ],
+    "core_idea": "회의 데이터를 노션을 통해 구조화하고 분석하여 효율적으로 관리",
+    "idea_description": "회의 데이터를 노션에 입력하고, 이를 분석하여 회의의 풍부성을 평가하며, 회원들의 의견을 반영하여 개선점을 도출함으로써 회의의 질을 향상시키고, 데이터 관리를 용이하게 함.",
+    "execution_plan": [
+      {
+        "phase": "데이터 수집 및 초기 정리",
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "description": "회의 데이터를 노션에 입력하고, 기본적인 구조화를 진행"
+      },
+      {
+        "phase": "데이터 분석 및 평가",
+        "duration": "2025.01.16 ~ 2025.02.15",
+        "description": "데이터를 분석하여 회의의 풍부성을 평가하고, 회원들의 의견을 반영하여 개선점을 도출"
+      },
+      {
+        "phase": "개선점 도출 및 보고서 작성",
+        "duration": "2025.02.16 ~ 2025.03.31",
+        "description": "분석 결과를 바탕으로 개선점을 도출하고, 보고서를 작성하여 결과를 공유"
+      }
+    ],
+    "expected_effects": [
+      "회의 데이터 관리의 효율성 증대",
+      "회의의 풍부성 평가 및 개선점 도출",
+      "회원들의 의견을 반영한 개선점 도출 및 보고서 작성",
+      "데이터 분석을 통한 의사결정 지원"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr013/05_final_result.json",
+    "utterance_count": 797,
+    "speakers": [
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "original_length": 27322,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-09T23:37:57.495250"
+  }
+}

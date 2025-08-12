@@ -1,0 +1,46 @@
+{
+  "id": "result_Bmr001_chunk_2",
+  "source_dir": "result_Bmr001",
+  "notion_output": {
+    "project_name": "데이터 관리 및 저장소 최적화 프로젝트",
+    "project_purpose": "사용자 데이터 저장소 공간 확보 및 데이터 백업 프로세스 최적화를 통한 시스템 안정성 강화",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "현재 4GB 드라이브 사용량(스크래치 4GB, 홈 디렉토리 3GB)을 분석하여 40~50GB 드라이브 확보 계획 수립",
+      "CD-ROM 백업 프로세스 도입으로 데이터 보존성 확보",
+      "FTP 전송 시 오디오 신호 처리 문제 해결 및 토니 로빈슨의 무손실 압축 기술 적용"
+    ],
+    "core_idea": "데이터 저장소 공간 부족 문제를 해결하기 위해 하드웨어 확장과 데이터 관리 프로세스 개선을 병행하는 전략",
+    "idea_description": "40~50GB 드라이브 구매를 통한 저장소 확대와 CD-ROM 백업, FTP 전송 최적화를 통해 데이터 손실 방지 및 시스템 안정성 향상. AR 모델링 기반의 데이터 압축 기술 도입으로 저장 공간 효율성 극대화",
+    "execution_plan": [
+      "1단계 (2025.01.15): 현재 저장소 사용량 분석 및 40~50GB 드라이브 구매 결정 (책임자: Speaker_A)",
+      "2단계 (2025.01.20): CD-ROM 백업 프로세스 테스트 및 FTP 전송 오류 점검 (책임자: Speaker_C)",
+      "3단계 (2025.02.01): 토니 로빈슨 압축 기술 적용 및 오디오 카드 설치 검증 (책임자: Speaker_B)",
+      "4단계 (2025.02.15): 시스템 통합 및 데이터 전송 속도 측정 (책임자: Speaker_A)",
+      "5단계 (2025.03.01): 최종 테스트 및 프로세스 문서화 (책임자: Speaker_C)"
+    ],
+    "expected_effects": [
+      "기대효과 1: 저장소 공간 확대로 20분 이상 소요되는 작업 시간 절반 감소 (현재 4GB 기준 20분 → 10분 내 완료)",
+      "기대효과 2: CD-ROM 백업 도입으로 데이터 손실 위험 90% 감소",
+      "기대효과 3: 무손실 압축 기술 적용으로 저장 공간 사용량 30% 절감"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr001/05_final_result.json",
+    "utterance_count": 400,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_B"
+    ],
+    "original_length": 13357,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T22:16:46.920898"
+  }
+}

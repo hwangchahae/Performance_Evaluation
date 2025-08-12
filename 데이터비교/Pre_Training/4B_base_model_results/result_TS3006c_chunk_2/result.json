@@ -1,0 +1,67 @@
+{
+  "id": "result_TS3006c_chunk_2",
+  "source_dir": "result_TS3006c",
+  "notion_output": {
+    "project_name": "색맹 접근성 기반 디바이스 인터페이스 설계 프로젝트",
+    "project_purpose": "색맹 사용자 및 터치 피드백을 고려한 디바이스 인터페이스의 색상, 텍스처, 형태 설계를 통한 사용자 중심 디자인 개선",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "프로젝트 관리자",
+    "core_objectives": [
+      "색맹 사용자를 위한 색상 대비 기준에 부합하는 디스플레이 배경색 선택",
+      "터치 버튼에 LED 라이트 및 텍스처 피드백을 통한 시각/촉각적 인터랙션 구현",
+      "손에 촉감 좋은 인체공학적 형태 설계를 통한 사용자 편의성 향상"
+    ],
+    "core_idea": "색상 접근성 기준에 맞춘 디스플레이 배경색과 텍스처 피드백을 결합한 터치 인터페이스 설계로, 색맹 사용자도 명확한 정보 인식이 가능한 디바이스 인터페이스를 개발",
+    "idea_description": "1) 색맹 사용자를 위한 색상 대비 기준에 맞춘 배경색 선택 (예: 노란색/파란색 대비) 2) 터치 버튼에 LED 라이트 및 텍스처 피드백을 통한 시각/촉각적 인터랙션 3) 인체공학적 형태 설계로 손에 촉감 좋은 디바이스 구조 개발",
+    "execution_plan": [
+      {
+        "step": "1단계: 색상 접근성 기준 분석",
+        "description": "WCAG 2.1 기준에 따른 색상 대비 계산 및 색맹 사용자 테스트 수행",
+        "deadline": "2025.01.15"
+      },
+      {
+        "step": "2단계: 디스플레이 배경색 결정",
+        "description": "노란색/파란색 대비 테스트를 통한 배경색 최종 선택",
+        "deadline": "2025.01.25"
+      },
+      {
+        "step": "3단계: 터치 버튼 설계",
+        "description": "투명 플라스틱 버튼 + LED 라이트 + 텍스처 피드백 통합 설계",
+        "deadline": "2025.02.10"
+      },
+      {
+        "step": "4단계: 인체공학적 형태 설계",
+        "description": "손에 촉감 좋은 형태 설계 및 사용자 테스트 수행",
+        "deadline": "2025.02.25"
+      },
+      {
+        "step": "5단계: 최종 프로토타입 제작",
+        "description": "설계된 요소 통합 및 사용자 테스트 반복",
+        "deadline": "2025.03.15"
+      }
+    ],
+    "expected_effects": [
+      "색맹 사용자 95% 이상이 명확한 정보 인식 가능하게 된 디스플레이",
+      "터치 인터페이스 사용 시 30% 이상의 사용자 편의성 향상",
+      "인체공학적 형태 설계로 손에 촉감 좋은 디바이스 구조 개발 완료"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3006c/05_final_result.json",
+    "utterance_count": 467,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 13855,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T20:12:56.375574"
+  }
+}

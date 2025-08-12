@@ -1,0 +1,84 @@
+{
+  "id": "result_Bmr006_chunk_8",
+  "source_dir": "result_Bmr006",
+  "notion_output": {
+    "project_name": "스피커 변경 감지 기술 개선 프로젝트",
+    "project_purpose": "음성 신호에서 스피커 변경을 정확하게 감지하기 위한 기술 개선 및 시스템 구축",
+    "project_period": "2025.01.01 ~ 2025.04.30",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "중복된 음성 신호를 감지할 수 있는 알고리즘 개발",
+      "교차 상관관계 분석을 통한 스피커 변경 감지 정확도 향상",
+      "2개 마이크로폰 시스템을 통한 신호 향상 효과 검증"
+    ],
+    "core_idea": "기존 스피커 변경 감지 시스템의 한계를 극복하기 위해 MFCC 특징량과 교차 상관관계 분석을 결합한 신규 알고리즘 개발",
+    "idea_description": "PDA(Perceptual Discrimination Analysis) 기반의 신호 처리 방식을 개선하여, 두 마이크로폰으로부터의 신호 차이를 분석하여 스피커 변경을 더 정확하게 감지하는 기술 개발. 교차 상관관계 분석을 통해 음성 신호의 시간 지연 및 강도 차이를 활용한 정밀한 감지 알고리즘 구현",
+    "execution_plan": [
+      {
+        "phase": "기술 탐색 및 분석",
+        "tasks": [
+          "기존 스피커 감지 알고리즘의 한계 분석",
+          "MFCC 특징량과 교차 상관관계 분석 기법 비교",
+          "PDA 시스템의 신호 처리 방식 검토"
+        ],
+        "deadline": "2025.01.15",
+        "priority": "고"
+      },
+      {
+        "phase": "알고리즘 개발",
+        "tasks": [
+          "중복 감지 알고리즘 설계",
+          "교차 상관관계 분석 모듈 개발",
+          "2개 마이크로폰 시스템 시뮬레이션 환경 구축"
+        ],
+        "deadline": "2025.02.15",
+        "priority": "중"
+      },
+      {
+        "phase": "테스트 및 검증",
+        "tasks": [
+          "실제 음성 데이터셋을 통한 알고리즘 테스트",
+          "정확도 평가 지표 설정 및 측정",
+          "결과 분석 및 최적화"
+        ],
+        "deadline": "2025.03.31",
+        "priority": "고"
+      },
+      {
+        "phase": "시스템 통합 및 문서화",
+        "tasks": [
+          "최종 시스템 통합",
+          "사용 매뉴얼 작성",
+          "결과 보고서 작성"
+        ],
+        "deadline": "2025.04.30",
+        "priority": "중"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 중복 감지 정확도 30% 향상 (기존 70% → 90% 이상)",
+      "기대효과 2: 2개 마이크로폰 시스템으로 신호 분리 정확도 40% 개선",
+      "기대효과 3: PDA 기반 시스템과 비교해 처리 속도 2배 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr006/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_D"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 8,
+    "processing_date": "2025-08-10T22:16:35.333077"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "result_IS1000d_chunk_2",
+  "source_dir": "result_IS1000d",
+  "notion_output": {
+    "project_name": "혁신형 스마트 리모컨 프로젝트",
+    "project_purpose": "시장 경쟁력 확보 및 고객 만족도 증대를 통한 제품 출시",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 혁신적인 디자인 및 기능을 갖춘 스마트 리모컨 개발",
+      "목표 2: 다양한 색상과 표지 선택 기능 추가",
+      "목표 3: 고객 피드백 반영을 통해 제품 개선"
+    ],
+    "core_idea": "혁신적인 디자인과 기능을 통해 시장에서 차별화되고, 고객의 요구에 따라 지속적으로 개선되는 스마트 리모컨",
+    "idea_description": "현재 시장에서 기존 제품과의 차별점을 강조하며, 고객의 요구에 따른 다양한 기능을 추가하여 제품의 가치를 극대화한다. 특히, 혁신적인 디자인과 기능을 통해 소비자들이 선호하는 트렌드를 반영하고, 이를 통해 높은 매출을 달성한다.",
+    "execution_plan": [
+      {
+        "phase": "설계 및 개발",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "description": "혁신적인 디자인과 기능을 고려하여 제품 설계 및 개발을 진행."
+      },
+      {
+        "phase": "테스트 및 피드백 수집",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "description": "제품을 시장에 출시하기 전에 다양한 테스트를 수행하고, 고객 피드백을 수집한다."
+      },
+      {
+        "phase": "최종 생산 및 출시",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "description": "제품을 생산하고, 최종적으로 출시한다."
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 고객 만족도 향상으로 인한 높은 판매 성공률",
+      "기대효과 2: 혁신적인 디자인과 기능을 통해 시장 경쟁력 강화",
+      "기대효과 3: 고객 피드백을 반영한 제품 개선으로 지속적인 신뢰도 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_IS1000d/05_final_result.json",
+    "utterance_count": 433,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "original_length": 13960,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T23:35:55.754927"
+  }
+}

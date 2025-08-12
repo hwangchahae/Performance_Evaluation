@@ -1,0 +1,42 @@
+{
+  "id": "result_Bro028_chunk_5",
+  "source_dir": "result_Bro028",
+  "notion_output": {
+    "project_name": "다중 대역 및 통계적 메커니즘 기반의 숫자 인식 개선 프로젝트",
+    "project_purpose": "다중 대역 설정과 통계적 메커니즘을 활용하여 숫자 인식의 정확도와 효율성을 극대화하고, 이를 통해 사용자 경험을 개선",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Michael Kleinschmidt",
+    "core_objectives": [
+      "목표 1: 다중 대역 설정을 통해 연결을 더욱 명확하게 분석하고 최적화",
+      "목표 2: 통계적 메커니즘을 활용하여 숫자 인식의 정확도를 10% 이상 향상시킴",
+      "목표 3: 중간 범주를 다루는 패턴을 통해 시스템의 처리 능력을 증강"
+    ],
+    "core_idea": "다중 대역 설정과 통계적 메커니즘을 결합하여 숫자 인식의 정확도와 효율성을 높이는 기술적 접근",
+    "idea_description": "다중 대역 설정을 통해 연결을 더 잘 분석하고, 통계적 메커니즘을 활용하여 숫자 인식의 정확도를 높이며, 중간 범주를 다루는 패턴을 통해 시스템의 처리 능력을 증강시키는 방안",
+    "execution_plan": "1단계: 다중 대역 설정 분석 및 최적화 (2024.01.01 ~ 2024.02.15)\n2단계: 통계적 메커니즘 도입 및 숫자 인식 정확도 테스트 (2024.02.16 ~ 2024.04.15)\n3단계: 중간 범주 패턴 분석 및 시스템 처리 능력 증강 (2024.04.16 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 숫자 인식 정확도 10% 이상 향상으로 인한 사용자 만족도 증가",
+      "기대효과 2: 다중 대역 설정을 통한 연결 분석의 효율성 증대",
+      "기대효과 3: 중간 범주 패턴을 통한 시스템 처리 능력의 20% 이상 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bro028/05_final_result.json",
+    "utterance_count": 575,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_E"
+    ],
+    "original_length": 19606,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-10T09:27:47.171657"
+  }
+}

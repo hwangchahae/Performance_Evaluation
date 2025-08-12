@@ -1,0 +1,41 @@
+{
+  "id": "result_TS3010b_chunk_1",
+  "source_dir": "result_TS3010b",
+  "notion_output": {
+    "project_name": "스마트 리모컨 개발 프로젝트",
+    "project_purpose": "다양한 TV 기종과 호환 가능한 저비용, 사용자 친화적인 리모컨을 개발하여 시장 점유율 확대",
+    "project_period": "2025.02.01 ~ 2025.05.31",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "TV용 리모컨 기능적 요구사항 정의 (채널 변경, 볼륨 조절, 전원 제어 등)",
+      "모든 기종의 TV와 호환 가능한 적외선 기술 기반 설계",
+      "제조사 색상/슬로건 반영한 디자인 개발 및 제작"
+    ],
+    "core_idea": "저비용 배터리 사용과 간소한 UI 디자인으로 고령층 및 젊은층 사용자 모두에게 접근성 강화",
+    "idea_description": "기존 리모컨 대비 30% 저렴한 배터리 사용으로 유지비용 절감, LCD 기반 화면으로 사용법 안내 제공, 회사 브랜드 색상 반영하여 시각적 인지도 강화",
+    "execution_plan": "1단계(2월): 기능 요구사항 정리 및 타겟 사용자 분석 (완료일: 2025.02.15)\n2단계(3월): 전자회로 설계 및 프로토타입 제작 (완료일: 2025.03.31)\n3단계(4월): 사용성 테스트 및 디자인 최적화 (완료일: 2025.04.15)\n4단계(5월): 생산 준비 및 시장 출시 (완료일: 2025.05.31)",
+    "expected_effects": [
+      "제조사 브랜드 인지도 15% 상승 (디자인 반영 효과)",
+      "고령층 사용자 30% 증가 (사용성 테스트 결과 기반)",
+      "연간 50만 개 이상의 판매량 달성 (시장 분석 기준)"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3010b/05_final_result.json",
+    "utterance_count": 218,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C",
+      "Speaker_B"
+    ],
+    "original_length": 7553,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:09:30.228208"
+  }
+}

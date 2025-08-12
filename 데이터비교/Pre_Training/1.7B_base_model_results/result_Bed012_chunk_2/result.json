@@ -1,0 +1,68 @@
+{
+  "id": "result_Bed012_chunk_2",
+  "source_dir": "result_Bed012",
+  "notion_output": {
+    "project_name": "Where-Is Bayesian Network System",
+    "project_purpose": "베이즈 네트워크를 활용하여 'Where-Is' 구조에 기반한 질문에 대한 정확한 노드 결정을 도출하는 시스템 개발",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "베이즈 네트워크 설계 및 Where-Is 구조와의 통합",
+      "입력 데이터(Enter, Info-on, Location 등)에 기반한 노드 결정 메커니즘 구현",
+      "결정 노드의 최종 선택 및 결과 출력 구조 설계",
+      "사후 확률 계산 및 정량적 결과 도출"
+    ],
+    "core_idea": "질문에 대한 노드 결정을 'Where-Is' 구조에 기반하여 베이즈 네트워크를 활용하여 최적의 선택을 도출하는 시스템을 설계",
+    "idea_description": "질문에 대한 노드 결정은 Enter, Info-on, Location 등 다양한 요소에 기반하여 베이즈 네트워크를 통해 사후 확률을 계산하고, 최종 노드 선택을 결정합니다. 이 과정에서 'Where-Is' 구조의 노드 연결 및 결정 노드의 최종 선택을 처리하며, 결과는 Struct 형식으로 출력됩니다. 베이즈 네트워크의 구조는 질문에 대한 최적의 선택을 보장하기 위해 설계됩니다.",
+    "execution_plan": [
+      {
+        "step": "1. 베이즈 네트워크 설계",
+        "deadline": "2025.01.15",
+        "responsibility": "Speaker_B, Speaker_D",
+        "description": "Enter, Info-on, Location 등 입력 데이터에 기반한 베이즈 네트워크 구조 설계 및 노드 연결"
+      },
+      {
+        "step": "2. Where-Is 구조 통합",
+        "deadline": "2025.01.25",
+        "responsibility": "Speaker_B, Speaker_C",
+        "description": "Where-Is 구조와 베이즈 네트워크의 노드 연결 및 결정 노드의 최종 선택 메커니즘 구현"
+      },
+      {
+        "step": "3. 사후 확률 계산 및 결과 출력",
+        "deadline": "2025.02.10",
+        "responsibility": "Speaker_D",
+        "description": "입력 데이터에 기반한 사후 확률 계산 및 Struct 형식으로 결과 출력"
+      },
+      {
+        "step": "4. 시스템 테스트 및 최적화",
+        "deadline": "2025.03.01",
+        "responsibility": "Speaker_B, Speaker_C",
+        "description": "시스템의 정확도 및 효율성 테스트 및 개선"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 정확한 노드 결정을 위한 베이즈 네트워크 구조 설계 완료",
+      "기대효과 2: Enter, Info-on, Location 등 입력 데이터에 기반한 노드 결정 메커니즘 구현",
+      "기대효과 3: 사후 확률 계산 및 Struct 형식으로의 결과 출력",
+      "기대효과 4: 시스템의 정확도 및 효율성 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed012/05_final_result.json",
+    "utterance_count": 520,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_D"
+    ],
+    "original_length": 17584,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T22:45:16.799803"
+  }
+}

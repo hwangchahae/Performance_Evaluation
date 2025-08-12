@@ -1,0 +1,41 @@
+{
+  "id": "result_ES2016a",
+  "source_dir": "result_ES2016a",
+  "notion_output": {
+    "project_name": "트렌디한 스마트 리모컨 개발 프로젝트",
+    "project_purpose": "트렌디하면서도 사용하기 쉬운 새로운 리모컨을 개발하여 시장에서 차별화된 제품으로 자리매김",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Nick Debusk",
+    "core_objectives": [
+      "목표 1: 사용자 요구 사항을 파악하여 기능적 디자인 완성",
+      "목표 2: 트렌디한 디자인 및 마케팅 전략 수립",
+      "목표 3: 제품 평가 및 최종 수정을 통한 제품 출시 준비"
+    ],
+    "core_idea": "공 모양의 휘파람 스타일 리모컨을 통해 사용자가 쉽게 조작할 수 있는 제품",
+    "idea_description": "공 모양의 휘파람 스타일의 리모컨을 설계하여 사용자가 쉽게 조작할 수 있도록 함. 이 제품은 트렌디한 디자인과 함께 사용자 친화적인 기능을 갖춤.",
+    "execution_plan": "1. 사용자 요구 사항 조사 및 기능 설계 (2024.01.01 ~ 2024.01.31)\n2. 트렌디한 디자인 및 마케팅 전략 수립 (2024.02.01 ~ 2024.02.28)\n3. 제품 평가 및 최종 수정 (2024.03.01 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 시장에서 차별화된 제품으로 인한 판매 증가",
+      "기대효과 2: 사용자 만족도 향상으로 인한 브랜드 이미지 강화",
+      "기대효과 3: 트렌디한 디자인을 통한 고객 유치 및 신규 고객 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_ES2016a/05_final_result.json",
+    "utterance_count": 133,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 4767,
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1
+    },
+    "is_chunk": false,
+    "chunk_index": null,
+    "processing_date": "2025-08-09T23:11:53.833418"
+  }
+}

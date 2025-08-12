@@ -1,0 +1,41 @@
+{
+  "id": "result_ES2015c_chunk_1",
+  "source_dir": "result_ES2015c",
+  "notion_output": {
+    "project_name": "EcoMotion 리모컨 개발 프로젝트",
+    "project_purpose": "환경친화적인 운동 에너지 기반 리모컨을 개발하여 지속 가능한 제품을 제공하고 사용자 경험을 향상시키는 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "운동 에너지 기반 리모컨의 기술적 타당성 검증 및 설계 완료",
+      "환경친화적 재료(플라스틱, 고무)와 인체공학적 디자인 통합",
+      "사용자 인터페이스 최적화를 통한 사용자 만족도 90% 달성"
+    ],
+    "core_idea": "운동 에너지를 직접 전환하여 사용하는 혁신적인 리모컨 기술을 기반으로, 재활용 가능한 재료와 편리한 인터페이스를 결합한 지속 가능한 제품 개발",
+    "idea_description": "운동 에너지 변환 기술을 통해 배터리 사용을 최소화하고, 태양광 백업 시스템으로 에너지 자립성을 확보. 인체공학적 디자인과 다중 스크롤 버튼 기능을 통합하여 사용자 편의성을 극대화. 재활용 플라스틱과 고무 소재를 사용하여 환경 영향을 최소화.",
+    "execution_plan": "1월: 운동 에너지 변환 기술 연구 및 재료 선정 (1-15일)\n2월: 프로토타입 제작 및 사용자 테스트 (16-25일)\n3월: 최종 디자인 완성 및 시장성 분석 (26-31일)",
+    "expected_effects": [
+      "연간 10톤 이상의 배터리 폐기 감소(운동 에너지 기반으로 전환 시)",
+      "사용자 만족도 90% 달성(인체공학적 디자인 및 인터페이스 최적화)",
+      "제품 출시 후 12개월 내 30%의 시장 점유율 확보(지속 가능성 기반 차별화 전략)"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_ES2015c/05_final_result.json",
+    "utterance_count": 358,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C",
+      "Speaker_B"
+    ],
+    "original_length": 11803,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:12:20.742249"
+  }
+}

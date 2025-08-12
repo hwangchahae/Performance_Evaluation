@@ -1,0 +1,41 @@
+{
+  "id": "result_IS1007d_chunk_1",
+  "source_dir": "result_IS1007d",
+  "notion_output": {
+    "project_name": "스마트 리모컨 프로젝트",
+    "project_purpose": "비용 절감 및 사용자 경험 향상을 위한 리모컨 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: LCD 없는 리모컨 개발로 비용 절감",
+      "목표 2: 사용자 친화적인 인터페이스 구현",
+      "목표 3: 다양한 기능 모듈 확장 가능성 제공"
+    ],
+    "core_idea": "LCD 없는 리모컨을 통해 비용을 절약하면서도 사용자 경험을 향상시키는 제품 개발",
+    "idea_description": "LCD가 없는 리모컨을 개발하여 비용을 절약하고, 사용자 친화적인 인터페이스를 통해 사용성을 높이며, 다양한 기능 모듈을 추가할 수 있도록 설계합니다.",
+    "execution_plan": "1단계: 요구사항 분석 및 설계 (2024.01.01 ~ 2024.02.28)\n2단계: 프로토타입 개발 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 최종 제품 개발 및 생산 준비 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 제품 비용 30% 절감",
+      "기대효과 2: 사용자 만족도 향상",
+      "기대효과 3: 다양한 기능 모듈을 통한 제품의 경쟁력 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_IS1007d/05_final_result.json",
+    "utterance_count": 262,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 9248,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-09T23:11:15.419172"
+  }
+}

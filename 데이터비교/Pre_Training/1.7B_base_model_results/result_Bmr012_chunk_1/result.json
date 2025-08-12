@@ -1,0 +1,63 @@
+{
+  "id": "result_Bmr012_chunk_1",
+  "source_dir": "result_Bmr012",
+  "notion_output": {
+    "project_name": "음성 시스템 최적화 및 정제 프로젝트",
+    "project_purpose": "음성 시스템의 오류 수정, 채널 설정 최적화, 시스템 통합을 통한 품질 향상 및 기능 확장",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "채널 설정 최적화: 채널 1, 5, 8의 오류 수정 및 음성 품질 향상",
+      "시스템 통합: SRI 시스템과의 연동 및 음성 인식 기능 확장",
+      "동기화 문제 해결: 비단조적 동기화 시간 최적화 및 시스템 정확도 향상"
+    ],
+    "core_idea": "음성 시스템의 오류를 분석하고, 채널 설정, 동기화 문제, 시스템 통합을 통해 품질과 기능을 개선하는 프로젝트",
+    "idea_description": "1. 채널 설정 최적화: 채널 1, 5, 8의 오류를 분석하여 게인 조정 및 채널 설정을 개선합니다. 2. 시스템 통합: SRI 시스템과의 연동을 통해 음성 인식 기능을 확장합니다. 3. 동기화 문제 해결: 비단조적 동기화 시간을 분석하여 시스템 정확도를 향상시킵니다. 4. 테스트 및 평가: 각 단계를 테스트하여 품질과 기능을 평가합니다.",
+    "execution_plan": [
+      {
+        "step": "1. 채널 설정 분석",
+        "details": "채널 1, 5, 8의 오류를 분석하고, 게인 조정 및 채널 설정을 최적화합니다."
+      },
+      {
+        "step": "2. 시스템 통합",
+        "details": "SRI 시스템과의 연동을 통해 음성 인식 기능을 확장합니다."
+      },
+      {
+        "step": "3. 동기화 문제 해결",
+        "details": "비단조적 동기화 시간을 분석하여 시스템 정확도를 향상시킵니다."
+      },
+      {
+        "step": "4. 테스트 및 평가",
+        "details": "각 단계를 테스트하여 품질과 기능을 평가합니다."
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 채널 설정 최적화 후 음성 품질 향상 (예: 오류 감소 70%)",
+      "기대효과 2: SRI 시스템 통합 후 음성 인식 정확도 향상 (예: 95% 이상의 정확도)",
+      "기대효과 3: 동기화 문제 해결 후 시스템 정확도 향상 (예: 98% 이상의 정확도)"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr012/05_final_result.json",
+    "utterance_count": 602,
+    "speakers": [
+      "Speaker_H",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_F",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_I",
+      "Speaker_E"
+    ],
+    "original_length": 20997,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:44:16.377248"
+  }
+}

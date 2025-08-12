@@ -1,0 +1,86 @@
+{
+  "id": "result_TS3006c_chunk_2",
+  "source_dir": "result_TS3006c",
+  "notion_output": {
+    "project_name": "색상과 인터페이스 디자인 프로젝트",
+    "project_purpose": "색상 선택, 인터페이스 디자인, 인체공학적 설계, 접근성 고려를 통한 사용자 친화적인 제품 개발",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "색상 선택 및 디자인 기준 수립",
+      "인체공학적 터치패드 설계 및 구현",
+      "접근성 고려 디자인 확정",
+      "LED 빛 효과 및 투명 플라스틱 버튼 개발",
+      "프로토타입 검증 및 최종 제품 제작"
+    ],
+    "core_idea": "색상과 인터페이스 디자인을 통합한 사용자 친화적인 터치패드 개발",
+    "idea_description": "색상 선택은 녹색(구식), 노란색(트렌디), 빨강(표현력)을 기반으로 하며, 배경과 전경색 대비를 높이고 색맹 인식을 고려한 디자인을 적용한다. 터치패드는 투명 플라스틱 버튼에 LED 빛을 부착하여 색상 반사 효과를 제공하며, 화살표 버튼과 메뉴 버튼을 포함한 인터페이스를 구현한다. 인체공학적 형태와 빛 효과를 결합하여 사용자 경험을 향상시킨다.",
+    "execution_plan": [
+      {
+        "phase": "색상 및 디자인 설계",
+        "deadline": "2025.01.15",
+        "tasks": [
+          "색상 선택 및 기준 수립",
+          "터치패드 형태 및 빛 효과 설계",
+          "접근성 검토 및 수정"
+        ],
+        "responsible": "Speaker_A, Speaker_D"
+      },
+      {
+        "phase": "프로토타입 개발",
+        "deadline": "2025.02.01",
+        "tasks": [
+          "투명 플라스틱 버튼 제작",
+          "LED 빛 효과 구현",
+          "화살표 버튼 및 메뉴 버튼 구현"
+        ],
+        "responsible": "Speaker_C, Speaker_B"
+      },
+      {
+        "phase": "테스트 및 검증",
+        "deadline": "2025.02.15",
+        "tasks": [
+          "색맹 인식 테스트",
+          "접근성 검증",
+          "터치패드 사용성 테스트"
+        ],
+        "responsible": "Speaker_A, Speaker_D"
+      },
+      {
+        "phase": "최종 제품 제작",
+        "deadline": "2025.03.01",
+        "tasks": [
+          "프로토타입 최종 수정",
+          "LED 빛 효과 최적화",
+          "최종 디자인 확정"
+        ],
+        "responsible": "Speaker_A"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 사용자 친화적인 디자인으로 인해 사용자 만족도 향상",
+      "기대효과 2: 색맹 인식을 고려한 디자인으로 인해 접근성 향상",
+      "기대효과 3: 투명 플라스틱 버튼과 LED 빛 효과로 인해 제품의 트렌디한 이미지 확보",
+      "기대효과 4: 인체공학적 터치패드로 인해 사용자 경험 향상",
+      "기대효과 5: 프로토타입 검증 후 최종 제품의 기능성 및 외관 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3006c/05_final_result.json",
+    "utterance_count": 467,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_D"
+    ],
+    "original_length": 13855,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T22:39:34.487013"
+  }
+}

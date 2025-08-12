@@ -1,0 +1,45 @@
+{
+  "id": "result_TS3012c_chunk_2",
+  "source_dir": "result_TS3012c",
+  "notion_output": {
+    "project_name": "곡선 디자인 리모컨 개발 프로젝트",
+    "project_purpose": "청소년층을 중심으로 한 세련되고 사용자 친화적인 리모컨 제품을 개발하여 시장 경쟁력을 확보하는 것",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_A",
+    "core_objectives": [
+      "LCD 화면과 고급 칩을 탑재한 리모컨의 기능적 디자인 완성",
+      "고무 재질 케이스와 곡선 버튼으로 인체공학적 사용성 확보",
+      "청소년층을 위한 세련된 디자인과 편리한 인터페이스 구현"
+    ],
+    "core_idea": "곡선형 디자인과 LCD 화면을 결합한 리모컨으로 사용자 경험을 혁신적으로 개선",
+    "idea_description": "고무 재질 케이스와 곡선 버튼으로 손의 곡선에 맞춘 인체공학적 디자인을 구현하고, LCD 화면과 고급 칩을 통해 기능적 편리성을 제공하는 리모컨 제품. 젊은 세대의 미적 감각과 실용성을 동시에 만족시키는 제품 개발",
+    "execution_plan": [
+      "1월: 디자인 최종 확정 (스피커_B, 스피커_C 협업)",
+      "2월: 프로토타입 제작 및 사용성 테스트 (스피커_A 주도)",
+      "3월: 시장성 검증 및 생산 준비 (스피커_D 주도)"
+    ],
+    "expected_effects": [
+      "100명 이상의 청소년 대상 사용성 테스트에서 85% 이상의 만족도 달성",
+      "시장 경쟁력 강화로 제품 출시 후 6개월 내 5,000대 이상 판매 목표",
+      "디자인 혁신을 통한 브랜드 인지도 30% 상승"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3012c/05_final_result.json",
+    "utterance_count": 425,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C",
+      "Speaker_B"
+    ],
+    "original_length": 14077,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T22:09:18.273988"
+  }
+}

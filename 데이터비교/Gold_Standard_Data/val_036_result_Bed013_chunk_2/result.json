@@ -1,0 +1,36 @@
+{
+  "id": "val_036_chunk_2",
+  "source_dir": "result_Bed013_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"국제 학회 논문 제출 프로젝트\",\n    \"project_purpose\": \"주요 국제 학회에 논문을 성공적으로 제출하여 학문적 기여를 증대시키고, 팀의 연구 성과를 널리 알리는 것\",\n    \"project_period\": \"2023.11.01 ~ 2024.06.15\",\n    \"project_manager\": \"Speaker_E\",\n    \"core_objectives\": [\n        \"목표 1: 논문 주제 선정 및 연구 방향 설정\",\n        \"목표 2: 연구 자료 수집 및 분석\",\n        \"목표 3: 논문 작성 및 검토\"\n    ],\n    \"core_idea\": \"연구 성과를 바탕으로 한 국제 학회 논문 제출\",\n    \"idea_description\": \"현재까지 진행된 연구를 바탕으로, 주요 국제 학회에 제출할 논문을 작성하고, 이를 통해 연구의 학문적 기여도를 높이고자 함\",\n    \"execution_plan\": \"1단계: 2023.11.01 ~ 2023.12.31 - 연구 주제 선정 및 자료 수집\\n2단계: 2024.01.01 ~ 2024.03.31 - 자료 분석 및 초안 작성\\n3단계: 2024.04.01 ~ 2024.05.31 - 논문 검토 및 수정\\n4단계: 2024.06.01 ~ 2024.06.15 - 최종 제출 준비 및 제출\",\n    \"expected_effects\": [\n        \"기대효과 1: 국제 학회에서의 연구 발표를 통해 팀의 연구 성과를 널리 알림\",\n        \"기대효과 2: 학문적 네트워크 확장을 통한 연구 협력 기회 증대\",\n        \"기대효과 3: 연구 성과의 학문적 인정 및 팀의 전문성 강화\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed013_processed/05_final_result.json",
+    "utterance_count": 744,
+    "original_transcript_length": 24608,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 24608
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T10:40:35.075687"
+  }
+}

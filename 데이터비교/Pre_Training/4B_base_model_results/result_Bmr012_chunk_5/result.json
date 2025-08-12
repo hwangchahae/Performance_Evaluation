@@ -1,0 +1,52 @@
+{
+  "id": "result_Bmr012_chunk_5",
+  "source_dir": "result_Bmr012",
+  "notion_output": {
+    "project_name": "소니 커넥터 문제 해결 및 학생 프로젝트 실행 프로젝트",
+    "project_purpose": "소니 독점 커넥터 문제를 해결하기 위한 대체 솔루션 개발 및 학생이 진행하는 음향 채널 개선 프로젝트의 실행을 통합적으로 계획하는 일",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_A",
+    "core_objectives": [
+      "소니 커넥터 문제를 해결하기 위한 대체 솔루션(피그테일 헤드셋 납땜) 개발",
+      "학생이 진행하는 음향 채널 개선 프로젝트(이코차Cancellation)의 실행",
+      "NIST와의 협력을 통한 글로벌 인코딩 표준 개발"
+    ],
+    "core_idea": "소니 독점 커넥터의 제약을 극복하기 위해 피그테일 헤드셋 납땜을 통한 대체 솔루션 개발과, 학생이 진행하는 음향 채널 개선 프로젝트를 기반으로 NIST와의 협력을 통한 표준 개발을 통합적으로 수행하는 방안",
+    "idea_description": "소니의 독점 커넥터로 인한 제약을 해결하기 위해 피그테일 헤드셋 납땜을 통해 대체 솔루션을 개발하고, 학생이 진행하는 이코차Cancellation 기술을 기반으로 음향 채널 개선 프로젝트를 실행하며, 이에 기반한 글로벌 인코딩 표준 개발을 통해 기술적 표준화를 도모하는 방안",
+    "execution_plan": [
+      "2025.01.01-01.15: 소니 커넥터 문제 분석 및 대체 솔루션(피그테일 헤드셋 납땜) 기술적 탐색",
+      "2025.01.16-02.01: 피그테일 헤드셋 납땜 솔루션 개발 및 테스트",
+      "2025.02.02-02.15: 학생 프로젝트(이코차Cancellation) 기술 검토 및 실행 계획 수립",
+      "2025.02.16-03.01: 학생 프로젝트 실행 및 결과 분석",
+      "2025.03.02-03.15: NIST와의 협력을 통한 글로벌 인코딩 표준 개발"
+    ],
+    "expected_effects": [
+      "소니 커넥터 문제 해결을 위한 대체 솔루션 개발로 40달러 이내의 대체 비용 절감",
+      "이코차Cancellation 기술을 기반으로 한 음향 채널 개선 프로젝트 완료로 대화 겹치는 기간 처리 효율성 향상",
+      "NIST와의 협력을 통한 글로벌 인코딩 표준 개발로 기술적 표준화 및 산업 혁신 촉진"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr012/05_final_result.json",
+    "utterance_count": 602,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_I",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 20997,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-10T20:17:11.730769"
+  }
+}

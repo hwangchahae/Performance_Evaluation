@@ -1,0 +1,38 @@
+{
+  "id": "val_030_chunk_2",
+  "source_dir": "result_Bed009_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"M-three-L 기반 관광 경로 최적화 및 SmartKom 통합 프로젝트\",\n    \"project_purpose\": \"M-three-L 구조와 SmartKom 시스템을 통합하여 관광 경로를 최적화하고 사용자 경험을 향상시키는 것\",\n    \"project_period\": \"2024.01.01 ~ 2024.03.31\",\n    \"project_manager\": \"마이클\",\n    \"core_objectives\": [\n        \"목표 1: M-three-L 구조를 기반으로 한 관광 경로 도메인 모델 개발\",\n        \"목표 2: SmartKom 시스템과의 적합성 검토 및 통합\",\n        \"목표 3: 사용자 관련 정보와 상황 관련 정보를 통합하여 맞춤형 경로 제공\",\n        \"목표 4: GIS 및 경로 계획자와의 통합을 통해 경로 최적화\"\n    ],\n    \"core_idea\": \"M-three-L 구조와 SmartKom 시스템을 활용한 관광 경로 최적화\",\n    \"idea_description\": \"M-three-L 구조와 SmartKom 시스템을 기반으로 관광 경로를 최적화하여 사용자에게 맞춤형 경로를 제공하고, GIS 및 경로 계획자와 통합하여 효율성을 극대화합니다.\",\n    \"execution_plan\": \"1단계: M-three-L 구조 분석 및 도메인 모델 설계 (2024.01.01 ~ 2024.01.15)\\n2단계: SmartKom 시스템과의 통합 가능성 및 적합성 검토 (2024.01.16 ~ 2024.01.31)\\n3단계: 사용자 및 상황 관련 정보 수집 및 통합 (2024.02.01 ~ 2024.02.15)\\n4단계: GIS 및 경로 계획자와의 통합 테스트 (2024.02.16 ~ 2024.03.15)\\n5단계: 최종 검토 및 프로젝트 완료 (2024.03.16 ~ 2024.03.31)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 맞춤형 경로 제공으로 사용자 만족도 향상\",\n        \"기대효과 2: 경로 최적화를 통한 관광지 방문 효율성 증가\",\n        \"기대효과 3: M-three-L 구조와 SmartKom 시스템의 실용성 검증 및 확장 가능성 탐색\"\n    ],\n    \"additional_considerations\": [\n        \"회의에서 언급된 X-스키마와의 유사성을 검토하고 필요성을 평가할 것\",\n        \"SmartKom과의 통합 과정에서 발생할 수 있는 기술적 문제를 사전에 식별하고 해결 방안을 마련할 것\",\n        \"회의에서 논의된 모든 주요 주제와 결정을 기획안에 반영하여 실행 계획을 구체적이고 실용적으로 작성할 것\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed009_processed/05_final_result.json",
+    "utterance_count": 691,
+    "original_transcript_length": 23895,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 23895
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T10:27:05.272188"
+  }
+}

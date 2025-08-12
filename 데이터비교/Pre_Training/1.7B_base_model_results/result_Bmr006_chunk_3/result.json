@@ -1,0 +1,60 @@
+{
+  "id": "result_Bmr006_chunk_3",
+  "source_dir": "result_Bmr006",
+  "notion_output": {
+    "project_name": "다국어 회의 기획 및 데이터 수집 프로젝트",
+    "project_purpose": "다국어 회의 형식을 도입하고, 익명화된 참여자 데이터 수집을 통해 학생과 교수의 의견을 체계적으로 분석하여 연구에 활용",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "다국어 회의 형식 도입 및 운영",
+      "익명화된 참여자 데이터 수집 및 분석",
+      "연구 목적에 맞는 데이터 활용",
+      "회의 형식의 유연성 유지 및 편의성 확보"
+    ],
+    "core_idea": "다국어 회의 형식을 통해 학생과 교수의 의견을 공유하고, 익명화된 데이터 수집을 통해 연구에 활용할 수 있는 프로젝트",
+    "idea_description": "다국어 회의 형식은 영어로 진행되며, 참여자들이 자신의 의견을 자유롭게 표현할 수 있도록 하여 연구의 풍부한 자료를 확보합니다. 익명화된 데이터 수집은 참여자의 정서적 반응을 분석하고, 연구의 신뢰성을 높이기 위해 활용됩니다. 회의 형식의 유연성은 참여자의 편의성을 유지하며, 데이터 수집의 효율성을 높입니다.",
+    "execution_plan": [
+      {
+        "step": "1. 회의 형식 설계",
+        "details": "다국어 회의 형식을 정의하고, 참여자 수, 시간, 장소 등을 결정합니다. 테이블탑 마이크 사용 및 익명화 기능 구현.",
+        "deadline": "2025.01.15"
+      },
+      {
+        "step": "2. 데이터 수집 및 분석",
+        "details": "회의 중 익명화된 참여자 데이터를 필사본으로 기록하고, 연구 목적에 맞는 분석을 수행합니다.",
+        "deadline": "2025.02.28"
+      },
+      {
+        "step": "3. 데이터 활용 및 보고",
+        "details": "분석 결과를 바탕으로 연구에 활용하고, 연구 결과를 발표합니다.",
+        "deadline": "2025.03.15"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 참여자들의 의견을 체계적으로 수집하여 연구의 풍부한 자료를 확보",
+      "기대효과 2: 익명화된 데이터 수집을 통해 참여자의 정서적 반응을 분석하고, 연구의 신뢰성을 높이기",
+      "기대효과 3: 회의 형식의 유연성과 편의성을 유지하며, 데이터 수집의 효율성을 높이기"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr006/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_E"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 3,
+    "processing_date": "2025-08-10T22:44:31.168457"
+  }
+}

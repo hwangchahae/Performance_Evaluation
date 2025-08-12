@@ -1,0 +1,42 @@
+{
+  "id": "result_Bed013_chunk_1",
+  "source_dir": "result_Bed013",
+  "notion_output": {
+    "project_name": "SmartKom 의도 기반 시스템 개선 프로젝트",
+    "project_purpose": "사용자 의도를 기반으로 자동으로 응답을 생성하고, 시스템 내부에서 결정 노드의 사후 확률을 분석하여 오류를 감지하고 개선하는 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_E",
+    "core_objectives": [
+      "의도 기반 응답 생성 시스템 개발: 사용자 입력 없이도 시스템이 자동으로 의도를 설정하고 응답을 생성하는 기능 구현",
+      "온톨로지 기반 쿼리 처리 시스템 구축: 특정 사용자 설정에 따라 상향식 처리 로직 개발",
+      "결정 노드 사후 확률 분석 알고리즘 개발: 오류 감지 및 시스템 성능 개선을 위한 알고리즘 구현"
+    ],
+    "core_idea": "의도(Ex nihilo)를 기반으로 시스템이 스스로 학습하고 응답을 생성하는 자율적 인공지능 시스템",
+    "idea_description": "사용자 의도를 설정 없이 시스템이 자동으로 데이터를 분석하고, 결정 노드의 확률을 기반으로 최적의 응답을 생성하는 기술. 온톨로지와 알고리즘을 결합해 시스템의 자율성과 정확도를 극대화",
+    "execution_plan": "1단계(1월): 요구사항 분석 및 기술 검증, 2단계(2월): 온톨로지 기반 쿼리 처리 시스템 개발, 3단계(3월): 결정 노드 분석 알고리즘 통합 및 테스트",
+    "expected_effects": [
+      "응답 정확도 30% 향상: 의도 기반 알고리즘 도입으로 사용자 요구에 대한 적절한 응답률 증가",
+      "오류 감지 시간 50% 단축: 자동 분석 기능으로 시스템 오류 신속 탐지",
+      "사용자 만족도 20% 상승: 자율적 응답 생성으로 사용자 경험 개선"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed013/05_final_result.json",
+    "utterance_count": 744,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "original_length": 24608,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:17:17.486143"
+  }
+}

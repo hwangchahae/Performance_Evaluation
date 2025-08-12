@@ -1,0 +1,50 @@
+{
+  "id": "result_Bmr019_chunk_4",
+  "source_dir": "result_Bmr019",
+  "notion_output": {
+    "project_name": "오로라 프로젝트: 음성 인식 시스템 개선 및 논문 제출 최적화",
+    "project_purpose": "음성 인식 시스템의 정확도 향상과 논문 제출 프로세스의 효율화를 통한 연구 생산성 향상",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_G",
+    "core_objectives": [
+      "오로라 특별 세션 데이터를 기반으로 음성 인식 오류율 20% 감소",
+      "MMIE 훈련 개선 버전 구현 및 10%~8% 오류율 성능 개선",
+      "논문 제출 시스템과 데이터 시각화 인터페이스 개발"
+    ],
+    "core_idea": "구체적인 데이터 분석과 시스템 개선을 통해 음성 인식 정확도를 향상시키고, 논문 제출 프로세스의 복잡성을 줄이는 통합 솔루션",
+    "idea_description": "오로라 프로젝트는 음성 인식 시스템의 기술적 한계를 극복하고, 연구자들이 논문 작성 및 제출 시 발생하는 시간 낭비를 최소화하는 데 초점을 맞춥니다. HTK/Entropic 기반의 알고리즘 개선과 데이터 시각화 인터페이스 개발을 통해 연구 생산성을 30% 이상 향상시키는 것을 목표로 합니다.",
+    "execution_plan": [
+      "1월: 오로라 데이터셋 분석 및 기존 시스템 평가 (책임자: 스피커_B)",
+      "2월: MMIE 훈련 알고리즘 개선 및 테스트 (책임자: 스피커_I), 데이터 시각화 인터페이스 설계 (책임자: 스피커_A)",
+      "3월: 시스템 통합 및 최종 테스트 (책임자: 스피커_G), 논문 제출 프로세스 최적화 검증"
+    ],
+    "expected_effects": [
+      "음성 인식 오류율 20% 감소로 연구자 시간 절약",
+      "데이터 시각화 인터페이스 도입으로 분석 효율 30% 향상",
+      "논문 제출 시스템 최적화로 100명 이상의 연구자 참여 유도"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr019/05_final_result.json",
+    "utterance_count": 630,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_I",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_G"
+    ],
+    "original_length": 21243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-10T22:15:41.144742"
+  }
+}

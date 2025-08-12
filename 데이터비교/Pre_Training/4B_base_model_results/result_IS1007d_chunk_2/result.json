@@ -1,0 +1,46 @@
+{
+  "id": "result_IS1007d_chunk_2",
+  "source_dir": "result_IS1007d",
+  "notion_output": {
+    "project_name": "LCD 기반 다목적 기기 개발 프로젝트",
+    "project_purpose": "사용자 중심의 LCD 기반 다목적 기기 개발을 통해 시장 수요에 부응하고, 기술 혁신과 경제성을 동시에 확보하기 위한 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_D",
+    "core_objectives": [
+      "목표 1: LCD 기반의 사용자 친화적 인터페이스 구현",
+      "목표 2: 다양한 기능을 지원하는 다목적 기기 개발",
+      "목표 3: 제작 비용과 시장 수요 간 균형을 맞춘 제품 출시"
+    ],
+    "core_idea": "LCD 기반의 유연한 기능 조합을 통해 사용자 편의성과 기술 혁신을 동시에 달성하는 다목적 기기 개발",
+    "idea_description": "티타늄 소재의 PCB 기반 기기로, LCD 기능을 선택적으로 추가할 수 있는 모듈형 설계를 통해 사용자 맞춤형 기능 제공과 경제성 확보를 목표로 합니다. 사용자 편의성 향상을 위한 부모용 모듈과 기술적 혁신을 위한 LCD 기능을 병행하는 구조를 adopted.",
+    "execution_plan": [
+      "단계 1: 프로토타입 설계 (2025.01.01 ~ 2025.01.15) - LCD 기능과 기본 기능의 조합 방안 확정",
+      "단계 2: 제작 비용 분석 (2025.01.16 ~ 2025.01.30) - 4달러 기준의 모듈별 비용 산정",
+      "단계 3: 사용자 테스트 (2025.02.01 ~ 2025.02.15) - LCD 기능과 기본 기능의 사용성 검증",
+      "단계 4: 최종 제작 및 시장 출시 (2025.02.16 ~ 2025.03.31) - 테스트 결과 반영한 최적화된 제품 출시"
+    ],
+    "expected_effects": [
+      "효과 1: 사용자 편의성 향상 - LCD 기능과 기본 기능의 유연한 조합으로 30% 이상의 사용자 만족도 향상",
+      "효과 2: 기술적 혁신 확보 - LCD 기능 추가 시 20% 이상의 기능 확장 가능",
+      "효과 3: 경제성 달성 - 제작 비용 4달러 기준으로 시장 수요에 부응하는 가격대 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_IS1007d/05_final_result.json",
+    "utterance_count": 262,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 9248,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T20:13:27.958436"
+  }
+}

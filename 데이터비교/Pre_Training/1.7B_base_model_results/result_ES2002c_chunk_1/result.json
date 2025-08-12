@@ -1,0 +1,76 @@
+{
+  "id": "result_ES2002c_chunk_1",
+  "source_dir": "result_ES2002c",
+  "notion_output": {
+    "project_name": "NextGen Product Concept",
+    "project_purpose": "제품 컨셉을 최종 결정하고, 디자인, 사용 편의성, 비용, 크기, 및 전력 효율성을 고려한 기술적 구현을 수행하여 시장에 출시",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "제품 컨셉의 명확한 정의 및 검토",
+      "디자인 요소(자연색, 재료, 기능)의 최적화",
+      "사용자 중심 설계 및 기능적 편의성 확보",
+      "비용 및 복잡성 관리 전략 수립",
+      "전력 효율성 및 크기 제한 조정"
+    ],
+    "core_idea": "혁신적인 디자인과 기술을 결합한 소형, 휴대 가능한 전자기기로, 자연색과 부드러운 소재를 중심으로 사용자 친화적인 제품 개발",
+    "idea_description": "시장 트렌드에 기반한 과일/채소 활용 디자인을 적용한 소형 전자기기로, 티타늄 II 재료를 사용하여 경량화 및 내구성을 확보합니다. 사용자 인터페이스는 표준 버튼과 LCD 패널을 조합하여 복잡성 최소화, 전력 소비량은 휴대폰 대비 10% 수준 유지. 전원 시스템은 고무/플라스틱 대체 재료로 비용 절감.",
+    "execution_plan": [
+      {
+        "phase": "시장 분석 및 기술 검토",
+        "start_date": "2025.01.01",
+        "end_date": "2025.01.10",
+        "details": "패션 트렌드 분석, 티타늄 II 재료 특성 연구, 전력 효율성 설계"
+      },
+      {
+        "phase": "디자인 개념 수립",
+        "start_date": "2025.01.11",
+        "end_date": "2025.01.20",
+        "details": "자연색 디자인 요소 정의, 사용자 인터페이스 기능 설계, 전원 시스템 구조 검토"
+      },
+      {
+        "phase": "프로토타입 개발",
+        "start_date": "2025.01.21",
+        "end_date": "2025.02.10",
+        "details": "3D 프린팅으로 소형 전자기기 제작, 사용자 테스트 및 기능 검증"
+      },
+      {
+        "phase": "비용 및 복잡성 관리",
+        "start_date": "2025.02.11",
+        "end_date": "2025.03.01",
+        "details": "재료 비용 비교 분석, 복잡성 측정 도구 도입, 제조 공정 최적화"
+      },
+      {
+        "phase": "최종 검토 및 출시 준비",
+        "start_date": "2025.03.02",
+        "end_date": "2025.03.31",
+        "details": "마케팅 전략 수립, 품질 검사, 시장 피드백 수렴"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 15%의 전력 효율성 향상 (휴대폰 대비 10% 수준)",
+      "기대효과 2: 20%의 재료 비용 절감 (고무/플라스틱 대체)",
+      "기대효과 3: 사용자 만족도 85% 이상 달성",
+      "기대효과 4: 3개월 내 시장 출시 및 10만 개 이상 판매 예상",
+      "기대효과 5: 디자인 요소(자연색, 부드러움)의 고객 피드백 기반 개선"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_ES2002c/05_final_result.json",
+    "utterance_count": 245,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_D"
+    ],
+    "original_length": 8663,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:42:27.699728"
+  }
+}

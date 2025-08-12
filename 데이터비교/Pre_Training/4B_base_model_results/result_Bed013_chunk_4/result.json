@@ -1,0 +1,42 @@
+{
+  "id": "result_Bed013_chunk_4",
+  "source_dir": "result_Bed013",
+  "notion_output": {
+    "project_name": "베이즈넷 기반 의도 및 엔티티 인식 시스템 구축 프로젝트",
+    "project_purpose": "의도 및 엔티티 인식을 위한 베이즈넷 구조를 설계하고, 시스템 테스트를 통해 실질적인 성능을 검증하는 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_E",
+    "core_objectives": [
+      "베이즈넷에 대한 입력 파라미터 정의 및 구조 설계",
+      "엔티티 노드와 의도 노드의 연결 구조 정의",
+      "시스템 테스트를 통한 성능 검증 및 최적화"
+    ],
+    "core_idea": "의도 및 엔티티 인식을 위한 베이즈넷 구조를 기반으로 한 시스템 설계",
+    "idea_description": "의도 인식과 엔티티 인식을 통합한 베이즈넷 기반 시스템을 설계하여, 사용자의 발화에서 의도 추론과 엔티티 추출을 효율적으로 수행함. 테스트를 통해 시스템의 정확도와 처리 속도를 개선",
+    "execution_plan": "1. 2025.01.01~01.15: 회의 논의 내용 분석 및 베이즈넷 구조 설계 기준 정의\n2. 2025.01.16~02.01: 엔티티 노드 및 의도 노드 구조 설계\n3. 2025.02.02~03.01: 시스템 테스트 계획 수립 및 실행\n4. 2025.03.02~03.31: 테스트 결과 분석 및 최적화",
+    "expected_effects": [
+      "베이즈넷 구조를 기반으로 한 시스템 설계 완료 (2025.02.01 기준)",
+      "의도 인식 정확도 95% 이상 달성, 엔티티 추출 시간 30% 감소",
+      "시스템 테스트를 통해 2^30 수준의 데이터 처리 능력 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed013/05_final_result.json",
+    "utterance_count": 744,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_E",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 24608,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-10T20:18:02.399590"
+  }
+}

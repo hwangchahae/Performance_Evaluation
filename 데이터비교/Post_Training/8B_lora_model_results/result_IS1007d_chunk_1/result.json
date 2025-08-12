@@ -1,0 +1,41 @@
+{
+  "id": "result_IS1007d_chunk_1",
+  "source_dir": "result_IS1007d",
+  "notion_output": {
+    "project_name": "모듈식 리모컨 개발 프로젝트",
+    "project_purpose": "LCD 포함 및 불포함 버전의 모듈식 리모컨을 개발하여 사용자 맞춤형 기능과 경제성을 결합",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: LCD 포함 및 불포함 버전의 리모컨 설계 및 제조",
+      "목표 2: 모듈식 구조를 통한 사용자 맞춤형 기능 확장",
+      "목표 3: 경제성 강화를 위한 LCD 제외 버전 개발"
+    ],
+    "core_idea": "모듈식 구조를 통해 다양한 기능을 추가할 수 있는 리모컨 개발",
+    "idea_description": "리모컨은 LCD 포함 버전과 LCD 불포함 버전으로 제공되며, 사용자는 필요에 따라 추가 모듈을 구매하여 기능을 확장할 수 있도록 설계된다. 특히, LCD 제외 버전은 비용 절감과 사용 편의성을 강조하며, 모듈식 구조를 통해 사용자 맞춤형 경험을 제공한다.",
+    "execution_plan": "1단계: 초기 설계 및 요구사항 수집 (2025.01.01 ~ 2025.02.15)\n2단계: 프로토타입 개발 및 테스트 (2025.02.16 ~ 2025.04.15)\n3단계: 최종 설계 및 생산 준비 (2025.04.16 ~ 2025.05.15)\n4단계: 생산 및 시장 출시 (2025.05.16 ~ 2025.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 맞춤형 기능 제공으로 인한 고객 만족도 증가",
+      "기대효과 2: LCD 제외 버전으로 인한 생산 비용 절감 및 가격 경쟁력 강화",
+      "기대효과 3: 모듈식 구조를 통한 제품의 유연한 업데이트 가능성"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_IS1007d/05_final_result.json",
+    "utterance_count": 262,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "original_length": 9248,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T09:22:54.543437"
+  }
+}

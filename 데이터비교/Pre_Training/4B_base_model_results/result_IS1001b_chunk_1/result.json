@@ -1,0 +1,47 @@
+{
+  "id": "result_IS1001b_chunk_1",
+  "source_dir": "result_IS1001b",
+  "notion_output": {
+    "project_name": "인텔리전트 리모컨 개발 프로젝트",
+    "project_purpose": "컴퓨터 기기용 직관적인 리모컨을 설계하고 개발하여 사용자 경험을 향상시키기 위한 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "사용자 중심의 직관적인 인터페이스 설계",
+      "컴퓨터 시스템과의 원활한 통합 기능 개발",
+      "15~25세 청소년 및 가족 사용자 대상 사용성 테스트 수행"
+    ],
+    "core_idea": "선형 접근 및 무작위 접근 기능을 결합한 다중 기능 리모컨 개발",
+    "idea_description": "TV 리모컨의 복잡성 문제를 해결하기 위해, 채널/볼륨 기능 중심으로 사용자 친화적인 버튼 배열과 직관적인 명령 처리 방식을 도입하는 기술적 접근",
+    "execution_plan": [
+      "2025.01.01-01.15: 사용자 행동 분석 및 시장 조사 (100명 대상 관찰 연구 기반)",
+      "2025.01.16-02.01: 사용자 중심 디자인 프로토타입 개발",
+      "2025.02.02-02.15: 기술적 구현 및 시스템 통합",
+      "2025.02.16-03.01: 사용성 테스트 및 피드백 반복 개선",
+      "2025.03.02-03.31: 최종 제품 출시 및 사용자 교육 프로그램 개발"
+    ],
+    "expected_effects": [
+      "사용자 만족도 40% 향상 (사용자 테스트 결과 기반)",
+      "복잡한 명령 처리 시간 50% 감소 (실시간 반응성 개선)",
+      "15~25세 대상 사용자 80% 이상의 직관적 조작 가능성 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_IS1001b/05_final_result.json",
+    "utterance_count": 276,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 9187,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T20:13:41.831518"
+  }
+}

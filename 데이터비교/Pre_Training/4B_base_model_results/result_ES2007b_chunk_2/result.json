@@ -1,0 +1,46 @@
+{
+  "id": "result_ES2007b_chunk_2",
+  "source_dir": "result_ES2007b",
+  "notion_output": {
+    "project_name": "단순화된 제품 개발 프로젝트",
+    "project_purpose": "단순화된 제품 설계를 통해 효율성과 사용자 경험을 향상시키기 위한 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_A",
+    "core_objectives": [
+      "제품 기능을 최소한의 요소로 축소하여 사용자 친화성을 높이기",
+      "에너지 효율성과 적외선 기술을 중심으로 제품 구조를 재설계",
+      "고위 관리자들의 기준에 부합하는 표준화된 디자인 구현"
+    ],
+    "core_idea": "단일 색상과 간단한 기능 집중을 통한 제품의 최소화된 디자인",
+    "idea_description": "적외선 기술과 배터리 기반의 에너지 효율성을 중심으로 제품의 복잡성을 줄이고, 고위 관리자들의 기준에 부합하는 표준화된 디자인을 도입하여 사용자 경험과 제조 효율성을 동시에 향상시킬 예정",
+    "execution_plan": [
+      "2025.01.01-2025.01.15: 기존 제품 분석 및 단순화 방안 수립 (스피커_A 주도)",
+      "2025.01.16-2025.02.01: 적외선 기술과 배터리 시스템 통합 설계 (스피커_D, 스피커_C 협력)",
+      "2025.02.02-2025.02.28: 단일 색상 디자인 검증 및 사용자 테스트 (스피커_B 주도)",
+      "2025.02.29-2025.03.31: 최종 검수 및 생산 준비 (스피커_A, 스피커_D 공동 책임)"
+    ],
+    "expected_effects": [
+      "제품 복잡도 30% 감소 및 사용자 테스트에서 90% 이상의 만족도 향상",
+      "에너지 소비량 20% 절감 및 배터리 수명 연장",
+      "고위 관리자들의 승인을 받은 표준화된 디자인으로 생산 비용 15% 절감"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_ES2007b/05_final_result.json",
+    "utterance_count": 170,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 5770,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T20:15:05.705538"
+  }
+}

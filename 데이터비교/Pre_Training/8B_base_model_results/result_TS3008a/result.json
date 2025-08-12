@@ -1,0 +1,41 @@
+{
+  "id": "result_TS3008a",
+  "source_dir": "result_TS3008a",
+  "notion_output": {
+    "project_name": "스마트 리모컨 디자인 프로젝트",
+    "project_purpose": "사용자 친화적이고 트렌디한 새로운 리모컨을 개발하여 시장 경쟁력을 강화하고, 1,500만 유로의 수익 목표 달성",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "마틴",
+    "core_objectives": [
+      "기능적 디자인(버튼 배치, 터치패드, 볼륨 조절 등) 개발",
+      "사용자 친화적 UI/UX 설계(색상 선택, 선 너비 조절 기능 포함)",
+      "25유로 판매 가격 기반 1,500만 유로 수익 달성"
+    ],
+    "core_idea": "터치패드와 커스터마이징 가능한 색상/선 너비 기능을 갖춘, 독창적이고 사용자 중심의 리모컨 디자인",
+    "idea_description": "기술적 기능은 스마트보드 기반의 펜 입력 시스템과 화이트보드 연동 기능을 기반으로, 비즈니스적 가치는 국제 시장 표준 준수와 25유로의 경쟁력 있는 가격으로 시장 점유율 확대",
+    "execution_plan": "1. 기능적 디자인(1월): 사용자 요구 사항 분석 및 기본 버튼/터치패드 설계\n2. 개념적 디자인(2월): 색상/선 너비 커스터마이징 기능 도입 검토\n3. 세부 디자인(3월): 3D 모델링 및 사용자 테스트 진행\n4. 제작/마케팅(4월~6월): 생산 준비 및 마케팅 전략 수립",
+    "expected_effects": [
+      "1,500만 유로 이상의 매출 달성으로 회사 수익성 강화",
+      "사용자 만족도 90% 이상 달성(터치패드/커스터마이징 기능 기반)",
+      "국제 시장에서 15% 이상의 시장 점유율 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3008a/05_final_result.json",
+    "utterance_count": 143,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C",
+      "Speaker_B"
+    ],
+    "original_length": 4530,
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1
+    },
+    "is_chunk": false,
+    "chunk_index": null,
+    "processing_date": "2025-08-10T22:10:21.612280"
+  }
+}

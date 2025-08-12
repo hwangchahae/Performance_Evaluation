@@ -1,0 +1,49 @@
+{
+  "id": "result_Bed002_chunk_6",
+  "source_dir": "result_Bed002",
+  "notion_output": {
+    "project_name": "SmartKom 시스템 데이터 처리 및 통합 프로젝트",
+    "project_purpose": "SmartKom 시스템과 연동된 데이터 수집 지점 통합 및 XML 기반 시스템 구축을 통한 효율적인 데이터 처리",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_C",
+    "core_objectives": [
+      "SmartKom 시스템과 기존 패키지의 유기적 통합",
+      "데이터 수집 지점의 구체적 정의 및 구현",
+      "XML 기반 라이브러리(예: lib M-three-L)를 통한 시스템 자동화"
+    ],
+    "core_idea": "데이터 수집 프로세스를 시스템 내부에 통합하여 자동화하고, XML 기반의 유연한 확장성을 확보하는 체계적인 시스템 구축",
+    "idea_description": "SmartKom 시스템에 데이터 수집 지점 기능을 추가하여 사용자 입력/자동화된 데이터 수집을 지원하며, XML 기반의 라이브러리 활용을 통해 시스템 확장성과 유연성을 높이는 기술적 접근",
+    "execution_plan": [
+      "단계 1 (2025.01.01 ~ 2025.01.15): 데이터 수집 지점의 종류 및 요구사항 분석 (스피커_C, 스피커_F 주도)",
+      "단계 2 (2025.01.16 ~ 2025.02.01): XML 기반 시스템 구조 설계 및 lib M-three-L 통합 (스피커_F 주도)",
+      "단계 3 (2025.02.02 ~ 2025.02.28): 시나리오 테스트 및 데이터 수집 프로세스 구현 (스피커_C, 스피커_E 협력)",
+      "단계 4 (2025.02.29 ~ 2025.03.15): 시스템 최적화 및 사용자 테스트 (스피커_C 주도)",
+      "단계 5 (2025.03.16 ~ 2025.03.31): 최종 검수 및 문서화 (스피커_C, 스피커_F 협업)"
+    ],
+    "expected_effects": [
+      "기대효과 1: SmartKom 시스템과의 유기적 통합을 통해 데이터 처리 효율성 30% 향상",
+      "기대효과 2: XML 기반 라이브러리 도입으로 시스템 확장성 40% 향상",
+      "기대효과 3: 사용자 테스트를 통한 데이터 수집 프로세스의 신뢰성 및 안정성 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed002/05_final_result.json",
+    "utterance_count": 656,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_E",
+      "Speaker_D",
+      "Speaker_F"
+    ],
+    "original_length": 24390,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 6,
+    "processing_date": "2025-08-10T20:18:51.895978"
+  }
+}

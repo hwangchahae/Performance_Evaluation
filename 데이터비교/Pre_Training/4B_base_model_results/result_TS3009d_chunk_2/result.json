@@ -1,0 +1,46 @@
+{
+  "id": "result_TS3009d_chunk_2",
+  "source_dir": "result_TS3009d",
+  "notion_output": {
+    "project_name": "프로덕트 디자인 및 재료 개선 프로젝트",
+    "project_purpose": "제품 디자인 최적화 및 재료 비용 절감을 위한 기획 및 개발",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "팀 리더 (회의에서 언급된 관리자)",
+    "core_objectives": [
+      "티타늄 재질 대체로 인한 비용 절감 (12.5달러로 제한)",
+      "LCD 화면 유지 vs 플라스틱 재질 전환의 균형 유지",
+      "사용자 요구사항 충족을 위한 디자인 조정"
+    ],
+    "core_idea": "제품의 고급 이미지를 유지하면서 재료 비용을 최소화하기 위한 디자인 재구성",
+    "idea_description": "티타늄 대체로 인한 재료비 절감과 동시에 LCD 화면 기능 유지를 위한 플라스틱 재질의 적절한 사용, 사용자 중심 디자인 요소(비디오 버튼, 디지털 펜)의 최적화",
+    "execution_plan": [
+      "단계 1: 재료비 분석 (2025.01.01 ~ 2025.01.15) - 티타늄 대체 비용 산정 및 플라스틱 재질의 기능적 적합성 검토",
+      "단계 2: 디자인 조정 (2025.01.16 ~ 2025.02.01) - 곡선 디자인, 색상 조절, LCD 화면 기능 재설계",
+      "단계 3: 샘플 제작 및 테스트 (2025.02.02 ~ 2025.02.15) - 플라스틱 재질의 샘플 제작 및 사용자 테스트",
+      "단계 4: 최종 검수 및 승인 (2025.02.16 ~ 2025.03.31) - 재료비, 디자인, 기능성 검토"
+    ],
+    "expected_effects": [
+      "비용 절감: 티타늄 대체로 인해 12.5달러 이하로 제한된 예산 내 개발 완료",
+      "제품 품질 유지: 플라스틱 재질로도 고급 감각을 유지하는 디자인 구현",
+      "사용자 요구 충족: 비디오 버튼, 디지털 펜 기능의 최적화로 사용자 만족도 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3009d/05_final_result.json",
+    "utterance_count": 379,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 11745,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T20:12:16.339890"
+  }
+}

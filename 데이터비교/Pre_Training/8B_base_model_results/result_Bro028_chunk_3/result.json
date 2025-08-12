@@ -1,0 +1,46 @@
+{
+  "id": "result_Bro028_chunk_3",
+  "source_dir": "result_Bro028",
+  "notion_output": {
+    "project_name": "Tandem 시스템 성능 개선 및 데이터 처리 프로젝트",
+    "project_purpose": "타임드 시스템의 이상한 동작을 개선하고, 데이터 처리 효율성을 높이며, 테스트 세트와 스케일링 인자 결정을 통한 성능 최적화를 달성",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "재합성된 버전의 성능 개선을 통한 3~4% 이상의 효율 향상",
+      "테스트 세트 축소 및 스케일링 인자 결정을 통한 처리 시간 단축",
+      "Gaussian 혼합 및 히스토그램 분석을 통한 데이터 분포 최적화"
+    ],
+    "core_idea": "타임드 시스템의 불안정한 동작을 분석하고, 테스트 세트와 스케일링 인자를 기반으로 데이터 처리 효율을 극대화하는 기술적 개선",
+    "idea_description": "재합성 및 피치 분석을 통한 데이터 처리 최적화, 히스토그램 기반 분포 조정, 단일 CPU 실행 시 성능 테스트를 통해 시스템 안정성과 처리 속도를 동시에 개선",
+    "execution_plan": [
+      "1월: 현재 시스템 성능 분석 및 1% 이상의 이상 동작 식별 (책임자: Speaker_B)",
+      "2월: 재합성 버전 개선 및 테스트 세트 축소 실행 (책임자: Speaker_C), Gaussian 혼합 기반 데이터 처리 구현 (책임자: Speaker_E)",
+      "3월: 스케일링 인자 결정 및 최종 테스트 실행 (책임자: Speaker_D), 성능 개선 효과 검증"
+    ],
+    "expected_effects": [
+      "3~4% 이상의 처리 효율 향상 및 시스템 안정성 개선",
+      "테스트 세트 처리 시간 50% 단축 및 리소스 절감",
+      "히스토그램 기반 분포 조정을 통한 데이터 정확도 10% 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bro028/05_final_result.json",
+    "utterance_count": 575,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "original_length": 19606,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 3,
+    "processing_date": "2025-08-10T22:14:11.323693"
+  }
+}

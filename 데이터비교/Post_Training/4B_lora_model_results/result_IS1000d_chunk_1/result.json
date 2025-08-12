@@ -1,0 +1,41 @@
+{
+  "id": "result_IS1000d_chunk_1",
+  "source_dir": "result_IS1000d",
+  "notion_output": {
+    "project_name": "Infrared Remote Control Design Project",
+    "project_purpose": "초경량 및 사용자 친화적인 적외선 원격제어기를 설계하여 시장 경쟁력을 강화하고, 고객 만족도를 높이며, 비용 효율성을 극대화한다.",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: 초경량 및 사용자 친화적인 디자인 개발",
+      "목표 2: 다양한 기능을 갖춘 원격제어기 설계",
+      "목표 3: 비용 효율성 확보 및 시장 경쟁력 강화"
+    ],
+    "core_idea": "초경량 및 사용자 친화적인 디자인을 갖춘 원격제어기를 개발하여 시장에서 차별화된 제품으로 자리매김한다.",
+    "idea_description": "이 프로젝트에서는 초경량 디자인과 사용자 친화적인 인터페이스를 결합하여, 다양한 기능을 제공하면서도 가벼운 무게와 직관적인 사용 경험을 제공하는 원격제어기를 개발한다. 특히, 적외선 LED와 촉각적인 기능을 통합하여 사용자의 편의성을 높이고, 배터리 효율성을 개선한다.",
+    "execution_plan": "1단계: 요구사항 분석 및 디자인 초기 검토 (2024.01.01 ~ 2024.02.28)\n2단계: 프로토타입 개발 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 최종 디자인 결정 및 생산 준비 (2024.05.01 ~ 2024.05.31)\n4단계: 생산 및 시장 출시 (2024.06.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 시장에서 차별화된 제품으로 인한 매출 증가",
+      "기대효과 2: 사용자 만족도 향상으로 인한 브랜드 이미지 개선",
+      "기대효과 3: 비용 효율성 확보로 인한 수익성 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_IS1000d/05_final_result.json",
+    "utterance_count": 433,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_A"
+    ],
+    "original_length": 13960,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-09T23:11:39.591033"
+  }
+}

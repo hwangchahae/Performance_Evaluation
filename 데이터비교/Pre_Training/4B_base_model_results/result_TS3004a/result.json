@@ -1,0 +1,47 @@
+{
+  "id": "result_TS3004a",
+  "source_dir": "result_TS3004a",
+  "notion_output": {
+    "project_name": "스마트 리모컨 디자인 프로젝트",
+    "project_purpose": "터치스크린 기반의 사용자 친화적 리모컨 개발을 통한 유럽 시장 진출 및 높은 수익성 달성",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "터치스크린 기반 리모컨의 기능적 디자인 개발",
+      "사용자 인터페이스의 직관성과 편의성 확보",
+      "제조 비용 대비 수익성 50% 이상 달성"
+    ],
+    "core_idea": "휴대폰 스타일의 터치스크린 리모컨 개발로 사용자 경험 혁신과 유럽 시장 진출을 목표",
+    "idea_description": "리모컨에 터치스크린을 도입하여 기존 버튼 기반 리모컨의 한계를 보완하고, 사용자 인터페이스의 직관성과 편의성을 높이면서 제조 비용을 절감하는 혁신적인 제품 개발",
+    "execution_plan": [
+      "1단계 (2025.01.01-01.15): 사용자 중심 디자인 스펙 정의 (접지, 터치감, 버튼 배치)",
+      "2단계 (2025.01.16-02.01): 터치스크린 기반 프로토타입 개발 (3D 모델링 및 사용자 테스트)",
+      "3단계 (2025.02.02-02.15): 테스트 버전 제작 및 사용자 피드백 반영",
+      "4단계 (2025.02.16-03.01): 최종 제품 개발 및 품질 검증",
+      "5단계 (2025.03.02-03.31): 시장 출시 준비 및 유럽 시장 진출 계획 수립"
+    ],
+    "expected_effects": [
+      "유럽 시장 진출로 연간 5천만 유로 이상의 수익 창출",
+      "사용자 편의성 40% 향상 및 리모컨 사용 시간 30% 단축",
+      "제조 비용 대비 수익성 50% 이상 향상 및 3개월 내 시장 출시"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3004a/05_final_result.json",
+    "utterance_count": 143,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 4498,
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1
+    },
+    "is_chunk": false,
+    "chunk_index": null,
+    "processing_date": "2025-08-10T20:13:02.774667"
+  }
+}

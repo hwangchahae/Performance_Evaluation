@@ -1,0 +1,31 @@
+{
+  "id": "val_024",
+  "source_dir": "result_TS3004a",
+  "notion_output": "```json\n{\n    \"project_name\": \"유럽 시장 혁신형 유니버설 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"유럽 시장을 겨냥한 비용 효율적이고 견고한 터치스크린 유니버설 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 유럽 시장에서 5천만 유로의 수익 창출\",\n        \"목표 2: 터치스크린을 활용한 사용자 친화적이며 견고한 리모컨 디자인\",\n        \"목표 3: 생산 비용을 판매 가격의 절반 이하로 유지\",\n        \"목표 4: 터치스크린 장착 비용 최적화 및 리모컨 강도 개선\"\n    ],\n    \"core_idea\": \"견고하고 비용 효율적인 터치스크린 리모컨 개발\",\n    \"idea_description\": \"기존 리모컨의 한계를 극복하고, 터치스크린을 통해 직관적이고 사용자 친화적인 인터페이스를 제공하며, 비용 효율적이고 내구성을 강화한 제품 개발\",\n    \"execution_plan\": \"1단계: 기능적 디자인 검토 및 강도 분석 (2024.01.01 ~ 2024.02.15)\\n2단계: 개념 설계 및 사양 정의, 터치스크린 비용 분석 (2024.02.16 ~ 2024.03.31)\\n3단계: 세부 설계 및 프로토타입 개발, 강도 테스트 (2024.04.01 ~ 2024.05.15)\\n4단계: 시장 테스트 및 피드백 수집, 비용 효율성 검토 (2024.05.16 ~ 2024.06.15)\\n5단계: 최종 제품 출시 준비 및 마케팅 전략 수립 (2024.06.16 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 유럽 시장에서의 높은 매출 성과\",\n        \"기대효과 2: 사용자 경험 개선으로 인한 브랜드 이미지 상승\",\n        \"기대효과 3: 생산 비용 절감으로 인한 수익성 증대\",\n        \"기대효과 4: 강화된 제품 내구성으로 인한 고객 만족도 향상\"\n    ],\n    \"technical_considerations\": [\n        \"터치스크린의 취약성 문제 해결 및 비용 최적화\",\n        \"리모컨의 강도와 내구성 강화\",\n        \"자주 사용하는 버튼의 배치 최적화\"\n    ],\n    \"financial_considerations\": [\n        \"터치스크린 장착 비용 분석 및 최적화 전략 수립\",\n        \"생산 비용 절감을 위한 제조 공정 개선\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3004a/05_final_result.json",
+    "utterance_count": 143,
+    "transcript_length": 4498,
+    "original_transcript_length": 4498,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 4498
+    },
+    "is_chunk": false,
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T10:14:26.624097"
+  }
+}

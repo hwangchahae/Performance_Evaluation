@@ -1,0 +1,45 @@
+{
+  "id": "result_Bmr028_chunk_4",
+  "source_dir": "result_Bmr028",
+  "notion_output": {
+    "project_name": "스피커 세분화 및 오디오 처리 최적화 프로젝트",
+    "project_purpose": "성별 및 사용자별 스피커 분류 모델 개선을 통한 오디오 분석 정확도 향상 및 사용자 인터페이스 최적화",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "성별 기반 스피커 분류 모델 개발 및 성능 검증",
+      "회의 녹음 데이터를 기반으로 한 클러스터링 알고리즘 최적화",
+      "XML 파싱 문제 해결을 통한 오디오 로딩 속도 개선"
+    ],
+    "core_idea": "스피커 ID 기반의 유사 스피커 분류와 전달 함수 분석을 통한 정밀한 오디오 처리 기술 개발",
+    "idea_description": "성별 및 사용자별 특성을 반영한 스피커 세분화 모델을 개발하고, XML 형식의 처리 효율성을 높이는 기술적 개선을 통해 대규모 오디오 데이터 분석의 정확도와 속도를 동시에 향상시키는 프로젝트",
+    "execution_plan": "1. 2025.01.15까지 성별 기반 모델 개발 및 테스트 (책임자: Speaker_D)\n2. 2025.01.30까지 클러스터링 알고리즘 최적화 및 성능 평가 (책임자: Speaker_B)\n3. 2025.02.15까지 XML 처리 속도 개선 및 사용자 인터페이스 개선 (책임자: Speaker_H)\n4. 2025.02.28까지 최종 테스트 및 결과 분석 (책임자: Speaker_E)",
+    "expected_effects": [
+      "1.5% 이상의 정확도 향상 및 30% 빠른 오디오 로딩 속도 개선",
+      "사용자 인터페이스 개선으로 20% 이상의 작업 효율성 향상",
+      "NIST 형식 기반의 정량적 평가 지표 도입으로 신뢰성 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr028/05_final_result.json",
+    "utterance_count": 814,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_G"
+    ],
+    "original_length": 27961,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-10T22:15:13.533068"
+  }
+}

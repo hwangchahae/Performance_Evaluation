@@ -1,0 +1,42 @@
+{
+  "id": "result_Bro028_chunk_4",
+  "source_dir": "result_Bro028",
+  "notion_output": {
+    "project_name": "다중 스트림 기능 선택 및 최적화 프로젝트",
+    "project_purpose": "다양한 기능 집합을 활용하여 최적의 기능을 선택하고, 이를 다중 스트림 방식으로 적용하여 성능을 향상시키는 것",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: 기존 기능 집합의 분포를 조정하여 새로운 데이터셋과의 일관성을 확보",
+      "목표 2: 다중 스트림 방식으로 기능을 적용하여 시스템의 효율성을 증대",
+      "목표 3: Gabor 함수와 웨이블릿 기반 함수를 활용한 신호 분석을 통한 성능 개선"
+    ],
+    "core_idea": "다양한 기능 집합을 활용하여 최적의 기능을 선택하고, 이를 다중 스트림 방식으로 적용하여 시스템의 성능을 향상시키는 것",
+    "idea_description": "기존 기능 집합의 분포를 조정하고, 다중 스트림 방식으로 기능을 적용하여 시스템의 효율성을 증대시키며, Gabor 함수와 웨이블릿 기반 함수를 활용한 신호 분석을 통해 성능을 개선한다.",
+    "execution_plan": "1단계: 기존 기능 집합의 분포 조정 및 테스트 (2025.01.01 ~ 2025.02.28)\n2단계: 다중 스트림 방식 적용 및 성능 평가 (2025.03.01 ~ 2025.04.30)\n3단계: Gabor 함수와 웨이블릿 기반 함수를 활용한 신호 분석 및 최적화 (2025.05.01 ~ 2025.06.30)",
+    "expected_effects": [
+      "기대효과 1: 기능 집합의 분포 조정을 통해 새로운 데이터셋과의 일관성을 확보함으로써 시스템의 안정성 향상",
+      "기대효과 2: 다중 스트림 방식 적용을 통해 시스템의 처리 속도와 효율성 증대",
+      "기대효과 3: Gabor 함수와 웨이블릿 기반 함수를 활용한 신호 분석을 통해 시스템의 성능을 20% 이상 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bro028/05_final_result.json",
+    "utterance_count": 575,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_E"
+    ],
+    "original_length": 19606,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-10T09:27:47.166465"
+  }
+}

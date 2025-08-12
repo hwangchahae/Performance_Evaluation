@@ -1,0 +1,50 @@
+{
+  "id": "result_Bmr013_chunk_6",
+  "source_dir": "result_Bmr013",
+  "notion_output": {
+    "project_name": "신호 매핑 및 마이크 설치 프로젝트",
+    "project_purpose": "호흡 소리 신호 매핑 및 채널 문제 해결을 통한 데이터 정확도 향상",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "호흡 소리 신호를 정확하게 채널에 매핑하여 데이터 정제",
+      "혼합 신호 및 채널 오류 해결을 위한 마이크 설치 및 설정",
+      "12시간 강제 정렬 데이터를 통한 시스템 성능 개선"
+    ],
+    "core_idea": "신호 인식 기술과 물리적 마이크 설치를 결합하여 데이터 수집 효율성 극대화",
+    "idea_description": "PZM 마이크를 활용한 신호 인식 기술과 채널 분리 알고리즘을 결합해 혼합 신호를 분리하고, Crown 마이크를 통한 고정밀 측정으로 데이터 품질을 개선하는 기술적 접근",
+    "execution_plan": [
+      "2025.01.15까지: 기존 데이터 12시간 강제 정렬 및 인식 처리 (Speaker_B 담당)",
+      "2025.01.20까지: 신규 마이크(200달러/개) 주문 및 배송 일정 확정 (Speaker_D 주도)",
+      "2025.02.01까지: 옷깃 마이크 설치 및 채널 테스트 (Speaker_E, Speaker_F 협력)",
+      "2025.02.15까지: 워크숍 개최 및 시스템 연동 검증 (Speaker_A 주관)",
+      "2025.03.01까지: 최종 데이터 분석 및 시스템 최적화 (Speaker_G 리뷰)"
+    ],
+    "expected_effects": [
+      "기대효과 1: 신호 오류 80% 감소 및 데이터 정제 시간 50% 단축",
+      "기대효과 2: 마이크 설치로 인한 채널 분리 정확도 95% 달성",
+      "기대효과 3: 시스템 운영 비용 30% 절감 및 데이터 활용률 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr013/05_final_result.json",
+    "utterance_count": 797,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_G"
+    ],
+    "original_length": 27322,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 6,
+    "processing_date": "2025-08-10T22:15:57.024235"
+  }
+}

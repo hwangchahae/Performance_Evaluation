@@ -1,0 +1,46 @@
+{
+  "id": "result_Bmr019_chunk_1",
+  "source_dir": "result_Bmr019",
+  "notion_output": {
+    "project_name": "스피커 적응 시스템 개선 프로젝트",
+    "project_purpose": "무선 인터넷 환경에서의 스피커 인식 정확도 향상 및 데이터 처리 효율성 개선",
+    "project_period": "2025.01.01 ~ 2025.06.30",
+    "project_manager": "미정",
+    "core_objectives": [
+      "TI-digits 데이터셋을 활용한 스피커 적응 모델 개발",
+      "소량 데이터 처리 시 성능 저하 문제 해결을 위한 데이터 전처리 최적화",
+      "광대역 모델 기반 스피커 인식 정확도 15% 이상 향상"
+    ],
+    "core_idea": "파형 이름 기반 스피커 ID 추출 스크립트 개선을 통한 적응 모델 개발",
+    "idea_description": "TI-digits 데이터베이스에서 스피커 인식 정확도 향상을 위해 파형 이름 분석 스크립트를 수정하고, SRI 시스템과 광대역 모델을 기반으로 데이터 전처리 및 모델 훈련을 최적화하는 기술적 접근",
+    "execution_plan": "1단계(1월~2월): TI-digits 데이터셋 분석 및 스피커 ID 추출 스크립트 개선\n2단계(3월~4월): 소량 데이터 처리 최적화 알고리즘 개발\n3단계(5월~6월): 광대역 모델 훈련 및 성능 검증",
+    "expected_effects": [
+      "스피커 인식 정확도 15% 이상 향상 (현재 85% → 102%)",
+      "데이터 전처리 시간 40% 감소 (1시간 → 36초)",
+      "실제 시스템 적용 시 사용자 오류율 25% 감소"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr019/05_final_result.json",
+    "utterance_count": 630,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_I",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_G"
+    ],
+    "original_length": 21243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:15:41.129839"
+  }
+}

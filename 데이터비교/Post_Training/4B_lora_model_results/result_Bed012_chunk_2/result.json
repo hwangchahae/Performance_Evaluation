@@ -1,0 +1,41 @@
+{
+  "id": "result_Bed012_chunk_2",
+  "source_dir": "result_Bed012",
+  "notion_output": {
+    "project_name": "Where-Is 베이즈넷 통합 프로젝트",
+    "project_purpose": "Where-Is 구조를 활용하여 효율적인 결정 지원 시스템 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "목표 1: Where-Is 노드의 베이즈넷 통합 설계",
+      "목표 2: 사용자 질문에 대한 구체적 답변 제공",
+      "목표 3: 다양한 노드 간의 상호작용 최적화"
+    ],
+    "core_idea": "Where-Is 구조를 베이즈넷으로 변환하여 결정 지원 시스템을 개선",
+    "idea_description": "Where-Is 구조를 베이즈넷으로 변환하여 사용자의 질문에 대한 구체적이고 효율적인 답변을 제공하며, 다양한 노드 간의 상호작용을 통해 결정을 지원합니다.",
+    "execution_plan": "1단계: Where-Is 구조 분석 및 베이즈넷 변환 설계 (2024.01.01 ~ 2024.02.28)\n2단계: 베이즈넷 구현 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 사용자 피드백 반영 및 최적화 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자 질문에 대한 빠른 및 정확한 답변 제공",
+      "기대효과 2: 결정 지원 시스템의 성능 향상",
+      "기대효과 3: 다양한 노드 간의 상호작용 최적화로 인한 시스템 안정성 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed012/05_final_result.json",
+    "utterance_count": 520,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 17584,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T23:16:08.814652"
+  }
+}

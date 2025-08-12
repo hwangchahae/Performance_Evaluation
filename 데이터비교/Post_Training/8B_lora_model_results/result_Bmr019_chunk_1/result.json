@@ -1,0 +1,46 @@
+{
+  "id": "result_Bmr019_chunk_1",
+  "source_dir": "result_Bmr019",
+  "notion_output": {
+    "project_name": "무선 인터넷 활용 최적화 및 음성 인식 시스템 개선 프로젝트",
+    "project_purpose": "무선 인터넷 사용 현황 점검 및 음성 인식 시스템의 성능 개선을 통해 효율적인 커뮤니케이션 환경 구축",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: 무선 인터넷 사용자의 연결 상태 확인 및 개선",
+      "목표 2: TI-digits 데이터셋을 활용한 음성 인식 모델 성능 향상",
+      "목표 3: 스피커 적응 모델 개발 및 데이터 정규화 기법 적용"
+    ],
+    "core_idea": "무선 인터넷 사용 현황을 점검하고, 음성 인식 시스템의 성능을 개선하여 효율적인 커뮤니케이션이 가능하도록 함",
+    "idea_description": "회의에서 논의된 무선 인터넷 사용 현황 점검과 음성 인식 모델의 성능 개선 방안을 바탕으로, TI-digits 데이터셋을 활용하여 음성 인식 모델을 개선하고, 스피커 적응 모델을 개발하며 데이터 정규화 기법을 적용함.",
+    "execution_plan": "1단계: 무선 인터넷 사용 현황 점검 및 문제점 분석 (2025.01.01 ~ 2025.01.15)\n2단계: TI-digits 데이터셋을 활용한 음성 인식 모델 성능 테스트 및 개선 (2025.01.16 ~ 2025.02.15)\n3단계: 스피커 적응 모델 개발 및 데이터 정규화 기법 적용 (2025.02.16 ~ 2025.03.15)\n4단계: 최종 성능 검증 및 보고서 작성 (2025.03.16 ~ 2025.03.31)",
+    "expected_effects": [
+      "기대효과 1: 무선 인터넷 사용자의 연결 상태 개선으로 인한 효율적인 커뮤니케이션",
+      "기대효과 2: 음성 인식 모델의 성능 향상으로 인한 사용자 만족도 증가",
+      "기대효과 3: 스피커 적응 모델과 데이터 정규화 기법 적용으로 인한 시스템 신뢰성 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bmr019/05_final_result.json",
+    "utterance_count": 630,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_H",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_I",
+      "Speaker_F",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_E"
+    ],
+    "original_length": 21243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T09:30:01.634592"
+  }
+}

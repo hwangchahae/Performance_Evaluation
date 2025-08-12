@@ -1,0 +1,74 @@
+{
+  "id": "result_Bmr019_chunk_2",
+  "source_dir": "result_Bmr019",
+  "notion_output": {
+    "project_name": "노션 기반의 회의 정렬 및 검증 시스템 개발",
+    "project_purpose": "회원들의 회의 기록을 효율적으로 정렬하고 검증하며, 품질 관리를 통해 정확한 정보 제공",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Liz",
+    "core_objectives": [
+      "목표 1: 회의 기록의 정렬 및 검증을 위한 최적의 알고리즘 도입",
+      "목표 2: 품질 관리 시스템을 통한 정확한 정보 제공",
+      "목표 3: 회의 참여자의 요구에 따른 추가 기능 개발"
+    ],
+    "core_idea": "회의 기록의 정렬과 검증을 위한 AI 기반의 최적화 알고리즘과 품질 관리 시스템의 결합",
+    "idea_description": "회의 기록을 AI가 정렬하고 검증하며, 품질 관리를 통해 정확한 정보를 제공하는 시스템을 개발.",
+    "execution_plan": [
+      {
+        "phase": "기획 및 설계",
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "tasks": [
+          "회의 기록의 정렬과 검증 방법론 수립",
+          "AI 알고리즘 선택 및 품질 관리 시스템 설계",
+          "회원 요구사항 분석 및 추가 기능 고려"
+        ]
+      },
+      {
+        "phase": "개발 및 테스트",
+        "duration": "2025.01.16 ~ 2025.02.15",
+        "tasks": [
+          "AI 알고리즘 구현 및 품질 관리 시스템 개발",
+          "회의 기록의 정렬 및 검증 기능 구현",
+          "테스트 환경 설정 및 테스트 진행"
+        ]
+      },
+      {
+        "phase": "배포 및 피드백 수집",
+        "duration": "2025.02.16 ~ 2025.03.15",
+        "tasks": [
+          "시스템 배포 및 초기 사용자 교육",
+          "회원 피드백 수집 및 개선점 반영",
+          "최종 버전 출시 준비"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 회의 기록의 정확도 향상",
+      "기대효과 2: 품질 관리 시스템을 통한 정보의 신뢰성 증대",
+      "기대효과 3: 회원의 만족도 향상 및 추가 기능 활용률 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr019/05_final_result.json",
+    "utterance_count": 630,
+    "speakers": [
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_I"
+    ],
+    "original_length": 21243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T23:37:50.609042"
+  }
+}

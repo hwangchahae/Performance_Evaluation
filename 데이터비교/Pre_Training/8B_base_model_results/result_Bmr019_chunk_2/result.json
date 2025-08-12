@@ -1,0 +1,50 @@
+{
+  "id": "result_Bmr019_chunk_2",
+  "source_dir": "result_Bmr019",
+  "notion_output": {
+    "project_name": "스피치 인식 모델 최적화 프로젝트",
+    "project_purpose": "회의 기록 및 스피커 정렬 기술의 정확도 향상 및 제약 조건 최적화를 통한 실용성 강화",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "강제 정렬 기술의 오류 유형 분석 및 개선",
+      "모델 매개변수 조정을 통한 성능 최적화",
+      "실제 데이터 기반 제약 조건 재설계"
+    ],
+    "core_idea": "가지치기 과정에서 발생하는 오류를 시각화하고, 모델의 정렬 정확도를 향상시키기 위한 데이터 기반 최적화 전략 수립",
+    "idea_description": "회의 기록 시스템에서 발생하는 스피커 겹치기 문제를 해결하기 위해 강제 정렬 알고리즘을 개선하고, 모델 파라미터 조정을 통한 성능 향상을 목표로 하는 기술적 개선 프로젝트",
+    "execution_plan": [
+      "1월: 기존 데이터셋 분석 및 오류 유형 분류 (책임자 Speaker_I)",
+      "2월: 모델 파라미터 조정 실험 및 Waves 기반 정렬 시스템 테스트 (책임자 Speaker_B)",
+      "3월: 최적화된 모델 검증 및 실제 데이터 적용 검토 (책임자 Speaker_D)"
+    ],
+    "expected_effects": [
+      "정렬 오류율 30% 감소 (기존 15% → 10% 수준)",
+      "제약 조건 적용 시 20% 이상의 성능 향상",
+      "사용자 피드백 기반으로 10개 이상의 개선 사항 도입"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr019/05_final_result.json",
+    "utterance_count": 630,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_I",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_G"
+    ],
+    "original_length": 21243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T22:15:41.135136"
+  }
+}

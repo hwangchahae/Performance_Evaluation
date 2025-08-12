@@ -1,0 +1,27 @@
+{
+  "id": "result_Bmr006_chunk_9",
+  "source_dir": "result_Bmr006",
+  "notion_output": {
+    "raw_text": ""
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr006/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 9,
+    "processing_date": "2025-08-09T23:38:21.361824"
+  }
+}

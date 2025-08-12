@@ -1,0 +1,48 @@
+{
+  "id": "result_Bmr006_chunk_1",
+  "source_dir": "result_Bmr006",
+  "notion_output": {
+    "project_name": "회의 데이터 익명화 및 분석 프로젝트",
+    "project_purpose": "회의 녹음 데이터의 발언자 식별자와 실제 이름 간의 매핑을 익명화하여 데이터 분석의 정확성과 개인정보 보호를 동시에 확보하기 위한 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "발언자 이름을 익명화하면서도 데이터 분석에 필요한 식별자 태그를 유지하는 시스템 구축",
+      "실제 발언자 이름과 태그 간의 정확한 매핑 관계 확보",
+      "데이터 수집 및 분석 과정에서 개인정보 유출 방지 체계 마련"
+    ],
+    "core_idea": "발언자 식별자 태그를 사용하여 데이터 분석을 수행하면서도 실제 이름을 익명화하는 방식으로, 정확한 데이터 활용과 개인 정보 보호를 동시에 달성하는 기술적 접근",
+    "idea_description": "발언자 이름을 익명화하는 동시에 데이터 분석에 필요한 식별자 태그를 유지하는 방식으로, 데이터의 활용성과 개인정보 보호를 균형 있게 실현합니다. 이는 회의 녹음 데이터의 분석 정확도를 높일 수 있는 기술적 해결책입니다.",
+    "execution_plan": [
+      "2025.01.01-2025.01.15: 익명화 방안과 태그 매핑 시스템 설계 (Speaker_A, Speaker_B)",
+      "2025.01.16-2025.02.01: 데이터 수집 프로토콜 개발 및 시스템 구현 (Speaker_C, Speaker_D)",
+      "2025.02.02-2025.03.15: 데이터 테스트 및 매핑 정확도 검증 (Speaker_E, Speaker_F)",
+      "2025.03.16-2025.03.31: 최종 시스템 검수 및 운영 체계 구축 (Speaker_A, Speaker_B)"
+    ],
+    "expected_effects": [
+      "발언자 이름 익명화를 통해 90% 이상의 개인정보 유출 위험 감소",
+      "태그와 실제 이름 간의 매핑 정확도 95% 이상 달성",
+      "데이터 분석 효율성 향상으로 연구 수행 시간 30% 절감"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr006/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T20:17:28.259610"
+  }
+}

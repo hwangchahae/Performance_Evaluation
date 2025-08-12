@@ -1,0 +1,31 @@
+{
+  "id": "val_041",
+  "source_dir": "result_ES2004a",
+  "notion_output": "```json\n{\n    \"project_name\": \"차세대 스마트 리모컨 혁신 프로젝트\",\n    \"project_purpose\": \"사용자 경험을 극대화하고 비용 효율성을 고려한 혁신적인 스마트 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 직관적이고 사용하기 쉬운 사용자 인터페이스 설계\",\n        \"목표 2: 다양한 가전제품과의 호환성 확보 및 확장\",\n        \"목표 3: 비용 효율적인 설계와 생산을 통한 가격 경쟁력 확보\",\n        \"목표 4: 플립탑 디자인과 작은 LCD 디스플레이를 통한 사용자 편의성 강화\"\n    ],\n    \"core_idea\": \"혁신적인 디자인과 기능성을 갖춘 스마트 리모컨 개발\",\n    \"idea_description\": \"작은 LCD 디스플레이와 플립탑 디자인을 통해 사용자에게 직관적인 메뉴 제공 및 화면 확대 기능을 지원하며, 비용 문제를 고려하여 금속 대신 다른 재료 사용 검토. 리모컨의 프로그래밍 가능성과 직관적인 기호 사용을 통해 사용자 경험을 개선.\",\n    \"execution_plan\": \"1단계: 사용자 요구 분석 및 설계 (2024.01.01 ~ 2024.02.28)\\n2단계: 프로토타입 개발 및 테스트 (2024.03.01 ~ 2024.04.30)\\n3단계: 최종 제품 개발 및 출시 준비 (2024.05.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 증가로 인한 시장 점유율 확대\",\n        \"기대효과 2: 다양한 가전제품과의 호환성으로 인한 고객 기반 확대\",\n        \"기대효과 3: 혁신적인 디자인과 비용 효율성으로 인한 브랜드 이미지 강화\",\n        \"기대효과 4: 직관적인 사용자 인터페이스로 인한 사용자 피드백 개선\"\n    ],\n    \"additional_considerations\": [\n        \"비용 문제 해결을 위해 금속 대신 대체 재료 사용 검토\",\n        \"리모컨의 프로그래밍 가능성 및 직관적인 기호 사용을 통한 사용자 경험 개선\",\n        \"휴대폰 디자인 요소를 참고하여 플립탑 리모컨 설계\",\n        \"작은 LCD 디스플레이를 활용한 직관적인 메뉴 시스템 구축\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2004a/05_final_result.json",
+    "utterance_count": 126,
+    "transcript_length": 3868,
+    "original_transcript_length": 3868,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1,
+      "original_length": 3868
+    },
+    "is_chunk": false,
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T10:49:37.425698"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "result_Bro028_chunk_5",
+  "source_dir": "result_Bro028",
+  "notion_output": {
+    "project_name": "다중대역 설정 및 확률 공간 분석 프로젝트",
+    "project_purpose": "다중대역 통신 시스템의 성능 분석 및 확률 공간 기반 최적화 방안을 제시하기 위한 연구 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "다중대역 설정의 통신 효율성 및 제약 조건 분석",
+      "확률 공간 기반 통신 시스템 최적화 모델 개발",
+      "신경망 기반 통신 최적화 알고리즘 설계"
+    ],
+    "core_idea": "다중대역 통신 시스템의 제약 조건을 확률 공간으로 변환하여 통신 효율성을 향상시키는 방안을 제시",
+    "idea_description": "다중대역 설정에서의 통신 제약 조건을 확률 공간으로 표현하여, 통신 시스템의 최적화를 위한 확률적 모델을 구축하고, 신경망 기반 최적화 알고리즘을 설계하여 통신 효율성을 높이기 위한 연구 프로젝트입니다. 이 프로젝트는 기존의 단일대역 통신 시스템과 비교하여 다중대역 설정의 복잡성을 분석하고, 확률 공간을 활용한 최적화 방안을 제시합니다.",
+    "execution_plan": [
+      {
+        "phase": "데이터 수집 및 분석",
+        "start_date": "2025.01.01",
+        "end_date": "2025.01.31",
+        "tasks": [
+          "다중대역 설정의 통신 성능 데이터 수집",
+          "확률 공간 기반 통신 시스템 모델 구축",
+          "기존 통신 시스템과의 비교 분석"
+        ]
+      },
+      {
+        "phase": "모델 개발",
+        "start_date": "2025.02.01",
+        "end_date": "2025.02.28",
+        "tasks": [
+          "확률 공간 최적화 알고리즘 설계",
+          "신경망 기반 통신 최적화 모델 구축",
+          "모델 성능 평가 및 테스트"
+        ]
+      },
+      {
+        "phase": "실험 및 최적화",
+        "start_date": "2025.03.01",
+        "end_date": "2025.03.31",
+        "tasks": [
+          "신경망 최적화 알고리즘 테스트",
+          "통신 효율성 향상 방안 검증",
+          "실험 결과 분석 및 보고"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "통신 효율성 향상: 다중대역 설정에서 15% 이상의 통신 성능 향상",
+      "확률 공간 기반 최적화 모델 구축: 통신 시스템의 제약 조건을 정확히 반영한 모델 개발",
+      "신경망 기반 최적화 알고리즘: 통신 최적화에 있어 20% 이상의 성능 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bro028/05_final_result.json",
+    "utterance_count": 575,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_E"
+    ],
+    "original_length": 19606,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-10T22:42:39.236017"
+  }
+}

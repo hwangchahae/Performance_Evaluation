@@ -1,0 +1,44 @@
+{
+  "id": "result_Bed010_chunk_5",
+  "source_dir": "result_Bed010",
+  "notion_output": {
+    "project_name": "러닝 시스템 통합 및 개선 프로젝트",
+    "project_purpose": "러닝 시스템의 성능을 향상시키고, 서버의 전체 버전을 작동하도록 개선하며, 다양한 기술적 요소를 통합하여 시스템의 효율성을 증대시킴",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_F",
+    "core_objectives": [
+      "목표 1: 러닝 시스템의 현재 문제점 해결 및 성능 향상",
+      "목표 2: 서버의 전체 버전 작동 가능성을 확보",
+      "목표 3: 구문 분석 및 생성, 구성 측면에서의 기술적 개선"
+    ],
+    "core_idea": "러닝 시스템과 서버의 통합 및 개선을 통해 시스템의 전체적인 효율성을 높이는 것",
+    "idea_description": "현재 러닝 시스템은 서버에 있는 전체 버전이 작동하지 않으며, 다양한 기술적 요소가 필요하다. 이를 해결하기 위해 구문 분석 및 생성, 구성 측면에서의 개선을 추진하고, 서버와의 통합을 통해 시스템의 전체적인 성능을 향상시킬 계획이다.",
+    "execution_plan": "1단계: 러닝 시스템의 문제점 분석 및 해결 방안 마련 (2024.01.01 ~ 2024.01.31)\n2단계: 서버의 전체 버전 작동 가능성 검토 및 개선 (2024.02.01 ~ 2024.02.28)\n3단계: 구문 분석 및 생성, 구성 측면에서의 기술적 개선 적용 (2024.03.01 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 러닝 시스템의 성능 향상으로 인한 사용자 만족도 증가",
+      "기대효과 2: 서버의 전체 버전 작동으로 인한 시스템의 효율성 증대",
+      "기대효과 3: 구문 분석 및 생성, 구성 측면에서의 기술적 개선으로 인한 시스템의 안정성 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "../Raw_Data_val/result_Bed010/05_final_result.json",
+    "utterance_count": 677,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_F",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_E"
+    ],
+    "original_length": 23517,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-10T09:33:10.921353"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "result_Bmr028_chunk_6",
+  "source_dir": "result_Bmr028",
+  "notion_output": {
+    "project_name": "미크 신호 감지 및 회의 데이터 관리 프로젝트",
+    "project_purpose": "회의 중 마이크 신호 품질 감지 시스템 개발 및 회의 데이터의 효율적 관리 및 분석을 목표로 합니다.",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "마이크 신호 품질 감지 시스템 설계 및 구현",
+      "회의 데이터의 실시간 감지 및 저장 기능 개발",
+      "회의 데이터의 사후 분석 및 보관 방안 수립",
+      "회의 중 신호 품질 저하 시 대응 전략 수립"
+    ],
+    "core_idea": "회의 중 마이크 신호 품질 감지 시스템을 설계하여 신호 저하 시 대응 전략을 수립하고, 회의 데이터를 실시간으로 감지 및 저장하여 이후 분석을 통해 회의의 효율성을 향상시키는 프로젝트입니다.",
+    "idea_description": "마이크 신호 품질 감지 시스템은 임계값을 기준으로 신호 품질 저하 시 노란색 표시를 통해 감지하고, 신호 품질이 저하된 경우 대응 전략을 실행합니다. 회의 데이터는 실시간으로 감지 후 저장하고, 사후 분석을 통해 회의의 문제점 및 개선 방안을 도출합니다. 데이터 저장은 Popcorn에 저장하며, 신호 품질 저하 시 대응 전략을 통해 회의의 지속성을 유지합니다.",
+    "execution_plan": [
+      {
+        "step": "1. 시스템 설계 및 기능 분석",
+        "deadline": "2025.01.15",
+        "responsibility": "Speaker_B, Speaker_D",
+        "description": "마이크 신호 감지 기능과 데이터 저장 방안을 설계하고, 회의 데이터의 저장 및 분석 방식을 논의합니다."
+      },
+      {
+        "step": "2. 마이크 신호 감지 시스템 구현",
+        "deadline": "2025.02.01",
+        "responsibility": "Speaker_B, Speaker_A",
+        "description": "임계값 설정, 신호 감지 기능 구현 및 데이터 저장 기능 개발을 진행합니다."
+      },
+      {
+        "step": "3. 회의 데이터 저장 및 분석 시스템 구축",
+        "deadline": "2025.02.15",
+        "responsibility": "Speaker_B, Speaker_E",
+        "description": "Popcorn에 회의 데이터 저장 및 사후 분석을 위한 프로그램을 개발합니다."
+      },
+      {
+        "step": "4. 대응 전략 및 테스트",
+        "deadline": "2025.03.01",
+        "responsibility": "Speaker_B, Speaker_D",
+        "description": "신호 품질 저하 시 대응 전략 수립 및 시뮬레이션 테스트를 진행합니다."
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 신호 품질 저하 시 대응 전략으로 회의 지속성을 90% 이상 유지할 수 있습니다.",
+      "기대효과 2: 회의 데이터의 실시간 감지 및 저장으로 사후 분석 시간을 50% 절감할 수 있습니다.",
+      "기대효과 3: 데이터 저장 방식을 Popcorn으로 변경하여 데이터 손실률을 0.1% 이하로 제어할 수 있습니다."
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr028/05_final_result.json",
+    "utterance_count": 814,
+    "speakers": [
+      "Speaker_H",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_E"
+    ],
+    "original_length": 27961,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7
+    },
+    "is_chunk": true,
+    "chunk_index": 6,
+    "processing_date": "2025-08-10T22:43:30.308092"
+  }
+}

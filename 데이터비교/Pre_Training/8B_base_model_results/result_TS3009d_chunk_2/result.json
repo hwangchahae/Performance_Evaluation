@@ -1,0 +1,45 @@
+{
+  "id": "result_TS3009d_chunk_2",
+  "source_dir": "result_TS3009d",
+  "notion_output": {
+    "project_name": "제품 디자인 최적화 프로젝트",
+    "project_purpose": "제품의 제조 비용 절감과 기능적 개선을 위한 디자인 변경 및 재설계",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_A",
+    "core_objectives": [
+      "티타늄 대체재로 플라스틱 사용으로 제조 비용 12% 절감",
+      "LCD 화면 제거 시 기능적 한계 평가 및 대체 솔루션 개발",
+      "12시까지 완료 가능한 단계적 프로토타입 개발 및 테스트"
+    ],
+    "core_idea": "고가 소재 대체를 통한 비용 절감과 기능적 최적화를 동시에 달성",
+    "idea_description": "티타늄을 플라스틱으로 변경하여 제조 비용을 절감하면서도 LCD 화면 제거 시 발생할 수 있는 기능적 한계를 평가하고, 대체 기술(예: 센서 기반 인터페이스)을 도입하여 사용자 경험을 유지하는 기술적/비즈니스적 균형 전략",
+    "execution_plan": [
+      "1월: 티타늄 대체재로 플라스틱 사용 시 재료비 분석 (완료: 2025.01.15)",
+      "2월: LCD 화면 제거 시 기능적 영향 평가 및 대체 솔루션 검토 (완료: 2025.02.10)",
+      "3월: 12시까지 완료 가능한 프로토타입 개발 및 테스트 (완료: 2025.03.31)"
+    ],
+    "expected_effects": [
+      "제조 비용 12% 절감 (기존 14달러 → 12.5달러로 조정)",
+      "LCD 화면 제거로 인한 사용자 경험 향상 (디지털 펜/센서 기반 인터페이스 도입)",
+      "12시 마감 조건 충족으로 프로젝트 일정 준수"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3009d/05_final_result.json",
+    "utterance_count": 379,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C",
+      "Speaker_B"
+    ],
+    "original_length": 11745,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T22:09:49.227612"
+  }
+}

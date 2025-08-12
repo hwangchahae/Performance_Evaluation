@@ -1,0 +1,57 @@
+{
+  "id": "result_ES2015a",
+  "source_dir": "result_ES2015a",
+  "notion_output": {
+    "project_name": "디지털 리모컨 개발 및 시장 확산 프로젝트",
+    "project_purpose": "혁신적인 디지털 리모컨을 개발하여 시장 경쟁력을 강화하고 고객층을 확보하며, 관련 산업의 요구사항을 충족시킴",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "헤더",
+    "core_objectives": [
+      "목표 1: 리모컨의 기능적 디자인을 최적화하여 사용성을 높임",
+      "목표 2: 시장 트렌드를 반영한 디자인을 통해 고객의 요구를 충족시킴",
+      "목표 3: 초기 생산 비용을 최소화하여 저렴하게 출시함"
+    ],
+    "core_idea": "디지털 리모컨의 기능적 디자인을 최적화하고, 시장 트렌드를 반영하여 독특한 디자인을 적용",
+    "idea_description": "기능적 디자인을 통해 사용성을 높이고, 시장 트렌드를 반영하여 독특한 디자인을 적용하여 고객의 요구를 충족시키며, 초기 생산 비용을 최소화하여 저렴하게 출시함.",
+    "execution_plan": [
+      {
+        "phase": "기능적 디자인 및 시장 트렌드 분석",
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "description": "기능적 디자인을 설계하고, 시장 트렌드를 분석하여 디자인 방향을 결정"
+      },
+      {
+        "phase": "디자인 및 세부 디자인",
+        "duration": "2025.01.16 ~ 2025.02.15",
+        "description": "디자인을 완료하고, 세부 디자인을 검토하여 최종 디자인을 확정"
+      },
+      {
+        "phase": "생산 준비 및 초기 출시",
+        "duration": "2025.02.16 ~ 2025.03.15",
+        "description": "초기 생산을 준비하고, 출시를 계획하여 시장을 확장"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 사용성이 높은 디지털 리모컨으로 고객들의 관심 증가",
+      "기대효과 2: 시장 트렌드를 반영한 독특한 디자인으로 브랜드 이미지 강화",
+      "기대효과 3: 초기 생산 비용을 최소화하여 저렴하게 출시하여 시장 확장 가능성 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_ES2015a/05_final_result.json",
+    "utterance_count": 93,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "original_length": 3190,
+    "chunking_info": {
+      "is_chunked": false,
+      "total_chunks": 1
+    },
+    "is_chunk": false,
+    "chunk_index": null,
+    "processing_date": "2025-08-09T23:36:16.586523"
+  }
+}

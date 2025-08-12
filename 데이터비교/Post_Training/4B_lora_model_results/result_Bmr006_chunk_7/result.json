@@ -1,0 +1,43 @@
+{
+  "id": "result_Bmr006_chunk_7",
+  "source_dir": "result_Bmr006",
+  "notion_output": {
+    "project_name": "다양한 신호 분류 및 중복 감지 프로젝트",
+    "project_purpose": "다양한 신호 데이터를 분류하고 중복 영역을 감지하여 정확도와 효율성을 향상시키는 프로젝트",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_F",
+    "core_objectives": [
+      "목표 1: 다양한 신호 데이터를 분류하기 위한 신경망 및 클러스터링 알고리즘 적용",
+      "목표 2: 중복 영역을 감지하여 데이터 정제 및 분석의 정확도 향상",
+      "목표 3: MFCC와 PLP 등 다양한 특징 추출 방법을 활용하여 데이터 분석 강화"
+    ],
+    "core_idea": "다양한 신호 데이터를 분류하고 중복 영역을 감지하여 정확도와 효율성을 높이는 기술적 접근",
+    "idea_description": "프로젝트에서는 신경망과 클러스터링 알고리즘을 활용하여 다양한 신호 데이터를 분류하고, 중복 영역을 감지하여 데이터 정제를 통해 분석의 정확도를 높입니다. MFCC와 PLP 등의 특징 추출 방법을 결합하여 데이터 분석의 다양성을 확보합니다.",
+    "execution_plan": "1단계: 신경망 및 클러스터링 알고리즘 설계 (2024.01.01 ~ 2024.01.31)\n2단계: 중복 영역 감지 및 데이터 정제 (2024.02.01 ~ 2024.02.28)\n3단계: MFCC와 PLP 특징 추출 및 데이터 분석 (2024.03.01 ~ 2024.03.31)",
+    "expected_effects": [
+      "기대효과 1: 신경망과 클러스터링 알고리즘을 통한 데이터 분류 정확도 향상",
+      "기대효과 2: 중복 영역 감지로 인한 데이터 정제 및 분석 효율성 증가",
+      "기대효과 3: 다양한 특징 추출 방법을 통한 데이터 분석의 다양성 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr006/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_A",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_E"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 7,
+    "processing_date": "2025-08-09T23:15:27.123594"
+  }
+}

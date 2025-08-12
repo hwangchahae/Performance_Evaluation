@@ -1,0 +1,49 @@
+{
+  "id": "result_Bmr006_chunk_9",
+  "source_dir": "result_Bmr006",
+  "notion_output": {
+    "project_name": "음향 기반 회의 레코더 시스템 개발",
+    "project_purpose": "다수의 음원을 동시에 처리할 수 있는 음향 분석 시스템을 개발하여 회의 내용을 정확하고 익명화된 형태로 기록하고 분석하는 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "다중 마이크로폰 배열을 통한 교차 상관 분석 기술 개발",
+      "음원 겹침(Overlap) 감지 및 처리 알고리즘 구현",
+      "데이터 익명화 기준 설정 및 처리 프로세스 정립"
+    ],
+    "core_idea": "마이크로폰 배열을 통해 음원 위치 파악 및 겹침 현상 분석을 통한 정확한 음향 기록 시스템",
+    "idea_description": "두 개 이상의 마이크로폰에서 수신된 신호의 시간 지연을 분석하여 음원 위치를 추적하고, 교차 상관 함수를 활용해 음원 겹침 현상을 최소화하는 기술을 기반으로 익명화된 데이터 처리 시스템을 구축",
+    "execution_plan": [
+      "1단계: 2025.01.01 ~ 2025.01.15 - 마이크로폰 배열 설계 및 교차 상관 분석 알고리즘 개발",
+      "2단계: 2025.01.16 ~ 2025.02.01 - 음원 겹침 감지 알고리즘 테스트 및 최적화",
+      "3단계: 2025.02.02 ~ 2025.02.15 - 데이터 익명화 프로세스 개발 및 보안 검증",
+      "4단계: 2025.02.16 ~ 2025.03.15 - 시스템 통합 테스트 및 사용자 피드백 수집",
+      "5단계: 2025.03.16 ~ 2025.03.31 - 최종 수정 및 문서화"
+    ],
+    "expected_effects": [
+      "기대효과 1: 음원 겹침 현상 발생 시 2개 이상의 봉우리 분석을 통해 정확도 95% 이상의 음원 분리 성능 달성",
+      "기대효과 2: 익명화 처리로 개인 정보 유출 방지 및 데이터 보안 수준 향상",
+      "기대효과 3: 사용자 만족도 85% 이상 달성 및 상용화 가능성 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr006/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_D"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 9,
+    "processing_date": "2025-08-10T22:16:35.336938"
+  }
+}

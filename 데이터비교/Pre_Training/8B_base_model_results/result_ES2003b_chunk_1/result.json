@@ -1,0 +1,46 @@
+{
+  "id": "result_ES2003b_chunk_1",
+  "source_dir": "result_ES2003b",
+  "notion_output": {
+    "project_name": "스마트 TV 리모컨 혁신 프로젝트",
+    "project_purpose": "사용자 중심의 디자인과 효율적인 기능 통합을 통해 사용자 경험을 혁신적으로 개선하고, 경쟁력 있는 비용 구조로 시장에 도입",
+    "project_period": "2025.01.01 ~ 2025.04.30",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "TV와의 상호작용을 최적화한 리모컨 기능 디자인 개발",
+      "사용자 훈련 시간 최소화 및 인체공학적 디자인 적용",
+      "비용 절감과 기능 확장성을 동시에 만족하는 시스템 구축"
+    ],
+    "core_idea": "조이스틱 기반의 물리적 리모컨과 음성 인식 기능을 결합한 하이브리드 컨트롤러",
+    "idea_description": "물리적 버튼과 조이스틱을 통합하여 직관적인 조작성을 확보하고, 음성 인식 기능으로 사용자 편의성을 높이는 동시에 제조 비용을 절감하는 기술적 혁신. 사용자 맞춤형 설정과 모듈화된 기능 확장성을 통해 다양한 시장 수요를 커버",
+    "execution_plan": [
+      "1월: 사용자 조사 및 기능 정의 (사용자 훈련 시간 70% 감소 목표)",
+      "2월: 프로토타입 개발 및 인체공학적 디자인 검증 (3차례 피드백 반영)",
+      "3월: 시스템 통합 및 전력 효율성 최적화 (에너지 소비 30% 절감)",
+      "4월: 시장성 분석 및 최종 제품 완성 (100명 대상 사용자 테스트)"
+    ],
+    "expected_effects": [
+      "사용자 만족도 90% 이상 달성 (사용자 테스트 기준)",
+      "제조 비용 25% 절감 (모듈화 설계 기반)",
+      "시장 도입 후 6개월 내 30% 이상의 고객 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_ES2003b/05_final_result.json",
+    "utterance_count": 196,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C",
+      "Speaker_B"
+    ],
+    "original_length": 7254,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:13:44.648869"
+  }
+}

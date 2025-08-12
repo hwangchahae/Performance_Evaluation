@@ -1,0 +1,67 @@
+{
+  "id": "result_Bmr019_chunk_1",
+  "source_dir": "result_Bmr019",
+  "notion_output": {
+    "project_name": "스피커 인식 시스템 개선 프로젝트",
+    "project_purpose": "무선 인터넷 사용자에게 맞춤형 스피커 인식 기능을 구현하고, 토요일 회의에서 논의된 문제를 해결하여 시스템의 정확도와 신뢰성을 향상시키기 위한 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "무선 인터넷 사용자에게 맞춤형 스피커 인식 기능 구현",
+      "TI-digits 테스트 세트와 SRI 시스템을 통한 최적화된 모델 훈련",
+      "데이터 수집 및 처리 과정에서의 오류 최소화 및 정확도 향상"
+    ],
+    "core_idea": "스피커 ID 추출 및 정확도 향상",
+    "idea_description": "회의에서 논의된 TI-digits 데이터베이스와 SRI 시스템을 기반으로, 파형 이름에서 스피커 ID 추출을 위한 스크립트 개선 및 더 넓은 대역에서 훈련된 모델 적용. 데이터 수집 시 오류 최소화를 위해 정규화 기법과 적응적 학습 기법을 적용. 토요일 회의에서 논의된 문제(예: 1% 성과, 숫자 읽기 오류)를 해결하기 위한 실시간 모델 조정 및 테스트 수행",
+    "execution_plan": [
+      {
+        "step": "데이터 수집 및 전처리",
+        "details": "TI-digits 테스트 세트와 SRI 시스템 데이터 수집, 파형 이름 분석 및 스피커 ID 추출 스크립트 개선. 오류 발생 시 실시간 모델 조정",
+        "timeline": "2025.01.01 ~ 2025.01.15"
+      },
+      {
+        "step": "모델 훈련 및 최적화",
+        "details": "더 넓은 대역에서 훈련된 모델 구축, 정규화 기법 적용 및 적응적 학습 기법 적용. 데이터 수집 시 오류 최소화를 위한 조정",
+        "timeline": "2025.01.16 ~ 2025.01.30"
+      },
+      {
+        "step": "테스트 및 성능 평가",
+        "details": "실제 시스템 적용 시 토요일 회의 데이터를 기반으로 성능 평가. 오류율 및 정확도 향상 여부 확인",
+        "timeline": "2025.01.31 ~ 2025.02.15"
+      },
+      {
+        "step": "최종 배포 및 피드백",
+        "details": "최적화된 시스템 배포 및 사용자 피드백 수렴. 토요일 회의에서 논의된 문제 해결 여부 평가",
+        "timeline": "2025.02.16 ~ 2025.03.31"
+      }
+    ],
+    "expected_effects": [
+      "정확도 향상: 토요일 회의 데이터 기반으로 1% 이상의 오류율 감소",
+      "실시간 모델 조정: 데이터 수집 시 5% 이상의 오류 발생 시 실시간 모델 조정 가능",
+      "사용자 경험 향상: 토요일 회의에서 논의된 문제 해결을 통해 사용자 만족도 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr019/05_final_result.json",
+    "utterance_count": 630,
+    "speakers": [
+      "Speaker_H",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_F",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_I",
+      "Speaker_E"
+    ],
+    "original_length": 21243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:43:51.484197"
+  }
+}

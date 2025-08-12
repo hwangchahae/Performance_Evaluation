@@ -1,0 +1,35 @@
+{
+  "id": "val_035_chunk_1",
+  "source_dir": "result_IS1000d",
+  "notion_output": "```json\n{\n    \"project_name\": \"다기능 TV 리모컨 개발 및 최적화 프로젝트\",\n    \"project_purpose\": \"사용자 편의성을 극대화하고 비용 효율성을 확보하여 시장 경쟁력을 강화하기 위한 다기능 TV 리모컨 개발 및 최적화\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_C\",\n    \"core_objectives\": [\n        \"목표 1: 적외선 LED 및 다기능 버튼을 포함한 리모컨 설계\",\n        \"목표 2: 사용자 편의성을 고려한 직관적인 인터페이스 개발\",\n        \"목표 3: 비용 효율적인 생산을 통한 시장 경쟁력 확보\",\n        \"목표 4: 배터리 효율성을 높이고, 다양한 색상 옵션 제공\"\n    ],\n    \"core_idea\": \"다기능을 제공하는 직관적이고 비용 효율적인 TV 리모컨\",\n    \"idea_description\": \"적외선 LED와 다기능 버튼을 통해 사용자가 쉽게 조작할 수 있는 리모컨을 설계하고, 배터리 효율성을 높이며 다양한 색상 옵션을 제공하여 사용자 경험을 향상시킵니다.\",\n    \"execution_plan\": [\n        \"1단계: 디자인 및 기능 설계 (2024.01.01 ~ 2024.02.28) - 리모컨의 기본 디자인과 다기능 버튼의 배치, 적외선 LED 및 배터리 효율성에 대한 기술적 검토를 포함합니다.\",\n        \"2단계: 프로토타입 개발 및 테스트 (2024.03.01 ~ 2024.04.30) - 프로토타입 제작 후 사용자 테스트를 통해 인터페이스와 기능성을 검증합니다.\",\n        \"3단계: 생산 및 마케팅 준비 (2024.05.01 ~ 2024.06.30) - 생산 단가를 고려한 최적화 및 마케팅 전략 수립을 포함합니다.\"\n    ],\n    \"budget_considerations\": [\n        \"리모컨 단가: 16유로로 예산 초과 문제 해결 필요\",\n        \"배터리 및 부품 비용 최적화 필요\"\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 만족도 향상 및 브랜드 이미지 강화\",\n        \"기대효과 2: 생산 비용 절감 및 수익성 증대\",\n        \"기대효과 3: 시장 점유율 확대 및 경쟁사 대비 우위 확보\",\n        \"기대효과 4: 다양한 색상 옵션 제공으로 고객 선택 폭 확대\"\n    ],\n    \"additional_notes\": [\n        \"회의에서 논의된 배터리 부족 문제와 디자인의 중요성을 반영하여, 배터리 효율성을 높이고 디자인을 최적화합니다.\",\n        \"다양한 색상 옵션(예: 분홍색, 녹색)을 제공하여 고객의 다양한 취향을 만족시킵니다.\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 2,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_IS1000d/05_final_result.json",
+    "utterance_count": 433,
+    "original_transcript_length": 13960,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 13960
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4991
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T10:38:33.312396"
+  }
+}

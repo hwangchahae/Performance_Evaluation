@@ -1,0 +1,49 @@
+{
+  "id": "result_Bed010_chunk_5",
+  "source_dir": "result_Bed010",
+  "notion_output": {
+    "project_name": "시스템 통합 및 학술 협력 프로젝트",
+    "project_purpose": "현재 운영되지 않는 러닝 시스템을 통합하고, EML 서버 공유를 통해 학술적 협력을 강화하며, PhD 학생과의 공동 연구를 통해 시스템 기능을 개선하기 위한 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_F",
+    "core_objectives": [
+      "1. EML 서버를 공유하여 시스템 통합 그룹과의 협력을 강화",
+      "2. PhD 학생 에바와의 협업을 통해 구문 분석 및 구성 기능 개선",
+      "3. 10월 버전 단축키 미사용 시스템을 재구성하여 기능적 완성도 향상"
+    ],
+    "core_idea": "현재 비활성화된 시스템을 재활용하여 학술적 협력을 기반으로 기능적 시스템을 구축하고, PhD 학생의 역량을 활용해 기술적 개선을 수행",
+    "idea_description": "기존 시스템의 기능적 결함을 보완하고, 학술적 자원(예: EML 서버)을 활용해 협업을 강화하며, PhD 학생의 전문성을 결합해 시스템 구조를 재설계",
+    "execution_plan": [
+      "1. 2025.01.01~01.15: EML 서버 공유 계약 및 접근 권한 설정 (Speaker_F 주도)",
+      "2. 2025.01.16~02.01: PhD 학생 에바와의 협업 계획 수립 및 태스크 분배 (Speaker_C 주도)",
+      "3. 2025.02.02~02.28: 시스템 통합 그룹과의 협업을 통한 구문 분석/생성 기능 개발",
+      "4. 2025.03.01~03.31: 10월 버전 단축키 미사용 시스템 재구성 및 테스트 실행"
+    ],
+    "expected_effects": [
+      "1. 시스템 통합을 통해 EML 서버 활용률 30% 상승 및 협업 효율성 20% 향상",
+      "2. PhD 학생과의 협업을 통해 시스템 구조 개선 기능 5개 추가",
+      "3. 기존 시스템 재구성으로 사용자 만족도 15% 상승 및 기술적 안정성 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed010/05_final_result.json",
+    "utterance_count": 677,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 23517,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-10T20:18:25.803926"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "val_004_chunk_2",
+  "source_dir": "result_ES2014d",
+  "notion_output": "```json\n{\n    \"project_name\": \"차세대 다기능 버튼 및 디자인 혁신 프로젝트\",\n    \"project_purpose\": \"다양한 소재와 디자인을 통해 기능성과 미적 요소를 모두 충족하는 차세대 버튼 개발 및 시장 경쟁력 강화\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_A\",\n    \"core_objectives\": [\n        \"목표 1: 플라스틱, 고무, 티타늄 등 다양한 소재를 사용한 버튼 프로토타입 개발 및 테스트\",\n        \"목표 2: 사용자 편의성을 고려한 기능성 버튼 설계 및 평가\",\n        \"목표 3: 예산 범위 내에서 다양한 디자인 옵션 제공 및 최적화\"\n    ],\n    \"core_idea\": \"다양한 소재와 디자인을 결합하여 기능성과 미적 요소를 모두 충족하는 버튼을 개발하고, 특별한 버튼과 특수 소재를 활용하여 차별화된 제품을 제공\",\n    \"idea_description\": \"플라스틱, 고무, 티타늄 등 다양한 소재를 활용하여 사용자 경험을 향상시키고, 패션성과 기능성을 모두 갖춘 버튼을 개발한다. 특별한 버튼과 특수 소재를 활용하여 차별화된 제품을 제공하며, 예산 내에서 최적의 디자인을 선택한다.\",\n    \"execution_plan\": [\n        \"1단계: 소재 연구 및 프로토타입 설계 (2024.01.01 ~ 2024.02.28)\",\n        \"2단계: 프로토타입 제작 및 테스트, 특별한 버튼과 특수 소재를 활용한 디자인 평가 (2024.03.01 ~ 2024.04.30)\",\n        \"3단계: 최종 디자인 확정 및 생산 준비, 예산 내에서 최적의 디자인 선택 (2024.05.01 ~ 2024.06.30)\"\n    ],\n    \"budget_considerations\": \"프로젝트는 예산 범위 내에서 진행되며, 다양한 디자인 옵션을 평가하여 비용 효율적인 선택을 한다. 특별한 버튼과 특수 소재 사용에 따른 추가 비용을 고려한다. 예산 내에서 버튼의 색상 및 소재 선택을 최적화한다.\",\n    \"expected_effects\": [\n        \"기대효과 1: 다양한 사용자 요구를 충족하는 맞춤형 버튼 제공\",\n        \"기대효과 2: 새로운 소재 활용으로 인한 제품 차별화 및 경쟁력 강화\",\n        \"기대효과 3: 예산 내에서 최적의 디자인과 기능성을 갖춘 제품 개발\"\n    ],\n    \"meeting_notes_integration\": \"회의에서 논의된 특별한 버튼과 특수 소재의 구체적인 내용이 반영되었으며, 예산 범위 내에서의 디자인 옵션에 대한 논의가 포함되었다. 고무 케이스 제거와 같은 구체적인 결정사항이 반영되었으며, 버튼의 색상 다양화와 같은 세부 사항도 포함되었다.\"\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_ES2014d/05_final_result.json",
+    "utterance_count": 317,
+    "original_transcript_length": 10631,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 10631
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "chunk_length": 5000
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T09:28:22.701798"
+  }
+}

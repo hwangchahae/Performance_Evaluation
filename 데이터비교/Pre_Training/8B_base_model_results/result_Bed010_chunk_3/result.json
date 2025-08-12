@@ -1,0 +1,50 @@
+{
+  "id": "result_Bed010_chunk_3",
+  "source_dir": "result_Bed010",
+  "notion_output": {
+    "project_name": "공간 묘사의 해부 시스템 개발",
+    "project_purpose": "3D 공간 인식 및 시각화 기술을 기반으로 한 인터랙티브 시스템 개발을 통해 사용자 경험을 혁신적으로 개선",
+    "project_period": "2025.06.01 ~ 2025.08.31",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "3D 공간 인식 기술 기반의 인터랙티브 시스템 구축",
+      "버그 제거 및 시스템 안정성 확보",
+      "데모 버전 완성 및 연구소 내 전체 적용 가능성 검증"
+    ],
+    "core_idea": "사물의 위치 관계를 의미론적 측면과 기술적 측면에서 동시에 처리하는 시스템",
+    "idea_description": "의자와 같은 물체의 위치 관계를 기준점(ORIGO) 기반으로 시각화하고, 사용자의 신체적 감각과 공간 인식을 통합한 인터랙티브 시스템을 개발",
+    "execution_plan": [
+      "2025.06.01-06.15: 기술적 기반 구축 (코딩, GUI 개발)",
+      "2025.06.16-07.15: 버그 수정 및 시스템 테스트 (Speaker_F 주도)",
+      "2025.07.16-07.31: 데모 버전 완성 및 팀 내 검증 (Speaker_C 주도)",
+      "2025.08.01-08.15: 전체 적용 가능성 검증 및 최종 수정",
+      "2025.08.16-08.31: 문서화 및 발표 자료 제작"
+    ],
+    "expected_effects": [
+      "완성된 데모 시스템을 통해 3D 공간 인식 기술의 실용성 검증",
+      "버그 제거로 시스템 안정성 95% 이상 달성",
+      "연구소 내 전체 적용 시 사용자 만족도 80% 상승 기대"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed010/05_final_result.json",
+    "utterance_count": 677,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_G"
+    ],
+    "original_length": 23517,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 3,
+    "processing_date": "2025-08-10T22:17:44.492222"
+  }
+}

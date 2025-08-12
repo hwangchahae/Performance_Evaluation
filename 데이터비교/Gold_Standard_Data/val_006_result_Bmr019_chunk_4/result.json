@@ -1,0 +1,40 @@
+{
+  "id": "val_006_chunk_4",
+  "source_dir": "result_Bmr019_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"오로라 시스템 성능 개선 및 논문 제출 최적화 프로젝트\",\n    \"project_purpose\": \"오로라 시스템의 성능을 향상시키고, 유로 스피치 논문 제출 기한을 최적화하여 학계 인지도를 높임\",\n    \"project_period\": \"2024.04.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_E\",\n    \"core_objectives\": [\n        \"목표 1: 오로라 시스템의 데이터 처리 능력 20% 향상\",\n        \"목표 2: 유로 스피치 논문 작성 및 5월 초 제출\",\n        \"목표 3: MMIE 훈련 개선 버전의 적용으로 오류율 2% 감소\"\n    ],\n    \"core_idea\": \"오로라 시스템의 성능을 개선하고, MMIE 훈련의 개선된 버전을 적용하여 논문 제출 기한을 맞추고 최적화된 성능을 달성\",\n    \"idea_description\": \"오로라 시스템의 데이터 처리 능력을 향상시키고, MMIE 훈련의 개선된 버전을 적용하여 오류율을 감소시킴으로써 논문 제출 기한을 맞추는 것을 목표로 함. 아침 회의에 참석하는 사람들에게 주어지는 추가 시간을 활용하여 최적의 결과를 도출.\",\n    \"execution_plan\": [\n        {\n            \"단계\": \"1단계\",\n            \"내용\": \"오로라 시스템의 현재 성능 분석 및 문제점 파악\",\n            \"기간\": \"2024.04.01 ~ 2024.04.15\",\n            \"세부사항\": \"오로라 시스템의 데이터 처리 문제와 개선 가능성을 식별\"\n        },\n        {\n            \"단계\": \"2단계\",\n            \"내용\": \"MMIE 훈련 개선 버전 적용 및 테스트, 오로라 특별 세션 준비\",\n            \"기간\": \"2024.04.16 ~ 2024.05.01\",\n            \"세부사항\": \"SRI의 동료가 개발한 MMIE 훈련 개선 버전을 적용하여 오류율 감소 테스트\"\n        },\n        {\n            \"단계\": \"3단계\",\n            \"내용\": \"유로 스피치 논문 작성 및 검토, 5월 초 제출 준비\",\n            \"기간\": \"2024.05.02 ~ 2024.05.15\",\n            \"세부사항\": \"논문 작성 및 검토를 통해 최종 제출 준비\"\n        },\n        {\n            \"단계\": \"4단계\",\n            \"내용\": \"최종 논문 제출 및 피드백 수집, 오로라 시스템 성능 평가\",\n            \"기간\": \"2024.05.16 ~ 2024.06.30\",\n            \"세부사항\": \"논문 제출 후 피드백을 수집하고 오로라 시스템의 최종 성능 평가\"\n        }\n    ],\n    \"expected_effects\": [\n        \"기대효과 1: 오로라 시스템의 데이터 처리 능력 20% 향상\",\n        \"기대효과 2: 유로 스피치 논문 제출로 인한 학계 인지도 상승\",\n        \"기대효과 3: MMIE 훈련 개선 버전 적용으로 인한 오류율 2% 감소\",\n        \"기대효과 4: 오로라 특별 세션 참여로 인한 추가적인 연구 기회 확보\"\n    ],\n    \"additional_notes\": [\n        \"오로라 특별 세션은 5월 초 논문 제출을 목표로 함.\",\n        \"아침 회의 참석자들에게 주어지는 추가 시간을 활용하여 논문 작성 및 시스템 최적화.\",\n        \"SRI의 동료가 개발한 MMIE 훈련 개선 버전의 적용을 통해 성능 최적화.\",\n        \"오로라 시스템의 구체적인 문제점은 데이터 처리 속도와 정확성 부족으로 확인됨.\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bmr019_processed/05_final_result.json",
+    "utterance_count": 630,
+    "original_transcript_length": 21243,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_H",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E",
+      "Speaker_I"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 21243
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T09:31:31.140920"
+  }
+}

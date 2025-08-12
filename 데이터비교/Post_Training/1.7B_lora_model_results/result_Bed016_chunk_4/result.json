@@ -1,0 +1,75 @@
+{
+  "id": "result_Bed016_chunk_4",
+  "source_dir": "result_Bed016",
+  "notion_output": {
+    "project_name": "노션 기반 공간적 영역 및 지침 요약 시스템 개발",
+    "project_purpose": "공간적 영역과 지침 요약을 통해 효율적인 정보 처리 및 이해를 지원하는 시스템 개발",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_I",
+    "core_objectives": [
+      "공간적 영역과 지침 요약을 통한 정보 처리 효율성 증대",
+      "노션 플랫폼 활용을 통한 시각적 인터페이스 개선",
+      "데이터 수집 및 분석을 통한 피드백 반영 및 최적화"
+    ],
+    "core_idea": "공간적 영역과 지침 요약을 통해 정보 처리의 효율성을 높이는 시스템 개발",
+    "idea_description": "공간적 영역과 지침 요약을 통해 정보 처리의 효율성을 높이고, 노션 플랫폼을 활용하여 시각적 인터페이스를 개선하며 데이터 수집 및 분석을 통해 피드백을 반영하여 시스템을 최적화함.",
+    "execution_plan": [
+      {
+        "phase": "설계 및 기능 개발",
+        "duration": "2025.01.01 ~ 2025.01.15",
+        "tasks": [
+          "공간적 영역과 지침 요약 기능 설계",
+          "노션 플랫폼 인터페이스 개선",
+          "데이터 수집 및 분석 모듈 개발"
+        ]
+      },
+      {
+        "phase": "테스트 및 피드백 수집",
+        "duration": "2025.01.16 ~ 2025.02.15",
+        "tasks": [
+          "시스템 테스트 진행",
+          "피드백 수집 및 분석",
+          "최적화 필요사항 반영"
+        ]
+      },
+      {
+        "phase": "최종 버전 출시 및 교육",
+        "duration": "2025.02.16 ~ 2025.03.31",
+        "tasks": [
+          "최종 버전 출시",
+          "사용자 교육 세미나 개최",
+          "사용자 피드백 반영 및 개선"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "공간적 영역과 지침 요약을 통한 정보 처리 속도 향상",
+      "노션 플랫폼을 활용한 시각적 인터페이스 개선으로 사용자 경험 향상",
+      "데이터 수집 및 분석을 통한 피드백 반영으로 시스템의 지속적 개선 및 최적화"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed016/05_final_result.json",
+    "utterance_count": 505,
+    "speakers": [
+      "Speaker_J",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_I"
+    ],
+    "original_length": 16078,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-09T23:38:34.001032"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "result_Bmr012_chunk_2",
+  "source_dir": "result_Bmr012",
+  "notion_output": {
+    "project_name": "음성 인식 시스템 최적화 프로젝트",
+    "project_purpose": "비단조적 동기화 문제와 다운샘플링 관련 오류를 해결하여 음성 인식 정확도를 50~70% 향상시키고, 사용자 승인 시스템을 구축하여 처리 효율을 개선",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_I",
+    "core_objectives": [
+      "비동기화 문제 해결을 위한 파형 분할 및 다운샘플링 방식 개선",
+      "SRI 인식기와 연동된 실시간 오류율 모니터링 시스템 구축",
+      "사용자 승인 프로세스 자동화를 통한 처리 시간 30% 단축"
+    ],
+    "core_idea": "원본 파형을 유지한 채 분할 처리하여 인식 정확도 향상과, 사용자 승인 시스템과 연동된 자동화 프로세스를 통해 처리 효율을 극대화",
+    "idea_description": "다운샘플링으로 인한 정보 손실을 방지하기 위해 원형 파형을 유지하면서 분할 처리하는 기술을 적용하고, SRI 인식기와 연동하여 실시간 오류율을 모니터링하는 시스템을 구축하여 사용자 승인 절차를 자동화함으로써 전체 처리 효율을 개선",
+    "execution_plan": [
+      {
+        "phase": "1단계: 문제 분석 및 기술 검증",
+        "start_date": "2025.01.01",
+        "end_date": "2025.01.15",
+        "tasks": [
+          "비동기화 문제 원인 분석",
+          "다운샘플링 대체 방안 검토",
+          "SRI 인식기와의 연동 가능성 검증"
+        ]
+      },
+      {
+        "phase": "2단계: 시스템 개발 및 테스트",
+        "start_date": "2025.01.16",
+        "end_date": "2025.02.15",
+        "tasks": [
+          "파형 분할 처리 알고리즘 개발",
+          "SRI 인식기 연동 시스템 구축",
+          "실내 마이크와 PZM의 오류율 비교 테스트"
+        ]
+      },
+      {
+        "phase": "3단계: 사용자 승인 시스템 구축",
+        "start_date": "2025.02.16",
+        "end_date": "2025.03.15",
+        "tasks": [
+          "자동 승인 프로세스 개발",
+          "사용자 피드백 반영한 시스템 최적화",
+          "70% 오류율 감소 검증"
+        ]
+      },
+      {
+        "phase": "4단계: 최종 검증 및 배포",
+        "start_date": "2025.03.16",
+        "end_date": "2025.03.31",
+        "tasks": [
+          "전체 시스템 성능 평가",
+          "사용자 교육 자료 제작",
+          "시스템 정식 배포"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "오류율 50~70% 감소로 인한 인식 정확도 극대화",
+      "자동 승인 시스템 도입으로 처리 시간 30% 단축",
+      "사용자 피드백 반영 시스템으로 처리 효율성 40% 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr012/05_final_result.json",
+    "utterance_count": 602,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_I",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_G"
+    ],
+    "original_length": 20997,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T22:16:14.539376"
+  }
+}

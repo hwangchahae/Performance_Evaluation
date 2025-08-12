@@ -1,0 +1,47 @@
+{
+  "id": "val_027_chunk_1",
+  "source_dir": "result_제22대국회 제426회(임시회) 제2차 과학기술정보방송통신위원회(전체회의) (2025.06.27.)",
+  "notion_output": "```json\n{\n    \"project_name\": \"2025년도 제2회 추가경정예산안 심사 및 실행 계획\",\n    \"project_purpose\": \"과학기술정보통신부, 방송통신위원회, 우주항공청의 2025년도 제2회 추가경정예산안을 심사하고 실행 계획을 수립하여 국가 과학기술 및 통신 인프라를 강화\",\n    \"project_period\": \"2025.01.01 ~ 2025.12.31\",\n    \"project_manager\": \"정동영 소위원장\",\n    \"core_objectives\": [\n        \"목표 1: 피지컬 AI 기술개발 및 검증을 위한 예산 증액과 실행\",\n        \"목표 2: AI 반도체 실증지원 사업을 통한 시장경쟁력 확보\",\n        \"목표 3: 우주항공 전문인력 양성을 통한 산업 현장 인력난 해소\"\n    ],\n    \"core_idea\": \"추가경정예산을 통해 국가의 과학기술 및 통신 인프라를 강화하고, AI 및 우주항공 분야에서의 경쟁력을 높임\",\n    \"idea_description\": \"피지컬 AI 및 AI 반도체 분야의 기술개발을 지원하고, 우주항공 분야의 전문인력을 양성하여 국가 경쟁력을 강화\",\n    \"execution_plan\": \"1단계: 2025년 1분기 내 예산 집행 계획 수립 및 관련 부처와의 협의\\n2단계: 2025년 2분기부터 피지컬 AI 및 AI 반도체 관련 프로젝트 착수\\n3단계: 2025년 하반기 우주항공 전문인력 양성 프로그램 운영 및 평가\",\n    \"expected_effects\": [\n        \"기대효과 1: 피지컬 AI 기술개발을 통한 글로벌 AI 경쟁력 강화\",\n        \"기대효과 2: AI 반도체 실증을 통한 기술적 우위 확보\",\n        \"기대효과 3: 우주항공 분야의 전문인력 양성을 통한 산업 발전\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 1,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_제22대국회 제426회(임시회) 제2차 과학기술정보방송통신위원회(전체회의) (2025.06.27.)/05_final_result.json",
+    "utterance_count": 802,
+    "original_transcript_length": 40546,
+    "speakers": [
+      "위원장 최민희",
+      "소위원장 정동영",
+      "우주항공청장 윤영빈",
+      "이훈기 위원",
+      "과학기술정보통신부제2차관 강도현",
+      "방송통신위원장 이진숙",
+      "한민수 위원",
+      "방송통신위원회기획조정관 성종원",
+      "최형두 위원",
+      "방송통신위원회혁신기획담당관실 이철우",
+      "박정훈 위원",
+      "황정아 위원",
+      "방송통신위원회혁신기획담당관실 최현숙",
+      "방송통신위원회사무처장전담직무대리 김영관",
+      "김현 위원",
+      "과학기술정보통신부장관 유상임"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9,
+      "original_length": 40546
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 9,
+      "chunk_length": 4986
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T10:17:24.574567"
+  }
+}

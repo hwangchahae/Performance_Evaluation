@@ -1,0 +1,45 @@
+{
+  "id": "result_Bmr025_chunk_1",
+  "source_dir": "result_Bmr025",
+  "notion_output": {
+    "project_name": "THISL 회의 데이터 관리 시스템",
+    "project_purpose": "회의 녹음 및 전사 데이터를 표준 형식으로 변환하고, 효율적인 검색 및 관리 기능을 구현하여 정보 접근성을 높이기 위한 시스템 개발",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "회의 데이터의 표준 형식으로 변환 및 저장을 통한 일관된 관리",
+      "THISL GUI 도구를 기반으로 회의 데이터 검색 기능 개발",
+      "데이터 백업 시스템의 신뢰성 강화 및 오류 방지"
+    ],
+    "core_idea": "THISL IR 기반의 GUI 도구를 활용하여 회의 데이터의 검색, 전사, 백업을 통합적으로 관리하는 시스템 구축",
+    "idea_description": "Tcl-Tk 기반의 THISL GUI 도구를 활용하여 회의 녹음 및 전사 데이터를 SGML 형식으로 표준화하고, 사용자에게 키워드 기반 검색 및 오디오 재생 기능을 제공함으로써 정보 접근성을 향상시킨다. 또한, 데이터 백업 시스템의 신뢰성과 오류 방지를 위한 기술적 대책을 수립한다.",
+    "execution_plan": "1. 회의 데이터 형식 분석 및 표준화 (2025.01.01-2025.01.15), 2. THISL GUI 도구 개발 및 테스트 (2025.01.16-2025.02.28), 3. 검색 기능 통합 테스트 (2025.02.29-2025.03.14), 4. 백업 시스템 최적화 및 검증 (2025.03.15-2025.03.31)",
+    "expected_effects": [
+      "회의 데이터 검색 속도 30% 향상 및 정확도 95% 이상 달성",
+      "데이터 형식 표준화로 관리 효율성 20% 증가",
+      "백업 시스템 오류 발생률 90% 감소 및 복구 시간 50% 단축"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr025/05_final_result.json",
+    "utterance_count": 453,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 16243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T20:16:36.687218"
+  }
+}

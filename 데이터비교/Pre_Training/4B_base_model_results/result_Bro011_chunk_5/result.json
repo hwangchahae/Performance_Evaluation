@@ -1,0 +1,49 @@
+{
+  "id": "result_Bro011_chunk_5",
+  "source_dir": "result_Bro011",
+  "notion_output": {
+    "project_name": "HTK 시스템 최적화 및 테스트 프로젝트",
+    "project_purpose": "HTK 시스템의 성능 최적화와 ICSI-OGI, 프런트엔드, MATLAB 기반 객체 지향 구현을 통한 시스템 검증",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_D, 스피커_C",
+    "core_objectives": [
+      "HTK 시스템의 실행 성능을 20% 이상 개선",
+      "ICSI-OGI 기능의 동작 정확도 검증 및 조정",
+      "프런트엔드 기능의 버그 수정 및 스펙트럼 처리 기능 통합"
+    ],
+    "core_idea": "시스템 최적화를 위한 기술적 검증 및 기능 통합을 통해 HTK 시스템의 신뢰성과 효율성을 높임",
+    "idea_description": "HTK 시스템의 성능 개선을 위해 기존 시스템과의 비교 테스트, ICSI-OGI 기능의 동작 분석, 프런트엔드와 MATLAB 기반 객체 지향 구현을 통합하여 시스템의 안정성과 처리 속도를 향상시킴",
+    "execution_plan": [
+      "2025.01.01-02: HTK 시스템 실행 환경 분석 및 기존 데이터 수집 (청크 1 처리)",
+      "2025.01.03-05: ICSI-OGI 기능 동작 테스트 및 결과 분석 (청크 2 처리)",
+      "2025.01.06-08: 프런트엔드 버그 수정 및 스펙트럼 처리 기능 통합 (청크 3 처리)",
+      "2025.01.09-11: MATLAB 기반 객체 지향 구현 개발 (청크 4 처리)",
+      "2025.01.12-15: 모든 기능 통합 검증 및 최종 테스트"
+    ],
+    "expected_effects": [
+      "HTK 시스템 실행 시간 20% 감소 및 메모리 사용량 15% 절감",
+      "ICSI-OGI 기능의 정확도 향상 및 동작 일관성 확보",
+      "프런트엔드 기능의 사용자 경험 개선 및 스펙트럼 처리 기능의 시스템 통합"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bro011/05_final_result.json",
+    "utterance_count": 612,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_E",
+      "Speaker_D",
+      "Speaker_F"
+    ],
+    "original_length": 19277,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-10T20:15:51.190424"
+  }
+}

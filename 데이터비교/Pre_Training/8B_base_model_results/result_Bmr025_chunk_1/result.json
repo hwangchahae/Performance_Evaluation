@@ -1,0 +1,45 @@
+{
+  "id": "result_Bmr025_chunk_1",
+  "source_dir": "result_Bmr025",
+  "notion_output": {
+    "project_name": "Enhanced Meeting Transcription and Search System",
+    "project_purpose": "회의 전사 데이터의 효율적인 검색 및 분석을 위한 시스템 개발",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "회의 전사 데이터를 키워드 기반으로 검색 가능한 시스템 구축",
+      "UNIX 및 Windows 플랫폼에서 호환 가능한 전사 데이터 관리 시스템 개발",
+      "백업 오버헤드 최소화를 위한 안정적인 디스크 관리 전략 수립"
+    ],
+    "core_idea": "THISL IR 형식을 기반으로 한 구조화된 데이터 인덱싱과 사용자 인터페이스 통합",
+    "idea_description": "SGML 형식으로 전환된 회의 전사 데이터를 기반으로 키워드 검색, 시간대별 결과 반환, 오디오 클릭 재생 기능을 제공하는 시스템. DARPA 데모와 연계된 백업 전략 및 디스크 관리 프로토콜을 통합",
+    "execution_plan": "1. 1월: 요구사항 분석 및 THISL 도구 기반 시스템 설계 (Speaker_D 주도)\n2. 2월: SGML 형식 전환 도구 개발 및 검색 기능 테스트 (Speaker_F 협력)\n3. 3월: 백업 시스템 통합 및 사용자 인터페이스 최적화 (Speaker_B, Speaker_E 협업)",
+    "expected_effects": [
+      "검색 응답 시간 50% 단축 (키워드 입력 후 3초 내 결과 반환)",
+      "디스크 공간 사용량 30% 감소 (증분 백업 전략 도입으로 인해)",
+      "사용자 만족도 80% 상승 (직관적인 인터페이스 및 오디오 재생 기능 제공)"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr025/05_final_result.json",
+    "utterance_count": 453,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_H",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_G"
+    ],
+    "original_length": 16243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:15:25.568119"
+  }
+}

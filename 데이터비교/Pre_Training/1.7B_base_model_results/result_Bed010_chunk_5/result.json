@@ -1,0 +1,71 @@
+{
+  "id": "result_Bed010_chunk_5",
+  "source_dir": "result_Bed010",
+  "notion_output": {
+    "project_name": "EML 서버 공개 시스템 통합 프로젝트",
+    "project_purpose": "EML 서버와 시스템 통합 그룹의 협업을 통해 기존 시스템의 단축키 및 구성 기능을 공개하고, 학생 참여를 통한 프로젝트 실행 및 시스템 통합을 목표로 합니다.",
+    "project_period": "2023.04.01 ~ 2023.06.30",
+    "project_manager": "Speaker_F",
+    "core_objectives": [
+      "EML 서버의 공개 및 시스템 통합 기능 구현",
+      "Tilman과 Ralf의 협업을 통한 기술적 검증",
+      "Eva의 학생 참여를 통한 프로젝트 실행",
+      "시스템 통합 과정의 공식화 및 테스트 수행"
+    ],
+    "core_idea": "EML 서버의 공개를 통해 기존 시스템의 단축키 및 구성 기능을 통합하고, 학생 참여를 통해 프로젝트 실행 및 시스템 통합을 실현합니다.",
+    "idea_description": "EML 서버의 공개를 통해 기존 시스템의 단축키 및 구성 기능을 공개하고, Tilman과 Ralf의 협업을 통해 기술적 검증을 수행합니다. Eva의 학생 참여를 통해 프로젝트 실행을 확보하고, 시스템 통합 과정을 공식화하여 테스트를 수행합니다.",
+    "execution_plan": [
+      {
+        "step": "1. 시스템 통합 기능 구현",
+        "deadline": "2023.04.01",
+        "responsible": "Speaker_F, Eva",
+        "action": "EML 서버의 공개 및 시스템 통합 기능 구현"
+      },
+      {
+        "step": "2. Tilman과 Ralf의 협업",
+        "deadline": "2023.05.01",
+        "responsible": "Speaker_F, Tilman, Ralf",
+        "action": "기술적 검증 및 시스템 통합 기능 검증"
+      },
+      {
+        "step": "3. 프로젝트 실행 및 공식화",
+        "deadline": "2023.06.01",
+        "responsible": "Speaker_F, Eva",
+        "action": "프로젝트 실행 및 시스템 통합 과정의 공식화"
+      },
+      {
+        "step": "4. 테스트 및 검증",
+        "deadline": "2023.06.30",
+        "responsible": "Speaker_F, Eva, Tilman, Ralf",
+        "action": "시스템 통합 테스트 및 결과 검증"
+      }
+    ],
+    "expected_effects": [
+      "2023.06.30까지 EML 서버와 시스템 통합 기능의 완전한 구현",
+      "Tilman과 Ralf의 협업을 통해 기술적 검증의 성공",
+      "Eva의 학생 참여를 통해 프로젝트 실행의 확보",
+      "시스템 통합 과정의 공식화 및 테스트 수행으로 프로젝트 성공"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed010/05_final_result.json",
+    "utterance_count": 677,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_F",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_E"
+    ],
+    "original_length": 23517,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-10T22:45:29.120314"
+  }
+}

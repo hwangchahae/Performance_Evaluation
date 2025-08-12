@@ -1,0 +1,71 @@
+{
+  "id": "result_Bed002_chunk_4",
+  "source_dir": "result_Bed002",
+  "notion_output": {
+    "project_name": "데이터 수집 및 분석 시스템 개발",
+    "project_purpose": "교육 및 연구를 위한 다양한 데이터 수집 및 분석을 통해 학생들의 이해도와 참여도를 증진하고, 교육적 가치를 극대화함.",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_F",
+    "core_objectives": [
+      "목표 1: 다양한 데이터 수집 방법을 적용하여 학생들의 참여를 유도",
+      "목표 2: 수집된 데이터를 통합하여 교육적 가치를 높이는 시스템 구축",
+      "목표 3: 학생들의 질문을 반영하여 교육 내용을 개선"
+    ],
+    "core_idea": "데이터 수집 및 분석을 통한 교육 혁신",
+    "idea_description": "학생들의 질문을 통해 수집된 데이터를 분석하여 교육 내용을 개선하고, 이를 활용하여 학생들의 이해도를 높이는 시스템을 구축한다.",
+    "execution_plan": [
+      {
+        "phase": "데이터 수집 준비",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "activities": [
+          "데이터 수집 방법론 설계",
+          "수집 장비 및 소프트웨어 구매",
+          "초기 데이터 수집 프레임워크 구축"
+        ]
+      },
+      {
+        "phase": "데이터 수집 및 분석",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "activities": [
+          "데이터 수집 및 저장",
+          "데이터 분석 및 처리",
+          "분석 결과의 초기 보고서 작성"
+        ]
+      },
+      {
+        "phase": "데이터 활용 및 교육 개선",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "activities": [
+          "데이터 활용 교육 프로그램 개발",
+          "교수 및 학생의 의견 반영",
+          "최종 교육 내용 개선 및 발표"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 학생들의 질문을 반영하여 교육 내용의 질을 향상",
+      "기대효과 2: 데이터 수집 및 분석을 통한 교육의 효율성을 증대",
+      "기대효과 3: 학생들의 참여도와 성취감 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed002/05_final_result.json",
+    "utterance_count": 656,
+    "speakers": [
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "original_length": 24390,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-09T23:39:19.534434"
+  }
+}

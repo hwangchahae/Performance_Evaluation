@@ -1,0 +1,50 @@
+{
+  "id": "result_Bed009_chunk_2",
+  "source_dir": "result_Bed009",
+  "notion_output": {
+    "project_name": "관광 경로 계획 시스템 개발 프로젝트",
+    "project_purpose": "관광지 내 경로 계획 및 행동 플래너 시스템을 M-three-L 구조와 GIS 기반으로 통합하여 유연한 여행 경로 제공",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_D",
+    "core_objectives": [
+      "M-three-L 구조 기반의 동적 경로 계획 시스템 개발",
+      "관광 도메인 지식과 GIS 데이터의 통합 활용",
+      "사용자 상황에 따른 유연한 행동 계획 생성 기능 구현"
+    ],
+    "core_idea": "관광 경로 계획 시스템은 사용자의 목적지, 시간, 흥미사로를 기반으로 M-three-L 구조를 활용해 실시간 경로 계획을 제공하는 시스템",
+    "idea_description": "M-three-L 구조를 기반으로 사용자 상황 정보와 관광지 데이터를 연계해 경로 계획을 자동화하고, GIS 기반의 위치 분석을 통해 최적 경로를 추천하는 시스템으로, 관광지 내 이동 효율성 향상과 사용자 경험 개선을 목표",
+    "execution_plan": [
+      "2025.01.01-01.15: M-three-L 구조 분석 및 관광 도메인 지식 수집 (스피커_D, 스피커_G)",
+      "2025.01.16-02.01: GIS 데이터 통합 설계 및 경로 계획 알고리즘 개발 (스피커_B, 스피커_G)",
+      "2025.02.02-02.15: 행동 플래너 모듈 개발 및 사용자 상황 처리 기능 구현 (스피커_D, 스피커_F)",
+      "2025.02.16-03.01: 시스템 테스트 및 유저 피드백 반영 (스피커_B, 스피커_G)",
+      "2025.03.02-03.31: 최종 시스템 배포 및 운영 체계 구축 (스피커_D, 스피커_B)"
+    ],
+    "expected_effects": [
+      "기대효과 1: 관광지 내 이동 시간 30% 단축 및 경로 안전성 향상 (GIS 기반 최적화)",
+      "기대효과 2: 사용자 80% 이상이 실시간 경로 추천 기능을 만족 (사용자 설문 조사 기반)",
+      "기대효과 3: 시스템 유연성 향상으로 5가지 이상의 경로 옵션 제공 가능 (동적 계획 기능 구현)"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bed009/05_final_result.json",
+    "utterance_count": 691,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 23895,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T20:18:39.112308"
+  }
+}

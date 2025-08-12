@@ -1,0 +1,45 @@
+{
+  "id": "result_TS3008d_chunk_4",
+  "source_dir": "result_TS3008d",
+  "notion_output": {
+    "project_name": "고급 디스플레이 및 도킹 스테이션 개발 프로젝트",
+    "project_purpose": "고급 칩 기반 디스플레이 및 도킹 스테이션의 기술적 구현을 통한 시스템 통합",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "프로젝트 관리자",
+    "core_objectives": [
+      "목표 1: 고급 칩을 통한 디스플레이 기능 구현",
+      "목표 2: 도킹 스테이션용 기본 부품(케이블, 버튼, 장치 검색 기능) 개발",
+      "목표 3: 기술적 실현 가능성 검증 및 프로토타입 개선"
+    ],
+    "core_idea": "고급 칩 기반의 디스플레이와 도킹 스테이션을 통합한 시스템 구축",
+    "idea_description": "디스플레이에 고급 칩을 적용하여 고해상도/고속 처리 기능을 구현하고, 도킹 스테이션을 기존 부품으로 구성하여 사용자 편의성을 높이는 기술적 접근",
+    "execution_plan": [
+      "단계 1: 고급 칩 구매 및 테스트 (2025.01.01 ~ 2025.01.15)",
+      "단계 2: 도킹 스테이션 프로토타입 개발 (2025.01.16 ~ 2025.02.01)",
+      "단계 3: 기능 검증 및 최적화 (2025.02.02 ~ 2025.03.31)"
+    ],
+    "expected_effects": [
+      "효과 1: 고급 칩 기반 디스플레이의 성능 향상 (해상도 4K, 프레임률 120fps)",
+      "효과 2: 도킹 스테이션의 사용자 편의성 향상 (5분 이내 연결/해제 기능 구현)",
+      "효과 3: 기술적 실현 가능성 확증 (도킹 스테이션 기능 검증 완료)"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3008d/05_final_result.json",
+    "utterance_count": 440,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 14071,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-10T20:12:35.946022"
+  }
+}

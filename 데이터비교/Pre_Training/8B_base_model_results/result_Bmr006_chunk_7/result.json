@@ -1,0 +1,50 @@
+{
+  "id": "result_Bmr006_chunk_7",
+  "source_dir": "result_Bmr006",
+  "notion_output": {
+    "project_name": "음성 중복 감지 및 분류 시스템 개발",
+    "project_purpose": "음성 데이터에서 중복된 연설을 감지하고, 다양한 클러스터링 알고리즘을 활용해 정확한 분류를 수행하는 시스템 개발",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_F",
+    "core_objectives": [
+      "목표 1: 중복된 연설 영역을 감지하고 시각화하는 시스템 구축",
+      "목표 2: K-최근접 이웃, 민감도 분석, 신경망 기반 클러스터링 알고리즘 적용",
+      "목표 3: MFCC/PLP 매개변수를 활용한 분류 모델 개선 및 성능 평가"
+    ],
+    "core_idea": "음성 신호 처리 시 중복 영역을 탐지하고, 다양한 알고리즘을 통해 정확도를 높이는 시스템",
+    "idea_description": "음성 데이터에서 중복된 연설을 감지하고, 시각화 기법(C-1, C-2)을 통해 분석을 지원하는 시스템. K-NN, 민감도 분석, 신경망 기반 클러스터링을 통해 분류 정확도를 향상시키며, MFCC/PLP 매개변수를 활용한 모델 최적화를 수행",
+    "execution_plan": [
+      "단계 1: 2025.01.15까지 청크 1~6 데이터 수집 및 전처리",
+      "단계 2: 2025.01.20까지 중복 감지 알고리즘 개발 (Speaker_D 주도)",
+      "단계 3: 2025.02.01까지 K-NN 및 민감도 분석 모델 구축 (Speaker_F 주도)",
+      "단계 4: 2025.02.15까지 신경망 기반 클러스터링 시스템 개발 (Speaker_C 주도)",
+      "단계 5: 2025.02.28까지 모델 성능 평가 및 최적화 (Speaker_D, Speaker_F 협력)",
+      "단계 6: 2025.03.10까지 시스템 통합 및 테스트 (Speaker_A 주도)"
+    ],
+    "expected_effects": [
+      "기대효과 1: 중복 감지 정확도 90% 이상 달성 (현재 70%에서 개선)",
+      "기대효과 2: 클러스터링 알고리즘 적용으로 분류 시간 40% 단축",
+      "기대효과 3: MFCC/PLP 매개변수 최적화로 모델 정확도 15% 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr006/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_D"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 7,
+    "processing_date": "2025-08-10T22:16:35.329465"
+  }
+}

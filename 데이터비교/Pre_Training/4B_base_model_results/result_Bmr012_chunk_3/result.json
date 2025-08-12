@@ -1,0 +1,52 @@
+{
+  "id": "result_Bmr012_chunk_3",
+  "source_dir": "result_Bmr012",
+  "notion_output": {
+    "project_name": "청크 데이터 처리 및 기록 프로젝트",
+    "project_purpose": "회의 녹음 데이터의 청크별 처리 및 정확한 기록을 위한 기술적 개선 및 장비 확보",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_D",
+    "core_objectives": [
+      "청크 1 및 2의 디지털 오디오 데이터를 16kHz 샘플링률로 처리",
+      "회의 기록의 정확성을 높이기 위한 마이크 및 장비 업그레이드",
+      "회의 내용의 자동 기록 시스템 구축 및 검증"
+    ],
+    "core_idea": "회의 녹음 데이터의 처리 효율성과 정확성을 높이기 위해 샘플링률 조정, 추가 장비 구매, 기록 시스템 최적화를 통합적으로 수행",
+    "idea_description": "기존 16kHz 샘플링률 기반의 오디오 처리 방식을 유지하면서, 더 높은 품질의 기록을 위해 무선 마이크 및 튜너 장비 추가 구매, 기존 시스템의 샘플링률 조정을 통해 데이터 처리 효율성 향상, 자동 기록 시스템의 정확성 검증을 통한 프로세스 개선",
+    "execution_plan": [
+      "2025.01.01-01.15: 청크 1/2의 오디오 데이터 분석 및 16kHz 샘플링률 기반 처리 방안 확정",
+      "2025.01.16-02.01: 추가 마이크(9대) 및 튜너/수신기 구매(35350+430달러) 및 설치",
+      "2025.02.02-02.15: 장비 테스트 및 오디오 캡처 환경 최적화",
+      "2025.02.16-03.01: 자동 기록 시스템 개발 및 기존 필터링 알고리즘 검증",
+      "2025.03.02-03.31: 최종 시스템 테스트 및 기록 정확성 평가"
+    ],
+    "expected_effects": [
+      "청크 데이터 처리 시간 30% 단축 및 오류율 5% 감소",
+      "회의 기록 정확도 95% 이상 달성하는 시스템 구축",
+      "장비 추가로 인한 운영 비용 780달러 증가 및 효율성 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr012/05_final_result.json",
+    "utterance_count": 602,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_I",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 20997,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 3,
+    "processing_date": "2025-08-10T20:17:11.721923"
+  }
+}

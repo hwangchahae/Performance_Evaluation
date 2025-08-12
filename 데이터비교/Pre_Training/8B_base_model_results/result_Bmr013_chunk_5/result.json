@@ -1,0 +1,49 @@
+{
+  "id": "result_Bmr013_chunk_5",
+  "source_dir": "result_Bmr013",
+  "notion_output": {
+    "project_name": "음성 데이터 처리 및 채널화 프로젝트",
+    "project_purpose": "다양한 회의 녹음 데이터를 정제하고, 채널화 및 정렬을 통해 정확한 정보 추출을 위한 시스템 구축",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "회의 녹음 데이터의 수동/자동 시스템 비교 분석 및 최적화",
+      "Channelize 프로그램을 활용한 다중 채널 형식 전환 및 시간대 조정",
+      "정확도 향상을 위한 편집 과정 최적화 및 오류 검증"
+    ],
+    "core_idea": "회의 데이터를 채널화하여 정렬하고, 수동 조정을 최소화한 자동화 시스템으로 정제하여 정보 추출 효율을 높이는 기술적 접근",
+    "idea_description": "사전 수작업 편집을 줄이고 Channelize 프로그램을 활용한 자동화 처리로 데이터 정제를 가속화. 시스템의 정확도를 높이기 위해 편집 후 결과 검증 및 오류 수정 프로세스를 포함",
+    "execution_plan": [
+      "1단계: 청크 1~4 데이터 전처리 (2025.01.15까지)",
+      "2단계: Channelize 프로그램을 통한 다중 채널 형식 전환 및 시간대 조정 (2025.02.01~2025.02.15)",
+      "3단계: 편집 후 데이터 검증 및 오류 수정 (2025.02.16~2025.02.28)",
+      "4단계: 시스템 정확도 평가 및 최적화 (2025.03.01~2025.03.15)"
+    ],
+    "expected_effects": [
+      "기대효과 1: 수작업 편집 50% 감소로 처리 시간 30% 단축",
+      "기대효과 2: 오류율 10% 감소를 통한 데이터 정확도 향상",
+      "기대효과 3: 다양한 회의 데이터 처리 시스템으로 확장 가능"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr013/05_final_result.json",
+    "utterance_count": 797,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_G"
+    ],
+    "original_length": 27322,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-10T22:15:57.019847"
+  }
+}

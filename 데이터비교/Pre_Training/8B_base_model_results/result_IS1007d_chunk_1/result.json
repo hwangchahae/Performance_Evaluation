@@ -1,0 +1,45 @@
+{
+  "id": "result_IS1007d_chunk_1",
+  "source_dir": "result_IS1007d",
+  "notion_output": {
+    "project_name": "LCD-Free 리모컨 혁신 개발 프로젝트",
+    "project_purpose": "사용자 친화적이고 경제적인 리모컨 개발을 통해 시장 니즈에 맞는 제품을 제공하고, 모듈식 설계로 기능 확장성을 높이는 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "LCD 포함/불포함 두 가지 버전의 리모컨 개발 및 최적화",
+      "제조 비용 20% 절감을 통한 경쟁력 있는 가격 정립 (25유로)",
+      "사용자 경험 향상을 위한 모듈식 설계 도입 및 테스트"
+    ],
+    "core_idea": "LCD가 없는 간단한 버전으로 사용자 친화성과 비용 절감을 동시에 달성하는 모듈식 리모컨",
+    "idea_description": "LCD가 없는 버전은 사용자 인터페이스 간소화와 제조비용 절감을 통해 경제성을 강화하고, 모듈식 설계로 추가 기능 확장이 가능하도록 구조화. 사용자 피드백에 따라 디자인과 기능을 지속적으로 개선.",
+    "execution_plan": [
+      "1월: 시장 조사 및 사용자 피드백 분석 (LCD 포함/불포함 버전 선호도 조사)",
+      "2월: 두 버전의 디자인 최적화 및 모듈식 시스템 개발 (LCD 없음 버전 우선 개발)",
+      "3월: 프로토타입 테스트 및 피드백 반영, 최종 제품 정착"
+    ],
+    "expected_effects": [
+      "제조 비용 20% 절감으로 25유로 가격대에서 경쟁력 확보",
+      "LCD 없는 버전 70% 이상의 사용자 선호도 달성 (사용자 편의성 강화)",
+      "모듈식 설계로 30% 이상의 기능 확장성 제공, 재구매율 증가 기대"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_IS1007d/05_final_result.json",
+    "utterance_count": 262,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C",
+      "Speaker_B"
+    ],
+    "original_length": 9248,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:11:13.928966"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "result_Bmr019_chunk_2",
+  "source_dir": "result_Bmr019",
+  "notion_output": {
+    "project_name": "스피치 리코딩 최적화 프로젝트",
+    "project_purpose": "스피치 인식 시스템의 성능을 향상시키기 위한 데이터 분석, 모델 파라미터 조정, 혼합 신호 처리 기술 개발",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "스피치 인식 시스템의 정확도 향상",
+      "모델 파라미터 조정을 통한 성능 최적화",
+      "혼합 신호 처리 기술의 구현 및 테스트"
+    ],
+    "core_idea": "데이터 기반의 가지치기 조정과 모델 파라미터 조정을 통해 인식 성능을 개선하고, 혼합 신호 처리를 위한 전용 알고리즘 구현",
+    "idea_description": "회의에서 논의된 가지치기 문제와 모델 파라미터 조정의 중요성에 기반하여, 데이터 분석을 통해 가지치기 규칙을 최적화하고, 모델의 매개변수를 조정하여 정확도를 높일 계획. 혼합 신호 처리는 프런트엔드 개발자와 연구자들의 의견을 반영한 전용 알고리즘으로 구현.",
+    "execution_plan": [
+      {
+        "step": "데이터 분석 및 가지치기 규칙 최적화",
+        "deadline": "2025.01.15",
+        "responsible": "Speaker_I, Speaker_D",
+        "status": "진행 중"
+      },
+      {
+        "step": "모델 파라미터 조정 및 성능 테스트",
+        "deadline": "2025.02.01",
+        "responsible": "Speaker_I, Speaker_B",
+        "status": "진행 중"
+      },
+      {
+        "step": "혼합 신호 처리 알고리즘 구현",
+        "deadline": "2025.02.15",
+        "responsible": "Speaker_E, Speaker_A",
+        "status": "진행 중"
+      },
+      {
+        "step": "테스트 및 성능 평가",
+        "deadline": "2025.03.01",
+        "responsible": "Speaker_B, Speaker_E",
+        "status": "진행 중"
+      }
+    ],
+    "expected_effects": [
+      "인식 정확도 향상: 15% 이상의 성능 개선",
+      "오류율 감소: 30% 이상의 단어 오류 감소",
+      "혼합 신호 처리 성능 향상: 20% 이상의 신호 분리 효율성 증가",
+      "데이터 기반의 가지치기 규칙 개발 완료"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr019/05_final_result.json",
+    "utterance_count": 630,
+    "speakers": [
+      "Speaker_H",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_F",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_I",
+      "Speaker_E"
+    ],
+    "original_length": 21243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T22:43:51.490626"
+  }
+}

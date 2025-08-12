@@ -1,0 +1,49 @@
+{
+  "id": "result_Bmr006_chunk_4",
+  "source_dir": "result_Bmr006",
+  "notion_output": {
+    "project_name": "데이터 보존 및 회의 기록 관리 프로젝트",
+    "project_purpose": "회의 녹음 및 데이터 자산의 체계적 관리를 통해 정보 공유 효율성 향상과 데이터 유실 방지",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_D",
+    "core_objectives": [
+      "회의 녹음 자료의 디스크 공간 확보 및 정적/동적 데이터 분리 관리",
+      "SPINE 및 Carmen 데이터의 백업 복구 및 오래된 파일 삭제 작업",
+      "회의 기록의 익명화 처리 및 라이선스 관리 체계 구축"
+    ],
+    "core_idea": "회의 녹음 자료를 기반으로 데이터 코퍼스를 구축하고, 데이터 유실 방지를 위한 백업 시스템을 구현",
+    "idea_description": "회의 녹음 자료를 정적 데이터(기록 보존용)와 동적 데이터(활용 가능한 분석 자료)로 구분하여 관리하며, 디스크 공간 확보를 위한 파일 정리 및 백업 프로세스를 표준화. 익명화 처리와 라이선스 관리로 데이터 활용 범위를 명확화",
+    "execution_plan": [
+      "1단계: 2025.01.15까지 SPINE 데이터 백업 및 Carmen 데이터 XA 복사 완료 (스피커_E 담당)",
+      "2단계: 2025.01.20까지 오래된 파일 삭제 및 디스크 공간 확보 작업 (스피커_E 담당)",
+      "3단계: 2025.01.25까지 회의 기록 익명화 처리 및 라이선스 관리 체계 확정 (스피커_C 담당)",
+      "4단계: 2025.02.01부터 정기적인 데이터 백업 절차 정착 (스피커_D 주도)",
+      "5단계: 2025.02.15까지 데이터 코퍼스 구축 및 분석 가능성 검증 (스피커_B 담당)"
+    ],
+    "expected_effects": [
+      "기대효과 1: 2025년 3월까지 140시간 분량의 회의 녹음 자료를 안정적으로 보존하여 데이터 유실 100% 방지",
+      "기대효과 2: 디스크 공간 절약을 통한 서버 비용 30% 절감 및 데이터 접근 속도 50% 개선",
+      "기대효과 3: 라이선스 관리 체계 도입으로 데이터 활용 범위 200% 확대 및 법적 리스크 70% 감소"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr006/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_D"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-10T22:16:35.318156"
+  }
+}

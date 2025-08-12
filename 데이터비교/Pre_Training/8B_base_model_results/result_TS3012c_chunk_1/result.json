@@ -1,0 +1,45 @@
+{
+  "id": "result_TS3012c_chunk_1",
+  "source_dir": "result_TS3012c",
+  "notion_output": {
+    "project_name": "NextGen 스마트 디바이스 디자인 개발 프로젝트",
+    "project_purpose": "젊은 세대를 중심으로 한 스마트 디바이스의 기능성과 디자인을 균형 있게 결합하여 시장 경쟁력을 확보하는 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "기본 배터리 기반의 경제적인 디바이스 모델 개발 (LCD 옵션 포함)",
+      "곡선 디자인 및 스크롤 휠 기능의 비용-기능 균형 최적화",
+      "타겟층(젊은 세대)을 위한 디자인 혁신 및 마케팅 전략 수립"
+    ],
+    "core_idea": "재충전 가능 배터리 기반의 기본 모델과 LCD 화면 포함 디럭스 모델을 병행하며, 디자인 요소(곡선, 스크롤 휠)를 통해 시각적 매력을 극대화하는 제품 구조",
+    "idea_description": "태양 전지/수동 발전기 등 에너지 솔루션과 기본 배터리의 선택지를 제공하며, 곡선 디자인의 비용 상승 요소를 최소화한 구조. 디럭스 모델은 LCD 화면을 통해 고급감을 강조하고, 교체 가능한 커버로 디자인 유연성을 확보",
+    "execution_plan": [
+      "1월: 재료 선택(플라스틱/티타늄) 및 에너지 솔루션(태양 전지/수동 발전기) 기술 검증 (완료: 2025.01.15)",
+      "2월: 디자인 프로토타입 개발 (곡선 수량/스크롤 휠 기능 최적화) 및 비용 분석 (완료: 2025.02.28)",
+      "3월: 디럭스 모델(LCD 화면) vs 기본 모델 시장성 분석 및 마케팅 전략 수립 (완료: 2025.03.31)"
+    ],
+    "expected_effects": [
+      "제작 비용 20% 절감 (곡선 디자인 최적화 통해), 타겟층 30% 증가 (디자인 혁신 기반)",
+      "디럭스 모델 50% 이상의 고급감 인식 확보 (LCD 화면 기반), 재충전 기능에 대한 80% 이상의 고객 만족도 달성",
+      "제품 라인 확장으로 연간 매출 15% 성장 기여 (기본/디럭스 모델 병행 전략)"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3012c/05_final_result.json",
+    "utterance_count": 425,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_C",
+      "Speaker_B"
+    ],
+    "original_length": 14077,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:09:18.269244"
+  }
+}

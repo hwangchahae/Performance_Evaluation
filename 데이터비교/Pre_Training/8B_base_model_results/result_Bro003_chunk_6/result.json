@@ -1,0 +1,48 @@
+{
+  "id": "result_Bro003_chunk_6",
+  "source_dir": "result_Bro003",
+  "notion_output": {
+    "project_name": "신경망 훈련 및 시스템 최적화 프로젝트",
+    "project_purpose": "신경망 훈련 프로세스 최적화 및 HTK 시스템 통합을 통한 작업 효율성 향상",
+    "project_period": "2025.01.10 ~ 2025.03.31",
+    "project_manager": "스피커_C",
+    "core_objectives": [
+      "신경망 훈련 시간(6~8시간)을 최소화하기 위한 시스템 최적화",
+      "HTK 시스템과 SPERT 보드의 연동 프로세스 개선",
+      "라벨 변환 및 ASCII 포맷 통합을 통한 데이터 처리 효율화"
+    ],
+    "core_idea": "다중 기계 자원 활용 및 데이터 전처리 프로세스 개선을 통해 신경망 훈련 시간 단축 및 시스템 성능 향상",
+    "idea_description": "HTK 훈련 시 ASCII 포맷 변환 문제 해결을 위한 LabCut/Feacalc 도구 활용, SPERT 보드 자원 확보 및 분산 처리 전략 수립, 라벨 데이터 정제 프로세스 표준화",
+    "execution_plan": [
+      "1단계(1월 10일 ~ 1월 20일): 데이터 전처리 시스템 구축 (라벨 변환 도구 개발, ASCII 포맷 통합)",
+      "2단계(1월 21일 ~ 2월 10일): SPERT 보드 자원 분배 및 훈련 프로세스 최적화 (6~8시간 기준 3일 완료)",
+      "3단계(2월 11일 ~ 3월 10일): 시스템 통합 테스트 및 성능 분석 (다중 기계 자원 활용 효율성 검증)"
+    ],
+    "expected_effects": [
+      "훈련 시간 40% 단축 (6시간 → 3.6시간 기준)",
+      "데이터 전처리 오류율 70% 감소 (ASCII 포맷 통합으로)",
+      "시스템 처리량 3배 증가 (다중 기계 자원 분배 기반)"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bro003/05_final_result.json",
+    "utterance_count": 746,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_G"
+    ],
+    "original_length": 25793,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 6,
+    "processing_date": "2025-08-10T22:14:56.527318"
+  }
+}

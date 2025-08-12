@@ -1,0 +1,35 @@
+{
+  "id": "val_012_chunk_2",
+  "source_dir": "result_TS3008d",
+  "notion_output": "```json\n{\n    \"project_name\": \"차세대 스마트 리모컨 개발 프로젝트\",\n    \"project_purpose\": \"젊은 소비자층을 타겟으로 한 트렌디하고 비용 효율적인 스마트 리모컨 개발\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_D\",\n    \"core_objectives\": [\n        \"목표 1: 트렌디한 디자인과 인식 가능한 기업 이미지를 갖춘 리모컨 개발\",\n        \"목표 2: 최소한의 구성 요소로 비용 효율적인 제품 설계\",\n        \"목표 3: 40세 이하의 소비자 타겟팅 및 시장 점유율 확대\"\n    ],\n    \"core_idea\": \"젊은 소비자층을 위한 트렌디하고 비용 효율적인 리모컨 개발\",\n    \"idea_description\": \"리모컨은 인식 가능한 기업 이미지와 로고를 포함하며, 트렌디한 디자인을 통해 젊은 소비자층을 타겟으로 한다. 비용 절감을 위해 최소한의 구성 요소를 사용하여 제작하며, 슬로건은 아직 결정되지 않았음.\",\n    \"execution_plan\": [\n        {\n            \"phase\": \"1단계\",\n            \"description\": \"디자인 컨셉 확정 및 슬로건 결정\",\n            \"period\": \"2024.01.01 ~ 2024.01.31\",\n            \"details\": \"리모컨의 디자인 컨셉을 확정하고, 기업 이미지와 일치하는 슬로건을 결정합니다.\"\n        },\n        {\n            \"phase\": \"2단계\",\n            \"description\": \"구성 요소 선정 및 비용 분석\",\n            \"period\": \"2024.02.01 ~ 2024.02.28\",\n            \"details\": \"필요한 구성 요소를 최소화하여 선정하고, 각 구성 요소의 비용을 분석하여 최적의 비용 효율성을 도출합니다.\"\n        },\n        {\n            \"phase\": \"3단계\",\n            \"description\": \"프로토타입 제작 및 테스트\",\n            \"period\": \"2024.03.01 ~ 2024.04.30\",\n            \"details\": \"프로토타입을 제작하고, 기능성과 디자인을 테스트하여 개선점을 도출합니다.\"\n        },\n        {\n            \"phase\": \"4단계\",\n            \"description\": \"최종 제품 개발 및 생산 준비\",\n            \"period\": \"2024.05.01 ~ 2024.06.30\",\n            \"details\": \"최종 제품을 개발하고, 대량 생산을 위한 준비를 완료합니다.\"\n        }\n    ],\n    \"component_details\": {\n        \"buttons\": 4,\n        \"battery\": \"1개\",\n        \"chip\": {\n            \"type\": \"고급 칩\",\n            \"cost_per_chip\": \"50센트\"\n        },\n        \"additional_features\": [\n            \"적외선 LED\",\n            \"작은 조명\"\n        ]\n    },\n    \"expected_effects\": [\n        \"기대효과 1: 젊은 소비자층의 관심 증가로 인한 매출 증대\",\n        \"기대효과 2: 비용 절감을 통한 이익률 향상\",\n        \"기대효과 3: 브랜드 이미지 강화 및 시장 점유율 확대\"\n    ],\n    \"decisions_from_meeting\": [\n        \"리모컨에는 인식 가능한 기업 이미지, 색상, 로고 포함\",\n        \"슬로건은 아직 결정되지 않음\",\n        \"구성 요소는 최소화하여 비용 절감\",\n        \"40세 이하의 소비자층을 주요 타겟으로 설정\",\n        \"리모컨 디자인은 트렌디하고 젊은 층에 어필할 수 있도록 설계\",\n        \"배터리는 1개로 충분하며, 추가적인 에너지원은 필요하지 않음\"\n    ]\n}\n```",
+  "quality_metrics": {
+    "final_score": 6.8,
+    "is_production_ready": false,
+    "iterations_used": 3,
+    "is_high_quality": false
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_TS3008d/05_final_result.json",
+    "utterance_count": 440,
+    "original_transcript_length": 14071,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 14071
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 4,
+      "chunk_length": 5000
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T09:44:38.494525"
+  }
+}

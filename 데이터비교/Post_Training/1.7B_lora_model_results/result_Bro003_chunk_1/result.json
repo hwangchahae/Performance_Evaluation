@@ -1,0 +1,60 @@
+{
+  "id": "result_Bro003_chunk_1",
+  "source_dir": "result_Bro003",
+  "notion_output": {
+    "project_name": "데이터 유연성 및 백업 효율성 향상 프로젝트",
+    "project_purpose": "현재의 데이터 처리 방식의 한계를 극복하고, 백업 시스템의 효율성을 향상하며, 다양한 환경에서의 데이터 접근성을 강화함",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: 스키마를 통해 데이터의 유연성을 높임",
+      "목표 2: 백업 시스템의 효율성을 향상하기 위한 기술적 개선",
+      "목표 3: 다양한 환경에서의 데이터 접근성을 확보"
+    ],
+    "core_idea": "데이터의 유연성을 높이고, 백업 시스템의 효율성을 향상하며, 다양한 환경에서의 데이터 접근성을 확보함",
+    "idea_description": "스키마를 활용하여 데이터의 유연성을 높이고, 백업 시스템을 개선하여 백업의 효율성을 높이며, 다양한 환경에서의 데이터 접근성을 확보함.",
+    "execution_plan": [
+      {
+        "phase": "데이터 유연성 검증 및 개선",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "description": "스키마를 통한 데이터 유연성 검증 및 개선을 위해 관련 기술을 적용하고, 현재의 데이터 처리 방식의 한계를 파악."
+      },
+      {
+        "phase": "백업 시스템 개선 및 구축",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "description": "백업 시스템을 개선하고, 백업의 효율성을 높이는 기술적 개선을 수행하여 백업의 효율성을 향상."
+      },
+      {
+        "phase": "다양한 환경에서의 데이터 접근성 확보",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "description": "다양한 환경에서의 데이터 접근성을 확보하기 위한 인프라 구축 및 시스템 운영을 수행."
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 데이터의 유연성 향상으로 인한 처리 속도의 증가",
+      "기대효과 2: 백업 시스템의 효율성 향상으로 인한 비용 절감",
+      "기대효과 3: 다양한 환경에서의 데이터 접근성 확보로 인한 서비스 질 향상"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bro003/05_final_result.json",
+    "utterance_count": 746,
+    "speakers": [
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "original_length": 25793,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-09T23:37:27.618981"
+  }
+}

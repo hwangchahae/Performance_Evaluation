@@ -1,0 +1,47 @@
+{
+  "id": "result_ES2015c_chunk_3",
+  "source_dir": "result_ES2015c",
+  "notion_output": {
+    "project_name": "트렌디한 TV 디자인 프로젝트",
+    "project_purpose": "사용자 중심의 TV 인터페이스 및 디자인 개선을 통한 시장 경쟁력 강화",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_A",
+    "core_objectives": [
+      "TV 사용자 인터페이스의 명령 줄 인터페이스 구현",
+      "채널 번호, 볼륨, 전원 기능의 직관적 조작성 확보",
+      "트렌디한 디자인 요소를 기반으로 한 사용자 경험 개선"
+    ],
+    "core_idea": "사용자 인터페이스와 디자인의 조화로운 통합을 통해 TV 제품의 차별화된 경험 제공",
+    "idea_description": "명령 줄 인터페이스를 기반으로 채널 조절, 볼륨 조절, 전원 관리 기능을 직관적으로 구현하고, 과일/채소를 디자인 요소로 활용해 트렌디한 시각적 경험을 제공하는 시스템 구축",
+    "execution_plan": [
+      "2025.01.01-01.15: 사용자 인터페이스 프로토타입 개발 (스피커_A 주도)",
+      "2025.01.16-02.01: 명령 줄 인터페이스 기능 구현 (스피커_D 협력)",
+      "2025.02.02-02.15: 디자인 요소 통합 테스트 (포피 주도)",
+      "2025.02.16-03.01: 사용자 테스트 및 피드백 반영",
+      "2025.03.02-03.31: 최종 제품 출시 준비"
+    ],
+    "expected_effects": [
+      "사용자 조작 속도 30% 개선 (명령 줄 인터페이스 직관성 강화)",
+      "트렌디 디자인 요소로 20%의 시장 인지도 상승 기대",
+      "사용자 만족도 40% 상승 (사용자 테스트 결과 기반)"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_ES2015c/05_final_result.json",
+    "utterance_count": 358,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 11803,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 3,
+    "processing_date": "2025-08-10T20:14:15.319032"
+  }
+}

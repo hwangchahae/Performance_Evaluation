@@ -1,0 +1,51 @@
+{
+  "id": "result_Bmr025_chunk_3",
+  "source_dir": "result_Bmr025",
+  "notion_output": {
+    "project_name": "THISL Windows 포팅 및 XML 통합 프로젝트",
+    "project_purpose": "UNIX 기반 THISL 도구를 Windows 플랫폼으로 포팅하고, XML 기반 도구를 통합하여 통일된 인프라 구축",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_D",
+    "core_objectives": [
+      "1. THISL 도구의 Windows 환경 적응 및 컴파일러 해결 방법 구현",
+      "2. 웹 서버 기반의 통합 인프라 구축 및 동기화 기능 개발",
+      "3. XML 기반 도구의 통합을 통한 표준화된 작업 흐름 구현"
+    ],
+    "core_idea": "UNIX 시스템에서 사용된 THISL 도구를 Windows로 이식하고, XML 기반의 표준 도구를 통합하여 다플랫폼에서 일관된 기능 수행을 가능하게 하는 체계적 인프라 구축",
+    "idea_description": "UNIX 환경에서 사용된 THISL 도구의 Windows 포팅을 통해 크로스 플랫폼 호환성을 확보하고, XML 기반의 표준 도구를 통합하여 작업 흐름을 표준화함으로써 개발 효율성과 유지보수성을 향상시킬 예정",
+    "execution_plan": [
+      "1. THISL 도구의 Windows 환경 적응 분석 (2025.01.01-2025.01.15)",
+      "2. Windows 기반 컴파일러 해결 방법 개발 및 테스트 (2025.01.16-2025.02.01)",
+      "3. 웹 서버 기반 인프라 구축 및 동기화 기능 개발 (2025.02.02-2025.02.28)",
+      "4. XML 기반 도구 통합 및 표준화 작업 (2025.02.29-2025.03.15)",
+      "5. 종합 테스트 및 최종 배포 (2025.03.16-2025.03.31)"
+    ],
+    "expected_effects": [
+      "1. Windows 환경에서 THISL 도구의 정상 작동을 통해 크로스 플랫폼 호환성 확보 (성능 향상 30% 예상)",
+      "2. 웹 기반 동기화 시스템을 통해 실시간 작업 흐름 관리 가능 (사고 대응 시간 50% 감소)",
+      "3. XML 기반 표준 도구 통합으로 개발자 생산성 향상 (작업 시간 절감 20% 예상)"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr025/05_final_result.json",
+    "utterance_count": 453,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 16243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 3,
+    "processing_date": "2025-08-10T20:16:36.697090"
+  }
+}

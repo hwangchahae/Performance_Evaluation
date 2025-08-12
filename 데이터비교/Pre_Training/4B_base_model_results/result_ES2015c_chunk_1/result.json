@@ -1,0 +1,46 @@
+{
+  "id": "result_ES2015c_chunk_1",
+  "source_dir": "result_ES2015c",
+  "notion_output": {
+    "project_name": "운동 에너지 기반 리모컨 개발 프로젝트",
+    "project_purpose": "운동 에너지를 활용한 환경 친화적 리모컨 개발을 통해 배터리 의존도를 줄이고 지속 가능한 에너지 솔루션을 구현",
+    "project_period": "2023.11.01 ~ 2024.01.31",
+    "project_manager": "Speaker_B",
+    "core_objectives": [
+      "1. 운동 에너지를 기반으로 리모컨의 주供电원을 설계하여 배터리 사용을 최소화",
+      "2. 인체공학적 디자인을 통한 사용자 편의성 향상",
+      "3. 환경 보호를 위한 재생 에너지 기반 백업 시스템 구현"
+    ],
+    "core_idea": "운동 에너지를 직접 전환하여 리모컨의 주供电원으로 활용하고, 재생 에너지 백업 시스템을 병행하여 환경 부담을 최소화하는 통합형 리모컨 개발",
+    "idea_description": "리모컨의 주供电원으로 운동 에너지를 활용하여 배터리 사용을 줄이고, 태양광 백업 시스템을 병행하여 지속 가능한 에너지 솔루션을 구현함으로써 환경 보호와 사용자 편의성을 동시에 달성하는 기술적 혁신",
+    "execution_plan": [
+      "1. 2023.11.01-11.15: 운동 에너지 전환 기술 및 재생 에너지 백업 시스템 기술 조사 (Speaker_B 주도)",
+      "2. 2023.11.16-12.01: 인체공학적 디자인 및 재료 선택 (Speaker_D 주도)",
+      "3. 2023.12.02-2024.01.15: 운동 에너지 기반 리모컨 프로토타입 개발 및 테스트 (Speaker_B, Speaker_A 협력)",
+      "4. 2024.01.16-01.31: 사용자 인터페이스 최적화 및 최종 테스트 (Speaker_C 주도)"
+    ],
+    "expected_effects": [
+      "1. 연간 10만개 이상의 리모컨 사용 시 배터리 폐기량 감소 (환경적 효과)",
+      "2. 사용자 편의성 향상으로 90% 이상의 만족도 개선 (정성적 효과)",
+      "3. 재생 에너지 기반 기술 표준화로 기술적 혁신 촉진 (정량적 효과)"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_ES2015c/05_final_result.json",
+    "utterance_count": 358,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 11803,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T20:14:15.311509"
+  }
+}

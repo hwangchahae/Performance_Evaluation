@@ -1,0 +1,78 @@
+{
+  "id": "result_Bmr025_chunk_1",
+  "source_dir": "result_Bmr025",
+  "notion_output": {
+    "project_name": "THISL 및 관련 기능 개선 프로젝트",
+    "project_purpose": "UNIX 시스템에서 작동하는 THISL 도구를 활용하여 회의 데이터를 효율적으로 처리하고, 사용자의 요구에 따른 다양한 기능을 추가하여 사용성을 극대화",
+    "project_period": "2024.01.01 ~ 2024.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "UNIX 시스템에서 THISL 도구를 통합하여 작동 가능",
+      "회원들의 질의 및 질문을 반영한 쿼리 기능 추가",
+      "BSD 호환성 계층 제공 및 사용자 친화적 UI 개선",
+      "DARPA 데모 및 기타 특수 기능 지원",
+      "백업 및 저장 시스템의 효율적 운영"
+    ],
+    "core_idea": "UNIX 시스템 내부의 THISL 도구를 활용하여 회의 데이터를 처리하고, 사용자 요구에 따라 다양한 기능을 추가하여 사용성을 높이는 방향으로 개발",
+    "idea_description": "THISL 도구를 통해 회의 데이터를 처리하고, 사용자가 질의 및 질문을 입력하여 필요한 정보를 검색할 수 있도록 설계하며, BSD 호환성 계층을 제공하여 시스템의 호환성을 강화함으로써 사용자 경험을 개선합니다.",
+    "execution_plan": [
+      {
+        "phase": "데이터 준비 및 시스템 통합",
+        "duration": "2024.01.01 ~ 2024.01.15",
+        "tasks": [
+          "UNIX 시스템 내부의 THISL 도구 설치 및 설정",
+          "회의 데이터의 형식 변환 및 저장",
+          "데이터의 초기 저장 및 백업 설정"
+        ]
+      },
+      {
+        "phase": "기능 추가 및 개발",
+        "duration": "2024.01.16 ~ 2024.02.28",
+        "tasks": [
+          "질의 및 질문 기능 추가",
+          "BSD 호환성 계층 제공 및 사용자 친화적 UI 개선",
+          "DARPA 데모 및 기타 특수 기능 지원",
+          "백업 및 저장 시스템의 효율적 운영"
+        ]
+      },
+      {
+        "phase": "테스트 및 피드백 수집",
+        "duration": "2024.03.01 ~ 2024.03.15",
+        "tasks": [
+          "시스템 테스트 및 성능 평가",
+          "사용자 피드백 수집 및 분석",
+          "최종 버전 확인 및 발행 준비"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "UNIX 시스템 내부의 THISL 도구를 통한 회의 데이터 처리 속도 향상",
+      "사용자 친화적 UI 및 질의 기능으로 인한 사용자 만족도 증가",
+      "BSD 호환성 계층 제공으로 시스템의 호환성 강화",
+      "DARPA 데모 및 기타 특수 기능을 통해 다양한 사용 사례 지원",
+      "백업 및 저장 시스템의 효율적 운영으로 인한 데이터 안전성 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr025/05_final_result.json",
+    "utterance_count": 453,
+    "speakers": [
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_F",
+      "Speaker_H",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "original_length": 16243,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-09T23:37:42.089680"
+  }
+}

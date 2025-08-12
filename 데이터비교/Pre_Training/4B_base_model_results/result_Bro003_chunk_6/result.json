@@ -1,0 +1,49 @@
+{
+  "id": "result_Bro003_chunk_6",
+  "source_dir": "result_Bro003",
+  "notion_output": {
+    "project_name": "SPERT 기반 신경망 훈련 프로젝트",
+    "project_purpose": "SPERT 보드와 HTK 시스템을 활용한 신경망 훈련 환경 구축 및 대규모 데이터 처리를 통한 음성인식 모델 개선",
+    "project_period": "2025.01.01 ~ 2025.01.07",
+    "project_manager": "스피커_C",
+    "core_objectives": [
+      "SPERT 보드와 HTK 시스템을 통합한 신경망 훈련 환경 구축",
+      "신경망 훈련 시간 최소화를 위한 병렬 처리 기술 적용",
+      "데이터 포맷 변환 및 청크 처리를 통한 훈련 데이터 준비 완료"
+    ],
+    "core_idea": "다수의 SPERT 보드와 컴퓨팅 리소스를 활용하여 대규모 음성 데이터 훈련을 효율적으로 수행하는 시스템 구축",
+    "idea_description": "SPERT 보드를 기반으로 한 신경망 훈련을 HTK 시스템과 통합하여, 6~8시간의 훈련 시간을 기존 방식보다 줄이고, Feacalc 및 LabCut을 활용한 데이터 포맷 변환을 통해 훈련 데이터 준비를 자동화하는 기술 개발",
+    "execution_plan": [
+      "2025.01.01-02: SPERT 보드 및 HTK 시스템 통합 환경 설정 (스피커_C, 스피커_B)",
+      "2025.01.03-04: 신경망 훈련 파라미터 설정 및 6~8시간 훈련 수행 (스피커_C, 스피커_A)",
+      "2025.01.05-06: Feacalc 및 LabCut를 활용한 데이터 포맷 변환 및 청크 처리 (스피커_A, 스피커_F)",
+      "2025.01.07: 훈련 결과 검증 및 문서화 (스피커_C, 스피커_D)"
+    ],
+    "expected_effects": [
+      "훈련 시간 30% 단축(6~8시간 → 4~5시간) 및 훈련 효율성 향상",
+      "자동화된 데이터 포맷 변환 프로세스로 훈련 준비 시간 50% 감소",
+      "다수의 SPERT 보드를 활용한 병렬 처리로 훈련 작업 처리량 2배 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bro003/05_final_result.json",
+    "utterance_count": 746,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 25793,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6
+    },
+    "is_chunk": true,
+    "chunk_index": 6,
+    "processing_date": "2025-08-10T20:16:14.163420"
+  }
+}

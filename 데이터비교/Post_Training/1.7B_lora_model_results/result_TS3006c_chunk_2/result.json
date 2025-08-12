@@ -1,0 +1,72 @@
+{
+  "id": "result_TS3006c_chunk_2",
+  "source_dir": "result_TS3006c",
+  "notion_output": {
+    "project_name": "노션 디자인 개선 및 시장 확산 프로젝트",
+    "project_purpose": "노션의 디자인을 개선하여 사용자 경험을 향상시키고, 시장 점유율을 확대하며, 다양한 색상과 디자인 요소를 활용하여 차별성을 강화함",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_C",
+    "core_objectives": [
+      "목표 1: 노션의 디자인을 단일 곡선 형태로 개선하여 사용자 친화성을 높임",
+      "목표 2: 다양한 색상과 빛의 조합을 통해 시각적 매력 증대",
+      "목표 3: 인체공학적 디자인을 적용하여 사용자의 편의성을 높임"
+    ],
+    "core_idea": "단일 곡선 형태의 노션을 개발하고, 다양한 색상과 빛의 조합을 통한 시각적 매력 강화 및 인체공학적 디자인 적용",
+    "idea_description": "단일 곡선 형태의 노션을 설계하여 사용자가 직관적으로 이해할 수 있도록 함. 다양한 색상과 빛의 조합을 통해 시각적 매력을 강화하고, 인체공학적 디자인을 적용하여 사용자의 편의성을 높임.",
+    "execution_plan": [
+      {
+        "phase": "설계 및 개발",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "activities": [
+          "단일 곡선 형태의 디자인 개념 도출",
+          "다양한 색상과 빛의 조합을 위한 색상 연구 및 선택",
+          "인체공학적 디자인 원칙 적용",
+          "디자인 시뮬레이션 및 테스트"
+        ]
+      },
+      {
+        "phase": "테스트 및 피드백 수집",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "activities": [
+          "초기 시범 사용자 테스트 진행",
+          "피드백 수집 및 분석",
+          "디자인 수정 및 개선",
+          "최종 디자인 확인"
+        ]
+      },
+      {
+        "phase": "제품 출시 준비",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "activities": [
+          "제품 포장 및 포スター 제작",
+          "마케팅 캠페인 계획 수립",
+          "시장 조사 및 경쟁 분석",
+          "제품 출시 전 마지막 검수"
+        ]
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 사용자 만족도 향상 및 고객 유치",
+      "기대효과 2: 시장 점유율 확대 및 브랜드 이미지 강화",
+      "기대효과 3: 다양한 색상과 빛의 조합을 통한 시장 경쟁력 강화"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3006c/05_final_result.json",
+    "utterance_count": 467,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "original_length": 13855,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T23:35:18.972977"
+  }
+}

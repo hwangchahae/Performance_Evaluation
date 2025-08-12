@@ -1,0 +1,38 @@
+{
+  "id": "val_030_chunk_5",
+  "source_dir": "result_Bed009_processed",
+  "notion_output": "```json\n{\n    \"project_name\": \"심층 의미론 기반의 다중 도메인 경로 계획 및 발화 분석 시스템\",\n    \"project_purpose\": \"심층 의미론과 온톨로지를 활용하여 다양한 도메인에서 사용자 맞춤형 경로 계획 및 발화 분석을 개선하고, 실무에서의 활용성을 극대화\",\n    \"project_period\": \"2024.01.01 ~ 2024.06.30\",\n    \"project_manager\": \"Speaker_B\",\n    \"core_objectives\": [\n        \"목표 1: 심층 의미론 구조를 활용한 경로 계획 및 발화 분석 모듈 개발\",\n        \"목표 2: 다양한 사용자 시나리오에 대한 온톨로지 기반의 발화 분석기 구축\",\n        \"목표 3: 사용자 모델을 통합하여 맞춤형 경로 계획 및 발화 분석 제공\",\n        \"목표 4: Fastus 및 Morphix 기술의 통합 및 적용을 통해 발화 의미 분석의 정확도 향상\",\n        \"목표 5: SmartKom 및 Verbmobil의 지식 기반 활용 가능성 검토 및 통합\"\n    ],\n    \"core_idea\": \"심층 의미론과 온톨로지를 통해 발화의 의미를 분석하고 이를 경로 계획 및 발화 분석 시스템에 활용하여 다양한 도메인에서 실무 활용성을 높임\",\n    \"idea_description\": \"심층 의미론과 온톨로지를 통해 발화의 의미를 분석하고, 이를 경로 계획 및 발화 분석 시스템에 적용하여 사용자 맞춤형 서비스를 제공하는 시스템을 개발한다. Fastus와 Morphix 기술을 통합하여 발화의 의미를 정확히 파악하고, SmartKom 및 Verbmobil의 지식 기반을 활용하여 더욱 정교한 분석을 가능하게 한다.\",\n    \"execution_plan\": \"1단계: 심층 의미론 구조 및 Fastus, Morphix 기술 분석 및 설계 (2024.01.01 ~ 2024.02.28)\\n2단계: 온톨로지 및 사용자 모델 통합, SmartKom 및 Verbmobil 지식 기반 검토 (2024.03.01 ~ 2024.04.30)\\n3단계: 경로 계획 및 발화 분석 모듈 개발 및 테스트, 실무 적용 시나리오 개발 (2024.05.01 ~ 2024.06.30)\",\n    \"expected_effects\": [\n        \"기대효과 1: 사용자 맞춤형 경로 및 발화 분석 제공으로 사용자 만족도 향상\",\n        \"기대효과 2: 다양한 도메인에 적용 가능한 범용 경로 계획 및 발화 분석 시스템 구축\",\n        \"기대효과 3: 심층 의미론과 Fastus, Morphix 기술을 활용한 발화 분석 기술의 상용화 가능성 증대\",\n        \"기대효과 4: SmartKom 및 Verbmobil 지식 기반 통합으로 발화 분석의 정교함 향상\"\n    ],\n    \"technical_implementation\": \"심층 의미론과 온톨로지 기반의 발화 분석을 위해 Fastus의 파서와 Morphix의 사전 검색 기능을 통합하여 발화의 의미를 정확히 파악하고 경로 계획에 반영. SmartKom 및 Verbmobil의 지식 기반을 활용하여 분석의 정교함을 높임.\",\n    \"practical_applications\": \"관광, 비즈니스, 교육 등 다양한 도메인에서 사용자 맞춤형 경로 계획 및 발화 분석을 통해 실무 활용성을 높임. 예를 들어, 관광객의 경로 계획 시 발화 분석을 통해 맞춤형 관광 경로를 제공.\",\n    \"additional_topics\": \"회의에서 논의된 SmartKom 및 Verbmobil의 지식 기반 활용 가능성 검토, 심층 의미론의 구체적인 기술적 구현 방법에 대한 추가 연구\"\n}\n```",
+  "quality_metrics": {
+    "final_score": 7.2,
+    "is_production_ready": true,
+    "iterations_used": 3,
+    "is_high_quality": true
+  },
+  "metadata": {
+    "source_file": "../batch_triplet_results/result_Bed009_processed/05_final_result.json",
+    "utterance_count": 691,
+    "original_transcript_length": 23895,
+    "speakers": [
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_E"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 23895
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "dataset_type": "val",
+    "processing_date": "2025-08-04T10:29:17.754199"
+  }
+}

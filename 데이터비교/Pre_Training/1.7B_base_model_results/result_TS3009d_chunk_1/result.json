@@ -1,0 +1,62 @@
+{
+  "id": "result_TS3009d_chunk_1",
+  "source_dir": "result_TS3009d",
+  "notion_output": {
+    "project_name": "디자인 및 사용성 테스트 기반 제품 개발 프로젝트",
+    "project_purpose": "고객 중심 디자인을 기반으로 사용성 테스트를 통해 제품의 편의성과 기능성을 개선하고, 타겟 고객의 요구 사항을 반영한 최적화된 제품 개발",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "디자인 기준에 따라 타이탄 티타늄 재질과 검은색으로 제작",
+      "사용성 테스트를 통해 채널 전환 및 버튼 작동의 간편성 확보",
+      "고객 설문지 작성 및 평가를 통해 제품의 실용성 및 고객 만족도 향상"
+    ],
+    "core_idea": "고객 중심 디자인과 사용성 테스트를 통한 제품 개발",
+    "idea_description": "고객의 실제 사용 경험을 반영한 디자인을 기반으로 제품의 사용성과 편의성을 개선하고, 사용자 테스트를 통해 제품의 실용성과 고객 만족도를 평가합니다. 타이탄 재질과 검은색으로 디자인하여 RSI 민감도를 고려한 제품 개발을 목표로 합니다.",
+    "execution_plan": [
+      {
+        "phase": "디자인 및 기능 개발",
+        "timeline": "2025.01.01 ~ 2025.01.15",
+        "details": "디자인 기준에 따라 타이탄 재질과 검은색으로 제품 제작, 사용성 테스트 기능 구현"
+      },
+      {
+        "phase": "사용성 테스트",
+        "timeline": "2025.01.16 ~ 2025.01.30",
+        "details": "고객 10명 이상을 대상으로 채널 전환, 버튼 작동, 크기, 디자인 테스트 수행"
+      },
+      {
+        "phase": "설문지 작성 및 평가",
+        "timeline": "2025.02.01 ~ 2025.02.15",
+        "details": "타겟 고객 50명 이상을 대상으로 설문지 작성 및 평가, 7점 기준으로 사용성 평가"
+      },
+      {
+        "phase": "제품 최종 검증",
+        "timeline": "2025.02.16 ~ 2025.03.01",
+        "details": "테스트 결과를 바탕으로 제품 개선 및 최종 디자인 확정"
+      }
+    ],
+    "expected_effects": [
+      "사용성 테스트 결과로 채널 전환 및 버튼 작동의 간편성 향상",
+      "고객 설문지 결과를 바탕으로 제품의 실용성 및 고객 만족도 향상",
+      "디자인 기준에 따라 타이탄 재질과 검은색으로 제작된 제품의 편의성 확보"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_TS3009d/05_final_result.json",
+    "utterance_count": 379,
+    "speakers": [
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D"
+    ],
+    "original_length": 11745,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 1,
+    "processing_date": "2025-08-10T22:38:53.022075"
+  }
+}

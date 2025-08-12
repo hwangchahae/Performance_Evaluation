@@ -1,0 +1,41 @@
+{
+  "id": "result_IS1001b_chunk_2",
+  "source_dir": "result_IS1001b",
+  "notion_output": {
+    "project_name": "Simplified Remote Control Development Project",
+    "project_purpose": "사용자가 쉽게 활용할 수 있는 간단하면서도 효율적인 리모컨 개발",
+    "project_period": "2024.01.01 ~ 2024.06.30",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "목표 1: 사용자 친화적인 인터페이스 개발",
+      "목표 2: 리모컨의 복잡성을 줄이고 직관적인 사용 경험 제공",
+      "목표 3: 시장 경쟁력 강화 및 빠른 시장 진출"
+    ],
+    "core_idea": "간단하고 직관적인 리모컨 디자인",
+    "idea_description": "현재 리모컨의 복잡한 버튼 배열을 줄여 사용자가 쉽게 접근할 수 있도록 설계하며, 주요 기능(채널 변경, 볼륨 조절)에 초점을 맞춘 디자인을 적용합니다.",
+    "execution_plan": "1단계: 요구사항 분석 및 사용자 연구 (2024.01.01 ~ 2024.02.28)\n2단계: 프로토타입 개발 및 테스트 (2024.03.01 ~ 2024.04.30)\n3단계: 최종 제품 제작 및 시장 출시 준비 (2024.05.01 ~ 2024.06.30)",
+    "expected_effects": [
+      "기대효과 1: 사용자의 리모컨 사용 편의성 향상",
+      "기대효과 2: 시장 경쟁 우위 확보 및 매출 증가",
+      "기대효과 3: 사용자 만족도와 brand loyalty 증대"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_IS1001b/05_final_result.json",
+    "utterance_count": 276,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "original_length": 9187,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T23:11:30.924933"
+  }
+}

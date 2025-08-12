@@ -1,0 +1,70 @@
+{
+  "id": "result_Bro011_chunk_4",
+  "source_dir": "result_Bro011",
+  "notion_output": {
+    "project_name": "HMM 모델 개발 및 시뮬레이션 프로젝트",
+    "project_purpose": "HMM 기반 모델을 설계하고 MATLAB을 활용한 시뮬레이션을 수행하여 데이터 분석 및 성능 평가를 목표로 합니다.",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "HMM 모델의 구조 설계 및 시뮬레이션 환경 구축",
+      "MATLAB 스크립트 작성 및 모델 훈련",
+      "다양한 모델 구조(예: SP 모델, 하이넥)의 성능 비교",
+      "데이터 분석 및 사후 확률 기반 결과 평가"
+    ],
+    "core_idea": "HMM을 기반으로 한 모델을 개발하여 데이터 분석을 수행하고, MATLAB을 활용한 시뮬레이션을 통해 모델의 성능을 평가합니다. SP 모델과 하이넥 모델의 차이점을 분석하여 최적화된 구조를 도출합니다.",
+    "idea_description": "HMM은 상태 전이를 기반으로 데이터를 예측하는 데 사용됩니다. 본 프로젝트는 HMM 모델의 구조를 설계하고 MATLAB을 통해 시뮬레이션을 수행하여 모델의 성능을 평가합니다. SP 모델은 숫자 사이에 데이터를 입력하는 방식으로, 하이넥 모델은 상태 전이를 처리하는 방식으로, 두 모델의 차이점을 분석하여 최적화된 구조를 도출합니다. 사후 확률을 통해 데이터의 신뢰도를 평가하고, 모델의 예측 정확도를 향상시키는 것이 목표입니다.",
+    "execution_plan": [
+      {
+        "step": "1. HMM 모델 설계 및 MATLAB 환경 구축",
+        "deadline": "2025.01.15",
+        "responsibility": "Speaker_D",
+        "status": "완료"
+      },
+      {
+        "step": "2. MATLAB 스크립트 작성 및 모델 훈련",
+        "deadline": "2025.01.25",
+        "responsibility": "Speaker_D",
+        "status": "준비 중"
+      },
+      {
+        "step": "3. SP 모델 및 하이넥 모델의 성능 비교",
+        "deadline": "2025.02.10",
+        "responsibility": "Speaker_D",
+        "status": "준비 중"
+      },
+      {
+        "step": "4. 데이터 분석 및 사후 확률 평가",
+        "deadline": "2025.03.01",
+        "responsibility": "Speaker_D",
+        "status": "준비 중"
+      }
+    ],
+    "expected_effects": [
+      "HMM 모델의 성능을 MATLAB을 통해 시뮬레이션하여 최적화된 구조를 도출",
+      "SP 모델과 하이넥 모델의 성능 차이점을 분석하여 모델 선택 기준을 정립",
+      "사후 확률 기반 데이터 분석을 통해 모델의 예측 정확도를 향상시키는 결과 도출",
+      "데이터 분석 결과를 바탕으로 모델의 실용성을 검증하고, 개선 방향을 제시"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bro011/05_final_result.json",
+    "utterance_count": 612,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_E"
+    ],
+    "original_length": 19277,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 4,
+    "processing_date": "2025-08-10T22:42:53.003536"
+  }
+}

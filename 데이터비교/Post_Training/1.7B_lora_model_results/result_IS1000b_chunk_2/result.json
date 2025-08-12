@@ -1,0 +1,57 @@
+{
+  "id": "result_IS1000b_chunk_2",
+  "source_dir": "result_IS1000b",
+  "notion_output": {
+    "project_name": "최신 기능을 갖춘 저비용 텔레비전 리모컨 개발 프로젝트",
+    "project_purpose": "시장 경쟁력 있는 저비용 텔레비전 리모컨을 개발하여 고객층 확대 및 매출 증대를 도모",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_D",
+    "core_objectives": [
+      "목표 1: 적외선 프로토콜을 활용한 칩 내부 칩 설계 및 선택",
+      "목표 2: 다양한 채널 및 기능 지원을 위한 편의성 강화",
+      "목표 3: 저비용으로 생산 가능한 텔레비전 리모컨 출시"
+    ],
+    "core_idea": "최신 기능을 갖춘 저비용 텔레비전 리모컨을 개발하여 시장 점유력을 확보",
+    "idea_description": "적외선 프로토콜을 통해 칩 내부 칩을 최적화하고, 다양한 채널 및 기능을 지원하며, 저비용으로 생산 가능한 텔레비전 리모컨을 출시하여 고객층을 확대한다.",
+    "execution_plan": [
+      {
+        "phase": "설계 및 프로토타입 개발",
+        "duration": "2025.01.01 ~ 2025.01.31",
+        "details": "칩 내부 칩 설계 및 적외선 프로토콜 검증, 다양한 채널 및 기능 지원을 위한 편의성 강화"
+      },
+      {
+        "phase": "테스트 및 피드백 수집",
+        "duration": "2025.02.01 ~ 2025.02.28",
+        "details": "테스트 진행 및 사용자 피드백 수집, 개선점을 반영하여 제품 개선"
+      },
+      {
+        "phase": "마감 및 출시 준비",
+        "duration": "2025.03.01 ~ 2025.03.31",
+        "details": "마감 및 출시 준비, 마케팅 전략 수립 및 실행"
+      }
+    ],
+    "expected_effects": [
+      "기대효과 1: 저비용으로 생산되는 텔레비전 리모컨의 판매 성공률 향상",
+      "기대효과 2: 다양한 채널 및 기능 지원을 통해 고객 만족도 증가",
+      "기대효과 3: 시장 점유율 확대 및 매출 증가"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_IS1000b/05_final_result.json",
+    "utterance_count": 325,
+    "speakers": [
+      "Speaker_D",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_A"
+    ],
+    "original_length": 11280,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-09T23:36:03.399414"
+  }
+}

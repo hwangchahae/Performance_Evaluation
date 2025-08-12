@@ -1,0 +1,48 @@
+{
+  "id": "result_Bmr006_chunk_2",
+  "source_dir": "result_Bmr006",
+  "notion_output": {
+    "project_name": "회의 데이터 분석 및 익명화 프로젝트",
+    "project_purpose": "회의 녹음 데이터를 분석하여 익명화 처리하고, 자연어 처리 모델 개발을 위한 데이터셋을 구축하는 프로젝트",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "스피커_A",
+    "core_objectives": [
+      "회의 녹음 데이터의 익명화 처리 및 개인정보 보호 준수",
+      "다양한 회의 유형에 대한 분석을 통한 데이터셋 구축",
+      "Dan Jurafsky 모델과 호환 가능한 자연어 처리 시스템 개발"
+    ],
+    "core_idea": "기존 회의 데이터를 익명화 처리하여 활용 가능한 데이터셋으로 전환하고, 상향식/하향식 작업을 통한 분석 모델 개발",
+    "idea_description": "워싱턴 대학, IBM, SRI의 데이터셋 기반으로 익명화 처리된 회의 데이터를 활용해 자연어 처리 모델을 개발하고, 대화 분석 및 유창도 평가 기능을 구현",
+    "execution_plan": [
+      "1월: 회의 데이터 수집 및 익명화 처리 프로세스 정의 (책임자: 스피커_A)",
+      "2월: 데이터 분석 및 분류 시스템 개발 (책임자: 스피커_D)",
+      "3월: 모델 테스트 및 결과 검증 (책임자: 스피커_E)",
+      "3월 중순: 최종 데이터셋 공유 및 보안 검토 (책임자: 스피커_C)"
+    ],
+    "expected_effects": [
+      "익명화 처리 후 개인정보 침해 위험 30% 감소",
+      "모델 개발로 대화 분석 정확도 20% 향상",
+      "데이터셋 공유를 통한 10개 이상의 추가 활용 기회 창출"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr006/05_final_result.json",
+    "utterance_count": 1183,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_B",
+      "Speaker_A",
+      "Speaker_F",
+      "Speaker_D"
+    ],
+    "original_length": 40348,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9
+    },
+    "is_chunk": true,
+    "chunk_index": 2,
+    "processing_date": "2025-08-10T22:16:35.309104"
+  }
+}

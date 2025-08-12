@@ -1,0 +1,65 @@
+{
+  "id": "result_Bmr012_chunk_5",
+  "source_dir": "result_Bmr012",
+  "notion_output": {
+    "project_name": "멀티채널 인터페이스 개발 프로젝트",
+    "project_purpose": "NIST와 협력하여 글로벌 인코딩 표준을 수립하고, 소니 독점 헤드셋 문제 해결을 위한 기술적 개선을 수행",
+    "project_period": "2025.01.01 ~ 2025.03.31",
+    "project_manager": "Speaker_A",
+    "core_objectives": [
+      "NIST와 협력하여 글로벌 인코딩 표준 개발",
+      "소니 독점 헤드셋 문제 해결을 위한 기술적 개선",
+      "학생 프로젝트(이론적 연구)의 실증적 검증"
+    ],
+    "core_idea": "NIST와의 협력으로 글로벌 인코딩 표준을 수립하고, 소니 헤드셋의 문제를 해결하기 위한 기술적 개선을 수행",
+    "idea_description": "NIST의 글로벌 인코딩 표준을 기반으로 멀티채널 인터페이스 설계를 진행하며, 소니 헤드셋의 커넥터 문제를 해결하기 위한 기술적 연구를 수행. 학생의 연구는 음향 간섭 제거(예: ech echo cancellation)을 통한 대화 처리 기술 개발을 포함.",
+    "execution_plan": [
+      {
+        "step": "1. 표준 설계 및 협력",
+        "deadline": "2025.01.01",
+        "responsibility": "Speaker_A, Speaker_D, Speaker_H",
+        "action": "NIST와 협력하여 인코딩 표준을 수립하고, 헤드셋 문제 해결 방안을 논의"
+      },
+      {
+        "step": "2. 기술적 개선 연구",
+        "deadline": "2025.02.28",
+        "responsibility": "Speaker_D, Speaker_H",
+        "action": "소니 헤드셋의 커넥터 문제 해결 방안(피그테일 헤드셋 납땜, 잭 비용 등) 및 음향 간섭 제거 기술 연구"
+      },
+      {
+        "step": "3. 학생 프로젝트 실행",
+        "deadline": "2025.03.31",
+        "responsibility": "Speaker_H",
+        "action": "이론적 연구(음향 간섭 제거)를 실증적으로 검증하고, NIST 표준에 대한 피드백 수집"
+      }
+    ],
+    "expected_effects": [
+      "NIST와의 협력으로 글로벌 인코딩 표준 개발 완료",
+      "소니 헤드셋 문제 해결 방안의 실현(피그테일 헤드셋 납땜, 잭 비용 등)",
+      "음향 간섭 제거 기술의 실증적 검증 및 NIST 표준에 대한 피드백 수집"
+    ]
+  },
+  "metadata": {
+    "source_file": "Raw_Data_val/result_Bmr012/05_final_result.json",
+    "utterance_count": 602,
+    "speakers": [
+      "Speaker_H",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_G",
+      "Speaker_F",
+      "Speaker_A",
+      "Speaker_C",
+      "Speaker_I",
+      "Speaker_E"
+    ],
+    "original_length": 20997,
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5
+    },
+    "is_chunk": true,
+    "chunk_index": 5,
+    "processing_date": "2025-08-10T22:44:16.395313"
+  }
+}
