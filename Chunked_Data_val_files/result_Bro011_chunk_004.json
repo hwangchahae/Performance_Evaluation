@@ -1,0 +1,30 @@
+{
+  "id": "result_Bro011_chunk_004",
+  "source_dir": "result_Bro011",
+  "chunk_text": "Speaker_D: 하나\n[28:38] Speaker_D: 전화기 하나당 3개 주\n[28:46] Speaker_D: 그래서 내가 그것을 했을 때\n[28:49] Speaker_D: 여러 주,\n[28:50] Speaker_D: 9개부터 낮은 범위까지\n[28:52] Speaker_D: 상위권은 18개.\n[28:54] Speaker_D: 하나 .\n[23:54] Speaker_C: 진실이 무엇인지에 달려있다\n[23:56] Speaker_C: 하나\n[24:02] Speaker_C: 소리가 공명적이라면\n[24:03] Speaker_C: 이 밴드에서는 공명인가요?\n[24:03] Speaker_C: 그 밴드에서는 공명인가요?\n[24:03] Speaker_C: 그 밴드에서는 공명인가요?\n[24:06] Speaker_B: 오른쪽 .\n[24:07] Speaker_C: 그래서\n[24:17] Speaker_C: 귀하의 결정을 내리는 데 도움이 됩니다.\n[24:23] Speaker_C: 어떤 의미에서는 당신이 모든 것을 사용해야 한다는 어려운 결정과 같습니다.\n[24:31] Speaker_C: 그리고 이상적인 경우라면 우리는 사후 확률을 추구할 것입니다.\n[24:38] Speaker_C: 실제로 얻을 수 있는 충분한 데이터\n[24:39] Speaker_C: 사후 확률\n[31:03] Speaker_D: 내 추측으로는 길이가 얼마나 될 것 같은데요.\n[31:06] Speaker_D: 그리고 그 일부로서\n[31:07] Speaker_D: 하나\n[31:08] Speaker_D: 나는 일종의 것을 보고 싶었어요\n[31:16] Speaker_D: 우리가 훈련할 때, 하나의 모델을 원한다는 것을 알고 있습니다.\n[31:28] Speaker_D: 그래서 나는 Andreas와 이야기를 나누었습니다.\n[31:29] Speaker_D: 그\n[31:32] Speaker_D: 예상 기간을 계산하다\n[31:33] Speaker_D: HMM의\n[31:34] Speaker_D: 전환을 살펴보면\n[31:36] Speaker_D: 행렬\n[03:04] Speaker_F: 필터의 길이.\n[03:08] Speaker_F: 하나 .\n[03:16] Speaker_F: 하나 .\n[03:18] Speaker_F: 우리는 이것으로 작업을 시작했습니다.\n[03:28] Speaker_F: 응 ,\n[03:32] Speaker_F: 글쎄, 재귀 f\n[03:33] Speaker_F: 평균 추정을 위한 재귀\n[03:35] Speaker_F: 일종의 지연이 있는 필터입니다\n[03:38] Speaker_C: 응 .\n[03:39] Speaker_F: 지금은 그것이 고려되지 않았습니다.\n[03:42] Speaker_F: 하나 .\n[03:44] Speaker_F: 응 .\n[03:45] Speaker_F: 그리고 또 그렇죠.\n[31:37] Speaker_D: 그래서 나는 작은 Matlab을 썼습니다\n[31:38] Speaker_D: 그것을 계산하는 스크립트\n[31:40] Speaker_D: 그래서 나는 할거야\n[31:43] Speaker_D: 보려고\n[31:53] Speaker_D: 그게 1.\n[31:53] Speaker_D: 2 정도 나오는 거야\n[31:56] Speaker_D: 평균 지속 시간은 초이고 침묵 모델은 각각의 시작과 끝에 사용되는 모델입니다.\n[31:59] Speaker_C: 우와 .\n[32:01] Speaker_D: 숫자열.\n[32:05] Speaker_D: 그리고 그래서\n[32:06] Speaker_D: S P 모델은 숫자 사이에 넣은 것입니다.\n[32:13] Speaker_D: 전체 숫자 문자열에 대한 그들의 모델은 침묵입니다.\n[32:15] Speaker_D: 숫자,\n[32:50] Speaker_D: 나\n[32:50] Speaker_D: 그래서 저는 그것을 조금 더 가지고 놀고 싶습니다.\n[32:52] Speaker_D: 나는 그것을 보는 것에 대해 궁금합니다.\n[32:57] Speaker_D: 모델 중\n[32:58] Speaker_D: 그리고 나는 그것을 비교하고 싶다\n[33:00] Speaker_D: 잘 맞는 경우 f\n[33:15] Speaker_C: 디\n[33:20] Speaker_D: 응 .\n[33:23] Speaker_C: 전제는 좋은 사람이 몇 주 동안 이것을 살펴보고 어떤 결과를 도출해내는 것입니다.\n[32:16] Speaker_D: SP, 숫자,\n[32:17] Speaker_D: SP blah-blah-blah 그리고 마지막에는 침묵.\n[32:20] Speaker_D: 그리고 그래서.\n[32:20] Speaker_C: SP는 선택 사항인가요?\n[32:20] Speaker_C: 건너뛸 수 있나요?\n[32:23] Speaker_D: 나는 그것을 봐야 해요,\n[32:25] Speaker_D: 하지만 저는 그것이 사실이라고 확신하지 못합니다.\n[32:29] Speaker_D: 단일\n[32:31] Speaker_D: s가 그것에 상태를 방출합니다.\n[32:41] Speaker_D: 하나\n[32:42] Speaker_D: 자체적인 훈련 데이터가 필요하지 않으며, 그저 상태를 공유할 뿐입니다.\n[32:45] Speaker_D: 그래서, 내 말은, 꽤 괜찮다는 거야\n[32:47] Speaker_D: 그들이 그것을 설정한 방식,\n[19:13] Speaker_D: 흠 .\n[19:13] Speaker_C: 그래서\n[19:18] Speaker_C: 당신이 정말로 원하는 것은 이진 레이블입니다.\n[19:21] Speaker_C: 그리고 그 중 일부만.\n[19:28] Speaker_C: 나는 이것이 그 자체로 연구 프로젝트라는 점에 대해 약간 걱정합니다.\n[19:34] Speaker_C: 만약 당신이 그 대신에 뭔가를 했다면\n[19:36] Speaker_C: 하나\n[19:39] Speaker_C: ~에 의해\n[19:45] Speaker_C: 제한된 s가 있을 것이다\n[19:46] Speaker_C: John과 이전에 논의했던 대로 할 수 있는 일들의 집합\n[19:51] Speaker_C: 하지만\n[33:30] Speaker_D: 그리고 하이넥은 내가 그에게 말했을 때\n[33:38] Speaker_D: 제 생각에는\n[33:40] Speaker_D: 상태별 가우시안.\n[33:42] Speaker_D: 그리고 하이넥이 말했죠.\n[33:48] Speaker_D: 당신은하지 않을 것입니다\n[33:49] Speaker_D: 충분한 컴퓨팅을 가지고 있다\n[33:50] Speaker_D: 매우 크거나 복잡한 모델을 처리합니다.\n[33:53] Speaker_D: 그래서 실제로 우리가 원하는 것은\n[33:55] Speaker_D: 더 간단한 모델입니다.\n[33:57] Speaker_C: 될 수도 있습니다.\n[33:58] Speaker_D: 그것에 맞춰 수행한다.\n[33:58] Speaker_D: 하지만\n[34:00] Speaker_D: 알다시피, 무엇에 따라 달라지죠\n[34:04] Speaker_D: 당신의 무엇\n[34:05] Speaker_D: 한계는 가우시안 분포를 얼마나 많이 가질 수 있는가에 따라 결정됩니다.\n[34:07] Speaker_C: 그렇죠.\n[34:28] Speaker_D: 내가 시작하면\n[34:29] Speaker_D: 하나\n[34:31] Speaker_D: 주 수를 줄이는 것\n[34:32] Speaker_D: 이러한 짧은 모델 중 일부의 경우\n[34:36] Speaker_C: 오른쪽 .\n[34:38] Speaker_D: 시스템.\n[34:38] Speaker_C: 응 .\n[34:39] Speaker_C: 응 .\n[34:44] Speaker_D: 응 .\n[34:45] Speaker_C: 얼마나 더 좋게 만들 수 있나요?\n[37:34] Speaker_D: 엄청난 !\n[36:17] Speaker_C: 우리 그룹 사람들이 했지만\n[36:21] Speaker_C: 그러면 그 이후에도 기준이 있을 거예요.\n[36:24] Speaker_C: 그래서 .\n[36:27] Speaker_D: Matlab을 실행하다\n[36:29] Speaker_D: 일종의 배치 모드와 같습니다\n[36:31] Speaker_D: 너가 보내면 돼\n[36:33] Speaker_D: 실행할 명령이 여러 개 있습니다.\n[36:34] Speaker_D: 출력을 해줍니다.\n[36:34] Speaker_D: 가능할까요?\n[36:38] Speaker_D: 응 ?\n[36:42] Speaker_D: 옥타브.\n[36:46] Speaker_D: 오!\n[36:47] Speaker_D: 엄청난 .\n[36:48] Speaker_B: 응 .\n[36:49] Speaker_D: 나는 그걸 하려고 노력하면서 미칠 지경이었다.\n[27:10] Speaker_D: 이것\n[27:10] Speaker_D: 내가 실험할 계획은 이 매트릭스였습니다.\n[27:16] Speaker_D: 원본\n[27:18] Speaker_D: 하나\n[27:20] Speaker_D: 원래 시스템입니다.\n[27:23] Speaker_D: 멜\n[27:23] Speaker_D: 케프스트랄 특징\n[27:25] Speaker_D: 그리고 com 그리고 uh\n[27:28] Speaker_D: b를 최적화하다\n[27:29] Speaker_D: HTK 시스템을 다시 실행해 보세요.\n[27:32] Speaker_D: 그러니 그 차이점을 보세요\n[27:35] Speaker_D: 같은 일을 하세요\n[27:37] Speaker_D: ICSI - OGI\n[27:39] Speaker_D: 프런트엔드.\n[35:23] Speaker_C: 우리가 이야기했던 것과 같은 것들을 계속하세요.\n[35:26] Speaker_C: 오로라와\n[35:34] Speaker_F: 이 모든 사소한 것들과 함께\n[35:38] Speaker_F: 수정됨.\n[35:39] Speaker_F: 그리고 나서 하다\n[35:40] Speaker_F: 다른 것들,\n[35:41] Speaker_F: 스펙트럼 뺄셈을 가지고 놀다\n[35:44] Speaker_F: 그리고\n[35:46] Speaker_F: MSG 같은 걸 다시 시도해 보세요.\n[35:48] Speaker_C: 응 .\n[35:49] Speaker_C: 응 .\n[35:53",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bro011\\05_final_result.json",
+    "utterance_count": 612,
+    "original_transcript_length": 19277,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 19277
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 5,
+      "chunk_length": 5000
+    },
+    "processing_date": "2025-08-13T14:38:24.330944"
+  }
+}

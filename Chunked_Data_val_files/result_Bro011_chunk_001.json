@@ -1,0 +1,30 @@
+{
+  "id": "result_Bro011_chunk_001",
+  "source_dir": "result_Bro011",
+  "chunk_text": "[00:03] Speaker_C: 라디오 2.\n[00:05] Speaker_C: 흠 .\n[00:06] Speaker_C: 라디오 2.\n[00:08] Speaker_D: 비디오가 라디오 스타를 죽였다.\n[00:11] Speaker_C: 우와 .\n[00:17] Speaker_D: 정말 잘 됩니다.\n[00:18] Speaker_E: 채널 B.\n[00:19] Speaker_C: 사람들은 마이크를 켜면 이상한 말을 하게 됩니다.\n[00:20] Speaker_A: 채널 4.\n[00:22] Speaker_A: 시험 .\n[00:27] Speaker_F: 라디오 4.\n[00:39] Speaker_A: 오늘의\n[00:39] Speaker_C: 응.\n[00:45] Speaker_C: 불행히도 Hynek과 함께하는 행사에 참석하지 못했습니다.\n[00:49] Speaker_C: 하나\n[00:54] Speaker_C: 그리고 누군가\n[01:40] Speaker_F: 그래서 다운샘플링 전에 저역통과 필터링이 없다는 거죠.\n[01:45] Speaker_F: 잘 .\n[01:46] Speaker_C: 응.\n[01:47] Speaker_F: LDA 필터링이 있기 때문에 있지만\n[01:56] Speaker_C: 주파수 특성은 그렇습니다.\n[01:57] Speaker_C: 그러니까 더 엄격한 조치를 취할 수도 있겠죠.\n[02:01] Speaker_F: 응 .\n[02:05] Speaker_C: 그에 대한 결론이 있었나요?\n[02:15] Speaker_C: 다시 말해서 이게 다운샘플링이에요.\n[02:21] Speaker_C: 그리고\n[02:22] Speaker_C: 하나\n[02:29] Speaker_C: 하나\n[02:35] Speaker_C: 특징 벡터는 10밀리초마다 계산되므로\n[02:42] Speaker_F: 응 .\n[02:44] Speaker_C: 하나 .\n[02:45] Speaker_C: 25헤르츠에서는 2로 다운샘플링하고 있기 때문에 죄송합니다.\n[02:48] Speaker_C: 그래서.\n[02:48] Speaker_C: 누구든지 그것이 무엇인지 알고 있습니까?\n[02:51] Speaker_C: 주파수 특성은?\n[02:54] Speaker_F: 하나\n[02:55] Speaker_F: 그렇죠.\n[02:58] Speaker_C: 응 .\n[02:59] Speaker_F: 변조 스펙트럼.\n[03:01] Speaker_F: 하나 .\n[03:04] Speaker_F: 있다\n[04:34] Speaker_F: 매우 낮은 주파수에서,\n[04:36] Speaker_F: 이 필터는 안 돼\n[04:38] Speaker_F: 정말 많이 제거해요.\n[04:41] Speaker_F: 표준 RASTA 필터에.\n[04:49] Speaker_C: 오른쪽 .\n[04:53] Speaker_F: 하나 .\n[05:03] Speaker_F: 그래서요.\n[05:10] Speaker_F: 그게\n[05:12] Speaker_F: 우리가 논의한 모든 것.\n[05:12] Speaker_F: 우리는 논의했습니다.\n[05:14] Speaker_F: 할 수 있는 좋은 것들도 있죠\n[05:16] Speaker_F: 글쎄, 일반적으로 좋은 것들이다\n[05:18] Speaker_F: 연구를 위해 할 일.\n[05:24] Speaker_F: 하이넥은 다시 제안했다\n[05:26] Speaker_F: 그의 함정이요.\n[05:49] Speaker_C: 그리고 그리고 나는 누구도 그렇게 생각하지 않는다고 생각합니다.\n[05:51] Speaker_C: 그들의 안에 닫혀있다\n[05:56] Speaker_C: 당신은 일종의\n[05:56] Speaker_C: 그들이 ~하기를 기다리며\n[06:01] Speaker_C: 그리고 기대했다\n[06:10] Speaker_C: 그들은 채우고 있었다\n[06:12] Speaker_C: 모든\n[06:15] Speaker_C: 그래서.\n[06:17] Speaker_F: 글쎄요, 하지만.\n[06:20] Speaker_F: 응 .\n[03:50] Speaker_F: 시도해 볼 수는 있지만\n[03:52] Speaker_C: 응.\n[03:53] Speaker_F: 하나 .\n[03:53] Speaker_C: 무엇을 시도해 보세요?\n[03:55] Speaker_F: 그러니 시도해보세요\n[03:58] Speaker_F: 하나\n[03:59] Speaker_F: 평균 추정을 위한 재귀의 지연을 고려하세요.\n[04:14] Speaker_F: 따라서 이러한 LDA 필터에 대해 논의하는 동안,\n[04:18] Speaker_F: 일부 i 문제가 나타났습니다.\n[04:21] Speaker_F: 잘 ,\n[04:21] Speaker_F: 사실\n[04:23] Speaker_F: 이 필터의 주파수 응답을 살펴보면\n[04:27] Speaker_F: 글쎄, 우리는 정말 중요한 부분이 무엇인지 모릅니다.\n[07:04] Speaker_C: 응 .\n[07:14] Speaker_C: 사람들은 우리가 전에 말했던 모든 것들을 시도하느라 바쁘죠?\n[07:14] Speaker_C: 그리고 이 기계들은 바쁘고\n[07:21] Speaker_F: 응 .\n[07:21] Speaker_C: 당신은 바쁘고\n[07:25] Speaker_C: 응 .\n[07:27] Speaker_F: 하나 .\n[07:27] Speaker_C: 오 .\n[07:29] Speaker_C: 해보자, 내 말은, 내 생각엔\n[07:31] Speaker_C: 우리가 이전에 말했듯이\n[07:35] Speaker_C: 있을 것이다\n[07:43] Speaker_C: ~에 더하여\n[06:32] Speaker_C: 응 .\n[06:35] Speaker_F: 시간적 제약 때문에.\n[06:37] Speaker_F: 글쎄, 우리는 이 문제에 대해 논의했고\n[06:40] Speaker_F: 그들은 우리에게 그렇다면 우리는 그렇게 할 것이다라고 말했습니다.\n[06:49] Speaker_C: 그러면 그들은 할 수 없었다.\n[06:50] Speaker_F: 시간이 너무 짧고\n[06:53] Speaker_F: 응, 그렇군요.\n[06:58] Speaker_C: 더 많이 이야기하세요.\n[07:02] Speaker_F: 우리\n[07:03] Speaker_C: 응 .\n[07:03] Speaker_F: 응 .\n[10:52] Speaker_E: 그것을 할 계획이에요\n[10:57] Speaker_C: 엄청난 .\n[10:58] Speaker_C: 엄청난 .\n[11:00] Speaker_C: 그는 ~해야 해\n[11:02] Speaker_C: 또 누가 있는지 궁금해요\n[11:09] Speaker_C: 그 중 하나는\n[11:10] Speaker_C: 회의 작업에 참여하는 사람들은 다음을 원합니다.\n[11:12] Speaker_C: 그들은 더 깨끗한 것을 원할까?\n[11:17] Speaker_C: 그래서 이것은 특히 옷깃에 해당하지만 가까운 옷깃에도 해당합니다.\n[11:26] Speaker_C: 하나\n[11:27] Speaker_C: 다른 소리\n[11:34] Speaker_C: 그래서\n[11:34] Speaker_C: 그들이 말하는 것은 ec를 사용하는 것입니다\n[08:04] Speaker_F: 그렇죠.\n[08:04] Speaker_F: 우리도 이걸 시작할 거예요.\n[08:07] Speaker_C: 응 .\n[08:07] Speaker_F: 아, 카르멘은 에릭슨 에릭슨 코드를 보고 있는 거예요.\n[08:08] Speaker_A: 우리는 수정합니다\n[08:12] Speaker_F: 그리고\n[08:16] Speaker_A: 첫 번째 단계는 스펙트럼 뺄셈입니다.\n[08:24] Speaker_A: 그리고 우리는 이 기능을 필터로 시도할 것입니다\n[08:29] Speaker_A: 결과를 찾으려고 노력했지만, 지금까지 결과를 얻지 못했습니다.\n[14:19] Speaker_C: 우리가 이것을 무엇이라고 부르는지, 그들이 유용하다고 생각하는 변수는 무엇입니까?\n[14:20] Speaker_F: 흠 .\n[14:26] Speaker_D: 전화의 표준 매핑\n[14:30] Speaker_C: 그리고 그것은 확실히 해야 할 일이고 우리는 그보다 더 훌륭한 일을 하려고 노력할 것입니다.\n[14:30] Speaker_D: 특징 .\n[14:36] Speaker_C: 하나\n[14:41] Speaker_C: 그래서\n[14:43] Speaker_C: 하나\n[14:49] Speaker_C: 응 .\n[14:50] Speaker_C: 그것들이 있습니다\n[14:55] Speaker_C: 단지\n[17:00] Speaker_D: 흠 !\n[17:01] Speaker_B: 그리고 그들은 말할 수 있습니다\n[17:03] Speaker_C: 그리고 자연스럽게 말하라고 하세요?\n[17:14] Speaker_D: 응 .\n[17:18] Speaker_B: 응 .\n[17:27] Speaker_D: 저는\n[17:28] Speaker_C: 측정을 할 수 있다면.\n[17:30] Speaker_D: 당신이 할 수 있는 일은 작은 반지와 내장된 물건을 판매하는 것입니다.\n[17:31] Speaker_C: 응 .\n[17:34] Speaker_D: 알다시피, 그 안에 송신기와 물건들이 있고\n[17:36] Speaker_C: 응, 쿨하게 과학을 도와줘.\n[17:36] Speaker_B: 응 .\n[17:37] Speaker_D: 응 .\n[17:57] Speaker_B: 각 프레임에서 여러분은 관절의 다양한 위치를 측정하게 됩니다.\n[18:04] Speaker_D: 흠 !\n[18:05] Speaker_D: 주변에는 많은 데이터가 있습니다.\n[18:09] Speaker_D: 사람들이 그런 연구를 오래전에 했다는 거 맞죠?\n[18:16] Speaker_D: 응 .\n[18:17] Speaker_B: X선 데이터베이스.\n[18:19] Speaker_B: 응 .\n[18:19] Speaker_B: 그것은\n[18:20] Speaker_D: A T-andT에 Randolph라는 사람이 있었던 걸 기억해요?\n[18:23] Speaker_D: 그 사람 기억나?\n[18:26] Speaker_D: 하나 ,",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bro011\\05_final_result.json",
+    "utterance_count": 612,
+    "original_transcript_length": 19277,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 19277
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 5,
+      "chunk_length": 4951
+    },
+    "processing_date": "2025-08-13T14:38:24.329448"
+  }
+}

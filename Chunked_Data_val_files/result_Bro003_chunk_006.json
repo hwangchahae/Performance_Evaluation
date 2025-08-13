@@ -1,0 +1,31 @@
+{
+  "id": "result_Bro003_chunk_006",
+  "source_dir": "result_Bro003",
+  "chunk_text": "[48:33] Speaker_C: 몇 시간 정도 걸립니다.\n[48:35] Speaker_F: 흠 .\n[48:35] Speaker_C: 응 .\n[48:37] Speaker_G: 그리고 그것은 글쎄요.\n[48:40] Speaker_C: 그렇죠.\n[48:40] Speaker_C: 그러니까, 분명히 말씀드리자면, 우리가 여러 대의 기계를 사용하지 않는 한, 여기서 상당한 양의 작업을 시작할 수 있는 방법은 없습니다.\n[48:41] Speaker_G: 6시간이에요.\n[49:48] Speaker_B: SPERT 보드에서.\n[49:50] Speaker_A: 신경망 SPERT라고 생각합니다.\n[49:51] Speaker_B: 당신이 SPERT 보드에서 그것을 했다면요.\n[49:53] Speaker_C: 좋습니다.\n[49:53] Speaker_C: 다시 말씀드리지만, 우리는 SPERT 보드를 꽤 많이 가지고 있습니다.\n[49:56] Speaker_B: 응 .\n[49:58] Speaker_C: 그리고 저는 여러분이 지금 바로 그것을 사용하고 있을 것이라고 생각합니다.\n[50:08] Speaker_B: SPERT에서는 여전히 조금 더 빠르죠.\n[50:10] Speaker_D: 그렇죠?\n[50:11] Speaker_B: 그리고\n[50:26] Speaker_C: 응 .\n[50:27] Speaker_C: 그러니까, 우리는 꽤 많은 SPERT 보드를 가지고 있을 수 있죠.\n[50:35] Speaker_C: 그리고 다른 컴퓨터에서 10개의 다른 작업이 실행되고 있습니다.\n[50:39] Speaker_C: 그렇지 않으면 우리는 이런 일들을 상당수 겪을 수 없을 거예요.\n[48:55] Speaker_C: 그게 핵심이에요.\n[48:55] Speaker_C: 당신이 보는 것이 중요해요.\n[49:09] Speaker_B: 하나 .\n[49:15] Speaker_B: 응 .\n[49:20] Speaker_C: 하나 .\n[49:22] Speaker_C: HTK 훈련에 6시간이나 8시간 정도 걸린다고 하죠.\n[49:22] Speaker_C: 신경망 훈련에는 얼마나 걸리나요?\n[49:30] Speaker_B: 신경망?\n[49:31] Speaker_B: 하나 .\n[49:34] Speaker_G: 저는 이틀이라고 말하고 싶습니다.\n[49:35] Speaker_D: 몸통에 따라 다르죠?\n[49:36] Speaker_A: 상황에 따라 다릅니다.\n[49:36] Speaker_G: 응 .\n[49:37] Speaker_A: 코퍼스에 따라 다릅니다.\n[49:37] Speaker_B: 응 .\n[49:38] Speaker_F: 그물은 얼마나 큰가요?\n[56:36] Speaker_A: 라벨.\n[56:36] Speaker_C: 다시 시작해 볼까요.\n[56:43] Speaker_A: 신경망을 훈련하는 프로그램의 형식이었죠.\n[56:54] Speaker_A: 변환이 필요합니다.\n[56:59] Speaker_D: 그러니까 라벨을 변환하는 데 문제가 있는 거군요.\n[56:59] Speaker_A: 그렇죠.\n[56:59] Speaker_A: 그렇죠.\n[57:01] Speaker_A: Feacalc라는 프로그램이 하나 있거든요.\n[57:17] Speaker_A: 그리고 ,\n[57:18] Speaker_F: 흠 .\n[57:37] Speaker_A: 그리고 마지막으로, LabeCut을 사용하면 ASCII 포맷으로 변환할 수 있고, HTK는 ASCII 포맷이라고 생각합니다.\n[57:55] Speaker_A: HTK의 ASCII 형식을 ase ay ac ASCII 형식으로 변환\n[58:01] Speaker_A: Exceed를 사용하고 LabCut을 사용하여 통과했습니다.\n[38:21] Speaker_G: 응 .\n[38:36] Speaker_C: 괜찮은 .\n[38:43] Speaker_C: 그리고 프랑스 출신의 프랑스인들.\n[38:43] Speaker_G: 파리 출신이기도 하죠.\n[38:52] Speaker_C: 응 .\n[39:01] Speaker_C: 맞나요?\n[42:03] Speaker_C: 농담이에요.\n[42:12] Speaker_B: 그리고 그들은 모두 HTK 시스템을 한 번 훈련하여 테스트를 거치게 될 것입니다.\n[42:31] Speaker_E: 그리고 우리는 모든 훈련을 깨끗한 데이터에 기반하여 수행합니까?\n[42:35] Speaker_A: 그리고, 우리는 그것을 청소할 수도 있습니다.\n[42:52] Speaker_C: 이런 것들이 많이 있죠.\n[43:00] Speaker_C: 엄청난 개발이 필요하지 않아요.\n[43:04] Speaker_C: 그러니까 우리는 실제로 꽤 많은 실험을 할 수 있죠.\n[43:06] Speaker_C: 하지만 우리는 이 중 하나가 완료되기까지 얼마나 걸릴 것이라고 생각합니까?\n[43:13] Speaker_C: 훈련?\n[43:18] Speaker_C: .\n[43:18] Speaker_C: .\n[43:22] Speaker_B: 오 !\n[43:25] Speaker_C: MSG의 가장 큰 장점은, 우리가 과거에 보았던 것처럼, PLP와 결합된다는 것입니다.\n[43:30] Speaker_A: 응 .\n[43:31] Speaker_C: 하나 .\n[50:41] Speaker_B: 응 .\n[50:45] Speaker_C: 하나 .\n[51:01] Speaker_C: 연구소를 둘러보면, 얼마나 적게 사용되는지 알 수 있듯이, 실제로 사용 가능한 컴퓨팅 리소스가 상당히 많습니다.\n[51:11] Speaker_C: 반면에, 거의 모든 것\n[51:14] Speaker_C: 정말 알다시피, 이건 새로운 거야.\n[51:17] Speaker_C: 우리가 말하는 곳은,\n[51:17] Speaker_A: 응 .\n[51:26] Speaker_C: 저는 그것이 정말 좋은 일이라고 생각합니다.\n[51:28] Speaker_C: 하지만 그것이 새로운 것이라면 우리는 이러한 개발과 학습 과정을 거쳐야 합니다.\n[51:34] Speaker_C: 그 모든 작업에 더해.\n[51:44] Speaker_A: 응 .\n[51:55] Speaker_C: 제가 이걸 제대로 해석한 건가요?\n[51:55] Speaker_C: 이게 당신이 단기적으로 하려고 하는 일과 비슷한가요?\n[52:01] Speaker_G: 응 .\n[52:02] Speaker_C: 척과 이야기하고, 애덤과 이야기해야 한다는 거죠.\n[52:15] Speaker_C: 알다시피, 많은 기계를 사용해서 이 문제를 대규모 문제로 공격해야 합니다.\n[52:41] Speaker_C: 우리가 그렇게 많이 기여하지 않을 것이라고 생각하는 것들 말입니다.\n[52:50] Speaker_C: 하나 .\n[52:58] Speaker_C: 응 ?\n[53:01] Speaker_F: 당신이 사용하는 그물은 얼마나 큰가요?\n[53:24] Speaker_F: 응.",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bro003\\05_final_result.json",
+    "utterance_count": 746,
+    "original_transcript_length": 25793,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 25793
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 6,
+      "chunk_length": 3353
+    },
+    "processing_date": "2025-08-13T14:38:24.325465"
+  }
+}

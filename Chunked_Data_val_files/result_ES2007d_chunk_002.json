@@ -1,0 +1,28 @@
+{
+  "id": "result_ES2007d_chunk_002",
+  "source_dir": "result_ES2007d",
+  "chunk_text": "으로 작동합니다.\n[12:42] Speaker_D: 마치 1위 같은 거죠.\n[12:44] Speaker_C: 응 .\n[12:48] Speaker_D: 1위 상품입니다.\n[12:50] Speaker_C: Mm .\n[12:50] Speaker_D: 고맙습니다.\n[12:52] Speaker_D: 그렇죠.\n[13:39] Speaker_C: 응 .\n[13:57] Speaker_B: 잘 .\n[14:05] Speaker_B: 그것은 .\n[14:05] Speaker_C: 다른 RR 팀들이 다 부러워할 만큼 저희가 최고라고 생각해요.\n[14:11] Speaker_A: 저는 그렇다고 생각합니다.\n[14:21] Speaker_D: 재밌는 건, 모든 디자이너 회의가 이렇게 빨리 끝날 수 있다는 거예요.\n[14:24] Speaker_A: 응 .\n[14:55] Speaker_C: 그러니까 지금 단계에서는, 이게 프로젝트의 마지막 회의인가요?\n[14:55] Speaker_C: 시장에 나간 후에 또 회의를 할 수 있는 건 없나요?\n[14:59] Speaker_D: 응 .\n[15:06] Speaker_B: 오, 진짜 ?\n[15:10] Speaker_D: 지금 요약을 시작하세요.\n[15:19] Speaker_D: 요약을 보세요.\n[15:19] Speaker_D: 거기에 답장만 해주시면 됩니다.\n[15:40] Speaker_D: 50이었나 5였나?\n[15:43] Speaker_C: 생산 비용을 절감했으니, 이익이 얼마나 나는지 알 수 있을까요?\n[15:51] Speaker_A: 다른 부서로 넘겨지죠.\n[15:51] Speaker_A: 우리 프로젝트는 기본적으로 제품을 만들어내는 것이었습니다.\n[15:51] Speaker_A: 기본적으로 예산 내에서 제품이 나올 수 있을지 여부가 관건입니다.\n[15:51] Speaker_A: 판매 방법, 수익 등 다른 모든 문제는 다른 부서에서 처리합니다.\n[15:51] Speaker_A: 실제로는 다른 팀이 나머지를 결정합니다.\n[15:51] Speaker_A: 수익 배분 담당자들이요.\n[15:51] Speaker_A: .\n[15:51] Speaker_A: .\n[15:51] Speaker_D: 판매량에 따라 달라집니다.\n[15:58] Speaker_C: 흠 .\n[16:15] Speaker_C: 하지만 우리는 이익 분배에 대한 기득권이 있습니다.\n[16:27] Speaker_A: 알다시피, 우리는 제품을 만들었고, 디자인도 했고, 프로토타입도 완성했고, 예산도 맞고, 우리가 원하는 모든 기능을 다 갖추고 있어요.\n[16:27] Speaker_A: .\n[16:27] Speaker_A: .\n[16:56] Speaker_D: Mm .\n[17:02] Speaker_D: Mm .\n[17:03] Speaker_D: 분명히 .\n[17:17] Speaker_A: 다른 리모컨들은 반복적인 긴장성 손상(RSI)을 유발하는 반면, 저희 리모컨은 정반대거든요.\n[17:17] Speaker_A: 그러니까 이건 새로운 제품이고, 그게 저희가 새로운 제품을 개발하라는 요구 조건 중 하나였어요.\n[17:32] Speaker_C: Mm .\n[17:33] Speaker_C: Mm .\n[17:39] Speaker_C: Mm .\n[17:42] Speaker_D: 응 .\n[17:48] Speaker_D: 하지만 장식품에 던져서 부수지 마세요.\n[18:04] Speaker_D: 야이.\n[18:08] Speaker_B: 시원한 .\n[18:09] Speaker_A: 꼭대기 층 회사 수영장 옆에 있는 회사 바에서요.\n[18:24] Speaker_A: 그게 다예요.\n[18:25] Speaker_C: 그게 다예요.\n[18:47] Speaker_C: 고요 .\n[18:51] Speaker_C: 그럼 그날을 마감해야 할까요?\n[18:54] Speaker_A: 또 다른 설문지를 작성하라는 요청을 받게 될 거예요.\n[18:59] Speaker_A: 하나 .\n[19:10] Speaker_D: 프로젝트에서 .\n[19:10] Speaker_A: 하지만 저는 그것이 사실이라고 말할 권한이 없습니다.\n[19:17] Speaker_A: 펜을 사용하고 특수 패드에 글씨를 쓰는 방법 같은 것들 말이죠.\n[19:44] Speaker_C: 당신이 빛날 순간.\n[20:02] Speaker_B: 응 .\n[20:22] Speaker_B: 응 .\n[20:29] Speaker_D: Mm .\n[20:30] Speaker_C: 그렇죠.\n[20:30] Speaker_C: 그건 단지 첫 단계일 뿐이에요.\n[20:35] Speaker_D: 로지텍.\n[20:40] Speaker_D: 응 .\n[20:42] Speaker_D: 회의는 연기되었습니다.\n[20:44] Speaker_C: 오른쪽 .\n[20:47] Speaker_A: 응 .",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_ES2007d\\05_final_result.json",
+    "utterance_count": 210,
+    "original_transcript_length": 6842,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 6842
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 2354
+    },
+    "processing_date": "2025-08-13T14:38:24.343949"
+  }
+}

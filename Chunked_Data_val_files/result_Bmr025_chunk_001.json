@@ -1,0 +1,32 @@
+{
+  "id": "result_Bmr025_chunk_001",
+  "source_dir": "result_Bmr025",
+  "chunk_text": "[06:16] Speaker_D: 그래서 나는 생각한다\n[06:17] Speaker_D: 최소한의 노력으로 작동하게 할 수 있을 것이고, 최소한으로, 연사별 질의와 회의별 질의 등 그런 종류의 것들을 추가하고 싶을 것입니다.\n[06:36] Speaker_D: Windows로 가져오려면 작업이 조금 더 필요할 것입니다.\n[06:40] Speaker_D: 이슬\n[06:47] Speaker_D: 그래서 그들이 컴파일하도록 하는 것\n[06:51] Speaker_D: 그래서 .\n[06:56] Speaker_D: 확실히 도움이 됩니다.\n[06:58] Speaker_F: 응.\n[07:00] Speaker_F: 응 .\n[07:01] Speaker_D: 하지만 그들이 하는 일은 일종의 BSD 호환성 계층을 제공하는 것입니다.\n[01:51] Speaker_H: 응 .\n[01:51] Speaker_F: 응 .\n[01:54] Speaker_F: 그들은 IBM 세트입니다.\n[01:56] Speaker_A: 훌륭해요.\n[01:56] Speaker_F: 응 .\n[01:57] Speaker_F: 그래서 우리가 듣자마자\n[01:59] Speaker_F: 브라이언에게서\n[02:00] Speaker_F: 저것\n[02:04] Speaker_F: 다행히 전사본 일치에 문제가 없기를 바랍니다.\n[02:07] Speaker_F: 우리가 준 것으로\n[02:09] Speaker_F: 그들을 ,\n[02:14] Speaker_A: 훌륭한 .\n[02:14] Speaker_F: 그리고 그들이 그 일을 하도록 두세요.\n[02:16] Speaker_D: 그러니까 우리가 여기서 필사하고 있는 것과는 별개로 그런 것들을 하고 있는 건가요?\n[05:26] Speaker_D: 그런 종류의 것들.\n[05:28] Speaker_F: 그러면 사용자는 쿼리 결과로 무엇을 보게 될까요?\n[05:32] Speaker_F: 이것.\n[05:34] Speaker_D: Dan이 작성한 THISL GUI 도구인 Tcl-TK\n[05:35] Speaker_F: 응 .\n[05:41] Speaker_D: 히트곡\n[05:42] Speaker_D: 그리고 여러분은 그것을 타이핑하고 들을 수 있습니다.\n[05:44] Speaker_D: 마우스로 클릭하는 것이 더 좋습니다.\n[05:45] Speaker_F: 오.\n[05:46] Speaker_F: 따라서 작은 머리 또는 이와 유사한 내용을 입력하면\n[05:51] Speaker_F: 해당 문구가 발생한 오디오를 클릭하여 들을 수 있는 기능이나\n[06:00] Speaker_B: 내가 누구와 연습하는지 맞춰보세요?\n[06:06] Speaker_E: 응 .\n[06:12] Speaker_D: 오른쪽 .\n[04:33] Speaker_D: 그것은 일종의 표준이에요,\n[04:41] Speaker_D: 하나\n[04:42] Speaker_D: 그리고 간격을 얼마나 띄워야 하는지와 같은 모든 종류의 측정 기준이 있습니다.\n[04:47] Speaker_D: 그래서 그것은\n[04:48] Speaker_A: 그것은 uh보다 훨씬 더 정교합니다.\n[04:49] Speaker_D: 나\n[04:54] Speaker_D: 그래서 저는 그것을 사용합니다.\n[05:05] Speaker_A: 좋은 .\n[05:13] Speaker_D: UNIX 시스템에서 작동하도록 하려면 우리 쪽에서 해야 할 일이 있습니다.\n[05:17] Speaker_D: 다시 쓰고 수정하고\n[05:19] Speaker_D: 회의를 위해 작동합니다.\n[02:28] Speaker_D: 전사 상태에 대한 다른 정보가 있나요?\n[02:32] Speaker_E: DARPA 데모에 관해 우리는 얼마 전 하위 회의를 가졌습니다.\n[02:36] Speaker_D: 그래서 저는 THISL 도구를 사용하여 회의 데이터에 대한 정보 검색을 수행하는 작업을 해왔습니다.\n[02:43] Speaker_D: 두 세트가 있는데, 백엔드와 프런트엔드가 있습니다.\n[02:43] Speaker_D: 프런트엔드는 사용자 인터페이스이고 백엔드는 인덱싱 도구와 쿼리 도구입니다.\n[02:51] Speaker_D: 그래서 저는 모든 것을 올바른 파일 형식으로 변환하는 몇 가지 도구를 썼습니다.\n[02:56] Speaker_D: 그리고\n[03:02] Speaker_D: 그래서 적어도 내가 대본을 가지고 있었던 한 회의에서는\n[03:05] Speaker_D: 문자열을 입력하면 회의 시작-종료 시간 목록이 반환됩니다.\n[03:13] Speaker_F: 에 입력하는 문자열이요.\n[03:17] Speaker_D: 키워드 .\n[03:19] Speaker_D: 그렇죠?\n[03:19] Speaker_D: 그리고 나서 그것을 SGML과 같은 THISL IR로 전달하기 위해 뭉칩니다.\n[03:25] Speaker_D: 모든 것에 대한 형식입니다.\n[03:28] Speaker_E: 뭔가를 재생하나요?\n[00:00] Speaker_G: 응 .\n[00:13] Speaker_E: 하나 .\n[00:17] Speaker_E: 그래서 .\n[00:19] Speaker_E: 의제는 이에 따라 진행되며, 전사 상태이며, DARPA 데모입니다.\n[00:22] Speaker_E: XML 도구, 디스크, 백업 등\n[00:29] Speaker_D: 의제에 추가할 내용이 있으신가요?\n[00:35] Speaker_E: 순서대로 할까요?\n[00:35] Speaker_E: 전사 상태는요?\n[00:35] Speaker_E: 누구죠?\n[00:41] Speaker_E: 일곱?\n[00:43] Speaker_E: 오 .\n[00:57] Speaker_D: 하나\n[00:58] Speaker_H: 나는 g\n[01:01] Speaker_D: 혹시 연락할 수 있을까요?\n[01:08] Speaker_D: 정보 검색 기능이 제대로 작동하는지 확인해 보세요.\n[08:02] Speaker_D: 오른쪽 .\n[08:10] Speaker_D: 그래서 저는 Dan과도 서신을 주고받았고,\n[08:13] Speaker_E: 응 .\n[08:19] Speaker_F: 토니 로빈슨?\n[08:20] Speaker_E: 토니 로빈슨?\n[08:20] Speaker_D: 토니 말인가요?\n[08:22] Speaker_E: 응 .\n[08:22] Speaker_G: 제임스 크리스티.\n[08:24] Speaker_E: 스티브 레날 - 스티브 레날스.\n[08:29] Speaker_G: Steve wro i it 's Ste - Steve Renals가 썼습니다.\n[14:17] Speaker_A: 오.\n[14:21] Speaker_E: 좌석?\n[14:22] Speaker_B: 바다 - 응.\n[14:24] Speaker_E: 알겠습니다.\n[14:24] Speaker_E: 알겠습니다.\n[14:29] Speaker_E: 응 .\n[14:33] Speaker_B: 괜찮은 .\n[14:37] Speaker_E: 응 .\n[14:41] Speaker_D: 오른쪽 .\n[14:41] Speaker_E: 응 .\n[15:23] Speaker_D: 텍스트 파일  .\n[15:36] Speaker_C: ~에\n[15:42] Speaker_B: 응 .\n[15:43] Speaker_B: 오른쪽 .\n[15:46] Speaker_F: 알겠습니다.\n[15:47] Speaker_H: 응 .\n[15:50] Speaker_F: 이걸 편집하는 데는 시간이 전혀 걸리지 않습니다.\n[15:51] Speaker_B: 응 .\n[16:07] Speaker_D: 그래서 그것도 문제예요.\n[16:12] Speaker_B: 우리는 더 잘할 것입니다.\n[16:12] Speaker_D: 그게 다예요.\n[16:20] Speaker_D: 마이크가 연결되지 않으면 노란색으로 깜박입니다.\n[16:32] Speaker_D: 꺼져 있으면 비슷한 수준이에요\n[16:39] Speaker_D: 훨씬 쉽습니다.\n[16:39] Speaker_D: 차이가 더 큽니다.\n[16:42] Speaker_D: 결국에는 그걸로 바꿀 것이고 그러면 마이크가 켜지거나 꺼지는 것을 그래픽으로 볼 수 있을 겁니다.\n[16:49] Speaker_C: 배터리가 소진되는 것도 포함되나요?\n[16:52] Speaker_C: 마이크가 기본적으로 0을 출력할 때마다.\n[16:55] Speaker_H: 하지만 그렇죠.\n[16:57] Speaker_C: 응 .\n[16:57] Speaker_H: 응 .\n[16:58] Speaker_C: 말이 나온 김에.\n[18:13] Speaker_A: 흠 .\n[18:20] Speaker_D: 우리가 sh\n[18:20] Speaker_D: 그것에 대해 너무 걱정하지 마세요.\n[18:26] Speaker_E: 정말 ?\n[18:34] Speaker_D: 더 많은 디스크를 얻고\n[18:38] Speaker_D: 회의 녹음.\n[18:43] Speaker_E: 백업되지 않은 공간\n[18:45] Speaker_E: 그걸 다시 만드는 데 24시간도 안 걸렸던 것 같은데, 맞나요?\n[18:50] Speaker_E: 응 .\n[18:52] Speaker_E: 응 .\n[18:54] Speaker_D: 확장된 파일과 그런 것들.\n[17:09] Speaker_D: 더 쉽게 눈에 띄죠.\n[17:17] Speaker_E: 작은 충격\n[17:24] Speaker_D: 음, 저는 백업 오버헤드를 줄이기 위해 모든 회의 레코더 자료를 백업되지 않은 디스크에 넣는 것에 대해 Dave Johnson과 이야기를 나누었습니다.\n[17:34] Speaker_D: 하지만 그는 그것이 나쁜 생각이라고 생각했습니다.\n[17:43] Speaker_D: 그리고 우리는 그것을 실행하고 백업해야 합니다.\n[17:46] Speaker_D: 그는 다양한 백업 방식을 굳게 믿고 있습니다.\n[17:50] Speaker_D: 그의 요점은 타당했습니다.\n[17:50] Speaker_D: 이 데이터는 복구할 수 없습니다.\n[17:53] Speaker_B: 응 .\n[17:54] Speaker_D: 따라서 실수가 발생하여 백업을 잃게 되면\n[18:08] Speaker_E: 정지 상태라면 증분을 거치지 않으므로 증분 백업에 부담을 주지 않습니다.\n[18:59] Speaker_E: 응 .",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bmr025\\05_final_result.json",
+    "utterance_count": 453,
+    "original_transcript_length": 16243,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_H"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 16243
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 4,
+      "chunk_length": 4996
+    },
+    "processing_date": "2025-08-13T14:38:24.313393"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "result_Bed002_chunk_006",
+  "source_dir": "result_Bed002",
+  "chunk_text": "터 수집 지점의 종류\n[35:05] Speaker_C: 그렇게 하라고 요청할 수도 있죠.\n[35:08] Speaker_C: 그리고 우리가 이 사람들을 위해 회의를 녹음하는 이유 중 하나는 우리가 그들의 도움을 원하기 때문입니다.\n[35:51] Speaker_A: 장치를 사용하고 있나요?\n[55:19] Speaker_F: 이틀, 사흘?\n[55:33] Speaker_E: 확신하는 .\n[55:34] Speaker_C: 그리고, 우리가 그것을 가지게 되자마자,\n[55:37] Speaker_C: 우리는 시작해야 한다고 생각한다\n[55:39] Speaker_C: 하려고 노력하다\n[55:41] Speaker_C: 이 문제에 대한 내용을 채워 넣으세요.\n[55:48] Speaker_C: 그렇게 하는 가장 쉬운 방법\n[55:50] Speaker_C: ~이다\n[55:52] Speaker_C: 온라인 방식도 있죠.\n[56:05] Speaker_C: 응 .\n[56:20] Speaker_E: 확신하는 .\n[52:51] Speaker_F: 물론 XML을 사용하면 쉽게 할 수 있죠.\n[52:53] Speaker_C: 물론이죠.\n[52:58] Speaker_F: 그래서 r\n[52:59] Speaker_C: 하나 ,\n[53:06] Speaker_C: 그래서 그것은 또한 그렇습니다.\n[53:13] Speaker_C: 하나 ,\n[53:14] Speaker_C: 당신이 하고 싶은 일을 하세요.\n[53:16] Speaker_E: SmartKom 시스템에는 그런 패키지가 없나요?\n[53:18] Speaker_F: 응 .\n[53:18] Speaker_C: 확신하는 .\n[53:19] Speaker_F: lib M-three-L 라이브러리가 그 일을 합니다.\n[53:21] Speaker_C: 그리고 질문은, 당신이 c를 하면 당신은 l을 해야 할 것입니다.\n[53:23] Speaker_C: 우리는 l해야 할 것이다\n[53:33] Speaker_C: 응 .\n[53:34] Speaker_F: 만약 실제로 학습할 수 있는 l개의 넷이 있다면, 스스로 설정해보세요.\n[42:51] Speaker_A: 측면과 그런 것들.\n[42:57] Speaker_C: 그리고 그녀가 연락할 거야.\n[42:57] Speaker_C: 그래서 우리는\n[42:59] Speaker_C: 누구 ,\n[43:05] Speaker_C: 이 모든 것들.\n[43:24] Speaker_C: 우리가 이 일을 하는 데 도움을 주겠다고 제안했습니다.\n[56:23] Speaker_F: 그래서, y\n[56:24] Speaker_E: 흠 .\n[56:40] Speaker_C: 정말 조잡하더라도요.\n[56:50] Speaker_C: 그리고 내가 말했듯이, 내가 하고 싶은 것은,\n[56:53] Speaker_C: 제 말은, 정말 좋은 점은 당신이 그것을 가져오는 것입니다.\n[56:53] Speaker_C: 만약 우리가 할 수 있다면,\n[56:57] Speaker_C: 음, 회의에서 여기 패키지가 있고, 여기 현재 가지고 있는 패키지가 있습니다.\n[56:57] Speaker_C: 라고 말할 수 있죠.\n[57:12] Speaker_C: 의 ,\n[57:13] Speaker_C: 라고 말하는 거죠.\n[57:19] Speaker_C: 우리가 경험한 다양한 시나리오.\n[57:24] Speaker_C: 이 파일과 당신이\n[54:03] Speaker_F: 음, 마이클은 담화 행위를 인식하는 프로젝트를 가지고 있고 그는 그것을 모두 MATE에서 수행합니다.\n[54:10] Speaker_F: 그래서 만약 우리가 w\n[54:11] Speaker_F: 우리가 언젠가는 그럴 가치가 있다고 생각한다면,\n[54:17] Speaker_E: 오른쪽 .\n[54:36] Speaker_F: 나는 우리가 m에 헌신해야 한다고 생각한다\n[54:51] Speaker_C: 그들의 패키지.\n[54:57] Speaker_E: 오른쪽 .\n[54:58] Speaker_C: 하나 ,\n[55:17] Speaker_F: 이틀?",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bed002\\05_final_result.json",
+    "utterance_count": 656,
+    "original_transcript_length": 24390,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 24390
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 6,
+      "chunk_length": 1973
+    },
+    "processing_date": "2025-08-13T14:38:24.268778"
+  }
+}

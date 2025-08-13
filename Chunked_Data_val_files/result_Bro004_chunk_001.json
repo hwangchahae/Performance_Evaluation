@@ -1,0 +1,32 @@
+{
+  "id": "result_Bro004_chunk_001",
+  "source_dir": "result_Bro004",
+  "chunk_text": "[03:15] Speaker_C: 하나 더.\n[03:17] Speaker_D: 그는 이쪽을 바라보고 있어요.\n[03:26] Speaker_D: 좋습니다.\n[03:26] Speaker_D: 이건 침묵 감지에 적합한 섹션이 될 것 같습니다.\n[03:34] Speaker_D: 오 .\n[03:36] Speaker_D: 단 하나,\n[03:41] Speaker_H: 그리고 실제로 결과는 비슷합니다.\n[03:41] Speaker_D: 응 .\n[03:59] Speaker_H: 바로 그 작업이죠.\n[04:22] Speaker_H: 그래서,\n[04:24] Speaker_D: 분명 그러면 좋을 텐데 문제는 얼마나 더 나쁠까 하는 거야\n[04:29] Speaker_D: 내 말은 ,\n[04:44] Speaker_H: 그렇죠.\n[05:08] Speaker_D: 제 앞에 숫자가 없으니 그저 상상만 할 뿐입니다.\n[05:11] Speaker_D: 그리고\n[05:49] Speaker_H: 세 번째 테스트는 , um을 사용하는 것입니다.\n[05:56] Speaker_D: 여기에는 w도 포함됩니다.\n[06:03] Speaker_E: 안에 -\n[06:08] Speaker_H: 응\n[06:18] Speaker_D: 오, 알겠습니다.\n[06:19] Speaker_H: 응 .\n[06:22] Speaker_H: 그래서 TI-digits for ins의 경우, TI-digits 훈련에서 TIMIT 훈련으로 전환하면 약 10%를 잃게 됩니다.\n[06:42] Speaker_D: 오른쪽 .\n[06:43] Speaker_H: 10퍼센트의 상대적.\n[06:54] Speaker_D: Ab - 약 얼마예요?\n[06:56] Speaker_H: 그러니까.\n[07:05] Speaker_H: 그렇죠.\n[07:08] Speaker_E: 맞죠?\n[07:12] Speaker_H: 응 .\n[07:12] Speaker_E: 그러니까 두 가지가 합쳐진 거예요.\n[01:06] Speaker_D: 응 .\n[01:11] Speaker_D: 1번 채널?\n[01:31] Speaker_E: 그들은 그것을 하는 데에 재능이 있고, H T K에서 한동안 그걸 해왔습니다.\n[01:35] Speaker_D: 응 ?\n[01:35] Speaker_E: 그리고 훈련을 병렬화할 수 있습니다.\n[01:38] Speaker_E: 여러 대의 컴퓨터에서 실행하면 기본적으로 카운트가 유지됩니다.\n[01:38] Speaker_D: 예!\n[01:47] Speaker_H: PLP, JRASTA를 사용한 PLP, MSG, 그리고 베이스라인 Aurora의 MFCC입니다.\n[01:50] Speaker_H: 응 .\n[02:16] Speaker_D: 하나 .\n[02:18] Speaker_D: 그래서 저는 신경망을 사용하는 이점은 우리가 신경망 훈련을 사용할 것이라는 점이라고 생각합니다.\n[09:11] Speaker_H: 1 정도예요.\n[09:13] Speaker_D: 오른쪽 .\n[09:21] Speaker_H: 예 -\n[09:25] Speaker_E: 1.\n[09:25] Speaker_E: 4?\n[09:29] Speaker_E: 그러니까 30퍼센트가 추가되는 셈이죠.\n[09:31] Speaker_H: 1.\n[09:31] Speaker_H: 4 정도요.\n[09:46] Speaker_H: 그래서 .\n[09:46] Speaker_D: 예!\n[09:47] Speaker_H: 응 .\n[10:11] Speaker_H: 흠 .\n[10:18] Speaker_D: 그러면 2와 3의 차이점은 무엇일까요?\n[00:44] Speaker_H: 알겠습니다.\n[00:47] Speaker_G: 채널 2.\n[00:49] Speaker_A: 작동하지 않나요?\n[00:49] Speaker_G: 둘 .\n[00:49] Speaker_H: HTK를 위해서요?\n[00:55] Speaker_H: 응 .\n[00:58] Speaker_A: 그렇죠.\n[01:00] Speaker_D: 채널 4번 채널.\n[01:05] Speaker_D: 응 .\n[07:16] Speaker_E: 특정 업무에 대한 교육을 없애고 다른 언어를 추가하는 거죠.\n[07:21] Speaker_H: 응 .\n[07:23] Speaker_H: 응 .\n[07:28] Speaker_E: 그래서 그들은 여기서 뭔가를 짓고 있었던 거야?\n[07:28] Speaker_E: 알았지?\n[07:50] Speaker_H: 그래서 .\n[07:51] Speaker_D: 예 .\n[07:55] Speaker_D: 기준선에서 모든 것을 첫 번째 사례와 비교한다면,\n[08:01] Speaker_D: 3입니다.\n[08:20] Speaker_H: 그래서.\n[08:20] Speaker_H: 르 - 내가.\n[08:21] Speaker_D: 나 나 나 미안해.\n[08:21] Speaker_D: 나 나 나 기준선이란 말이 다른 뜻이었구나\n[08:21] Speaker_H: Tas - 작업 데이터 우리는 당신입니다\n[08:23] Speaker_H: 응 .\n[08:31] Speaker_H: 흠 .\n[02:24] Speaker_D: 우리가 하고 있는 많은 일들에 대해서,\n[02:28] Speaker_D: HMM 가우시안-혼합 기반 HMM은 우리가 사용할 것입니다.\n[02:37] Speaker_D: 그래서 그것으로,\n[02:41] Speaker_D: 우리로 가다\n[02:53] Speaker_G: 그릴에 구운 닭고기.\n[02:53] Speaker_D: 그리고, 시간은 11시 50분쯤이에요.\n[02:56] Speaker_G: 저 모퉁이로 가보세요.\n[03:00] Speaker_D: 여기서 사진 찍을 기회를 엿보고 있어요.\n[03:00] Speaker_D: .\n[03:00] Speaker_D: .\n[03:06] Speaker_D: 그래서 .\n[03:06] Speaker_B: 검은 화면으로 바꿔줄게.\n[00:01] Speaker_D: 그게 맞나요?\n[00:02] Speaker_E: 나는 제로라고 생각한다.\n[00:02] Speaker_H: 응 .\n[00:03] Speaker_D: 응 .\n[00:04] Speaker_B: Wh - 무엇이 충돌의 원인이 되나요?\n[00:04] Speaker_D: 전례 없는 .\n[00:09] Speaker_A: 다섯, 다섯.\n[00:09] Speaker_B: 맞나요?\n[00:24] Speaker_D: 오 .\n[00:25] Speaker_G: 저예요.\n[10:33] Speaker_D: 왜냐하면 두 경우 모두에서 여러분이 맡는 업무가 같지 않기 때문입니다.\n[10:47] Speaker_H: 응, 그렇죠.\n[10:55] Speaker_D: 얼마나 더 큰가요?\n[11:02] Speaker_H: 실제로 두 배예요?\n[11:02] Speaker_H: 그렇죠.\n[11:05] Speaker_H: 하나 .\n[11:18] Speaker_H: 그래서요.\n[11:22] Speaker_D: 그래서 두 번이에요,\n[11:29] Speaker_H: 응 .\n[11:29] Speaker_D: 1점과 관련이 있습니다.\n[11:29] Speaker_D: 그러니까 기본적으로 TIMIT이 맞나요?\n[11:34] Speaker_H: 응 .\n[11:34] Speaker_D: 그래서 TIMIT은 밴드 한정이에요.\n[11:37] Speaker_D: 이게 전부예요\n[11:37] Speaker_H: 응 .\n[13:20] Speaker_D: 응 .\n[13:23] Speaker_D: 응 .\n[13:48] Speaker_H: 사실 PLP와 JRASTA 사이에는 b와 관련된 차이점이 있습니다.\n[14:23] Speaker_D: 응 .\n[14:26] Speaker_E: 하나 .\n[14:30] Speaker_D: 이쪽으로, 그리고 살짝 왼쪽으로 가면 돼요.\n[14:36] Speaker_E: 그가 말했다.\n[14:41] Speaker_D: 하나 .\n[14:44] Speaker_D: 그가 말했던 것은 바로 그것이었습니다.\n[14:45] Speaker_B: 응 .\n[14:46] Speaker_D: 오른쪽 .\n[14:50] Speaker_D: 응 .\n[15:20] Speaker_E: .\n[15:20] Speaker_E: .\n[15:35] Speaker_B: 응 .\n[15:56] Speaker_E: 응 .\n[15:57] Speaker_D: 그리고 서로 다른 나쁜 결과를 비교하는 것은 까다로울 수 있습니다.\n[15:58] Speaker_E: 흠 .\n[16:42] Speaker_D: 그런 게 있었지?\n[16:50] Speaker_D: 나는 그런 것이 있다고 생각했습니다.\n[16:56] Speaker_D: 하나 ,\n[17:22] Speaker_D: 응 .\n[17:29] Speaker_D: 맞죠?\n[19:37] Speaker_H: 응 .\n[19:39] Speaker_D: 잘 ,\n[19:41] Speaker_D: 당신이 가지고 있던 것은 무엇이었습니까?\n[19:45] Speaker_D: 지난주에 당신의 테이블을 보여주셨죠?\n[19:47] Speaker_H: 그것은 - 이러한 결과의 일부였습니다.\n[20:01] Speaker_H: HTK Aurora 베이스라인을 말씀하시는 건가요?\n[20:03] Speaker_E: 응 .\n[20:04] Speaker_H: 그것은 100이라는 숫자예요.\n[20:06] Speaker_H: 글쎄요, 이 모든 숫자는 비율이에요\n[20:08] Speaker_E: 오!\n[20:16] Speaker_A: 응 .\n[20:20] Speaker_H: 응 .\n[20:20] Speaker_E: 알겠습니다.\n[20:22] Speaker_H: 70.\n[17:58] Speaker_H: 당신은 무엇을 의미합니까?\n[18:23] Speaker_D: 하나\n[18:30] Speaker_D: 그래서, 제 말은, 이 차트, 이 표는 우리가 보고 있는 것이 뭐냐면,\n[18:31] Speaker_H: 그래서 .\n[18:43] Speaker_H: 그러니까 기본적으로 두 부분이 있죠.\n[18:43] Speaker_H: 윗부분은 TI(숫자)를 위한 거예요.\n[18:55] Speaker_D: 응 .\n[19:10] Speaker_H: 그래서 .",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bro004\\05_final_result.json",
+    "utterance_count": 413,
+    "original_transcript_length": 12710,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_H"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 12710
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "chunk_length": 4969
+    },
+    "processing_date": "2025-08-13T14:38:24.326751"
+  }
+}

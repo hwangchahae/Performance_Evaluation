@@ -1,0 +1,28 @@
+{
+  "id": "result_IS1007b_chunk_002",
+  "source_dir": "result_IS1007b",
+  "chunk_text": ".\n[14:00] Speaker_A: 참가자 4.\n[14:10] Speaker_A: 그래서 해리.\n[15:01] Speaker_D: 그리고 그것이 얼마나 실현 가능한가.\n[15:17] Speaker_C: 응 .\n[15:19] Speaker_B: Mm .\n[15:25] Speaker_B: 응 .\n[15:25] Speaker_C: 그러니 좋은 생각이에요.\n[15:30] Speaker_B: Mm .\n[15:31] Speaker_B: Mm .\n[15:43] Speaker_B: Mm .\n[20:30] Speaker_B: 좋습니다.\n[20:33] Speaker_A: 미래에는.\n[20:37] Speaker_B: 모든 TV가 디지털화될 테니까요.\n[20:37] Speaker_B: 시스템이 바뀔 텐데, 우리는 그 변화를 예측해야 합니다.\n[20:48] Speaker_D: 응 , .\n[20:59] Speaker_C: 알겠습니다.\n[20:59] Speaker_C: 고맙습니다.\n[21:00] Speaker_B: 알겠습니다.\n[21:00] Speaker_A: 우리는 그 후에 만날 것이다.\n[21:00] Speaker_D: 알겠습니다.\n[21:00] Speaker_D: 고맙습니다.",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_IS1007b\\05_final_result.json",
+    "utterance_count": 157,
+    "original_transcript_length": 5067,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 5067
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 599
+    },
+    "processing_date": "2025-08-13T14:38:24.359641"
+  }
+}

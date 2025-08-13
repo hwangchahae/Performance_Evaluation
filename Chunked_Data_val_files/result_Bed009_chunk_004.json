@@ -1,0 +1,31 @@
+{
+  "id": "result_Bed009_chunk_004",
+  "source_dir": "result_Bed009",
+  "chunk_text": "복잡하다\n[34:33] Speaker_G: 그리고 이를 외부 서비스라고 부르죠.\n[34:34] Speaker_D: 흠 .\n[34:39] Speaker_G: 하지만 물론 더 복잡한 것은 사실이죠.\n[34:51] Speaker_D: 서비스가 와서 그 자체를 설명해 줄 것입니다.\n[34:54] Speaker_D: 그리고 그게 바로 Srini가 DAML에서 작업하고 있는 것과 같은 종류입니다.\n[34:57] Speaker_G: 응 .\n[34:58] Speaker_D: 어 프로젝트 어디야?\n[35:09] Speaker_D: 그래서 당신은 실제로 그러한 시스템에 인터페이스할 수 있습니다.\n[35:12] Speaker_D: 이전에 그것을 만난 적이 있고\n[35:14] Speaker_G: 흠 .\n[35:14] Speaker_D: 기능 모델러 및 자체 설명\n[35:25] Speaker_D: 플래너 A, 플래너 B, 플래너 C 등과 인터페이스합니다.\n[35:25] Speaker_G: 흠 .\n[33:46] Speaker_B: 이러한 계획 모듈 중 하나가 나와서 이봐, 지금 당장 우리에게 필요한 건\n[33:49] Speaker_B: 질문을 하다  .\n[33:51] Speaker_B: 그래서 대화 관리자가 상태를 변경하도록 강제합니다.\n[33:54] Speaker_G: 예\n[33:55] Speaker_B: 그것은 y일 수도 있다\n[33:58] Speaker_G: 사람들이 가지고 있는 개념이죠.\n[34:07] Speaker_G: 뭔가 그런 게 있다는 거야\n[34:08] Speaker_G: 플러그인할 수 있는 커널 기능이 있는 커널 모듈\n[34:11] Speaker_G: 관광 정보와 같은 특정 응용 프로그램\n[34:20] Speaker_G: 그리고 그것을 확장합니다\n[34:21] Speaker_G: 결국 임의의 수의 응용 프로그램이 생성됩니다.\n[34:25] Speaker_G: 그래서는 안 될 거야\n[34:25] Speaker_G: 이것이 이것을 갖는 또 다른 이유입니다\n[34:28] Speaker_G: 명확하게 정의된 인터페이스와 관광 정보 등을 외부에 유지합니다.\n[34:29] Speaker_B: 오, 예, 예.\n[37:35] Speaker_B: 꼭 해야지, 응.\n[37:39] Speaker_F: 일이 더 간단해야 해\n[37:41] Speaker_B: 알겠습니다, 그렇군요\n[37:42] Speaker_F: 하지만, Miel 구문 분석은 유한 상태 변환기를 사용합니다.\n[37:43] Speaker_B: 하지만 D F의 사람들은 -\n[37:46] Speaker_B: 응 .\n[37:47] Speaker_B: DFKI의 사람들은 상당수의 파서를 작성했습니다.\n[37:53] Speaker_B: DFKI에서 다양한 파서를 작성했습니다.\n[37:53] Speaker_B: 그중 하나도 없습니다.\n[37:56] Speaker_B: 적합한가요?\n[38:00] Speaker_F: 그것은 매우 빨라야 합니다.\n[38:12] Speaker_F: 속도가 중요해요.\n[38:15] Speaker_F: 그리고 그들은 충분히 빠르지 않습니다.\n[31:10] Speaker_F: 응 .\n[31:15] Speaker_G: 그리고 그는\n[31:16] Speaker_G: 이 액션 플래너의 구현에 대한 책임을 맡게 됩니다.\n[31:19] Speaker_G: 대화 관리자.\n[31:22] Speaker_D: 그는 예전처럼 계속할 거야?\n[31:26] Speaker_G: 모든 것을 완전히 다시 쓸 거야.\n[31:28] Speaker_G: 자바에서는 .\n[31:30] Speaker_G: 알겠습니다.\n[31:32] Speaker_G: 흠\n[31:36] Speaker_B: 응 .\n[31:44] Speaker_D: 특정한 관점에서 보면 의미가 있습니다.\n[31:44] Speaker_G: 응 .\n[38:20] Speaker_F: 그리고 매우 견고해야 합니다.\n[38:31] Speaker_B: Verbmobil에서\n[38:33] Speaker_B: 그것은 그 중 하나였습니다\n[38:36] Speaker_B: 브랜처.\n[38:36] Speaker_B: 당신은 그들이 내가 c라는 것을 알고 있다는 것을 알고 있습니다.\n[38:36] Speaker_B: 이러한 다양한 것이 있었습니다.\n[38:51] Speaker_F: 나는 그것이라고 생각한다\n[38:51] Speaker_D: 들판?\n[38:52] Speaker_F: 저것\n[38:54] Speaker_F: 튀빙겐에서 나는 생각했다.\n[38:57] Speaker_F: 그것에 대해 뭔가 알고 있나요?\n[39:05] Speaker_G: 정확히 기억나지 않는다\n[39:40] Speaker_G: 그가 있는 동안 일했습니다\n[39:42] Speaker_G: 튀빙겐과 튀빙겐의 다른 누군가\n[39:44] Speaker_G: 튀빙겐에서 한 거였죠.\n[39:46] Speaker_G: 분명히 .\n[39:46] Speaker_B: 하지만 그게 그런 종류의 일인가요?\n[39:48] Speaker_B: 당신이 생각하던 종류의 것.\n[39:54] Speaker_F: 이 방향으로는 그렇습니다\n[39:56] Speaker_B: 무엇 ?\n[40:00] Speaker_B: 흠 .\n[40:10] Speaker_D: 이는 ~에 있다\n[40:11] Speaker_D: 대사관에서 구문 분석을 진행 중입니다.\n[40:15] Speaker_D: 그래서 이것은 나에게 일종의 놀라운 일이었습니다.\n[40:19] Speaker_D: 좋은 파서를 선보이고 있습니다\n[40:21] Speaker_D: 하지만 내가 들은 바에 따르면 그렇습니다.\n[40:24] Speaker_D: 그것을 보고 볼 수도 있습니다\n[40:26] Speaker_D: 시너지가 있는지\n[40:28] Speaker_D: 가능한 .\n[40:33] Speaker_D: 저는 거기서 그 일을 하는 사람들의 이름을 알려드릴 수 있습니다.\n[40:40] Speaker_D: 물론, 사물을 분석하는 방법은 더 많습니다.\n[40:44] Speaker_B: 물론이죠.\n[40:44] Speaker_B: 하지만 하지만\n[40:47] Speaker_B: 제약 조건은 작고 빠르기를 원한다는 것입니다.\n[40:51] Speaker_B: 내 추측은 당신이다\n[40:56] Speaker_B: 그리고\n[40:59] Speaker_B: 나는 이것을 크게 믿지 않는다\n[41:03] Speaker_B: 통계적\n[41:05] Speaker_B: 알다시피, 청소하는 거\n[26:58] Speaker_B: 거기 가려면 택시를 타야 해요.\n[27:01] Speaker_B: 라고 말하는 거예요.\n[27:06] Speaker_B: 그리고\n[27:14] Speaker_G: 흠\n[27:16] Speaker_D: 응 .\n[27:28] Speaker_G: 모든 분석 모듈로,\n[27:40] Speaker_G: 특별한 관심사의.\n[31:46] Speaker_D: 액션 플래너는 그런 경우 아니면 대화 관리자는 그런 식으로 경로 계획을 하는 무언가와 인터페이스하고 있는지 걱정할 필요가 없습니다.\n[31:58] Speaker_B: 물론이죠.\n[32:00] Speaker_B: 대화에는 분리 가능한 논리가 있습니다.\n[32:05] Speaker_B: 나\n[32:06] Speaker_B: 응 .\n[32:08] Speaker_D: 일종의 공식화\n[32:18] Speaker_D: 실제로 경로 계획자 A가 어떻게 되기를 원하는지, 경로 계획자 B가 어떻게 되기를 원하는지에 대해 걱정할 필요는 없습니다.\n[32:29] Speaker_D: 태초에.\n[32:30] Speaker_B: 까다롭죠.\n[32:31] Speaker_B: 그것은 까다롭습니다.\n[32:31] Speaker_B: 왜냐하면 나는 그것이 사실일 것이라고 생각하기 때문입니다.\n[32:41] Speaker_B: 지식 모델러\n[32:42] Speaker_B: 그 사람이 원하는 것에 대한 몇 가지 매개변수를 채울 것입니다.\n[32:42] Speaker_B: 상상할 수 있을 것입니다.\n[39:10] Speaker_F: 오\n[39:10] Speaker_B: 알겠습니다.\n[39:22] Speaker_G: 오른쪽 .\n[39:22] Speaker_B: 맞죠?\n[39:23] Speaker_G: 응\n[39:25] Speaker_G: 글쎄, 당신은\n[39:26] Speaker_G: 그리고 그리고 특히 당신\n[39:29] Speaker_G: 하나, l\n[39:30] Speaker_G: 하나\n[39:31] Speaker_G: 학습 기반 접근 방식이었습니다.\n[39:35] Speaker_G: 그리고 그렇습니다.\n[39:35] Speaker_G: 청크 파서는 유한 상태 머신이었습니다.\n[41:56] Speaker_B: 오른쪽 .\n[42:03] Speaker_F: 응 .\n[42:18] Speaker_B: 오른쪽 .\n[42:20] Speaker_B: 오른쪽 .\n[42:22] Speaker_B: 하나\n[42:26] Speaker_B: a a e y, 스테머가 있나요?\n[42:30] Speaker_F: 하지만 그건 모두 사전에 나와 있는 내용이에요.\n[42:34] Speaker_B: 하지만 그게 있었나요?\n[42:44] Speaker_B: 사전에 연결하다\n[41:17] Speaker_B: 다른 방법으로 하면 안 돼.\n[41:20] Speaker_B: 여러분이 결국 그렇게 결정할 수도 있겠죠.\n[41:21] Speaker_F: 흠 .\n[41:30] Speaker_B: 몇 년 전 SRI에서 Fastus라는 사람이 했던 일이 있죠?\n[41:41] Speaker_B: 오!\n[41:42] Speaker_F: 나는 찾았지만, 그것은 또한\n[41:45] Speaker_B: 그렇죠.\n[41:45] Speaker_B: 제 말은, 꽤 야심적이었다는 거예요.\n[41:47] Speaker_F: 그리고\n[41:51] Speaker_B: ~ 안에\n[43:34] Speaker_G: Morphix에 의해\n[43:35] Speaker_B: 오른쪽 .\n[43:37] Speaker_G: 단 하나\n[43:39] Speaker_G: 사전에서 검색하면\n[43:42] Speaker_B: 오른",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bed009\\05_final_result.json",
+    "utterance_count": 691,
+    "original_transcript_length": 23895,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 23895
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 6,
+      "chunk_length": 5000
+    },
+    "processing_date": "2025-08-13T14:38:24.273569"
+  }
+}

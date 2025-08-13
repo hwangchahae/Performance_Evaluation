@@ -1,0 +1,31 @@
+{
+  "id": "result_Bro003_chunk_005",
+  "source_dir": "result_Bro003",
+  "chunk_text": "C: 무엇 ?\n[44:10] Speaker_C: PLP와 MSG는 꼭 시도해 보고 싶어요.\n[44:17] Speaker_C: 하나 .\n[44:21] Speaker_C: 응 .\n[44:23] Speaker_D: 은닉층을 줄여야 하나요?\n[44:38] Speaker_F: 하지만 계산에는 한계가 있지 않나요?\n[44:42] Speaker_C: 실례합니다 ?\n[31:59] Speaker_B: 기본적으로 큐브는 3차원을 갖습니다.\n[32:02] Speaker_B: 첫 번째 차원은 우리가 사용할 기능입니다.\n[32:15] Speaker_B: 이것이 판별 신경망에 대한 훈련입니다.\n[32:22] Speaker_B: 마지막 차원\n[32:24] Speaker_C: HTK 훈련은 항상 개별 테스트에 맞춰 설정되는 거죠?\n[32:24] Speaker_C: 훈련 데이터와 테스트 데이터가 있죠.\n[32:24] Speaker_C: 그래서 이것과는 다른 거죠.\n[32:37] Speaker_B: ANN에만 해당.\n[32:47] Speaker_C: 오른쪽 .\n[32:48] Speaker_B: 그리고 테스트 코퍼스가 있습니다.\n[32:58] Speaker_B: 그렇다면 우리가 이야기했던 기능을 보여드리는 것이 유익할 것 같습니다.\n[33:05] Speaker_B: 무엇으로 도와드릴까요?\n[33:10] Speaker_G: PLP .\n[33:10] Speaker_B: PLP?\n[33:10] Speaker_B: 알겠습니다.\n[33:24] Speaker_B: JRASTA - LDA .\n[33:28] Speaker_G: 하나 ,\n[33:32] Speaker_B: 다중 대역.\n[33:44] Speaker_G: 응 .\n[39:44] Speaker_C: 따라서 테스트 결과 분석 주제의 일부는 잡음과 일치할 때 얼마나 잘하는지, 그리고 잡음과 일치하지 않을 때 얼마나 잘하는지에 대한 것입니다.\n[39:52] Speaker_B: 오른쪽 .\n[39:59] Speaker_B: 안 보이면 안 보이겠죠.\n[40:24] Speaker_C: 미리 계획했던 것과 얼마나 가까운지에 따라 달라집니다.\n[40:24] Speaker_C: 그래서요.\n[41:08] Speaker_B: 오른쪽 .\n[41:09] Speaker_G: 그렇죠, 스페인 사람들이 그럴지도 몰라요.\n[41:11] Speaker_B: 오, 그렇군요.\n[41:11] Speaker_G: 우리는 가질 것이다.\n[41:11] Speaker_G: 그래.\n[41:16] Speaker_B: 오, 그렇군요.\n[41:26] Speaker_A: 그들은 준비 중입니다.\n[41:33] Speaker_G: 하나 .\n[41:39] Speaker_C: 그러니까, 음, 343개의 서로 다른 시스템이 개발될 겁니다.\n[41:46] Speaker_C: 여러분은 3명입니다.\n[41:53] Speaker_E: ~ 안에\n[47:09] Speaker_C: 맞죠?\n[47:22] Speaker_C: 오른쪽 ?\n[47:22] Speaker_G: 응 .\n[47:23] Speaker_C: 그러므로 KL 변환을 계산해야 합니다.\n[47:31] Speaker_C: 응 .\n[47:33] Speaker_G: 하지만 그렇죠.\n[47:35] Speaker_G: 하지만 HTK 모델을 훈련하는 것을 의미하는 테스트도 있습니다.\n[47:39] Speaker_A: 이 모델은 HTK 모델입니다.\n[47:46] Speaker_C: HTK 훈련은 얼마나 걸리나요?\n[47:52] Speaker_G: 훈련과 테스트를 위해서죠.\n[47:55] Speaker_A: 6시간 이상요.\n[47:55] Speaker_G: 더 .\n[44:43] Speaker_F: Aurora 작업에는 계산 부하나 지연 시간 등에 제한이 있지 않나요?\n[44:56] Speaker_C: 만약 여러분이 메가바이트를 사용한다면, 그들은 그것이 매우 좋다고 말할 것입니다.\n[44:56] Speaker_C: 하지만 물론, 그것은 결코 값싼 휴대전화에 탑재되지 않을 것입니다.\n[45:04] Speaker_C: 하나 .\n[45:11] Speaker_C: 저는 기억이 더 중요하다고 생각해요.\n[45:26] Speaker_C: 하나 .\n[45:29] Speaker_C: 하지만, 그렇죠, 저는 그것이 실제로 폭발하지 않는다는 것을 막 깨달았습니다.\n[45:38] Speaker_C: 모두 개별적으로 훈련했기 때문이죠.\n[45:46] Speaker_C: 오른쪽 ?\n[45:53] Speaker_C: 결합하다\n[53:25] Speaker_B: 그래서 .\n[53:27] Speaker_C: 더 넓은 계층?\n[53:36] Speaker_B: 오른쪽 .\n[53:37] Speaker_B: 오른쪽 .\n[53:38] Speaker_B: 응 .\n[53:39] Speaker_B: 수업 더.\n[53:39] Speaker_B: 수업 더.\n[53:46] Speaker_B: 그리고 .\n[53:48] Speaker_B: 응 .\n[54:02] Speaker_A: nnn으로, f 프런트엔드와 HTK 프로그램을 사용하여\n[54:09] Speaker_A: 그리고  .\n[54:31] Speaker_C: J.\n[54:31] Speaker_C: R.\n[54:31] Speaker_C: A.\n[54:31] Speaker_C: S.\n[54:31] Speaker_C: T.\n[54:31] Speaker_C: A.\n[54:41] Speaker_C: RASTA를 로그로 하는 대신에,\n[54:44] Speaker_C: 당신은 로그와 같은 함수로 RASTA를 하고 있습니다\n[22:07] Speaker_D: 흠 .\n[22:11] Speaker_C: 응 .\n[22:16] Speaker_C: 하지만 제 생각엔 그들이 그렇게 할 것 같았는데, 그들은 그렇게 하지 않았나요?\n[22:18] Speaker_C: 응 .\n[22:20] Speaker_G: 응 .\n[22:20] Speaker_D: 그렇게 하면 글쎄요라고 말할 수 있습니다.\n[22:20] Speaker_C: 응 .\n[22:21] Speaker_G: 글쎄요,\n[22:23] Speaker_D: 우리는 가장 흔한 것으로 생각되는 것에 대해 그것을 만들 것입니다  , 하지만 만약\n[22:23] Speaker_G: 그렇죠.\n[34:54] Speaker_B: 제 생각에는 댄이 그중 일부를 했다고 생각해요.\n[34:56] Speaker_D: 오 .\n[34:57] Speaker_B: 그물을 사용하면 정말 멋지죠.\n[35:05] Speaker_C: D 왜냐하면 그들이 실험에 멜 켑스트라를 사용했기 때문이라고 생각해요.\n[35:08] Speaker_B: 응 .\n[35:12] Speaker_B: 응 .\n[35:14] Speaker_C: 하나 ,\n[35:15] Speaker_C: 물론 그게 거기에 있고, 이게 여기에 있고, 이런 식으로 계속 있죠.\n[35:45] Speaker_G: 그리고 핀란드.\n[35:51] Speaker_D: 숫자?\n[35:54] Speaker_B: 오 .\n[58:07] Speaker_C: 그래서 당신은\n[58:12] Speaker_C: 이런 일들을 해결하려면 이런 것들을 정리해야죠.\n[58:17] Speaker_A: 응 .\n[58:19] Speaker_C: 그래서 각 차원의 특이점이 정리되고 있는 듯합니다.\n[58:51] Speaker_C: 이것의 장점은 매우 체계적인 방식으로 설정된다는 것입니다.\n[59:06] Speaker_B: 응 .\n[59:19] Speaker_B: 한 번에 한 스트림씩, je-je-je-je-je 결과를 확인하고 그쪽으로 가세요.\n[59:28] Speaker_B: 응.\n[54:47] Speaker_C: J 매개변수에 따라 다릅니다.\n[54:54] Speaker_C: 따라서 필터링을 수행하는 올바른 변환은 노이즈가 얼마나 있는지에 따라 달라집니다.\n[55:01] Speaker_C: 그래서 JRASTA에서는 그것을 시도합니다.\n[55:12] Speaker_C: 그래서, 정말.\n[55:12] Speaker_C: .\n[55:12] Speaker_C: .\n[55:50] Speaker_C: 응 .\n[55:57] Speaker_A: 나를 위한 것이었습니다.\n[56:02] Speaker_A: 레이블이 있는 이유는 알바이신이라는 레이블이 있는 프로그램이 신경망을 훈련하는 레이블과 다르기 때문입니다.\n[56:13] Speaker_A: 그리고 그것은 우리가 해야 할 또 다른 작업이며, 변화시키는 것입니다.\n[56:20] Speaker_C: 나는 이해하지 못했습니다.\n[56:28] Speaker_A: 라벨.\n[56:28] Speaker_A: 미안해, 미안해.\n[56:28] Speaker_A: 라벨.\n[56:28] Speaker_A: 미안해.\n[48:00] Speaker_C: HTK를 위해서요?\n[48:00] Speaker_C: 정말요?\n[48:00] Speaker_A: 응 .\n[48:02] Speaker_A: 잘 .\n[48:02] Speaker_C: 무엇을 실행하나요?\n[48:14] Speaker_A: 하나 .\n[48:16] Speaker_D: 모르겠습니다 .\n[48:31] Speaker_G: 몇 시간이에요?\n[48:33] Speaker_C: 몇 시간 정도 걸립니다.\n[48:35] Speaker_F: 흠 .\n[48:35] Speaker_C: 응 .\n[48:37] Speaker_G: 그리고 그것은 글쎄요.\n[48:40] Speaker_C: 그렇죠.\n[48:40] Speaker_C: 그러니까, 분명히 말씀드리자면, 우리가 여러 대의 기계를 사용하지 않는 한, 여기서 상당한 양의 작업을 시작할 수 있는 방법은 없습니다.\n[48:41] Speaker_G: 6시간이에요.\n[49:48] Speaker_B: SPERT 보드에서.\n[49:50] Speaker_A: 신경망 SPERT라고 생각합니다.\n[49:51] Speaker_B: 당신이 SPERT 보드에서 그것을 했다면요.\n[49:53] Speaker_C: 좋습니다.\n[49:53] Speaker_C: 다시 말씀드리지만, 우리는 SPERT 보드를 꽤 많이 가지고 있습니다.\n[49:56] Speaker_B: 응 .\n[49:58] Speaker_C: 그리고 저는 여러분이 지금",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bro003\\05_final_result.json",
+    "utterance_count": 746,
+    "original_transcript_length": 25793,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 25793
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 6,
+      "chunk_length": 4999
+    },
+    "processing_date": "2025-08-13T14:38:24.324970"
+  }
+}

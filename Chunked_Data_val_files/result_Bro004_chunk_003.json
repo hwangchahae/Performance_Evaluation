@@ -1,0 +1,32 @@
+{
+  "id": "result_Bro004_chunk_003",
+  "source_dir": "result_Bro004",
+  "chunk_text": "[43:36] Speaker_H: 응 .\n[43:38] Speaker_D: 오른쪽 .\n[43:41] Speaker_A: 그것은 하나입니다.\n[43:41] Speaker_D: 응 .\n[43:43] Speaker_D: 하지만 흥미로운 건데요.\n[43:49] Speaker_H: 응 .\n[43:50] Speaker_D: 응 .\n[44:01] Speaker_D: 그래서 제 생각엔, 우리가 해야 할 일이 있다고 생각해요.\n[44:48] Speaker_D: 그래서 그들은 VAD를 하고 있다고 생각합니다.\n[44:54] Speaker_D: 그래서 그들은 방금 그물을 훈련했습니다.\n[45:23] Speaker_D: 하지만 반면에 그들은 더 작은 그물로도 버틸 수 있을지도 모릅니다.\n[45:50] Speaker_A: 하지만 결과에 대한 의문이 있습니다.\n[46:03] Speaker_D: 죄송하지만, 질문을 이해할 수 없습니다.\n[46:14] Speaker_D: 훈련 중이에요.\n[46:32] Speaker_D: 예 .\n[46:53] Speaker_D: 이전 실험에서는 LDA를 복용했습니다.\n[46:58] Speaker_A: 응 .\n[47:05] Speaker_A: 세트 .\n[47:26] Speaker_H: 특징은 그렇죠.\n[47:28] Speaker_H: 응 .\n[47:29] Speaker_D: 기준 ASP라고 적혀있습니다.\n[47:35] Speaker_G: ASP.\n[47:38] Speaker_G: 오 .\n[47:39] Speaker_G: 여기 있습니다.\n[47:46] Speaker_D: 하나\n[47:47] Speaker_D: 그 위에 기준선 오로라가 있으니까요.\n[47:52] Speaker_D: 이는 대부분 기준선보다 나았지만, 몇몇 경우에는 조금 나빴습니다.\n[47:56] Speaker_A: 응 .\n[48:02] Speaker_G: 기준선에서.\n[48:02] Speaker_G: 확인.\n[48:06] Speaker_D: 우리가 오리건에 있었을 때요.\n[48:13] Speaker_D: 오 .\n[54:05] Speaker_E: 흠 .\n[54:14] Speaker_E: 흠 .\n[54:17] Speaker_E: 응 .\n[54:24] Speaker_E: 내 말은 내가 w\n[54:36] Speaker_E: 따라서 HTK의 침묵 모델은 항상 그것을 선택합니다.\n[54:48] Speaker_E: 흠 .\n[54:48] Speaker_D: 하지만 그들이 무엇을 했든, 그들은 이 특정 평가 규칙에 따라 플레이해야 했습니다.\n[54:51] Speaker_E: 응 .\n[55:01] Speaker_E: 응 .\n[55:06] Speaker_D: 응 .\n[55:21] Speaker_D: 음, 저는 이 숫자를 오프라인에서 조금 살펴보고 그것에 대해 생각하고 이 회의 밖의 모든 사람들과 이야기를 나누고 싶습니다.\n[28:15] Speaker_D: 응 .\n[28:16] Speaker_H: 응 .\n[28:26] Speaker_D: 예 .\n[28:28] Speaker_D: 예 .\n[28:48] Speaker_H: 다른 점이 있었고 다른 점이 있었고\n[29:15] Speaker_H: 그래서 더 빨리 적응합니다\n[30:02] Speaker_H: 그리고 Pratibha는 다른 일을 했습니다.\n[30:02] Speaker_H: 즉, 그녀는 평균과 분산의 값을 초기화했습니다.\n[30:18] Speaker_H: 다른 사소한 차이점도 있었는데,\n[30:45] Speaker_H: 우리는 그것이 약간 다르다고 생각합니다.\n[31:02] Speaker_D: 응 .\n[31:10] Speaker_H: 하지만, 비슷하죠.\n[55:48] Speaker_D: 하나\n[56:39] Speaker_H: 응 .\n[56:55] Speaker_D: 계산?\n[57:04] Speaker_H: 하지만 그렇죠.\n[57:10] Speaker_H: 진을 사용하셨던 건가요?\n[57:16] Speaker_D: 응 ,\n[57:17] Speaker_A: 예 .\n[57:24] Speaker_G: 토닉.\n[57:32] Speaker_D: 안에\n[57:33] Speaker_D: 계속하세요.\n[49:30] Speaker_H: 응 .\n[49:31] Speaker_H: 그리고.\n[49:31] Speaker_H: .\n[49:31] Speaker_H: .\n[49:34] Speaker_D: 응 .\n[49:36] Speaker_H: 그것\n[50:18] Speaker_E: 응 .\n[50:19] Speaker_E: 응 .\n[50:20] Speaker_D: 하나 .\n[50:44] Speaker_E: 게다가 지연도 발생할 겁니다.\n[51:07] Speaker_D: TLDA와 SLDA의 차이점은 무엇인지 모르겠습니다.\n[51:09] Speaker_G: 시간적, 스펙트럼적.\n[51:12] Speaker_A: 시간적 LDA.\n[51:15] Speaker_D: 단 하나.\n[51:41] Speaker_D: 단 하나\n[52:31] Speaker_D: 다양한 기능 조합 및 다중 대역\n[53:43] Speaker_D: 하나 .\n[54:04] Speaker_D: 하지만 저는 그렇지 않다고 생각해요.\n[59:57] Speaker_H: 응 .\n[59:59] Speaker_D: 그것들은 거의 비슷한 것 같군요?\n[48:14] Speaker_H: 그렇겠죠.\n[48:14] Speaker_H: 그렇죠.\n[48:16] Speaker_E: 그들은\n[48:21] Speaker_D: 그래서 그들이 여기서 하는 일은,\n[48:22] Speaker_H: 응 .\n[48:53] Speaker_G: 흠 .\n[48:54] Speaker_D: 오른쪽 ?\n[48:59] Speaker_E: 이해가 안 가요.\n[48:59] Speaker_E: 프레임을 버린다는 말씀이신가요?\n[49:02] Speaker_D: 그건 프레임의 일부를 버리는 거예요.\n[49:03] Speaker_D: 중앙값 필터는 단일 프레임 사례나 분리된 프레임이 되지 않도록 강제합니다.\n[49:07] Speaker_E: 응 .\n[49:17] Speaker_D: 응 .\n[49:19] Speaker_D: 잘 ,\n[49:19] Speaker_H: 나\n[49:22] Speaker_H: 응 .\n[49:25] Speaker_E: 응 .\n[57:33] Speaker_F: 우리는 그 큰 새로운 IBM 기계를 가지고 있습니까?\n[57:57] Speaker_D: 그래서 800MHz의 프로세서 8개를 갖는 대신, 550MHz의 프로세서 2개를 갖게 되었습니다.\n[58:18] Speaker_D: 바라건대, 그들이 우리에게 더 많은 것을 가져다 줄 거야\n[58:36] Speaker_F: 그리고 우리가 리눅스에서 일을 할 수 있다면, 우리가 이미 가지고 있는 기계 중 일부는 Swede처럼 작동할 수 있을까요?\n[58:41] Speaker_F: 하나\n[58:45] Speaker_F: 저는 퍼지도 꽤 빠르다고 생각해요.\n[59:22] Speaker_D: 하지만 .\n[59:45] Speaker_D: 그렇지 않나요?\n[08:39] Speaker_D: 내일 에르베가 온다는 거 알지?\n[08:40] Speaker_D: 그래서 우리가 전화하면\n[08:40] Speaker_H: 물론이죠.\n[08:44] Speaker_D: 에르베가 강연을 할 거예요.\n[08:48] Speaker_B: 난 배리야.\n[08:57] Speaker_D: 모두가\n[08:58] Speaker_D: 이전 회의에서 모두 동의서에 서명하셨나요?\n[08:58] Speaker_D: 매번 다시 서명할 필요는 없습니다.\n[09:05] Speaker_D: 예 .\n[09:07] Speaker_D: 마이크 꺼짐",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bro004\\05_final_result.json",
+    "utterance_count": 413,
+    "original_transcript_length": 12710,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_H"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 12710
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 3,
+      "chunk_length": 3764
+    },
+    "processing_date": "2025-08-13T14:38:24.327897"
+  }
+}

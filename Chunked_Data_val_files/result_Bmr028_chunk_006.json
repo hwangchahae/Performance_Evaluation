@@ -1,0 +1,32 @@
+{
+  "id": "result_Bmr028_chunk_006",
+  "source_dir": "result_Bmr028",
+  "chunk_text": ".\n[49:06] Speaker_A: 그래서.\n[51:44] Speaker_D: 내 말은, 당신이 일종의 확인을 할 수 있다는 것입니다.\n[51:51] Speaker_E: 마이크가 꺼졌을 때 0이 나오지 않게 하려는 건가요?\n[51:55] Speaker_H: 무슨 출력이 나오나요?\n[51:55] Speaker_C: 정말 ?\n[51:55] Speaker_E: 응.\n[51:56] Speaker_B: 그렇다면 회의 중에 어떻게 감지하시나요?\n[51:58] Speaker_D: 나는 임계값을 사용합니다.\n[52:00] Speaker_D: 특정 값보다 낮으면 노란색으로 깜박입니다.\n[52:00] Speaker_D: 그래서 제가 말했지만 완벽하지는 않습니다.\n[52:13] Speaker_B: 오른쪽 .\n[52:14] Speaker_H: 흠 .\n[50:34] Speaker_B: 저는 정말 좋은 생각이라고 생각합니다.\n[50:38] Speaker_B: 가끔 신호가 끊기는 회의는 별로 좋아하지 않아요.\n[50:38] Speaker_B: 그래서,\n[50:46] Speaker_B: 전사하기 전에 신호 품질을 확인할 수 있는 방법이 있고 문제가 발견되면,\n[50:51] Speaker_B: 다른 회의에 가는 게 훨씬 나을 것 같아요.\n[50:57] Speaker_G: 응 .\n[51:01] Speaker_A: 그러니까, 우리는 그 중 일부를 가지고 있습니다.\n[51:10] Speaker_D: 그래서 .\n[51:10] Speaker_A: 글쎄요, 거기에는 또 다른 측면이 있습니다.\n[51:19] Speaker_D: 오른쪽 .\n[51:23] Speaker_A: 다른 사람들의 신호를 포착하는 거죠.\n[51:28] Speaker_A: 특정 조정을 위해 의도됨.\n[51:34] Speaker_G: 흠 .\n[49:15] Speaker_H: 흠 .\n[49:15] Speaker_D: 당신은 내가 다시 그걸 하길 원한다고 말하고 있는 걸로 추측합니다.\n[49:19] Speaker_A: 왜냐하면 나는 그것을 발견하고 있기 때문이다.\n[49:24] Speaker_A: 마이크가 일찍 꺼진 한 데이터 세트,\n[49:33] Speaker_D: 흠 .\n[49:42] Speaker_F: 디\n[49:44] Speaker_F: 배터리가 다 된 것 같나요?\n[49:45] Speaker_A: 제 생각엔 그렇습니다.\n[49:45] Speaker_A: 늦게 고장난 두 개는 배터리 문제였던 것 같습니다.\n[49:57] Speaker_D: 물론 가능하지만, 많은 데이터를 잃게 될 거예요.\n[49:57] Speaker_D: 하지만 제 말은,\n[49:58] Speaker_G: 응 .\n[50:04] Speaker_D: 내 말은, 네가 칠판을 올려다보고 있고 내가\n[50:14] Speaker_A: 음, 그들이 데이터를 얻기 전에 우리가 데이터를 검토해야 하는지 여부\n[50:23] Speaker_A: 그리고 그리고, 나는 회의의 어떤 부분에서는 7개의 마이크 중 3개가 작동하지 않으면 제한된다는 것을 알고 있습니다.\n[50:32] Speaker_B: 응 .\n[44:21] Speaker_G: 응 .\n[44:21] Speaker_E: 제 실험에서, 저는 이런 식으로 속임수를 썼습니다.\n[44:21] Speaker_E: .\n[44:21] Speaker_E: 제 말은, 리즈가 말했던 또 다른 것은,\n[44:26] Speaker_E: 스위치보드 테스트에서 우리가 수행해 온 모든 스위치보드 테스트에서\n[44:34] Speaker_E: 동일한 표준 방식을 사용하여 데이터를 테스트합니다.\n[44:46] Speaker_E: 그래서 저는 그것이 사람들이 잘라고 말한다면 그것은 좋은 경고라고 생각합니다.\n[44:55] Speaker_E: 실제 작업 전체를 이런 식으로, 이런 식으로, 이런 식으로 하고 있습니다.\n[44:55] Speaker_E: 하지만,\n[45:12] Speaker_E: 응 .\n[45:12] Speaker_D: 제가 늘 보는 또 다른 것인데요,\n[45:15] Speaker_E: 물론이죠.\n[45:16] Speaker_D: 당신은 그것이 알려져 있다고 가정합니다.\n[20:45] Speaker_E: 응 .\n[20:45] Speaker_B: 그러니까 우리는 할 수 없다는 뜻이에요.\n[20:45] Speaker_A: 응 .\n[20:46] Speaker_B: 음, 회의 데이터도 저장하나요?\n[20:46] Speaker_B: 맞죠?\n[20:50] Speaker_D: 하지만 한 시간 정도는 다운될 거예요.\n[20:53] Speaker_B: 그러니까 첫 번째 회의가 그 시간에 열리는 두 회의를 연속으로 할 수는 없는 거예요.\n[20:57] Speaker_D: 오른쪽 .\n[20:58] Speaker_D: 여기에 보관하면 됩니다.\n[21:00] Speaker_D: 여기에 보관하면 됩니다.\n[21:02] Speaker_D: 충돌이 발생하면 데이터가 손실될 위험이 있습니다.\n[21:02] Speaker_D: 그래서요.\n[21:02] Speaker_B: 일시적으로.\n[21:08] Speaker_A: 응?\n[21:15] Speaker_E: 저희는 Popcorn에 데이터를 저장합니다.\n[21:15] Speaker_D: 그 밖에 다른 것이 있나요?\n[53:18] Speaker_A: 콘텐츠를 전부 잃는 대신에.\n[53:19] Speaker_D: ?\n[53:19] Speaker_D: 이 있나요?\n[53:24] Speaker_D: 원거리.\n[53:24] Speaker_D: 그렇죠.\n[53:34] Speaker_B: 응 .\n[53:34] Speaker_H: 오른쪽 .\n[53:36] Speaker_B: 응 .\n[53:40] Speaker_B: 그래서요.\n[53:46] Speaker_A: 그리고 우리는 너무 많은 것을 가지고 있습니다.\n[53:50] Speaker_C: 응 .\n[53:51] Speaker_B: 그렇죠.\n[53:51] Speaker_B: 하지만 번역 능력이 부족해요.\n[53:52] Speaker_A: 우리는 너무 많은 백로그를 가지고 있습니다.\n[53:52] Speaker_A: 좋은 회의의 백로그를 처리할 수 있도록 하려면\n[53:57] Speaker_B: 응 .\n[53:58] Speaker_D: 혹시 ?\n[53:58] Speaker_D: 방해해서 죄송합니다.\n[53:58] Speaker_D: 4시에 교육 회의가 있나요?\n[54:02] Speaker_H: 흠 .\n[54:02] Speaker_B: 4시 약속은 취소할 수 있고, 4시 20분에 시작할 거고, 4시 15분에 준비할게.\n[54:02] Speaker_G: 저는 그렇게 생각하지 않습니다.\n[54:05] Speaker_D: 알겠습니다.\n[54:06] Speaker_D: 좋은 .\n[54:09] Speaker_B: 응 .\n[54:12] Speaker_E: 동시에 숫자를 읽습니다.\n[54:12] Speaker_E: 간식을 얻는 것에 관심이 있습니다.\n[54:22] Speaker_H: 오른쪽 .\n[54:24] Speaker_D: 모두 준비됐나요?\n[54:24] Speaker_D: 숫자를 동시에 읽는 중인가요?\n[54:24] Speaker_D: 셋!\n[54:24] Speaker_D: 둘!\n[54:24] Speaker_D: 하나!\n[54:24] Speaker_A: 응 .\n[54:28] Speaker_H: 나 자신을 위해 -\n[52:18] Speaker_B: 따라서 이미 녹음된 회의에 대해 사후 분석을 실행할 수 있습니다.\n[52:29] Speaker_B: 이렇게 많은 노력을 들인 후에 문제가 생길 회의 내용을 기록하지 않는 게 낫습니다.\n[52:46] Speaker_A: 백채널.\n[52:47] Speaker_D: 좋은 단서가 될 수 있죠.\n[52:47] Speaker_D: 제 말은, 만약 그게 너무 낮다면,\n[52:50] Speaker_C: 흠 .\n[52:50] Speaker_G: 응 .\n[52:53] Speaker_G: 가끔은 그것들을 섞을 때 그걸 포착할 수도 있고요.\n[52:56] Speaker_D: 정확히 그래요.\n[53:13] Speaker_A: 해당 주제를 아는 사람 한 명에게 돈을 지불하여 회의 내용의 개요를 작성하게 합니다.\n[53:16] Speaker_D: 응.\n[31:18] Speaker_B: 흠.\n[31:29] Speaker_B: 응 .\n[31:32] Speaker_E: 응 .\n[31:33] Speaker_D: 그것은 매우 빠르겠죠,\n[31:43] Speaker_D: Matlab에서 C를 내보낼 수 없나요?\n[32:04] Speaker_E: 내가 그에게 그걸 말하지 않았다고 생각해?\n[32:06] Speaker_E: 대사가 완전히 사라졌거든요.\n[32:06] Speaker_E: .\n[32:06] Speaker_E: .\n[32:13] Speaker_H: 흠 .\n[32:14] Speaker_E: 무엇 ?\n[32:15] Speaker_A: 연설 외에 다른 건 다 없앴나요?\n[32:15] Speaker_A: 와.\n[32:17] Speaker_D: 원래 신호에서 그것을 빼면 설정됩니다.\n[37:33] Speaker_D: 오른쪽 .\n[37:34] Speaker_B: 응 .\n[37:40] Speaker_D: 내 생각은 이렇습니다.\n[37:45] Speaker_D: 괜찮은 .\n[37:55] Speaker_D: 세그먼트 내에서요.\n[37:55] Speaker_D: 그렇죠.\n[37:58] Speaker_H: 그리고 당신이 그것에 대한 크레딧을 얻을 수 있도록.\n[37:58] Speaker_H: 그래서.\n[38:01] Speaker_A: 좋은 생각이에요.\n[38:02] Speaker_H: 그러니까요.\n[38:16] Speaker_A: ~에\n[38:19] Speaker_A: 이이이와 함께\n[38:31] Speaker_B: 글쎄요, 그것은 분명히 강제 정렬에도 도움이 됩니다.\n[38:31] Speaker_B: 왜냐하면,\n[38:44] Speaker_B: 예를 들어, 프런트엔드 회의나 전문 용어가 많이 나오는 회의 같은 경우\n[38:47] Speaker_B: 스위치보드에 표현되지 않습니다.\n[38:51] Speaker_A: 우리 회의에는 전문 용어",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bmr028\\05_final_result.json",
+    "utterance_count": 814,
+    "original_transcript_length": 27961,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_H"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 27961
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 7,
+      "chunk_length": 5000
+    },
+    "processing_date": "2025-08-13T14:38:24.319958"
+  }
+}

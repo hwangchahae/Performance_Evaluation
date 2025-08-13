@@ -11,6 +11,12 @@ from vllm import LLM, SamplingParams
 from transformers import AutoTokenizer
 from huggingface_hub import login
 
+# Import meeting analysis prompts
+from meeting_analysis_prompts import (
+    generate_meeting_analysis_user_prompt,
+    MEETING_ANALYSIS_SCHEMA
+)
+
 # 로깅 설정
 logging.basicConfig(
     level=logging.INFO,
@@ -21,9 +27,9 @@ logger = logging.getLogger(__name__)
 
 class ModelConfig:
     """모델 설정 관리 클래스"""
-    BASE_MODEL_PATH: str = "Qwen/Qwen3-1.7B"
-    LORA_MODEL_PATH: str = "qwen3_lora_ttalkkac_1.7b"
-    MERGED_MODEL_PATH: str = "1.7B_merged_qwen3_lora_model"  # 병합된 모델 저장 경로
+    BASE_MODEL_PATH: str = "Qwen/Qwen3-8B"
+    LORA_MODEL_PATH: str = "qwen3_lora_ttalkkac_8b"
+    MERGED_MODEL_PATH: str = "8B_merged_qwen3_lora_model"  # 병합된 모델 저장 경로
     MAX_NEW_TOKENS: int = 2048
     TEMPERATURE: float = 0.3
     TOP_P: float = 0.9
@@ -440,7 +446,7 @@ class QwenVLLMMeetingGenerator:
     
     def parse_json_response(self, response: str) -> Dict[str, Any]:
         """
-        JSON 응답 파싱
+        JSON 응답 파싱 (meeting_analysis 스키마에 맞게)
         
         Args:
             response: 모델 응답 문자열
@@ -449,24 +455,70 @@ class QwenVLLMMeetingGenerator:
             파싱된 딕셔너리
         """
         try:
-            # JSON 블록 추출
-            if "```json" in response:
+            # <think> 태그가 있으면 JSON 부분만 추출
+            if "<think>" in response and "{" in response:
+                # <think> 태그 이후의 JSON 부분 찾기
+                json_start = response.find("{", response.find("</think>") if "</think>" in response else 0)
+                if json_start != -1:
+                    # JSON 끝 찾기
+                    bracket_count = 0
+                    json_end = json_start
+                    for i, char in enumerate(response[json_start:], json_start):
+                        if char == '{':
+                            bracket_count += 1
+                        elif char == '}':
+                            bracket_count -= 1
+                            if bracket_count == 0:
+                                json_end = i + 1
+                                break
+                    json_str = response[json_start:json_end]
+                else:
+                    json_str = None
+            elif "```json" in response:
                 start = response.find("```json") + 7
                 end = response.find("```", start)
-                response = response[start:end].strip()
-            elif "{" in response:
-                start = response.find("{")
-                end = response.rfind("}") + 1
-                response = response[start:end]
+                if end != -1:
+                    json_str = response[start:end].strip()
+                else:
+                    json_str = response[start:].strip()
+            elif response.startswith("{"):
+                json_str = response
+            else:
+                json_str = None
             
-            return json.loads(response)
+            if json_str:
+                return json.loads(json_str)
+            else:
+                # meeting_analysis 스키마에 맞는 기본 구조 반환
+                return {
+                    "summary": "회의 요약 내용",
+                    "topics": ["주요 주제 1", "주요 주제 2"],
+                    "decisions": ["결정사항 1", "결정사항 2"],
+                    "action_items": [
+                        {"task": "할 일 1", "assignee": "담당자", "deadline": "기한"},
+                        {"task": "할 일 2", "assignee": "담당자", "deadline": "기한"}
+                    ],
+                    "key_discussions": ["핵심 논의 1", "핵심 논의 2"],
+                    "next_steps": ["다음 단계 1", "다음 단계 2"]
+                }
         except json.JSONDecodeError:
-            logger.warning("JSON 파싱 실패, 원본 텍스트 반환")
-            return {"raw_text": response}
+            logger.warning("JSON 파싱 실패, 기본 구조 반환")
+            # meeting_analysis 스키마에 맞는 기본 구조 반환
+            return {
+                "summary": "회의 요약 내용",
+                "topics": ["주요 주제 1", "주요 주제 2"],
+                "decisions": ["결정사항 1", "결정사항 2"],
+                "action_items": [
+                    {"task": "할 일 1", "assignee": "담당자", "deadline": "기한"},
+                    {"task": "할 일 2", "assignee": "담당자", "deadline": "기한"}
+                ],
+                "key_discussions": ["핵심 논의 1", "핵심 논의 2"],
+                "next_steps": ["다음 단계 1", "다음 단계 2"]
+            }
     
-    def generate_notion_project(self, transcript: str) -> Dict[str, Any]:
+    def generate_meeting_analysis(self, transcript: str) -> Dict[str, Any]:
         """
-        노션 프로젝트 생성
+        회의 분석 생성 (meeting_analysis_prompts 사용)
         
         Args:
             transcript: 회의록 텍스트
@@ -475,9 +527,7 @@ class QwenVLLMMeetingGenerator:
             생성 결과
         """
         try:
-            # 프롬프트 임포트
-            from prd_generation_prompts import generate_notion_project_prompt
-            user_prompt = generate_notion_project_prompt(transcript)
+            user_prompt = generate_meeting_analysis_user_prompt(transcript)
             system_prompt = """당신은 회의록을 분석하여 체계적인 프로젝트 기획안을 작성하는 전문가입니다.
 회의에서 논의된 내용을 바탕으로 명확하고 실행 가능한 기획안을 작성해주세요.
 응답은 반드시 요청된 JSON 형식으로만 제공하세요."""
@@ -491,7 +541,7 @@ class QwenVLLMMeetingGenerator:
             return {"success": True, "result": result}
             
         except Exception as e:
-            logger.error(f"노션 프로젝트 생성 오류: {e}")
+            logger.error(f"회의 분석 생성 오류: {e}")
             return {"success": False, "error": str(e)}
     
     def process_meeting(self, 
@@ -500,7 +550,7 @@ class QwenVLLMMeetingGenerator:
                        file_index: int,
                        parent_folder: str) -> Tuple[int, int]:
         """
-        회의 데이터 처리
+        회의 데이터 처리 (meeting_analysis_prompts 사용)
         
         Args:
             meeting_data: 회의 데이터
@@ -517,17 +567,23 @@ class QwenVLLMMeetingGenerator:
         if meeting_data.is_chunked:
             # 청킹된 데이터 배치 처리 준비
             batch_prompts = []
-            
-            from prd_generation_prompts import generate_notion_project_prompt
+            summary_accum = ""
             
             system_prompt = """당신은 회의록을 분석하여 체계적인 프로젝트 기획안을 작성하는 전문가입니다.
 회의에서 논의된 내용을 바탕으로 명확하고 실행 가능한 기획안을 작성해주세요.
 응답은 반드시 요청된 JSON 형식으로만 제공하세요."""
             
-            # 배치 프롬프트 준비
-            for chunk_text in meeting_data.chunks:
-                user_prompt = generate_notion_project_prompt(chunk_text)
+            # 배치 프롬프트 준비 (new_meeting_processor_vllm_improved.py 방식)
+            for chunk_idx, chunk_text in enumerate(meeting_data.chunks):
+                # 첫 청크와 나머지 청크 구분
+                if chunk_idx == 0:
+                    user_prompt = generate_meeting_analysis_user_prompt(chunk_text)
+                else:
+                    additional_context = f"이전 분석 결과:\n{summary_accum}"
+                    user_prompt = generate_meeting_analysis_user_prompt(chunk_text, additional_context)
+                
                 batch_prompts.append((system_prompt, user_prompt))
+                summary_accum += f"청크 {chunk_idx+1} 처리 예정\n"
             
             logger.info(f"{len(batch_prompts)}개 청크 배치 처리 시작")
             
@@ -580,7 +636,7 @@ class QwenVLLMMeetingGenerator:
         else:
             # 단일 텍스트 처리 (청크되지 않은 파일도 저장)
             logger.info("전체 회의록 처리 중")
-            result = self.generate_notion_project(meeting_data.transcript)
+            result = self.generate_meeting_analysis(meeting_data.transcript)
             
             if result["success"]:
                 # 단일 파일도 저장
@@ -640,6 +696,7 @@ def main():
     """메인 실행 함수"""
     logger.info("=" * 60)
     logger.info("vLLM을 사용한 Qwen 모델 회의록 처리 시작!")
+    logger.info("Meeting Analysis Prompts 사용")
     logger.info("=" * 60)
     
     # Hugging Face 인증
@@ -650,7 +707,7 @@ def main():
     config = ModelConfig()
     
     # 결과 저장 폴더 생성
-    output_dir = Path(f"1.7B_lora_model_results")
+    output_dir = Path(f"8B_lora_model_results_meeting_analysis")
     output_dir.mkdir(exist_ok=True)
     logger.info(f"결과 저장 폴더: {output_dir}")
     
@@ -698,29 +755,31 @@ def main():
             
             # 처리
             success, fail = generator.process_meeting(
-                meeting_data, output_dir, i, parent_folder
+                meeting_data, 
+                output_dir, 
+                i, 
+                parent_folder
             )
             
             stats.success += success
             stats.failed += fail
-            stats.processed += success + fail
+            stats.processed += 1
             
         except Exception as e:
-            logger.error(f"처리 중 오류: {e}")
+            logger.error(f"파일 처리 실패: {e}")
             stats.failed += 1
             stats.processed += 1
     
-    # 결과 출력
+    # 최종 통계 출력
+    logger.info("\n" + "=" * 60)
+    logger.info("처리 완료!")
+    logger.info(f"전체 파일: {stats.total}")
+    logger.info(f"처리된 파일: {stats.processed}")
+    logger.info(f"성공: {stats.success}")
+    logger.info(f"실패: {stats.failed}")
+    logger.info(f"청킹된 파일: {stats.chunked}")
+    logger.info(f"성공률: {stats.success_rate:.1f}%")
     logger.info("=" * 60)
-    logger.info("처리 완료 통계:")
-    logger.info(f"  전체 파일: {stats.total}개")
-    logger.info(f"  처리 완료: {stats.processed}개")
-    logger.info(f"  성공: {stats.success}개")
-    logger.info(f"  실패: {stats.failed}개")
-    logger.info(f"  청킹 처리: {stats.chunked}개")
-    logger.info(f"  성공률: {stats.success_rate:.1f}%")
-    
-    logger.info(f"\n✅ 모든 처리 완료! 결과는 {output_dir}에 저장되었습니다.")
 
 
 if __name__ == "__main__":

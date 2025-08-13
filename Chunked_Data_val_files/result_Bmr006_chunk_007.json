@@ -1,0 +1,30 @@
+{
+  "id": "result_Bmr006_chunk_007",
+  "source_dir": "result_Bmr006",
+  "chunk_text": "r_D: 하나\n[41:00] Speaker_F: 응 .\n[41:02] Speaker_D: 20가지 기능을 추가하고 델타, 델타 델, 그리고 그 모든 것을 추가하세요.\n[41:07] Speaker_D: K-최근접 이웃이라 하더라도 그것이 무엇을 하는지 여전히 알 수 없습니다.\n[41:32] Speaker_F: 응 .\n[41:33] Speaker_D: 하나\n[39:44] Speaker_C: 오른쪽 .\n[39:44] Speaker_F: 응 .\n[39:46] Speaker_F: 응 .\n[39:48] Speaker_C: 오른쪽 .\n[39:48] Speaker_F: 응 .\n[39:53] Speaker_C: 오른쪽 .\n[39:54] Speaker_F: 나는 나는 또한 미분도 포함할 것이다\n[39:57] Speaker_C: 델타, 그렇죠.\n[39:57] Speaker_C: 그래서요.\n[39:59] Speaker_F: 도 .\n[40:05] Speaker_D: 나는 가져갈 것이다\n[40:05] Speaker_D: 몇 가지 기능만 추가하면 됩니다.\n[40:05] Speaker_D: MFCC나 PLP 같은 걸 다 사용하는 대신,\n[40:09] Speaker_F: 응 .\n[40:10] Speaker_D: 저는 몇 개만 가져갈 거예요.\n[40:12] Speaker_D: C-1, C-2 같은 식으로 시각화할 수 있도록요.\n[40:16] Speaker_D: 그리고 이러한 다양한 예를 살펴보고 산점도를 살펴보세요.\n[40:19] Speaker_F: 응 .\n[40:19] Speaker_D: 좋습니다.\n[38:41] Speaker_C: 오른쪽 .\n[38:51] Speaker_F: w 이런 종류의 eh, mmm, 클러스터, 클러스터링 알고리즘\n[39:01] Speaker_F: 당신은 할 수 없습니다,\n[39:02] Speaker_C: 그렇죠.\n[39:02] Speaker_C: 분석할 수는 없습니다.\n[39:05] Speaker_F: 신경망을 사용하면 좋은 생각이지만,\n[39:12] Speaker_D: 사실, 민감도 분석을 할 수 있습니다.\n[39:15] Speaker_D: 이는 입력의 다양한 부분들의 중요성이 무엇인지 보여줍니다.\n[39:18] Speaker_F: 응 .\n[39:25] Speaker_F: 응 .\n[39:25] Speaker_D: 하지만 실제로 이를 분석하고 다양한 입력의 효과를 파악하는 것은 그렇게 어렵지 않습니다.\n[39:25] Speaker_D: 특히 모든 입력이 정규화된 경우에는 더욱 그렇습니다.\n[39:30] Speaker_F: 응 .\n[39:31] Speaker_F: 응 .\n[39:31] Speaker_D: 하나 ,\n[39:35] Speaker_F: 응 .\n[30:42] Speaker_F: 각 프레임에 라벨을 붙여서 표시하고 싶거든요.\n[30:49] Speaker_F: 이건 감독 하에 진행되는 계층적 클러스터링 프로세스예요.\n[30:53] Speaker_F: 나는 나는 나는, 에, 에를 넣었다.\n[30:56] Speaker_F: 각 프레임마다\n[31:00] Speaker_F: 라벨\n[31:02] Speaker_F: 유형이 무엇인지 표시\n[31:12] Speaker_F: 중복된 연설\n[31:14] Speaker_F: 겹치는은 클래스입니다.\n[31:23] Speaker_E: 이건 수동으로 할당되나요?\n[31:23] Speaker_F: 그것은\n[31:29] Speaker_E: 응.\n[31:29] Speaker_F: 왜냐하면, 응,\n[31:32] Speaker_F: 첫 번째 세션에서,\n[29:37] Speaker_F: 에 에 에 에 에 그 에 .\n[29:37] Speaker_F: .\n[29:37] Speaker_F: .\n[29:44] Speaker_F: 나는 에,\n[29:46] Speaker_F: 나는 그것이 얼마인지, 수량이 얼마인지 기억하지 못하지만,\n[29:50] Speaker_F: 나는 이미 모든 중복된 영역에 충분한 연설을 표시했습니다.\n[29:58] Speaker_F: 다소 겹치는 영역 및\n[30:02] Speaker_A: 엄청난 .\n[30:03] Speaker_A: 엄청난 .\n[30:35] Speaker_F: 분류하다.\n[30:37] Speaker_F: 나는 eh가 필요해, 정확한 eh, 마크\n[30:40] Speaker_F: 다른 것의, 응,\n[33:13] Speaker_F: 응 .\n[33:18] Speaker_A: 오 !\n[33:21] Speaker_F: 응, 다른 이벤트가 있나요?\n[33:23] Speaker_D: 오른쪽 ,\n[33:30] Speaker_A: c처럼\n[33:30] Speaker_F: 수업은 무엇인가요?\n[33:33] Speaker_A: 오 .\n[33:34] Speaker_F: 에 대한 에 대한 에 의해\n[37:27] Speaker_F: 프런트엔드 접근 방식\n[38:02] Speaker_F: 다양한 매개변수를 올바르게 분류하는 과정입니다.\n[38:08] Speaker_F: 에, 그 분류기는 nnn이고 그 순간 에 에, 비슷한, nnn, 분류기가 에를 사용한 것과,\n[38:17] Speaker_F: 양화사 벡터 양화사\n[38:19] Speaker_F: eh는 eh에 사용되며, eh는 벡터 eh를 다른 클래스에 두는 데 사용됩니다.\n[38:28] Speaker_F: 그렇죠?\n[38:30] Speaker_F: W는 모델이 있는 경우 eh,  또는 유사성을 사용하여 클러스터링하는 것입니다.\n[38:37] Speaker_F: 또 다른 가능성은 신경망을 사용하는 것입니다.\n[36:35] Speaker_F: 그리고 그리고\n[36:43] Speaker_C: 오른쪽 .\n[36:47] Speaker_F: 응 .\n[36:47] Speaker_C: 그래서 우리는 모릅니다.\n[36:48] Speaker_F: 응 .\n[36:48] Speaker_F: 이것이 이것이고\n[36:52] Speaker_F: 얻다, 에,\n[37:03] Speaker_F: 에, 에, 스물다섯, 에, 서른 서른 매개변수,\n[37:10] Speaker_F: 그리고\n[37:11] Speaker_F: 첫 번째 eh, nnn, 단계에서\n[37:14] Speaker_F: 조사에서 조사에서\n[37:16] Speaker_F: 응, 내 생각은 이렇다\n[37:17] Speaker_F: 시도해 보세요, 응,\n[37:18] Speaker_F: 증명하기 위해,\n[37:19] Speaker_F: 차이 매개변수의 성능은 무엇입니까?\n[48:58] Speaker_D: 더 간단한 신호부터 시작하는 게 좋을 것 같습니다.\n[49:08] Speaker_D: 도움이 되는\n[49:15] Speaker_F: 응 .\n[49:19] Speaker_D: 당신이 혼합된 것으로 할 것입니다\n[49:26] Speaker_D: 그것들을 보세요,\n[49:30] Speaker_F: 응 .\n[49:35] Speaker_F: 응 .\n[49:36] Speaker_D: 더 큰 분류기를 사용하여.\n[49:37] Speaker_D: 그리고 만약 그것이 잘 작동하도록 할 수 있다면,\n[49:39] Speaker_D: 그러면 다른 신호로 가세요.\n[49:41] Speaker_D: 그리고 나서, 그리고 당신과 당신은 알다시피, 그들은 잘 작동하지 않을 것입니다, 하지만\n[49:41] Speaker_F: 응 .\n[49:42] Speaker_C: 오른쪽 .\n[49:45] Speaker_F: 응 .\n[49:46] Speaker_F: 응 .\n[43:18] Speaker_F: 나는 당신의 목적이 분류하는 것이라는 것을 이해합니다.\n[43:35] Speaker_F: 왜냐하면 미래에 당신은 에\n[43:38] Speaker_F: 그 영역을 처리하려고 시도하세요\n[43:48] Speaker_F: 겹치는 z eh 영역을 처리합니다.\n[44:06] Speaker_F: 그래서\n[44:14] Speaker_F: 시스템\n[44:17] Speaker_F: 두 가지 모델.\n[44:18] Speaker_F: 감지하는 모델\n[44:20] Speaker_F: 더 정확할수록 더 정확하다\n[44:23] Speaker_F: 그게 가능할 거야\n[44:38] Speaker_F: 견고한 모델, 샘플 모델이요.\n[44:42] Speaker_F: 분류하려고 시도하다\n[44:44] Speaker_F: 차이점 클래스.\n[44:46] Speaker_C: 무슨 모델이세요?\n[44:50] Speaker_F: 의 의 의\n[44:52] Speaker_F: 다른 클래스를 감지하려면\n[44:54] Speaker_F: 다른 구역으로\n[44:56] Speaker_F: 인식하려고 시도하기 전에, 응\n[44:59] Speaker_F: eh로 표기하다, eh로 표기하다\n[45:11] Speaker_F: 이 연구에서 얻은 정보를 가지고\n[45:16] Speaker_C: 특징이죠.\n[45:16] Speaker_C: 그렇죠.\n[45:18] Speaker_F: 선택된 매개변수를 사용하여 매개변수를 eh에 넣으려고 시도합니다.\n[45:25] Speaker_F: 각 프레임의 클래스.\n[45:28] Speaker_F: 에, 차이 구역에 대해서요\n[45:35] Speaker_F: 얻었다\n[45:37] Speaker_F: 첫 번째에\n[45:44] Speaker_F: 모델 비교\n[45:48] Speaker_A: 응 .\n[45:49] Speaker_F: 나\n[45:52] Speaker_D: 이전에 우리가 사용했던 스피커 변경 감지 기능에는 이러한 중복이 포함되지 않았습니다.\n[45:57] Speaker_F: 응 .\n[45:58] Speaker_D: 따라서 가장 먼저 해야 할 일은 중복을 감지할 수 있는 무언가를 만드는 것입니다.\n[46:01] Speaker_F: 응 .\n[46:01] Speaker_D: 그렇죠?\n[46:01] Speaker_D: 그래서 다시 생각해 보면\n[46:08] Speaker_F: 응 .\n[46:11] Speaker_D: 다시 말씀드리지만, 당신이 위에 적은 것들은 너무나 너무나 큰 것 같습니다.\n[46:12] Speaker_F: 응 .\n[46:14] Speaker_D: 만약 12번째, 12번째 순서의 MFCC 같은 거에 대해 이야기하는 거라면, 너무 과해",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bmr006\\05_final_result.json",
+    "utterance_count": 1183,
+    "original_transcript_length": 40348,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9,
+      "original_length": 40348
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 7,
+      "total_chunks": 9,
+      "chunk_length": 5000
+    },
+    "processing_date": "2025-08-13T14:38:24.298190"
+  }
+}

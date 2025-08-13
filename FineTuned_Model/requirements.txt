@@ -1,0 +1,21 @@
+# Core dependencies
+vllm>=0.5.0
+transformers>=4.40.0
+torch>=2.0.0
+tqdm>=4.65.0
+peft>=0.10.0  # For LoRA and other parameter-efficient fine-tuning
+
+# Additional utilities
+pathlib2>=2.3.7  # for Path operations (included in Python 3.4+, but listed for compatibility)
+
+# For JSON and file handling (standard library, but listed for clarity)
+# json, os, re, glob are part of Python standard library
+
+# Multiprocessing and threading (standard library)
+# multiprocessing, threading, concurrent.futures are part of Python standard library
+
+# Optional: for better performance
+numpy>=1.24.0  # Often required by transformers and torch
+accelerate>=0.20.0  # For model acceleration
+
+# Note: meeting_analysis_prompts.py should be in the same directory or in PYTHONPATH

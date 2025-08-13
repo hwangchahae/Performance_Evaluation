@@ -1,0 +1,30 @@
+{
+  "id": "result_Bro011_chunk_005",
+  "source_dir": "result_Bro011",
+  "chunk_text": "peaker_D: b를 최적화하다\n[27:29] Speaker_D: HTK 시스템을 다시 실행해 보세요.\n[27:32] Speaker_D: 그러니 그 차이점을 보세요\n[27:35] Speaker_D: 같은 일을 하세요\n[27:37] Speaker_D: ICSI - OGI\n[27:39] Speaker_D: 프런트엔드.\n[35:23] Speaker_C: 우리가 이야기했던 것과 같은 것들을 계속하세요.\n[35:26] Speaker_C: 오로라와\n[35:34] Speaker_F: 이 모든 사소한 것들과 함께\n[35:38] Speaker_F: 수정됨.\n[35:39] Speaker_F: 그리고 나서 하다\n[35:40] Speaker_F: 다른 것들,\n[35:41] Speaker_F: 스펙트럼 뺄셈을 가지고 놀다\n[35:44] Speaker_F: 그리고\n[35:46] Speaker_F: MSG 같은 걸 다시 시도해 보세요.\n[35:48] Speaker_C: 응 .\n[35:49] Speaker_C: 응 .\n[35:53] Speaker_F: 긴 목록?\n[35:58] Speaker_C: 그래서 .\n[35:59] Speaker_C: 내 생각엔\n[36:01] Speaker_C: 이 모든 일이 끝나고 나서\n[36:03] Speaker_C: 하나\n[34:52] Speaker_D: 오른쪽 .\n[34:53] Speaker_D: 오른쪽 .\n[34:54] Speaker_C: 만약 9가 6보다 더 낫다고 판단했다면, 사실 괜찮다고 생각합니다.\n[34:58] Speaker_D: 응 .\n[34:58] Speaker_C: 내려갈 필요는 없습니다.\n[35:04] Speaker_D: 티\n[35:08] Speaker_C: 응 .\n[35:08] Speaker_D: 그래서 .\n[35:13] Speaker_C: 시원한 .\n[35:19] Speaker_C: 여러분 여러분 다음 주 계획은 다음과 같습니다.\n[36:54] Speaker_B: 응 .\n[36:54] Speaker_F: 옥타브란 무엇입니까?\n[36:56] Speaker_F: 그것은\n[36:58] Speaker_F: 응 .\n[37:03] Speaker_D: 엄청난 !\n[37:04] Speaker_B: 응 .\n[37:04] Speaker_F: 그리고 그것은 동일한 구문을 수행하고 모든 것이 그렇습니다.\n[37:17] Speaker_B: Matlab을 이용해서 객체 지향적인 것들을 구현하는 거죠.\n[37:25] Speaker_B: 5 정도 또는 .\n[37:28] Speaker_D: 많은 기본\n[37:29] Speaker_B: 기본적인 것들이죠.\n[37:29] Speaker_D: 행렬과 벡터\n[37:31] Speaker_D: 그게\n[37:32] Speaker_D: 완벽한 .\n[37:33] Speaker_B: 응 .",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bro011\\05_final_result.json",
+    "utterance_count": 612,
+    "original_transcript_length": 19277,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 19277
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 5,
+      "chunk_length": 1373
+    },
+    "processing_date": "2025-08-13T14:38:24.331423"
+  }
+}

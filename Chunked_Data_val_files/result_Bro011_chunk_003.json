@@ -1,0 +1,30 @@
+{
+  "id": "result_Bro011_chunk_003",
+  "source_dir": "result_Bro011",
+  "chunk_text": "2:21] Speaker_C: 그는 이것들을 가지고 있다\n[22:22] Speaker_C: 하나\n[23:15] Speaker_C: 저것\n[23:16] Speaker_C: 특정한 것에 대해\n[23:17] Speaker_C: 데이터의 지점\n[23:23] Speaker_C: 특정 밴드를 훈련하다\n[23:25] Speaker_C: 특정 대역의 감지기.\n[23:25] Speaker_C: 무시하고 싶은 경우\n[23:28] Speaker_C: 그 밴드, 그건 금지 밴드인데, 엄청 시끄러운 밴드예요.\n[23:32] Speaker_C: 우리는 여전히 그것을 훈련시키려고 노력할 것입니다.\n[23:34] Speaker_C: 우리의 계획에서는 그것을 훈련하려고 할 것입니다\n[23:36] Speaker_C: 예측에 최선을 다한다.\n[23:41] Speaker_D: 그래서 그는 가질 필요가 없습니다\n[23:43] Speaker_D: 진실 표시\n[23:44] Speaker_D: 또는 호 -\n[23:45] Speaker_B: 그렇죠.\n[23:46] Speaker_C: 글쎄, 에 에\n[23:50] Speaker_B: 풀 밴드를 위해서요.\n[23:51] Speaker_C: 하지만 그는 그가 하는 일이지만 그가 훈련하지 않는 일이죠.\n[22:26] Speaker_C: 그는  그리고  이 다른 것들 사이에 있습니다\n[22:29] Speaker_C: 특징 .\n[22:31] Speaker_C: 그것은 부드러운  AND 인 것 같지만 원칙적으로는\n[22:39] Speaker_C: 그리고 그는 다른 소프트 OR에 걸쳐 OR을 OR로 표현합니다.\n[22:44] Speaker_C: 다중 대역 채널.\n[22:48] Speaker_C: 무게\n[22:51] Speaker_C: 응, 타겟이야\n[22:52] Speaker_C: AND   AND ' ed  의 훈련을 위해\n[22:55] Speaker_C: 유지되는 것입니다\n[22:57] Speaker_C: 숨겨진 변수로서,\n[23:00] Speaker_C: EM을 통해 학습됩니다.\n[23:05] Speaker_C: 취득\n[23:10] Speaker_C: 그것으로부터\n[10:17] Speaker_A: 그것은 내 것입니다\n[10:24] Speaker_C: 하나 .\n[10:35] Speaker_C: 우리가 부정행위 실험이라고 부르는 것\n[10:39] Speaker_E: 나는 호야\n[10:42] Speaker_E: 나는 에스펜이 그것을 해낼 수 있기를 바란다.\n[10:44] Speaker_E: 하나\n[10:44] Speaker_C: 오!\n[10:46] Speaker_C: F 하나\n[10:46] Speaker_E: ~에\n[10:47] Speaker_C: 위임하다.\n[10:49] Speaker_C: 위임하는 것은 좋은 일입니다.\n[20:03] Speaker_C: 그래서요.\n[20:11] Speaker_C: 이진 변수를 가져와\n[20:13] Speaker_C: 그리고 연속 변수를 가져옵니다.\n[20:28] Speaker_C: 응 .\n[20:32] Speaker_C: 살펴볼 수 있는 방향.\n[20:35] Speaker_C: 하나 .\n[20:36] Speaker_C: 하나 .\n[20:37] Speaker_C: 일반적으로 새로운 데이터를 살펴보는 것이 중요하며, 회의에 모든 사람을 참석시키지는 않을 것이기 때문에 숨겨진 변수가 될 것입니다.\n[20:46] Speaker_B: 오른쪽 .\n[20:46] Speaker_C: 하나 .\n[20:48] Speaker_C: 그래서 .\n[25:44] Speaker_C: 저것\n[25:47] Speaker_C: 모든 밴드.\n[25:55] Speaker_C: 하나 .\n[26:03] Speaker_C: 당신이 말할 곳을 기준으로 목표를 설정합니다\n[26:06] Speaker_C: 소리가 시작된다\n[26:08] Speaker_C: 특정 밴드에서.\n[26:22] Speaker_C: 내장된\n[26:23] Speaker_C: 우리가 몇 번이나 했던 것처럼 신경망 훈련\n[26:29] Speaker_C: 감마를 얻기 위해 전방 계산을 수행합니다.\n[24:41] Speaker_C: 그리고 만약 우리가 테스트 데이터를 대표할 만큼 충분한 데이터를 가지고 있다면\n[24:47] Speaker_C: 그렇다면 우리는 실제로 모든 것을 최대한 열심히 훈련하는 것이 옳은 일일 것입니다.\n[25:02] Speaker_D: 그의 타르 그의\n[25:09] Speaker_C: 응 .\n[25:13] Speaker_D: 응.\n[25:15] Speaker_C: 응 .\n[25:16] Speaker_B: 그는 몇 가지 미세 조정을 합니다\n[25:18] Speaker_B: 하나\n[25:24] Speaker_C: 응 .\n[25:27] Speaker_C: 내 말은 우리가 일종의 것을 가지고 있다는 것입니다.\n[25:30] Speaker_C: 반복적 훈련\n[25:31] Speaker_C: 우리가 이 내장형 Viterbi를 사용하기 때문에,\n[25:36] Speaker_C: 제안된 것,\n[26:32] Speaker_C: 그것에 대해 훈련하세요.\n[26:42] Speaker_D: 나는 w에 대해 조금 말할 수 있습니다\n[26:43] Speaker_D: 내가 가졌던 것들\n[26:44] Speaker_D: .\n[26:44] Speaker_D: 으로 놀다.\n[26:45] Speaker_C: 오 .\n[26:45] Speaker_D: 나는 하나\n[26:46] Speaker_C: 놀고 있나요?\n[26:47] Speaker_C: 놀고 있나요?\n[26:50] Speaker_D: 하나\n[26:51] Speaker_D: 그래서 나는\n[26:52] Speaker_D: 이 실험을 해보고 싶었어\n[26:58] Speaker_D: 시도하다\n[26:59] Speaker_D: 백엔드 성능을 개선하세요\n[27:02] Speaker_D: Aurora 작업을 위한 인식기\n[27:46] Speaker_D: 지금 바로 .\n[27:46] Speaker_D: 그래서 내가 지금까지 얻은 것은 내가\n[27:53] Speaker_D: 전체 HTK\n[28:00] Speaker_D: 스테판은 .\n[28:01] Speaker_D: 단 하나\n[28:06] Speaker_D: 내가 무엇을 바꿔야 할지 알고 싶은 지점에서\n[28:11] Speaker_D: 개선하기 위해서요.\n[28:12] Speaker_D: 그래서 .\n[28:13] Speaker_D: 내가 가장 먼저 생각한 것 중 하나는 그들이 사용한다는 사실이었습니다.\n[28:16] Speaker_D: 모든 상태에 대해 동일한 수의 상태\n[28:19] Speaker_D: 모델\n[28:20] Speaker_D: 그래서 나는 온라인에 접속했고\n[29:00] Speaker_D: 그래서 그들이 사용할 때\n[29:02] Speaker_D: 18개의 상태를 가진 모델이 있는데 실제로는 16개가 있습니다.\n[29:05] Speaker_D: 상태입니다.\n[29:05] Speaker_D: 초기 및 최종 null 상태가 있습니다.\n[29:10] Speaker_D: 그들의\n[29:11] Speaker_D: 18개 주에 대한 추측은 꽤 잘 맞는 것 같습니다.\n[29:24] Speaker_D: 꽤 가깝죠.\n[29:26] Speaker_D: 하나\n[29:30] Speaker_D: sh는 훨씬 더 짧습니다.\n[29:31] Speaker_D: 그래서 그들 대부분은\n[29:33] Speaker_D: 9개 주를 원해요.\n[29:34] Speaker_D: 그래서 그들의 것은 s입니다\n[29:37] Speaker_D: 그래서\n[29:39] Speaker_D: 나는 혼동 행렬을 인쇄했습니다\n[29:41] Speaker_D: 하나\n[29:44] Speaker_D: 사례 ,\n[29:53] Speaker_D: 이들 각각에 대해 동일한 양의 교육 데이터\n[29:55] Speaker_D: 숫자\n[29:56] Speaker_D: 그리고\n[29:57] Speaker_D: 모든 것에 대한 고정 길이 모델\n[30:03] Speaker_D: 절반 길이\n[30:04] Speaker_D: 너 정말\n[30:05] Speaker_D: 하나\n[30:06] Speaker_D: 가지다 ,\n[30:11] Speaker_D: 그리고 당신은 그것을 18개 주에 훈련시키고 있습니다.\n[30:15] Speaker_D: 알다시피, 당신은 같은 수의\n[30:17] Speaker_D: 가우시안의 경우 각각의 경우에 대해 훈련을 해야 하지만\n[30:24] Speaker_D: 그래서\n[30:25] Speaker_D: 그럴 수도 있겠지,\n[30:32] Speaker_D: 단 하나\n[30:38] Speaker_D: 하나\n[30:40] Speaker_D: 프로토타입 H M Ms에서 훈련을 시작합니다.\n[30:59] Speaker_D: 만들다\n[28:26] Speaker_D: 그리고 각각의 전화기 수를 살펴보았습니다.\n[28:29] Speaker_D: 숫자 중 하나.\n[28:31] Speaker_D: 하나\n[28:31] Speaker_D: 알다시피, 일종의\n[28:32] Speaker_D: 정식적인 방법\n[28:37] Speaker_D: 하나\n[28:38] Speaker_D: 전화기 하나당 3개 주\n[28:46] Speaker_D: 그래서 내가 그것을 했을 때\n[28:49] Speaker_D: 여러 주,\n[28:50] Speaker_D: 9개부터 낮은 범위까지\n[28:52] Speaker_D: 상위권은 18개.\n[28:54] Speaker_D: 하나 .\n[23:54] Speaker_C: 진실이 무엇인지에 달려있다\n[23:56] Speaker_C: 하나\n[24:02] Speaker_C: 소리가 공명적이라면\n[24:03] Speaker_C: 이 밴드에서는 공명인가요?\n[24:03] Speaker_C: 그 밴드에서는 공명인가요?\n[24:03] Speaker_C: 그 밴드에서는 공명인가요?\n[24:06] Speaker_B: 오른쪽 .\n[24:07] Speaker_C: 그래서\n[24:17] Speaker_C: 귀하의 결정을 내리는 데 도움이 됩니다.\n[24:23] Speaker_C: 어떤 의미에서는 당신이 모든 것을 사용해야",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bro011\\05_final_result.json",
+    "utterance_count": 612,
+    "original_transcript_length": 19277,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 19277
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 5,
+      "chunk_length": 4999
+    },
+    "processing_date": "2025-08-13T14:38:24.330503"
+  }
+}

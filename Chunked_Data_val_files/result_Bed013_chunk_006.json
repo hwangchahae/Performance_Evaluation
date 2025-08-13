@@ -1,0 +1,29 @@
+{
+  "id": "result_Bed013_chunk_006",
+  "source_dir": "result_Bed013",
+  "chunk_text": "4:49] Speaker_E: 그리고, 또한 그것은 할 수 있습니다\n[54:54] Speaker_E: 왜냐하면 만약 우리가 논문에 대한 예를 원한다면,\n[54:57] Speaker_E: 내 생각엔 그게 거기에 있을 거예요.\n[54:59] Speaker_D: 응 .\n[55:10] Speaker_E: 사람들이 모호함을 보는 방식을 알고 계시죠 그리고\n[57:40] Speaker_E: 3시 이후에\n[57:48] Speaker_E: 그리고 그것도\n[57:52] Speaker_E: 데이터 수집에 더 많은 내용을 추가하고 싶다면.\n[57:55] Speaker_E: 이 점을 기억하세요.\n[57:55] Speaker_E: 우리는 언제든지 설정을 완전히 바꿀 수 있습니다.\n[57:59] Speaker_E: 지금까지 우리가 얻은 결과를 살펴보세요.\n[58:04] Speaker_E: 과목?\n[58:05] Speaker_A: 50개요?\n[58:06] Speaker_E: 하지만 페이가\n[58:09] Speaker_A: 응 .\n[58:12] Speaker_E: 더 높은 숫자 중 일부.\n[58:14] Speaker_A: 흠 .\n[58:18] Speaker_E: 할 수 있다\n[58:19] Speaker_E: 에이\n[58:20] Speaker_D: 확신하는 .\n[58:22] Speaker_D: 혹시 있나요?\n[58:22] Speaker_D: 받는 즉시 게시되는 건가요?\n[58:22] Speaker_D: 필사해야 하는 건가요?\n[58:28] Speaker_E: 하나 .\n[58:39] Speaker_D: 응.\n[58:47] Speaker_E: 첫 번째 열두 명.\n[58:47] Speaker_E: 그리고\n[58:49] Speaker_D: 그래서요.\n[59:00] Speaker_E: a y y y 여러분은 Solaris 박스에서 이 모든 것을 들으실 수 있습니다.\n[59:05] Speaker_E: 원하신다면.\n[59:06] Speaker_D: 오른쪽 .\n[59:07] Speaker_E: 항상 재밌죠.\n[49:24] Speaker_A: 봅시다.\n[49:36] Speaker_A: 그것은 질문입니다.\n[49:36] Speaker_A: 그것은 질문입니다.\n[49:41] Speaker_A: 그것을 표현하는 데는 많은 구조가 필요합니다.\n[49:47] Speaker_E: 응 .\n[49:50] Speaker_E: 그래서, w\n[49:50] Speaker_A: 그래서 그게 당신이 말하는 거야?\n[49:51] Speaker_E: 그렇습니다.\n[49:51] Speaker_E: 우리는 두 가지를 지정했습니다.\n[49:53] Speaker_E: 기분에 따라서요.\n[50:12] Speaker_E: 그리고 g a와 t는 사용자의 지능에 대한 결론을 내립니다.\n[50:12] Speaker_E: 글쎄요, 그렇죠.\n[50:24] Speaker_A: 그렇죠?\n[50:28] Speaker_A: 그것에 따르면, 그것이 그것에 대응한다는 것을 당신은 알고 있으며, 담론도 마찬가지입니다.\n[50:31] Speaker_A: 그래서,\n[50:42] Speaker_A: 왜냐하면 그게 기본적으로 그렇거든요.\n[50:45] Speaker_A: 아직 진행 중이지만 아직 개발 중이지만 확실히 다양한 기능 슬롯, 속성이 있습니다.\n[50:50] Speaker_E: 응 .\n[50:57] Speaker_A: 응.\n[50:58] Speaker_E: 관찰할 수 있는 것에 대해 이야기합니다.\n[51:08] Speaker_E: 이것은 세상에서 유일한 발언입니다.\n[51:08] Speaker_E: 이것으로부터 우리는 무엇을 알 수 있을까요?\n[52:12] Speaker_A: 따라서 s 구조는 이 위치에 대한 질문이라고 할 수 있습니다.\n[52:21] Speaker_A: 라고 말하는 셈이죠.\n[52:21] Speaker_A: 그러니까 구조 같은 게 있는 거죠.\n[52:21] Speaker_D: 응 .\n[52:47] Speaker_D: 응 .\n[52:53] Speaker_E: 생각해 보세요.\n[52:53] Speaker_E: 생각해 보세요.\n[52:56] Speaker_A: 응 .\n[53:01] Speaker_E: 이것이 이미 그러한 계획을 감지하는 언어의 일부라고 말하는 것에 자신감이 있습니까?\n[53:01] Speaker_E: 그렇지 않다면 누가 위치에 대해 신경을 쓸까요?\n[53:11] Speaker_E: 등등.",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bed013\\05_final_result.json",
+    "utterance_count": 744,
+    "original_transcript_length": 24608,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 24608
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 6,
+      "chunk_length": 2170
+    },
+    "processing_date": "2025-08-13T14:38:24.286150"
+  }
+}

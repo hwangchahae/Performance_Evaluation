@@ -1,0 +1,28 @@
+{
+  "id": "result_ES2014d_chunk_003",
+  "source_dir": "result_ES2014d",
+  "chunk_text": "_D: 응.\n[39:15] Speaker_D: 응 .\n[39:19] Speaker_A: 제 생각에 가장 쉬운 방법은 메모를 적는 것인데, 저는 그렇게 할 겁니다.\n[39:49] Speaker_A: 창의성.\n[39:56] Speaker_C: 응 .\n[39:57] Speaker_D: 하지만 저는 개별 회의 사이의 구분이 다소 임의적이라고 생각했습니다.\n[40:04] Speaker_A: 개별 회의라니요?\n[40:04] Speaker_A: 무슨 말씀이신가요?\n[40:10] Speaker_A: 너는 혼자야.\n[40:45] Speaker_D: 응 .\n[40:51] Speaker_D: 응.\n[40:54] Speaker_D: 응 .\n[40:54] Speaker_B: 그러면 매번 나가서 더 많은 정보를 찾아보고, 그러면 다른 것들이 관련성이 있을 겁니다.\n[40:58] Speaker_D: 응 .\n[41:01] Speaker_D: 응 .\n[41:28] Speaker_D: 응 .\n[41:30] Speaker_C: .\n[41:30] Speaker_C: .\n[41:40] Speaker_C: 당신이 디자인할 수 있다고 상상할 수 있는 종류의 멋진 것.\n[41:43] Speaker_D: 응 .\n[41:43] Speaker_C: 지금으로선 이보다 더 좋은 예를 생각할 수 없습니다.\n[41:44] Speaker_A: 다른 것을 사용할 수도 있었을 텐데\n[41:57] Speaker_D: 응 .\n[41:57] Speaker_B: 이게 가는 거야?\n[42:01] Speaker_A: 창의성.\n[42:02] Speaker_B: 우리가 적어도 살펴보고 어떻게 개선할 수 있을지 생각해 볼 수 있는 무언가.\n[42:49] Speaker_D: 응 .\n[43:53] Speaker_D: 흠 .\n[43:55] Speaker_B: 응 .\n[43:58] Speaker_B: 음, 마지막 슬라이드를 보고 뭔가 더 있는지 확인해 볼까요?\n[44:03] Speaker_D: 응 .\n[44:12] Speaker_A: 찾았나요?\n[44:18] Speaker_A: 리더십, 팀워크.\n[44:35] Speaker_B: 응 .\n[44:37] Speaker_D: 응 .\n[44:37] Speaker_C: 글쎄요, 응용 방법이 다르죠.\n[44:44] Speaker_D: Mm .\n[44:54] Speaker_C: 응 .\n[45:21] Speaker_D: 고화질 DVD 및\n[45:25] Speaker_D: 분명 생산해야 할 것 같은데\n[45:48] Speaker_D: 응 .\n[46:02] Speaker_D: 응 .\n[46:04] Speaker_D: 응 .\n[46:36] Speaker_C: 컴퓨터에 연결해서 쓰나요?\n[46:46] Speaker_D: 난 거기에 조금이 있다고 생각해, 거기에 조금이 있다고\n[46:56] Speaker_C: 그렇죠.\n[47:03] Speaker_A: 하나나 둘 정도요.\n[47:06] Speaker_D: 응 .\n[47:35] Speaker_A: 인식 .\n[47:43] Speaker_D: 거의 .\n[47:51] Speaker_D: 안 돼 .\n[48:04] Speaker_D: 설문지 두 개와 지난 회의 보고서가 있는 것 같은데요.\n[48:08] Speaker_A: 응 .\n[48:20] Speaker_A: 지난번에 12.\n[48:20] Speaker_A: 참고로, 마지막 숫자는 달랐지만, 가능할 거예요.",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_ES2014d\\05_final_result.json",
+    "utterance_count": 317,
+    "original_transcript_length": 10631,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 3,
+      "original_length": 10631
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 3,
+      "chunk_length": 1674
+    },
+    "processing_date": "2025-08-13T14:38:24.348296"
+  }
+}

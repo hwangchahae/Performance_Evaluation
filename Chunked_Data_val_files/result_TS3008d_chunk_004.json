@@ -1,0 +1,28 @@
+{
+  "id": "result_TS3008d_chunk_004",
+  "source_dir": "result_TS3008d",
+  "chunk_text": "aker_B: 디스플레이에는 고급 칩이 필요합니다.\n[36:23] Speaker_A: 푸시 버튼에는 간단한 칩이 필요하지만 스크롤 휠에는 간단한 칩이 필요합니다.\n[36:23] Speaker_A: 알겠습니다.\n[36:23] Speaker_A: 간단한 칩만 있으면 됩니다.\n[36:30] Speaker_B: 필요합니다.\n[36:33] Speaker_C: 빛으로.\n[39:29] Speaker_B: 하지만 그러면 도킹 스테이션도 만들 수 있겠죠.\n[39:33] Speaker_D: 5분.\n[39:44] Speaker_D: 두 시 반.\n[39:44] Speaker_C: 도킹 스테이션용입니다.\n[39:44] Speaker_C: 케이블이 있고, 버튼이 있고, 안에 장치를 검색할 수 있는 장치가 있습니다.\n[39:45] Speaker_B: 이걸로 도킹 스테이션을 만들 수 없을까요?\n[39:46] Speaker_D: 물론이죠.\n[39:51] Speaker_D: 확신하는 .\n[39:53] Speaker_B: 모르겠습니다 .\n[40:03] Speaker_D: 그래서 .\n[40:07] Speaker_D: 응 .\n[40:17] Speaker_A: 당신이 그렇게 하는 것은 현실적으로 불가능하다고 생각합니다.",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_TS3008d\\05_final_result.json",
+    "utterance_count": 440,
+    "original_transcript_length": 14071,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 14071
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 4,
+      "chunk_length": 613
+    },
+    "processing_date": "2025-08-13T14:38:24.371024"
+  }
+}

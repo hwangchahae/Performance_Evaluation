@@ -1,0 +1,30 @@
+{
+  "id": "result_Bmr006_chunk_008",
+  "source_dir": "result_Bmr006",
+  "chunk_text": "_F: 얻었다\n[45:37] Speaker_F: 첫 번째에\n[45:44] Speaker_F: 모델 비교\n[45:48] Speaker_A: 응 .\n[45:49] Speaker_F: 나\n[45:52] Speaker_D: 이전에 우리가 사용했던 스피커 변경 감지 기능에는 이러한 중복이 포함되지 않았습니다.\n[45:57] Speaker_F: 응 .\n[45:58] Speaker_D: 따라서 가장 먼저 해야 할 일은 중복을 감지할 수 있는 무언가를 만드는 것입니다.\n[46:01] Speaker_F: 응 .\n[46:01] Speaker_D: 그렇죠?\n[46:01] Speaker_D: 그래서 다시 생각해 보면\n[46:08] Speaker_F: 응 .\n[46:11] Speaker_D: 다시 말씀드리지만, 당신이 위에 적은 것들은 너무나 너무나 큰 것 같습니다.\n[46:12] Speaker_F: 응 .\n[46:14] Speaker_D: 만약 12번째, 12번째 순서의 MFCC 같은 거에 대해 이야기하는 거라면, 너무 과해요.\n[46:14] Speaker_D: 볼 수도 없을 거예요.\n[46:19] Speaker_F: 응 .\n[46:20] Speaker_D: 여러분이 할 수 있는 일은 그것을 분류기에 넣고 얼마나 잘 작동하는지 보는 것뿐입니다.\n[46:23] Speaker_F: 응 .\n[46:27] Speaker_D: 물건, 또는 당신 중 세 명이 매우 멋진 디스플레이를 가지고 있습니다.\n[46:37] Speaker_F: 충분할 거야.\n[46:41] Speaker_F: 응 .\n[48:02] Speaker_F: 말을 평준화합니다.\n[48:03] Speaker_F: 그것은 말을 평준화하고, 말은 말을 섞는다.\n[48:04] Speaker_A: 무엇으로?\n[48:04] Speaker_A: 무엇으로?\n[48:07] Speaker_C: 섞여있죠.\n[48:09] Speaker_A: 혼합 .\n[48:14] Speaker_F: 더 많이, 훨씬 더 명확하게,\n[48:16] Speaker_F: PDA와 비교하면 훨씬 더 명확합니다.\n[48:19] Speaker_C: 오른쪽 .\n[48:23] Speaker_A: 그래서 더 지저분하죠.\n[48:24] Speaker_A: PDA는 더 지저분해요.\n[48:31] Speaker_C: 하지만.\n[48:31] Speaker_C: .\n[48:31] Speaker_C: .\n[48:44] Speaker_C: 그 자체로 보는 것도 흥미로울 듯합니다.\n[48:45] Speaker_F: eh는 PDA 파일과 정확히 일치합니다.\n[48:50] Speaker_D: 누\n[48:51] Speaker_D: 우리 -\n[48:54] Speaker_F: 낮은\n[42:31] Speaker_F: 다양한 프레임에 라벨을 붙이려면,\n[42:39] Speaker_F: 충분할 것이다\n[42:41] Speaker_F: 변화를 감지하다.\n[42:44] Speaker_F: 나는 나는 나는 나는 증명하고 싶다.\n[42:48] Speaker_F: 당신이 때\n[42:49] Speaker_F: 당신은 말의 전환이나 침묵을 가지고 있습니다\n[42:55] Speaker_F: 이 기준이면 충분하다\n[42:59] Speaker_F: 에에에에에에에에에에에에에에에에에에에에에에에에에\n[43:04] Speaker_F: em 일반, 일반 eh 매개변수 MF-MFCC.\n[43:13] Speaker_F: 표시.\n[43:17] Speaker_F: 하지만 그게 다야\n[46:47] Speaker_D: 그리고 당신은 첫 번째 순서가 두 번째 순서보다 훨씬 더 효과적이라는 것을 알게 됩니다.\n[46:51] Speaker_F: 응 .\n[46:55] Speaker_D: 1차와 2차 켑스트럼 계수, 맞죠?\n[46:57] Speaker_F: 응 .\n[47:08] Speaker_D: 얼마나 잘 말할 거야, 응\n[47:16] Speaker_F: 응 .\n[47:18] Speaker_F: 응 .\n[47:20] Speaker_F: 응 .\n[47:38] Speaker_D: 그리고 결정 트리를 만들거나 다른 방법을 사용해 이들이 어떻게 결합되는지 살펴보세요.\n[47:38] Speaker_F: 응 .\n[47:40] Speaker_F: 응 .\n[47:44] Speaker_F: 하지만 그것, 그것\n[47:51] Speaker_F: 그리고 저는 당신의 의견을 알고 싶습니다.\n[47:55] Speaker_F: 이 모든 연구는 첫 순간에 f에 관한 것이었습니다.\n[47:58] Speaker_F: 나는 나는 나는 나는 에에와 함께 할 척할 것이다\n[51:54] Speaker_F: 응 .\n[52:04] Speaker_F: 응 .\n[52:09] Speaker_F: 응 .\n[52:15] Speaker_F: 응 .\n[52:16] Speaker_D: 고려해 볼 만한 좋은 점이에요.\n[52:16] Speaker_F: 응 .\n[52:17] Speaker_F: 응 .\n[52:19] Speaker_A: 하지만 복잡한 문제가 하나 있는데, 사람이 PDA에 등을 돌리면 위치 정보 중 일부가 사라진다는 것입니다.\n[52:26] Speaker_F: 응 .\n[52:30] Speaker_A: 그리고 만약 그들이 그 축에 접근한다면, 그건 제가 생각했던 또 다른 것이었습니다.\n[52:33] Speaker_A: 그는 당신이 지난번에 이것을 언급했는데, 만약 당신이 중앙선을 따라 똑바로 내려간다면,\n[52:36] Speaker_A: 그러면 왼쪽과 오른쪽이 다를 것이고, 그리고 그의 경우에는,\n[52:37] Speaker_E: 글쎄요, 그것은 -\n[52:38] Speaker_F: 응 .\n[52:40] Speaker_F: 응 .\n[52:42] Speaker_F: 응 .\n[52:44] Speaker_C: 하지만 이는 또 다른 정보의 원천입니다.\n[52:47] Speaker_F: 응 .\n[52:47] Speaker_E: 나는 몰라 나는 몰라\n[52:47] Speaker_F: 내 내 내 생각엔 미안해.\n[52:49] Speaker_F: 나는 나는 두 마이크로폰 사이의 거리가\n[53:00] Speaker_F: 이명법을 공부하려고 노력하다\n[53:02] Speaker_F: 내가 발견했거든요.\n[53:10] Speaker_F: 응, PDA에.\n[53:13] Speaker_A: 저도 동감이에요!\n[53:15] Speaker_D: 에스\n[53:17] Speaker_D: 오른쪽 .\n[53:17] Speaker_F: 응 .\n[53:20] Speaker_A: 같지 않다\n[53:25] Speaker_A: 스피커에 대한 참조에는 많은 차이가 있습니다.\n[53:27] Speaker_D: 괜찮습니다.\n[53:31] Speaker_D: 한 방향에서만 깨끗한 신호가 나오나요?\n[53:34] Speaker_E: 오른쪽 .\n[53:43] Speaker_F: 응 .\n[53:44] Speaker_E: 그래서 그것은 얼마나 혼란스러운가와 같습니다.\n[53:47] Speaker_F: 응 .\n[53:56] Speaker_F: 응 .\n[53:57] Speaker_A: 응 .\n[54:05] Speaker_A: 나는 그 가치를 볼 수 있습니다\n[54:08] Speaker_D: 하지만 문제는 마이크가 두 개뿐이라는 것입니다.\n[54:08] Speaker_D: Dan의 페이지에서 그 것을 살펴보았다면,\n[54:12] Speaker_F: 응 .\n[54:12] Speaker_D: 두 사람이 이야기하고 있을 때였고, 정말 정말 달라 보였습니다.\n[54:16] Speaker_F: 응 .\n[54:16] Speaker_E: 무엇이 달라 보였나요?\n[54:17] Speaker_D: 음, 기본적으로 그는 상관관계를 살펴보고 있었습니다.\n[54:19] Speaker_D: 두 측면 사이의 교차 상관관계입니다.\n[55:01] Speaker_E: 내가 여기에 있고 모건이 거기에 있고 우리 둘이 이야기를 나누고 있다면,\n[55:04] Speaker_C: 오른쪽 .\n[55:04] Speaker_E: 그것은 효과가 없을 것이다.\n[55:06] Speaker_F: 응 .\n[55:06] Speaker_E: 예 .\n[55:12] Speaker_A: 꽤 강력할 것 같습니다.\n[55:12] Speaker_F: 응 .\n[55:14] Speaker_F: 응 .\n[55:14] Speaker_A: 같은 축을 기준으로 하면 차별화할 부분이 많지 않습니다.\n[55:17] Speaker_F: 응 .\n[55:17] Speaker_D: 잘 ,\n[56:04] Speaker_C: 그는 그것에 대해 나에게 간단히 편지를 썼습니다.\n[56:06] Speaker_A: 좋습니다.\n[56:07] Speaker_D: 제 말은, 당신이 할 수 있는 또 다른 일은, 제가 말하고자 하는 것은, PDA에 마이크 두 개를 설치하도록 누군가를 설득하는 것만으로도 큰 일이 될 것이라고 가정하는 것입니다.\n[56:20] Speaker_F: 응 .\n[56:22] Speaker_A: 흥미로운 .\n[56:25] Speaker_F: 응 .\n[56:33] Speaker_D: 제 말은, 이 모든 것이 우리가 공부할 수 있도록 제공된다는 거예요.\n[56:36] Speaker_C: 응, 우리는 원하는 대로 하면 돼.\n[56:36] Speaker_F: 응 .\n[56:46] Speaker_F: 응 .\n[56:49] Speaker_D: 오른쪽 .\n[54:19] Speaker_F: 상관관계, 그렇죠.\n[54:21] Speaker_E: Did - 미안해요, b uh\n[54:26] Speaker_D: 두 개의 마이크에서 신호를 받아서 서로 다른 지연을 두고 교차 상관 관계를 분석합니다.\n[54:31] Speaker_F: 응 .\n[54:31] Speaker_E: 응.\n[54:46] Speaker_D: 교차 상관 값 함수에서 이러한 향상이 발생합니다.\n[54:48] Speaker_C: 그리고 여러 사람이 이야기하고 있다면, 두 개의 봉우리가 보일 겁니다.\n[54:51] Speaker_D: 퍼져있습니다.\n[54:52] Speaker_F: 응 .\n[54:55] Speaker_D: 응 .\n[54:55] Speaker_F: 응 .\n[54:59] Speaker_D: 그 - 그 오, 죄송한",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bmr006\\05_final_result.json",
+    "utterance_count": 1183,
+    "original_transcript_length": 40348,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 9,
+      "original_length": 40348
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 8,
+      "total_chunks": 9,
+      "chunk_length": 5000
+    },
+    "processing_date": "2025-08-13T14:38:24.298674"
+  }
+}

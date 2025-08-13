@@ -1,0 +1,29 @@
+{
+  "id": "result_Bed013_chunk_005",
+  "source_dir": "result_Bed013",
+  "chunk_text": "ker_E: 여기에 엔티티 노드가 있습니다\n[45:22] Speaker_A: 에스\n[45:26] Speaker_E: 이는 온톨로지를 통해 활성화되므로\n[48:23] Speaker_E: Info-on은 True-up이고, Go-there도 True-up입니다.\n[48:27] Speaker_E: 이는 내가 제안하는 것과 정확히 유사할 것입니다.\n[48:47] Speaker_E: 왜냐하면,\n[48:49] Speaker_D: 응 .\n[48:53] Speaker_A: 응 .\n[48:54] Speaker_A: 나는 알고있다\n[48:56] Speaker_A: 그래서 저도 동의합니다.\n[48:56] Speaker_A: 저는 다른 종류의 질문이 있습니다.\n[48:59] Speaker_A: 관련이 있을 수도 있습니다\n[49:00] Speaker_A: 즉, EDU의 모든 내용은 항상 화자를 추론하고 있다는 것입니다.\n[49:05] Speaker_A: 의도, 맞죠?\n[49:06] Speaker_A: 그들이 원하는 것이 무엇인지\n[26:15] Speaker_C: 그리고 그는 우리도 묵게 할 거야.\n[26:24] Speaker_A: 야채 이름을 말해 보세요.\n[26:30] Speaker_A: 코코넛.\n[26:32] Speaker_E: 에게 -\n[26:32] Speaker_A: 파인애플.\n[26:32] Speaker_A: 보이죠?\n[26:34] Speaker_A: 망고?\n[26:35] Speaker_E: 너무 쉬워요.\n[26:36] Speaker_A: 너무 쉽죠?\n[26:38] Speaker_E: 키위도 마찬가지예요.\n[26:41] Speaker_A: 알겠습니다.\n[26:41] Speaker_A: 하지만 저는 그의 농장에서 키우지 않는 것을 찾으려고 했습니다.\n[26:56] Speaker_C: 감자.\n[27:00] Speaker_D: 하나 ,\n[31:28] Speaker_E: 우리가 그것을 쓴다면 .\n[31:30] Speaker_E: 이게 제 유일한 제약이에요.\n[31:30] Speaker_E: 그래서요.\n[31:39] Speaker_E: 이다 ,\n[31:42] Speaker_E: 사용자  ,\n[31:44] Speaker_E: 담론이 맞죠?\n[31:44] Speaker_E: 존재론이요.\n[31:50] Speaker_E: 응.\n[31:51] Speaker_A: 안 돼요 .\n[32:01] Speaker_A: 누군가 필 콜린스 농담을 시작할 거야.\n[32:03] Speaker_E: 응 .\n[32:04] Speaker_E: 흠 ?\n[32:10] Speaker_C: 오, 오, 오, 오.\n[32:13] Speaker_B: 무엇 ?\n[53:23] Speaker_A: 오 .\n[53:23] Speaker_E: 무엇 ?\n[53:23] Speaker_D: 오른쪽 .\n[53:25] Speaker_A: 맥락과 충분한 사용자 정보가 있다면 그렇죠.\n[53:28] Speaker_D: 응 .\n[53:29] Speaker_E: 무슨 일이 일어나는지는 우리가 그 개체, 사용자, 그의 다양한 신념, 목표, 욕망 등에 대해 알고 있는 바에 따라 결정됩니다.\n[53:36] Speaker_E: 물론입니다.\n[53:37] Speaker_E: 하지만 이것은 우리가 생각해야 할 일의 종류입니다.\n[53:45] Speaker_E: 하나 ,\n[53:46] Speaker_E: 담론과 존재론을 위한 노드\n[53:49] Speaker_E: 그래서 우리는 그것들을 우리의 베이즈넷에 넣을 수 있습니다.\n[53:52] Speaker_E: 절대 바꾸지 마세요\n[51:10] Speaker_A: 알겠습니다.\n[51:11] Speaker_E: 인터\n[51:13] Speaker_A: 중에서 선택해야 합니다.\n[51:13] Speaker_A: 라고만 하면 됩니다.\n[51:13] Speaker_A: 알겠습니다.\n[51:16] Speaker_D: 응 .\n[51:20] Speaker_E: 사람들이 은행 앞에 시청이 있다고 말할 수 있도록 그렇게 하세요.\n[51:37] Speaker_A: 건설을 고려하세요?\n[51:38] Speaker_E: 글쎄요, 만약 당신이 할 수 있다면, 오, 꼭 그렇게 하세요,\n[51:40] Speaker_A: 알겠습니다.\n[51:40] Speaker_A: 가능하면 알겠습니다.\n[51:41] Speaker_E: 가능하면요.\n[51:41] Speaker_E: 맞죠?\n[52:00] Speaker_A: 그것이 의미할 수도 있다는 사실\n[52:02] Speaker_A: 하나 ,\n[52:03] Speaker_A: X에 가는 방법을 알려주세요  ,\n[52:06] Speaker_A: y를 하세요\n[52:09] Speaker_A: 해석은 두 가지가 있죠?\n[52:09] Speaker_A: 위치와 경로에 대한 해석이죠.\n[47:28] Speaker_C: 말하자면, 이 구문은 위치나 경로를 의미할 수 있습니다.\n[47:32] Speaker_C: 그리고, 이 경우에는 두 가지 모두 의미할 수 있으므로, 두 가지 모두에 불이 붙을 것입니다.\n[47:43] Speaker_C: 생각은?\n[47:44] Speaker_C: 질문 ?\n[47:46] Speaker_E: 똑같을 거야.\n[47:46] Speaker_E: 그래서 내 생각엔\n[47:47] Speaker_E: 여기에 저기 가볼게요가 있죠?\n[47:48] Speaker_C: 답변?\n[47:50] Speaker_E: 그리고 우리는 Info-on을 가지고 있습니다.\n[47:53] Speaker_E: 그래서 내 경우에는 이것이 될 것입니다.\n[47:55] Speaker_E: 이걸 행복하게 만드는 것, 그러면 거기 가는 사람도 행복해질 거야.\n[47:59] Speaker_E: 당신이 말하는 것은 우리가 Where-X 질문, Where-X 노드를 가지고 있다는 것입니다.\n[48:04] Speaker_E: 그러면 둘 다 행복해지죠.\n[48:06] Speaker_E: 그렇죠?\n[48:10] Speaker_E: 따라서 우리가 구성 노드 를 가지고 있다면, 여기서 X는 입니다.\n[48:15] Speaker_E: 그것은 할거야\n[48:16] Speaker_E: 둘 다\n[48:17] Speaker_E: 을 얻으다\n[48:19] Speaker_E: 사후 확률은 Info-on up입니다.\n[55:14] Speaker_E: 하나 ,\n[55:15] Speaker_E: 문헌에는 은행이 있습니다\n[55:18] Speaker_E: 그리고\n[55:19] Speaker_E: 정원길 현상의 종류는 무엇이든.\n[55:22] Speaker_E: 그리고 우리는 글쎄, 그건 다 말도 안 되는 소리야라고 말할 수 있습니다.\n[55:31] Speaker_E: B는 실제로 담론에서 나타나지 않지만\n[55:35] Speaker_E: 와 같이 완전히 모호하지 않은 것처럼 보이는 일반적인 진술\n[55:41] Speaker_E: 실제로는 매우 복잡하고 완전히 모호합니다.\n[55:45] Speaker_E: 그래서 지금까지 다른 모든 사람들이 해왔던 일은 완전히 터무니없는 일이고 모두 휴지통에 버려야 합니다.\n[56:04] Speaker_E: 응 .\n[56:20] Speaker_E: 복잡하다, 진공 속에서 보면\n[56:24] Speaker_E: 그리고 현실에서는 더 이상 복잡하지 않습니다.\n[56:24] Speaker_E: 그리고 진공 상태에서는 절대적으로 간단한 것들도 있습니다.\n[56:32] Speaker_E: 실제로는 매우 복잡합니다.\n[56:44] Speaker_E: 메시지를 입력하세요.\n[56:46] Speaker_D: 진실 .\n[56:50] Speaker_E: 기존의 상향식 교육 방식과 대조적으로.\n[57:05] Speaker_E: 오늘날의 신민들은 페이를 알고 있으므로, 그녀는 여기 와서 마법사 일을 할 수 없습니다.\n[57:10] Speaker_E: 그래서 제가 마법사 일을 하고 틸로가 가르치는 걸 할 거예요.\n[57:10] Speaker_E: 그리고 방금 해고당한 사람도 데려올 거예요.\n[57:35] Speaker_E: 오늘 .\n[57:36] Speaker_E: 이는 우리가 계속하고 싶다면 좋은 소식입니다.\n[45:38] Speaker_A: 그것이 위치나 그런 것을 가지고 있나요?\n[45:43] Speaker_E: 전혀 그렇지 않습니다.\n[46:01] Speaker_A: 그리고\n[46:06] Speaker_A: 찾을 수 있는 것.\n[46:08] Speaker_A: 그렇죠?\n[46:08] Speaker_A: 온톨로지에 따르면 이게 위치 슬롯을 가지고 있다고 합니다.\n[46:13] Speaker_A: 그것은 질문의 내용입니다.\n[46:25] Speaker_A: 그 위치.\n[46:25] Speaker_A: 그래서.\n[54:13] Speaker_D: 이렇게 바라죠.\n[54:14] Speaker_E: 흠 ?\n[54:14] Speaker_D: 그렇죠?\n[54:39] Speaker_E: 특정한 것에 대해 더 구체적으로 생각할 수 있게 해줍니다.\n[54:43] Speaker_E: 하나, 올라오다\n[54:45] Speaker_E: 흥미로운 질문을 통해 흥미로운 답변을 찾을 수 있습니다.\n[54:49] Speaker_E: 그리고, 또한 그것은 할 수 있습니다\n[54:54] Speaker_E: 왜냐하면 만약 우리가 논문에 대한 예를 원한다면,\n[54:57] Speaker_E: 내 생각엔 그게 거기에 있을 거예요.\n[54:59] Speaker_D: 응 .\n[55:10] Speaker_E: 사람들이 모호함을 보는 방식을 알고 계시죠 그리고\n[57:40] Speaker_E: 3시 이후에\n[57:48] Speaker_E: 그리고 그것도\n[57:52] Speaker_E: 데이터 수집에 더 많은 내용을 추가하고 싶다면.\n[57:55] Speaker_E: 이 점을 기억하세요.\n[57:55] Speaker_E: 우리는 언제든지 설정을 완전히 바꿀 수 있습니다.\n[57:59] Speaker_E: 지금까지 우리가 얻은 결과를 살펴보세요.\n[58:04] Speaker_E: 과목?\n[58:05] Speaker_A: 50개요?\n[58:06] Speaker_E: 하지만 페이가\n[58:09] Speaker_A: 응 .",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bed013\\05_final_result.json",
+    "utterance_count": 744,
+    "original_transcript_length": 24608,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 24608
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 6,
+      "chunk_length": 4999
+    },
+    "processing_date": "2025-08-13T14:38:24.285719"
+  }
+}

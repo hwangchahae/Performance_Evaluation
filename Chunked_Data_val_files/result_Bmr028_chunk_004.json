@@ -1,0 +1,32 @@
+{
+  "id": "result_Bmr028_chunk_004",
+  "source_dir": "result_Bmr028",
+  "chunk_text": ": 응 .\n[28:06] Speaker_H: 응 .\n[28:12] Speaker_G: 하지만 d\n[28:12] Speaker_G: 성별에 따른 모델이 있나요?\n[28:13] Speaker_H: Th - th\n[28:14] Speaker_H: 죄송합니다 .\n[28:14] Speaker_G: A 모델은 성별에 따라 달라지나요?\n[28:17] Speaker_H: 응 .\n[28:17] Speaker_D: 그러니까 최소한 그 정도는 해야죠.\n[28:17] Speaker_B: 그래서.\n[28:17] Speaker_B: 둘 다 실행할 수 있습니다.\n[28:17] Speaker_B: 그리고 s할 수 있습니다.\n[28:20] Speaker_G: 응 .\n[28:21] Speaker_G: 응 .\n[28:21] Speaker_D: 그리고 둘 중 더 나은 것을 선택하세요.\n[28:39] Speaker_H: 비슷한 것들을 일종의 유사 스피커라고 할 수 있는 빈으로 분류합니다.\n[28:39] Speaker_H: 그리고 이 유사 스피커들에 표준적인 처리를 적용합니다.\n[28:53] Speaker_H: 귀하에게 제공된 스피커 세분화.\n[29:06] Speaker_D: 제가 생각하는 가장 큰 차이점은 방송 뉴스와 이런 회의의 참가자 수가 훨씬 적다는 것입니다.\n[30:30] Speaker_B: 둘 다.\n[30:30] Speaker_B: 우리가 이전에 했던 클러스터링에는 그런 것이 없었습니다.\n[30:36] Speaker_B: 위치 요인도 같은 방식으로 고려됩니다.\n[30:36] Speaker_B: 그래서 우리는 실제로\n[30:37] Speaker_E: 응 .\n[30:39] Speaker_B: 직접 모델링하는 거죠.\n[30:39] Speaker_B: 제 생각엔 꽤 큰 차이가 날 것 같거든요.\n[30:46] Speaker_D: 정말 큰 차이죠.\n[30:46] Speaker_D: 그렇죠.\n[30:52] Speaker_D: 머리를 통해 전달 함수 같은 것들이죠.\n[30:52] Speaker_D: 그러니까 귀가 하나뿐이더라도,\n[30:54] Speaker_B: 마이크가 하나뿐이라도요.\n[30:55] Speaker_E: 응 .\n[30:57] Speaker_E: 응 .\n[31:04] Speaker_D: 응 .\n[31:16] Speaker_H: 흠 .\n[31:18] Speaker_D: 뭔가요.\n[33:20] Speaker_H: 음, 제가 마지막 상태 보고서에 썼던 내용인데, 약 1.\n[33:20] Speaker_H: 5% 정도 도움이 되는 것 같습니다.\n[33:26] Speaker_H: 허브-파이브.\n[33:28] Speaker_H: 아직 회의에서는 그걸 시도해 보지 않았지만, 거기서도 도움이 되기를 바랍니다.\n[33:53] Speaker_H: 흠 .\n[33:55] Speaker_D: 다른 .\n[34:08] Speaker_A: 2월 현재?\n[34:08] Speaker_H: 언제 우리가\n[34:12] Speaker_A: 그래서 l\n[34:13] Speaker_C: b를 f로 바꾸면?\n[34:14] Speaker_B: F 죄송합니다.\n[34:16] Speaker_B: 이런 회의를 위해서?\n[34:25] Speaker_B: 1월이나 3월 말쯤이겠죠?\n[32:20] Speaker_E: 응 .\n[32:20] Speaker_E: 응 .\n[32:26] Speaker_H: 맞죠?\n[32:37] Speaker_E: 사전 지식만 있었고 성과가 향상되었습니다.\n[32:41] Speaker_A: 우와 .\n[32:46] Speaker_H: 흠 .\n[32:48] Speaker_E: 하지만, 제 말은, 그건 버그였지만 꽤\n[32:51] Speaker_A: 와.\n[32:54] Speaker_H: 응 .\n[32:55] Speaker_D: 그러면 모든 확률이 동일한 상태에서 인식기를 실행하면 무엇을 얻을 수 있을까요?\n[33:09] Speaker_E: 그래서 그것이 생성되었습니다.\n[33:14] Speaker_H: A b 오, 그것은 일종의 기능 정규화입니다.\n[29:12] Speaker_B: 또 다른 것은 당신이 실제로 가지고 있다는 것입니다\n[29:13] Speaker_H: 오른쪽 .\n[29:15] Speaker_B: 여기 방향입니다.\n[29:15] Speaker_B: 그래서,\n[29:24] Speaker_D: 스피커 ID.\n[29:53] Speaker_B: 내 말은,\n[29:55] Speaker_B: 아담이 이 마이크를 잡으면 회의 내내 에너지 등 측면에서 저와 다를 거예요.\n[30:07] Speaker_D: 마이크에게서.\n[30:07] Speaker_D: 응.\n[30:08] Speaker_E: 응 .\n[30:11] Speaker_D: 그리고 전달 함수.\n[30:12] Speaker_B: 정확히 그래요.\n[11:59] Speaker_D: 옳은 .\n[12:02] Speaker_F: 성적 증명서를 실제로 확인해 보셨나요?\n[12:02] Speaker_F: 아니면 전부 승인하셨나요?\n[12:06] Speaker_F: 방금 제 모든 것을 승인했어요.\n[12:13] Speaker_B: 내가 잘못 말했다고 생각했던 것들에 대한 키워드.\n[12:13] Speaker_B: 그래서.\n[12:18] Speaker_B: 그것이 그것을 g로 만든다\n[12:18] Speaker_F: 그건 당신에게 칭찬이에요.\n[12:22] Speaker_D: 흠 .\n[12:26] Speaker_D: 당신은 정말로 r을 종류해야합니다\n[12:31] Speaker_E: 그래서 우리는 첫 번째 정보 검색을 했습니다.\n[12:36] Speaker_B: 사실 그렇죠.\n[12:36] Speaker_B: 유용하죠.\n[12:36] Speaker_E: 검색자.\n[12:38] Speaker_D: 그리고 이것은 왜 이것이 효과가 없는지 보여줍니다.\n[12:38] Speaker_D: 왜냐하면 여러분은 실제로 두 번 이상의 회의에 참석하고 싶어하기 때문입니다.\n[12:41] Speaker_E: 응 .\n[12:42] Speaker_E: 응 .\n[12:42] Speaker_D: 그리고 결과를 표시하기 위한 더 나은 사용자 인터페이스가 필요합니다.\n[12:42] Speaker_D: 그래서요.\n[14:02] Speaker_D: 하지만.\n[14:02] Speaker_D: .\n[14:02] Speaker_D: .\n[14:04] Speaker_A: 릴라가 이 정보를 알고 있을 텐데.\n[14:07] Speaker_D: 응, 좋은 생각이야.\n[14:08] Speaker_E: 응 .\n[14:09] Speaker_A: 응 .\n[14:09] Speaker_E: 그리고 그녀에게 말해.\n[14:14] Speaker_A: 중\n[14:16] Speaker_A: 미구엘은 여전히 그룹의 활동적인 멤버이고, 그는 여전히 여기 있습니다.\n[14:21] Speaker_A: 매우 도움이 되었습니다.\n[14:23] Speaker_D: 그들이 누구인지 보세요.\n[14:25] Speaker_D: 음, 그중 몇몇은 IBM 회의에 참석하기 위해 온 IBM 사람들이었고, 한 명은 SRI 회의에 참석한 SRI의 사람이었습니다.\n[14:25] Speaker_E: 응 .\n[05:13] Speaker_C: 오디오 파일도 재생할 수 있도록 간단한 해킹 같은 걸 할 수 있다면 좋을 텐데요.\n[05:17] Speaker_B: 오른쪽 .\n[05:24] Speaker_C: 파형을 표시하는 것보다 재생하는 것이 더 나을 수도 있습니다.\n[05:29] Speaker_D: 말씀하시는 바를 이해합니다.\n[05:32] Speaker_C: 그리고 표시됩니다.\n[05:34] Speaker_D: 추신 -\n[05:41] Speaker_D: 라이브로 하는 데 문제는 로드하는 데 시간이 너무 오래 걸린다는 것입니다.\n[05:47] Speaker_H: 로딩 속도가 느린 건 XML 형식 파싱 때문이에요.\n[05:47] Speaker_H: 맞죠?\n[05:59] Speaker_D: 저것\n[06:00] Speaker_D: XML에서 내부 t 트리 구조로 전환하는 것은 매우 빠릅니다.\n[06:03] Speaker_H: 흠 .\n[06:11] Speaker_F: 맞죠?\n[06:15] Speaker_D: 하지만 실제로는 모든 사용자 인터페이스 구성 요소를 조립하는 거죠.\n[06:17] Speaker_H: 하지만 d y\n[06:20] Speaker_F: 오른쪽 .\n[35:16] Speaker_B: 하지만 백채널을 다시 가져오는 데는 도움이 됩니다.\n[35:17] Speaker_H: 오른쪽 .\n[35:19] Speaker_H: 따라서 지금 당장은 점수가 세그먼트를 기준으로 매겨집니다.\n[35:28] Speaker_H: 그래서 점수를 매기는 다른 방법은 NIST 형식을 사용하는 것입니다.\n[35:35] Speaker_D: 알고 있습니다.\n[35:55] Speaker_D: 트랜 -\n[35:56] Speaker_D: 필사자는 STM을 내보냅니다.\n[35:59] Speaker_H: 오 .\n[35:59] Speaker_D: 혹시 관심 있으시다면.\n[36:03] Speaker_H: 우리는 많은 것을 제거합니다\n[36:06] Speaker_H: 마크업,\n[36:10] Speaker_D: 오른쪽 .\n[36:12] Speaker_B: 그럴까요?\n[34:28] Speaker_A: 알겠습니다.\n[34:28] Speaker_A: 기준선이 같다면 알 수 있을 겁니다.\n[34:29] Speaker_D: 하지만 그것들은 채널화된 것들이죠?\n[34:30] Speaker_H: 응.\n[34:30] Speaker_H: 당연하지.\n[34:30] Speaker_H: 응.\n[34:31] Speaker_B: N\n[34:31] Speaker_B: N\n[34:33] Speaker_A: 기준선이 같으면 알 수 있을 거예요.\n[34:33] Speaker_A: 새 데이터에서 실행한 것과 비교해 보면,\n[34:39] Speaker_A: 그것은 더 낙관적인 결과가 될 것입니다.\n[34:40] Speaker_H: 글쎄요, 그리고 또 다른 점은 모든 이전 출력을 다시 채점하는 데 1분 밖에 걸리지 않는다는 것입니다.\n[34:40] Speaker_H: 새로운 대본이 있다면",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bmr028\\05_final_result.json",
+    "utterance_count": 814,
+    "original_transcript_length": 27961,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_H"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 27961
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 7,
+      "chunk_length": 5000
+    },
+    "processing_date": "2025-08-13T14:38:24.318755"
+  }
+}

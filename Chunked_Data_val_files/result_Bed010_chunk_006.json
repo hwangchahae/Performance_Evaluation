@@ -1,0 +1,31 @@
+{
+  "id": "result_Bed010_chunk_006",
+  "source_dir": "result_Bed010",
+  "chunk_text": "Speaker_C: 그러니까요.\n[37:35] Speaker_C: 물론 행동적인 차이도 있죠.\n[37:35] Speaker_C: 닿을 수 있는 것과 닿을 수 없는 것은 정말 다르거든요.\n[37:41] Speaker_E: 응 .\n[37:41] Speaker_C: 하지만 실제로는 정말 깊이 구현된 것이 있는 것 같습니다.\n[37:45] Speaker_C: 신경 차이.\n[37:45] Speaker_C: 게다가\n[37:49] Speaker_C: 그리고\n[37:49] Speaker_F: 이것은 더 근위부-원위부입니다.\n[38:00] Speaker_C: 매우 깊이 뿌리내린 것.\n[38:04] Speaker_C: 에스\n[38:05] Speaker_F: 글쎄요, Dan Montello는 일종의 인지 지도를 만드는 사람이에요.\n[38:09] Speaker_F: 세상은 산타바바라에 있습니다.\n[38:17] Speaker_C: 응 .\n[38:28] Speaker_C: 이걸 살펴보도록 하죠.\n[38:31] Speaker_C: 그리고.\n[38:31] Speaker_C: 과학을 시작하는 거죠, 그렇죠?\n[38:31] Speaker_C: 그래서 이 문제들에 대해\n[27:55] Speaker_E: 그리고 우리는 이러한 전치사 구를 사용합니다.\n[28:07] Speaker_E: 강을 건너는 곳에 나무가 있습니다  .\n[28:36] Speaker_F: 하나 .\n[28:39] Speaker_F: 그러니까,\n[28:43] Speaker_F: 현재 약간의 개조가 진행 중인 Deep Map 프로젝트는 다음과 같습니다.\n[28:47] Speaker_F: 하지만 이건 독일어, 영어, 일본어의 3개 언어로 진행되는 프로젝트예요.\n[28:55] Speaker_F: 저는 일본 세대와 그런 것들을 우리가 갖도록 했습니다.\n[28:55] Speaker_F: 그래서\n[29:00] Speaker_F: 공간 묘사를 살펴봤습니다.\n[29:00] Speaker_F: 그러면 A 지점에서 B 지점으로 가는 방법에 대한 공간 묘사를 생성할 수 있습니다.\n[29:06] Speaker_F: 그리고 공간 묘사에 대한 거대한 프로젝트도 진행 중인데, 공간 묘사의 차이점도 있고요.",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bed010\\05_final_result.json",
+    "utterance_count": 677,
+    "original_transcript_length": 23517,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 6,
+      "original_length": 23517
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 6,
+      "total_chunks": 6,
+      "chunk_length": 1084
+    },
+    "processing_date": "2025-08-13T14:38:24.279070"
+  }
+}

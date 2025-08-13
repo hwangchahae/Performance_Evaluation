@@ -1,0 +1,28 @@
+{
+  "id": "result_ES2007b_chunk_002",
+  "source_dir": "result_ES2007b",
+  "chunk_text": "3:15] Speaker_D: Mm .\n[23:21] Speaker_D: Mm .\n[23:23] Speaker_A: 모든 면에서 가장 간단한 옵션으로 가는 게 좋을 것 같습니다.\n[23:23] Speaker_A: 적외선, 에너지원, 즉 배터리 말이죠.\n[23:23] Speaker_A: .\n[23:23] Speaker_A: .\n[24:15] Speaker_A: 저는 우리 모두가 그것에 대해 꽤 잘 알고 있다고 생각합니다.\n[24:20] Speaker_A: 질문 있으신 분 계신가요?\n[24:20] Speaker_A: 다들 자기 일에 만족하고 계신가요?\n[24:24] Speaker_D: Mm .\n[24:29] Speaker_A: 혹시 컴퓨터에 스팸 메일이 잔뜩 쌓인 적 있으신가요?\n[24:45] Speaker_D: 글쎄요, 설문조사일 뿐이에요.\n[24:47] Speaker_A: 응 .\n[25:01] Speaker_A: 그렇죠.\n[25:05] Speaker_D: 그는 참가자 1번인 것 같은데, 당신은 맞나요?\n[25:17] Speaker_B: 친구는 있는데, 이메일은 보내드릴게요.\n[25:17] Speaker_B: 친구 갖고 싶죠?\n[25:36] Speaker_C: 너무 앞서가는 것 같기도 하고요.\n[25:46] Speaker_C: Mm .\n[25:51] Speaker_C: Mm .\n[25:59] Speaker_D: 하지만 RR이라면, 마치 기호가 있는 것처럼 실제 반응이 될 것입니다.\n[26:00] Speaker_C: Mm .\n[26:04] Speaker_C: Mm .\n[26:06] Speaker_D: 와.\n[26:07] Speaker_A: 이건 힘들지만 이게 슬로건이고, 이게 바로 그 유형이에요.\n[26:10] Speaker_C: 그리고 이건 윗사람에게서 물려받은 것인데, 말하자면 우리는 그들에게 일종의 빚을 지고 있는 셈이죠.\n[26:13] Speaker_A: 응 .\n[26:16] Speaker_D: 그러니 한 가지 색깔만 가져야 합니다.\n[26:17] Speaker_A: 하지만 우리는 그것을 포함해야 해요.\n[26:22] Speaker_D: Mm .\n[26:23] Speaker_A: 다른 제품들도 비슷한 맥락인지 한번 살펴보시면 좋을 것 같습니다.\n[26:31] Speaker_D: Mm .\n[26:48] Speaker_A: 응 .\n[26:54] Speaker_A: 응 .\n[26:56] Speaker_D: Mm .\n[26:57] Speaker_B: 만약에 .\n[27:14] Speaker_D: 우리는 예정보다 일찍 끝냈나요?\n[27:18] Speaker_B: 시원한 .\n[27:33] Speaker_D: 그래요.",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_ES2007b\\05_final_result.json",
+    "utterance_count": 170,
+    "original_transcript_length": 5770,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_B"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 2,
+      "original_length": 5770
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 2,
+      "total_chunks": 2,
+      "chunk_length": 1312
+    },
+    "processing_date": "2025-08-13T14:38:24.342392"
+  }
+}

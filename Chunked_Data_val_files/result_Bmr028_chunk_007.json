@@ -1,0 +1,32 @@
+{
+  "id": "result_Bmr028_chunk_007",
+  "source_dir": "result_Bmr028",
+  "chunk_text": "37:34] Speaker_B: 응 .\n[37:40] Speaker_D: 내 생각은 이렇습니다.\n[37:45] Speaker_D: 괜찮은 .\n[37:55] Speaker_D: 세그먼트 내에서요.\n[37:55] Speaker_D: 그렇죠.\n[37:58] Speaker_H: 그리고 당신이 그것에 대한 크레딧을 얻을 수 있도록.\n[37:58] Speaker_H: 그래서.\n[38:01] Speaker_A: 좋은 생각이에요.\n[38:02] Speaker_H: 그러니까요.\n[38:16] Speaker_A: ~에\n[38:19] Speaker_A: 이이이와 함께\n[38:31] Speaker_B: 글쎄요, 그것은 분명히 강제 정렬에도 도움이 됩니다.\n[38:31] Speaker_B: 왜냐하면,\n[38:44] Speaker_B: 예를 들어, 프런트엔드 회의나 전문 용어가 많이 나오는 회의 같은 경우\n[38:47] Speaker_B: 스위치보드에 표현되지 않습니다.\n[38:51] Speaker_A: 우리 회의에는 전문 용어가 많이 들어가죠.\n[45:18] Speaker_E: 응 .\n[45:18] Speaker_D: 그리고 당신은 실제로 계산하지 않았기 때문에 부정행위라고 말합니다.\n[45:18] Speaker_H: 흠 .\n[45:18] Speaker_A: 허!\n[45:21] Speaker_E: 라는 질문을 던졌습니다.\n[45:26] Speaker_D: N 오른쪽.\n[45:27] Speaker_E: 내 말은, 당신이 그걸 알고 있다고 가정해 보자는 거예요.\n[45:28] Speaker_D: 똑같은 부정행위입니다.\n[45:30] Speaker_E: 그리고 그걸 안다고 해도 그게 도움이 될 수 있을까요?\n[45:33] Speaker_H: 흠 .\n[45:40] Speaker_E: 라고 생각하게 됩니다.\n[45:44] Speaker_H: 흠 .\n[45:53] Speaker_E: 당신이 좁은 작은 그룹 밖으로 나가자마자,\n[45:55] Speaker_E: 사람들은 매우, 매우 혼란스러워합니다.\n[46:08] Speaker_D: 그것은 실제로 부정적이지도 않습니다.",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bmr028\\05_final_result.json",
+    "utterance_count": 814,
+    "original_transcript_length": 27961,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_F",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_H"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 7,
+      "original_length": 27961
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 7,
+      "total_chunks": 7,
+      "chunk_length": 1042
+    },
+    "processing_date": "2025-08-13T14:38:24.320692"
+  }
+}

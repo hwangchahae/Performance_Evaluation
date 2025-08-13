@@ -1,0 +1,28 @@
+{
+  "id": "result_TS3012c_chunk_004",
+  "source_dir": "result_TS3012c",
+  "chunk_text": "37:20] Speaker_A: 노란색 리모컨을 가져가.\n[37:21] Speaker_C: 다르다는 것.\n[37:21] Speaker_D: 응 .\n[37:31] Speaker_D: 기본 색상은 파란색, 초록색, 빨간색입니다.\n[37:36] Speaker_A: 난 이러지 않을 거야.\n[37:36] Speaker_A: 그건 너희들이 결정할 일이야.\n[37:41] Speaker_A: 다음 회의를 위해 멋진 디자인을 그려주시면, 끝낼게요.\n[37:50] Speaker_A: 응 .\n[27:06] Speaker_A: 삼각형이 좋습니다.\n[27:28] Speaker_C: 흠 .\n[27:30] Speaker_A: 방금 떠올랐을 뿐이에요.\n[27:30] Speaker_D: 응 .\n[27:37] Speaker_A: 둥근 버튼을 선택해 볼게요.\n[27:45] Speaker_B: 다들 이에 동의하시나요?\n[27:47] Speaker_C: 저는 둥근 걸 선호합니다.\n[27:48] Speaker_B: 라운드로 하시겠습니까?\n[27:48] Speaker_B: 알겠습니다.\n[28:03] Speaker_A: 그래서 숫자가 있습니다.\n[28:03] Speaker_A: 물론 여기에 추가 버튼이 필요할 것 같습니다.",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_TS3012c\\05_final_result.json",
+    "utterance_count": 425,
+    "original_transcript_length": 14077,
+    "speakers": [
+      "Speaker_C",
+      "Speaker_B",
+      "Speaker_D",
+      "Speaker_A"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 14077
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 4,
+      "total_chunks": 4,
+      "chunk_length": 613
+    },
+    "processing_date": "2025-08-13T14:38:24.380217"
+  }
+}

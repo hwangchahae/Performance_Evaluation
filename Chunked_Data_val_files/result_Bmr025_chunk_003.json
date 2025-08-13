@@ -1,0 +1,32 @@
+{
+  "id": "result_Bmr025_chunk_003",
+  "source_dir": "result_Bmr025",
+  "chunk_text": "6월.\n[20:37] Speaker_D: James Landay는 기본적으로 사용하지 않으면이라고 말했습니다.\n[20:41] Speaker_D: 반품해 주실 수 있나요?\n[20:44] Speaker_D: 각 학기가 끝날 때마다 주기적으로 기록된 모든 사람에게 이메일을 보냅니다.\n[20:51] Speaker_E: 그래서 우리는 그것을 사용한 적이 없습니다.\n[20:52] Speaker_A: 우리는 그것을 한 번 사용했습니다.\n[20:53] Speaker_E: 한 번 ?\n[20:54] Speaker_F: 그것들이요?\n[20:54] Speaker_F: 하나 이상이에요?\n[20:54] Speaker_A: 몇 번이나.\n[20:56] Speaker_A: 응 .\n[20:56] Speaker_E: 나\n[20:57] Speaker_D: 하나 .\n[20:59] Speaker_D: 내 의견은 이렇습니다.\n[21:02] Speaker_D: 그래서 나는 그것을 사용하지 않을 거야,\n[21:09] Speaker_A: 하지만 한편으로는,\n[07:05] Speaker_D: 그래서 일반적인 UNIX 함수는 모든 작업을 호출합니다.\n[07:08] Speaker_D: 하나 ,\n[07:09] Speaker_D: 하지만 문제는 THISL 도구가 Autoconf와 같은 것을 사용하지 않았다는 것입니다.\n[07:14] Speaker_D: 그래서 당신은 정상적인 포팅 문제를 가지고 있습니다\n[07:22] Speaker_D: 다양한 컴파일러 해결 방법 등이 있습니다.\n[07:22] Speaker_D: 따라서\n[07:30] Speaker_D: Windows에서 컴파일하려면 그보다 훨씬 더 많은 것이 필요합니다.\n[07:37] Speaker_G: 당신이 해야 할 일은 Dan에게 말하는 것뿐입니다.\n[07:39] Speaker_G: 이게 Autoconf에서 작동하면 좋겠는데  하루면 끝낼 수 있을 거야.\n[07:45] Speaker_D: 사실 그가 그것을 SPRACHcore로 포팅했기 때문에 확인해야 한다는 걸 알죠.\n[07:49] Speaker_G: 오른쪽 .\n[07:49] Speaker_D: 그러니까 그는 이미 그렇게 했을지도 몰라요.\n[07:50] Speaker_G: 나, 나는 놀라지 않을 거야.\n[22:27] Speaker_B: 응 .\n[22:27] Speaker_E: 그렇죠?\n[22:27] Speaker_E: 서기관이 있을 거예요.\n[22:31] Speaker_E: 누군가에게 좋은 메모를 하게 하면 그게 회의 기록의 일부가 됩니다.\n[22:42] Speaker_E: 응 .\n[22:43] Speaker_A: ~에\n[22:45] Speaker_A: 내 생각엔 우리가 그런 종류의 것을 원한다면 우리가 그럴 수 있을까?\n[22:54] Speaker_A: 다른 인터페이스에서 메모를 작성합니다.\n[23:00] Speaker_E: 요약 .\n[23:03] Speaker_F: 전사본에서 요약해 보세요.\n[23:19] Speaker_B: 다시 말해서, 당신은 단지 시간을 강조하기 위해 그것을 사용할 수 있습니다\n[23:23] Speaker_B: 저도 그렇게 생각했고, 모건이 이 문제에 대해 저와 의견이 다르다는 걸 알지만\n[23:41] Speaker_B: 그들이 사본을 다시 받으면 경고를 보내는 것과 같습니다.\n[23:44] Speaker_B: 그 전사체 영역에 위험 신호가 나타날 수 있고, 그러면 그걸 살펴볼 수 있을 거예요.\n[23:44] Speaker_B: 그래서요.\n[23:48] Speaker_B: 우리가 그것을 사용하지 않았다는 것을 알고 있지만\n[23:50] Speaker_B: 그리고\n[23:51] Speaker_B: 나는 그것이 일종의 기간 표시에 유용할 수 있다고 상상할 수 있습니다.\n[23:54] Speaker_D: 오른쪽 .\n[23:56] Speaker_A: 잘 .\n[24:21] Speaker_E: 시간 참조\n[24:22] Speaker_B: 오른쪽 .\n[24:25] Speaker_B: 그리고 당신에게 유용할 만한 다른 단서가 많지 않으니까요.\n[24:27] Speaker_E: 응 .\n[24:30] Speaker_D: 내 말은, 그것이 우리가 원래 이야기했던 문제 중 하나였고 그것이 바로\n[03:35] Speaker_E: 응 .\n[03:39] Speaker_D: 그래서 제가 논의하고 싶었던 또 다른 사항은 사용자 인터페이스를 위해 무엇을 해야 하는가입니다.\n[03:44] Speaker_D: 이미 작성된 두 가지 도구가 있습니다.\n[03:49] Speaker_D: 댄은 꽤 좋다고 하더라고요.\n[03:53] Speaker_D: 하지만 웹 서버를 실행해야 한다는 뜻입니다.\n[03:56] Speaker_D: 그래서 그것은 매우 크고 복잡합니다.\n[03:59] Speaker_D: 웹 서버를 Windows로 이식해야 하니까요.\n[04:09] Speaker_E: 응 .\n[04:09] Speaker_D: 데모도 훌륭하고요.\n[04:16] Speaker_D: 그래서 저는 그것이 우리가 가야 할 길이라고 생각합니다.\n[04:18] Speaker_A: 질문 하나 해도 될까요?\n[04:21] Speaker_A: Channeltrans 인터페이스 내에서는 검색과 재생이 가능합니다.\n[24:46] Speaker_A: 글쎄, 내가 언제\n[24:47] Speaker_D: 따라서 회의 시작 시 사용 중인 모든 패드를 동기화해야 합니다.\n[24:53] Speaker_D: 그래서 그것이 그 시간과 동기화되도록 해야 합니다.\n[25:04] Speaker_D: 그래서 많은 인프라가 있습니다\n[25:08] Speaker_A: 대안이 있습니다.\n[25:08] Speaker_A: 즉, 여전히 대안이 있습니다.\n[25:13] Speaker_A: 작은 시계의 타이머와 동기화할 필요는 없습니다.\n[25:21] Speaker_D: 흠 .\n[25:25] Speaker_G: 오른쪽 .\n[25:29] Speaker_D: 그리고 표시를 하세요.\n[25:30] Speaker_D: 그래서 .\n[25:30] Speaker_A: 응 .\n[25:32] Speaker_A: 그건 전사본에 적혀있죠.\n[28:28] Speaker_D: 작업 항목.\n[28:32] Speaker_A: 응.\n[28:34] Speaker_D: 사람들이 그것을 사용하도록 하고, 추가 작업이 많이 필요하지 않은 방식으로 인프라를 구축하는 것이 문제일 뿐입니다.\n[28:43] Speaker_B: 응 .\n[28:45] Speaker_E: 오른쪽 .\n[28:47] Speaker_B: 안에\n[28:56] Speaker_D: 특별히 표준적이지는 않습니다.\n[28:58] Speaker_A: 글을 쓰고 있다면, 메모를 쓰고 있다면, 필기 인식은 할 수 없지 않나요?\n[29:06] Speaker_E: 인포마 위치 정보는 모두 디지털이에요.\n[29:17] Speaker_E: 오른쪽 .\n[29:18] Speaker_G: 전달 함수의 오류는 적습니다.\n[32:13] Speaker_E: 다들 준비되셨나요?\n[32:14] Speaker_A: 응 .\n[32:14] Speaker_E: 하나.\n[32:16] Speaker_D: 글쎄요, 저는 그래야 해요.\n[32:16] Speaker_D: 다른 사람들은 모르겠지만요.\n[32:17] Speaker_H: 그럴 필요는 없습니다.\n[30:19] Speaker_B: 제레미가 될거야\n[30:26] Speaker_E: 응 .\n[30:32] Speaker_E: 글쎄요, 친애하는 분.\n[30:33] Speaker_D: 하나 .\n[30:38] Speaker_D: 그것은 빠져나갔습니다.\n[30:39] Speaker_D: 오, 장비요.\n[30:39] Speaker_B: 날 놀리려는 거야?\n[30:39] Speaker_B: 알았지?\n[30:46] Speaker_D: 무선이니까 언젠가는 나올 겁니다.\n[30:48] Speaker_B: 엄청난 .\n[30:49] Speaker_D: 그리고 동시에 나는 Jane의 제안에 따라 방을 다시 배선할 것입니다.\n[31:11] Speaker_B: 그것은 매우 철학적이에요\n[31:18] Speaker_B: 훌륭해요.\n[31:20] Speaker_D: 숫자로 해야 할까요?\n[31:20] Speaker_D: 다른 게 있나요?\n[25:32] Speaker_B: 큰 문제가 있는 건가요?\n[25:48] Speaker_B: 우리가 실제로 그렇게 할 수 없을 수도 있습니다.\n[25:54] Speaker_E: 우리가 시도해 볼 수 있는 한 가지\n[25:58] Speaker_E: 하나\n[26:05] Speaker_E: 제 말은,\n[26:10] Speaker_B: 오른쪽 .\n[26:34] Speaker_E: 그렇다면, 하나쯤 갖는 게 가치가 있을 겁니다.\n[26:36] Speaker_E: p는 더 확장된 관점의 문제이고, 이 모든 다른 것들은 특정한 것에 대해 논쟁하는 것입니다.\n[26:46] Speaker_E: 하나\n[26:57] Speaker_B: 유용하고 깔끔한\n[26:59] Speaker_B: 우리가 보여줄 수 있는 프로젝트의 일부입니다.\n[27:02] Speaker_B: 시간에 따른 이벤트를 동기화하는 메커니즘\n[12:15] Speaker_C: 응 .\n[12:18] Speaker_G: 정확히 .\n[12:31] Speaker_E: 응 .\n[12:35] Speaker_E: 응 .\n[12:38] Speaker_B: 잠재적으로 그 안에 있을 수도 있습니다.\n[12:41] Speaker_B: 몇 가지를 찾을 수 있었습니다.\n[12:44] Speaker_B: 제 말은, 다르다는 거예요.\n[12:49] Speaker_E: 응 .\n[12:51] Speaker_E: 좋은 .\n[12:53] Speaker_E: 그걸로 끝.\n[12:55] Speaker_E: XML 도구?\n[12:56] Speaker_D: 하나 .\n[12:57] Speaker_D: 그래서 저는 XML로 이동하는 것과 같은 많은 XML 도구를 사용해 왔습니다.\n[13:02] Speaker_D: 모든 것에 대한 일반 형식이며 많은 도구가 있기 때문에 이것이 확실히 올바른 방법이라고 생각합니다.\n[13:07] Speaker_D: XML 도구를 추출하고 재",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bmr025\\05_final_result.json",
+    "utterance_count": 453,
+    "original_transcript_length": 16243,
+    "speakers": [
+      "Speaker_G",
+      "Speaker_B",
+      "Speaker_F",
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D",
+      "Speaker_H"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 4,
+      "original_length": 16243
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 3,
+      "total_chunks": 4,
+      "chunk_length": 5000
+    },
+    "processing_date": "2025-08-13T14:38:24.314707"
+  }
+}

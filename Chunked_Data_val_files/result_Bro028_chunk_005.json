@@ -1,0 +1,29 @@
+{
+  "id": "result_Bro028_chunk_005",
+  "source_dir": "result_Bro028",
+  "chunk_text": "그는 다중 대역 설정에서 이 작업을 수행하고 있습니다.\n[51:47] Speaker_B: 즉, 그는 자신을 제한하고 있다는 뜻입니다.\n[51:49] Speaker_B: 상대적으로 제한된 스펙트럼 범위에서 시간을 들여다보는 거죠.\n[51:49] Speaker_B: 맞죠?\n[52:04] Speaker_B: 연결을 조금 더 잘 볼 수 있습니다.\n[52:05] Speaker_D: 흠 .\n[52:08] Speaker_B: 연결하세요.\n[52:17] Speaker_A: 중간 범주의 몇 가지 패턴.\n[52:30] Speaker_A: 중간 범주를 다루는\n[52:37] Speaker_A: 하지만 그것을 통해,\n[46:04] Speaker_B: 그래서 .\n[46:22] Speaker_A: 그래서, 만약 우리가 가지고 있다면,\n[46:36] Speaker_A: 이것에 대한 확률 사후 공간.\n[47:10] Speaker_B: 오른쪽 ?\n[47:22] Speaker_B: 전혀 다르지 않다는 주장을 할 수 있는 불쾌한 주장입니다.\n[47:35] Speaker_B: 사실 그것은 시간과 빈도에 따라 결합되고 있습니다.\n[47:56] Speaker_B: 컴퓨팅 기능이 유용합니다.\n[48:28] Speaker_B: 제약 조건이 중요하지 않았다면 우리는 오래전에 이 문제를 완전히 해결했을 것입니다.\n[48:28] Speaker_B: 오래전에 우리는 이미 파형을 강력한 통계적 메커니즘에 적용하는 방법을 알고 있었기 때문입니다.\n[48:39] Speaker_A: 오른쪽 .\n[49:04] Speaker_B: 무한하지는 않지만 많은 양이에요.\n[36:16] Speaker_E: 응 .\n[36:17] Speaker_E: 응.\n[36:24] Speaker_E: 응 .\n[36:29] Speaker_B: 응 .\n[36:45] Speaker_B: 다른 지역.\n[37:00] Speaker_B: 그러면 배리가 우리가 무슨 말을 하는지에 대해 뭔가 말할 수 있을 겁니다.\n[37:04] Speaker_D: 그래서 독일의 박사과정 학생인 Michael Kleinschmidt는\n[37:07] Speaker_D: 그는 약 6개월 동안 여기 있을 거예요.\n[37:07] Speaker_D: 그리고 그는\n[37:14] Speaker_D: 의, 하나,\n[37:23] Speaker_D: 그리고 그는 독일에서 다시 일했습니다.\n[37:33] Speaker_D: 숫자 인식을 과제로 삼았습니다.\n[37:33] Speaker_D: 실제로는 단일 계층 신경망이었습니다.\n[37:42] Speaker_D: 사실은 .\n[37:43] Speaker_D: 그리고\n[12:20] Speaker_E: 응.\n[12:21] Speaker_B: 그러면 비율은 얼마일까요?\n[12:30] Speaker_E: 응.\n[12:32] Speaker_B: 피치를 갖는 것은 정말 정말 중요합니다.\n[12:37] Speaker_B: 반면에 내가 만약 그것이 5%에 가깝게 유지된다면,\n[12:44] Speaker_E: 응.\n[12:50] Speaker_E: 예 -\n[12:52] Speaker_B: 인간의 성과.\n[12:56] Speaker_E: 내가 LP-LPC-12 스펙트럼을 재합성했을 때 내가 들었던 것\n[13:11] Speaker_E: 글쎄, 그 흥분은\n[13:15] Speaker_E: 그것이 바로 우리 시스템에서 하는 일이에요.",
+  "metadata": {
+    "source_file": "../Raw_Data_val\\result_Bro028\\05_final_result.json",
+    "utterance_count": 575,
+    "original_transcript_length": 19606,
+    "speakers": [
+      "Speaker_B",
+      "Speaker_C",
+      "Speaker_E",
+      "Speaker_A",
+      "Speaker_D"
+    ],
+    "chunking_info": {
+      "is_chunked": true,
+      "total_chunks": 5,
+      "original_length": 19606
+    },
+    "is_chunk": true,
+    "chunk_info": {
+      "chunk_index": 5,
+      "total_chunks": 5,
+      "chunk_length": 1660
+    },
+    "processing_date": "2025-08-13T14:38:24.335832"
+  }
+}
