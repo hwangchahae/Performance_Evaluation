@@ -40,3 +40,4 @@ api_key.txt
 !config.json
 !config.example.json
 *.bak
+NUL
