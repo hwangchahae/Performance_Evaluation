@@ -2,6 +2,7 @@
 # *.csv
 # *.json
 # *.txt
+*.mp4
 
 # config.json은 포함하되, 개인 설정은 별도로
 config.local.json
@@ -41,3 +42,4 @@ api_key.txt
 !config.example.json
 *.bak
 NUL
+/web-dashboard/public/*.mp4
