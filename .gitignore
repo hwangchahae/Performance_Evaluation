@@ -43,3 +43,4 @@ api_key.txt
 *.bak
 NUL
 /web-dashboard/public/*.mp4
+*.mp4
