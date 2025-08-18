@@ -34,8 +34,6 @@ class ModelConfig:
     TEMPERATURE: float = 0.3
     TOP_P: float = 0.9
     REPETITION_PENALTY: float = 1.1
-    CHUNK_SIZE: int = 5000
-    CHUNK_OVERLAP: int = 512
     TEST_FILE_LIMIT: int = 0  # 0이면 전체 파일 처리, 양수면 해당 개수만 처리
     
     # vLLM 전용 설정
@@ -50,12 +48,7 @@ class ModelConfig:
 class MeetingData:
     """회의 데이터 구조체"""
     transcript: Optional[str] = None
-    chunks: Optional[List[str]] = None
     metadata: Dict[str, Any] = field(default_factory=dict)
-    
-    @property
-    def is_chunked(self) -> bool:
-        return self.chunks is not None
 
 
 @dataclass
@@ -251,7 +244,7 @@ class QwenVLLMMeetingGenerator:
     
     def find_meeting_files(self, base_dir: str) -> List[Path]:
         """
-        회의 파일 검색
+        청킹된 JSON 파일 검색
         
         Args:
             base_dir: 검색할 기본 디렉토리
@@ -264,47 +257,13 @@ class QwenVLLMMeetingGenerator:
             logger.warning(f"디렉토리가 존재하지 않음: {base_dir}")
             return []
         
-        target_files = list(base_path.rglob("05_final_result.json"))
-        logger.info(f"{len(target_files)}개의 회의 파일 발견")
+        # 모든 JSON 파일 찾기
+        target_files = list(base_path.glob("*.json"))
+        logger.info(f"{len(target_files)}개의 청킹된 파일 발견")
         return target_files
-    
-    def chunk_text(self, text: str, chunk_size: int = 5000, overlap: int = 512) -> List[str]:
-        """텍스트를 청킹하여 나누기"""
-        if len(text) <= chunk_size:
-            return [text]
-        
-        chunks = []
-        start = 0
-        
-        while start < len(text):
-            end = start + chunk_size
-            
-            if end >= len(text):
-                chunk = text[start:]
-            else:
-                chunk = text[start:end]
-                
-                # 마지막 완전한 문장에서 끊기 시도
-                last_period = chunk.rfind('.')
-                last_newline = chunk.rfind('\n')
-                break_point = max(last_period, last_newline)
-                
-                if break_point > start + chunk_size // 2:
-                    chunk = text[start:break_point + 1]
-                    end = break_point + 1
-            
-            chunks.append(chunk.strip())
-            
-            if end >= len(text):
-                break
-                
-            start = end - overlap
-        
-        return chunks
-    
     def load_meeting_data(self, file_path: Path) -> Optional[MeetingData]:
         """
-        회의 데이터 로드
+        회의 데이터 로드 (이미 청킹된 데이터)
         
         Args:
             file_path: 파일 경로
@@ -316,42 +275,14 @@ class QwenVLLMMeetingGenerator:
             with open(file_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             
-            # 텍스트 변환
-            meeting_lines = []
-            speakers = set()
+            # 이미 청킹된 데이터에서 텍스트 추출
+            chunk_text = data.get('chunk_text', '')
             
-            for item in data:
-                timestamp = item.get('timestamp', 'Unknown')
-                speaker = item.get('speaker', 'Unknown')
-                text = item.get('text', '')
-                speakers.add(speaker)
-                meeting_lines.append(f"[{timestamp}] {speaker}: {text}")
+            # 메타데이터 추출
+            metadata = data.get('metadata', {})
             
-            full_text = '\n'.join(meeting_lines)
-            
-            # 메타데이터 생성
-            metadata = {
-                "source_file": str(file_path),
-                "utterance_count": len(data),
-                "speakers": list(speakers),
-                "original_length": len(full_text)
-            }
-            
-            # 청킹 여부 결정
-            if len(full_text) > self.config.CHUNK_SIZE:
-                logger.info(f"긴 텍스트 감지 ({len(full_text)}자) - 청킹 처리")
-                chunks = self.chunk_text(full_text, self.config.CHUNK_SIZE, self.config.CHUNK_OVERLAP)
-                metadata["chunking_info"] = {
-                    "is_chunked": True,
-                    "total_chunks": len(chunks)
-                }
-                return MeetingData(chunks=chunks, metadata=metadata)
-            else:
-                metadata["chunking_info"] = {
-                    "is_chunked": False,
-                    "total_chunks": 1
-                }
-                return MeetingData(transcript=full_text, metadata=metadata)
+            # MeetingData 객체 생성
+            return MeetingData(transcript=chunk_text, metadata=metadata)
                 
         except Exception as e:
             logger.error(f"파일 로드 오류 ({file_path}): {e}")
@@ -548,15 +479,15 @@ class QwenVLLMMeetingGenerator:
                        meeting_data: MeetingData,
                        output_dir: Path,
                        file_index: int,
-                       parent_folder: str) -> Tuple[int, int]:
+                       file_name: str) -> Tuple[int, int]:
         """
-        회의 데이터 처리 (meeting_analysis_prompts 사용)
+        회의 데이터 처리 (이미 청킹된 단일 파일)
         
         Args:
             meeting_data: 회의 데이터
             output_dir: 출력 디렉토리
             file_index: 파일 인덱스
-            parent_folder: 부모 폴더명
+            file_name: 파일명
             
         Returns:
             (성공 수, 실패 수) 튜플
@@ -564,105 +495,34 @@ class QwenVLLMMeetingGenerator:
         success_count = 0
         fail_count = 0
         
-        if meeting_data.is_chunked:
-            # 청킹된 데이터 배치 처리 준비
-            batch_prompts = []
-            summary_accum = ""
+        # 단일 텍스트 처리 (이미 청킹된 파일)
+        logger.info(f"처리 중: {file_name}")
+        result = self.generate_meeting_analysis(meeting_data.transcript)
+        
+        if result["success"]:
+            # 파일명에서 확장자 제거
+            output_name = file_name.replace('.json', '')
+            single_dir = output_dir / output_name
+            single_dir.mkdir(exist_ok=True)
             
-            system_prompt = """당신은 회의록을 분석하여 체계적인 프로젝트 기획안을 작성하는 전문가입니다.
-회의에서 논의된 내용을 바탕으로 명확하고 실행 가능한 기획안을 작성해주세요.
-응답은 반드시 요청된 JSON 형식으로만 제공하세요."""
-            
-            # 배치 프롬프트 준비 (new_meeting_processor_vllm_improved.py 방식)
-            for chunk_idx, chunk_text in enumerate(meeting_data.chunks):
-                # 첫 청크와 나머지 청크 구분
-                if chunk_idx == 0:
-                    user_prompt = generate_meeting_analysis_user_prompt(chunk_text)
-                else:
-                    additional_context = f"이전 분석 결과:\n{summary_accum}"
-                    user_prompt = generate_meeting_analysis_user_prompt(chunk_text, additional_context)
-                
-                batch_prompts.append((system_prompt, user_prompt))
-                summary_accum += f"청크 {chunk_idx+1} 처리 예정\n"
-            
-            logger.info(f"{len(batch_prompts)}개 청크 배치 처리 시작")
-            
-            # 배치 생성
-            responses = self.generate_batch_responses(batch_prompts)
-            
-            # 결과 처리
-            total_chunks = len(meeting_data.chunks)
-            for chunk_idx, (chunk_text, response) in enumerate(zip(meeting_data.chunks, responses)):
-                # 청크가 1개면 _chunk_X 붙이지 않음
-                if total_chunks == 1:
-                    chunk_dir = output_dir / parent_folder
-                    chunk_id = parent_folder
-                else:
-                    chunk_dir = output_dir / f"{parent_folder}_chunk_{chunk_idx+1}"
-                    chunk_id = f"{parent_folder}_chunk_{chunk_idx+1}"
-                
-                chunk_dir.mkdir(exist_ok=True)
-                
-                if response:
-                    result_data = self.parse_json_response(response)
-                    
-                    chunk_result = {
-                        "id": chunk_id,
-                        "source_dir": parent_folder,
-                        "notion_output": result_data,
-                        "metadata": {
-                            **meeting_data.metadata,
-                            "is_chunk": total_chunks > 1,
-                            "chunk_index": chunk_idx + 1 if total_chunks > 1 else None,
-                                "processing_date": datetime.now().isoformat()
-                        }
-                    }
-                    
-                    with open(chunk_dir / "result.json", 'w', encoding='utf-8') as f:
-                        json.dump(chunk_result, f, ensure_ascii=False, indent=2)
-                    
-                    success_count += 1
-                    if total_chunks > 1:
-                        logger.info(f"청크 {chunk_idx+1}/{total_chunks} 저장 완료")
-                    else:
-                        logger.info(f"저장 완료")
-                else:
-                    fail_count += 1
-                    if total_chunks > 1:
-                        logger.error(f"청크 {chunk_idx+1}/{total_chunks} 생성 실패")
-                    else:
-                        logger.error(f"생성 실패")
-                    
-        else:
-            # 단일 텍스트 처리 (청크되지 않은 파일도 저장)
-            logger.info("전체 회의록 처리 중")
-            result = self.generate_meeting_analysis(meeting_data.transcript)
-            
-            if result["success"]:
-                # 단일 파일도 저장
-                single_dir = output_dir / parent_folder
-                single_dir.mkdir(exist_ok=True)
-                
-                single_result = {
-                    "id": parent_folder,
-                    "source_dir": parent_folder,
-                    "notion_output": result["result"],
-                    "metadata": {
-                        **meeting_data.metadata,
-                        "is_chunk": False,
-                        "chunk_index": None,
-                        "processing_date": datetime.now().isoformat()
-                    }
+            single_result = {
+                "id": output_name,
+                "source_file": file_name,
+                "notion_output": result["result"],
+                "metadata": {
+                    **meeting_data.metadata,
+                    "processing_date": datetime.now().isoformat()
                 }
-                
-                with open(single_dir / "result.json", 'w', encoding='utf-8') as f:
-                    json.dump(single_result, f, ensure_ascii=False, indent=2)
-                
-                success_count += 1
-                logger.info("저장 완료")
-            else:
-                fail_count += 1
-                logger.error(f"생성 실패: {result.get('error')}")
+            }
+            
+            with open(single_dir / "result.json", 'w', encoding='utf-8') as f:
+                json.dump(single_result, f, ensure_ascii=False, indent=2)
+            
+            success_count += 1
+            logger.info("저장 완료")
+        else:
+            fail_count += 1
+            logger.error(f"생성 실패: {result.get('error')}")
         
         return success_count, fail_count
 
@@ -719,7 +579,7 @@ def main():
         return
     
     # 회의 파일 검색
-    input_dir = "../Raw_Data_val"  # 런팟에서는 현재 디렉토리 기준
+    input_dir = "../Chunked_Data_val_files"  # 청킹된 파일들이 있는 디렉토리
     meeting_files = generator.find_meeting_files(input_dir)
     
     if not meeting_files:
@@ -739,8 +599,8 @@ def main():
     
     # 각 파일 처리
     for i, file_path in enumerate(meeting_files, 1):
-        parent_folder = file_path.parent.name
-        logger.info(f"\n[{i}/{len(meeting_files)}] {parent_folder}/{file_path.name} 처리 중...")
+        file_name = file_path.name
+        logger.info(f"\n[{i}/{len(meeting_files)}] {file_name} 처리 중...")
         
         try:
             # 데이터 로드
@@ -750,15 +610,12 @@ def main():
                 stats.processed += 1
                 continue
             
-            if meeting_data.is_chunked:
-                stats.chunked += 1
-            
             # 처리
             success, fail = generator.process_meeting(
                 meeting_data, 
                 output_dir, 
                 i, 
-                parent_folder
+                file_name
             )
             
             stats.success += success
@@ -777,7 +634,7 @@ def main():
     logger.info(f"처리된 파일: {stats.processed}")
     logger.info(f"성공: {stats.success}")
     logger.info(f"실패: {stats.failed}")
-    logger.info(f"청킹된 파일: {stats.chunked}")
+    logger.info(f"처리된 청킹 파일: {stats.processed}")
     logger.info(f"성공률: {stats.success_rate:.1f}%")
     logger.info("=" * 60)
 
