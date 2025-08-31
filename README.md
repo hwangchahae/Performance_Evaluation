@@ -148,5 +148,67 @@ export OPENAI_API_KEY=your-api-key
 ### 메모리 부족
 - `config.json`에서 `sample_size`를 줄여보세요
 
-## 지원
-문제가 있으면 팀 슬랙 채널에 문의하세요.
+<table>
+  <tr>
+    <th align="left">AI / ML</th>
+    <td>
+      <a href="https://platform.openai.com/">
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+      </a>
+      <a href="https://langchain.com/">
+        <img src="https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
+      </a>
+      <a href="https://www.trychroma.com/">
+        <img src="https://img.shields.io/badge/ChromaDB-384152?style=for-the-badge" alt="ChromaDB"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <th align="left">Business Logic</th>
+    <td>
+      <a href="https://flask.palletsprojects.com/">
+        <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
+      </a>
+      <a href="https://docs.python.org/3/library/asyncio.html">
+        <img src="https://img.shields.io/badge/asyncio-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python asyncio"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <th align="left">Data Layer</th>
+    <td>
+      <a href="https://www.mysql.com/">
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+      </a>
+      <a href="https://www.trychroma.com/">
+        <img src="https://img.shields.io/badge/ChromaDB-384152?style=for-the-badge" alt="ChromaDB"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <th align="left">External Integration</th>
+    <td>
+      <a href="https://docs.github.com/en/rest">
+        <img src="https://img.shields.io/badge/GitHub%20API-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub API"/>
+      </a>
+      <a href="https://oauth.net/2/">
+        <img src="https://img.shields.io/badge/OAuth%202.0-EB5424?style=for-the-badge" alt="OAuth 2.0"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <th align="left">Security</th>
+    <td>
+      <a href="https://cryptography.io/en/latest/">
+        <img src="https://img.shields.io/badge/Cryptography-2F855A?style=for-the-badge" alt="Cryptography"/>
+      </a>
+      <a href="https://pypi.org/project/bcrypt/">
+        <img src="https://img.shields.io/badge/BCrypt-0B7285?style=for-the-badge" alt="BCrypt"/>
+      </a>
+    </td>
+  </tr>
+</table>
